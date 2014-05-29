@@ -1,4 +1,28 @@
-<html>
-<body>
-Put stuff here!
-</body>
+---
+layout: default
+---
+<div class="col-sm-12">
+  <div class="col-sm-12 panel panel-default" id="featured">
+    <div class="panel-heading">
+      <h4>News from developers</h4>
+    </div>
+    <div class="panel-body">
+      {% for post in site.posts %}
+        <div class="row news">
+          <div class="col-sm-10">
+            <h5>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h5>
+
+            <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
+          </div>
+          <div class="col-sm-2">
+            <a href="#" class="pull-right">
+              <img src="http://placehold.it/50" class="img-circle">
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
