@@ -1,10 +1,7 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+title: TimVideos Planet - Developers news
+description: "News from our best developers, all news aggregated by planet."
+url: "http://planet.timvideos.us"
+exclude: [Gemfile, Gemfile.lock, planet.yml, README.md]
 
-# Build settings
 markdown: kramdown
 permalink: pretty
