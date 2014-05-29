@@ -9,5 +9,20 @@ blogs:
   # Bare minimum to get it working
   - author:   "Maciej (Developer Website)"
     feed:     "http://pinoit.blogspot.in/feeds/posts/default"
-    categories: "gsoc"
-    tags: "design page programming"
+    categories: "GSoC-2014"
+    tags:     "developers-page ruby jekyll"
+
+  - author:   "Amanpreet (Porting Flumotion)"
+    feed:     "http://aps-sids.github.io/porting-flumotion/atom.xml"
+    categories: "GSoC-2014"
+    tags: "flumotion"
+
+  - author:   "Max (Dockerization)"
+    feed:     "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
+    categories: "GSoC-2014"
+    tags: "dockerization"
+
+  - author:   "Niharika (Bug reporting system)"
+    feed:     "http://niharika.svbtle.com/feed"
+    categories: "GSoC-2014"
+    tags: "bug-reporting-system python django"
