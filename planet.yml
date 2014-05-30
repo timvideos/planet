@@ -30,3 +30,29 @@ blogs:
     categories: "GSoC-2014"
     tags: "bug-reporting-system python django"
     gravatar: "dc11dcf0963cedf987cd6e90200414db"
+
+
+
+  - author:   "Rohit (VGA Extension)"
+    feed:     "http://dreamsxtrinsic.blogspot.com/feeds/posts/default"
+    categories: "GSoC-2014-HDMI2USB"
+    tags:     "hdmi2usb vga"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+
+  - author:   "Tariq (Ethernet Supoort)"
+    feed:     "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
+    categories: "GSoC-2014-HDMI2USB"
+    tags: "hdmi2usb ethernet"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+
+  - author:   "Ajit (MJPEG Optimisation)"
+    feed:     "http://ajitmathewgsoc.blogspot.com/feeds/posts/default"
+    categories: "GSoC-2014-HDMI2USB"
+    tags: "hdmi2usb mjpeg"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+
+  - author:   "Ayush (PTZ/Serial Extension)"
+    feed:     "http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"
+    categories: "GSoC-2014-HDMI2USB"
+    tags: "hdmi2usb ptz serial-extension"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
