@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="News from our best developers, all news aggregated by planet.">
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/">
+
+  <!-- Custom CSS -->
+  <link xx="" href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/font-awesome.min.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet">
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span id="logo-name">TIM VIDEOS</span>
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="col-sm-12 panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>TimVideo GSoC 2014: MJPEG Optimisation</h1>
+      <div class="article">
+        <p class="meta description">
+          May 29, 2014
+           • Ajit (MJPEG Optimisation)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                hdmi2usb
+              </span>
+            
+              <span class="label label-tag">
+                mjpeg
+              </span>
+            
+          </p>
+        
+        <p class="article">
+          <div dir="ltr" style="text-align: left;" trbidi="on">Yesterday probably I worked the longest (10 hrs maybe). I was trying to check whether the reason for slow fps is blocks after jpeg core. To check this I removed the the signals which the usb controller gave to the jpeg core. Also I wrote a code which counts the done signal of the jpeg core and I output the range of the count using LEDs(like for count less than 10 LED0 would light up). And it turns out that count of the done signal was in same range as the output fps. I tried different combinations like different encoding quality, allowing some signals of usb controller to control the jpeg core while ignoring other and the result was more or less the same. Meanwhile the code threw a timing error which took me 2 hrs to debug.&nbsp; <br /><br />&nbsp;Also I did some reading on quantisation tables for JPEG. Turns out that quantisation should be low for luminance table (quality-85%) and high for chrominance of around 50%. But this is a general rule and cannot be used for all applications. <br /><br />Today I plan to change the jpeg top module and see whether it improves fps. I have few ideas. </div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
