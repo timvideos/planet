@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TimVideos Planet - Developers news</title>
+    <description>News from our best developers, all news aggregated by planet.</description>
+    <link>http://planet.timvideos.us/</link>
+    <atom:link href="http://planet.timvideos.us/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>pygobject.py and feeder.py ported</title>
+        <description>&lt;p&gt;Ported flumotion/common/pygobject.py
+Tests pass:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;flumotion.test.test_common_pygobject
+  SetProperty
+    testButton ...                                                         &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  TestPyGObject
+    testPyGObject ...                                                      &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+-------------------------------------------------------------------------------
+Ran 2 tests in 0.040s
+
+PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;successes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ported flumotion/component/feeder.py
+Tests pass:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;flumotion.test.test_component_feeder
+  TestFeeder
+    testReconnect ...                                                      &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    test_clientConnected ...                                               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+-------------------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;successes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Tomorrow, I plan to port padmonitor, feedcomponent and other remaining base modules.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC &amp;#39;14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/29/pygobject-py-and-feeder-py-ported/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/29/pygobject-py-and-feeder-py-ported/</guid>
+      </item>
+    
+      <item>
+        <title>29 May &amp;#39;14</title>
+        <description>&lt;p&gt;Spent the day studying for my Computer Networks exam. Protocols, DNS, logical &amp;amp; physical addressing, error correction &amp;amp; detection, multiplexing and stuff. Makes me appreciate the hardware projects being done by my fellow GSoC interns more. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/29/29-may-14/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/29/29-may-14/</guid>
+      </item>
+    
+      <item>
+        <title>[GSoC Snippet] 28/05/2014</title>
+        <description>&lt;b&gt;[code] &lt;/b&gt;extracted page_url tag plugin as standalone plugin&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; wrote plugin for generation json with page and posts information&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; rewrite wikilinks to use information from page.json plugin to generate url from wiki&lt;br /&gt;&lt;b&gt;[configuration]&lt;/b&gt; added prose configuration, but it seems that it does not work properly (doesn&#39;t work at all), I don&#39;t know why, I will test it and check&lt;br /&gt;&lt;b&gt;[design]&lt;/b&gt; improvements of mockup, adjustments for jekyll&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[design]&lt;/b&gt; work on mockups&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; prepare planet.timvideos.us basic page (with only one main functionality: aggregation for timvideos developers news)&lt;br /&gt;&lt;br /&gt;I am thinking about using some application to maintain tasks and organize my work like Producteev or Trello, at the beginning of the week I would like to talk with Tim and Leon and plan tasks to do during the work week. Leon and Tim will know status and see progress of tasks and I will know which tasks are prioritized and which are not. :) I will do some research tomorrow.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com/&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 28 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/28/gsoc-snippet-28-05-2014/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/28/gsoc-snippet-28-05-2014/</guid>
+      </item>
+    
+      <item>
+        <title>boot.py ported</title>
+        <description>&lt;p&gt;I figured out that I need to port flumotion/common/boot.py first to get the tests working again and porting other modules without tests would be a really bad idea. Also, I needed to port PyGTK to PyGI + Gtk3 at the same time. We cannot use PyGI and any of the static python-gobject based bindings together in the same process. As a result, boot.py is ported and gstreamer.py (already ported) tests pass again!&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;flumotion.test.test_common_gstreamer
+  Caps
+    testCaps ...                                                           &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    testCapsStreamheader ...                                               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  DeepNotify
+    testDeepNotify ...                                                     &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  Factory
+    testFakeSrc ...                                                        &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  TestProperty
+    testHasProperty ...                                                    &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    testHasPropertyValue ...                                               &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+-------------------------------------------------------------------------------
+Ran 6 tests in 0.094s
+
+PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;successes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;6&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC &amp;#39;14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 28 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/28/boot-py-ported/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/28/boot-py-ported/</guid>
+      </item>
+    
+      <item>
+        <title>[GSoC Snippet] 27/05/2014</title>
+        <description>&lt;b&gt;[code]&lt;/b&gt; rebase getting-started repository, remove prose history, bug (could not detach HEAD) - resolved with cherry-pick&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; rebase getting-started, merge 2 commits related to prose into one commit&lt;br /&gt;&lt;b&gt;[info] &lt;/b&gt;check Google metrics for website (PageSpeed Insights), current version is not bad, with new design I will fight to have maximum, available value&lt;br /&gt;&lt;b&gt;[text]&lt;/b&gt; answered Tim on Google Groups&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;find help for writing plugins for wikilinks, best found solution: Generator creates special file with list of all pages and Converter convert wikilinks to correct links&lt;br /&gt;&lt;br /&gt;&lt;i&gt;What should be done by the end of the week:&lt;/i&gt;&lt;br /&gt;- new design mockup (so at the beginning of the next week I will change current theme to new one and use current content but with new design)&lt;br /&gt;- wikilinks and permalink plugins,&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Comments&lt;/i&gt;&lt;br /&gt;- after redesign I would like to stick to my plan from proposal, to make things more incremental&lt;br /&gt;- at the beginning of the next week I would like to have a script for automatic deploying blog&lt;br /&gt;- if we need a specific page only for planet I will plan that and add update my timeline&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com/&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 27 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/27/gsoc-snippet-27-05-2014/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/27/gsoc-snippet-27-05-2014/</guid>
+      </item>
+    
+      <item>
+        <title>Week 1 Progress</title>
+        <description>&lt;p&gt;This was a quick week. I did a couple of initial changes required for porting. A good thing done was that I was able to fix some errors and pass the test cases that failed last year. I successfully ported gstreamer.py base dependency module and changed the Gtk2Reactor (incompatible with gi) to Gtk3Reactor.&lt;/p&gt;
+
+&lt;p&gt;Tests still fail as “ImportError: Introspected and static glib/gtk bindings must not be mixed; can’t import gireactor since pygtk2 module is already imported.” So, I figured out we need to port PyGTK to PyGObject (aka PyGI) as well. As an initial quick approach, I tried using PyGTK compatibility layer (&lt;a href=&quot;https://wiki.gnome.org/Projects/PyGObject/PyGTKCompat&quot;&gt;PyGTKCompat&lt;/a&gt;). This didn’t turn out to very successful and tests gave segmentation fault.&lt;/p&gt;
+
+&lt;p&gt;I think converting the code manually would be a better idea since we can avoid using any layers and use the supported API directly. Still, I want to port other modules using 0.10 API first and try PyGTKCompat before going ahead and porting PyGTK to PyGI manually.&lt;/p&gt;
+
+&lt;p&gt;In Week 2, I will be completing the porting of other base and dependency modules.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC &amp;#39;14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/week-1-progress/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/26/week-1-progress/</guid>
+      </item>
+    
+      <item>
+        <title>GSoC Update</title>
+        <description>Update #1&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://mstritzi.nfshost.com&quot;&gt;Max Stritzinger&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-update/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-update/</guid>
+      </item>
+    
+      <item>
+        <title>[GSoC Snippet] 26/05/2014</title>
+        <description>&lt;b&gt;[text] &lt;/b&gt;anwered Tim comments on my github&lt;br /&gt;&lt;b&gt;[text] &lt;/b&gt;answered Tim post on Google Groups&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; fixed repositories regarding to Tim posts&lt;br /&gt;&lt;b&gt;[bug]&lt;/b&gt; on gatekeper (cannot get ?id=0123) - resolved, OAuth needs an callback url. I&#39;ve had to update configuration on GitHub&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; moved prose to submodule&lt;br /&gt;&lt;b&gt;[bug] &lt;/b&gt;prose redirects to prose.io instead of origin website - resolved, I&#39;ve had to update oauth.json and rebuild the prose application&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; started writing new wikilinks.rb&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; started writing automatic permalink creator.rb&lt;br /&gt;&lt;br /&gt;Plans for next days (what should be done):&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; write new plugins permalinks.rb and wikilinks.rb&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;prepare all mockups&lt;br /&gt;&lt;b&gt;[configuration]&lt;/b&gt; configurate prose.io in pinoss.github.io&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; write script for automatic deploy (jekyll-hook?, crontab?)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com/&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-snippet-26-05-2014/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-snippet-26-05-2014/</guid>
+      </item>
+    
+      <item>
+        <title>26 May &amp;#39;14</title>
+        <description>&lt;p&gt;This week my final exams at university begin. They&amp;rsquo;ll last till 10th, but I hope to find some time in-between the exam days to work on my project. Over the past week I have gathered better command over Django and, in turn, the streaming system. I&amp;rsquo;ll be able to focus more after the exams, but will keep getting used to it whenever time permits. &lt;/p&gt;
+
+&lt;p&gt;As of now, I am focusing on how I can fetch the system information using JavaScript and how I can create the form using Django. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 26 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/26-may-14/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/26/26-may-14/</guid>
+      </item>
+    
+      <item>
+        <title>[GSoC] Jekyll update, first deploy on pinoss.github.io</title>
+        <description>Hello everyone,&lt;br /&gt;&lt;br /&gt;In Poland there is currently end of semester so I need to create many projects at my university at once (Computer Graphics, Artificial Intelligence, Project Oriented Architecture). In current week I did not have as many time as I wanted to spend on Tim Videos project. But I&#39;ve successfully deployed Tim Videos website with first changes (planet aggregator and feed.xml) on my Github Pages: &lt;a href=&quot;http://pinoss.github.io/&quot;&gt;http://pinoss.github.io&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;I&#39;ve also updated Jekyll to the newest possible version (2.0.3), so now working with Jekyll is easier (because of new features like serving pages locally). I&#39;ve also updated our plugins, but unfortunately porting our custom plugin Wikilinks was not possible, because now Converter class in Jekyll has no information about all pages and cannot search for website with selected title and add an url. I&#39;ve partially resolved it by creating new Liquid tag - page_url, but still it won&#39;t be compatible with Github Wiki. Because of that I&#39;ve decided to speed up my work on edit interface (prose.io) and remove need of using Github Wiki to update content.&lt;br /&gt;&lt;br /&gt;Currently I am cleaning up the website, adding pretty urls and resolving backwards compatibility.&lt;br /&gt;Meanwhile I will work also on mockups, I didn&#39;t receive your feedback about my last mockup, I will create more mockups soon and wait for your response. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com/&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 25 May 2014 00:00:00 +0200</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/25/gsoc-jekyll-update-first-deploy-on-pinoss-github-/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/25/gsoc-jekyll-update-first-deploy-on-pinoss-github-/</guid>
+      </item>
+    
+  </channel>
+</rss>
