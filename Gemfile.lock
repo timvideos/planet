@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pinoss/planet.rb.git
-  revision: 6fae60e5160e9ac0f837d38837f88c9ae84cd751
+  revision: 89b1bacb88f646c18ad100dd940776ed08a54f48
   specs:
     planet (0.6.0)
       box

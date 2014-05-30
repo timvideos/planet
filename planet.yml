@@ -11,25 +11,25 @@ blogs:
     feed:       "http://pinoit.blogspot.in/feeds/posts/default"
     categories: "GSoC-2014"
     tags:       "news developers-page ruby jekyll"
-    gravatar:   "dc11dcf0963cedf987cd6e90200414db"
+    image:      "http://identicons.github.com/pinoss.png"
 
   - author:     "Amanpreet (Porting Flumotion)"
     feed:       "http://aps-sids.github.io/porting-flumotion/atom.xml"
     categories: "GSoC-2014"
     tags:       "news flumotion"
-    gravatar:   "2b34eb31f624f0c16798a3bef443b19d"
+    image:      "http://identicons.github.com/aps-sids.png"
 
   - author:     "Max (Dockerization)"
     feed:       "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
     categories: "GSoC-2014"
     tags:       "news dockerization"
-    gravatar:   "30f9b2e0ac8cc17d1014f5bec0901349"
+    image:      "http://identicons.github.com/maxstr.png"
 
   - author:     "Niharika (Bug reporting system)"
     feed:       "http://niharika.svbtle.com/feed"
     categories: "GSoC-2014"
     tags:       "news bug-reporting-system python django"
-    gravatar:   "67f942a3b959155215ea136936d41f3c"
+    image:      "http://identicons.github.com/Niharika29.png"
 
 
 
@@ -37,22 +37,22 @@ blogs:
     feed:       "http://dreamsxtrinsic.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb vga"
-    gravatar:   "79ee040d4ed9bc1f2446646977810185"
+    image:      "http://identicons.github.com/rohit91.png"
 
   - author:     "Tariq (Ethernet Support)"
     feed:       "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ethernet"
-    gravatar:   "4a947cb266aec02d3dff5d6e2725710e"
+    image:      "http://identicons.github.com/tariq786.png"
 
   - author:     "Ajit (MJPEG Optimisation)"
     feed:       "http://ajitmathewgsoc.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb mjpeg"
-    gravatar:   "bd3c3e176cfcda984f742e92e1008358"
+    image:      "http://identicons.github.com/ajitmathew.png"
 
   - author:     "Ayush (PTZ/Serial Extension)"
     feed:       "http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ptz serial-extension"
-    gravatar:   "b66bbdfd6787920a9637e29a450ce592"
+    image:      "http://identicons.github.com/ayushsagar.png"
