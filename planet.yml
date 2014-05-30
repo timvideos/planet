@@ -39,7 +39,7 @@ blogs:
     tags:     "hdmi2usb vga"
     gravatar: "79ee040d4ed9bc1f2446646977810185"
 
-  - author:   "Tariq (Ethernet Supoort)"
+  - author:   "Tariq (Ethernet Support)"
     feed:     "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags: "hdmi2usb ethernet"
