@@ -17,19 +17,19 @@ blogs:
     feed:     "http://aps-sids.github.io/porting-flumotion/atom.xml"
     categories: "GSoC-2014"
     tags: "flumotion"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "2b34eb31f624f0c16798a3bef443b19d"
 
   - author:   "Max (Dockerization)"
     feed:     "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
     categories: "GSoC-2014"
     tags: "dockerization"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "30f9b2e0ac8cc17d1014f5bec0901349"
 
   - author:   "Niharika (Bug reporting system)"
     feed:     "http://niharika.svbtle.com/feed"
     categories: "GSoC-2014"
     tags: "bug-reporting-system python django"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "67f942a3b959155215ea136936d41f3c"
 
 
 
@@ -37,22 +37,22 @@ blogs:
     feed:     "http://dreamsxtrinsic.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:     "hdmi2usb vga"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "79ee040d4ed9bc1f2446646977810185"
 
   - author:   "Tariq (Ethernet Supoort)"
     feed:     "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags: "hdmi2usb ethernet"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "4a947cb266aec02d3dff5d6e2725710e"
 
   - author:   "Ajit (MJPEG Optimisation)"
     feed:     "http://ajitmathewgsoc.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags: "hdmi2usb mjpeg"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "bd3c3e176cfcda984f742e92e1008358"
 
   - author:   "Ayush (PTZ/Serial Extension)"
     feed:     "http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags: "hdmi2usb ptz serial-extension"
-    gravatar: "dc11dcf0963cedf987cd6e90200414db"
+    gravatar: "b66bbdfd6787920a9637e29a450ce592"

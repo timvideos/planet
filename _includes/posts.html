@@ -17,8 +17,8 @@
                 <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
               </div>
               <div class="col-sm-2">
-                <a href="#" class="pull-right">
-                  <img src="http://www.gravatar.com/avatar/{{ gravatar }}?d=retro&s=50" class="img-circle">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">
+                  <img src="http://www.gravatar.com/avatar/{{ post.gravatar }}?d=retro&s=50" class="img-circle">
                 </a>
               </div>
             </div>
