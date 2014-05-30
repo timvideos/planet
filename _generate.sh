@@ -16,7 +16,7 @@ EOF
 chmod a+x /tmp/planet-website/ssh
 export GIT_SSH=/tmp/planet-website/ssh
 
-if [ ! -d source ]; then
+if [ ! -d website-source ]; then
   git clone git@github.com:timvideos/planet.git website-source
   cd website-source
 else
