@@ -11,18 +11,22 @@ blogs:
     feed:     "http://pinoit.blogspot.in/feeds/posts/default"
     categories: "GSoC-2014"
     tags:     "developers-page ruby jekyll"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
 
   - author:   "Amanpreet (Porting Flumotion)"
     feed:     "http://aps-sids.github.io/porting-flumotion/atom.xml"
     categories: "GSoC-2014"
     tags: "flumotion"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
 
   - author:   "Max (Dockerization)"
     feed:     "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
     categories: "GSoC-2014"
     tags: "dockerization"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
 
   - author:   "Niharika (Bug reporting system)"
     feed:     "http://niharika.svbtle.com/feed"
     categories: "GSoC-2014"
     tags: "bug-reporting-system python django"
+    gravatar: "dc11dcf0963cedf987cd6e90200414db"
