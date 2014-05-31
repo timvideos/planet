@@ -1,7 +1,14 @@
-title: TimVideos Planet - Developers news
+title: Tim Videos Planet - Developers news
 description: "News from our best developers, all news aggregated by planet."
 url: "http://planet.timvideos.us"
 exclude: [Gemfile, Gemfile.lock, planet.yml, README.md]
 
 markdown: kramdown
 permalink: pretty
+
+opml:
+  source: "planet.yml"
+  title: "Tim Videos Feeds"
+  outline: 
+    title: "Tim Videos"
+    text: "Tim Videos"

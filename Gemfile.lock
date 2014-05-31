@@ -88,4 +88,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 2.0.3)
   kramdown (~> 1.3.3)
+  nokogiri
   planet!

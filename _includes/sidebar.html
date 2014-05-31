@@ -1,12 +1,14 @@
 <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
   <a class="logo" href="{% page_url index %}">
     <img src="{{ "/img/logo.png" | prepend: site.baseurl }}" />
-    <span id="logo-name">TIM VIDEOS</span>
     <span>PLANET</span>
   </a>
   <ul class="nav">
-    <li class="active">
+    <li class="{% active_class news %}">
       <a href="{% page_url index %}">NEWS</a>
+    </li>
+    <li class="{% active_class github %}">
+      <a href="{% page_url github %}">GITHUB ACTIVITIES</a>
     </li>
   </ul>
   <ul class="nav hidden-xs" id="sidebar-footer">

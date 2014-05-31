@@ -6,53 +6,139 @@ planet:
     whitelisted_tags: []
 
 blogs:
-  # Bare minimum to get it working
+#  BLOGS
+## GSoC2014
   - author:     "Maciej (Developer Website)"
+    url:        "http://pinoit.blogspot.com"
+    title:      "Blog"
     feed:       "http://pinoit.blogspot.in/feeds/posts/default"
     categories: "GSoC-2014"
     tags:       "news developers-page ruby jekyll"
     image:      "http://identicons.github.com/pinoss.png"
 
   - author:     "Amanpreet (Porting Flumotion)"
+    url:        "http://aps-sids.github.io/porting-flumotion"
+    title:      "Blog"
     feed:       "http://aps-sids.github.io/porting-flumotion/atom.xml"
     categories: "GSoC-2014"
     tags:       "news flumotion"
     image:      "http://identicons.github.com/aps-sids.png"
 
   - author:     "Max (Dockerization)"
+    url:        "http://mstritzi.nfshost.comcom"
+    title:      "Blog"
     feed:       "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
     categories: "GSoC-2014"
     tags:       "news dockerization"
     image:      "http://identicons.github.com/maxstr.png"
 
   - author:     "Niharika (Bug reporting system)"
+    url:        "http://niharika.svbtle.com"
+    title:      "Blog"
     feed:       "http://niharika.svbtle.com/feed"
     categories: "GSoC-2014"
     tags:       "news bug-reporting-system python django"
     image:      "http://identicons.github.com/Niharika29.png"
 
-
+## GSoC2014 - HDMI2USB
 
   - author:     "Rohit (VGA Extension)"
+    url:        "http://dreamsxtrinsic.blogspot.com/"
+    title:      "Blog"
     feed:       "http://dreamsxtrinsic.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb vga"
     image:      "http://identicons.github.com/rohit91.png"
 
   - author:     "Tariq (Ethernet Support)"
+    url:        "http://hdmi2ethernet.blogspot.com/"
+    title:      "Blog"
     feed:       "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ethernet"
     image:      "http://identicons.github.com/tariq786.png"
 
   - author:     "Ajit (MJPEG Optimisation)"
+    url:        "http://ajitmathewgsoc.blogspot.com/"
+    title:      "Blog"
     feed:       "http://ajitmathewgsoc.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb mjpeg"
     image:      "http://identicons.github.com/ajitmathew.png"
 
   - author:     "Ayush (PTZ/Serial Extension)"
+    url:        "http://ptzfortimvideos-gsoc14.blogspot.com/"
+    title:      "Blog"
     feed:       "http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ptz serial-extension"
+    image:      "http://identicons.github.com/ayushsagar.png"
+
+#  GITHUB ACTIVITIES
+## GSoC2014
+
+  - author:     "Maciej (Developer Website)"
+    url:        "https://github.com/pinoss"
+    title:      "GitHub"
+    feed:       "https://github.com/pinoss.atom"
+    categories: "GSoC-2014"
+    tags:       "github developers-page ruby jekyll"
+    image:      "http://identicons.github.com/pinoss.png"
+
+  - author:     "Amanpreet (Porting Flumotion)"
+    url:        "https://github.com/aps-sids"
+    title:      "GitHub"
+    feed:       "https://github.com/aps-sids.atom"
+    categories: "GSoC-2014"
+    tags:       "github flumotion"
+    image:      "http://identicons.github.com/aps-sids.png"
+
+  - author:     "Max (Dockerization)"
+    url:        "https://github.com/maxstr"
+    title:      "GitHub"
+    feed:       "https://github.com/maxstr.atom"
+    categories: "GSoC-2014"
+    tags:       "github dockerization"
+    image:      "http://identicons.github.com/maxstr.png"
+
+  - author:     "Niharika (Bug reporting system)"
+    url:        "https://github.com/Niharika29"
+    title:      "GitHub"
+    feed:       "https://github.com/Niharika29.atom"
+    categories: "GSoC-2014"
+    tags:       "github bug-reporting-system python django"
+    image:      "http://identicons.github.com/Niharika29.png"
+
+  ## GSoC2014 - HDMI2USB
+
+  - author:     "Rohit (VGA Extension)"
+    url:        "https://github.com/rohit91"
+    title:      "GitHub"
+    feed:       "https://github.com/rohit91.atom"
+    categories: "GSoC-2014-HDMI2USB"
+    tags:       "github hdmi2usb vga"
+    image:      "http://identicons.github.com/rohit91.png"
+
+  - author:     "Tariq (Ethernet Support)"
+    url:        "https://github.com/tariq786"
+    title:      "GitHub"
+    feed:       "https://github.com/tariq786.atom"
+    categories: "GSoC-2014-HDMI2USB"
+    tags:       "github hdmi2usb ethernet"
+    image:      "http://identicons.github.com/tariq786.png"
+
+  - author:     "Ajit (MJPEG Optimisation)"
+    url:        "https://github.com/ajitmathew"
+    title:      "GitHub"
+    feed:       "https://github.com/ajitmathew.atom"
+    categories: "GSoC-2014-HDMI2USB"
+    tags:       "github hdmi2usb mjpeg"
+    image:      "http://identicons.github.com/ajitmathew.png"
+
+  - author:     "Ayush (PTZ/Serial Extension)"
+    url:        "https://github.com/ayushsagar"
+    title:      "GitHub"
+    feed:       "https://github.com/ayushsagar.atom"
+    categories: "GSoC-2014-HDMI2USB"
+    tags:       "github hdmi2usb ptz serial-extension"
     image:      "http://identicons.github.com/ayushsagar.png"

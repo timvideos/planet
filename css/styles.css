@@ -116,11 +116,11 @@ a {
   border-radius: 100px;
 }
 #sidebar a.logo img {
-  width: 80px;
-  margin-top: 25px;
+  width: 140px;
 }
 
 #sidebar a.logo span {
+  margin-top: -20px;
   font-size: 20px;
   display: block;
   color: #024c7d;
@@ -170,7 +170,7 @@ a {
   padding-top: 0;
 }
 .panel .panel-heading {
-  padding-bottom: 0;
+padding-bottom: 0;
  background-color:#fff;
  font-weight:700;
  font-size:16px;
