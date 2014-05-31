@@ -7,6 +7,48 @@
     <atom:link href="http://planet.timvideos.us/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga</title>
+        <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time datetime=&quot;2014-05-31T19:43:27Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/rohit91&quot;&gt;rohit91&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/rohit91/HDMI2USB-vmodvga/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;rohit91/HDMI2USB-vmodvga&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/rohit91&quot;&gt;&lt;img alt=&quot;Rohit Kumar Singh&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1108318&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/1108318?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits &quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;Rohit Kumar Singh&quot;&gt;
+            &lt;img alt=&quot;&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/9bea63e2f8b81e3424a7ecd4359bb13f?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/rohit91/HDMI2USB-vmodvga/commit/9d1a81145cff9aeb76b29dec352f980da7b75a8c&quot;&gt;9d1a811&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Fixed the feedback circuit for ADP3334 ICs in schematic
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/rohit91&quot;&gt;rohit91's Activity&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
+      </item>
+    
+      <item>
         <title>pinoss pushed to master at timvideos/planet</title>
         <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
@@ -225,19 +267,6 @@ PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quo
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</guid>
-      </item>
-    
-      <item>
-        <title>Back in town and getting back to work</title>
-        <description>I worked half a day on Wednesday and was out of town on Thursday. On Friday, i was home the whole day as i was not feeling well. You can ask so what?&lt;br /&gt;&lt;br /&gt;Now the plan is to work on the weekend to complete the 40 hours as well as next week during which i am suppose to be on vacation.&lt;br /&gt;&lt;br /&gt;I had taken GSoC on my nerves. That is why my sleep and work cycle got unbalanced this week. I want to unwind myself and today (Friday) i focused on that. My goal is to complete the project and enjoy the experience rather than hosed.&lt;br /&gt;&lt;br /&gt;Anyway, got MyHDL 0.9-dev working. Now i can pass interfaces. I was able to run the code passed to me by Chris. The code treats Image buffer FIFO as shown in Figure 2 of the Spec&lt;br /&gt;&lt;br /&gt;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit&lt;br /&gt;&lt;br /&gt;While, i am more inclined to use Figure 3. I have to resolve this with the mentor.&lt;br /&gt;&lt;br /&gt;Tomorrow (Saturday May 31st), integration of simulation models of Image Buffer -&amp;gt; RTP -&amp;gt; UDP in MyHDL will be dealt with.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</guid>
       </item>
     
   </channel>
