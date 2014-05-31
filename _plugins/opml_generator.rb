@@ -54,12 +54,17 @@ module Jekyll
       opml_path = site.config['opml']['path'] || '/'
       opml_name = site.config['opml']['name'] || 'feed.opml'
       full_path = File.join(site.dest, opml_path)
+      ensure_directory(full_path)
       File.open("#{full_path}#{opml_name}", 'w') { |f| f.write(builder.to_xml) }
 
       site.pages << Jekyll::OPMLFeed.new(site, site.dest, opml_path, opml_name)
     end
 
     private
+
+    def ensure_directory(path)
+      FileUtils.mkdir_p(path)
+    end
 
     def read_blogs_from_config(config_file_path)
       config = YAML.load_file(config_file_path)
