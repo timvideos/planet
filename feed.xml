@@ -146,6 +146,19 @@
       </item>
     
       <item>
+        <title>[GSoC Snippet] 31/05/2014</title>
+        <description>&lt;b&gt;[code] &lt;/b&gt;added new logo to website&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added opml feed generator for blogs defined in planet.yml&lt;br /&gt;&lt;b&gt;[configuration] &lt;/b&gt;updated planet.yml to have all information needed for opml generator&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;active class tag to highlight currently visited category&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed autodeploy script, install all necessary libraries, gems, bundler, etc.&lt;br /&gt;&lt;b&gt;[project management] &lt;/b&gt;added tasks on Producteev&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;started writing iframe generator to generate site without sidebar&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; end writing iframe generator&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;prepare and implement all designs for current code.timvideos.us&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</guid>
+      </item>
+    
+      <item>
         <title>[GSoC Snippet] 30/05/2014</title>
         <description>[code] added gravatars as a author images, later changed to GitHub Identicons&lt;br /&gt;[code] added people to planet.yml from hdmi2usb project&lt;br /&gt;[code] added groups of news (categories and tags)&lt;br /&gt;[code] added autodeploy script (should work if we install bundler on generate machine)&lt;br /&gt;[code] added github activity as a another category (subpage)&lt;br /&gt;[design] small design changes&lt;br /&gt;&lt;br /&gt;PLANS for planet.timvideos.us:&lt;br /&gt;- prepare OPML generator&lt;br /&gt;- prepare iframed version of website&lt;br /&gt;- change logo for website&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
@@ -225,60 +238,6 @@ PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quo
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</guid>
-      </item>
-    
-      <item>
-        <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-05-31T00:15:47Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/aps-sids&quot;&gt;aps-sids&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/aps-sids/flumotion-orig/tree/porting-to-gst1.0&quot;&gt;porting-to-gst1.0&lt;/a&gt; at &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;aps-sids/flumotion-orig&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/aps-sids&quot;&gt;&lt;img alt=&quot;Amanpreet Singh&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;2363074&quot; height=&quot;30&quot; src=&quot;https://avatars3.githubusercontent.com/u/2363074?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;aps-sids&quot;&gt;
-            &lt;img alt=&quot;Amanpreet Singh&quot; class=&quot; js-avatar&quot; data-user=&quot;2363074&quot; height=&quot;16&quot; src=&quot;https://avatars3.githubusercontent.com/u/2363074?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/aps-sids/flumotion-orig/commit/cc53caa7d5a97c45698df7b2f481dadee2fec2d6&quot;&gt;cc53caa&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              feedcomponent ported
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;aps-sids&quot;&gt;
-            &lt;img alt=&quot;Amanpreet Singh&quot; class=&quot; js-avatar&quot; data-user=&quot;2363074&quot; height=&quot;16&quot; src=&quot;https://avatars3.githubusercontent.com/u/2363074?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/aps-sids/flumotion-orig/commit/632534ca8d70c26a7f80f250684a1e42d65988db&quot;&gt;632534c&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              missed while porting gstreamer.py
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/compare/be7714ab8a...cc53caa7d5&quot;&gt;View comparison for these 2 commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/aps-sids&quot;&gt;aps-sids's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       </item>
     
   </channel>
