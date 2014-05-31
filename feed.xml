@@ -159,6 +159,36 @@
       </item>
     
       <item>
+        <title>feedcomponent ported</title>
+        <description>&lt;p&gt;Changed flumotion/component/feedcomponent010.py and flumotion/component/feedcomponent.py &lt;/p&gt;
+
+&lt;p&gt;As a result, feedcomponent is ported.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;flumotion.test.test_component_feedcomponent
+  TestFeedComponentMedium
+    test1277 ...                                                           &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+    testRemoteEatFrom ...                                                  &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+  TestMuxer
+    testPipelineString ...                                                 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+
+-------------------------------------------------------------------------------
+Ran 3 tests in 0.042s
+
+PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;successes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;3&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This completes the porting of base dependency modules for Videotest producer. Next, I will try to create a simple stream and consequently port Videotest producer.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
+      </item>
+    
+      <item>
         <title>Daily snippet</title>
         <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Finished with gitimmersion. That was a good tutorial, would recommend to anyone&lt;/li&gt;&lt;li&gt;Problems with ISE not working. The download appears to be corrupt, MD5 doesn't match. Redownloading&lt;/li&gt;&lt;li&gt;Began with circuit design. Wondering if RJ-11 support to be given.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
@@ -169,6 +199,19 @@
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</guid>
+      </item>
+    
+      <item>
+        <title>Beating the Interfaces</title>
+        <description>I read and heard a lot about interface incompatibilities and how different understanding of an interface could cause misunderstanding between teams working together. I ran into the same issue. To understand the top level interface of HDMI2USB, i ran FPGA synthesis so i can view the RTL schematic. Here is a snapshot of that after i was able to synthesize HDMI2USB correctly.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-I7yVkRbUtRA/U4oRvQYCdDI/AAAAAAAAAHM/5czi06SuU6U/s1600/top_level_HDMI2USB.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-I7yVkRbUtRA/U4oRvQYCdDI/AAAAAAAAAHM/5czi06SuU6U/s1600/top_level_HDMI2USB.jpg&quot; height=&quot;320&quot; width=&quot;318&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 1: HDMI2USB at the top level&lt;/div&gt;&lt;br /&gt;Once you have this schematic, you can click on wires and blocks to see which is connected with which.&lt;br /&gt;My goal was to determine the interface of &lt;a href=&quot;https://bitbucket.org/tariq786/hdmi2usb/src/eaee2d1466ce118b5fe907b21b26352afb1c2e87/hdl/misc/image_buffer.vhd?at=master&quot;&gt;Image Buffer&lt;/a&gt;&amp;nbsp;to RTP Packetizer (that is still under development). After spending sometime and bouncing back and forth with mentor, i was able to understand it. The interface looks like following&lt;br /&gt;&lt;br /&gt;&lt;span id=&quot;docs-internal-guid-b94002cf-5359-be3d-6405-44897b12cc47&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;148px;&quot; src=&quot;https://docs.google.com/drawings/d/sljplwrNdUM7m3VJ2c2h29g/image?w=595&amp;amp;h=148&amp;amp;rev=612&amp;amp;ac=1&quot; style=&quot;-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);&quot; width=&quot;595px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 2 : RTP Interface with upstream Image Buffer (Red arrow shows Flow Control signals)&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Here is a text and graphical snapshot of the simulation of the Image Buffer. The text shows 4 writes into the FIFO using Bus in (while reads are blocked on But out) and then the 4 writes are read &amp;nbsp;on But out while blocking writes on Bus in.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;33: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 0, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 DE99C9, o:e0 f1 000000&lt;/div&gt;&lt;div&gt;39: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 1, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 E95B32, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;45: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 2, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 0D2F9F, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;51: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 3, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 6B6951, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;57: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 4, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 549BB1, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;63: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 0, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 000000&lt;/div&gt;&lt;div&gt;69: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 1, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 DE99C9&lt;/div&gt;&lt;div&gt;75: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 2, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 E95B32&lt;/div&gt;&lt;div&gt;81: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 3, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 0D2F9F&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;If the above looks gibberish to you, you can look at the waveform below or read the &lt;a href=&quot;http://bit.ly/1nPSHqQ&quot;&gt;source code&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-5uKO8FyjEig/U4oU9pLH5sI/AAAAAAAAAHU/5Wmy2WJ8iWE/s1600/fifo_write_then_read_waveform.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-5uKO8FyjEig/U4oU9pLH5sI/AAAAAAAAAHU/5Wmy2WJ8iWE/s1600/fifo_write_then_read_waveform.jpg&quot; height=&quot;78&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</guid>
       </item>
     
       <item>
@@ -236,47 +279,6 @@
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      </item>
-    
-      <item>
-        <title>31 May '14</title>
-        <description>&lt;ul&gt;
-&lt;li&gt;Managed to link my Report Bug button to a new page. &lt;/li&gt;
-&lt;li&gt;Created a PostgreSQL database and did a syncdb with website folder&lt;/li&gt;
-&lt;li&gt;Investigated django directory structure. Thinking of the possibility to make this into a new app, like website, tracker&amp;hellip;#note- Ask skay&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Very strangely, after a 3 hour break or so, when I tried to get the server running again, I get the error: &lt;/p&gt;
-
-&lt;p&gt;ImportError: No module named psycopg2.extensions&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Whereas pip tells me I have psycopg2 and it&amp;rsquo;s up-to-date.
-Advice from #Django: &amp;ldquo;just make sure you installed it inside your virtual env or that your virtual env takes the system site packages&amp;rdquo; for Psycopg2. Okay, linovia on #Django helped me. I had to install psycopg2 AFTER activating the virtual env.&lt;/p&gt;
-
-&lt;p&gt;To activate virtualenv: &amp;ldquo;. bin/activate&amp;rdquo;;
-To deactivate it: &amp;ldquo;deactivate&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Created a dummy HTML form on new page, trying to fetch data using Django now.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</guid>
-      </item>
-    
-      <item>
-        <title>30 May '14</title>
-        <description>&lt;p&gt;Had an exam. Got caught up in a terrible storm afterwards. Barely made it home in one piece. Will begin work tomorrow on project.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</guid>
       </item>
     
   </channel>
