@@ -24,7 +24,7 @@ else
 fi
 
 git pull
-bundle install
+bundle install --path vendor/bundle
 
 # Generate posts from planet.yml
 bundle exec planet generate -e html
