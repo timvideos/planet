@@ -14,7 +14,7 @@ blogs:
     feed:       "http://pinoit.blogspot.in/feeds/posts/default"
     categories: "GSoC-2014"
     tags:       "news developers-page ruby jekyll"
-    image:      "http://identicons.github.com/pinoss.png"
+    image:      "https://avatars1.githubusercontent.com/u/2752578?s=50"
 
   - author:     "Amanpreet (Porting Flumotion)"
     url:        "http://aps-sids.github.io/porting-flumotion"
@@ -22,7 +22,7 @@ blogs:
     feed:       "http://aps-sids.github.io/porting-flumotion/atom.xml"
     categories: "GSoC-2014"
     tags:       "news flumotion"
-    image:      "http://identicons.github.com/aps-sids.png"
+    image:      "https://avatars2.githubusercontent.com/u/2363074?s=50"
 
   - author:     "Max (Dockerization)"
     url:        "http://mstritzi.nfshost.comcom"
@@ -30,7 +30,7 @@ blogs:
     feed:       "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
     categories: "GSoC-2014"
     tags:       "news dockerization"
-    image:      "http://identicons.github.com/maxstr.png"
+    image:      "https://avatars3.githubusercontent.com/u/4483139?s=50"
 
   - author:     "Niharika (Bug reporting system)"
     url:        "http://niharika.svbtle.com"
@@ -38,7 +38,7 @@ blogs:
     feed:       "http://niharika.svbtle.com/feed"
     categories: "GSoC-2014"
     tags:       "news bug-reporting-system python django"
-    image:      "http://identicons.github.com/Niharika29.png"
+    image:      "https://avatars1.githubusercontent.com/u/5735280?s=50"
 
 ## GSoC2014 - HDMI2USB
 
@@ -48,7 +48,7 @@ blogs:
     feed:       "http://dreamsxtrinsic.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb vga"
-    image:      "http://identicons.github.com/rohit91.png"
+    image:      "https://avatars1.githubusercontent.com/u/1108318?s=50"
 
   - author:     "Tariq (Ethernet Support)"
     url:        "http://hdmi2ethernet.blogspot.com/"
@@ -56,7 +56,7 @@ blogs:
     feed:       "http://hdmi2ethernet.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ethernet"
-    image:      "http://identicons.github.com/tariq786.png"
+    image:      "https://avatars1.githubusercontent.com/u/19363?s=50"
 
   - author:     "Ajit (MJPEG Optimisation)"
     url:        "http://ajitmathewgsoc.blogspot.com/"
@@ -64,7 +64,7 @@ blogs:
     feed:       "http://ajitmathewgsoc.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb mjpeg"
-    image:      "http://identicons.github.com/ajitmathew.png"
+    image:      "https://avatars3.githubusercontent.com/u/7080716?s=50"
 
   - author:     "Ayush (PTZ/Serial Extension)"
     url:        "http://ptzfortimvideos-gsoc14.blogspot.com/"
@@ -72,7 +72,7 @@ blogs:
     feed:       "http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "news hdmi2usb ptz serial-extension"
-    image:      "http://identicons.github.com/ayushsagar.png"
+    image:      "https://avatars0.githubusercontent.com/u/4787914?s=50"
 
 #  GITHUB ACTIVITIES
 ## GSoC2014
@@ -83,7 +83,7 @@ blogs:
     feed:       "https://github.com/pinoss.atom"
     categories: "GSoC-2014"
     tags:       "github developers-page ruby jekyll"
-    image:      "http://identicons.github.com/pinoss.png"
+    image:      "https://avatars1.githubusercontent.com/u/2752578?s=50"
 
   - author:     "Amanpreet (Porting Flumotion)"
     url:        "https://github.com/aps-sids"
@@ -91,7 +91,7 @@ blogs:
     feed:       "https://github.com/aps-sids.atom"
     categories: "GSoC-2014"
     tags:       "github flumotion"
-    image:      "http://identicons.github.com/aps-sids.png"
+    image:      "https://avatars2.githubusercontent.com/u/2363074?s=50"
 
   - author:     "Max (Dockerization)"
     url:        "https://github.com/maxstr"
@@ -99,7 +99,7 @@ blogs:
     feed:       "https://github.com/maxstr.atom"
     categories: "GSoC-2014"
     tags:       "github dockerization"
-    image:      "http://identicons.github.com/maxstr.png"
+    image:      "https://avatars3.githubusercontent.com/u/4483139?s=50"
 
   - author:     "Niharika (Bug reporting system)"
     url:        "https://github.com/Niharika29"
@@ -107,7 +107,7 @@ blogs:
     feed:       "https://github.com/Niharika29.atom"
     categories: "GSoC-2014"
     tags:       "github bug-reporting-system python django"
-    image:      "http://identicons.github.com/Niharika29.png"
+    image:      "https://avatars1.githubusercontent.com/u/5735280?s=50"
 
   ## GSoC2014 - HDMI2USB
 
@@ -117,7 +117,7 @@ blogs:
     feed:       "https://github.com/rohit91.atom"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "github hdmi2usb vga"
-    image:      "http://identicons.github.com/rohit91.png"
+    image:      "https://avatars1.githubusercontent.com/u/1108318?s=50"
 
   - author:     "Tariq (Ethernet Support)"
     url:        "https://github.com/tariq786"
@@ -125,7 +125,7 @@ blogs:
     feed:       "https://github.com/tariq786.atom"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "github hdmi2usb ethernet"
-    image:      "http://identicons.github.com/tariq786.png"
+    image:      "https://avatars1.githubusercontent.com/u/19363?s=50"
 
   - author:     "Ajit (MJPEG Optimisation)"
     url:        "https://github.com/ajitmathew"
@@ -133,7 +133,7 @@ blogs:
     feed:       "https://github.com/ajitmathew.atom"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "github hdmi2usb mjpeg"
-    image:      "http://identicons.github.com/ajitmathew.png"
+    image:      "https://avatars3.githubusercontent.com/u/7080716?s=50"
 
   - author:     "Ayush (PTZ/Serial Extension)"
     url:        "https://github.com/ayushsagar"
@@ -141,4 +141,4 @@ blogs:
     feed:       "https://github.com/ayushsagar.atom"
     categories: "GSoC-2014-HDMI2USB"
     tags:       "github hdmi2usb ptz serial-extension"
-    image:      "http://identicons.github.com/ayushsagar.png"
+    image:      "https://avatars0.githubusercontent.com/u/4787914?s=50"
