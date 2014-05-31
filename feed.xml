@@ -239,6 +239,34 @@
       </item>
     
       <item>
+        <title>31 May '14</title>
+        <description>&lt;ul&gt;
+&lt;li&gt;Managed to link my Report Bug button to a new page. &lt;/li&gt;
+&lt;li&gt;Created a PostgreSQL database and did a syncdb with website folder&lt;/li&gt;
+&lt;li&gt;Investigated django directory structure. Thinking of the possibility to make this into a new app, like website, tracker&amp;hellip;#note- Ask skay&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Very strangely, after a 3 hour break or so, when I tried to get the server running again, I get the error: &lt;/p&gt;
+
+&lt;p&gt;ImportError: No module named psycopg2.extensions&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whereas pip tells me I have psycopg2 and it&amp;rsquo;s up-to-date.
+Advice from #Django: &amp;ldquo;just make sure you installed it inside your virtual env or that your virtual env takes the system site packages&amp;rdquo; for Psycopg2. Okay, linovia on #Django helped me. I had to install psycopg2 AFTER activating the virtual env.&lt;/p&gt;
+
+&lt;p&gt;To activate virtualenv: &amp;ldquo;. bin/activate&amp;rdquo;;
+To deactivate it: &amp;ldquo;deactivate&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Created a dummy HTML form on new page, trying to fetch data using Django now.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</guid>
+      </item>
+    
+      <item>
         <title>30 May '14</title>
         <description>&lt;p&gt;Had an exam. Got caught up in a terrible storm afterwards. Barely made it home in one piece. Will begin work tomorrow on project.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
@@ -249,19 +277,6 @@
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</guid>
-      </item>
-    
-      <item>
-        <title>Snippet</title>
-        <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&amp;nbsp;Today&lt;br /&gt;[Code] UART done with Testbench&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;br /&gt;Test it on hardware&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</guid>
       </item>
     
   </channel>
