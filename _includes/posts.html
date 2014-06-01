@@ -1,11 +1,11 @@
 <div class="col-md-12 col-lg-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>News from developers <span class="pull-right">GSoC 2014 - HDMI2USB</span></h4>
+      <h4>{{ page.caption }} <span class="pull-right">GSoC 2014 - HDMI2USB</span></h4>
     </div>
     <div class="panel-body">
       {% for post in site.categories['gsoc-2014-hdmi2usb'] %}
-        {% if post.tags contains 'news' %}
+        {% if post.tags contains page.tags and post.type == page.type %}
           <div class="row news">
             <div class="col-sm-10">
               <h5>
@@ -29,11 +29,11 @@
 <div class="col-md-12 col-lg-6">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4>News from developers <span class="pull-right">GSoC 2014</span></h4>
+      <h4>{{ page.caption }} <span class="pull-right">GSoC 2014</span></h4>
     </div>
     <div class="panel-body">
       {% for post in site.categories['gsoc-2014'] %}
-        {% if post.tags contains 'news' %}
+        {% if post.tags contains page.tags and post.type == page.type %}
           <div class="row news">
             <div class="col-sm-10">
               <h5>

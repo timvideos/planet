@@ -1,3 +1,5 @@
+author: Tim Videos Community
+name: Tim Videos Planet - Developers news
 title: Tim Videos Planet - Developers news
 description: "News from our best developers, all news aggregated by planet."
 url: "http://planet.timvideos.us"
@@ -12,3 +14,8 @@ opml:
   outline: 
     title: "Tim Videos"
     text: "Tim Videos"
+
+rss_name: feed.xml
+rss_post_limit: 20
+rss_allowed_tags: news
+rss_allowed_types: standard
