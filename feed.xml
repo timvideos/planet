@@ -70,16 +70,6 @@
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>feedcomponent ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</link>
-      <description>&lt;p&gt;Changed flumotion/component/feedcomponent010.py and flumotion/component/feedcomponent.py &lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
-      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Finished with gitimmersion. That was a good tutorial, would recommend to anyone&lt;/li&gt;&lt;li&gt;Problems with ISE not working. The download appears to be corrupt, MD5 doesn't match. Redownloading&lt;/li&gt;&lt;li&gt;Began with circuit design. Wondering if RJ-11 support to be given.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -292,6 +282,21 @@ Tests pass:&lt;/p&gt;
 </description>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/28/gsoc-snippet-28-05-2014/</guid>
+      <dc:date>2014-05-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]: Work Starts! </title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/28/gsoc-daily-log-work-starts/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;b&gt;Thursday, 29th May 2014 &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;i&gt;Complete Assembly&lt;/i&gt; of VMOD-VGA PCB. Noticed 1 more problem in PCB soldering. One signal is unconnected with the resistor network P1, Signal: Red [R7]. &lt;b&gt;Criticality Level: &lt;i&gt;Low&lt;/i&gt; &lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Tried the &lt;a href=&quot;http://hamsterworks.co.nz/mediawiki/index.php/I3C2&quot; target=&quot;_blank&quot;&gt;I3C2 Controller&lt;/a&gt;. &lt;i&gt;Failed&lt;/i&gt;. Failure Cause not known/inspected yet &lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Next, Tried the I2C Controller from &lt;a href=&quot;http://www.labbookpages.co.uk/fpgas/modules/i2cController.html&quot;&gt;here&lt;/a&gt;. Quite a few modifications had to be done! &lt;b&gt;Success&lt;/b&gt;. Successfully wrote to 2 PCF8574A devices on same bus. [ISE Project: I2C_Test.xise] &lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;The I2C Controller failed to compile for Spartan3A device. Preliminary inspection revealed &lt;i&gt;XST bug &lt;/i&gt;for Spartan3 devices. Used Mimas (Spartan 6, XC6LX9). It successfully synthesized &lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;[I3C2] Second attempt with cleaned code and on Mimas, &lt;i&gt;Failed Again!&lt;/i&gt; (argh). Getting hard to debug root cause of problem. May be bus speed or tristate logic?&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/28/gsoc-daily-log-work-starts/</guid>
       <dc:date>2014-05-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-01T00:00:00+00:00</dc:date>
