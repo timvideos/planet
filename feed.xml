@@ -1,302 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
     <title>Tim Videos Planet - Developers news</title>
+    <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <link>http://planet.timvideos.us/</link>
-    <atom:link href="http://planet.timvideos.us/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-06-01T09:36:11Z&quot; is=&quot;relative-time&quot;&gt;June 01, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/Niharika29/streaming-system/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/Niharika29/streaming-system&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;Niharika29/streaming-system&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;&lt;img alt=&quot;Niharika29&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;Niharika29&quot;&gt;
-            &lt;img alt=&quot;Niharika29&quot; class=&quot; js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;16&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/Niharika29/streaming-system/commit/1342463257c75e5b6ae60a948524dead82900755&quot;&gt;1342463&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              form using django
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</guid>
-      </item>
-    
-      <item>
-        <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-05-31T19:43:27Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/rohit91&quot;&gt;rohit91&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/rohit91/HDMI2USB-vmodvga/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;rohit91/HDMI2USB-vmodvga&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/rohit91&quot;&gt;&lt;img alt=&quot;Rohit Kumar Singh&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;1108318&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/1108318?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits &quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;Rohit Kumar Singh&quot;&gt;
-            &lt;img alt=&quot;&quot; height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/9bea63e2f8b81e3424a7ecd4359bb13f?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;amp;r=x&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/rohit91/HDMI2USB-vmodvga/commit/9d1a81145cff9aeb76b29dec352f980da7b75a8c&quot;&gt;9d1a811&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              Fixed the feedback circuit for ADP3334 ICs in schematic
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/rohit91&quot;&gt;rohit91's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
-      </item>
-    
-      <item>
-        <title>pinoss pushed to master at timvideos/planet</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-05-31T10:13:36Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/pinoss&quot;&gt;pinoss&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/timvideos/planet/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/timvideos/planet&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;timvideos/planet&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/pinoss&quot;&gt;&lt;img alt=&quot;Maciej Paruszewski&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;2752578&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/2752578?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;pinoss&quot;&gt;
-            &lt;img alt=&quot;Maciej Paruszewski&quot; class=&quot; js-avatar&quot; data-user=&quot;2752578&quot; height=&quot;16&quot; src=&quot;https://avatars0.githubusercontent.com/u/2752578?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/timvideos/planet/commit/aeb76bfbb4c751937188bd84fdcec6bb5ddd0f59&quot;&gt;aeb76bf&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              Add Github activities, opml generator, change logo
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/pinoss&quot;&gt;pinoss's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/pinoss-pushed-to-master-at-timvideos-planet/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      </item>
-    
-      <item>
-        <title>pinoss pushed to gh-pages at timvideos/planet</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-05-31T10:34:15Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/pinoss&quot;&gt;pinoss&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/timvideos/planet/tree/gh-pages&quot;&gt;gh-pages&lt;/a&gt; at &lt;a href=&quot;https://github.com/timvideos/planet&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;timvideos/planet&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/pinoss&quot;&gt;&lt;img alt=&quot;Maciej Paruszewski&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;2752578&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/2752578?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;pinoss&quot;&gt;
-            &lt;img alt=&quot;Maciej Paruszewski&quot; class=&quot; js-avatar&quot; data-user=&quot;2752578&quot; height=&quot;16&quot; src=&quot;https://avatars0.githubusercontent.com/u/2752578?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/timvideos/planet/commit/6d234f3a72ac6bea841f1934c02a474f37204df1&quot;&gt;6d234f3&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              Revert README.md file
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/pinoss&quot;&gt;pinoss's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/pinoss-pushed-to-gh-pages-at-timvideos-planet/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/pinoss-pushed-to-gh-pages-at-timvideos-planet/</guid>
-      </item>
-    
-      <item>
-        <title>Out of town on Half Wednesday and Full Thursday</title>
-        <description>Necessity is the mother of travel&lt;div class=&quot;author&quot;&gt;
+    <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Out of town on Half Wednesday and Full Thursday</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/out-of-town-on-half-wednesday-and-full-thursday/</link>
+      <description>Necessity is the mother of travel&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
 &lt;/div&gt;
+
+
 </description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/out-of-town-on-half-wednesday-and-full-thursday/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/out-of-town-on-half-wednesday-and-full-thursday/</guid>
-      </item>
-    
-      <item>
-        <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
-        <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-&lt;div class=&quot;time&quot;&gt;
-  &lt;time datetime=&quot;2014-05-31T08:20:19Z&quot; is=&quot;relative-time&quot;&gt;May 31, 2014&lt;/time&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;title&quot;&gt;
-  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/Niharika29/streaming-system/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/Niharika29/streaming-system&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;Niharika29/streaming-system&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;details&quot;&gt;
-  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;&lt;img alt=&quot;Niharika29&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
-
-    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-      &lt;ul&gt;
-        &lt;li&gt;
-          &lt;span title=&quot;Niharika29&quot;&gt;
-            &lt;img alt=&quot;Niharika29&quot; class=&quot; js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;16&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;16&quot; /&gt;
-          &lt;/span&gt;
-          &lt;code&gt;&lt;a href=&quot;/Niharika29/streaming-system/commit/29166d951a020f160ed2b61361f255cc0c4eda48&quot;&gt;29166d9&lt;/a&gt;&lt;/code&gt;
-          &lt;div class=&quot;message&quot;&gt;
-            &lt;blockquote&gt;
-              Direct button to new page
-            &lt;/blockquote&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29's Activity&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/niharika29-pushed-to-master-at-niharika29-streami/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/niharika29-pushed-to-master-at-niharika29-streami/</guid>
-      </item>
-    
-      <item>
-        <title>[GSoC Snippet] 31/05/2014</title>
-        <description>&lt;b&gt;[code] &lt;/b&gt;added new logo to website&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added opml feed generator for blogs defined in planet.yml&lt;br /&gt;&lt;b&gt;[configuration] &lt;/b&gt;updated planet.yml to have all information needed for opml generator&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;active class tag to highlight currently visited category&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed autodeploy script, install all necessary libraries, gems, bundler, etc.&lt;br /&gt;&lt;b&gt;[project management] &lt;/b&gt;added tasks on Producteev&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;started writing iframe generator to generate site without sidebar&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; end writing iframe generator&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;prepare and implement all designs for current code.timvideos.us&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/out-of-town-on-half-wednesday-and-full-thursday/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 31/05/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added new logo to website&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added opml feed generator for blogs defined in planet.yml&lt;br /&gt;&lt;b&gt;[configuration] &lt;/b&gt;updated planet.yml to have all information needed for opml generator&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;active class tag to highlight currently visited category&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed autodeploy script, install all necessary libraries, gems, bundler, etc.&lt;br /&gt;&lt;b&gt;[project management] &lt;/b&gt;added tasks on Producteev&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;started writing iframe generator to generate site without sidebar&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; end writing iframe generator&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;prepare and implement all designs for current code.timvideos.us&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
 &lt;/div&gt;
+
+
 </description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</guid>
-      </item>
-    
-      <item>
-        <title>[GSoC Snippet] 30/05/2014</title>
-        <description>[code] added gravatars as a author images, later changed to GitHub Identicons&lt;br /&gt;[code] added people to planet.yml from hdmi2usb project&lt;br /&gt;[code] added groups of news (categories and tags)&lt;br /&gt;[code] added autodeploy script (should work if we install bundler on generate machine)&lt;br /&gt;[code] added github activity as a another category (subpage)&lt;br /&gt;[design] small design changes&lt;br /&gt;&lt;br /&gt;PLANS for planet.timvideos.us:&lt;br /&gt;- prepare OPML generator&lt;br /&gt;- prepare iframed version of website&lt;br /&gt;- change logo for website&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 30/05/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</link>
+      <description>[code] added gravatars as a author images, later changed to GitHub Identicons&lt;br /&gt;[code] added people to planet.yml from hdmi2usb project&lt;br /&gt;[code] added groups of news (categories and tags)&lt;br /&gt;[code] added autodeploy script (should work if we install bundler on generate machine)&lt;br /&gt;[code] added github activity as a another category (subpage)&lt;br /&gt;[design] small design changes&lt;br /&gt;&lt;br /&gt;PLANS for planet.timvideos.us:&lt;br /&gt;- prepare OPML generator&lt;br /&gt;- prepare iframed version of website&lt;br /&gt;- change logo for website&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
 &lt;/div&gt;
+
+
 </description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</guid>
-      </item>
-    
-      <item>
-        <title>[GSoC Daily Log]: Its Alive!</title>
-        <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-5446-aa74-57ab-f472bdde5c12&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 31st may 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-5446-aa74-57ab-f472bdde5c12&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Fixed the schematic for feedback circuit of ADP3334 adjustable o/p LDO IC for the line PD and VD [&lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga/commit/9d1a81145cff9aeb76b29dec352f980da7b75a8c&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;Github Push&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PCB Repairing/Fixing required for correcting the Power supply’s feedback circuit.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PD:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 Trace cut&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 147k resistor removed and resoldered 180 degrees&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;2 wire soldering fixes&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;VD:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;2 Trace cuts&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 147k resistor removed and resoldered 180 degrees&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;3 wire soldering&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Connecting PCB to power supply: &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;b&gt;&lt;i&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;i&gt;&lt;b&gt;It&lt;/b&gt;&lt;/i&gt; &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;b&gt;&lt;i&gt;works&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;b&gt;&lt;i&gt;! PCB Fix succeeded!&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PD: 1.818V, &lt;b&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;Fine&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;VD: 1.818V, &lt;b&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;Fine&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;OVDD: 3.3V, &lt;span style=&quot;color: #38761d;&quot;&gt;&lt;b&gt;Fine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Current: 13.6mA&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;AD9984A also gets warmer very slightly&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I2C Scan Test: WoW! Board shows up in scan!&lt;i&gt;&lt;b&gt; Its Alive, folks!&lt;/b&gt;&lt;/i&gt; Hurray!&amp;nbsp;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: left; margin-right: 1em; text-align: left;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-BWlpu8ZiNl0/U4pR9MUbbZI/AAAAAAAABtU/fBIAnyQAi3U/s1600/Screenshot+-+01_06_2014+,+2_55_16+AM_edited.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-BWlpu8ZiNl0/U4pR9MUbbZI/AAAAAAAABtU/fBIAnyQAi3U/s1600/Screenshot+-+01_06_2014+,+2_55_16+AM_edited.png&quot; height=&quot;250&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;The AD9984A shows up in I2C scan with address as 4C (highlighted red)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]: Its Alive!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/gsoc-daily-log-its-alive/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-5446-aa74-57ab-f472bdde5c12&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 31st may 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-5446-aa74-57ab-f472bdde5c12&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Fixed the schematic for feedback circuit of ADP3334 adjustable o/p LDO IC for the line PD and VD [&lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga/commit/9d1a81145cff9aeb76b29dec352f980da7b75a8c&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;Github Push&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PCB Repairing/Fixing required for correcting the Power supply’s feedback circuit.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PD:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 Trace cut&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 147k resistor removed and resoldered 180 degrees&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;2 wire soldering fixes&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;VD:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;2 Trace cuts&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;1 147k resistor removed and resoldered 180 degrees&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: square; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;3 wire soldering&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Connecting PCB to power supply: &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;i&gt;&lt;b&gt;&lt;b&gt;&lt;i&gt;&lt;b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;i&gt;&lt;b&gt;It&lt;/b&gt;&lt;/i&gt; &lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;b&gt;&lt;i&gt;works&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;b&gt;&lt;i&gt;! PCB Fix succeeded!&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PD: 1.818V, &lt;b&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;Fine&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;VD: 1.818V, &lt;b&gt;&lt;span style=&quot;color: #38761d;&quot;&gt;Fine&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;OVDD: 3.3V, &lt;span style=&quot;color: #38761d;&quot;&gt;&lt;b&gt;Fine&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Current: 13.6mA&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;AD9984A also gets warmer very slightly&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I2C Scan Test: WoW! Board shows up in scan!&lt;i&gt;&lt;b&gt; Its Alive, folks!&lt;/b&gt;&lt;/i&gt; Hurray!&amp;nbsp;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;float: left; margin-right: 1em; text-align: left;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-BWlpu8ZiNl0/U4pR9MUbbZI/AAAAAAAABtU/fBIAnyQAi3U/s1600/Screenshot+-+01_06_2014+,+2_55_16+AM_edited.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-BWlpu8ZiNl0/U4pR9MUbbZI/AAAAAAAABtU/fBIAnyQAi3U/s1600/Screenshot+-+01_06_2014+,+2_55_16+AM_edited.png&quot; height=&quot;250&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;The AD9984A shows up in I2C scan with address as 4C (highlighted red)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
 &lt;/div&gt;
+
+
 </description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/gsoc-daily-log-its-alive/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/gsoc-daily-log-its-alive/</guid>
-      </item>
-    
-      <item>
-        <title>feedcomponent ported</title>
-        <description>&lt;p&gt;Changed flumotion/component/feedcomponent010.py and flumotion/component/feedcomponent.py &lt;/p&gt;
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/gsoc-daily-log-its-alive/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>feedcomponent ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</link>
+      <description>&lt;p&gt;Changed flumotion/component/feedcomponent010.py and flumotion/component/feedcomponent.py &lt;/p&gt;
 
-&lt;p&gt;As a result, feedcomponent is ported.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;flumotion.test.test_component_feedcomponent
-  TestFeedComponentMedium
-    test1277 ...                                                           &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-    testRemoteEatFrom ...                                                  &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-  TestMuxer
-    testPipelineString ...                                                 &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;OK&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-
--------------------------------------------------------------------------------
-Ran 3 tests in 0.042s
-
-PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;successes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;3&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;This completes the porting of base dependency modules for Videotest producer. Next, I will try to create a simple stream and consequently port Videotest producer.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+</description>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Finished with gitimmersion. That was a good tutorial, would recommend to anyone&lt;/li&gt;&lt;li&gt;Problems with ISE not working. The download appears to be corrupt, MD5 doesn't match. Redownloading&lt;/li&gt;&lt;li&gt;Began with circuit design. Wondering if RJ-11 support to be given.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
 &lt;/div&gt;
+
+
 </description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
-      </item>
-    
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Beating the Interfaces</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</link>
+      <description>I read and heard a lot about interface incompatibilities and how different understanding of an interface could cause misunderstanding between teams working together. I ran into the same issue. To fix this, and understand the top level interfaces of HDMI2USB, i ran FPGA synthesis on it so i can view the RTL schematic. Here is a snapshot of schematic successful synthesis.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-I7yVkRbUtRA/U4oRvQYCdDI/AAAAAAAAAHM/5czi06SuU6U/s1600/top_level_HDMI2USB.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-I7yVkRbUtRA/U4oRvQYCdDI/AAAAAAAAAHM/5czi06SuU6U/s1600/top_level_HDMI2USB.jpg&quot; height=&quot;320&quot; width=&quot;318&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 1: HDMI2USB at the top level&lt;/div&gt;&lt;br /&gt;Once you have this schematic, you can click on wires and blocks to see which is connected with which.&lt;br /&gt;&lt;br /&gt;My goal was to determine the interface of &lt;a href=&quot;https://bitbucket.org/tariq786/hdmi2usb/src/eaee2d1466ce118b5fe907b21b26352afb1c2e87/hdl/misc/image_buffer.vhd?at=master&quot;&gt;Image Buffer&lt;/a&gt;&amp;nbsp;to RTP Packetizer (it is still under development). After spending sometime and bouncing back and forth with mentor, i was able to understand it. The interface looks like following&lt;br /&gt;&lt;br /&gt;&lt;span id=&quot;docs-internal-guid-b94002cf-5359-be3d-6405-44897b12cc47&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;148px;&quot; src=&quot;https://docs.google.com/drawings/d/sljplwrNdUM7m3VJ2c2h29g/image?w=595&amp;amp;h=148&amp;amp;rev=612&amp;amp;ac=1&quot; style=&quot;-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);&quot; width=&quot;595px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 2 : RTP Interface with upstream Image Buffer (Red arrow shows Flow Control signals)&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Here is a text and graphical snapshot of the simulation of the Image Buffer. The text shows 4 writes into the FIFO using Bus in (while reads are blocked on Bus out) and then the 4 writes are read &amp;nbsp;on Bus out while blocking writes on Bus in.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;#Simulation time [w=write operation] --&amp;gt; write address , &amp;nbsp;read address | input: enable status, fifo_full status bytes value , output: enable status, fifo_full status read value&lt;br /&gt;#Simulation time [r=read operation] --&amp;gt; read address , &amp;nbsp;write address | input: enable status, fifo_full status bytes value , output: enable status, fifo_full status read value&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;33: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 0, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 DE99C9, o:e0 f1 000000&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;39: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 1, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 E95B32, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;45: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 2, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 0D2F9F, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;51: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 3, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 6B6951, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;57: &amp;nbsp;[w] &amp;nbsp;--&amp;gt; &amp;nbsp; 4, &amp;nbsp; &amp;nbsp;0 --&amp;gt; | i:e1 f0 549BB1, o:e1 f1 000000&lt;/div&gt;&lt;div&gt;63: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 0, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 000000&lt;/div&gt;&lt;div&gt;69: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 1, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 DE99C9&lt;/div&gt;&lt;div&gt;75: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 2, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 E95B32&lt;/div&gt;&lt;div&gt;81: &amp;nbsp;[r] &amp;nbsp;--&amp;gt; &amp;nbsp; 3, &amp;nbsp; &amp;nbsp;5 --&amp;gt; | i:e0 f0 549BB1, o:e1 f0 0D2F9F&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;If the above looks gibberish to you, you can look at the waveform below or read the &lt;a href=&quot;http://bit.ly/1nPSHqQ&quot;&gt;source code&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-5uKO8FyjEig/U4oU9pLH5sI/AAAAAAAAAHU/5Wmy2WJ8iWE/s1600/fifo_write_then_read_waveform.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-5uKO8FyjEig/U4oU9pLH5sI/AAAAAAAAAHU/5Wmy2WJ8iWE/s1600/fifo_write_then_read_waveform.jpg&quot; height=&quot;78&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 3: Waveform of FIFO WRITE and then READ operations&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Also added basic RTP packet processing functionality in the&amp;nbsp;&lt;a href=&quot;http://bit.ly/1nPSHqQ&quot;&gt;source code&lt;/a&gt;&amp;nbsp;to receive raw data from Image Buffer and turn it into RTP packets.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/beating-the-interfaces/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Back in town and getting back to work</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</link>
+      <description>I worked half a day on Wednesday and was out of town on Thursday. On Friday, i was home the whole day as i was not feeling well. You can ask so what?&lt;br /&gt;&lt;br /&gt;Now the plan is to work on the weekend to complete the 40 hours as well as next week during which i am suppose to be on vacation.&lt;br /&gt;&lt;br /&gt;I had taken GSoC on my nerves. That is why my sleep and work cycle got unbalanced this week. I want to unwind myself and today (Friday) i focused on that. My goal is to complete the project and enjoy the experience rather than hosed.&lt;br /&gt;&lt;br /&gt;Anyway, got MyHDL 0.9-dev working. Now i can pass interfaces. I was able to run the code passed to me by Chris. The code treats Image buffer FIFO as shown in Figure 2 of the Spec&lt;br /&gt;&lt;br /&gt;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit&lt;br /&gt;&lt;br /&gt;&lt;strike&gt;While, i am more inclined to use Figure 3. I have to resolve this with the mentor.&lt;/strike&gt;&lt;br /&gt;&lt;br /&gt;Tomorrow (Saturday May 31st), integration of simulation models of Image Buffer -&amp;gt; RTP -&amp;gt; UDP in MyHDL will be dealt with.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/back-in-town-and-getting-back-to-work/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>31 May '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Managed to link my Report Bug button to a new page. &lt;/li&gt;
+&lt;li&gt;Created a PostgreSQL database and did a syncdb with website folder&lt;/li&gt;
+&lt;li&gt;Investigated django directory structure. Thinking of the possibility to make this into a new app, like website, tracker&amp;hellip;#note- Ask skay&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Very strangely, after a 3 hour break or so, when I tried to get the server running again, I get the error: &lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>30 May '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</link>
+      <description>&lt;p&gt;Had an exam. Got caught up in a terrible storm afterwards. Barely made it home in one piece. Will begin work tomorrow on project.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</guid>
+      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&amp;nbsp;Today&lt;br /&gt;[Code] UART done with Testbench&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;br /&gt;Test it on hardware&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</guid>
+      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>padmonitor.py ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/30/padmonitor-py-ported/</link>
+      <description>&lt;p&gt;I did the required changes and hence, flumotion/component/padmonitor.py is ported and tests pass:&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/30/padmonitor-py-ported/</guid>
+      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 29/05/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/30/gsoc-snippet-29-05-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;created planet initial commit&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;theme improvements&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;forked planet.rb to add categories and tags&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;prepare first version of planet blog&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added tags and categories for each blog (will be usefull soon)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; tried to paginate posts, but there was a bug that I could not resolve. I will try tomorrow.&lt;br /&gt;&lt;b&gt;[deploy]&lt;/b&gt; first version of planet blog deployed to planet.timvideos.us&lt;br /&gt;&lt;br /&gt;PLANS for planet.timvideos.us:&lt;br /&gt;- add gravatars for each blog (I will need emails from bloggers to generate gravatars hash)&lt;br /&gt;- autodeploy&lt;br /&gt;- add github activity to another category&lt;br /&gt;- prepare OPML generator&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/30/gsoc-snippet-29-05-2014/</guid>
+      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>FSM Changed, FPS Did NOT!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/fsm-changed-fps-did-not/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I changed the FSM which controls the JPEG encoder yesterday. I initially went in the wrong direction as I understood the OPB protocol incorrectly. When I finally understood the problem, the implementations was of few lines. Earlier quantisation tables were written every time a new frame was loaded. Now it will change only when encoding quality changes. So it saves 1024 clock cycles per frame if encoding quality does not change. It took me several attempts to get it working. But FPS didn't change. It will probably make a difference when the fps is very high, so the clock cycle saved per frame will be significant.&lt;br /&gt;&lt;br /&gt;Also, I tried underclocking. I changed the clock divider of jpeg clock(freq=625Mhz/clock divider) from 7 to 11. FPS did not change for 7,8,9. But I got timeout error for 10 and 11 which I guess means FPS was too low. I honestly don't know what to make out of this.&lt;br /&gt;&lt;br /&gt;Also there is a bug. I have no idea about the bug. Here is the video.&lt;br /&gt;&lt;a href=&quot;https://plus.google.com/u/0/photos?pids=6018834295339420658,6018443083338911458,6018415391324052546&amp;amp;oid=113939432707725205058&amp;amp;pid=6018834295339420658&quot;&gt;&amp;nbsp;bug video&lt;/a&gt;&lt;br /&gt;In the video, things worked after two attempts but it can take more. .&lt;br /&gt;&lt;br /&gt;Today I was supposed to start changes chroma subsampling of the encoder but I guess adding UART functionality would be better as it will help me and other developers to debug easily. So I will spend the day trying to get the UART working on the board.&lt;br /&gt;&lt;br /&gt;Snippet:&lt;br /&gt;Work done- Changed FSM, Played with underclocking, Studied chroma subsamling&lt;br /&gt;Work to be done today-&lt;br /&gt;- Implement UART on board&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/fsm-changed-fps-did-not/</guid>
+      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Yesterday probably I worked the longest (10 hrs maybe). I was trying to check whether the reason for slow fps is blocks after jpeg core. To check this I removed the the signals which the usb controller gave to the jpeg core. Also I wrote a code which counts the done signal of the jpeg core and I output the range of the count using LEDs(like for count less than 10 LED0 would light up). And it turns out that count of the done signal was in same range as the output fps. I tried different combinations like different encoding quality, allowing some signals of usb controller to control the jpeg core while ignoring other and the result was more or less the same. Meanwhile the code threw a timing error which took me 2 hrs to debug.&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&amp;nbsp;Also I did some reading on quantisation tables for JPEG. Turns out that quantisation should be low for luminance table (quality-85%) and high for chrominance of around 50%. But this is a general rule and cannot be used for all applications. &lt;br /&gt;&lt;br /&gt;Today I plan to change the jpeg top module and see whether it improves fps. I have few ideas. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
+      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pygobject.py and feeder.py ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/29/pygobject-py-and-feeder-py-ported/</link>
+      <description>&lt;p&gt;Ported flumotion/common/pygobject.py
+Tests pass:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/29/pygobject-py-and-feeder-py-ported/</guid>
+      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]: Weird voltages! </title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/gsoc-daily-log-weird-voltages/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-4ee0-1e82-8b19-0ca7a35343d4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 30th May 2014:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-4ee0-1e82-8b19-0ca7a35343d4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Testing PCB for life signs&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Setting up I2C test setup. I2C scan doesn’t show up AD9984A, whereas shows 2 other PCF8574A test devices on same bus. Something’s wrong.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;On Powering up the PCB with 5V VCC. Power Supply Problem noticed. &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;OVDD&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;: 3.35, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: #38761d; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Fine&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: #38761d; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;PD&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;: Expected voltage: 1.8V. Actual measured: 0.55-0.58 V, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: red; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Critically Low&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;VD&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;: &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Expected voltage: 1.8V. Actual measured:&lt;/span&gt;&lt;/span&gt;0.39V, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: red; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Critically Low&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;May be due to OVDD having ADP3303-3V3 whereas PD and VD have ADP3334&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Assuming problem with 1.8V LDO, Ordered samples for fixed voltage (1.8V) LDOs from TI and Analog Devices (SOIC and SOT23). Lets see if they get approved for samples!&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;b&gt;UPDATE:&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;Found the reason for the weird voltages!&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;Seems there was a slight mistake in feeback circuit designing which led to this major problem! Will post details in the weekly log! Trying to fix it in meantime for making the PCB usable.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;/span&gt;&lt;/ul&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent; color: black; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/gsoc-daily-log-weird-voltages/</guid>
+      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;span id=&quot;docs-internal-guid-8fd242a8-4806-cc1c-5b08-7547383a48b9&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;still doing gitimmersion labs&lt;/li&gt;&lt;li&gt;spent most of the day looking for rooms. Didn’t find a better one ;_;&lt;/li&gt;&lt;li&gt;I use Windows 8.1 which is good for personal use but it doesn't run many things like the Xilinx stuff. I have multiboot setup with Windows XP (to save myself from driver signing stuff) and Ubuntu Desktop 14.04. I found today that I can connect USB devices nicely on Virtualbox VMs. Tried it, this is so cool! I don’t think I need to multiboot with Windows XP to work peacefully with hardware.&lt;/li&gt;&lt;li&gt;the VM doesn’t look slow, have to see how much is the FPGA bitstream generation time on my Windows XP VM.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/daily-snippet/</guid>
+      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>29 May '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/29/29-may-14/</link>
+      <description>&lt;p&gt;Spent the day studying for my Computer Networks exam. Protocols, DNS, logical &amp;amp; physical addressing, error correction &amp;amp; detection, multiplexing and stuff. Makes me appreciate the hardware projects being done by my fellow GSoC interns more. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/29/29-may-14/</guid>
+      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 28/05/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/05/28/gsoc-snippet-28-05-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;extracted page_url tag plugin as standalone plugin&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; wrote plugin for generation json with page and posts information&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; rewrite wikilinks to use information from page.json plugin to generate url from wiki&lt;br /&gt;&lt;b&gt;[configuration]&lt;/b&gt; added prose configuration, but it seems that it does not work properly (doesn't work at all), I don't know why, I will test it and check&lt;br /&gt;&lt;b&gt;[design]&lt;/b&gt; improvements of mockup, adjustments for jekyll&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[design]&lt;/b&gt; work on mockups&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; prepare planet.timvideos.us basic page (with only one main functionality: aggregation for timvideos developers news)&lt;br /&gt;&lt;br /&gt;I am thinking about using some application to maintain tasks and organize my work like Producteev or Trello, at the beginning of the week I would like to talk with Tim and Leon and plan tasks to do during the work week. Leon and Tim will know status and see progress of tasks and I will know which tasks are prioritized and which are not. :) I will do some research tomorrow.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/28/gsoc-snippet-28-05-2014/</guid>
+      <dc:date>2014-05-28T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2014-06-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
