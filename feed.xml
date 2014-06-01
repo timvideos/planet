@@ -7,6 +7,48 @@
     <atom:link href="http://planet.timvideos.us/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
+        <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time datetime=&quot;2014-06-01T09:36:11Z&quot; is=&quot;relative-time&quot;&gt;June 01, 2014&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/Niharika29/streaming-system/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/Niharika29/streaming-system&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;Niharika29/streaming-system&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;&lt;img alt=&quot;Niharika29&quot; class=&quot;gravatar js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;30&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;Niharika29&quot;&gt;
+            &lt;img alt=&quot;Niharika29&quot; class=&quot; js-avatar&quot; data-user=&quot;5735280&quot; height=&quot;16&quot; src=&quot;https://avatars0.githubusercontent.com/u/5735280?s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/Niharika29/streaming-system/commit/1342463257c75e5b6ae60a948524dead82900755&quot;&gt;1342463&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              form using django
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;https://github.com/Niharika29&quot;&gt;Niharika29's Activity&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</link>
+        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</guid>
+      </item>
+    
+      <item>
         <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga</title>
         <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
@@ -254,19 +296,6 @@ PASSED &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quo
         <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
         <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</link>
         <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
-      </item>
-    
-      <item>
-        <title>Daily snippet</title>
-        <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Finished with gitimmersion. That was a good tutorial, would recommend to anyone&lt;/li&gt;&lt;li&gt;Problems with ISE not working. The download appears to be corrupt, MD5 doesn't match. Redownloading&lt;/li&gt;&lt;li&gt;Began with circuit design. Wondering if RJ-11 support to be given.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-        <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</link>
-        <guid isPermaLink="true">http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</guid>
       </item>
     
   </channel>
