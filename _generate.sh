@@ -1,11 +1,13 @@
 #! /bin/bash
 
-set -e 
-set -x
-
 if [ ! -d /tmp/planet-website ]; then
     mkdir -p /tmp/planet-website
 fi
+
+flock -xn /tmp/planet-website/lock /bin/bash <<BASH_EOF
+set -e
+set -x
+
 cd /tmp/planet-website
 
 # Tell ssh to use the given identity
@@ -63,3 +65,5 @@ git commit -q -m "Converted https://github.com/timvideos/planet/commit/$COMMIT_I
 
 # Push the change
 git push -q origin gh-pages
+
+BASH_EOF
