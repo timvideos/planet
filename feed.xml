@@ -25,6 +25,16 @@
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Week 2 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</link>
+      <description>&lt;p&gt;I continued with the porting of base dependency modules not covered in previous week. To fix the failing tests, I ported boot.py first which led to tests for other modules passing again. After this, I ported pygobject.py and feeder.py followed by padmonitor.py where I faced some problems due to version 1.2.1 of Gstreamer. This is the latest available version in Ubuntu 12.04 precise. I fixed these by implementing some changes manually.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</guid>
+      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Week 1 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-1-progress/</link>
       <description>&lt;p&gt;I continued with the porting of base dependency modules not covered in previous week. To fix the failing tests, I ported boot.py first which led to tests for other modules passing again. After this, I ported pygobject.py and feeder.py followed by padmonitor.py where I faced some problems due to version 1.2.1 of Gstreamer. This is the latest available version in Ubuntu 12.04 precise. I fixed these by implementing some changes manually.&lt;/p&gt;
@@ -271,21 +281,6 @@
 </description>
       <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/30/gsoc-snippet-29-05-2014/</guid>
-      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>FSM Changed, FPS Did NOT!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/fsm-changed-fps-did-not/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I changed the FSM which controls the JPEG encoder yesterday. I initially went in the wrong direction as I understood the OPB protocol incorrectly. When I finally understood the problem, the implementations was of few lines. Earlier quantisation tables were written every time a new frame was loaded. Now it will change only when encoding quality changes. So it saves 1024 clock cycles per frame if encoding quality does not change. It took me several attempts to get it working. But FPS didn't change. It will probably make a difference when the fps is very high, so the clock cycle saved per frame will be significant.&lt;br /&gt;&lt;br /&gt;Also, I tried underclocking. I changed the clock divider of jpeg clock(freq=625Mhz/clock divider) from 7 to 11. FPS did not change for 7,8,9. But I got timeout error for 10 and 11 which I guess means FPS was too low. I honestly don't know what to make out of this.&lt;br /&gt;&lt;br /&gt;Also there is a bug. I have no idea about the bug. Here is the video.&lt;br /&gt;&lt;a href=&quot;https://plus.google.com/u/0/photos?pids=6018834295339420658,6018443083338911458,6018415391324052546&amp;amp;oid=113939432707725205058&amp;amp;pid=6018834295339420658&quot;&gt;&amp;nbsp;bug video&lt;/a&gt;&lt;br /&gt;In the video, things worked after two attempts but it can take more. .&lt;br /&gt;&lt;br /&gt;Today I was supposed to start changes chroma subsampling of the encoder but I guess adding UART functionality would be better as it will help me and other developers to debug easily. So I will spend the day trying to get the UART working on the board.&lt;br /&gt;&lt;br /&gt;Snippet:&lt;br /&gt;Work done- Changed FSM, Played with underclocking, Studied chroma subsamling&lt;br /&gt;Work to be done today-&lt;br /&gt;- Implement UART on board&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/fsm-changed-fps-did-not/</guid>
       <dc:date>2014-05-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-02T00:00:00+00:00</dc:date>
