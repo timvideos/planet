@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>RTP packet creation in Python from raw video stream</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/rtp-packet-creation-in-python-from-raw-video-stre/</link>
+      <description>OK finally got the basic RTP packet creation done in Python using &lt;a href=&quot;http://www.myhdl.org/&quot;&gt;MyHDL &lt;/a&gt;and &lt;a href=&quot;https://code.google.com/p/dpkt/&quot;&gt;Dpkt&lt;/a&gt;&amp;nbsp;libraries&lt;br /&gt;Please look at the &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/434d5bc39f9202fd10fd5c5c080975da51b28701/sim_models/verification.py?at=master&quot;&gt;source code&lt;/a&gt; here. Note that you need to have MyHDL and Dpkt libraries installed to get this code to run.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-NcrpEI867kM/U41UlkgumBI/AAAAAAAAAHs/uYXvOVrCeck/s1600/write_image_buffer_waveform.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-NcrpEI867kM/U41UlkgumBI/AAAAAAAAAHs/uYXvOVrCeck/s1600/write_image_buffer_waveform.jpg&quot; height=&quot;60&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 1: Write into Image Buffer by raw HDMI stream&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-qEmkmVM2-MI/U41Uxlq80-I/AAAAAAAAAH0/AFs83KLs-Dc/s1600/read_image_buffer_waveform.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-qEmkmVM2-MI/U41Uxlq80-I/AAAAAAAAAH0/AFs83KLs-Dc/s1600/read_image_buffer_waveform.jpg&quot; height=&quot;61&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;Figure 2: Read from Image Buffer by RTP block&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Here is the RTP packet of length 1086 bytes. Only the RTP payload is shown.&lt;br /&gt;&lt;br /&gt;raw_bytes=ACE19577A2EB3665189599C2644D56420366CE5D386E802AFD79E54852C9C2AAB8C6DE15974BCEC18F7B7D3D0C8D50ED37D7808D498F4D773FF5D29278EC24BE1572F68F56BC2AF94E544148563E9493F585E2E9C3FBE7DA38D520656158D794D8F06D926B8B7B3B49B60974B7A0E1DC3496B1DAD4F110220366C35AD6217AC0EFC15FB2734DBD0D1D60B27E3FFAF13A2344BA3E8B2CF7276BFB1C94E2F86A9C503DF79F2882C948A8EE8572D7B09CE197D1F95E62285FB918009F25C41B4CA405AC51A28B3C71A6D28F450E64CD7A6DD7BB6CD48FE2035FE5BF30A16C3E67287C2BF9A1213FBE5EF98CA58BA22DA618B716AC98E4618EE450CB62CF57C0D4C626A652B9D47A539CF568641A7EBB750899DB81CBD3D09CC121ED2E48A8429FF72C214F88C028ABB2BE8FD6DFB79E36D0E8A42EA09B472AA3B82177DABD182B9938010688782C6663B9B515DEF5072A518640D7486723297E017A4C2C94F3E781E510B95BD0A74B51584AC39F477585BA4F70ED625F2D6477C5B1357D3C36EFAD68165D97AC3E1216A8E6B96EB6F2FB30562D24CEF996E1C675DEA2E5D977F3C0A1C3103ED7E2774CE69C1F136D5043CC9E4AA6E78A05D3113798AA0439C131EC4CCD509375EBC9942A67B44E8DC1DC992AEE7D56E0733716327E16831D8DE0453740C5A250B6352F4F74C411911DE4714D3ACCC6C71D4D614B68ACA6B676A97533604A491AE262D1AAC6AF55A45BEC0AEA382262F6036A8CBE0471FE3AB7AD7ACE1ED565D715E9B6CE0308FB019B7661E68FBB13512F6413AC5EC5456D83863BEEC1A53D9DDF857FC36D1EB732D07FECE2430B10FE253A60953AFCB38790899C775844F422DB83B5AB2A12443711BF46BA5C35E1C2BAD4BCC464ED59A4D924993A295006B34B63693E7B6A414D5894F91985E58AEEAAA08C430F7C354CBDCF43BD3D5458DC1856458919E001CFCA45BD12536F2B9D6855622741C58D7359C17F8AA943A147E36E634BA89E9EDD92188F3CE4E72DA2AF8D2B267248A9FCAA5C30D141DF2548FCE7531414D106AE4EEA84887984700F09C3A8D9E67B614CB7A1B417233D1D97EFC13F30011BE67EEE5CDACCD933816046E7919E2D22C568614756AE3E26323FCBE892968F2D99B655A18A4961A3C0F0DFE4FC56442071FD9516765998287E507CA9C58FDB2E8281CBF1B11942C919B36102A2B55AC9544094A6B78A931687552AC48BD9D4C0D580271A9FE19D37787959428DF04C886E38A39F2C601B9A299D70C4F6B4E82D7A02C8DD72B5F7A73596A29E13E4D6BE0F183C86E2CCDB6A95FC06AAF58754A21F6ABC3EC8237CACDCB55DE06D9651EF2E6A230E12C1BBB378B23CD785668DEEEDF06E8A2F71A0D6166B1BD281D729CDF2AC9763F0FDD390DB7025637EF68C6AD40AF1B01CB52A5BA289782B299C35550D6B5F0A4B6931F42226F455448403A77A29FA746C5CC27CFC81808E77A5DBCCC6D9BE5CB5E892A1CF2429FFC5EE8DE98BC06923B208E&lt;br /&gt;byte_cnt= 1086&lt;br /&gt;raw_cnt = 362&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;RTP header is not shown. It can be printed by calling pack_hdr( ) function on RTP object. Other functions that can be called on RTP object are&lt;br /&gt;&lt;br /&gt;cc &lt;br /&gt;csrc &lt;br /&gt;data &lt;br /&gt;m &lt;br /&gt;p &lt;br /&gt;pack &lt;br /&gt;pack_hdr &lt;br /&gt;pt &lt;br /&gt;seq &lt;br /&gt;ssrc &lt;br /&gt;ts &lt;br /&gt;unpack &lt;br /&gt;version &lt;br /&gt;x &lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;Well i thought i am on vacations but not officially i guess !!!!!&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/rtp-packet-creation-in-python-from-raw-video-stre/</guid>
+      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Weekend Review</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Work done in last week: &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Investigated the effect of encoding quality.&lt;/li&gt;&lt;li&gt;Investigated the effect of post jpeg stages&lt;/li&gt;&lt;li&gt;Changed FSM of JPEG core&lt;/li&gt;&lt;li&gt;Underclocking of Jpeg core&lt;/li&gt;&lt;li&gt;Studied Chroma Subsampling&lt;/li&gt;&lt;li&gt;Wrote code of UART (alpha stage)&lt;/li&gt;&lt;/ul&gt;Work to be done this week:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Complete UART implementation with documentation on how to use it so that it can be used by other developers.(2-3 days)&lt;/li&gt;&lt;li&gt;&amp;nbsp;Then try one of these:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Investigate performance of pre-jpeg blocks. &lt;/li&gt;&lt;li&gt;Write a test bench to simulate the HDMI2USB firmware.(Will take a week or two).&lt;/li&gt;&lt;li&gt;Implement chroma subsampling 4:2:0.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +292,6 @@
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/30-may-14/</guid>
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&amp;nbsp;Today&lt;br /&gt;[Code] UART done with Testbench&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;br /&gt;Test it on hardware&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</guid>
-      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-03T00:00:00+00:00</dc:date>
   </channel>
