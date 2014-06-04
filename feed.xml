@@ -20,6 +20,21 @@
       <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Doing research on the board requirements.&lt;/li&gt;&lt;li&gt;There can be lots of different uses of the serial expansion board and I don't feel this board should be rigid in any way.&lt;/li&gt;&lt;li&gt;DMX has a lot of variety. There are different standards, I'm finding DMX 512 to be the most popular on internet and even that uses many variants of XLR connectors.&lt;/li&gt;&lt;li&gt;I'm thinking of a modular setup with a base board having the VHDCI connector and 6 UART port headers spaced apart appropriately and a family of pluggable modules that connect to these headers and convert UART to interfaces like RS232, RS4xx, DMX 512 (uses XLR connector), GPIO header etc.&amp;nbsp;&lt;/li&gt;&lt;li&gt;This looks more efficient in many ways - User can keep the same base board and keep plugging-in different modules depending on requirements.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</guid>
+      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Unofficially on vacations</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/unofficially-on-vacations/</link>
       <description>I am on vacations but working on GSoC as well and as much as possible. This means i am not on vacations&lt;br /&gt;:(&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -272,21 +287,6 @@
 </description>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/out-of-town-on-half-wednesday-and-full-thursday/</guid>
-      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 31/05/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;added new logo to website&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added opml feed generator for blogs defined in planet.yml&lt;br /&gt;&lt;b&gt;[configuration] &lt;/b&gt;updated planet.yml to have all information needed for opml generator&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;active class tag to highlight currently visited category&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed autodeploy script, install all necessary libraries, gems, bundler, etc.&lt;br /&gt;&lt;b&gt;[project management] &lt;/b&gt;added tasks on Producteev&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;started writing iframe generator to generate site without sidebar&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for tomorrow:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; end writing iframe generator&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;prepare and implement all designs for current code.timvideos.us&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</guid>
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-04T00:00:00+00:00</dc:date>
