@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Problems with Gst.Fraction</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</link>
+      <description>&lt;p&gt;There is a Fraction class I need to port but I’m facing a few problems.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</guid>
+      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Unofficially on vacations</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/unofficially-on-vacations/</link>
       <description>I am on vacations but working on GSoC as well and as much as possible. This means i am not on vacations&lt;br /&gt;:(&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +287,6 @@
 </description>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-31-05-2014/</guid>
-      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 30/05/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</link>
-      <description>[code] added gravatars as a author images, later changed to GitHub Identicons&lt;br /&gt;[code] added people to planet.yml from hdmi2usb project&lt;br /&gt;[code] added groups of news (categories and tags)&lt;br /&gt;[code] added autodeploy script (should work if we install bundler on generate machine)&lt;br /&gt;[code] added github activity as a another category (subpage)&lt;br /&gt;[design] small design changes&lt;br /&gt;&lt;br /&gt;PLANS for planet.timvideos.us:&lt;br /&gt;- prepare OPML generator&lt;br /&gt;- prepare iframed version of website&lt;br /&gt;- change logo for website&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/gsoc-snippet-30-05-2014/</guid>
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-04T00:00:00+00:00</dc:date>
