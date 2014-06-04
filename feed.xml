@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>Unofficially on vacations</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/unofficially-on-vacations/</link>
@@ -299,6 +299,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/gsoc-daily-log-its-alive/</guid>
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
