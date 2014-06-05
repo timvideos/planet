@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="News from our best developers, all news aggregated by planet.">
   <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
-  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/05/26/gsoc-update/">
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/06/04/gsoc-update-6-3/">
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/font-awesome.min.css" rel="stylesheet">
   <!--[if lt IE 9]>
@@ -28,10 +28,10 @@
       
         <h4>gsoc-2014</h4>
       
-      <h1>GSoC Update</h1>
+      <h1>GSoC Update 6-3</h1>
       <div class="article">
         <p class="meta description">
-          May 26, 2014
+          Jun 4, 2014
            • Max (Dockerization)
           
         </p>
@@ -50,19 +50,18 @@
           </p>
         
         <p class="article">
-          <h2>Update 1</h2>
+          <h2>Snippets</h2>
 
-<p>Hey, just giving a first update on my status. I've been super busy this past week, had my last midterm of the quarter on Friday in Ochem and then promptly flew out of town to Dallas to visit my grandpa. When I landed, I received news of <a href="http://en.wikipedia.org/wiki/2014_Isla_Vista_massacre">the events that had occurred at my school while I was in the air.</a> Isla Vista(where the shootings occurred) is an extremely small/tight community and it is hard to describe the impact that this has had on us. Thus, I apologize that this is a little later than I had liked, I wanted to post this Friday when I landed but got caught up with making sure friends were okay and checking the news. </p>
+<ul>
+<li>played around with various ways to manage configs for encoder
 
-<h2>What I've gotten done</h2>
-
-<p>Because of the above it was quite a hectic week for me, but I'm still stuck timeline(I made this week intentionally a bit light due to the midterm). I've setup Vagrant, Docker, and have been poking around Flumotion. I made the "base" container which is simply a regular Ubuntu container with streaming-system on it. I'll push it out sometime this week to the Docker public repo.</p>
-
-<h2>Next Week</h2>
-
-<p>Next week is going to be configuring specifically the website container. I have no more big tests for another two weeks so I should have plenty of time to get this done. </p>
-
-<p>And that's about it! Please keep the people of Isla Vista in your thoughts this week, we have gone through and are going through a lot! </p><div class="author">
+<ul>
+<li>I <em>think</em> the proper way is to just build a new image for each container we're launching, but I'm still unsure..</li>
+<li>now leaning towards [a dedicated "config-holder" container? (http://www.tech-d.net/2013/12/16/persistent-volumes-with-docker-container-as-volume-pattern/)</li>
+</ul></li>
+<li>no-ip'd + sshd'd my ubuntu vm so I can do testing on campus</li>
+<li>dropped the flumotion dependencies on what will be both the encoder and collector images</li>
+</ul><div class="author">
   <span>
     <i>Originally posted on <a href="http://mstritzi.nfshost.com/blog">Max Stritzinger</a></i>
   </span>

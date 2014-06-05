@@ -8,7 +8,7 @@
       <outline text="GSoC-2014" title="GSoC-2014">
         <outline htmlUrl="http://pinoit.blogspot.com" text="Maciej (Developer Website) - Blog" title="Maciej (Developer Website) - Blog" type="rss" version="RSS" xmlUrl="http://pinoit.blogspot.in/feeds/posts/default"/>
         <outline htmlUrl="http://aps-sids.github.io/porting-flumotion" text="Amanpreet (Porting Flumotion) - Blog" title="Amanpreet (Porting Flumotion) - Blog" type="rss" version="RSS" xmlUrl="http://aps-sids.github.io/porting-flumotion/atom.xml"/>
-        <outline htmlUrl="http://mstritzi.nfshost.comcom" text="Max (Dockerization) - Blog" title="Max (Dockerization) - Blog" type="rss" version="RSS" xmlUrl="http://mstritzi.nfshost.com/blog/index.php/feeds/rss"/>
+        <outline htmlUrl="http://mstritzi.nfshost.com/blog" text="Max (Dockerization) - Blog" title="Max (Dockerization) - Blog" type="rss" version="RSS" xmlUrl="http://mstritzi.nfshost.com/blog/rss/"/>
         <outline htmlUrl="http://niharika.svbtle.com" text="Niharika (Bug reporting system) - Blog" title="Niharika (Bug reporting system) - Blog" type="rss" version="RSS" xmlUrl="http://niharika.svbtle.com/feed"/>
         <outline htmlUrl="https://github.com/pinoss" text="Maciej (Developer Website) - GitHub" title="Maciej (Developer Website) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/pinoss.atom"/>
         <outline htmlUrl="https://github.com/aps-sids" text="Amanpreet (Porting Flumotion) - GitHub" title="Amanpreet (Porting Flumotion) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/aps-sids.atom"/>
