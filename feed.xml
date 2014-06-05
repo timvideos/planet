@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/05/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;As I am planning to write a test bench to simulate HDMI2USB, I spent most of the day trying to understand the TMSB protocol as I had not encountered it earlier. I was finally able to write a code which generates TMSB signal given RGB values.&lt;br /&gt;&lt;br /&gt;Work for Today: Understand the working of DDR2 ram and simulate it successfully. Then I will be ready for simulation of the whole.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/05/daily-snippet/</guid>
+      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Problems with Gst.Fraction</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</link>
@@ -274,21 +289,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/01/gsoc-snippet-01-06-2014/</guid>
       <dc:date>2014-06-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Daily Log]: Lazy Sunday</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/01/gsoc-daily-log-lazy-sunday/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-597f-8acd-1c12-b1e66aac08fb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 1st June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-597f-8acd-1c12-b1e66aac08fb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt; text-align: left;&quot;&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Updated VHDCI Footprint with larger diameter for plastic retainer and LQFP80 footprint with longer pads.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Searched for a good Hot-Air Soldering Station in India. Narrowed to 3 models. Will buy one from those. It would be required for PCB assembling later.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read AD9984 I2C Configuration Information from its datasheet. Will need it for proper initialization and configuration of AD9984. It has insane number of registers! (60!)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Still waiting for samples to get approved.&amp;nbsp; Maybe delayed due to weekends? Once, they get approved and shipped, I'll update the schematic with the fixed voltage regulator requiring lesser number of passives (aka feedback resistors). Although, after schematic fix, the current design with ADP3334 also suffices, just that it uses in total 4 extra resistors.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wrote a personal guideline for PCB:&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Test Points: Absolutely Mandatory, esp. Voltages and I2C signals&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Large pads&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Independent (mutually exclusive) Power Supply Section&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br /&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Apart from these, it was overall a lazy Sunday.&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/01/gsoc-daily-log-lazy-sunday/</guid>
-      <dc:date>2014-06-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
