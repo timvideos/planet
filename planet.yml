@@ -25,9 +25,9 @@ blogs:
     image:      "https://avatars2.githubusercontent.com/u/2363074?s=50"
 
   - author:     "Max (Dockerization)"
-    url:        "http://mstritzi.nfshost.comcom"
+    url:        "http://mstritzi.nfshost.com/blog"
     title:      "Blog"
-    feed:       "http://mstritzi.nfshost.com/blog/index.php/feeds/rss"
+    feed:       "http://mstritzi.nfshost.com/blog/rss/"
     categories: "GSoC-2014"
     tags:       "news dockerization"
     image:      "https://avatars3.githubusercontent.com/u/4483139?s=50"
