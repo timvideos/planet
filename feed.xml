@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Run a Test Stream</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/run-a-test-stream/</link>
+      <description>&lt;p&gt;An issue that has been troubling me for a while is that the ‘pspec’ parameter in the callback was set to None.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/run-a-test-stream/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 05/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/gsoc-snippet-05-06-2014/</link>
       <description>&lt;b&gt;[code]&lt;/b&gt; added new template for every subpage on developers page&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added iframe with news to main developers page&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created pull request for planet.rb&lt;div class=&quot;author&quot;&gt;
@@ -267,16 +277,6 @@
 </description>
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 2 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</link>
-      <description>&lt;p&gt;I continued with the porting of base dependency modules not covered in previous week. To fix the failing tests, I ported boot.py first which led to tests for other modules passing again. After this, I ported pygobject.py and feeder.py followed by padmonitor.py where I faced some problems due to version 1.2.1 of Gstreamer. This is the latest available version in Ubuntu 12.04 precise. I fixed these by implementing some changes manually.&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-06T00:00:00+00:00</dc:date>
