@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;-Studied&amp;nbsp;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;ug416 and ug388 to understand XILINX MIG&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Studied working of DDR2 Ram&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Ran example design to understand the working further. Took me lot of time to get the clocks working at correct rate as PLL values were changed manually which I didn't take notice of.&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;docs-internal-guid-ffdcb646-6e8a-ffb5-4a66-414fe4bcad2e&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;321px;&quot; src=&quot;https://lh4.googleusercontent.com/Fja4sKaFLPqsgI8RyrgxmwIgF3leN6uPqmk7yRMkUAahP7vfDt6tQ8wevFSp6oDLEw-6uRu3ICsG-CejCpGG-Q2sNxwnaBD1a_xHAywrXMB6ZdxhAodTOiGevgo8bxiq0A&quot; style=&quot;-webkit-transform: rotate(0rad); border: none;&quot; width=&quot;512px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;The read FSM of DDR2 looks something like this^. So 1 burst read gives 64 bytes. Jpeg encoder needs 1280*8*3 bytes to start. That means it takes a lot of cycle to fill the jpeg. I will try &lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;under clocking&lt;/span&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt; the DDR2 ram today and see whether it affects the frame rate. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Also I will start coding the test bench.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Videotest component ported</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/videotest-component-ported/</link>
@@ -264,16 +279,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/gsoc-weekly-overview-good-momentum/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>GSoC Update 6-1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</link>
-      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-05T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
