@@ -40,6 +40,21 @@
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>6 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/6-june-14/</link>
+      <description>&lt;p&gt;I initialized a &lt;a href=&quot;https://github.com/Niharika29/bugtracker&quot;&gt;new git repo&lt;/a&gt; from the 2-scoops-of-django template. Messed with the javascript and templates a bit. Got a feel of the environment. Also got to learn more about virtualenv and usage. The repo is initialized with Django 1.6.5. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/6-june-14/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Videotest component ported</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/videotest-component-ported/</link>
       <description>&lt;p&gt;An important requirement, gst-python1.0 is not available for Ubuntu 12.04 precise in the Gstreamer developers PPA so I compiled it from source. This provided overrides that were missing in my system and this solved various problems including Gst.Fraction (previous blog post) and Gst.TIME_ARGS (that I had implemented myself).&lt;/p&gt;
@@ -262,21 +277,6 @@
 </description>
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC] What hapenned during this week (week 2)</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-what-hapenned-during-this-week-week-2/</link>
-      <description>That was great week, I've learnt a lot and did some code and prepared small website that is already online: &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;http://planet.timvideos.us&lt;/a&gt;, but before I did that I spend some time with creating mockups and design for timvideos.us websites. I think I have created something that looks good, is unique and fit into TimVideos community needs.&lt;br /&gt;&lt;br /&gt;Currently I spend my time working on design for current content, that is not easy, because I need to think how to fit new design into old content and I also need to think about the future: New design should work good with new content too, I hope that I will prepare something that everyone will like.&lt;br /&gt;&lt;br /&gt;During this week I've also updated Jekyll from 0.21 to 2.0 and every plugins that was used on current solution I had to rewrite. I've added prose.io as a content editor for website, but I also noticed that GitHub offers now great content editor out-of-the-box and many people uses GitHub editor instead of prose.io.&lt;br /&gt;Working with prose.io wasn't easy, I've had to deploy small application on Heroku (called Gatekeeper) to authenticate to GitHub account, I've had some bugs like redirection errors, or routing errors, but I resolved them and prose.io works almost correctly (I am saying almost, because of problems with configuration, local prose.io doesn't want to load prose.yml file from repository to load all settings for editor.&lt;br /&gt;&lt;br /&gt;I've written also a lot of small plugins for Jekyll and that was the biggest and greatest fun, Jekyll is really easy to extend and writing plugins is very simple and can be done in many ways. That makes every developer happy. :)&lt;br /&gt;&lt;br /&gt;I've prepared planet.timvideos.us page, I've added there my custom theme, added categories, and tags. I've added also GitHub activities, avatars fetched from GitHub accounts. I've written an automatic generate script, which runs every minute and updates the planet.timvideos.us. I've prepared 2 generators: OPML generator and iFrame generator, to provide feed in opml and site without sidebar (only news).&lt;br /&gt;&lt;br /&gt;Also I've started to using Producteev to manage project and make sure that everything is realized according to plan.&lt;br /&gt;&lt;br /&gt;I've learnt a lot from Tim, my mentor Leon and whole community, thank you guys. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-what-hapenned-during-this-week-week-2/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-06T00:00:00+00:00</dc:date>
