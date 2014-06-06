@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Used Joelw's code on his blog to test the DDR2 ram. After initial hiccups I was finally able to do it. Also I underclocked the DDR2 Ram to check if there is a change in frame rate. When clock was reduced by half there was no change and when I reduced it further mplayer showed a timeout error.&lt;br /&gt;@shenki: I have added a new commit with the &lt;a href=&quot;https://github.com/ajitmathew/HDMI2USB/commit/78a97676ac6f9163bf5f5751f4597046b86c3e2b&quot;&gt;xsvf files&lt;/a&gt;. Try them on your board and please tell me the frame rate you observed. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Run a Test Stream</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/run-a-test-stream/</link>
       <description>&lt;p&gt;An issue that has been troubling me for a while is that the ‘pspec’ parameter in the callback was set to None.&lt;/p&gt;
@@ -263,21 +278,6 @@
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/gsoc-daily-log-back-to-datasheet/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Weekend Review</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Work done in last week: &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Investigated the effect of encoding quality.&lt;/li&gt;&lt;li&gt;Investigated the effect of post jpeg stages&lt;/li&gt;&lt;li&gt;Changed FSM of JPEG core&lt;/li&gt;&lt;li&gt;Underclocking of Jpeg core&lt;/li&gt;&lt;li&gt;Studied Chroma Subsampling&lt;/li&gt;&lt;li&gt;Wrote code of UART (alpha stage)&lt;/li&gt;&lt;/ul&gt;Work to be done this week:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Complete UART implementation with documentation on how to use it so that it can be used by other developers.(2-3 days)&lt;/li&gt;&lt;li&gt;&amp;nbsp;Then try one of these:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Investigate performance of pre-jpeg blocks. &lt;/li&gt;&lt;li&gt;Write a test bench to simulate the HDMI2USB firmware.(Will take a week or two).&lt;/li&gt;&lt;li&gt;Implement chroma subsampling 4:2:0.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-06T00:00:00+00:00</dc:date>
   </channel>
