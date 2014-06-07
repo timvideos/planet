@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily snippet - 2x</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/07/daily-snippet-2x/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Following a modular approach, the serial expansion board will have a base board and serial adapters.&lt;/li&gt;&lt;li&gt;The base board would have 6 x RS232C true serial ports with DB9 connectors which would make base board very useful by itself. The DB9 connectors also has excellent mechanical stability for connecting these additional adapters. Now these serial ports could be used directly with VISCA cable or can connect to any other serial device available on internet. I wonder if a serial mouse would work if I connect it to this serial expansion board...&lt;/li&gt;&lt;li&gt;The serial adapters would be - Serial-GPIO, Serial-RS485. A Serial-DMX adapter can be designed - the protocol is easy, but since a market option is available, will do this only if I run out of things to do. Even RS-232 to RS485 adapters are available to buy, will go through market offerings to see if I need to make one or not.&lt;/li&gt;&lt;li&gt;Wondering how I would feed power to the serial-adapters using the base board. I might use the RTS line as explained &lt;a href=&quot;http://www.epanorama.net/circuits/rspower.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, and provide a jumper to disable it.&lt;/li&gt;&lt;li&gt;On the other hand, I would like my serial adapters to be usable with other USB-Serial adapters, in case someone wants to use it that way. How should I power it... maybe a 5V DC jack should also be there.&lt;/li&gt;&lt;li&gt;To add more value to this board, I'm planing to give complete galvanic isolation instead of ESD chips.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#&quot; target=&quot;_blank&quot;&gt;Here&lt;/a&gt; is a draft specification document for the serial expansion board. Have to enter board design drawings and circuit design. May be, this will end up being the documentation in my repository :)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/07/daily-snippet-2x/</guid>
+      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Used Joelw's code on his blog to test the DDR2 ram. After initial hiccups I was finally able to do it. Also I underclocked the DDR2 Ram to check if there is a change in frame rate. When clock was reduced by half there was no change and when I reduced it further mplayer showed a timeout error.&lt;br /&gt;@shenki: I have added a new commit with the &lt;a href=&quot;https://github.com/ajitmathew/HDMI2USB/commit/78a97676ac6f9163bf5f5751f4597046b86c3e2b&quot;&gt;xsvf files&lt;/a&gt;. Try them on your board and please tell me the frame rate you observed. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -267,16 +282,6 @@
 </description>
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</guid>
-      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-07T00:00:00+00:00</dc:date>
