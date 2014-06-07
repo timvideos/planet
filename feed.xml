@@ -25,6 +25,16 @@
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>8 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</link>
+      <description>&lt;p&gt;Did a good amount of progress today. &lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</guid>
+      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Used Joelw's code on his blog to test the DDR2 ram. After initial hiccups I was finally able to do it. Also I underclocked the DDR2 Ram to check if there is a change in frame rate. When clock was reduced by half there was no change and when I reduced it further mplayer showed a timeout error.&lt;br /&gt;@shenki: I have added a new commit with the &lt;a href=&quot;https://github.com/ajitmathew/HDMI2USB/commit/78a97676ac6f9163bf5f5751f4597046b86c3e2b&quot;&gt;xsvf files&lt;/a&gt;. Try them on your board and please tell me the frame rate you observed. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -272,16 +282,6 @@
 </description>
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/progress-report/</guid>
-      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>How to run tests?</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</link>
-      <description>&lt;p&gt;Running all the tests in module was broken due to mixing of gobject and gi. So, I’ve created a &lt;code&gt;working-tests.txt&lt;/code&gt; and a &lt;code&gt;run_tests.sh&lt;/code&gt; to read this file and run the tests. As a result, Travis build is passing now as seen on badge on sidebar of this blog.&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-07T00:00:00+00:00</dc:date>
