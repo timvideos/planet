@@ -142,14 +142,19 @@ img {
   bottom:5px;
 }
 
-.social {
+.nav > .social {
   font-size: 30px;
 }
 
-.social .fa {
-  margin-right: 10px;
+.nav > .social > a{
+  position: inline;
+  display: inline-block;
+  padding: 0;
 }
 
+.nav > .social .fa {
+  margin-right: 10px;
+}
 
 .label-default {
   background-color:#dddddd;

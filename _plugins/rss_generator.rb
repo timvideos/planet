@@ -75,7 +75,7 @@ module Jekyll
 
       categories.each do |category|
         # Create the rss with the help of the RSS module
-        generate_rss(site,  "#{site.config['name']} - Category: #{category.upcase}", "#{category}.xml") do |post|
+        generate_rss(site,  "#{site.config['name']} - Category: #{category.upcase}", "feed-#{category}.xml") do |post|
           if post.categories.include? category
             if allowed_tags.empty? && allowed_types.empty?
               true
@@ -102,7 +102,7 @@ module Jekyll
 
       tags.each do |tag|
         # Create the rss with the help of the RSS module
-        generate_rss(site,  "#{site.config['name']} - Tag: #{tag.upcase}", "#{tag}.xml") do |post|
+        generate_rss(site,  "#{site.config['name']} - Tag: #{tag.upcase}", "feed-#{tag}.xml") do |post|
           if post.tags.include? tag
             if allowed_types.empty?
               true
