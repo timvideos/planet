@@ -27,17 +27,99 @@ module Jekyll
     priority :lowest
     safe true
 
-    # Generates an rss 2.0 feed
+    # Generates an rss 2.0 feeds
     #
     # site - the site
     #
     # Returns nothing
     def generate(site)
+      generate_for_all(site)
+      generate_for_tags(site)
+      generate_for_categories(site)
+    end
+
+    private
+
+    # Generates an rss 2.0 feed
+    #
+    # site - the site
+    #
+    # Returns nothing
+    def generate_for_all(site)
+      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
+      allowed_tags  = site.config['rss_allowed_tags'].split  ' ' rescue []
+
+        # Create the rss with the help of the RSS module
+      generate_rss(site,  site.config['name']) do |post|
+        if allowed_tags.empty? && allowed_types.empty?
+          true
+        elsif allowed_tags.empty?
+          allowed_types.include? post.data['type']
+        elsif allowed_types.empty?
+          (post.tags & allowed_tags) > 0
+        else
+          allowed_types.include?(post.data['type']) && (post.tags & allowed_tags).size > 0
+        end
+      end
+    end
+
+    # Generates an rss 2.0 feed for categories listed in config
+    #
+    # site - the site
+    #
+    # Returns nothing
+    def generate_for_categories(site)
+      categories = site.config['rss_categories'].split ' ' rescue []
+      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
+      allowed_tags  = site.config['rss_allowed_tags'].split ' ' rescue []
+
+      categories.each do |category|
+        # Create the rss with the help of the RSS module
+        generate_rss(site,  "#{site.config['name']} - Category: #{category.upcase}", "#{category}.xml") do |post|
+          if post.categories.include? category
+            if allowed_tags.empty? && allowed_types.empty?
+              true
+            elsif allowed_tags.empty?
+              allowed_types.include? post.data['type']
+            elsif allowed_types.empty?
+              (post.tags & allowed_tags) > 0
+            else
+              allowed_types.include?(post.data['type']) && (post.tags & allowed_tags).size > 0
+            end
+          end
+        end
+      end
+    end
+
+    # Generates an rss 2.0 feed for tags listed in config
+    #
+    # site - the site
+    #
+    # Returns nothing
+    def generate_for_tags(site)
+      tags = site.config['rss_tags'].split ' ' rescue []
+      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
+
+      tags.each do |tag|
+        # Create the rss with the help of the RSS module
+        generate_rss(site,  "#{site.config['name']} - Tag: #{tag.upcase}", "#{tag}.xml") do |post|
+          if post.tags.include? tag
+            if allowed_types.empty?
+              true
+            else
+              allowed_types.include? post.data['type']
+            end
+          end
+        end
+      end
+    end
+
+
+    def generate_rss(site, title, name = nil)
       require 'rss'
 
-      # Create the rss with the help of the RSS module
       rss = RSS::Maker.make("2.0") do |maker|
-        maker.channel.title = site.config['name']
+        maker.channel.title = title
         maker.channel.link = site.config['url']
         maker.channel.description = site.config['description'] || "RSS feed for #{site.config['name']}"
         maker.channel.author = site.config["author"]
@@ -50,15 +132,7 @@ module Jekyll
         allowed_types = site.config['rss_allowed_types'].split " " rescue []
 
         filtered_posts = site.posts.select do |post|
-          if allowed_tags.empty? && allowed_types.empty?
-            true
-          elsif allowed_tags.empty?
-            allowed_types.include? post.data['type']
-          elsif allowed_types.empty?
-            (post.tags & allowed_tags) > 0
-          else
-            allowed_types.include?(post.data['type']) && (post.tags & allowed_tags).size > 0
-          end
+          block_given? ? yield(post) : true
         end 
 
         filtered_posts.reverse[0..post_limit].each do |post|
@@ -76,16 +150,15 @@ module Jekyll
 
       # File creation and writing
       rss_path = ensure_slashes(site.config['rss_path'] || "/")
-      rss_name = site.config['rss_name'] || "rss.xml"
+      rss_name = name || site.config['rss_name'] || "rss.xml"
       full_path = File.join(site.dest, rss_path)
       ensure_dir(full_path)
+
       File.open("#{full_path}#{rss_name}", "w") { |f| f.write(rss) }
 
       # Add the feed page to the site pages
       site.pages << Jekyll::RssFeed.new(site, site.dest, rss_path, rss_name)
     end
-
-    private
 
     # Ensures the given path has leading and trailing slashes
     #
