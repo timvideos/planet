@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 07/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</link>
+      <description>&lt;i&gt;Planet &lt;/i&gt;(&lt;u&gt;planet.timvideos.us&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added dynamically loading posts with AJAX on planet.timvideos.us (created JSON generator for creating easy source for Javascript)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;HTML fixes on planet.timvideos.us (some tags were not closed, modern browsers can handle that situation, but on older it caused some errors)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS generators by category and tags&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added OPML and RSS icon with ability to download feeds&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Getting Started &lt;/i&gt;(&lt;u&gt;currently on pinoss.github.io&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Finished adapting current content to new layout&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS icon with ability to download feeds from planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added news as a tab on website (iframe with content from planet.timvideos.us)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</guid>
+      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>8 June '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</link>
       <description>&lt;p&gt;Did a good amount of progress today. &lt;/p&gt;
@@ -237,20 +252,6 @@
 </description>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/feedcomponent-ported/</guid>
-      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>31 May '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;Managed to link my Report Bug button to a new page. &lt;/li&gt;
-&lt;li&gt;Created a PostgreSQL database and did a syncdb with website folder&lt;/li&gt;
-&lt;li&gt;Investigated django directory structure. Thinking of the possibility to make this into a new app, like website, tracker&amp;hellip;#note- Ask skay&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Very strangely, after a 3 hour break or so, when I tried to get the server running again, I get the error: &lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/31/31-may-14/</guid>
       <dc:date>2014-05-31T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-07T00:00:00+00:00</dc:date>
