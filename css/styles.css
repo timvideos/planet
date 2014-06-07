@@ -30,6 +30,10 @@ a {
   color:#024c7d;
 }
 
+img {
+  max-width: 100%;
+}
+
 .center {
   text-align: center;
 }
@@ -163,6 +167,7 @@ a {
 
 .panel {
   border-radius: 0;
+  word-break: break-all
 }
 .panel .btn i,.btn span{
  color:#666666;
