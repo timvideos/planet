@@ -11,7 +11,10 @@
               <h5>
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h5>
-
+              <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
+                <p class="post-content"></p>
+                <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
+              </div>
               <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
             </div>
             <div class="col-sm-2">
@@ -39,7 +42,10 @@
               <h5>
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h5>
-
+              <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
+                <p class="post-content"></p>
+                <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
+              </div>
               <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
             </div>
             <div class="col-sm-2">
