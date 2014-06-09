@@ -172,7 +172,7 @@ img {
 
 .panel {
   border-radius: 0;
-  word-break: break-all
+  word-break: break-word;
 }
 .panel .btn i,.btn span{
  color:#666666;
