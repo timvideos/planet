@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/06/04/problems-with-gst-fraction//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Problems with Gst.Fraction</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 4, 2014
+           • Amanpreet (Porting Flumotion)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                news
+              </span>
+            
+              <span class="label label-tag">
+                flumotion
+              </span>
+            
+          </p>
+        
+        <p class="article">
+          <p>There is a Fraction class I need to port but I’m facing a few problems.</p>
+
+<p>In gst-0.10, we use it like <code>gst.Fraction(2,4)</code> and we get a <code>&lt;gst.Fraction 1/2&gt;</code> Here’s the details of gst.Fraction :</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">Type</span><span class="p">:</span>            <span class="n">classobj</span>
+<span class="n">String</span> <span class="n">form</span><span class="p">:</span>     <span class="n">gst</span><span class="o">.</span><span class="n">Fraction</span>
+<span class="n">File</span><span class="p">:</span>            <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python2</span><span class="o">.</span><span class="mi">7</span><span class="o">/</span><span class="n">dist</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">gst</span><span class="o">-</span><span class="mf">0.10</span><span class="o">/</span><span class="n">gst</span><span class="o">/</span><span class="n">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="n">Init</span> <span class="n">definition</span><span class="p">:</span> <span class="n">gst</span><span class="o">.</span><span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">,</span> <span class="n">denom</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">Source</span><span class="p">:</span>
+<span class="k">class</span> <span class="nc">Fraction</span><span class="p">(</span><span class="n">Value</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">,</span> <span class="n">denom</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">def</span> <span class="nf">__gcd</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">):</span>
+            <span class="k">while</span> <span class="n">b</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">tmp</span> <span class="o">=</span> <span class="n">a</span>
+                <span class="n">a</span> <span class="o">=</span> <span class="n">b</span>
+                <span class="n">b</span> <span class="o">=</span> <span class="n">tmp</span> <span class="o">%</span> <span class="n">b</span>
+            <span class="k">return</span> <span class="nb">abs</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+
+        <span class="k">def</span> <span class="nf">__simplify</span><span class="p">():</span>
+            <span class="n">num</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span>
+            <span class="n">denom</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">denom</span>
+    
+            <span class="k">if</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">num</span> <span class="o">=</span> <span class="o">-</span><span class="n">num</span>
+                <span class="n">denom</span> <span class="o">=</span> <span class="o">-</span><span class="n">denom</span>
+    
+            <span class="c"># Compute greatest common divisor</span>
+            <span class="n">gcd</span> <span class="o">=</span> <span class="n">__gcd</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="n">denom</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">gcd</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+              <span class="n">num</span> <span class="o">/=</span> <span class="n">gcd</span>
+              <span class="n">denom</span> <span class="o">/=</span> <span class="n">gcd</span>
+    
+            <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">=</span> <span class="n">num</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">=</span> <span class="n">denom</span>
+
+        <span class="n">Value</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s">&#39;fraction&#39;</span><span class="p">)</span>
+    
+        <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">=</span> <span class="n">num</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">=</span> <span class="n">denom</span>
+
+        <span class="n">__simplify</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">&#39;&lt;gst.Fraction </span><span class="si">%d</span><span class="s">/</span><span class="si">%d</span><span class="s">&gt;&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">denom</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__eq__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">Fraction</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">denom</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">denom</span>
+        <span class="k">return</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">__ne__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">__eq__</span><span class="p">(</span><span class="n">other</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">__mul__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">Fraction</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">denom</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">other</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">denom</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="ne">TypeError</span>
+
+    <span class="n">__rmul__</span> <span class="o">=</span> <span class="n">__mul__</span>
+
+    <span class="k">def</span> <span class="nf">__div__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">Fraction</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">denom</span><span class="p">,</span>
+                            <span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">*</span> <span class="n">other</span><span class="p">)</span>
+        <span class="k">return</span> <span class="ne">TypeError</span>
+
+    <span class="k">def</span> <span class="nf">__rdiv__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">Fraction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">denom</span> <span class="o">*</span> <span class="n">other</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">)</span>
+        <span class="k">return</span> <span class="ne">TypeError</span>
+
+    <span class="k">def</span> <span class="nf">__float__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">)</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">denom</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Now, gi has some overrides to achieve this functionality. But, this is not available in Gstreamer-1.2.1 (latest version available in Ubuntu 12.04). So, I tried implementing it in this <a href="https://github.com/aps-sids/flumotion-orig/commit/da4e2cb84f4b883158c4fb17c5b31eecc2b745a6">commit</a>. It failed with this error:</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/bin/flumotion-manager&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">41</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="kn">from</span> <span class="nn">flumotion.common</span> <span class="kn">import</span> <span class="n">boot</span>
+  <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/flumotion/__init__.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">35</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="k">class</span> <span class="nc">Fraction</span><span class="p">(</span><span class="n">Gst</span><span class="o">.</span><span class="n">Fraction</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/gi/types.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">212</span><span class="p">,</span> <span class="ow">in</span> <span class="n">__init__</span>
+    <span class="nb">super</span><span class="p">(</span><span class="n">GObjectMeta</span><span class="p">,</span> <span class="n">cls</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">bases</span><span class="p">,</span> <span class="n">dict_</span><span class="p">)</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/gi/_gobject/__init__.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">65</span><span class="p">,</span> <span class="ow">in</span> <span class="n">__init__</span>
+    <span class="n">cls</span><span class="o">.</span><span class="n">_type_register</span><span class="p">(</span><span class="n">cls</span><span class="o">.</span><span class="n">__dict__</span><span class="p">)</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/gi/_gobject/__init__.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">119</span><span class="p">,</span> <span class="ow">in</span> <span class="n">_type_register</span>
+    <span class="n">type_register</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span> <span class="n">namespace</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;__gtype_name__&#39;</span><span class="p">))</span>
+<span class="ne">TypeError</span><span class="p">:</span> <span class="n">Error</span> <span class="n">when</span> <span class="n">calling</span> <span class="n">the</span> <span class="n">metaclass</span> <span class="n">bases</span>
+    <span class="n">argument</span> <span class="n">must</span> <span class="n">be</span> <span class="n">a</span> <span class="n">GObject</span> <span class="n">subclass</span>
+</code></pre></div>
+
+<p>But, running    <code>Gst.Fraction.__class__</code>      in python shell gives output   <code>gi.types.GObjectMeta</code></p>
+
+<p>Placing the <a href="http://cgit.freedesktop.org/gstreamer/gst-python/tree/gi/overrides/Gst.py">Gst.py</a> file inside /usr/lib/python27/dist-packages/gi/overrides/ fixes the problem but it’s not a good/valid fix.</p>
+
+<p>The only (hackish) way I could think of is writing a function that gives same results (if possible) as Gst.Fraction. If you can think of any idea, please let me know in comments. Thanks!</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>
