@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss forked grant/swift-cheat-sheet to pinoss/swift-cheat-sheet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-forked-grant-swift-cheat-sheet-to-pinoss-s/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-forked-grant-swift-cheat-sheet-to-pinoss-s/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
       <description>&lt;!-- push --&gt;
@@ -221,17 +233,6 @@
       <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-09T00:00:00+00:00</dc:date>
   </channel>
