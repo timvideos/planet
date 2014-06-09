@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC] What hapenned during this week (week 3) </title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</link>
+      <description>This week finally I've shown my work results on getting started page and deployed updated version of it on my website (&lt;a href=&quot;http://pinoss.github.io/&quot;&gt;http://pinoss.github.io&lt;/a&gt;), it still need work, but I have a nice page where I can start updating and improving design and content.&lt;br /&gt;&lt;br /&gt;I've added also new page to TimVideos Developers Website, which is NEWS. News are displayed via iframe from &lt;a href=&quot;http://planet.timvideos.us/iframe&quot;&gt;http://planet.timvideos.us/iframe&lt;/a&gt;, design is the same and common user won't see any differences between News and other parts of website.&lt;br /&gt;&lt;br /&gt;TimVideos Planet websites has been also updated. I've added fancybox for every image that was added to post and loading posts content asynchronously. Furthermore I've added RSS generators for tags and categories and ability to download OPML and RSS feeds with icon.&lt;br /&gt;&lt;br /&gt;TimVideos Developers page has some new features: I've added correct configuration for prose.io, which can be helpful if someone want to edit content on website. User can also download RSS feed from planet by clicking icon on sidebar.&lt;br /&gt;&lt;br /&gt;This week I will work on new deploy scripts which will inform developers when generation process failed, add acceptance tests, add ability to publish news to Facebook, Google+ and Twitter, and add liquid tag to generate new panel (box with content) without having knowledge of HTML and bootstrap (user will only define width and markdown file to include and jekyll will generate views).&lt;br /&gt;&lt;br /&gt;Thanks for 3rd week!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Week 3 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/week-3-progress/</link>
       <description>&lt;p&gt;In this week, I fixed the running tests first of all. Running all the tests using &lt;code&gt;trial -rselect flumotion.test&lt;/code&gt; was freezing due to mixing of gobject and gi. So, I created a working-tests.txt and a run_tests.sh to read this file and run only the tests for ported module.&lt;/p&gt;
@@ -266,16 +281,6 @@
 </description>
       <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</guid>
       <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-09T00:00:00+00:00</dc:date>

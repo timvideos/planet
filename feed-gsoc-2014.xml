@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC] What hapenned during this week (week 3) </title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</link>
+      <description>This week finally I've shown my work results on getting started page and deployed updated version of it on my website (&lt;a href=&quot;http://pinoss.github.io/&quot;&gt;http://pinoss.github.io&lt;/a&gt;), it still need work, but I have a nice page where I can start updating and improving design and content.&lt;br /&gt;&lt;br /&gt;I've added also new page to TimVideos Developers Website, which is NEWS. News are displayed via iframe from &lt;a href=&quot;http://planet.timvideos.us/iframe&quot;&gt;http://planet.timvideos.us/iframe&lt;/a&gt;, design is the same and common user won't see any differences between News and other parts of website.&lt;br /&gt;&lt;br /&gt;TimVideos Planet websites has been also updated. I've added fancybox for every image that was added to post and loading posts content asynchronously. Furthermore I've added RSS generators for tags and categories and ability to download OPML and RSS feeds with icon.&lt;br /&gt;&lt;br /&gt;TimVideos Developers page has some new features: I've added correct configuration for prose.io, which can be helpful if someone want to edit content on website. User can also download RSS feed from planet by clicking icon on sidebar.&lt;br /&gt;&lt;br /&gt;This week I will work on new deploy scripts which will inform developers when generation process failed, add acceptance tests, add ability to publish news to Facebook, Google+ and Twitter, and add liquid tag to generate new panel (box with content) without having knowledge of HTML and bootstrap (user will only define width and markdown file to include and jekyll will generate views).&lt;br /&gt;&lt;br /&gt;Thanks for 3rd week!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Week 3 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/week-3-progress/</link>
       <description>&lt;p&gt;In this week, I fixed the running tests first of all. Running all the tests using &lt;code&gt;trial -rselect flumotion.test&lt;/code&gt; was freezing due to mixing of gobject and gi. So, I created a working-tests.txt and a run_tests.sh to read this file and run only the tests for ported module.&lt;/p&gt;
@@ -237,21 +252,6 @@
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/1-june-14/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 01/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/01/gsoc-snippet-01-06-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; created iFrame generator (now you can see page without sidebars simply by adding /iframe/ at the beginning of the address (planet.timvideos.us/iframe), that will be used in code.timvideos.us to show news&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; some css fixes on mobile devices, I've had to change overflow of elements to remove strike out effect on header element&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added theme from planet.timvideos.us to code.timvideos.us, started to adapting current content to new theme&lt;br /&gt;&lt;br /&gt;Plans for tomorrow/next week:&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; working on theme on planet.timvideos.us&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; fix prose.io and configure to work properly&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add iframe from planet.timvideos.us as a part of the website&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add feed download from planet.timvideos.us in code.timvideos.us&lt;br /&gt;&lt;br /&gt;Tomorrow I'll write &lt;i&gt;&lt;b&gt;week summary post&lt;/b&gt;&amp;nbsp;&lt;/i&gt;about progress in GSoC project.&lt;br /&gt;&lt;br /&gt;That was great week, I had so much fun with Jekyll and learnt a lot about plugins, how jekyll works, and about bootstrap and design too, I read a lot of nice articles on Smashing Magazine, lots of forums about bash, and that is only the beginning of GSoC project. I can't wait for more challenges. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/01/gsoc-snippet-01-06-2014/</guid>
-      <dc:date>2014-06-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-09T00:00:00+00:00</dc:date>
   </channel>
