@@ -82,6 +82,8 @@
 <span class="o">(</span>flumotion-job:7806<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-identity:sink&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
 </code></pre></div>
 
+<p>thaytan from #gstreamer told me that it means some element is not setting up pads in the right order. It needs to set caps before sending the segment event.</p>
+
 <p>In week 4, I will fix this issue, run a complete test stream successfully and continue with porting of Audiotest producer.</p><div class="author">
   <span>
     <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
