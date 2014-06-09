@@ -25,6 +25,21 @@
       <dc:date>2014-06-09T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Some Docs</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/09/gsoc-daily-log-some-docs/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-df60d8de-82aa-a355-7ac2-4711d9420b5e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 9th June 2013:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-df60d8de-82aa-a355-7ac2-4711d9420b5e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wrote about I2C VHDL Engines Comparison, &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1-E4SGuPz4Wjqs2BP9ck8GL6wrxWUUAnE6lsq7E3uBgE/edit?usp=sharing&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wrote I2C Tools, Debugging and Getting Started documentation, &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1rNem5J1_V4QUOei_MHRzZVJfjsTon8fnE3eTlhzsrj8/edit?usp=sharing&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/09/gsoc-daily-log-some-docs/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Week 3 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/week-3-progress/</link>
       <description>&lt;p&gt;In this week, I fixed the running tests first of all. Running all the tests using &lt;code&gt;trial -rselect flumotion.test&lt;/code&gt; was freezing due to mixing of gobject and gi. So, I created a working-tests.txt and a run_tests.sh to read this file and run only the tests for ported module.&lt;/p&gt;
@@ -272,16 +287,6 @@
       <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/05/daily-snippet/</guid>
       <dc:date>2014-06-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Problems with Gst.Fraction</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</link>
-      <description>&lt;p&gt;There is a Fraction class I need to port but I’m facing a few problems.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-09T00:00:00+00:00</dc:date>
   </channel>

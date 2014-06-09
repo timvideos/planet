@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Daily Log]: Some Docs</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/09/gsoc-daily-log-some-docs/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-df60d8de-82aa-a355-7ac2-4711d9420b5e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 9th June 2013:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-df60d8de-82aa-a355-7ac2-4711d9420b5e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wrote about I2C VHDL Engines Comparison, &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1-E4SGuPz4Wjqs2BP9ck8GL6wrxWUUAnE6lsq7E3uBgE/edit?usp=sharing&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wrote I2C Tools, Debugging and Getting Started documentation, &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/document/d/1rNem5J1_V4QUOei_MHRzZVJfjsTon8fnE3eTlhzsrj8/edit?usp=sharing&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/09/gsoc-daily-log-some-docs/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Took my day off</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/08/gsoc-daily-log-took-my-day-off/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-7ced-30af-9dc8-62a534812a59&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 8th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-7ced-30af-9dc8-62a534812a59&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Took my day off, showing my visiting friend, around the city and helping him with shopping.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Too tired to even stay awake, the moment I close my eyes, I'm gonna fall into deep sleep.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -292,21 +307,6 @@
 </description>
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/gsoc-daily-log-cvpcb-to-pcbnew/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Wrote a code to test the UART on hardware&lt;/li&gt;&lt;li&gt;Wasted a lot of time trying to get the driver running. Shenki changed the source code to make it compatible with latest kernel but my terminal hangs when I install the drivers.&lt;/li&gt;&lt;li&gt;Finally tested the UART using Windows. Working!&lt;/li&gt;&lt;li&gt;Tested the code for different baud rates. Working for 19200.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Integrate the code with HDMI2USB and test it.&lt;/li&gt;&lt;li&gt;If things work, write documentation and give to HDMI2USB community to test. &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/daily-snippet/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-09T00:00:00+00:00</dc:date>
