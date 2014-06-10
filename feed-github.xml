@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar created repository HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</guid>
+      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar created branch master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</guid>
+      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -210,28 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/planet.rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-pushed-to-master-at-pinoss-planet-rb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-pushed-to-master-at-pinoss-planet-rb/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss commented on pull request pote/planet.rb#45</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-commented-on-pull-request-pote-planet-rb-4/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-commented-on-pull-request-pote-planet-rb-4/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
