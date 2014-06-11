@@ -14,7 +14,8 @@
               <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
                 <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
                 <p class="post-content"></p>
-                <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
+                <button type="button" data-toggle="tooltip" data-original-title="read in {{ post.content | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
+                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide post...</button>
               </div>
               <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
             </div>
@@ -46,7 +47,8 @@
               <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
                 <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
                 <p class="post-content"></p>
-                <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
+                <button type="button" data-toggle="tooltip" data-original-title="read in {{ post.content | reading_time }}" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
+                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide post...</button>
               </div>
               <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
             </div>

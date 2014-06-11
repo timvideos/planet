@@ -34,6 +34,14 @@ img {
   max-width: 100%;
 }
 
+.hide-more {
+  display: none;
+}
+
+.tooltip {
+  font-size: 13px;
+}
+
 .center {
   text-align: center;
 }

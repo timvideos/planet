@@ -19,7 +19,6 @@ module Jekyll
     end
 
     def render(layouts, site_payload)
-      # p site_payload
       super(layouts, site_payload)
     end
 
