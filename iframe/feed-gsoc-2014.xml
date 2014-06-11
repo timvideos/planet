@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
+    <link>http://planet.timvideos.us</link>
+    <description>News from our best developers, all news aggregated by planet.</description>
+    <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>httpstreamer consumer problems</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/10/httpstreamer-consumer-problems/</link>
+      <description>&lt;p&gt;I have been stuggling with httpstreamer for past two days now. The mood of httpstreamer component stays on “waking” and the reason seems “a discont on eater default” but I’m not sure about this. The whole DEBUG log is available &lt;a href=&quot;http://pastebin.com/r5McSdsY&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/10/httpstreamer-consumer-problems/</guid>
+      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC] What hapenned during this week (week 3) </title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</link>
+      <description>This week finally I've shown my work results on getting started page and deployed updated version of it on my website (&lt;a href=&quot;http://pinoss.github.io/&quot;&gt;http://pinoss.github.io&lt;/a&gt;), it still need work, but I have a nice page where I can start updating and improving design and content.&lt;br /&gt;&lt;br /&gt;I've added also new page to TimVideos Developers Website, which is NEWS. News are displayed via iframe from &lt;a href=&quot;http://planet.timvideos.us/iframe&quot;&gt;http://planet.timvideos.us/iframe&lt;/a&gt;, design is the same and common user won't see any differences between News and other parts of website.&lt;br /&gt;&lt;br /&gt;TimVideos Planet websites has been also updated. I've added fancybox for every image that was added to post and loading posts content asynchronously. Furthermore I've added RSS generators for tags and categories and ability to download OPML and RSS feeds with icon.&lt;br /&gt;&lt;br /&gt;TimVideos Developers page has some new features: I've added correct configuration for prose.io, which can be helpful if someone want to edit content on website. User can also download RSS feed from planet by clicking icon on sidebar.&lt;br /&gt;&lt;br /&gt;This week I will work on new deploy scripts which will inform developers when generation process failed, add acceptance tests, add ability to publish news to Facebook, Google+ and Twitter, and add liquid tag to generate new panel (box with content) without having knowledge of HTML and bootstrap (user will only define width and markdown file to include and jekyll will generate views).&lt;br /&gt;&lt;br /&gt;Thanks for 3rd week!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Week 3 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/week-3-progress/</link>
+      <description>&lt;p&gt;In this week, I fixed the running tests first of all. Running all the tests using &lt;code&gt;trial -rselect flumotion.test&lt;/code&gt; was freezing due to mixing of gobject and gi. So, I created a working-tests.txt and a run_tests.sh to read this file and run only the tests for ported module.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/week-3-progress/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 08/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/gsoc-snippet-08-06-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; Fixed prose.io configuration (I need to test it because I have some rare problems with adding tags for page with prose.io, but everything seems to work properly).&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next week:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Prepare new deploy script that will alert developers by email that deployment failed.&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; Simplify process of adding new panel to page (create new liquid tag that will generate panel with selected settings (like width, classes, etc. with selected content from _includes folder)&lt;br /&gt;&lt;b&gt;[configuration/research] &lt;/b&gt;Find tool for monitor our websites if there are online (some type of Selenium tests but that run every 15 minutes and alert developers if something gone wrong)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Add ability to publish news to social networks like Twitter or Google+&lt;br /&gt;&lt;br /&gt;All task planned for this week has been ended, tomorrow I will write Week 3 Summary Post. :)&lt;br /&gt;Thanks for great, 3rd week, all TimVideos members, Leon, Tim, and users. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/gsoc-snippet-08-06-2014/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>8 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/8-june-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;I implemented location detection in my app today using pygeoip.&lt;/li&gt;
+&lt;li&gt;I detected user network bandwidth by downloading an image at a URL using JS and timing it. This method gives network speed fairly close to as measured by other online speedtests. &lt;/li&gt;
+&lt;li&gt;I toyed with html2canvas and implemented a dummy. &lt;/li&gt;
+&lt;li&gt;I was wondering about the possible options we have for storing the generated client-end screenshots. I talked to skay and we came up with the following: 
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/8-june-14/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 07/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</link>
+      <description>&lt;i&gt;Planet &lt;/i&gt;(&lt;u&gt;&lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added dynamically loading posts with AJAX on planet.timvideos.us (created JSON generator for creating easy source for Javascript)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;HTML fixes on planet.timvideos.us (some tags were not closed, modern browsers can handle that situation, but on older it caused some errors)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS generators by category and tags&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added OPML and RSS icon with ability to download feeds&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Getting Started &lt;/i&gt;(&lt;u&gt;currently on &lt;a href=&quot;http://pinoss.github.io/&quot;&gt;pinoss.github.io&lt;/a&gt;&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Finished adapting current content to new layout&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS icon with ability to download feeds from planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added news as a tab on website (iframe with content from planet.timvideos.us)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</guid>
+      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>8 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</link>
+      <description>&lt;p&gt;Did a good amount of progress today. &lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</guid>
+      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Run a Test Stream</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/run-a-test-stream/</link>
+      <description>&lt;p&gt;An issue that has been troubling me for a while is that the ‘pspec’ parameter in the callback was set to None.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/run-a-test-stream/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 06/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/gsoc-snippet-06-06-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;fix pull request after review from planet.rb creators (pull request has been merged)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added fancybox for opening images in the same window (preparing before dynamically loaded news on front page (instead of showing few words from post, user after click on preview button will see fully rendered news without redirecting to another page))&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; css fixes&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/gsoc-snippet-06-06-2014/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 05/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/gsoc-snippet-05-06-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added new template for every subpage on developers page&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added iframe with news to main developers page&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created pull request for planet.rb&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/gsoc-snippet-05-06-2014/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>6 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/6-june-14/</link>
+      <description>&lt;p&gt;I initialized a &lt;a href=&quot;https://github.com/Niharika29/bugtracker&quot;&gt;new git repo&lt;/a&gt; from the 2-scoops-of-django template. Messed with the javascript and templates a bit. Got a feel of the environment. Also got to learn more about virtualenv and usage. The repo is initialized with Django 1.6.5. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/6-june-14/</guid>
+      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Videotest component ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/videotest-component-ported/</link>
+      <description>&lt;p&gt;An important requirement, gst-python1.0 is not available for Ubuntu 12.04 precise in the Gstreamer developers PPA so I compiled it from source. This provided overrides that were missing in my system and this solved various problems including Gst.Fraction (previous blog post) and Gst.TIME_ARGS (that I had implemented myself).&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/videotest-component-ported/</guid>
+      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Problems with Gst.Fraction</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</link>
+      <description>&lt;p&gt;There is a Fraction class I need to port but I’m facing a few problems.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</guid>
+      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>GSoC Update 6-3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</guid>
+      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>How to run tests?</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</link>
+      <description>&lt;p&gt;Running all the tests in module was broken due to mixing of gobject and gi. So, I’ve created a &lt;code&gt;working-tests.txt&lt;/code&gt; and a &lt;code&gt;run_tests.sh&lt;/code&gt; to read this file and run the tests. As a result, Travis build is passing now as seen on badge on sidebar of this blog.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</guid>
+      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>GSoC Update 6-2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</guid>
+      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 03/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-snippet-03-06-2014/</link>
+      <description>Unfortunately and suddenly I had to prepare project for Artificial Intelligence classes and I spend most of the day working on that project. Tomorrow I hope my project will be accepted and I will be 100% focused on GSoC project.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[community]&lt;/b&gt; hangout talk with my mentor (great idea!)&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;read links from Tim&lt;br /&gt;&lt;b&gt;[research]&lt;/b&gt; tried to find best monitoring tool to check if website is working, I found great post about that tools (&lt;a href=&quot;http://www.hongkiat.com/blog/monitor-website-up-downtime-30-free-web-services-and-tools/&quot;&gt;http://www.hongkiat.com/blog/monitor-website-up-downtime-30-free-web-services-and-tools/&lt;/a&gt;), I am thinking about simple 'ping' application to check if server responds correctly, but it's more important to has some tests if all functionality on website is working (selenium, that runs online (like every 10-30 minutes) and send alerts if tests failed&lt;br /&gt;&lt;b&gt;[research]&lt;/b&gt; reflections about deploy plugin. After talk with Leon, we both came to conclusion that scripts written in bash are too simple and are hard to maintain. So I think that we should use ruby/python/perl script to run the deploy, and if something went wrong it will be sending alerts to email.&lt;br /&gt;&lt;br /&gt;Plans for rest of the week do not change, I will have more time on weekend and I will end all tasks planned for this week and I hope at the beginning of the next week you will see new version of code.timvideos.us.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-snippet-03-06-2014/</guid>
+      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Week 2 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</link>
+      <description>&lt;p&gt;I continued with the porting of base dependency modules not covered in previous week. To fix the failing tests, I ported boot.py first which led to tests for other modules passing again. After this, I ported pygobject.py and feeder.py followed by padmonitor.py where I faced some problems due to version 1.2.1 of Gstreamer. This is the latest available version in Ubuntu 12.04 precise. I fixed these by implementing some changes manually.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/week-2-progress/</guid>
+      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC] What hapenned during this week (week 2)</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-what-hapenned-during-this-week-week-2/</link>
+      <description>That was great week, I've learnt a lot and did some code and prepared small website that is already online: &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;http://planet.timvideos.us&lt;/a&gt;, but before I did that I spend some time with creating mockups and design for timvideos.us websites. I think I have created something that looks good, is unique and fit into TimVideos community needs.&lt;br /&gt;&lt;br /&gt;Currently I spend my time working on design for current content, that is not easy, because I need to think how to fit new design into old content and I also need to think about the future: New design should work good with new content too, I hope that I will prepare something that everyone will like.&lt;br /&gt;&lt;br /&gt;During this week I've also updated Jekyll from 0.21 to 2.0 and every plugins that was used on current solution I had to rewrite. I've added prose.io as a content editor for website, but I also noticed that GitHub offers now great content editor out-of-the-box and many people uses GitHub editor instead of prose.io.&lt;br /&gt;Working with prose.io wasn't easy, I've had to deploy small application on Heroku (called Gatekeeper) to authenticate to GitHub account, I've had some bugs like redirection errors, or routing errors, but I resolved them and prose.io works almost correctly (I am saying almost, because of problems with configuration, local prose.io doesn't want to load prose.yml file from repository to load all settings for editor.&lt;br /&gt;&lt;br /&gt;I've written also a lot of small plugins for Jekyll and that was the biggest and greatest fun, Jekyll is really easy to extend and writing plugins is very simple and can be done in many ways. That makes every developer happy. :)&lt;br /&gt;&lt;br /&gt;I've prepared planet.timvideos.us page, I've added there my custom theme, added categories, and tags. I've added also GitHub activities, avatars fetched from GitHub accounts. I've written an automatic generate script, which runs every minute and updates the planet.timvideos.us. I've prepared 2 generators: OPML generator and iFrame generator, to provide feed in opml and site without sidebar (only news).&lt;br /&gt;&lt;br /&gt;Also I've started to using Producteev to manage project and make sure that everything is realized according to plan.&lt;br /&gt;&lt;br /&gt;I've learnt a lot from Tim, my mentor Leon and whole community, thank you guys. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-what-hapenned-during-this-week-week-2/</guid>
+      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>GSoC Update 6-1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</link>
+      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
+
+</description>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</guid>
+      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2014-06-11T00:00:00+00:00</dc:date>
+  </channel>
+</rss>
