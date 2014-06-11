@@ -222,3 +222,11 @@ padding-bottom: 0;
     margin-bottom:30px;
   }
 }
+
+.share-buttons{
+  list-style: none;
+}
+
+.share-buttons .share-button {
+  margin-right: 5px;
+}

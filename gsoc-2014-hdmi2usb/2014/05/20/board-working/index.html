@@ -54,6 +54,12 @@
             
           </p>
         
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F20%2Fboard-working%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F20%2Fboard-working%2F&text=TimVideos.us%20Board+Working%21%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F20%2Fboard-working%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F20%2Fboard-working%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
         <p class="article">
           <div dir="ltr" style="text-align: left;" trbidi="on">Finally got the board working. I had initially used Adept and fxloader to flash the firmware but it turns out there seems to be a problem with fxloader. So I used libFPGAlink. I used the wiki by mithro on the same and after some efforts things starts to work.<br /><br /><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-aiPUwbQL0Rw/U3s4lUmdRWI/AAAAAAAAAJg/Yf3C10FSV0c/s1600/IMG_20140519_162614.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-aiPUwbQL0Rw/U3s4lUmdRWI/AAAAAAAAAJg/Yf3C10FSV0c/s1600/IMG_20140519_162614.jpg" height="640" width="582" /></a></div><div style="text-align: center;">(Lets ignore the tooth brush)</div>Now I am planning to try to improve the frequency of the operation of the JPEG encoder. Simulations show that at 100Mhz, 20Hz can be achieved for 1080p images. I am planning to run smartXplorer on the design and see which mapping and PAR strategy is the best. Also I will try to removing the timing violation as ISE slows other parts of the design to meet the timing requirements. So lets see how things work out.</div><div class="author">
   <span>

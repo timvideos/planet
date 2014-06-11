@@ -54,6 +54,12 @@
             
           </p>
         
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F29%2Ftimvideo-gsoc-2014-mjpeg-optimisation%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F29%2Ftimvideo-gsoc-2014-mjpeg-optimisation%2F&text=TimVideos.us%20TimVideo+GSoC+2014%3A+MJPEG+Optimisation%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F29%2Ftimvideo-gsoc-2014-mjpeg-optimisation%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F29%2Ftimvideo-gsoc-2014-mjpeg-optimisation%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
         <p class="article">
           <div dir="ltr" style="text-align: left;" trbidi="on">Yesterday probably I worked the longest (10 hrs maybe). I was trying to check whether the reason for slow fps is blocks after jpeg core. To check this I removed the the signals which the usb controller gave to the jpeg core. Also I wrote a code which counts the done signal of the jpeg core and I output the range of the count using LEDs(like for count less than 10 LED0 would light up). And it turns out that count of the done signal was in same range as the output fps. I tried different combinations like different encoding quality, allowing some signals of usb controller to control the jpeg core while ignoring other and the result was more or less the same. Meanwhile the code threw a timing error which took me 2 hrs to debug.&nbsp; <br /><br />&nbsp;Also I did some reading on quantisation tables for JPEG. Turns out that quantisation should be low for luminance table (quality-85%) and high for chrominance of around 50%. But this is a general rule and cannot be used for all applications. <br /><br />Today I plan to change the jpeg top module and see whether it improves fps. I have few ideas. </div><div class="author">
   <span>
