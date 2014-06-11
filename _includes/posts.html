@@ -12,6 +12,7 @@
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h5>
               <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
                 <p class="post-content"></p>
                 <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
               </div>
@@ -43,6 +44,7 @@
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </h5>
               <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
+                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
                 <p class="post-content"></p>
                 <button type="button" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
               </div>

@@ -5,6 +5,8 @@ description: "News from our best developers, all news aggregated by planet."
 url: "http://planet.timvideos.us"
 exclude: [Gemfile, Gemfile.lock, planet.yml, README.md, .bundle, vendor]
 
+words_in_excerpt: 30
+
 markdown: kramdown
 permalink: pretty
 
