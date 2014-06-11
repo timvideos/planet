@@ -5,7 +5,7 @@ module Jekyll
   class JSONPost < Page; end
 
   class JSONGenerator < Generator
-    priority :low
+    priority :lowest
     safe true
     
     def generate(site)
