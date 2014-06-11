@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/06/03/rtp-packet-creation-in-python-from-raw-video-stre//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>RTP packet creation in Python from raw video stream</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 3, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                news
+              </span>
+            
+              <span class="label label-tag">
+                hdmi2usb
+              </span>
+            
+              <span class="label label-tag">
+                ethernet
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F03%2Frtp-packet-creation-in-python-from-raw-video-stre%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F03%2Frtp-packet-creation-in-python-from-raw-video-stre%2F&text=TimVideos.us%20RTP+packet+creation+in+Python+from+raw+video+stream%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F03%2Frtp-packet-creation-in-python-from-raw-video-stre%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F03%2Frtp-packet-creation-in-python-from-raw-video-stre%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          OK finally got the basic RTP packet creation done in Python using <a href="http://www.myhdl.org/">MyHDL </a>and <a href="https://code.google.com/p/dpkt/">Dpkt</a>&nbsp;libraries<br />Please look at the <a href="https://bitbucket.org/tariq786/myhdl_projs/src/434d5bc39f9202fd10fd5c5c080975da51b28701/sim_models/verification.py?at=master">source code</a> here. Note that you need to have MyHDL and Dpkt libraries installed to get this code to run.<br /><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-NcrpEI867kM/U41UlkgumBI/AAAAAAAAAHs/uYXvOVrCeck/s1600/write_image_buffer_waveform.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-NcrpEI867kM/U41UlkgumBI/AAAAAAAAAHs/uYXvOVrCeck/s1600/write_image_buffer_waveform.jpg" height="60" width="320" /></a></div><br /><div style="text-align: center;">Figure 1: Write into Image Buffer by raw HDMI stream</div><div style="text-align: center;"><br /></div><div style="text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-qEmkmVM2-MI/U41Uxlq80-I/AAAAAAAAAH0/AFs83KLs-Dc/s1600/read_image_buffer_waveform.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-qEmkmVM2-MI/U41Uxlq80-I/AAAAAAAAAH0/AFs83KLs-Dc/s1600/read_image_buffer_waveform.jpg" height="61" width="320" /></a></div><div style="text-align: left;"><br /></div><div style="text-align: center;">Figure 2: Read from Image Buffer by RTP block</div><br /><br /><br />Here is the RTP packet of length 1086 bytes. Only the RTP payload is shown.<br /><br />raw_bytes=ACE19577A2EB3665189599C2644D56420366CE5D386E802AFD79E54852C9C2AAB8C6DE15974BCEC18F7B7D3D0C8D50ED37D7808D498F4D773FF5D29278EC24BE1572F68F56BC2AF94E544148563E9493F585E2E9C3FBE7DA38D520656158D794D8F06D926B8B7B3B49B60974B7A0E1DC3496B1DAD4F110220366C35AD6217AC0EFC15FB2734DBD0D1D60B27E3FFAF13A2344BA3E8B2CF7276BFB1C94E2F86A9C503DF79F2882C948A8EE8572D7B09CE197D1F95E62285FB918009F25C41B4CA405AC51A28B3C71A6D28F450E64CD7A6DD7BB6CD48FE2035FE5BF30A16C3E67287C2BF9A1213FBE5EF98CA58BA22DA618B716AC98E4618EE450CB62CF57C0D4C626A652B9D47A539CF568641A7EBB750899DB81CBD3D09CC121ED2E48A8429FF72C214F88C028ABB2BE8FD6DFB79E36D0E8A42EA09B472AA3B82177DABD182B9938010688782C6663B9B515DEF5072A518640D7486723297E017A4C2C94F3E781E510B95BD0A74B51584AC39F477585BA4F70ED625F2D6477C5B1357D3C36EFAD68165D97AC3E1216A8E6B96EB6F2FB30562D24CEF996E1C675DEA2E5D977F3C0A1C3103ED7E2774CE69C1F136D5043CC9E4AA6E78A05D3113798AA0439C131EC4CCD509375EBC9942A67B44E8DC1DC992AEE7D56E0733716327E16831D8DE0453740C5A250B6352F4F74C411911DE4714D3ACCC6C71D4D614B68ACA6B676A97533604A491AE262D1AAC6AF55A45BEC0AEA382262F6036A8CBE0471FE3AB7AD7ACE1ED565D715E9B6CE0308FB019B7661E68FBB13512F6413AC5EC5456D83863BEEC1A53D9DDF857FC36D1EB732D07FECE2430B10FE253A60953AFCB38790899C775844F422DB83B5AB2A12443711BF46BA5C35E1C2BAD4BCC464ED59A4D924993A295006B34B63693E7B6A414D5894F91985E58AEEAAA08C430F7C354CBDCF43BD3D5458DC1856458919E001CFCA45BD12536F2B9D6855622741C58D7359C17F8AA943A147E36E634BA89E9EDD92188F3CE4E72DA2AF8D2B267248A9FCAA5C30D141DF2548FCE7531414D106AE4EEA84887984700F09C3A8D9E67B614CB7A1B417233D1D97EFC13F30011BE67EEE5CDACCD933816046E7919E2D22C568614756AE3E26323FCBE892968F2D99B655A18A4961A3C0F0DFE4FC56442071FD9516765998287E507CA9C58FDB2E8281CBF1B11942C919B36102A2B55AC9544094A6B78A931687552AC48BD9D4C0D580271A9FE19D37787959428DF04C886E38A39F2C601B9A299D70C4F6B4E82D7A02C8DD72B5F7A73596A29E13E4D6BE0F183C86E2CCDB6A95FC06AAF58754A21F6ABC3EC8237CACDCB55DE06D9651EF2E6A230E12C1BBB378B23CD785668DEEEDF06E8A2F71A0D6166B1BD281D729CDF2AC9763F0FDD390DB7025637EF68C6AD40AF1B01CB52A5BA289782B299C35550D6B5F0A4B6931F42226F455448403A77A29FA746C5CC27CFC81808E77A5DBCCC6D9BE5CB5E892A1CF2429FFC5EE8DE98BC06923B208E<br />byte_cnt= 1086<br />raw_cnt = 362<br /><br /><br />RTP header is not shown. It can be printed by calling pack_hdr( ) function on RTP object. Other functions that can be called on RTP object are<br /><br />cc <br />csrc <br />data <br />m <br />p <br />pack <br />pack_hdr <br />pt <br />seq <br />ssrc <br />ts <br />unpack <br />version <br />x <br /><div><br /></div>This Python implementation of RTP will be used to test actual RTL implementation of RTP as shown below<br /><br /><span id="docs-internal-guid-b94002cf-6023-20a5-6b2c-e6d62eeef7df"><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><img height="220px;" src="https://docs.google.com/drawings/d/sK8_LPYz7_UD1PDmvsPomvg/image?w=554&amp;h=220&amp;rev=131&amp;ac=1" style="-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);" width="554px;" /></span></span><br /><br /><div style="text-align: center;">Figure 3: Use of RTP Python Model to Verify RTP Verilog RTL</div><br />Well i thought i am on vacations but not officially i guess !!!!!<br /><br /><div><br /></div><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>
