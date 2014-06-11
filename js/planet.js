@@ -26,6 +26,7 @@ var ajaxPostLoader = {
     $('#main').on('click', '.show-more', function(){
       var $self = $(this),
           $post = $self.closest('.post'),
+          $excerpt = $post.find('.post-excerpt'),
           $content = $post.find('.post-content'),
           json_path = $post.data('json');
 
@@ -33,12 +34,14 @@ var ajaxPostLoader = {
       $self.text('Loading...');
 
       if($content.text().length > 0){
+        $excerpt.hide();
         $content.show();
 
         ajaxPostLoader.showHideMoreButton($self);
       }
       else{
         $.getJSON(json_path, function(data){
+          $excerpt.hide();
           $content.html(data.content);
 
           ajaxPostLoader.showHideMoreButton($self);
@@ -52,11 +55,13 @@ var ajaxPostLoader = {
     $('#main').on('click', '.hide-more', function(){
       var $self = $(this),
           $post = $self.closest('.post'),
-          $content = $post.find('.post-content');      
+          $excerpt = $post.find('.post-excerpt'),
+          $content = $post.find('.post-content');
       
       $self.addClass('disabled');
       $self.text('Loading...');
 
+      $excerpt.show();
       $content.hide();
 
       ajaxPostLoader.showShorMoreButton($self);
