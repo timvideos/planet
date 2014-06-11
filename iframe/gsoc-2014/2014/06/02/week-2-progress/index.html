@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/06/02/week-2-progress//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Week 2 Progress</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 2, 2014
+           • Amanpreet (Porting Flumotion)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                news
+              </span>
+            
+              <span class="label label-tag">
+                flumotion
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F02%2Fweek-2-progress%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F02%2Fweek-2-progress%2F&text=TimVideos.us%20Week+2+Progress%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F02%2Fweek-2-progress%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F02%2Fweek-2-progress%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <p>I continued with the porting of base dependency modules not covered in previous week. To fix the failing tests, I ported boot.py first which led to tests for other modules passing again. After this, I ported pygobject.py and feeder.py followed by padmonitor.py where I faced some problems due to version 1.2.1 of Gstreamer. This is the latest available version in Ubuntu 12.04 precise. I fixed these by implementing some changes manually.</p>
+
+<p>Eventually, I have started working on porting of Videotest Producer and creating a test stream. I am using following configuration for creating a stream only using the Videotest Producer. Getting Producer compnent’s mood as “happy” will imply success.</p>
+
+<div class="highlight"><pre><code class="xml"><span class="nt">&lt;planet</span> <span class="na">name=</span><span class="s">&quot;example-planet&quot;</span><span class="nt">&gt;</span>
+
+  <span class="nt">&lt;manager</span> <span class="na">name=</span><span class="s">&quot;example-planet-manager&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;component</span> <span class="na">name=</span><span class="s">&quot;manager-bouncer&quot;</span> <span class="na">type=</span><span class="s">&quot;htpasswdcrypt-bouncer&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&quot;data&quot;</span><span class="nt">&gt;</span>user:PSfNpHTkpTx1M<span class="nt">&lt;/property&gt;</span>
+    <span class="nt">&lt;/component&gt;</span>
+  <span class="nt">&lt;/manager&gt;</span>
+
+  <span class="nt">&lt;atmosphere&gt;</span>
+  <span class="nt">&lt;/atmosphere&gt;</span>
+  
+  <span class="nt">&lt;flow</span> <span class="na">name=</span><span class="s">&quot;default&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;component</span> <span class="na">name=</span><span class="s">&quot;producer-video&quot;</span>
+               <span class="na">type=</span><span class="s">&quot;videotest-producer&quot;</span>
+               <span class="na">label=</span><span class="s">&quot;producer-video&quot;</span>
+               <span class="na">worker=</span><span class="s">&quot;localhost&quot;</span>
+               <span class="na">project=</span><span class="s">&quot;flumotion&quot;</span>
+               <span class="na">version=</span><span class="s">&quot;0.11.0.1&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&quot;pattern&quot;</span><span class="nt">&gt;</span>0<span class="nt">&lt;/property&gt;</span>
+      <span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&quot;framerate&quot;</span><span class="nt">&gt;</span>50/10<span class="nt">&lt;/property&gt;</span>
+      <span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&quot;width&quot;</span><span class="nt">&gt;</span>320<span class="nt">&lt;/property&gt;</span>
+      <span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&quot;height&quot;</span><span class="nt">&gt;</span>240<span class="nt">&lt;/property&gt;</span>
+      <span class="nt">&lt;clock-master&gt;</span>false<span class="nt">&lt;/clock-master&gt;</span>
+    <span class="nt">&lt;/component&gt;</span>
+  <span class="nt">&lt;/flow&gt;</span>
+
+<span class="nt">&lt;/planet&gt;</span>
+</code></pre></div>
+
+<p>This shows component as “sad” (not running) and shows respective errors. This led to discovery of some problems in modules I have already ported. A weird problem I faced is that module GstNet is not being imported in feedcomponent010.py but it can be imported in the console.</p>
+
+<p>I realized that we need to import and initialize this in boot.py first, like we do for Gst and GObject and doing that solves this problem. I also had to move function TIME_ARGS I wrote in padmonitor to <code>__init__.py</code> since it is used by other modules as well. In newer versions of Gstreamer, this function is available in library.</p>
+
+<p>These steps fixed all the errors except the following one and the Videotest component is shown as “happy”. I’ll look into this error tomorrow.</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/flumotion/common/gstreamer.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">53</span><span class="p">,</span> <span class="ow">in</span> <span class="n">verbose_deep_notify_cb</span>
+    <span class="n">value</span> <span class="o">=</span> <span class="n">orig</span><span class="o">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">pspec</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+<span class="ne">AttributeError</span><span class="p">:</span> <span class="s">&#39;NoneType&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s">&#39;name&#39;</span>
+</code></pre></div>
+
+<p>In Week 3, I will be porting Video Encoder and HTTP streamer so that I can “watch” the stream working.</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>

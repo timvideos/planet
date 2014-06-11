@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  fancyBoxInitializer.init();
   ajaxPostLoader.init();
+  tooltipInitializer.init();
+  fancyBoxInitializer.init();
 });
-
 
 var fancyBoxInitializer = {
 
@@ -24,27 +24,28 @@ var ajaxPostLoader = {
 
   initShowMoreClick: function(){
     $('#main').on('click', '.show-more', function(){
-      var $self = $(this),
-          $post = $self.closest('.post'),
+      var $show_more = $(this),
+          $post = $show_more.closest('.post'),
+          $hide_more = $post.find('.hide-more'),
           $excerpt = $post.find('.post-excerpt'),
           $content = $post.find('.post-content'),
           json_path = $post.data('json');
 
-      $self.addClass('disabled');
-      $self.text('Loading...');
+      $show_more.addClass('disabled');
+      $show_more.text('Loading...');
 
       if($content.text().length > 0){
         $excerpt.hide();
         $content.show();
 
-        ajaxPostLoader.showHideMoreButton($self);
+        ajaxPostLoader.showHideMoreButton($show_more, $hide_more);
       }
       else{
         $.getJSON(json_path, function(data){
           $excerpt.hide();
           $content.html(data.content);
 
-          ajaxPostLoader.showHideMoreButton($self);
+          ajaxPostLoader.showHideMoreButton($show_more, $hide_more);
         });
       }
 
@@ -53,37 +54,40 @@ var ajaxPostLoader = {
 
   initHideMoreClick: function(){
     $('#main').on('click', '.hide-more', function(){
-      var $self = $(this),
-          $post = $self.closest('.post'),
+      var $hide_more = $(this),
+          $post = $hide_more.closest('.post'),
+          $show_more = $post.find('.show-more'),
           $excerpt = $post.find('.post-excerpt'),
           $content = $post.find('.post-content');
       
-      $self.addClass('disabled');
-      $self.text('Loading...');
+      $hide_more.addClass('disabled');
+      $hide_more.text('Loading...');
 
       $excerpt.show();
       $content.hide();
 
-      ajaxPostLoader.showShorMoreButton($self);
+      ajaxPostLoader.showShowMoreButton($show_more, $hide_more);
     });
   },
 
-  showHideMoreButton: function($self){
-    $self.removeClass('disabled');
-
-    $self.addClass('hide-more');
-    $self.removeClass('show-more');
-
-    $self.text('Hide post...');
+  showHideMoreButton: function($show_more, $hide_more){
+    $show_more.removeClass('disabled');
+    $show_more.hide();
+    $hide_more.show();
   },
 
-  showShorMoreButton: function($self){
-    $self.removeClass('disabled');
+  showShowMoreButton: function($show_more, $hide_more){
+    $hide_more.removeClass('disabled');
+    $hide_more.hide();
+    $show_more.show();
+  }
 
-    $self.addClass('show-more');
-    $self.removeClass('hide-more');
+}
 
-    $self.text('Read more...');
+var tooltipInitializer = {
+
+  init: function() {
+    $('[data-toggle="tooltip"]').tooltip();
   }
 
 }
