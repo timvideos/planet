@@ -21,6 +21,17 @@
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/jekyll-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
       <description>&lt;!-- fork --&gt;
@@ -123,6 +134,17 @@
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids commented on issue SublimeCodeIntel/SublimeCodeIntel#93</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-commented-on-issue-sublimecodeintel-subl/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-commented-on-issue-sublimecodeintel-subl/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -214,28 +236,6 @@
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/dbdesign_shop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-pinoss-dbdesign_shop/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-pinoss-dbdesign_shop/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-12T00:00:00+00:00</dc:date>
   </channel>
