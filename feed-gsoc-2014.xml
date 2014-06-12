@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>I watched the stream!</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
+      <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>12 June '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/12-june-14/</link>
       <description>&lt;p&gt;What I did today:&lt;/p&gt;
@@ -237,16 +247,6 @@
       <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</guid>
       <dc:date>2014-06-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>How to run tests?</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</link>
-      <description>&lt;p&gt;Running all the tests in module was broken due to mixing of gobject and gi. So, I’ve created a &lt;code&gt;working-tests.txt&lt;/code&gt; and a &lt;code&gt;run_tests.sh&lt;/code&gt; to read this file and run the tests. As a result, Travis build is passing now as seen on badge on sidebar of this blog.&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/how-to-run-tests/</guid>
-      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-12T00:00:00+00:00</dc:date>
   </channel>

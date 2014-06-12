@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>I watched the stream!</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
+      <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/12/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;style type=&quot;text/css&quot;&gt;p { margin-bottom: 0.25cm; line-height: 120%; }&lt;/style&gt;  &lt;br /&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;ul&gt;&lt;li&gt;I couldn't meet the deadline for getting the spec doc ready, was away whole day.&lt;/li&gt;&lt;li&gt;But at night I did some deep investigation on serial and got very interesting results.&lt;/li&gt;&lt;li&gt;Recall  that an Endpoint has two directions IN (towards host) and OUT (away  from host) except when control transfer is used, which is bidirectional.  Bulk, Interrupt and Isochronous transfers are unidirectional and a  direction needs to be specified in the Endpoint description.&lt;/li&gt;&lt;li&gt;EP0 is a control endpoint and doesn't have IN/OUT direction since it's bidirectional&lt;/li&gt;&lt;li&gt;We can have BULK IN/BULK OUT on the SAME endpoint number.&lt;/li&gt;&lt;li&gt;See the three variants of CDC ACM serial devices over &lt;a href=&quot;http://www.thesycon.de/eng/usb_cdcacm_ce.shtml&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.  We want to use a Bulk-only protocol because that's what we have been  effectively using. It takes only 1 EP for implementing Bulk-only  protocol.&lt;/li&gt;&lt;li&gt;Take a look at &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1j8ddwDzGRI8FZ8g7eI2wMwBOZ7AQ7Ft_pCV2-mSTSwI/edit#gid=0&quot; target=&quot;_blank&quot;&gt;this spreadsheet&lt;/a&gt; based on my &lt;a href=&quot;http://pastebin.com/5pyinsWz&quot; target=&quot;_blank&quot;&gt;lsbusb -v output&lt;/a&gt; of HDMI2USB. It also has a tentative plan of how the endpoints can end up for 8 serial expansion ports&lt;/li&gt;&lt;li&gt;What  Jahanzeb's code has implemented is that he used different endpoints EP4  and EP6 for bulk in and bulk out which is not necessary. He has also  implemented an Interrupt IN on EP1 on Cypress FX2LP which is not being  used by the FPGA (in usbtop.vhd).&lt;/li&gt;&lt;li&gt;We have some cleaning up to do  in the Cypress FX2LP. And it seems we can have more serial ports (11 I  guess) with space for proposed endpoints for UVC A/B preview and HDMI  Audio. Let's have just have up to 8 serial ports and leave remaining end  points for other possible uses?&lt;/li&gt;&lt;li&gt;Still investigating whether the standard CDC ACM drivers compulsorily requires the INTERRUPT IN endpoint or not.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -261,16 +271,6 @@
 </description>
       <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/07/daily-snippet-2x/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>8 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</link>
-      <description>&lt;p&gt;Did a good amount of progress today. &lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/8-june-14/</guid>
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-12T00:00:00+00:00</dc:date>
