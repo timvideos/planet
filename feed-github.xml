@@ -66,6 +66,29 @@
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids deleted branch porting-httpstreamer at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-deleted-branch-porting-httpstreamer-at-a/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-deleted-branch-porting-httpstreamer-at-a/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -214,28 +237,6 @@
 </description>
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-branch-master-at-pinoss-dbdesign_s/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss commented on issue timvideos/planet#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss closed issue timvideos/planet#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</guid>
       <dc:date>2014-06-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-12T00:00:00+00:00</dc:date>
