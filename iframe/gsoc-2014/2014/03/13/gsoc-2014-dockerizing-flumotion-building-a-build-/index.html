@@ -57,7 +57,91 @@
   <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F03%2F13%2Fgsoc-2014-dockerizing-flumotion-building-a-build-%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
 </p>
         <p class="article">
-          <p>Proposer: Max Stritzinger  --------  <a href="http://www.ucsb.edu/">University of California, Santa Barbara</a>  <a href="mailto:mstritzing@gmail.com">mstritzing@gmail.com</a>  CARAM on <a href="irc://irc.freenode.net">freenode</a>Synopsis--------This is a proposal for TimVideos for GSoC 2014. This proposal is centered around the 'Dockerization' of Flumotion allowing for quick and portable deployments of the TimVideos streaming system. Following completion of Dockerizing the streaming system, work will begin on an automated build tool based on the newly Docker'd components.~Dockerization~--------[Docker][] is an open-source framework allowing for the creation of portable application containers. [Docker][] allows for an application and all of its dependencies to be wrapped in one of these containers and deployed with ease to any host with [Docker][] installed. My proposal is to wrap the streaming system up in a few [Docker][] packages to make it extremely easy and quick to deploy. For example, following 'Dockerization', setting up the website portion of the streaming system might be as simple as:    docker pull streaming-system/website docker run -name website -p 80:80 -d streaming-system/website python streamingsystem/tools/server<em>start.py some</em>conf<em>fileAutomated Build System--------Dockerization would be the meat of the project, however my belief is that time will allow for development of a script/tool to generate most of the streaming system automatically assisted by [Docker][]. Following delivery of the [Docker][] portion of the proposal, I would plan to continue working on an automated build/deployment tool. [Docker][] fits in <em>really</em> well with an automated deployment tool. [Docker][] supports running in daemon mode, so you can imagine PXE/AWS booting an image running a [Docker][] daemon. Then, deployment and configuration for our sample website component becomes as simple as:   docker -H remote</em>host:4243 pull streaming-system/website    docker -H remote<em>host:4243 run -name website -p 80:80 -d streaming-system/website python streamingsystem/tools/server</em>start.py some<em>conf</em>fileYou can imagine the ease at which this can be scripted out!My Proposed Work--------1. Starting with a base Ubuntu [Docker][] image, I will build a streaming-system/base [Docker][] image with all dependencies (including watchdog, register) installed. This image will be capable of functioning as any of the three components, given some additional configuration2. Building off of the streaming-system/base package, I will build separate images for the Encoder, Collector, and Website components of streaming system. These images will come preconfigured for their specific component function and will be able to accept configuration arguments on startup for easy setup. This will involve generation of custom scripts/config files for each of the different components. 3. streaming-system/(base, website, encoder, collector) will published to the docker.io index under the streaming-system or similar username4. Following the completion of the [Docker][] portion of the project, I will then begin work on the automated build and deployment system. 5. The automated build system will be integrated around a <a href="http://www.cobblerd.org/">Cobbler</a> daemon and the AWS Python API.6. The build tool will, based on the configuration file/utility, boot any PXE images it needs via cobbler and start EC2 instances via AWS, push the correct component(s) to each host (through a docker remote pull), and then start each docker instance based on the configuration options specified.Timeline--------* <em>Now - May 18th</em> : Prior to the official start of the program I'll be active on IRC and poking around the streaming system components to gain familiarity with the different parts of the streaming system.* <em>May 19th - May 25th</em>: Development environment setup, setup of the streaming-system/base container.* <em>May 26th - June 1st</em>: Setup / Configuration  of the streaming-system/website container. By the end of this week we will be able to 'docker pull' a website container and start the web service with a simple configuration file and start script. * <em>June 2nd - June 11th</em>: Setup / Configuration of the streaming-system/collector container. By the end of this week we will be able to 'docker pull' a collector container and start the encoding service with a simple configuration file and start script* <em>June 12th - June 22nd</em>: Setup / Configuration of the streaming-system/encoder container. By the end of this week we will be able to 'docker pull' an encoder container and start the collecting service with a simple configuration file and start script* <em>June 23rd - June 29th</em>: Dockerization should be fully complete! Work begins on the automated build system. By the end of this week we will have a tool that will take a component type, some parameters regarding it's associated components, and will output a configuration file.* <em>June 30th - July 13th</em>: Extend build tool (or possibly create a separate 'boot' tool) to incorporate host booting. We will be able to take a list of hosts and their types(EC2, PXE) and deploy a docker-enabled image to them.* <em>July 14th - August 10th</em>: Add support to our tool for specifying entire systems of components with the hosts they will run on. Tool will boot hosts, deploy docker containers to them, and start the components. This should correctly start the streaming system* <em>August 11th - August 18th</em>: Clean up documentation, final testing/debugging and debrief to TimVideos team.Accountability--------I am very much interested in completing my project successfully as I am sure the TimVideos team is. Some accountability is a great way to make sure that happens! I am (and will be) almost always available on IRC for interrogation and would propose bi or tri-weekly updates/progress meetings with my mentor(s) to ensure that I'm on the right track. In addition, I would plan on keeping a blog tracking my work throughout the project on my website.About Me--------* Second year student at UC Santa Barbara, studying Biochemistry and Computer Science. I currently hold a 3.89 GPA* Student Web/App developer for Associated Students at UCSB.* <em>Very</em> available this summer (the second week of June I have one or two finals, but I'm free otherwise)* Familiar with many languages and web technologiesincluding, but not limited to: * AWS * Python   * Flask * Haskell * SQL (experienced with MySQL specifically) * PHP   * Wordpress * General Bash/Shell scripting* (Somewhat rusty) DevOps/SysAdmin experience with: * CentOS/RHEL * Ubuntu Server * MySQL Server* I am, of course, available for contact almost anytime on IRC or through e-mail as listed above.Comments, Concerns?------If there's anything you'd like to share, feel free to post it below or give me a ping on IRC. [Docker]: https://www.docker.io/</p><div class="author">
+          <h2>Proposer: Max Stritzinger</h2>
+
+<p><a href="http://www.ucsb.edu/">University of California, Santa Barbara</a><br />
+<a href="mailto:mstritzing@gmail.com">mstritzing@gmail.com</a><br />
+CARAM on <a href="irc://irc.freenode.net">freenode</a></p>
+
+<h2>Synopsis</h2>
+
+<p>This is a proposal for TimVideos for GSoC 2014. This proposal is centered around the 'Dockerization' of Flumotion allowing for quick and portable deployments of the TimVideos streaming system. Following completion of Dockerizing the streaming system, work will begin on an automated build tool based on the newly Docker'd components.</p>
+
+<h2>~Dockerization~</h2>
+
+<p><a href="">Docker</a> is an open-source framework allowing for the creation of portable application containers. <a href="">Docker</a> allows for an application and all of its dependencies to be wrapped in one of these containers and deployed with ease to any host with <a href="">Docker</a> installed. My proposal is to wrap the streaming system up in a few <a href="">Docker</a> packages to make it extremely easy and quick to deploy. For example, following 'Dockerization', setting up the website portion of the streaming system might be as simple as:
+        docker pull streaming-system/website<br />
+    docker run -name website -p 80:80 -d streaming-system/website python streamingsystem/tools/server<em>start.py some</em>conf_file</p>
+
+<h2>Automated Build System</h2>
+
+<p>Dockerization would be the meat of the project, however my belief is that time will allow for development of a script/tool to generate most of the streaming system automatically assisted by <a href="">Docker</a>. Following delivery of the <a href="">Docker</a> portion of the proposal, I would plan to continue working on an automated build/deployment tool. <a href="">Docker</a> fits in <em>really</em> well with an automated deployment tool. <a href="">Docker</a> supports running in daemon mode, so you can imagine PXE/AWS booting an image running a <a href="">Docker</a> daemon. Then, deployment and configuration for our sample website component becomes as simple as:<br />
+    docker -H remote<em>host:4243 pull streaming-system/website<br />
+    docker -H remote</em>host:4243 run -name website -p 80:80 -d streaming-system/website python streamingsystem/tools/server<em>start.py some</em>conf_file
+You can imagine the ease at which this can be scripted out!</p>
+
+<h2>My Proposed Work</h2>
+
+<ol>
+<li>Starting with a base Ubuntu <a href="">Docker</a> image, I will build a streaming-system/base <a href="">Docker</a> image with all dependencies (including watchdog, register) installed. This image will be capable of functioning as any of the three components, given some additional configuration</li>
+<li>Building off of the streaming-system/base package, I will build separate images for the Encoder, Collector, and Website components of streaming system. These images will come preconfigured for their specific component function and will be able to accept configuration arguments on startup for easy setup. This will involve generation of custom scripts/config files for each of the different components. </li>
+<li>streaming-system/(base, website, encoder, collector) will published to the docker.io index under the streaming-system or similar username</li>
+<li>Following the completion of the <a href="">Docker</a> portion of the project, I will then begin work on the automated build and deployment system. </li>
+<li>The automated build system will be integrated around a <a href="http://www.cobblerd.org/">Cobbler</a> daemon and the AWS Python API.</li>
+<li>The build tool will, based on the configuration file/utility, boot any PXE images it needs via cobbler and start EC2 instances via AWS, push the correct component(s) to each host (through a docker remote pull), and then start each docker instance based on the configuration options specified.</li>
+</ol>
+
+<h2>Timeline</h2>
+
+<ul>
+<li><em>Now - May 18th</em> : Prior to the official start of the program I'll be active on IRC and poking around the streaming system components to gain familiarity with the different parts of the streaming system.</li>
+<li><em>May 19th - May 25th</em>: Development environment setup, setup of the streaming-system/base container.* <em>May 26th - June 1st</em>: Setup / Configuration  of the streaming-system/website container. By the end of this week we will be able to 'docker pull' a website container and start the web service with a simple configuration file and start script. </li>
+<li><em>June 2nd - June 11th</em>: Setup / Configuration of the streaming-system/collector container. By the end of this week we will be able to 'docker pull' a collector container and start the encoding service with a simple configuration file and start script</li>
+<li><em>June 12th - June 22nd</em>: Setup / Configuration of the streaming-system/encoder container. By the end of this week we will be able to 'docker pull' an encoder container and start the collecting service with a simple configuration file and start script</li>
+<li><em>June 23rd - June 29th</em>: Dockerization should be fully complete! Work begins on the automated build system. By the end of this week we will have a tool that will take a component type, some parameters regarding it's associated components, and will output a configuration file.</li>
+<li><em>June 30th - July 13th</em>: Extend build tool (or possibly create a separate 'boot' tool) to incorporate host booting. We will be able to take a list of hosts and their types(EC2, PXE) and deploy a docker-enabled image to them.</li>
+<li><em>July 14th - August 10th</em>: Add support to our tool for specifying entire systems of components with the hosts they will run on. Tool will boot hosts, deploy docker containers to them, and start the components. This should correctly start the streaming system</li>
+<li><em>August 11th - August 18th</em>: Clean up documentation, final testing/debugging and debrief to TimVideos team.</li>
+</ul>
+
+<h2>Accountability</h2>
+
+<p>I am very much interested in completing my project successfully as I am sure the TimVideos team is. Some accountability is a great way to make sure that happens! I am (and will be) almost always available on IRC for interrogation and would propose bi or tri-weekly updates/progress meetings with my mentor(s) to ensure that I'm on the right track. In addition, I would plan on keeping a blog tracking my work throughout the project on my website.</p>
+
+<h2>About Me</h2>
+
+<ul>
+<li>Second year student at UC Santa Barbara, studying Biochemistry and Computer Science. I currently hold a 3.89 GPA</li>
+<li>Student Web/App developer for Associated Students at UCSB.</li>
+<li><em>Very</em> available this summer (the second week of June I have one or two finals, but I'm free otherwise)</li>
+<li>Familiar with many languages and web technologiesincluding, but not limited to: 
+
+<ul>
+<li>AWS </li>
+<li>Python<br />
+
+<ul>
+<li>Flask </li>
+</ul></li>
+<li>Haskell </li>
+<li>SQL (experienced with MySQL specifically) </li>
+<li>PHP  </li>
+<li>Wordpress </li>
+<li>General Bash/Shell scripting</li>
+<li>(Somewhat rusty) DevOps/SysAdmin experience with: 
+
+<ul>
+<li>CentOS/RHEL </li>
+<li>Ubuntu Server </li>
+<li>MySQL Server</li>
+</ul></li>
+</ul></li>
+<li>I am, of course, available for contact almost anytime on IRC or through e-mail as listed above.</li>
+</ul>
+
+<h2>Comments, Concerns?</h2>
+
+<p>If there's anything you'd like to share, feel free to post it below or give me a ping on IRC. [Docker]: https://www.docker.io/</p><div class="author">
   <span>
     <i>Originally posted on <a href="http://mstritzi.nfshost.com/blog">Max Stritzinger</a></i>
   </span>

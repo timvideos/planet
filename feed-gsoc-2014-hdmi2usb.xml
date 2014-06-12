@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>Week 2 progress report - Serial expansion board design!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/11/week-2-progress-report-serial-expansion-board-des/</link>
@@ -309,6 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>
