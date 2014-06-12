@@ -69,11 +69,10 @@ module Jekyll
     #
     # Returns nothing
     def generate_for_categories(site)
-      categories = site.config['rss_categories'].split ' ' rescue []
       allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
       allowed_tags  = site.config['rss_allowed_tags'].split ' ' rescue []
 
-      categories.each do |category|
+      site.categories.each do |category, _|
         # Create the rss with the help of the RSS module
         generate_rss(site,  "#{site.config['name']} - Category: #{category.upcase}", "feed-#{category}.xml") do |post|
           if post.categories.include? category
@@ -97,10 +96,9 @@ module Jekyll
     #
     # Returns nothing
     def generate_for_tags(site)
-      tags = site.config['rss_tags'].split ' ' rescue []
       allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
 
-      tags.each do |tag|
+      site.tags.each do |tag,_|
         # Create the rss with the help of the RSS module
         generate_rss(site,  "#{site.config['name']} - Tag: #{tag.upcase}", "feed-#{tag}.xml") do |post|
           if post.tags.include? tag
