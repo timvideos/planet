@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>14 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</link>
+      <description>&lt;p&gt;Done with the form today. Only styling remains. Data being computed in JS and saved to database. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>I watched the stream!</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
       <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
@@ -242,16 +252,6 @@
       <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/videotest-component-ported/</guid>
       <dc:date>2014-06-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Problems with Gst.Fraction</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</link>
-      <description>&lt;p&gt;There is a Fraction class I need to port but I’m facing a few problems.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/problems-with-gst-fraction/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-13T00:00:00+00:00</dc:date>
   </channel>
