@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- It turns out that Sony PTZ cameras need DTR/DSR flow control and Canon PTZ cameras need RTS/CTS flow control.&lt;br /&gt;- There must be ports on the serial expansion board with hardware flow control enabled.&lt;br /&gt;- So these ports would require additional INT IN endpoint apart from BULK IN/OUT.&lt;br /&gt;- Also each of these would require 6 FPGA pins from VHDCI.&lt;br /&gt;- So there is an open question - &lt;b&gt;how about having just 2 or 4 of these flow-controlled ports? And rest of them without flow control?&lt;/b&gt;&lt;br /&gt;- A majority of serial devices work without flow control, and even these PTZ cameras may work without flow control at very low baud rate. But I don't have PTZ cameras to test so I wouldn't want to take chances.&lt;br /&gt;- And there is another question left. &lt;b&gt;Do CDC ACM drivers support Bulk only CDC ACM serial port, i.e. the ones without INT IN endpoint?&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>I watched the stream!</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
       <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
@@ -256,21 +271,6 @@
 </description>
       <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 07/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</link>
-      <description>&lt;i&gt;Planet &lt;/i&gt;(&lt;u&gt;&lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added dynamically loading posts with AJAX on planet.timvideos.us (created JSON generator for creating easy source for Javascript)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;HTML fixes on planet.timvideos.us (some tags were not closed, modern browsers can handle that situation, but on older it caused some errors)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS generators by category and tags&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added OPML and RSS icon with ability to download feeds&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Getting Started &lt;/i&gt;(&lt;u&gt;currently on &lt;a href=&quot;http://pinoss.github.io/&quot;&gt;pinoss.github.io&lt;/a&gt;&lt;/u&gt;):&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Finished adapting current content to new layout&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added RSS icon with ability to download feeds from planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added news as a tab on website (iframe with content from planet.timvideos.us)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-snippet-07-06-2014/</guid>
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-13T00:00:00+00:00</dc:date>

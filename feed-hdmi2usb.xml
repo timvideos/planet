@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- It turns out that Sony PTZ cameras need DTR/DSR flow control and Canon PTZ cameras need RTS/CTS flow control.&lt;br /&gt;- There must be ports on the serial expansion board with hardware flow control enabled.&lt;br /&gt;- So these ports would require additional INT IN endpoint apart from BULK IN/OUT.&lt;br /&gt;- Also each of these would require 6 FPGA pins from VHDCI.&lt;br /&gt;- So there is an open question - &lt;b&gt;how about having just 2 or 4 of these flow-controlled ports? And rest of them without flow control?&lt;/b&gt;&lt;br /&gt;- A majority of serial devices work without flow control, and even these PTZ cameras may work without flow control at very low baud rate. But I don't have PTZ cameras to test so I wouldn't want to take chances.&lt;br /&gt;- And there is another question left. &lt;b&gt;Do CDC ACM drivers support Bulk only CDC ACM serial port, i.e. the ones without INT IN endpoint?&lt;/b&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: HSYNC and Pixel Clock detection!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/12/gsoc-daily-log-hsync-and-pixel-clock-detection/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9244-24b4-397b-39d4654f1cf6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 12th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9244-24b4-397b-39d4654f1cf6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Successful HSYNC and Pixel Clock detection&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Verified correct pixel clock(65MHz) by dividing it using 29-bit counter, and observing the time period of MSB connected to LED. Theoretically should be 8.2 seconds time period b/w OFF and ON. Practical observations using stopwatch indicate similar value.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;HSYNC detection was trivial, easier, having done the VSYNC detection before&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;There is slight phase diff. b/w VSYNC and HSYNC, with VSYNC ahead of HSYNC. This is nice, since it actually has to be like this!&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -278,21 +293,6 @@
 </description>
       <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/gsoc-daily-log-more-reading-awareness/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Doing research on the board requirements.&lt;/li&gt;&lt;li&gt;There can be lots of different uses of the serial expansion board and I don't feel this board should be rigid in any way.&lt;/li&gt;&lt;li&gt;DMX has a lot of variety. There are different standards, I'm finding DMX 512 to be the most popular on internet and even that uses many variants of XLR connectors.&lt;/li&gt;&lt;li&gt;I'm thinking of a modular setup with a base board having the VHDCI connector and 6 UART port headers spaced apart appropriately and a family of pluggable modules that connect to these headers and convert UART to interfaces like RS232, RS4xx, DMX 512 (uses XLR connector), GPIO header etc.&amp;nbsp;&lt;/li&gt;&lt;li&gt;This looks more efficient in many ways - User can keep the same base board and keep plugging-in different modules depending on requirements.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</guid>
       <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-13T00:00:00+00:00</dc:date>
