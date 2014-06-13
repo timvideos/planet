@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
@@ -236,18 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/23/niharika29-pushed-to-master-at-niharika29-streami/</guid>
       <dc:date>2014-05-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 forked timvideos/streaming-system to Niharika29/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/23/niharika29-forked-timvideos-streaming-system-to-n/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/23/niharika29-forked-timvideos-streaming-system-to-n/</guid>
-      <dc:date>2014-05-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>

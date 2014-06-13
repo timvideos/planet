@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -225,18 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</guid>
       <dc:date>2014-06-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar created branch master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</guid>
-      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
