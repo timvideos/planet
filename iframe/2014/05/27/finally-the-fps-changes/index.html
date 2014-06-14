@@ -1,0 +1,14 @@
+---
+title: "Finally the FPS changes!"
+kind: article
+created_at: 2014-05-27 08:58:00 UTC
+author: Ajit (MJPEG Optimisation)
+image: https://avatars3.githubusercontent.com/u/7080716?s=50
+categories: GSoC-2014-HDMI2USB
+tags: "news hdmi2usb mjpeg"
+layout: post
+---<div dir="ltr" style="text-align: left;" trbidi="on">In my previous post I mentioned how it appears that JPEG encoder is working at 100% encoding quality. Turns out it is true. I hardcoded to make the core run at 50% quality and 100% quality and there was a clear change in the fps. At 100%, the fps was same as the normal HDMI2USB frame rate. And at 50%, framerate jumps to around 20 fps.<br />Now 100% quality encoding is not good.Why? In the quantisation step, a each sample of a 8x8 block is divided by a number which depends on encoding quality and frequency component the sample. Human eye is sensitive to low frequency so in quantisation process, low frequencies are preserved and high frequencies are suppressed. But when for 100% quality all components are preserved, so the output file is large but for the human eye it looks as good as say 75% quality.<br />Plus at 100% quality, the clock cycles spent on quantisation are waste as we are basically dividing by 1.&nbsp;&nbsp; <br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-S39lPx0Q5YY/U4RP2imZK2I/AAAAAAAAAKU/iDav1ApHoQI/s1600/high_quality.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-S39lPx0Q5YY/U4RP2imZK2I/AAAAAAAAAKU/iDav1ApHoQI/s1600/high_quality.png" /></a></div><div style="text-align: center;">&nbsp;(^100%-11.50 fps)</div><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-JjznbeucWh4/U4RP39zFugI/AAAAAAAAAKY/GgqgRaTvYkI/s1600/quantisation_50%25.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-JjznbeucWh4/U4RP39zFugI/AAAAAAAAAKY/GgqgRaTvYkI/s1600/quantisation_50%25.png" /></a></div><div style="text-align: center;">(^50%-19 fps)</div><div style="text-align: center;"><br /></div><div style="text-align: left;">I will look up some material on chrominance and luminance tables and see what is a good trade off between quality and frame rate.</div><div style="text-align: center;"><br /></div><div style="text-align: left;"><br /></div></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
+  </span>
+</div>

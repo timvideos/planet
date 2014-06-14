@@ -1,0 +1,26 @@
+---
+title: "Plan of Action"
+kind: article
+created_at: 2014-05-20 07:00:00 UTC
+author: Amanpreet (Porting Flumotion)
+image: https://avatars2.githubusercontent.com/u/2363074?s=50
+categories: GSoC-2014
+tags: "news flumotion"
+layout: post
+---<p>I just reached back home after the college exams. Phew, what a semester it was. I have started working on the project and as a first step, I have prepared a plan of action which will help me work and track the results better, I hope.</p>
+
+<p>A quick grep of “import gst” gives me a list of files that need to be changed first for using gst-1.0 API. I will be porting Audio and Video Test producers as the initial porting target in the following week. Before that, dependency modules for these test producers need to be ported. The dependency modules (recursively) for Videotest producer are:</p>
+
+<ul>
+  <li>flumotion/common/gstreamer.py</li>
+  <li>flumotion/component/feedcomponent.py</li>
+  <li>flumotion/component/feedcomponent010.py</li>
+  <li>flumotion/component/padmonitor.py</li>
+  <li>flumotion/component/feeder.py</li>
+</ul>
+
+<p>So, these modules will be ported in this week. Following this will be the porting of the Test producers and the respective unit tests.</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>

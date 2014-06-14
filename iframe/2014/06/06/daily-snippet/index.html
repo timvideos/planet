@@ -1,0 +1,14 @@
+---
+title: "Daily Snippet"
+kind: article
+created_at: 2014-06-06 00:32:00 UTC
+author: Ajit (MJPEG Optimisation)
+image: https://avatars3.githubusercontent.com/u/7080716?s=50
+categories: GSoC-2014-HDMI2USB
+tags: "news hdmi2usb mjpeg"
+layout: post
+---<div dir="ltr" style="text-align: left;" trbidi="on">-Studied&nbsp;<span style="font-family: Arial; font-size: 15px; white-space: pre-wrap;">ug416 and ug388 to understand XILINX MIG</span><br /><span style="font-family: Arial; font-size: 15px; white-space: pre-wrap;">-Studied working of DDR2 Ram</span><br /><span style="font-family: Arial; font-size: 15px; white-space: pre-wrap;">-Ran example design to understand the working further. Took me lot of time to get the clocks working at correct rate as PLL values were changed manually which I didn't take notice of.</span><br /><span id="docs-internal-guid-ffdcb646-6e8a-ffb5-4a66-414fe4bcad2e"><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><img height="321px;" src="https://lh4.googleusercontent.com/Fja4sKaFLPqsgI8RyrgxmwIgF3leN6uPqmk7yRMkUAahP7vfDt6tQ8wevFSp6oDLEw-6uRu3ICsG-CejCpGG-Q2sNxwnaBD1a_xHAywrXMB6ZdxhAodTOiGevgo8bxiq0A" style="-webkit-transform: rotate(0rad); border: none;" width="512px;" /></span></span><br /><span><span style="vertical-align: baseline;"><span style="font-family: Arial;"><span style="font-size: 15px; white-space: pre-wrap;">The read FSM of DDR2 looks something like this^. So 1 burst read gives 64 bytes. Jpeg encoder needs 1280*8*3 bytes to start. That means it takes a lot of cycle to fill the jpeg. I will try </span><span style="white-space: pre-wrap;">under clocking</span><span style="font-size: 15px; white-space: pre-wrap;"> the DDR2 ram today and see whether it affects the frame rate. </span></span></span></span><br /><span><span style="vertical-align: baseline;"><span style="font-family: Arial;"><span style="font-size: 15px; white-space: pre-wrap;"><br /></span></span></span></span><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">Also I will start coding the test bench.</span></span></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
+  </span>
+</div>

@@ -1,0 +1,14 @@
+---
+title: "Daily snippet - 2x"
+kind: article
+created_at: 2014-06-07 13:39:00 UTC
+author: Ayush (PTZ/Serial Extension)
+image: https://avatars0.githubusercontent.com/u/4787914?s=50
+categories: GSoC-2014-HDMI2USB
+tags: "news hdmi2usb ptz serial-extension"
+layout: post
+---<div dir="ltr" style="text-align: left;" trbidi="on"><br /><ul style="text-align: left;"><li><a href="https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#" target="_blank">Here</a>&nbsp;is a draft specification document for the serial expansion board. Have to enter board design drawings and circuit design. May be this will end up being the documentation in my repository.</li><li>It's being decided that the serial expansion would have 6 x RS232C serial ports with DB9 connectors. When other interfaces are required, conversion modules/adapters will be attached. The DB9 connectors also have excellent mechanical stability for connecting these additional adapters. These serial ports could be used directly with VISCA cable or can connect to any other serial device available on internet.</li><li>To add more value to this board, I'm planing to give complete galvanic isolation instead of ESD chips.</li><li>These serial ports will lack hardware control because of the way we will be implementing it on the Cypress FX2LP - only Rx and Tx will be there.</li><li>Some of the serial adapters would be - Serial-GPIO, Serial-RS485. A Serial-DMX adapter can be designed - the protocol is easy, but since a market option is available, will do this only if I run out of things to do. Even RS-232 to RS485 adapters are available to buy, will go through market offerings to see if I need to make one or not.</li><li>To feed power to the serial-adapters that I would design I might use the RTS line and connect to VU 5V&nbsp;and provide a jumper to disable it. Choice of RTS comes from <a href="http://www.epanorama.net/circuits/rspower.html" target="_blank">this</a>.</li><li>I would also like to have my serial adapters usable with other USB-Serial adapters, in case someone wants to use it that way. To power it I will provide an additional 5V DC jack.</li></ul></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ptzfortimvideos-gsoc14.blogspot.com/">Serial port expansion for HDMI2USB with PTZ camera control example</a></i>
+  </span>
+</div>
