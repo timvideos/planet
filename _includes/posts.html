@@ -1,65 +1,34 @@
-<div class="col-md-12 col-lg-6">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{{ page.subdir }}{% category_url gsoc-2014-hdmi2usb %}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{{ page.subdir }}{% category_url gsoc-2014-hdmi2usb %}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> <a href="{{ page.subdir }}{% category_url gsoc-2014-hdmi2usb %}">GSoC 2014 - HDMI2USB</a></span></h4>
-    </div>
-    <div class="panel-body">
-      {% for post in site.categories['gsoc-2014-hdmi2usb'] %}
-        {% if post.tags contains page.tags and post.type == page.type %}
-          <div class="row news">
-            <div class="col-sm-10">
-              <h5>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h5>
-              <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
-                <p class="post-content"></p>
-                <button type="button" data-toggle="tooltip" data-original-title="read in {{ post.content | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
-                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide post...</button>
+{% for category in site.categories %}
+  <div class="col-md-12 col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{{ page.subdir }}{% category_url %}/{{ category[0] | downcase }}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{{ page.subdir }}{% category_url %}/{{ category[0] | downcase }}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> <a href="{{ page.subdir }}{% category_url %}/{{ category[0] | downcase }}">{{ category[0] | upcase }}</a></span></h4>
+      </div>
+      <div class="panel-body">
+        {% for post in category[1] %}
+          {% if post.tags contains page.tags and post.type == page.type %}
+            <div class="row news">
+              <div class="col-sm-10">
+                <h5>
+                  <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h5>
+                <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
+                  <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
+                  <p class="post-content"></p>
+                  <button type="button" data-toggle="tooltip" data-original-title="read in {{ post.content | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
+                  <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide post...</button>
+                </div>
+                <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
               </div>
-              <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
+              <div class="col-sm-2">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">
+                  <img src="{{ post.image }}" class="img-circle">
+                </a>
+              </div>
             </div>
-            <div class="col-sm-2">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">
-                <img src="{{ post.image }}" class="img-circle">
-              </a>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-
-<div class="col-md-12 col-lg-6">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{{ page.subdir }}{% category_url gsoc-2014-hdmi2usb %}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{{ page.subdir }}{% category_url gsoc-2014-hdmi2usb %}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> <a href="{{ page.subdir }}{% category_url gsoc-2014 %}">GSoC 2014</a></span></h4>
-    </div>
-    <div class="panel-body">
-      {% for post in site.categories['gsoc-2014'] %}
-        {% if post.tags contains page.tags and post.type == page.type %}
-          <div class="row news">
-            <div class="col-sm-10">
-              <h5>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h5>
-              <div class="post" data-json="{{ post.json_url | prepend: site.baseurl }}">
-                <p class="post-excerpt">{{ post.content | strip_html | truncatewords: site.words_in_excerpt }}</p>
-                <p class="post-content"></p>
-                <button type="button" data-toggle="tooltip" data-original-title="read in {{ post.content | reading_time }}" class="show-more btn btn-default btn-xs pull-right">Read more...</button>
-                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide post...</button>
-              </div>
-              <small class="description">{{ post.date | date: "%b %-d, %Y" }} • {{ post.author }}</small>
-            </div>
-            <div class="col-sm-2">
-              <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">
-                <img src="{{ post.image }}" class="img-circle">
-              </a>
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
+{% endfor %}
