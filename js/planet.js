@@ -74,12 +74,18 @@ var ajaxPostLoader = {
     $show_more.removeClass('disabled');
     $show_more.hide();
     $hide_more.show();
+
+    $hide_more.removeClass('disabled');
+    $hide_more.text('Hide more...');
   },
 
   showShowMoreButton: function($show_more, $hide_more){
     $hide_more.removeClass('disabled');
     $hide_more.hide();
     $show_more.show();
+    
+    $show_more.removeClass('disabled');
+    $show_more.text('Show more...');
   }
 
 }

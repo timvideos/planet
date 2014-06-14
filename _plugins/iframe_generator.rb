@@ -11,7 +11,7 @@ module Jekyll
 
     def data
       current_layout = super['layout']
-      super.merge('layout' => "#{current_layout}-iframe", 'type' => 'iframe')
+      super.merge('layout' => "#{current_layout}-iframe", 'type' => 'iframe', 'subdir' => '/iframe')
     end
 
     def template
