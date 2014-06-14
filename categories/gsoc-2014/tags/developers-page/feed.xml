@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DEVELOPERS-PAGE</title>
+    <link>http://planet.timvideos.us</link>
+    <description>News from our best developers, all news aggregated by planet.</description>
+    <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 12/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/gsoc-snippet-12-06-2014/</link>
+      <description>&lt;b&gt;[admin] &lt;/b&gt;installed Ruby 1.9.3 on my development machine&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed emoji on Ruby 1.9.3&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;done some research about Travis CI, unfortunately we can use that app only with getting started page to autobuild and push changes to gh-pages (Travis CI runs workers only if there was a git push or git pull request, running ie. every 10 minuts its not possible). I will try to add capybara tests to each project to make sure that after every build page works properly. I hope that is possible.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added generation of rss by all categories and tags, tomorrow I will add new routes to each element.&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/gsoc-snippet-12-06-2014/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked yihangho/emoji-for-jekyll to pinoss/emoji-for-jekyll</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-forked-yihangho-emoji-for-jekyll-to-pinoss/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-forked-yihangho-emoji-for-jekyll-to-pinoss/</guid>
+      <dc:date>2014-06-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 11/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/gsoc-snippet-11-06-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; Added social buttons for each post (twitter, facebook, google+) to add ability for visitors to share news on their walls (I can add button for pocket, pinterest if someone would like to have that buttons :))&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; Added 'read it in X minutes' tooltip above button 'Read more'&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added post excerpt with configurable word amount to display on main page&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've noticed a bug on website generated by server: If you click on post and you want to display it it will show without sidebar (on my local machine everythings working properly). I can't find any causes of that problem, I am trying to find reasons of that behavior, there are 2 possible problems:&lt;br /&gt;- order of generation plugins is not deterministic if all plugins have same priority, maybe on servers there is another priority that causes problems, I am trying to give plugins correct order, but since all works correctly on my machine I have to experiment on server. Second possible reason is Ruby version, I haven't installed Ruby 1.9.3 on my machine but I need to do that to make sure that everything work correctly.&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; Added Emoji support, but it has some incompatibility with Ruby 1.9.3 and causes problems with generation, so I reverted my changes. I need to update Ruby on servers or rewrite plugin to use 1.9.3.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow/next days:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add feeds per all categories and tags (rss xml and opml)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add import tag information from RSS feed&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add inform on irc if new page has been generated&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/gsoc-snippet-11-06-2014/</guid>
+      <dc:date>2014-06-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked recurser/jekyll-plugins to pinoss/jekyll-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/10/pinoss-forked-recurser-jekyll-plugins-to-pinoss-j/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/10/pinoss-forked-recurser-jekyll-plugins-to-pinoss-j/</guid>
+      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/dbdesign_shop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-pinoss-dbdesign_shop/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-pinoss-dbdesign_shop/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked grant/swift-cheat-sheet to pinoss/swift-cheat-sheet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-forked-grant-swift-cheat-sheet-to-pinoss-s/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-forked-grant-swift-cheat-sheet-to-pinoss-s/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository dbdesign_shop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-repository-dbdesign_shop/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-repository-dbdesign_shop/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch master at pinoss/dbdesign_shop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-branch-master-at-pinoss-dbdesign_s/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-branch-master-at-pinoss-dbdesign_s/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss commented on issue timvideos/planet#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss closed issue timvideos/planet#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC] What hapenned during this week (week 3) </title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</link>
+      <description>This week finally I've shown my work results on getting started page and deployed updated version of it on my website (&lt;a href=&quot;http://pinoss.github.io/&quot;&gt;http://pinoss.github.io&lt;/a&gt;), it still need work, but I have a nice page where I can start updating and improving design and content.&lt;br /&gt;&lt;br /&gt;I've added also new page to TimVideos Developers Website, which is NEWS. News are displayed via iframe from &lt;a href=&quot;http://planet.timvideos.us/iframe&quot;&gt;http://planet.timvideos.us/iframe&lt;/a&gt;, design is the same and common user won't see any differences between News and other parts of website.&lt;br /&gt;&lt;br /&gt;TimVideos Planet websites has been also updated. I've added fancybox for every image that was added to post and loading posts content asynchronously. Furthermore I've added RSS generators for tags and categories and ability to download OPML and RSS feeds with icon.&lt;br /&gt;&lt;br /&gt;TimVideos Developers page has some new features: I've added correct configuration for prose.io, which can be helpful if someone want to edit content on website. User can also download RSS feed from planet by clicking icon on sidebar.&lt;br /&gt;&lt;br /&gt;This week I will work on new deploy scripts which will inform developers when generation process failed, add acceptance tests, add ability to publish news to Facebook, Google+ and Twitter, and add liquid tag to generate new panel (box with content) without having knowledge of HTML and bootstrap (user will only define width and markdown file to include and jekyll will generate views).&lt;br /&gt;&lt;br /&gt;Thanks for 3rd week!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-what-hapenned-during-this-week-week-3/</guid>
+      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 08/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/08/gsoc-snippet-08-06-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; Fixed prose.io configuration (I need to test it because I have some rare problems with adding tags for page with prose.io, but everything seems to work properly).&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next week:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Prepare new deploy script that will alert developers by email that deployment failed.&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; Simplify process of adding new panel to page (create new liquid tag that will generate panel with selected settings (like width, classes, etc. with selected content from _includes folder)&lt;br /&gt;&lt;b&gt;[configuration/research] &lt;/b&gt;Find tool for monitor our websites if there are online (some type of Selenium tests but that run every 15 minutes and alert developers if something gone wrong)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Add ability to publish news to social networks like Twitter or Google+&lt;br /&gt;&lt;br /&gt;All task planned for this week has been ended, tomorrow I will write Week 3 Summary Post. :)&lt;br /&gt;Thanks for great, 3rd week, all TimVideos members, Leon, Tim, and users. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 08 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/08/gsoc-snippet-08-06-2014/</guid>
+      <dc:date>2014-06-08T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+  </channel>
+</rss>

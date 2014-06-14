@@ -173,6 +173,11 @@ img {
   margin-right: 5px;
 }
 
+.label-tag a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .description {
   font-family: courier, courier-new, monospace;
   color: #999;
@@ -197,8 +202,9 @@ padding-bottom: 0;
  border-color:#ffffff;
 }
 .panel .panel-heading a {
- font-weight:400;
- font-size:11px;
+ font-weight:300;
+ font-size:18px;
+ color: #c80000;
 }
 .panel .panel-default {
  border-color:#cccccc;
