@@ -11,120 +11,91 @@
     <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
+      <title>pinoss pushed to master at pinoss/planet.rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss pushed to master at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+      <title>[GSoC Snippet] 13/06/2014 and 04/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added new routes for categories, tag page and feeds&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tag, category pages + opml feeds&lt;br /&gt;&lt;b&gt;[maintenance] &lt;/b&gt;Created monitoring on Monitis.com, works great. I am considering adding agent to our generate.timvideos.us server to monitor our generation process.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added reading categories from planet blogs RSS feed (from &amp;lt;category&amp;gt; node)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;css improvements on mobile devices&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; height=&quot;202&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
 
 </description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss commented on pull request pote/planet.rb#45</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-commented-on-pull-request-pote-planet-rb-4/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+      <title>Audiotest ported and a problem with blocking probes</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/audiotest-ported-and-a-problem-with-blocking-prob/</link>
+      <description>&lt;p&gt;I went ahead and completed porting of Audiotest producer, volume effects and Vorbis encoder. With this, I successfully created and “listened” the test audio stream.&lt;/p&gt;
 
 </description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/06/pinoss-commented-on-pull-request-pote-planet-rb-4/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/audiotest-ported-and-a-problem-with-blocking-prob/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/greypic</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids deleted branch master at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-deleted-branch-master-at-aps-sids-portin/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-deleted-branch-master-at-aps-sids-portin/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch master at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-created-branch-master-at-aps-sids-portin/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/aps-sids-created-branch-master-at-aps-sids-portin/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>26 May '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/26-may-14/</link>
-      <description>&lt;p&gt;This week my final exams at university begin. They&amp;rsquo;ll last till 10th, but I hope to find some time in-between the exam days to work on my project. Over the past week I have gathered better command over Django and, in turn, the streaming system. I&amp;rsquo;ll be able to focus more after the exams, but will keep getting used to it whenever time permits. &lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/26/26-may-14/</guid>
-      <dc:date>2014-05-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>21 May '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/22/21-may-14/</link>
-      <description>&lt;p&gt;Sorry about the delay in this blogpost. I&amp;rsquo;ve been playing around with the streaming system since the last couple of days. Trying to figure out how components connect. My speed is a bit slow at the moment because I am new to Django. 
-I did add a Report Bug button on the streaming system. It&amp;rsquo;s temporarily placed in the footer. Next I am trying to direct it to a new page where I fetch and display all relevant information. This is just for testing that I am going the right way. I will add all this information to a database once I make sure that I fetch all the right and necessary data.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <title>14 June '14 (Previous post was wrongly dated, it should be 13)</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Looked up the Admin functionality already provided by Django and if it could possibly be modified for our purpose. Turns out it would be better to make an Admin end from scratch. &lt;/li&gt;
+&lt;li&gt;Read about &lt;a href=&quot;http://django-braces.readthedocs.org/en/v1.4.0/&quot;&gt;django-braces&lt;/a&gt; and gitignore.&lt;/li&gt;
+&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -132,55 +103,142 @@ I did add a Report Bug button on the streaming system. It&amp;rsquo;s temporaril
 
 
 </description>
-      <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/22/21-may-14/</guid>
-      <dc:date>2014-05-22T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>17 May '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/17/17-may-14/</link>
-      <description>&lt;p&gt;Yippee! I installed streaming system on my Ubuntu VM! 
-A few observations: &lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 17 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/17/17-may-14/</guid>
-      <dc:date>2014-05-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/Web-Design-Contest</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-pushed-to-master-at-niharika29-web-des/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-pushed-to-master-at-niharika29-web-des/</guid>
-      <dc:date>2014-03-03T00:00:00+00:00</dc:date>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 created repository Web-Design-Contest</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-created-repository-web-design-contest/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+      <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-created-repository-web-design-contest/</guid>
-      <dc:date>2014-03-03T00:00:00+00:00</dc:date>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 created branch web-design-branch at Chocolava/Web-Design-Contest</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-created-branch-web-design-branch-at-ch/</link>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>14 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</link>
+      <description>&lt;p&gt;Done with the form today. Only styling remains. Data being computed in JS and saved to database. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
+      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to master at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr opened pull request timvideos/streaming-system#62</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-created-branch-docker-at-maxstr-streaming-/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/03/03/niharika29-created-branch-web-design-branch-at-ch/</guid>
-      <dc:date>2014-03-03T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-created-branch-docker-at-maxstr-streaming-/</guid>
+      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-14T00:00:00+00:00</dc:date>
   </channel>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/06/02/gsoc-daily-log-from-cvpcb-to-pcbnew//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>[GSoC Daily Log]: From CvPcb to Pcbnew!</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 2, 2014
+           • Rohit (VGA Extension)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/vga">
+                  vga
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F02%2Fgsoc-daily-log-from-cvpcb-to-pcbnew%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F02%2Fgsoc-daily-log-from-cvpcb-to-pcbnew%2F&text=TimVideos.us%20%5BGSoC+Daily+Log%5D%3A+From+CvPcb+to+Pcbnew%21%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F02%2Fgsoc-daily-log-from-cvpcb-to-pcbnew%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F02%2Fgsoc-daily-log-from-cvpcb-to-pcbnew%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div dir="ltr" id="docs-internal-guid-40146c62-5eba-85df-6b8a-d8f5e0f6ab14" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Monday, 2nd June 2014:</span></div><div dir="ltr" id="docs-internal-guid-40146c62-5eba-85df-6b8a-d8f5e0f6ab14" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><br /></div><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Samples from Analog Devices Approved! (those from TI still in “Pending Approval” stage)</span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Did the footprint assignment in Cvpcb and PCB components placement&nbsp; in Pcbnew. [</span><a href="https://github.com/rohit91/HDMI2USB-vmodvga/commit/6d4a4a2b74f84be660819a5cbb9d2774d468d6ee" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;">Github Push</span></a><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">]</span></div><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;"></span></div></li><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Added the updated VHDCI footprint to the design</span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Added the longer pads version of LQFP80 footprint in a new project(vgaExp_v01_LongerPads.pro)</span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">Did the component placement (almost same placement as previous design). &lt;Rant&gt; Took much time to accurately place all components at exact same place as in previous design. The KiCad doesn't have inter-window copy-paste version! Why o why? :( Eagle has this feature! Seems this is a frequently requested feature-request for KiCad and is also on the <a href="https://github.com/KiCad/kicad-source-mirror/blob/master/TODO.txt" target="_blank">top priorities</a> of their developers. So, there is some hope of seeing this feature soon! &lt;/Rant&gt;</span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;"><span style="background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;">ToDo: Add Test-Points on PCB</span></li></ul></ul></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://dreamsxtrinsic.blogspot.com/">Dreams eXtrinsic</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>

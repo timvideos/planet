@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/12/work-done-so-far//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Work Done so far!</h1>
+      <div class="article">
+        <p class="meta description">
+          May 12, 2014
+           • Ajit (MJPEG Optimisation)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/mjpeg">
+                  mjpeg
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F12%2Fwork-done-so-far%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F12%2Fwork-done-so-far%2F&text=TimVideos.us%20Work+Done+so+far%21%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F12%2Fwork-done-so-far%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F05%2F12%2Fwork-done-so-far%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <div dir="ltr" style="text-align: left;" trbidi="on">Honestly I am not a blogging &nbsp;person so this kind of seems unnatural to me. Any way I will be using this blog post to write about the stuff I have done and that which I have planning to do.<br /><br />Some time back I ran some a test bench on the mkjpeg core which was actually a modified version of the test bench provided by mkjpeg.<br />It turns out that in simulation a 1080 HD pic takes around 50 ms(simulation time) to process &nbsp;which turns out to be 20 fps if the clock has a frequency of 100 MHz. In fact I contacted one of the developer of mkjpeg core and he had this to say:<br /><blockquote class="tr_bq"><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">"I managed to run the ip at 125mhz on a cyclone 4 grade C6.</span><br /><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">Because i modified the ip for 4:2:0 compression, it managed &nbsp;to</span><br /><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">compress 50mpix/s : 1600x1200 images at 25fps.</span><br /><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">I planned to run it at 150Mhz on a arriaV grade c4. At this speed, I</span><br /><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 13px;">am sure that you can compress 1080p at 30fps with only one ip core."</span></blockquote>The mkjpeg core currently has 4:2:2 subsampling which is acceptable in industry but making it 4:2:0 will definitely improve fps with reduction in quality. But the point is if the core can be run a faster rate half the job is done.<br /><br />So my first step towards optimisation will be trying to improve the max frequency of operation.<br />Well how will I go about it.<br /><br />Well the easiest thing to do is try unsing SmartXplorer. SmartXplorer is a xilinx tool which tries different placement and routing strategies to meet the timing requirement. Other things that I am planning to manually locking PLL of jpeg core, changing the timing constraint to make the PAR tool work harder. Changing the fanout constraint can also help.<br />The slowest block of the mkjpeg core is the HUFFMAN encoder. I will try to add a pipeline stage somewhere in the block to reduce the combinational delay but what I got from the reading the VHDL codes, it seems already there is a lot of pipelining done in the block so it will be tough.<br /><br /><br />Last week was spent mostly going through the mkjpeg core line by line and believe me it is really tough. Reading some one else's code is always tough but the fact that the core is written in VHDL makes is painful. VHDL is based on ADA and has poor readability. Plus the fact that the language is concurrent makes it extremely tough. Lot of things happen on the same time. But from whatever I did read and managed to understand my respect for the author of the core has increased manifold.<br />The core uses every trick in the book. It uses pingpong buffers to pipeline each block and FIFO to do data flow pipelining. So the optimisation I thought I could have done seems to be done already.<br /><br />Also I did investigate about why reading from line buffer stalls.<br />Well there are two kinds of stall:<br />1) When fifo are full. The only FIFO that fills up is the one that store DCT values. I haven't investigated this further as the stalls are for few cycles.<br />2) The second stall is a compulsory stall. The core processes in 16x8 blocks but takes in data in 8x8 blocks.<br />First, it reads the left 8x8 block pixel by pixel and store it in a RAM called FRAM1. As it is reading the pixel, it is also sending the data for processing of the Y1 component of colour space. This takes 64 cycles.<br /><br />Then the right 8x8 block is read and stored into FRAM1. Also while is being read, processing of Y2 is being done. This takes another 64 cycle.<br /><br />Now data for Cr, Cb component are send for processing. There are 128 samples but since 4:2:2 sampling is done, only 64 samples are send for Cr and Cb processing respectively. This takes 128 cycles. And during this 128 cycle no data is being read from the line buffer, hence a stall.<br /><br />I plan to use this idle 128 cycle to add some extra processing blocks. While Cr, Cb values are getting fed to the DCT block, next 16x8 block can be be read and processed by another DCT block which is then passed onto a new set of zig zag, quantiser block. But the catch is I can't use two Run Length encoder and hence the speed of RLE is critical. So the reading will stop only when pipeline fifos are full.<br /><br />Another idea is a simple brute force technique, use two core instead of one. But the problem is this<br /><br /><blockquote class="tr_bq"><blockquote class="tr_bq">Specific Feature Utilization:</blockquote><blockquote class="tr_bq">&nbsp;Number of Block RAM/FIFO: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 77 &nbsp;out of &nbsp; &nbsp;116 &nbsp; &nbsp;66% &nbsp;</blockquote><blockquote class="tr_bq">&nbsp; &nbsp; Number using Block RAM only: &nbsp; &nbsp; &nbsp; &nbsp; 77</blockquote><blockquote class="tr_bq">&nbsp;Number of BUFG/BUFGCTRLs: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13 &nbsp;out of &nbsp; &nbsp; 16 &nbsp; &nbsp;81% &nbsp;</blockquote><blockquote class="tr_bq">&nbsp;Number of DSP48A1s: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 21 &nbsp;out of &nbsp; &nbsp; 58 &nbsp; &nbsp;36% &nbsp;</blockquote><blockquote class="tr_bq">&nbsp;Number of PLL_ADVs: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4 &nbsp;out of &nbsp; &nbsp; &nbsp;4 &nbsp; 100% &nbsp;</blockquote><div><br /></div></blockquote>Already 66% of RAM /FIFO resource has been used. The synthesis report of only the JPEG core looks something likes this regarding RAM utilisation:<br /><br /><blockquote class="tr_bq">Specific Feature Utilization:</blockquote><blockquote class="tr_bq">&nbsp;Number of Block RAM/FIFO: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 65 &nbsp;out of &nbsp; &nbsp;116 &nbsp; &nbsp;56% &nbsp;</blockquote><blockquote class="tr_bq">&nbsp; &nbsp; Number using Block RAM only: &nbsp; &nbsp; &nbsp; &nbsp; 65</blockquote><blockquote class="tr_bq">&nbsp;Number of BUFG/BUFGCTRLs: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2 &nbsp;out of &nbsp; &nbsp; 16 &nbsp; &nbsp;12% &nbsp;</blockquote><blockquote class="tr_bq">&nbsp;Number of DSP48A1s: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10 &nbsp;out of &nbsp; &nbsp; 58 &nbsp; &nbsp;17% &nbsp;</blockquote><blockquote class="tr_bq"></blockquote>The reason for high utilisation is the highly pipelined nature of JPEG core. Each block has has FIFO for storing intermediate values in a block in addition to ping pong memories for pipelining of each step of encoding. Also a line buffer is used which stores 16 lines of image and is biggest hogger of BRAMs.<br /><br /><br />Can the algorithms used in the blocks be improved?<br />I have completely read the codes of DCT, Zig-Zager and Quantiser. It seems the answer is no. Why?<br />Well DCT core does not use multiplier but ROM based look up table which makes it super efficient. When the pipe line is full, 8x8 blocks are processed in 64 cycles! Quantiser and Zigzager also take 64 cycles when the pipeline is full. This is pretty good. It is very difficult to beat this. Well done Mr Krepa!<br /><br />I haven't completed reading the RLE and Huffman encoding block hence I can't comment on it right now.<br /><br />Okay now I am getting bored so will add some more stuff tomorrow. Honestly I am in a sticky situation even before the coding period has started. I guess I should spend more time praying than coding now! :D<br /><br /><br /><br /><blockquote class="tr_bq"></blockquote></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>

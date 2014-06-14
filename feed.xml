@@ -10,58 +10,31 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
     <item>
-      <title>Pinoss Pushed To Master At Timvideos Planet</title>
-      <link>http://planet.timvideos.us/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>---
-title: &quot;pinoss pushed to master at timvideos/planet&quot;
-kind: article
-created_at: 2014-06-14 12:25:33 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;github developers-page ruby jekyll&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Pinoss Pushed To Master At Pinoss Planet Rb</title>
-      <link>http://planet.timvideos.us/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</link>
-      <description>---
-title: &quot;pinoss pushed to master at pinoss/planet.rb&quot;
-kind: article
-created_at: 2014-06-14 14:34:15 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;github developers-page ruby jekyll&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>pinoss pushed to master at pinoss/planet.rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Gsoc Snippet 13 06 2014 And 04 06 2014</title>
-      <link>http://planet.timvideos.us/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</link>
-      <description>---
-title: &quot;[GSoC Snippet] 13/06/2014 and 04/06/2014&quot;
-kind: article
-created_at: 2014-06-14 18:15:00 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;news developers-page ruby jekyll&quot;
-layout: post
----&lt;b&gt;[code] &lt;/b&gt;added new routes for categories, tag page and feeds&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tag, category pages + opml feeds&lt;br /&gt;&lt;b&gt;[maintenance] &lt;/b&gt;Created monitoring on Monitis.com, works great. I am considering adding agent to our generate.timvideos.us server to monitor our generation process.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added reading categories from planet blogs RSS feed (from &amp;lt;category&amp;gt; node)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;css improvements on mobile devices&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; height=&quot;202&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+      <title>[GSoC Snippet] 13/06/2014 and 04/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added new routes for categories, tag page and feeds&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tag, category pages + opml feeds&lt;br /&gt;&lt;b&gt;[maintenance] &lt;/b&gt;Created monitoring on Monitis.com, works great. I am considering adding agent to our generate.timvideos.us server to monitor our generation process.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added reading categories from planet blogs RSS feed (from &amp;lt;category&amp;gt; node)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;css improvements on mobile devices&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; height=&quot;202&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -70,42 +43,56 @@ layout: post
 
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Aps Sids Pushed To Master At Aps Sids Greypic</title>
-      <link>http://planet.timvideos.us/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</link>
-      <description>---
-title: &quot;aps-sids pushed to master at aps-sids/greypic&quot;
-kind: article
-created_at: 2014-06-14 13:34:46 UTC
-author: Amanpreet (Porting Flumotion)
-image: https://avatars2.githubusercontent.com/u/2363074?s=50
-categories: GSoC-2014
-tags: &quot;github flumotion&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>Audiotest ported and a problem with blocking probes</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/audiotest-ported-and-a-problem-with-blocking-prob/</link>
+      <description>&lt;p&gt;I went ahead and completed porting of Audiotest producer, volume effects and Vorbis encoder. With this, I successfully created and “listened” the test audio stream.&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/audiotest-ported-and-a-problem-with-blocking-prob/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>14 June 14 Previous Post Was Wrongly Dated It Sho</title>
-      <link>http://planet.timvideos.us/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</link>
-      <description>---
-title: &quot;14 June '14 (Previous post was wrongly dated, it should be 13)&quot;
-kind: article
-created_at: 2014-06-14 17:41:36 UTC
-author: Niharika (Bug reporting system)
-image: https://avatars1.githubusercontent.com/u/5735280?s=50
-categories: GSoC-2014
-tags: &quot;news bug-reporting-system python django&quot;
-layout: post
----&lt;ul&gt;
+      <title>aps-sids pushed to master at aps-sids/greypic</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>14 June '14 (Previous post was wrongly dated, it should be 13)</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</link>
+      <description>&lt;ul&gt;
 &lt;li&gt;Looked up the Admin functionality already provided by Django and if it could possibly be modified for our purpose. Turns out it would be better to make an Admin end from scratch. &lt;/li&gt;
 &lt;li&gt;Read about &lt;a href=&quot;http://django-braces.readthedocs.org/en/v1.4.0/&quot;&gt;django-braces&lt;/a&gt; and gitignore.&lt;/li&gt;
 &lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
@@ -117,82 +104,46 @@ layout: post
 
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 Pushed To Master At Niharika29 Bugtrac</title>
-      <link>http://planet.timvideos.us/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>---
-title: &quot;Niharika29 pushed to master at Niharika29/bugtracker&quot;
-kind: article
-created_at: 2014-06-13 07:59:46 UTC
-author: Niharika (Bug reporting system)
-image: https://avatars1.githubusercontent.com/u/5735280?s=50
-categories: GSoC-2014
-tags: &quot;github bug-reporting-system python django&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Maxstr Pushed To Master At Maxstr Dockered Stream</title>
-      <link>http://planet.timvideos.us/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
-      <description>---
-title: &quot;maxstr pushed to master at maxstr/dockered-streamingsystem&quot;
-kind: article
-created_at: 2014-06-13 09:51:07 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Maxstr Pushed To Docker At Maxstr Streaming Syste</title>
-      <link>http://planet.timvideos.us/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>---
-title: &quot;maxstr pushed to docker at maxstr/streaming-system&quot;
-kind: article
-created_at: 2014-06-13 09:43:07 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Gsoc Daily Log Preparing For Next Major Milestone</title>
-      <link>http://planet.timvideos.us/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</link>
-      <description>---
-title: &quot;[GSoC Daily Log]: Preparing for next major milestone&quot;
-kind: article
-created_at: 2014-06-13 18:00:00 UTC
-author: Rohit (VGA Extension)
-image: https://avatars1.githubusercontent.com/u/1108318?s=50
-categories: GSoC-2014-HDMI2USB
-tags: &quot;news hdmi2usb vgadaily-log google-summer-of-code&quot;
-layout: post
----&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 13th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing capture code&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Looked on some DVI/HDMI codes to see if they can be used for displaying captured data&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+      <title>[GSoC Daily Log]: Preparing for next major milestone</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 13th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing capture code&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Looked on some DVI/HDMI codes to see if they can be used for displaying captured data&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -201,22 +152,13 @@ layout: post
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/2014/06/13/daily-snippet/</link>
-      <description>---
-title: &quot;Daily snippet&quot;
-kind: article
-created_at: 2014-06-13 10:25:00 UTC
-author: Ayush (PTZ/Serial Extension)
-image: https://avatars0.githubusercontent.com/u/4787914?s=50
-categories: GSoC-2014-HDMI2USB
-tags: &quot;news hdmi2usb ptz serial-extension&quot;
-layout: post
----&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- It turns out that Sony PTZ cameras need DTR/DSR flow control and Canon PTZ cameras need RTS/CTS flow control.&lt;br /&gt;- There must be ports on the serial expansion board with hardware flow control enabled.&lt;br /&gt;- So these ports would require additional INT IN endpoint apart from BULK IN/OUT.&lt;br /&gt;- Also each of these would require 6 FPGA pins from VHDCI.&lt;br /&gt;- So there is an open question - &lt;b&gt;how about having just 2 or 4 of these flow-controlled ports? And rest of them without flow control?&lt;/b&gt;&lt;br /&gt;- A majority of serial devices work without flow control, and even these PTZ cameras may work without flow control at very low baud rate. But I don't have PTZ cameras to test so I wouldn't want to take chances.&lt;br /&gt;- And there is another question left for us. &lt;b&gt;Do CDC ACM drivers support Bulk only CDC ACM serial port, i.e. the ones without INT IN endpoint?&lt;/b&gt;&lt;br /&gt;- Flow control is also a concern with the Numato board design, because that also seems to ignore RTS/CTS and DTR/DSR flow control. Only RX, TX is used in the schematics that I was shown. While this would work with RS422 pretty well, it might not work with RS232C based cameras.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- It turns out that Sony PTZ cameras need DTR/DSR flow control and Canon PTZ cameras need RTS/CTS flow control.&lt;br /&gt;- There must be ports on the serial expansion board with hardware flow control enabled.&lt;br /&gt;- So these ports would require additional INT IN endpoint apart from BULK IN/OUT.&lt;br /&gt;- Also each of these would require 6 FPGA pins from VHDCI.&lt;br /&gt;- So there is an open question - &lt;b&gt;how about having just 2 or 4 of these flow-controlled ports? And rest of them without flow control?&lt;/b&gt;&lt;br /&gt;- A majority of serial devices work without flow control, and even these PTZ cameras may work without flow control at very low baud rate. But I don't have PTZ cameras to test so I wouldn't want to take chances.&lt;br /&gt;- And there is another question left for us. &lt;b&gt;Do CDC ACM drivers support Bulk only CDC ACM serial port, i.e. the ones without INT IN endpoint?&lt;/b&gt;&lt;br /&gt;- Flow control is also a concern with the Numato board design, because that also seems to ignore RTS/CTS and DTR/DSR flow control. Only RX, TX is used in the schematics that I was shown. While this would work with RS422 pretty well, it might not work with RS232C based cameras.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -225,208 +167,84 @@ layout: post
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/daily-snippet/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>14 June 14</title>
-      <link>http://planet.timvideos.us/2014/06/13/14-june-14/</link>
-      <description>---
-title: &quot;14 June '14&quot;
-kind: article
-created_at: 2014-06-13 19:06:27 UTC
-author: Niharika (Bug reporting system)
-image: https://avatars1.githubusercontent.com/u/5735280?s=50
-categories: GSoC-2014
-tags: &quot;news bug-reporting-system python django&quot;
-layout: post
----&lt;p&gt;Done with the form today. Only styling remains. Data being computed in JS and saved to database. &lt;/p&gt;
+      <title>14 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</link>
+      <description>&lt;p&gt;Done with the form today. Only styling remains. Data being computed in JS and saved to database. &lt;/p&gt;
 
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/13/14-june-14/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Pinoss Pushed To Master At Timvideos Planet</title>
-      <link>http://planet.timvideos.us/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>---
-title: &quot;pinoss pushed to master at timvideos/planet&quot;
-kind: article
-created_at: 2014-06-12 16:50:44 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;github developers-page ruby jekyll&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Pinoss Pushed To Master At Pinoss Jekyll Plugins</title>
-      <link>http://planet.timvideos.us/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</link>
-      <description>---
-title: &quot;pinoss pushed to master at pinoss/jekyll-plugins&quot;
-kind: article
-created_at: 2014-06-12 18:32:45 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;github developers-page ruby jekyll&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>pinoss pushed to master at pinoss/jekyll-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Pinoss Forked Mfenner Jekyll Travis To Pinoss Jek</title>
-      <link>http://planet.timvideos.us/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
-      <description>---
-title: &quot;pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis&quot;
-kind: article
-created_at: 2014-06-12 17:04:50 UTC
-author: Maciej (Developer Website)
-image: https://avatars1.githubusercontent.com/u/2752578?s=50
-categories: GSoC-2014
-tags: &quot;github developers-page ruby jekyll&quot;
-layout: post
----&lt;!-- fork --&gt;
+      <title>pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
+      <description>&lt;!-- fork --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 Pushed To Master At Niharika29 Bugtrac</title>
-      <link>http://planet.timvideos.us/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>---
-title: &quot;Niharika29 pushed to master at Niharika29/bugtracker&quot;
-kind: article
-created_at: 2014-06-12 17:03:41 UTC
-author: Niharika (Bug reporting system)
-image: https://avatars1.githubusercontent.com/u/5735280?s=50
-categories: GSoC-2014
-tags: &quot;github bug-reporting-system python django&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Maxstr Pushed To Master At Maxstr Streaming Syste</title>
-      <link>http://planet.timvideos.us/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</link>
-      <description>---
-title: &quot;maxstr pushed to master at maxstr/streaming-system&quot;
-kind: article
-created_at: 2014-06-12 02:39:00 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>maxstr pushed to master at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-master-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Maxstr Pushed To Docker At Maxstr Streaming Syste</title>
-      <link>http://planet.timvideos.us/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>---
-title: &quot;maxstr pushed to docker at maxstr/streaming-system&quot;
-kind: article
-created_at: 2014-06-12 02:42:31 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- push --&gt;
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Maxstr Opened Pull Request Timvideos Streaming Sy</title>
-      <link>http://planet.timvideos.us/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</link>
-      <description>---
-title: &quot;maxstr opened pull request timvideos/streaming-system#62&quot;
-kind: article
-created_at: 2014-06-12 02:39:39 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Maxstr Created Branch Docker At Maxstr Streaming</title>
-      <link>http://planet.timvideos.us/2014/06/12/maxstr-created-branch-docker-at-maxstr-streaming-/</link>
-      <description>---
-title: &quot;maxstr created branch docker at maxstr/streaming-system&quot;
-kind: article
-created_at: 2014-06-12 01:50:31 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/maxstr-created-branch-docker-at-maxstr-streaming-/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Maxstr Commented On Pull Request Timvideos Stream</title>
-      <link>http://planet.timvideos.us/2014/06/12/maxstr-commented-on-pull-request-timvideos-stream/</link>
-      <description>---
-title: &quot;maxstr commented on pull request timvideos/streaming-system#61&quot;
-kind: article
-created_at: 2014-06-12 01:25:48 UTC
-author: Max (Dockerization)
-image: https://avatars3.githubusercontent.com/u/4483139?s=50
-categories: GSoC-2014
-tags: &quot;github dockerization&quot;
-layout: post
----&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/2014/06/12/maxstr-commented-on-pull-request-timvideos-stream/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-14T00:00:00+00:00</dc:date>

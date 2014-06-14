@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/05/22/import-errors//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Import errors</h1>
+      <div class="article">
+        <p class="meta description">
+          May 22, 2014
+           • Amanpreet (Porting Flumotion)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/flumotion">
+                  flumotion
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F05%2F22%2Fimport-errors%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F05%2F22%2Fimport-errors%2F&text=TimVideos.us%20Import+errors%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F05%2F22%2Fimport-errors%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F05%2F22%2Fimport-errors%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <p>While porting the base modules and running the respective tests, I have encountered the same error which was there for previous GSoC student. Basically, its the ImportError conflict since introspected and static glib/gtk bindings must not be mixed as evident by the following error:</p>
+
+<div class="highlight"><pre><code class="python"><span class="n">flumotion</span>
+  <span class="n">test</span>
+    <span class="n">test_common_gstreamer</span> <span class="o">...</span>                                           <span class="p">[</span><span class="n">ERROR</span><span class="p">]</span>
+
+<span class="o">===============================================================================</span>
+<span class="p">[</span><span class="n">ERROR</span><span class="p">]</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/twisted/trial/runner.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">660</span><span class="p">,</span> <span class="ow">in</span> <span class="n">loadByNames</span>
+    <span class="n">things</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">findByName</span><span class="p">(</span><span class="n">name</span><span class="p">))</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/twisted/trial/runner.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">470</span><span class="p">,</span> <span class="ow">in</span> <span class="n">findByName</span>
+    <span class="k">return</span> <span class="n">reflect</span><span class="o">.</span><span class="n">namedAny</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/twisted/python/reflect.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">464</span><span class="p">,</span> <span class="ow">in</span> <span class="n">namedAny</span>
+    <span class="n">topLevelPackage</span> <span class="o">=</span> <span class="n">_importAndCheckStack</span><span class="p">(</span><span class="n">trialname</span><span class="p">)</span>
+  <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/flumotion/test/test_common_gstreamer.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">21</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="kn">from</span> <span class="nn">flumotion.common</span> <span class="kn">import</span> <span class="n">gstreamer</span>
+  <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/flumotion/common/gstreamer.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">25</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="kn">import</span> <span class="nn">gi</span>
+  <span class="n">File</span> <span class="s">&quot;/usr/lib/python2.7/dist-packages/gi/__init__.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">23</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+    <span class="kn">from</span> <span class="nn">._gi</span> <span class="kn">import</span> <span class="n">_API</span><span class="p">,</span> <span class="n">Repository</span>
+<span class="n">exceptions</span><span class="o">.</span><span class="n">ImportError</span><span class="p">:</span> <span class="n">could</span> <span class="ow">not</span> <span class="kn">import</span> <span class="nn">gobject</span> <span class="p">(</span><span class="n">error</span> <span class="n">was</span><span class="p">:</span> <span class="ne">ImportError</span><span class="p">(</span><span class="s">&#39;When using gi.repository you must not import static modules like &quot;gobject&quot;. Please change all occurrences of &quot;import gobject&quot; to &quot;from gi.repository import GObject&quot;.&#39;</span><span class="p">,))</span>
+
+<span class="n">flumotion</span><span class="o">.</span><span class="n">test</span><span class="o">.</span><span class="n">test_common_gstreamer</span>
+<span class="o">-------------------------------------------------------------------------------</span>
+<span class="n">Ran</span> <span class="mi">1</span> <span class="n">tests</span> <span class="ow">in</span> <span class="mf">0.003</span><span class="n">s</span>
+
+<span class="n">FAILED</span> <span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div>
+
+<p>Now, I suspect there could be two reasons for this:</p>
+
+<ol>
+  <li>We need to port all the modules before testing</li>
+  <li>Twisted 12 is not compatible with gi</li>
+</ol>
+
+<p>I am looking into this issue right now. Previous student’s blog posts suggest some ideas but those seem unclear/wrong.</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>
