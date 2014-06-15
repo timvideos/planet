@@ -1,7 +1,7 @@
 <div class="col-md-12">
   <div class="panel panel-default">
     <div class="panel-heading">
-      <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{% category_url %}/{{ page.category | downcase }}/{% tag_url %}/{{ page.tag | downcase}}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{% category_url %}/{{ page.category | downcase }}/{% tag_url %}/{{ page.tag | downcase}}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> {{ page.category | upcase }} / {{ page.tag | upcase }}</span></h4>
+      <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{% category_url %}{{ page.category | downcase }}/{% tag_url %}/{{ page.tag | downcase}}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{% category_url %}{{ page.category | downcase }}/{% tag_url %}/{{ page.tag | downcase}}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> {{ page.category | upcase }} / {{ page.tag | upcase }}</span></h4>
     </div>
     <div class="panel-body">
       {% for post in site.categories[page.category] %}
