@@ -126,8 +126,10 @@ module Jekyll
 
       config_file = File.join(site.source, site.config['opml']['source'])
       all_blogs = read_blogs_from_config(config_file)
-      
+
       tags = {}
+      site.tags.keys.each { |tag| tags[tag] = [] }
+
       tags_grouped = all_blogs.group_by { |blog| blog['tags'] }
       tags_grouped.each do |tag_names, blogs|
         tag_names.split.each do |name|
