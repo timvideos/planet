@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Daily Log]: Application Note comes in handy!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/gsoc-daily-log-application-note-comes-in-handy/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-a19e-f288-067c-dc3b2d859562&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 15th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-a19e-f288-067c-dc3b2d859562&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Porting the Xilinx’s DVI App. Note for testing the VGA capture on HDMI. Almost done, Have to test it with a test-pattern and then with actual VGA captured data.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/gsoc-daily-log-application-note-comes-in-handy/</guid>
+      <dc:date>2014-06-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Lots of challenges came up when started looking into mechanical considerations and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit&quot; target=&quot;_blank&quot;&gt;documenting&lt;/a&gt; them.&lt;/li&gt;&lt;li&gt;Still have to figure out how many ports we can have.&lt;/li&gt;&lt;li&gt;Got a nice &lt;a href=&quot;http://www.cypress.com/?docID=47947&quot; target=&quot;_blank&quot;&gt;Appnote&lt;/a&gt; from Cypress that explains how serial ports are done in FX2LP.&lt;/li&gt;&lt;li&gt;With the new changes in board design this is getting much more complex than thought!&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -282,17 +297,6 @@
 </description>
       <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to gsoc at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-15T00:00:00+00:00</dc:date>
