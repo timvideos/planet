@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Daily Log]: Took the day off</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/14/gsoc-daily-log-took-the-day-off/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9cc1-d7a7-454c-cc9f24ed4e74&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 14th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9cc1-d7a7-454c-cc9f24ed4e74&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Took the day off. Watched TV Series (non-stop!) and had hangout with friends&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/14/gsoc-daily-log-took-the-day-off/</guid>
+      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Preparing for next major milestone</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 13th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9952-990f-a4d8-2c8d7f3c5fc1&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing capture code&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Looked on some DVI/HDMI codes to see if they can be used for displaying captured data&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -281,18 +296,6 @@
       <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/gsoc-daily-log-weird-voltages/</guid>
       <dc:date>2014-05-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred m-labs/milkymist</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/28/rohit91-starred-m-labs-milkymist/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/28/rohit91-starred-m-labs-milkymist/</guid>
-      <dc:date>2014-05-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-14T00:00:00+00:00</dc:date>
   </channel>
