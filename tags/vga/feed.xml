@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>[GSoC Daily Log]: Took the day off</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/14/gsoc-daily-log-took-the-day-off/</link>
@@ -297,6 +297,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/gsoc-daily-log-weird-voltages/</guid>
       <dc:date>2014-05-29T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-14T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
