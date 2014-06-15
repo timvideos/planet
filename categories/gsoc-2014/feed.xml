@@ -21,6 +21,16 @@
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>GSoC Update 6-14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/15/gsoc-update-6-14/</link>
+      <description>&lt;p&gt;Hey all, I've missed my daily snippets for the past few days due to finishing up exams and moving out of my apartment.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/gsoc-update-6-14/</guid>
+      <dc:date>2014-06-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -226,17 +236,6 @@
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr opened pull request timvideos/streaming-system#62</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-15T00:00:00+00:00</dc:date>
