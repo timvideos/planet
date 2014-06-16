@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Was trying to implement the endpoint changes in the FX2LP firmware but I have a&amp;nbsp;bad news that Cypress FX1/2 let's you access only endpoints no 1,2,4,6,8 where endpoint 1 is a regular endpoint of int/bulk transfer type and 2,4,6,8 are large endpoints with double/triple/quad buffering. No other endpoints!&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;With endpoints 1, 2, 4, 6 already in use, this puts most of our plans about including UVC A/B preview and HDMI audio in trouble.&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Here is an excerpt from&amp;nbsp;&lt;a href=&quot;http://www.cypress.com/?rID=38232&quot; target=&quot;_blank&quot;&gt;EZ-USB® Technical Reference Manual&lt;/a&gt;, pg 87.&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-5r0Mcw0ghxY/U57z4NcqZyI/AAAAAAAACj4/qA1TZ5w8Mx8/s1600/Endpoint+restriction+clause.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em; text-align: center;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-5r0Mcw0ghxY/U57z4NcqZyI/AAAAAAAACj4/qA1TZ5w8Mx8/s1600/Endpoint+restriction+clause.png&quot; height=&quot;67&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Don't know whether the other end-points are being used internally to implement multi-buffering or if they had decided to remove them for simplicity. The C code we have is mostly about initialization and USB descriptors other than that its all binary blobs and there's nothing to play with.&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Here is another diagram from pg 99 to support this&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-4PTEZ-XKKPo/U57z6eT1mkI/AAAAAAAACkA/wrQA-ZQHQ80/s1600/Slave+FIFO.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em; text-align: center;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-4PTEZ-XKKPo/U57z6eT1mkI/AAAAAAAACkA/wrQA-ZQHQ80/s1600/Slave+FIFO.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If more curious, go though &lt;i&gt;Chapter 8 - Access to endpoint buffers&lt;/i&gt; of that document.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
       <description>&lt;!-- fork --&gt;
@@ -279,21 +294,6 @@
 </description>
       <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Register Documentation and spreadsheet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/gsoc-daily-log-register-documentation-and-spreads/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-7358-a6d5-66a8-6064286fc999&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 6th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-7358-a6d5-66a8-6064286fc999&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Made a spreadsheet for easier calculation of required register values. &lt;/span&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1GH8NDtB8ceGhJEVZQujcXdxDPSw_wLqhg_3s436kkSs/edit?usp=sharing&quot; style=&quot;text-decoration: none;&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/gsoc-daily-log-register-documentation-and-spreads/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-16T00:00:00+00:00</dc:date>
