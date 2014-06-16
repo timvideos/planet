@@ -25,6 +25,18 @@
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/15/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -249,21 +261,6 @@
 </description>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/gsoc-daily-log-preparing-for-next-major-milestone/</guid>
-      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- It turns out that Sony PTZ cameras need DTR/DSR flow control and Canon PTZ cameras need RTS/CTS flow control.&lt;br /&gt;- There must be ports on the serial expansion board with hardware flow control enabled.&lt;br /&gt;- So these ports would require additional INT IN endpoint apart from BULK IN/OUT.&lt;br /&gt;- Also each of these would require 6 FPGA pins from VHDCI.&lt;br /&gt;- So there is an open question - &lt;b&gt;how about having just 2 or 4 of these flow-controlled ports? And rest of them without flow control?&lt;/b&gt;&lt;br /&gt;- A majority of serial devices work without flow control, and even these PTZ cameras may work without flow control at very low baud rate. But I don't have PTZ cameras to test so I wouldn't want to take chances.&lt;br /&gt;- And there is another question left for us. &lt;b&gt;Do CDC ACM drivers support Bulk only CDC ACM serial port, i.e. the ones without INT IN endpoint?&lt;/b&gt;&lt;br /&gt;- Flow control is also a concern with the Numato board design, because that also seems to ignore RTS/CTS and DTR/DSR flow control. Only RX, TX is used in the schematics that I was shown. While this would work with RS422 pretty well, it might not work with RS232C based cameras.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-16T00:00:00+00:00</dc:date>

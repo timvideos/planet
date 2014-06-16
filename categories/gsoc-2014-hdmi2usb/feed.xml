@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Application Note comes in handy!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/gsoc-daily-log-application-note-comes-in-handy/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-a19e-f288-067c-dc3b2d859562&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 15th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-a19e-f288-067c-dc3b2d859562&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Porting the Xilinx’s DVI App. Note for testing the VGA capture on HDMI. Almost done, Have to test it with a test-pattern and then with actual VGA captured data.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -282,21 +294,6 @@
 </description>
       <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/gsoc-daily-log-register-documentation-and-spreads/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;-Studied&amp;nbsp;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;ug416 and ug388 to understand XILINX MIG&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Studied working of DDR2 Ram&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Ran example design to understand the working further. Took me lot of time to get the clocks working at correct rate as PLL values were changed manually which I didn't take notice of.&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;docs-internal-guid-ffdcb646-6e8a-ffb5-4a66-414fe4bcad2e&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;321px;&quot; src=&quot;https://lh4.googleusercontent.com/Fja4sKaFLPqsgI8RyrgxmwIgF3leN6uPqmk7yRMkUAahP7vfDt6tQ8wevFSp6oDLEw-6uRu3ICsG-CejCpGG-Q2sNxwnaBD1a_xHAywrXMB6ZdxhAodTOiGevgo8bxiq0A&quot; style=&quot;-webkit-transform: rotate(0rad); border: none;&quot; width=&quot;512px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;The read FSM of DDR2 looks something like this^. So 1 burst read gives 64 bytes. Jpeg encoder needs 1280*8*3 bytes to start. That means it takes a lot of cycle to fill the jpeg. I will try &lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;under clocking&lt;/span&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt; the DDR2 ram today and see whether it affects the frame rate. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Also I will start coding the test bench.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-16T00:00:00+00:00</dc:date>

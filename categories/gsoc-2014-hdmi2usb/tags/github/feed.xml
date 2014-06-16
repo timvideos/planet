@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar created repository HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</link>
       <description>&lt;!-- create --&gt;
@@ -226,17 +238,6 @@
 </description>
       <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-andy46-ov7670-vhdl-to-rohit91-ov76/</guid>
-      <dc:date>2014-05-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew commented on issue timvideos/HDMI2USB#46</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
       <dc:date>2014-05-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-16T00:00:00+00:00</dc:date>

@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Lots of challenges came up when started looking into mechanical considerations and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit&quot; target=&quot;_blank&quot;&gt;documenting&lt;/a&gt; them.&lt;/li&gt;&lt;li&gt;Still have to figure out how many ports we can have.&lt;/li&gt;&lt;li&gt;Got a nice &lt;a href=&quot;http://www.cypress.com/?docID=47947&quot; target=&quot;_blank&quot;&gt;Appnote&lt;/a&gt; from Cypress that explains how serial ports are done in FX2LP.&lt;/li&gt;&lt;li&gt;With the new changes in board design this is getting much more complex than thought!&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
