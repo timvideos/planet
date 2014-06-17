@@ -116,6 +116,16 @@
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>17 June '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/17-june-14/</link>
+      <description>&lt;p&gt;Created a preliminary admin-backend. &lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/17-june-14/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 16/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</link>
       <description>&lt;b&gt;[community] &lt;/b&gt;call with Leon&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;redesign people page on &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;research about GitHub issues, and integration with Trello to make my plans and tasks open&lt;br /&gt;&lt;b&gt;[&lt;/b&gt;&lt;b&gt;research]&lt;/b&gt; research about cross scripting between different domain, try to find best solution&lt;div class=&quot;author&quot;&gt;
@@ -251,21 +261,6 @@
 </description>
       <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/15/daily-snippet/</guid>
-      <dc:date>2014-06-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>15 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/15/15-june-14/</link>
-      <description>&lt;p&gt;Investigated further about the authentication system in django. Made a dummy form for user login. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/15-june-14/</guid>
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-17T00:00:00+00:00</dc:date>
