@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/06/17/gsoc-what-hapenned-during-this-week-week-4//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>[GSoC] What hapenned during this week (week 4)</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 17, 2014
+           • Maciej (Developer Website)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/developers-page">
+                  developers-page
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/ruby">
+                  ruby
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/jekyll">
+                  jekyll
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F17%2Fgsoc-what-hapenned-during-this-week-week-4%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F17%2Fgsoc-what-hapenned-during-this-week-week-4%2F&text=TimVideos.us%20%5BGSoC%5D+What+hapenned+during+this+week+%28week+4%29%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F17%2Fgsoc-what-hapenned-during-this-week-week-4%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F06%2F17%2Fgsoc-what-hapenned-during-this-week-week-4%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          During 4th week I was working on setting our websites to be monitored.<br /><br />I've done some research, read a lot of articles about monitoring tools and I was so confused about all monitoring tools so I've chosen first from my list; and the choice was great. Monitis.com is very simple monitoring tool that has basic and advanced features, but suits our need in 100%, I've set monitoring for basic HTTP transaction (Monitis checks every one minute from 5-6 destinations if site is alive and if response has text to verify if page exists on requested address), full page load (to monitor time of website loading) and list of transactions (where Monitis plays previously recorded script).<br /><br />I've added also many small and medium size features to planet.timvideos.us, like:<br />- social buttons on every post (for Twitter, Facebook and Google+), I am thinking about adding Pocket or other to save post to read it later;<br />- added excerpt for each post, it's fully configurable in _config.yml, so you can select how many words you want to display in excerpt;<br />- added Emoji support in post, so you can use Emoji's in your posts, like :1: <img class='emoji' title='smile' alt='smile' src='https://github.global.ssl.fastly.net/images/icons/emoji/smile.png' height='20' width='20' align='absmiddle' > <img class='emoji' title='cinema' alt='cinema' src='https://github.global.ssl.fastly.net/images/icons/emoji/cinema.png' height='20' width='20' align='absmiddle' ><br />- added small tooltip with information about time of reading selected post before you start reading,<br />- added generate tag, category pages, opml and rss feeds filtered by tags and categories, you can reach them with new RESTfull like routes: ie. <a href="http://planet.timvideo.us/categories/gsoc-2014/tags/news">planet.timvideo.us/categories/gsoc-2014/tags/news</a> or <a href="http://planet.timvideos.us/tags/github">planet.timvideos.us/tags/github</a> or <a href="http://planet.timvideos.us/categories/gsoc-2014-hdmi2usb">planet.timvideos.us/categories/gsoc-2014-hdmi2usb</a>&nbsp;(if you want to download RSS or OPML just click on icons that are on the left of category/tag name in top right part of panel;<br />- fixed bug with wrongly attached layout for some posts,<br />- small css fixes;<br />- started working on People part of <a href="http://code.timvideos.us/">code.timvideos.us</a>&nbsp;and pulling data from GitHub API<br /><br />Next week I will work on <a href="http://code.timvideos.us/">code.timvideos.us</a>&nbsp;and adding new features for that website and make it awesome!<div class="author">
+  <span>
+    <i>Originally posted on <a href="http://pinoit.blogspot.com">pino IT / ruby / developer</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>

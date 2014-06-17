@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC] What hapenned during this week (week 4)</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/gsoc-what-hapenned-during-this-week-week-4/</link>
+      <description>During 4th week I was working on setting our websites to be monitored.&lt;br /&gt;&lt;br /&gt;I've done some research, read a lot of articles about monitoring tools and I was so confused about all monitoring tools so I've chosen first from my list; and the choice was great. Monitis.com is very simple monitoring tool that has basic and advanced features, but suits our need in 100%, I've set monitoring for basic HTTP transaction (Monitis checks every one minute from 5-6 destinations if site is alive and if response has text to verify if page exists on requested address), full page load (to monitor time of website loading) and list of transactions (where Monitis plays previously recorded script).&lt;br /&gt;&lt;br /&gt;I've added also many small and medium size features to planet.timvideos.us, like:&lt;br /&gt;- social buttons on every post (for Twitter, Facebook and Google+), I am thinking about adding Pocket or other to save post to read it later;&lt;br /&gt;- added excerpt for each post, it's fully configurable in _config.yml, so you can select how many words you want to display in excerpt;&lt;br /&gt;- added Emoji support in post, so you can use Emoji's in your posts, like :1: :smile: :cinema:&lt;br /&gt;- added small tooltip with information about time of reading selected post before you start reading,&lt;br /&gt;- added generate tag, category pages, opml and rss feeds filtered by tags and categories, you can reach them with new RESTfull like routes: ie. &lt;a href=&quot;http://planet.timvideo.us/categories/gsoc-2014/tags/news&quot;&gt;planet.timvideo.us/categories/gsoc-2014/tags/news&lt;/a&gt; or &lt;a href=&quot;http://planet.timvideos.us/tags/github&quot;&gt;planet.timvideos.us/tags/github&lt;/a&gt; or &lt;a href=&quot;http://planet.timvideos.us/categories/gsoc-2014-hdmi2usb&quot;&gt;planet.timvideos.us/categories/gsoc-2014-hdmi2usb&lt;/a&gt;&amp;nbsp;(if you want to download RSS or OPML just click on icons that are on the left of category/tag name in top right part of panel;&lt;br /&gt;- fixed bug with wrongly attached layout for some posts,&lt;br /&gt;- small css fixes;&lt;br /&gt;- started working on People part of &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&amp;nbsp;and pulling data from GitHub API&lt;br /&gt;&lt;br /&gt;Next week I will work on &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&amp;nbsp;and adding new features for that website and make it awesome!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/gsoc-what-hapenned-during-this-week-week-4/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 16/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</link>
       <description>&lt;b&gt;[community] &lt;/b&gt;call with Leon&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;redesign people page on &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;research about GitHub issues, and integration with Trello to make my plans and tasks open&lt;br /&gt;&lt;b&gt;[&lt;/b&gt;&lt;b&gt;research]&lt;/b&gt; research about cross scripting between different domain, try to find best solution&lt;div class=&quot;author&quot;&gt;
@@ -242,17 +257,6 @@
 </description>
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-created-branch-master-at-pinoss-dbdesign_s/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss commented on issue timvideos/planet#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</guid>
       <dc:date>2014-06-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-17T00:00:00+00:00</dc:date>
