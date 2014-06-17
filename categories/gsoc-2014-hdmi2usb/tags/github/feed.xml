@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers to tariq786/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
@@ -216,30 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-gadgetfactory-papilio-wings-to-roh/</guid>
       <dc:date>2014-05-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked flufy3d/ov7670_fr to rohit91/ov7670_fr</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-flufy3d-ov7670_fr-to-rohit91-ov767/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-flufy3d-ov7670_fr-to-rohit91-ov767/</guid>
-      <dc:date>2014-05-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked Andy46/OV7670-VHDL to rohit91/OV7670-VHDL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-andy46-ov7670-vhdl-to-rohit91-ov76/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/18/rohit91-forked-andy46-ov7670-vhdl-to-rohit91-ov76/</guid>
-      <dc:date>2014-05-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>

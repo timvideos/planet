@@ -8,7 +8,45 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers to tariq786/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Fiddling today with the FX2LP code I found that EP 6 (isochronous-in) which is used for UVC is double-buffered but it could also be quad-buffered. I configured the configuration bits to use quad-buffering and built the binary. Will be testing out difference in FPS performance. Here's a temporary &lt;a href=&quot;https://www.dropbox.com/s/o1qp82wfsrztue7/hdmi2usb.hex&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;&amp;nbsp;to download the binary.&lt;/li&gt;&lt;li&gt;The current situation with Cypress FX2LP needs us to significantly change our ways of integrating serial devices to HDMI2USB; the Cypress - FPGA route does not seem to work&lt;/li&gt;&lt;li&gt;It seems we will have to implement the serial expansion board as a standalone board using the PIC18F85J94 being planned to be used in production board.&lt;/li&gt;&lt;li&gt;It is also advisable to remove the control serial port currently implemented in Cypress FX2LP in order to free up endpoints for UVC A/B preview and HDMI audio input.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 16/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</link>
@@ -235,46 +273,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/greypic</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-master-at-aps-sids-greypic/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>14 June '14 (Previous post was wrongly dated, it should be 13)</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;Looked up the Admin functionality already provided by Django and if it could possibly be modified for our purpose. Turns out it would be better to make an Admin end from scratch. &lt;/li&gt;
-&lt;li&gt;Read about &lt;a href=&quot;http://django-braces.readthedocs.org/en/v1.4.0/&quot;&gt;django-braces&lt;/a&gt; and gitignore.&lt;/li&gt;
-&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
