@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 16/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</link>
+      <description>&lt;b&gt;[community] &lt;/b&gt;call with Leon&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;redesign people page on &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;research about GitHub issues, and integration with Trello to make my plans and tasks open&lt;br /&gt;&lt;b&gt;[&lt;/b&gt;&lt;b&gt;research]&lt;/b&gt; research about cross scripting between different domain, try to find best solution&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</guid>
+      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 15/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</link>
       <description>&lt;b&gt;[maintenance] &lt;/b&gt;added code.timvideos.us to monitis monitoring tool&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;read GtiHub Api documentation to pass as many information about TimVideos organization members to People subpage of code.timvideos.us (I need to decide if I should load content on client site with GitHub API or with gem ocktokit on server site)&lt;div class=&quot;author&quot;&gt;
@@ -238,17 +253,6 @@
 </description>
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-commented-on-issue-timvideos-planet-3/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss closed issue timvideos/planet#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-closed-issue-timvideos-planet-3/</guid>
       <dc:date>2014-06-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-16T00:00:00+00:00</dc:date>
