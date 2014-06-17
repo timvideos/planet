@@ -22,6 +22,21 @@
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>RTP packetizer golden model</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</link>
+      <description>A working RTP packetizer has been developed to deal with &lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;uncompressed RTP payload&lt;/a&gt;. It is working after some basic testing. Here is the &lt;a href=&quot;http://bit.ly/1nLRZds&quot;&gt;code&lt;/a&gt;.You need modified rtp.py which is also included in the code. Tomorrow i shall add the documentation to tell you how i did all this and why i did it that way?&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Fiddling today with the FX2LP code I found that EP 6 (isochronous-in) which is used for UVC is double-buffered but it could also be quad-buffered. I configured the configuration bits to use quad-buffering and built the binary. Will be testing out difference in FPS performance. Here's a temporary &lt;a href=&quot;https://www.dropbox.com/s/o1qp82wfsrztue7/hdmi2usb.hex&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;&amp;nbsp;to download the binary.&lt;/li&gt;&lt;li&gt;The current situation with Cypress FX2LP needs us to significantly change our ways of integrating serial devices to HDMI2USB; the Cypress - FPGA route does not seem to work&lt;/li&gt;&lt;li&gt;It seems we will have to implement the serial expansion board as a standalone board using the PIC18F85J94 being planned to be used in production board.&lt;/li&gt;&lt;li&gt;It is also advisable to remove the control serial port currently implemented in Cypress FX2LP in order to free up endpoints for UVC A/B preview and HDMI audio input.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -260,17 +275,6 @@
 </description>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/audiotest-ported-and-a-problem-with-blocking-prob/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-17T00:00:00+00:00</dc:date>
