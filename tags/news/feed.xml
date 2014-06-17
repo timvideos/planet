@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 4 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/week-4-progress/</link>
+      <description>&lt;p&gt;I started with some missed changes and continued with porting of Theora encoder, Ogg muxer and httpstreamer consumer. With these components, I was able to “watch” a test video stream.&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/week-4-progress/</guid>
+      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>RTP packetizer golden model</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</link>
       <description>A working RTP packetizer has been developed to deal with &lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;uncompressed RTP payload&lt;/a&gt;. It is working after some basic testing. Here is the &lt;a href=&quot;http://bit.ly/1nLRZds&quot;&gt;code&lt;/a&gt;.You need modified rtp.py which is also included in the code. Tomorrow i shall add the documentation to tell you how i did all this and why i did it that way?&lt;div class=&quot;author&quot;&gt;
@@ -276,16 +286,6 @@
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>I watched the stream!</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
-      <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-17T00:00:00+00:00</dc:date>
   </channel>
