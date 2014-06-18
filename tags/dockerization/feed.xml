@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
+      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>GSoC Update 6-17</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/gsoc-update-6-17/</link>
@@ -213,17 +224,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/maxstr-pushed-to-master-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr opened pull request timvideos/streaming-system#61</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/maxstr-opened-pull-request-timvideos-streaming-sy/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/maxstr-opened-pull-request-timvideos-streaming-sy/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>tariq786 forked EttusResearch/uhd to tariq786/uhd</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-ettusresearch-uhd-to-tariq786-uhd/</link>
@@ -286,6 +286,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/12/gsoc-daily-log-hsync-and-pixel-clock-detection/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
