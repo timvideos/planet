@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Documentation and Looking at UDP core</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</link>
+      <description>Part of good working habit is to document every thing. I have seen it and i believe it is extremely useful. So read the &lt;a href=&quot;http://bit.ly/1l1Id7e&quot;&gt;Spec&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;As i am done with RTP golden model, i am about to write RTP Verilog model. I was figuring out myself as well as with my mentor what would the interface to UDP core look like.There are two possibilities&lt;br /&gt;&lt;br /&gt;1)Assume there is downstream UDP core to begin with that accepts data.In this case, interface is easy as you can see how UDP accepts data.&lt;br /&gt;&lt;br /&gt;2) If no UDP core or UDP core does not have interface to accept data, then you can add UDP header on the same spot where you are inserting RTP header. Not only that, you can also insert IP header as well. That means now you have to interface RTP with the MAC core.&lt;br /&gt;&lt;br /&gt;The two cores i looked at are&lt;br /&gt;&lt;br /&gt;http://www.joelw.id.au/FPGA/DigilentAtlysResources&lt;br /&gt;&lt;br /&gt;This falls in the 2nd category&lt;br /&gt;&lt;br /&gt;and&lt;br /&gt;&lt;br /&gt;http://opencores.org/project,udp_ip_stack&lt;br /&gt;&lt;br /&gt;which is sadly down throughout today and i could n't figure out if it belongs to 1st of 2nd category. I will try again tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</guid>
+      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>tariq786 forked EttusResearch/uhd to tariq786/uhd</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-ettusresearch-uhd-to-tariq786-uhd/</link>
       <description>&lt;!-- fork --&gt;
@@ -270,21 +285,6 @@
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/13/daily-snippet/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: HSYNC and Pixel Clock detection!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/12/gsoc-daily-log-hsync-and-pixel-clock-detection/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9244-24b4-397b-39d4654f1cf6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 12th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-40146c62-9244-24b4-397b-39d4654f1cf6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Successful HSYNC and Pixel Clock detection&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Verified correct pixel clock(65MHz) by dividing it using 29-bit counter, and observing the time period of MSB connected to LED. Theoretically should be 8.2 seconds time period b/w OFF and ON. Practical observations using stopwatch indicate similar value.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;HSYNC detection was trivial, easier, having done the VSYNC detection before&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: circle; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;There is slight phase diff. b/w VSYNC and HSYNC, with VSYNC ahead of HSYNC. This is nice, since it actually has to be like this!&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/12/gsoc-daily-log-hsync-and-pixel-clock-detection/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-18T00:00:00+00:00</dc:date>
   </channel>

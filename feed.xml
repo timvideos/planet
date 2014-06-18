@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Running a Flumotion Docker Image</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
+      <description>&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://mstritzi.nfshost.com/blog&quot;&gt;Max Stritzinger&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
+      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +33,21 @@
 </description>
       <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
+      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Documentation and Looking at UDP core</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</link>
+      <description>Part of good working habit is to document every thing. I have seen it and i believe it is extremely useful. So read the &lt;a href=&quot;http://bit.ly/1l1Id7e&quot;&gt;Spec&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;As i am done with RTP golden model, i am about to write RTP Verilog model. I was figuring out myself as well as with my mentor what would the interface to UDP core look like.There are two possibilities&lt;br /&gt;&lt;br /&gt;1)Assume there is downstream UDP core to begin with that accepts data.In this case, interface is easy as you can see how UDP accepts data.&lt;br /&gt;&lt;br /&gt;2) If no UDP core or UDP core does not have interface to accept data, then you can add UDP header on the same spot where you are inserting RTP header. Not only that, you can also insert IP header as well. That means now you have to interface RTP with the MAC core.&lt;br /&gt;&lt;br /&gt;The two cores i looked at are&lt;br /&gt;&lt;br /&gt;http://www.joelw.id.au/FPGA/DigilentAtlysResources&lt;br /&gt;&lt;br /&gt;This falls in the 2nd category&lt;br /&gt;&lt;br /&gt;and&lt;br /&gt;&lt;br /&gt;http://opencores.org/project,udp_ip_stack&lt;br /&gt;&lt;br /&gt;which is sadly down throughout today and i could n't figure out if it belongs to 1st of 2nd category. I will try again tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</guid>
       <dc:date>2014-06-18T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -227,36 +257,6 @@
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/17-june-14/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 16/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</link>
-      <description>&lt;b&gt;[community] &lt;/b&gt;call with Leon&lt;br /&gt;&lt;b&gt;[design] &lt;/b&gt;redesign people page on &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;research about GitHub issues, and integration with Trello to make my plans and tasks open&lt;br /&gt;&lt;b&gt;[&lt;/b&gt;&lt;b&gt;research]&lt;/b&gt; research about cross scripting between different domain, try to find best solution&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</link>
-      <description>&lt;b&gt;[maintenance] &lt;/b&gt;added code.timvideos.us to monitis monitoring tool&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;read GtiHub Api documentation to pass as many information about TimVideos organization members to People subpage of code.timvideos.us (I need to decide if I should load content on client site with GitHub API or with gem ocktokit on server site)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-18T00:00:00+00:00</dc:date>
   </channel>

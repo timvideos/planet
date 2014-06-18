@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Running a Flumotion Docker Image</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
+      <description>&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://mstritzi.nfshost.com/blog&quot;&gt;Max Stritzinger&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
+      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
       <description>&lt;!-- push --&gt;
@@ -212,17 +227,6 @@
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/maxstr-pushed-to-master-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/maxstr-pushed-to-master-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-18T00:00:00+00:00</dc:date>
   </channel>
