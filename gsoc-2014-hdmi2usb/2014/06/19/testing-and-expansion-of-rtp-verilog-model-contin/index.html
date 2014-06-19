@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/testing-and-expansion-of-rtp-verilog-model-contin//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Testing and expansion of RTP Verilog model continues ...</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 19, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Ftesting-and-expansion-of-rtp-verilog-model-contin%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Ftesting-and-expansion-of-rtp-verilog-model-contin%2F&text=TimVideos.us%20Testing+and+expansion+of+RTP+Verilog+model+continues+...%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Ftesting-and-expansion-of-rtp-verilog-model-contin%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Ftesting-and-expansion-of-rtp-verilog-model-contin%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          The RTP Verilog RTL is complete and now it sends full 1280 pixel line (1280 x 3 bytes) as three packets of size 1281 bytes, 1281 bytes and 1278 bytes. See the <b><i>revised</i></b> <a href="https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1">Specification</a>&nbsp;(in particular page 2). The difference from yesterday is the amount of data and testing. Yesterday it was tested with toy data. Today it is tested with data that is close to real life i.e., full 1280 pixel lines<br /><br />The RTP Verilog RTL is uploaded to <a href="https://bitbucket.org/tariq786/myhdl_projs/src/6bb7705b9842/sim_models/?at=master">bitbucket</a>. The design has also gone through synthesis and post-synthesis simulation <a href="https://bitbucket.org/tariq786/myhdl_projs/src/6bb7705b9842597bbc7ccd78717d62b31f7a3e55/sim_models/rtp_xilinx/rtp/postsyn/?at=master">Link</a>. If you run post-synthesis simulation, you may not observe anything at the output. The reason is that pkt_data is no longer an output port. This is because<br /><br />1) It was added for observability and debugging purposes. It is not part of upstream or &nbsp; &nbsp; &nbsp;downstream interfaces<br />2) Its size is huge i.e., 1300 bytes i.e., reg [1300*8-1:0] pkt_data . Xilinx Spartan6 FPGA does not have these many pins to allocate.<br /><br />For above reasons, pkt_data is kept as an internal signal for synthesis. <b>But</b> this is not the case in RTL, where pkt_data signal is available as an output port so you may see full pkt_data as shown below. I am showing one packet (i.e. first 1281 bytes of the first pixel line). 4136 is the time stamp in nanoseconds<br /><br /><span style="color: purple;">&nbsp;4316: 8018000000000000000000000000</span><span style="color: orange;">0501</span><span style="color: red;">001a0</span><span style="color: blue;">0000</span><span style="color: purple;">00000000100000200000300000400000500000600000700000800000900000a00000b00000c00000d00000e00000f00001000001100001200001300001400001500001600001700001800001900001a00001b00001c00001d00001e00001f00002000002100002200002300002400002500002600002700002800002900002a00002b00002c00002d00002e00002f00003000003100003200003300003400003500003600003700003800003900003a00003b00003c00003d00003e00003f00004000004100004200004300004400004500004600004700004800004900004a00004b00004c00004d00004e00004f00005000005100005200005300005400005500005600005700005800005900005a00005b00005c00005d00005e00005f00006000006100006200006300006400006500006600006700006800006900006a00006b00006c00006d00006e00006f00007000007100007200007300007400007500007600007700007800007900007a00007b00007c00007d00007e00007f00008000008100008200008300008400008500008600008700008800008900008a00008b00008c00008d00008e00008f00009000009100009200009300009400009500009600009700009800009900009a00009b00009c00009d00009e00009f0000a00000a10000a20000a30000a40000a50000a60000a70000a80000a90000aa0000ab0000ac0000ad0000ae0000af0000b00000b10000b20000b30000b40000b50000b60000b70000b80000b90000ba0000bb0000bc0000bd0000be0000bf0000c00000c10000c20000c30000c40000c50000c60000c70000c80000c90000ca0000cb0000cc0000cd0000ce0000cf0000d00000d10000d20000d30000d40000d50000d60000d70000d80000d90000da0000db0000dc0000dd0000de0000df0000e00000e10000e20000e30000e40000e50000e60000e70000e80000e90000ea0000eb0000ec0000ed0000ee0000ef0000f00000f10000f20000f30000f40000f50000f60000f70000f80000f90000fa0000fb0000fc0000fd0000fe0000ff00010000010100010200010300010400010500010600010700010800010900010a00010b00010c00010d00010e00010f00011000011100011200011300011400011500011600011700011800011900011a00011b00011c00011d00011e00011f00012000012100012200012300012400012500012600012700012800012900012a00012b00012c00012d00012e00012f00013000013100013200013300013400013500013600013700013800013900013a00013b00013c00013d00013e00013f00014000014100014200014300014400014500014600014700014800014900014a00014b00014c00014d00014e00014f00015000015100015200015300015400015500015600015700015800015900015a00015b00015c00015d00015e00015f00016000016100016200016300016400016500016600016700016800016900016a00016b00016c00016d00016e00016f00017000017100017200017300017400017500017600017700017800017900017a00017b00017c00017d00017e00017f00018000018100018200018300018400018500018600018700018800018900018a00018b00018c00018d00018e00018f00019000019100019200019300019400019500019600019700019800019900019a00019b00019c00019d00019e00019f0001a00001a10001a20001a30001a40001a50001a60001a70001a80001a900</span><span style="color: #f1c232;">01aa</span><br /><span style="color: #f1c232;"><br /></span>The last RGB value is 0x01aa which translates to 426. Since the payload started from 0, there are 427 pixel values (427x3 = 1281 bytes) have been packetized as RTP payload. I kept the RGB data as monotonically increasing integers starting from 0 to simplify testing and debugging. The design does not drop a single RGB data across packet boundaries. I have myself verified this. If you can find bugs in this code, please bring them to my attention by submitting a pull request or commenting below.<br /><br /><br />Time permitting, i will look at MyHDL stuff as Chris has put a lot of stuff. See yaa<div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>
