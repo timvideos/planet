@@ -40,6 +40,17 @@
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>I'm Back!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/i-m-back/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally I am back from my trip to US. The competition didn't go the way I wanted it to be. Our cansat did not send any telemetry. Also it landed in a sunflower field which meant we could not recover the cansat and the onboard memory which had all the telemetry data. But it was a good learning experience, plus I got a chance to meet people from all over the world which was great.&lt;br /&gt;I will resume working on the project. I will continue my work on simulating the HDMI2USB firmware. Hopefully, I will be able to come up with something fruitful by the end of this week. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -258,17 +269,6 @@
 </description>
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-19T00:00:00+00:00</dc:date>
