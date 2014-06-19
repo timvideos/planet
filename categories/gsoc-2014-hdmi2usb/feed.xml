@@ -96,6 +96,17 @@
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ajitmathew pushed to gsoc at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
+      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Documentation and Looking at UDP core</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</link>
       <description>Part of good working habit is to document every thing. I have seen it and i believe it is extremely useful. So read the &lt;a href=&quot;http://bit.ly/1l1Id7e&quot;&gt;Spec&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;As i am done with RTP golden model, i am about to write RTP Verilog model. I was figuring out myself as well as with my mentor what would the interface to UDP core look like.There are two possibilities&lt;br /&gt;&lt;br /&gt;1)Assume there is downstream UDP core to begin with that accepts data.In this case, interface is easy as you can see how UDP accepts data.&lt;br /&gt;&lt;br /&gt;2) If no UDP core or UDP core does not have interface to accept data, then you can add UDP header on the same spot where you are inserting RTP header. Not only that, you can also insert IP header as well. That means now you have to interface RTP with the MAC core.&lt;br /&gt;&lt;br /&gt;The two cores i looked at are&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.joelw.id.au/FPGA/DigilentAtlysResources&quot;&gt;http://www.joelw.id.au/FPGA/DigilentAtlysResources&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This falls in the 2nd category&lt;br /&gt;&lt;br /&gt;and&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://opencores.org/project,udp_ip_stack&quot;&gt;http://opencores.org/project,udp_ip_stack&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;which is sadly down throughout today and i could n't figure out if it belongs to 1st of 2nd category. I will try again tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -268,21 +279,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/gsoc-daily-log-got-the-dvi-app-note-working/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Was trying to implement the endpoint changes in the FX2LP firmware but I have a&amp;nbsp;bad news that Cypress FX1/2 let's you access only endpoints no 1,2,4,6,8 where endpoint 1 is a regular endpoint of int/bulk transfer type and 2,4,6,8 are large endpoints with double/triple/quad buffering. No other endpoints!&lt;/li&gt;&lt;li&gt;With endpoints 1, 2, 4, 6 already in use, this puts most of our plans about including UVC A/B preview and HDMI audio in trouble.&lt;/li&gt;&lt;li&gt;Here is an excerpt from&amp;nbsp;&lt;a href=&quot;http://www.cypress.com/?rID=38232&quot; target=&quot;_blank&quot;&gt;EZ-USB® Technical Reference Manual&lt;/a&gt;, pg 87.&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-5r0Mcw0ghxY/U57z4NcqZyI/AAAAAAAACj4/qA1TZ5w8Mx8/s1600/Endpoint+restriction+clause.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em; text-align: center;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-5r0Mcw0ghxY/U57z4NcqZyI/AAAAAAAACj4/qA1TZ5w8Mx8/s1600/Endpoint+restriction+clause.png&quot; height=&quot;67&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Don't know whether the other end-points are being used internally to implement multi-buffering or if they had decided to remove them for simplicity. The C code we have is mostly about initialization and USB descriptors other than that its all binary blobs and there's nothing to play with.&lt;/li&gt;&lt;li&gt;Here is another diagram from pg 99 to support this&lt;/li&gt;&lt;/ul&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-4PTEZ-XKKPo/U57z6eT1mkI/AAAAAAAACkA/wrQA-ZQHQ80/s1600/Slave+FIFO.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em; text-align: center;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-4PTEZ-XKKPo/U57z6eT1mkI/AAAAAAAACkA/wrQA-ZQHQ80/s1600/Slave+FIFO.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;If more curious, go though &lt;i&gt;Chapter 8 - Access to endpoint buffers&lt;/i&gt; of that document.&lt;/li&gt;&lt;li&gt;Linux serial driver does not natively support DTR/DSR flow control but supports RTS/CTS flow control as described &lt;a href=&quot;http://linux.about.com/od/srl_howto/a/hwtsrl21t04.htm&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. We can have DPDT switch to connect DTR/DSR to RTS/CTS as a workaround as explained in that article.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-19T00:00:00+00:00</dc:date>
