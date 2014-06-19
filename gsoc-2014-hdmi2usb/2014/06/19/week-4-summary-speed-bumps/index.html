@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/week-4-summary-speed-bumps//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Week 4 summary: Speed bumps!</h1>
+      <div class="article">
+        <p class="meta description">
+          Jun 19, 2014
+           • Ayush (PTZ/Serial Extension)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/ptz">
+                  ptz
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/serial-extension">
+                  serial-extension
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Fweek-4-summary-speed-bumps%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Fweek-4-summary-speed-bumps%2F&text=TimVideos.us%20Week+4+summary%3A+Speed+bumps%21%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Fweek-4-summary-speed-bumps%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F19%2Fweek-4-summary-speed-bumps%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <div dir="ltr" style="text-align: left;" trbidi="on">Last week was spent on forming the functional description of serial expansion board – what features need to be there, what all functionality is reasonable and feasible to add and how they would work together. I had also discussed with my mentor the board’s design, its modularity and how everything will fit inside the chassis. But there was an important question left to explore - how can we implement USB-Serial interface in the most efficient way – which was not an easy question to answer.<br /><br /><div>This week was all about getting deeper into physical description of serial expansion board with aim to start building PCB design as soon as possible, but a lot of problems and questions came along the way some of which will need us to reconsider the functional description of the serial interface board. And we have been still carrying the same question this week, which by far is most important one – how would the USB serial interface work? What are the maximum no. of serial ports we can support? This has been keeping me from updating a lot of things in the requirements document which are pending, from mechanical specs to component selection.<br /><br />Our PTZ cameras require hardware flow control. So those seemingly extra pins in the DB-9 connector for RTS/CTS and DTR/DSR pins are indeed needed. Sony cameras use DTR/DSR pins for handshaking and Canon uses RTS/CTS. Handshaking is important in PTZ cameras because the tasks they perform are mechanical (slow) in nature and they can easily miss out commands due to buffer overflow and perform erratically. So the requirement of having handshaking makes our original question even more complex. If that’s not enough, linux does not natively support DTR/DSR handshaking. Also there were a few other questions that I had in mind but I didn’t discuss because I was more occupied with the above issues. These were:<br /><ul style="margin-bottom: 0pt; margin-top: 0pt; text-align: left;"><li>Board design width – What is the maximum permissible width of the motherboard?</li><li>DMX – We have a transmit channel, do we need a receive channel? What kind of devices are to be supported?</li><li>MIDI – Same question ^</li><li>IR remote type – IR remote control protocols are not standardized. I need to know what kind of IR remote control the IR receiver is going to be designed for. Or do we need <a href="http://en.wikipedia.org/wiki/Infrared_Data_Association">IrDA</a>?</li></ul><div><br /></div>A lot of similar concerns were there for which I found workarounds. Like: <br /><ul style="text-align: left;"><li>What will be the elevation of daughter board?</li><li>How will the headers fit to the DB9 footprint?</li><li>How to solve the issue of redundancy of RS232 drivers?</li></ul>I have answered these and many others in the <a href="https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit">requirements document</a> for serial expansion board.<br /><br />We were counting on the Cypress FX2LP USB engine to implement serial ports. USB has 16 endpoints, EP 0 is reserved and the HDMI2USB firmware in Cypress FX2LP uses only EP 1, 2, 4 and 6. I also noticed that the USB allows use to use the same endpoint number for both direction, so the EP 2 and 4 being used for control serial port of HDMI2USB could be integrated into one endpoint. Based on this understanding I assuming 11 free endpoints are there and I was looking forward to implement up to 8 bulk-only virtual serial ports which require only one endpoint no. per serial port if we do not implement hardware flow control.<br /><br />On reading the Technical Reference Manual which I sadly didn’t find earlier I finally got answer to my question. And the answer was 0! We can’t have extra serial ports at all because it supports only a few endpoints which are 1,2,4,6 and 8. We made a false assumption that the Cypress FX2LP is a USB controller aimed at flexibility. But it’s rather aimed for high speed transfers and it seems to internally combine these end-points to have reduced no. of large endpoints for achieving higher throughput. Cypress FX2LP is not open-source and there is not much known about its internal operation so it cannot be modified to support our needs.<br />The bottomline<br />I do not see any way to use Cypress FX2LP for implementing extra serial ports. And there’s no way a custom multiplexed protocol would work without writing a driver for it (and making it support a number of OSes). Neither the serial driver supports any form of multiplexing. We need to iterate on forming the higher level description of serial expansion board.<br /><br />Here’s what I propose as of now: Let’s use PIC18F being used in production board to implement the USB-Serial interfaces. This brings up some initial questions to ask my from mentor (if he agrees):<br />Why was that particular chip (PIC18F85J94) chosen?<br />Do we plan to use a USB Hub to combine the HDMI2USB and PIC18F’s USB?<br />That MCU supports only 4 USARTs, if we need more then we would have to bitbang serial ports. Will the MCU handle the workload in additional to existing functionality there?<br /><br />A plenty of discussion is pending on us to overcome issues.</div></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ptzfortimvideos-gsoc14.blogspot.com/">Serial port expansion for HDMI2USB with PTZ camera control example</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  </body>
+</html>
