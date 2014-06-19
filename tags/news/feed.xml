@@ -70,6 +70,21 @@
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Started motherboard schematics&lt;/li&gt;&lt;li&gt;Filling out mechanical info &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=0&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
+      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Running a Flumotion Docker Image</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
       <description>&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +292,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>16 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/16-june-14/</link>
-      <description>&lt;p&gt;Read about &lt;a href=&quot;https://docs.djangoproject.com/en/1.6/topics/db/managers/#django.db.models.Manager&quot;&gt;Managers&lt;/a&gt; and QuerySets in Django for fetching data on admin end. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/16-june-14/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-19T00:00:00+00:00</dc:date>

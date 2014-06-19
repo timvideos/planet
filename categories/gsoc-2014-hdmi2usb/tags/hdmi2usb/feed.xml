@@ -81,6 +81,21 @@
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Started motherboard schematics&lt;/li&gt;&lt;li&gt;Filling out mechanical info &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=0&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
+      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Documentation and Looking at UDP core</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</link>
       <description>Part of good working habit is to document every thing. I have seen it and i believe it is extremely useful. So read the &lt;a href=&quot;http://bit.ly/1l1Id7e&quot;&gt;Spec&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;As i am done with RTP golden model, i am about to write RTP Verilog model. I was figuring out myself as well as with my mentor what would the interface to UDP core look like.There are two possibilities&lt;br /&gt;&lt;br /&gt;1)Assume there is downstream UDP core to begin with that accepts data.In this case, interface is easy as you can see how UDP accepts data.&lt;br /&gt;&lt;br /&gt;2) If no UDP core or UDP core does not have interface to accept data, then you can add UDP header on the same spot where you are inserting RTP header. Not only that, you can also insert IP header as well. That means now you have to interface RTP with the MAC core.&lt;br /&gt;&lt;br /&gt;The two cores i looked at are&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.joelw.id.au/FPGA/DigilentAtlysResources&quot;&gt;http://www.joelw.id.au/FPGA/DigilentAtlysResources&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This falls in the 2nd category&lt;br /&gt;&lt;br /&gt;and&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://opencores.org/project,udp_ip_stack&quot;&gt;http://opencores.org/project,udp_ip_stack&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;which is sadly down throughout today and i could n't figure out if it belongs to 1st of 2nd category. I will try again tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -268,18 +283,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/daily-snippet/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar forked timvideos/HDMI2USB to ayushsagar/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/16/ayushsagar-forked-timvideos-hdmi2usb-to-ayushsaga/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-19T00:00:00+00:00</dc:date>
