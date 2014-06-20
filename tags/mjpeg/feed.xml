@@ -11,6 +11,21 @@
     <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/20/timvideo-gsoc-2014-mjpeg-optimisation/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&amp;nbsp;Today I planned to complete the simulation of HDMI2USB but it turns out that the calibration_done signal is not yet high( it has been 6 hours now). I tried changing the tb, using some advance options like Joelw suggested but nothing seems to work. So I am either doing something terribly wrong or it is supposed to take a lot of time. So finally I decided to use pen and paper and try understand the code. It took me a lot of time because VHDL by nature is concurrent&amp;nbsp; and I had not fully understood the working of Xilinx MCB but I guess I have done it correctly. Turns out that image buffer works fine. &lt;br /&gt;&lt;br /&gt;The DDR2 read and write state machines are pretty complex because in general memory controller are complex. From what I could comprehend, there are three state machine in image buffer of HDMI2USB, one read from the RAM, second writes into the RAM and the third which controls the read and write state machine.&lt;br /&gt;&lt;br /&gt;The third state machine looks something like this:&lt;br /&gt;1) Wait for start of frame&lt;br /&gt;2) If start of frame is detected, start writing the frame onto RAM until end of frame is detected (wr_img=1)&lt;br /&gt;3) Once end of frame is detected, send start command to JPEG encoder and wait for &quot;Jpeg is busy&quot; signal(wr_img=0)&lt;br /&gt;4) If &quot;Jpeg is busy&quot; detected, start reading from RAM till the entire frame has been read(rd_img=1)&lt;br /&gt;5) Wait for done signal from encoder.(rd_img=0)&lt;br /&gt;6) Go back to step (1)&lt;br /&gt;&lt;br /&gt;I don't think read and write can be pipelined as DDR2 Ram do not allow simultaneous read and write.&lt;br /&gt;&lt;br /&gt;Here the only optimisation I can see is that instead of waiting for done after completing reading of frame (step 4), the state machine can wait for start of next frame and start reading.&lt;br /&gt;&lt;br /&gt;To understand the read and the write state machine, I dug the data sheet of MIG.&lt;br /&gt;Read state machine looks something like this:&lt;br /&gt;&lt;br /&gt;1) RESET: Wait for calibration to be done.&lt;br /&gt;2) read_cmd: if rd_img=1. Put read command and address into the command fifo.&lt;br /&gt;3) Wait for read data fifo of RAM to fill up. (64 words)&lt;br /&gt;4) Once full, send the data into JPEG buffer if the Jpeg buffer is not full.&lt;br /&gt;5) If 64 words are read goto step (2)&lt;br /&gt;&lt;br /&gt;Write state machine:&lt;br /&gt;1) Wait for calibration&lt;br /&gt;2) If wr_img=1 and there is something to be written fill the write data fifo of RAM(64 words)&lt;br /&gt;3) Once full, push write command and address to command fifo&lt;br /&gt;4) Wait for write to complete.&lt;br /&gt;5) Once done goto 2&lt;br /&gt;&lt;br /&gt;The raw rgb data from image selector is first buffered using fifos and then sent to RAM. This helps prevent loss of data but adds to the latency.&lt;br /&gt;&lt;br /&gt;Everything seems to be legit. Only optimisation I can see is that instead of one read port, two can be used to pipline read cycles. So when one read data fifo is completely read and there is still space in the JPEG buffer, data from second read data fifo can be used. But since this is a DDR2 ram operating at 325 Mhz read time from RAM to fifo should not be great, so using two ports won't change much.&lt;br /&gt;&lt;br /&gt;Also, an inherent problem with the jpeg algorithm design is that 8 lines are required to start encoding. Since processing of frame is not pipelined as seen above and after processing of a frame the system resets, for a resolution of 1024x768, in every frame there is a stall of 1024*8 cycles. &lt;br /&gt;&lt;br /&gt;Tomorrow (I mean today) I will try to test the bandwidth of USB. &lt;a href=&quot;http://www.cypress.com/?id=4&amp;amp;rID=32888&quot;&gt;This article&lt;/a&gt; says maximum throughput is 40 MBps. So for 30 fps frame rate of 1024x768 resolution frames, the minimum bandwidth (assuming compression ratio of 10) should be (1024*768*24*30/10)/1024/1024 = 54MBps. Am I missing something?&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/20/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/timvideo-gsoc-2014-mjpeg-optimisation/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I completed the coding part for the simulation of HDMI2USB. The main aim for this was to check whether the read and write pattern used in DDR2 Ram is optimum. For this I removed all the parts which did not affect the read and write performance of DDR2 Ram like EDID, USB etc. The&amp;nbsp; only problem is that the simulation takes up a lot of time. It takes upto 4 hrs for the calibration of DDR2 ram. I am currently simulating it. I will wake up and check the waveforms. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
@@ -266,21 +281,6 @@
       <pubDate>Tue, 27 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/27/finally-the-fps-changes/</guid>
       <dc:date>2014-05-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/26/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I tried to change the encoding quality manually. The reason for this is that if the jpeg core is running at 100% quality then the quantisation step of JPEG encoding is useless. For that I changed the code of JPEG top and used switched in board to select the encoding quality. Unfortunately after flashing the firmware, mplayer and guvcviewer could not play the HDMI input. Things are going slow because it takes around 15 mins in my system to generate the bitstream. I will try to get things working tomorrow too. If things don't work, I will reach out for help.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/26/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-05-26T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-20T00:00:00+00:00</dc:date>
   </channel>
