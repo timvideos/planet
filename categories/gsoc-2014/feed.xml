@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/money</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-pushed-to-master-at-pinoss-money/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-pushed-to-master-at-pinoss-money/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked RubyMoney/money to pinoss/money</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</link>
       <description>&lt;!-- fork --&gt;
@@ -240,16 +251,6 @@
 </description>
       <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/15/gsoc-update-6-14/</link>
-      <description>&lt;p&gt;Hey all, I've missed my daily snippets for the past few days due to finishing up exams and moving out of my apartment.&lt;/p&gt;
-
-</description>
-      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/gsoc-update-6-14/</guid>
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-20T00:00:00+00:00</dc:date>
