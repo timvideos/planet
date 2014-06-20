@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>GSoC Update 6-19</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</link>
+      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Running a Flumotion Docker Image</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
       <description>&lt;div class=&quot;author&quot;&gt;
@@ -217,16 +227,6 @@
       <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</guid>
       <dc:date>2014-06-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</guid>
-      <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-20T00:00:00+00:00</dc:date>
   </channel>
