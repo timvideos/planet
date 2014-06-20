@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked RubyMoney/money to pinoss/money</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
@@ -220,18 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-pushed-to-master-at-pinoss-jekyll-plugins/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss forked mfenner/jekyll-travis to pinoss/jekyll-travis</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked RubyMoney/money to pinoss/money</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
@@ -250,17 +262,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/10/pinoss-forked-recurser-jekyll-plugins-to-pinoss-j/</guid>
       <dc:date>2014-06-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>

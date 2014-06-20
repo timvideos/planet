@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked RubyMoney/money to pinoss/money</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</guid>
+      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 4 summary: Speed bumps!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/week-4-summary-speed-bumps/</link>
@@ -260,18 +272,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-ettusresearch-uhd-to-tariq786-uhd/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 forked CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers to tariq786/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-19T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>
