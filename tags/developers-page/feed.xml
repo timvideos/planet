@@ -21,6 +21,17 @@
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to gh-pages at pinoss/prose</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-gh-pages-at-pinoss-prose/</link>
       <description>&lt;!-- push --&gt;
@@ -244,17 +255,6 @@
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/gsoc-snippet-12-06-2014/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-21T00:00:00+00:00</dc:date>
   </channel>
