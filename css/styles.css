@@ -248,3 +248,31 @@ padding-bottom: 0;
 .share-buttons .share-button {
   margin-right: 5px;
 }
+
+#main .people tr td {
+  padding: 0 5px;
+}
+
+#main .people .img-circle,
+#main .people .people-repos {
+  min-height:50px;
+  min-width:50px;
+
+  height: 100%;
+  width: 100%;
+
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#main .people .people-numbers {
+  clear: both;
+}
+
+#main .people .img-circle {
+  margin-top: 10px;
+}
+
+.spacer {
+  margin-top: 20px;
+}
