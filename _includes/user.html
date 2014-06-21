@@ -1,0 +1,80 @@
+  <div class="col-sm-12 col-lg-6 people">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="name" data-type="name">
+          {{ user[1].name }} - {{ user[1].nickname }}
+        </h4>
+      </div>
+      <div class="panel-body">
+        <div class="row people-details">
+          <div class="col-sm-9">
+            <table>
+            {% if user[1].profile_url %}
+              <tr>
+                <td class="field-label">GitHub Profile</td>
+                <td><a href="{{ user[1].profile_url }}">{{ user[1].profile_url }}</a></td>
+              </tr>
+            {% endif %}
+            {% if user[1].github_login %}
+              <tr>
+                <td class="field-label">GitHub Activities</td>
+                <td><a href="https://github.com/{{ user[1].github_login }}?tab=activity">https://github.com/{{ user[1].github_login }}?tab=activity</a></td>
+              </tr>
+            {% endif %}
+            {% if user[1].blog %}
+              <tr>
+                <td class="field-label">Blog</td>
+                <td><a href="{{ user[1].blog }}">{{ user[1].blog }}</a></td>
+              </tr>
+            {% endif %}
+            {% if user[1].location %}
+              <tr>
+                <td class="field-label">Location</td>
+                <td>{{ user[1].location }}</td>
+              </tr>
+            {% endif %}
+            {% if user[1].projects %}
+              <tr>
+                <td class="field-label">Projects</td>
+                <td>{{ user[1].projects }}</td>
+              </tr>
+            {% endif %}
+            </table>
+            {% if user[1].description %}
+              <div>
+                <div class="col-sm-12 spacer">
+                  {{ user[1].description }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+          <div class="col-sm-3">
+            <div class="people-image">
+              {% if user[1].avatar_url %}
+                {% if user[1].profile_url %}
+                  <a href="{{ user[1].profile_url }}" class="pull-right">
+                    <img src="{{ user[1].avatar_url }}" class="img-circle"/>
+                  </a>
+                {% else %}
+                  <a href="#" class="pull-right">
+                    <img src="{{ user[1].avatar_url }}" class="img-circle" />
+                  </a>
+                {% endif %}
+              {% else %}
+                <a href="#" class="pull-right">
+                  <img src="http://www.gravatar.com/avatar/?d=mm&s=150" class="img-circle" />
+                </a>
+              {% endif %}
+            </div>
+            <div class="people-numbers">
+              {% if user[1].public_repos %}
+                <div class="people-repos text-center pull-right">
+                  <a href="https://github.com/{{ user[1].github_login }}?tab=repositories">Repos <span class="badge pull-right">{{ user[1].public_repos }}</span></a>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

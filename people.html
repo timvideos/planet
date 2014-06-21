@@ -1,0 +1,29 @@
+---
+layout: default
+type: standard
+tags: people
+caption: TimVideos People
+users:
+  mithro:
+    name: Tim Ansell
+    github: true
+    description: The “Tim” in Tim Videos. Founder and Leader of the Tim Video’s project.
+  duzy:
+    github: true
+    description: Main developer of the gst-switch project
+  jahanzeb:
+    github: true
+    description: Main developer of the HDMI2USB project.
+  xfxf:
+    name: Ryan Verner
+    github: false
+    description: Runs NextDayVideo Australia, records a number of FOSS conferences around Australia including PyCon AU and sometimes Linux.conf.au
+  CarlFK:
+    github: true
+    description: Runs NextDayVideo America, records a number of FOSS conferences around America including PyCon US.
+
+---
+
+{% for user in page.users_data %}
+  {% include user.html %}
+{% endfor %}
