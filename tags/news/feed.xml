@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Porting Overlay Convertor</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/porting-overlay-convertor/</link>
+      <description>&lt;p&gt;I started with porting the Overlay Convertor element which is used to add any text or logo over a video feed. This required a lot of work as I had to port Pango and PangoCairo to the new PyGI. I did the changes and tried to create a stream which resulted in these errors:&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/porting-overlay-convertor/</guid>
+      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 6-20</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</link>
       <description>&lt;h2&gt;snippets&lt;/h2&gt;
@@ -277,21 +287,6 @@
 </description>
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/week-4-progress/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>RTP packetizer golden model</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</link>
-      <description>A working RTP packetizer has been developed to deal with &lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;uncompressed RTP payload&lt;/a&gt;. It is working after some basic testing. Here is the &lt;a href=&quot;http://bit.ly/1nLRZds&quot;&gt;code&lt;/a&gt;.You need modified rtp.py which is also included in the code. Tomorrow i shall add the documentation to tell you how i did all this and why i did it that way?&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-21T00:00:00+00:00</dc:date>
