@@ -21,6 +21,17 @@
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to gh-pages at pinoss/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-gh-pages-at-pinoss-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-gh-pages-at-pinoss-prose/</guid>
+      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/money</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-pushed-to-master-at-pinoss-money/</link>
       <description>&lt;!-- push --&gt;
@@ -231,21 +242,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</link>
-      <description>&lt;b&gt;[maintenance] &lt;/b&gt;added code.timvideos.us to monitis monitoring tool&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;read GtiHub Api documentation to pass as many information about TimVideos organization members to People subpage of code.timvideos.us (I need to decide if I should load content on client site with GitHub API or with gem ocktokit on server site)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-21T00:00:00+00:00</dc:date>
