@@ -21,6 +21,17 @@
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</guid>
+      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
       <description>&lt;!-- push --&gt;
@@ -248,21 +259,6 @@
 </description>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/i-m-back/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 19/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/gsoc-snippet-19-06-2014/</link>
-      <description>&lt;b&gt;[design] &lt;/b&gt;small modification, move includes into folder, add edit button and connect it with GitHub Api Interface&lt;br /&gt;&lt;b&gt;[talk] &lt;/b&gt;a lot of talk with Tim about my project, about main goals, ideas, etc. :+1:&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created edit link liquid tag to easly adding edit tag, you only need to specify path for editing tool and all links will be generated automatically&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created People page that fetches data from GitHub on client side (needs to be ported to fetch data on server side)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/gsoc-snippet-19-06-2014/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-21T00:00:00+00:00</dc:date>

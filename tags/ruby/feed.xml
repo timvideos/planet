@@ -21,6 +21,17 @@
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</guid>
+      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
       <description>&lt;!-- push --&gt;
@@ -239,21 +250,6 @@
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/pinoss-forked-mfenner-jekyll-travis-to-pinoss-jek/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 12/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/gsoc-snippet-12-06-2014/</link>
-      <description>&lt;b&gt;[admin] &lt;/b&gt;installed Ruby 1.9.3 on my development machine&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed emoji on Ruby 1.9.3&lt;br /&gt;&lt;b&gt;[research] &lt;/b&gt;done some research about Travis CI, unfortunately we can use that app only with getting started page to autobuild and push changes to gh-pages (Travis CI runs workers only if there was a git push or git pull request, running ie. every 10 minuts its not possible). I will try to add capybara tests to each project to make sure that after every build page works properly. I hope that is possible.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Added generation of rss by all categories and tags, tomorrow I will add new routes to each element.&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/gsoc-snippet-12-06-2014/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-21T00:00:00+00:00</dc:date>
