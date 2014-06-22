@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</guid>
+      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Daily Log]: Trails &amp;amp; errors - Part 2</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/gsoc-daily-log-trails-errors-part-2/</link>
@@ -280,17 +295,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/vmodvga-testcodes</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
   </channel>
 </rss>

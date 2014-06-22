@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: SERIAL-EXTENSION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</guid>
+      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippets</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/daily-snippets/</link>
@@ -281,21 +296,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/week-1-progress-report/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Finished with gitimmersion. That was a good tutorial, would recommend to anyone&lt;/li&gt;&lt;li&gt;Problems with ISE not working. The download appears to be corrupt, MD5 doesn't match. Redownloading&lt;/li&gt;&lt;li&gt;Began with circuit design. Wondering if RJ-11 support to be given.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/31/daily-snippet/</guid>
-      <dc:date>2014-05-31T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
   </channel>
 </rss>

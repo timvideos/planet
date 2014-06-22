@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</guid>
+      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Porting Overlay Convertor</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/porting-overlay-convertor/</link>
@@ -248,21 +263,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/week-4-summary-speed-bumps/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I completed the coding part for the simulation of HDMI2USB. The main aim for this was to check whether the read and write pattern used in DDR2 Ram is optimum. For this I removed all the parts which did not affect the read and write performance of DDR2 Ram like EDID, USB etc. The&amp;nbsp; only problem is that the simulation takes up a lot of time. It takes upto 4 hrs for the calibration of DDR2 ram. I am currently simulating it. I will wake up and check the waveforms. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-21T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
   </channel>
 </rss>
