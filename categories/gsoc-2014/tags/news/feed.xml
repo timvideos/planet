@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 22/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</link>
+      <description>&lt;b&gt;[research] &lt;/b&gt;research about javascript chart library (finally I've chosen Highchart)&lt;br /&gt;&lt;b&gt;[research/design] &lt;/b&gt;research about charts types and statistics available from GitHub (currently I am thinking about 3-4 charts: contributors activity (pie chart), commit timeline chart (area/line chart), code frequency chart (area/line chart), commits per weekday chart (pie chart)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add first chart to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;, pie chart with contributors activity in project, I've added 5 TimVideos projects to display that feature&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add another charts to planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add information on IRC if new posts has been added to planet (I am thinking about writing a listener on RSS feed from &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&amp;nbsp;and do action if something has changed, and I will set IRC notifications and social media notifications)&lt;br /&gt;&lt;b&gt;[management]&lt;/b&gt; move from Producteev to GitHub Issues and create new Issues with subtasks&lt;br /&gt;&lt;br /&gt;This week I will have last exams, so I might not always be on IRC, but I will work hard to pass all exams and get all&amp;nbsp;planned&amp;nbsp;things done. :+1:&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</guid>
+      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Porting Overlay Convertor</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/porting-overlay-convertor/</link>
       <description>&lt;p&gt;I started with porting the Overlay Convertor element which is used to add any text or logo over a video feed. This required a lot of work as I had to port Pango and PangoCairo to the new PyGI. I did the changes and tried to create a stream which resulted in these errors:&lt;/p&gt;
@@ -251,16 +266,6 @@
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
       <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>I watched the stream!</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
-      <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-22T00:00:00+00:00</dc:date>
   </channel>

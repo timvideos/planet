@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 22/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</link>
+      <description>&lt;b&gt;[research] &lt;/b&gt;research about javascript chart library (finally I've chosen Highchart)&lt;br /&gt;&lt;b&gt;[research/design] &lt;/b&gt;research about charts types and statistics available from GitHub (currently I am thinking about 3-4 charts: contributors activity (pie chart), commit timeline chart (area/line chart), code frequency chart (area/line chart), commits per weekday chart (pie chart)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add first chart to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;, pie chart with contributors activity in project, I've added 5 TimVideos projects to display that feature&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add another charts to planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add information on IRC if new posts has been added to planet (I am thinking about writing a listener on RSS feed from &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&amp;nbsp;and do action if something has changed, and I will set IRC notifications and social media notifications)&lt;br /&gt;&lt;b&gt;[management]&lt;/b&gt; move from Producteev to GitHub Issues and create new Issues with subtasks&lt;br /&gt;&lt;br /&gt;This week I will have last exams, so I might not always be on IRC, but I will work hard to pass all exams and get all&amp;nbsp;planned&amp;nbsp;things done. :+1:&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</guid>
+      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
       <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
@@ -278,21 +293,6 @@
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Running a Flumotion Docker Image</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
-      <description>&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://mstritzi.nfshost.com/blog&quot;&gt;Max Stritzinger&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
-      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-22T00:00:00+00:00</dc:date>
   </channel>
