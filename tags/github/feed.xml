@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 pushed to master at rohit91/vmodvga-testcodes</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 commented on issue rohit91/vmodvga-testcodes#3</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -18,6 +29,28 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/vmodvga-testcodes#5</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-5/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-5/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/vmodvga-testcodes#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -196,40 +229,6 @@
 </description>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/pinoss.github.io</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-pinoss-github-i/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss added mithro to pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-added-mithro-to-pinoss-getting-started/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/pinoss-added-mithro-to-pinoss-getting-started/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
