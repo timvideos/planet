@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ayushsagar reopened issue ayushsagar/HDMI2USB-vmodserial#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -29,6 +40,17 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -257,36 +279,6 @@
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</guid>
       <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet - 2x</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/07/daily-snippet-2x/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#&quot; target=&quot;_blank&quot;&gt;Here&lt;/a&gt;&amp;nbsp;is a draft specification document for the serial expansion board. Have to enter board design drawings and circuit design. May be this will end up being the documentation in my repository.&lt;/li&gt;&lt;li&gt;It's being decided that the serial expansion would have 6 x RS232C serial ports with DB9 connectors. When other interfaces are required, conversion modules/adapters will be attached. The DB9 connectors also have excellent mechanical stability for connecting these additional adapters. These serial ports could be used directly with VISCA cable or can connect to any other serial device available on internet.&lt;/li&gt;&lt;li&gt;To add more value to this board, I'm planing to give complete galvanic isolation instead of ESD chips.&lt;/li&gt;&lt;li&gt;These serial ports will lack hardware control because of the way we will be implementing it on the Cypress FX2LP - only Rx and Tx will be there.&lt;/li&gt;&lt;li&gt;Some of the serial adapters would be - Serial-GPIO, Serial-RS485. A Serial-DMX adapter can be designed - the protocol is easy, but since a market option is available, will do this only if I run out of things to do. Even RS-232 to RS485 adapters are available to buy, will go through market offerings to see if I need to make one or not.&lt;/li&gt;&lt;li&gt;To feed power to the serial-adapters that I would design I might use the RTS line and connect to VU 5V&amp;nbsp;and provide a jumper to disable it. Choice of RTS comes from &lt;a href=&quot;http://www.epanorama.net/circuits/rspower.html&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;I would also like to have my serial adapters usable with other USB-Serial adapters, in case someone wants to use it that way. To power it I will provide an additional 5V DC jack.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/07/daily-snippet-2x/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Doing research on the board requirements.&lt;/li&gt;&lt;li&gt;There can be lots of different uses of the serial expansion board and I don't feel this board should be rigid in any way.&lt;/li&gt;&lt;li&gt;DMX has a lot of variety. There are different standards, I'm finding DMX 512 to be the most popular on internet and even that uses many variants of XLR connectors.&lt;/li&gt;&lt;li&gt;I'm thinking of a modular setup with a base board having the VHDCI connector and 6 UART port headers spaced apart appropriately and a family of pluggable modules that connect to these headers and convert UART to interfaces like RS232, RS4xx, DMX 512 (uses XLR connector), GPIO header etc.&amp;nbsp;&lt;/li&gt;&lt;li&gt;This looks more efficient in many ways - User can keep the same base board and keep plugging-in different modules depending on requirements.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/04/daily-snippet/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>
