@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all done and pushed to my &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;repo&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Got Tim to create a &lt;a href=&quot;https://github.com/timvideos/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;fork&lt;/a&gt;&amp;nbsp;in TimVideos.&lt;/li&gt;&lt;li&gt;Looking at the issues in my repository.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar reopened issue ayushsagar/HDMI2USB-vmodserial#2</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</link>
       <description>&lt;!-- issues --&gt;
@@ -266,18 +281,6 @@
 </description>
       <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</guid>
-      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar created branch master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-branch-master-at-ayushsagar-hd/</guid>
       <dc:date>2014-06-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
