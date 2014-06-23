@@ -10,6 +10,29 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 commented on issue rohit91/vmodvga-testcodes#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 added mithro to rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -209,30 +232,6 @@
       <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
       <dc:date>2014-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>tariq786 forked EttusResearch/uhd to tariq786/uhd</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-ettusresearch-uhd-to-tariq786-uhd/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-ettusresearch-uhd-to-tariq786-uhd/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>tariq786 forked CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers to tariq786/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>

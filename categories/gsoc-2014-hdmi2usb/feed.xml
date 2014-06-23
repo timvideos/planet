@@ -25,6 +25,29 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 commented on issue rohit91/vmodvga-testcodes#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 added mithro to rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -270,32 +293,6 @@
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to gsoc at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Documentation and Looking at UDP core</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</link>
-      <description>Part of good working habit is to document every thing. I have seen it and i believe it is extremely useful. So read the &lt;a href=&quot;http://bit.ly/1l1Id7e&quot;&gt;Spec&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;As i am done with RTP golden model, i am about to write RTP Verilog model. I was figuring out myself as well as with my mentor what would the interface to UDP core look like.There are two possibilities&lt;br /&gt;&lt;br /&gt;1)Assume there is downstream UDP core to begin with that accepts data.In this case, interface is easy as you can see how UDP accepts data.&lt;br /&gt;&lt;br /&gt;2) If no UDP core or UDP core does not have interface to accept data, then you can add UDP header on the same spot where you are inserting RTP header. Not only that, you can also insert IP header as well. That means now you have to interface RTP with the MAC core.&lt;br /&gt;&lt;br /&gt;The two cores i looked at are&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.joelw.id.au/FPGA/DigilentAtlysResources&quot;&gt;http://www.joelw.id.au/FPGA/DigilentAtlysResources&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;This falls in the 2nd category&lt;br /&gt;&lt;br /&gt;and&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://opencores.org/project,udp_ip_stack&quot;&gt;http://opencores.org/project,udp_ip_stack&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;which is sadly down throughout today and i could n't figure out if it belongs to 1st of 2nd category. I will try again tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/18/documentation-and-looking-at-udp-core/</guid>
-      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>
