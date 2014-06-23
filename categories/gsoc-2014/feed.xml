@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids opened issue sergeche/emmet-sublime#492</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/23/aps-sids-opened-issue-sergeche-emmet-sublime-492/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/23/aps-sids-opened-issue-sergeche-emmet-sublime-492/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -229,21 +240,6 @@
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/19/aps-sids-starred-zulko-moviepy/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Running a Flumotion Docker Image</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</link>
-      <description>&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://mstritzi.nfshost.com/blog&quot;&gt;Max Stritzinger&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
-      <dc:date>2014-06-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>

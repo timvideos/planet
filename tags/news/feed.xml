@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I think I have some idea on why frame rate is slow. In my previous blog I explained how the state machine of image buffer works. Basically, a frame is stored first and then read into encoder for compression. From simulation data, a 1024*768 frame takes approx 25 ms (@ 78Mhz) to compress a frame. But if the frame rate of the HDMI source is 60hz then the minimum time taken to write a frame into the DDR2 Ram is 1/60s ie 17ms (assuming it takes no time to transfer data into DDR2 RAM which ofcourse is not true). So it takes 42 ms to store and compress a frame which gives you a frame rate of 23 fps. There is no pipelining between frames.&lt;br /&gt;&lt;br /&gt;In simulation, the encoder is fed with new data if its buffer is not full. But in actual firmware, data needs to be accessed from DDR2 RAM which even though is small is not negligible. Also the raw image data is buffered before being written into RAM to prevent loss of data, so it takes far more than 17 ms to write the whole frame into RAM. So my guess is frame rate of DDR2 + encoder system is around 20 fps.&lt;br /&gt;&lt;br /&gt;Also, I ran test bench for different encoding qualities. Turns out that for 100% encoding quality, the compression ratio is around 5-6 whereas for 50% encoding quality, the compression ratio is as high as 20-25.&lt;br /&gt;&lt;br /&gt;So output size of a frame at high encoding quality:&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;1024*768*24/5/1024/1024=3.6 MB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Now bandwidth of cypress fx2 is 40 MBps. So&amp;nbsp; fps in high quality case will be 40/3.6=11.11 fps. That's why changing the frequency did not change the frame rate(I guess).&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;In low quality case as the compression is high, fx2 bandwidth does not limit the frame rate but the firmware limits the frame rate. So the observed fps is around 18.5-19 which is close to the fps I am guessing using calculation. &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Friends, Romans, Mentors and countrymen please comment.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disclaimer: I have used a lot of handwaiving calculation. So if I have used too much liberty please comment on it. I will try and give rigours maths. &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 22/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</link>
       <description>&lt;b&gt;[research] &lt;/b&gt;research about javascript chart library (finally I've chosen Highchart)&lt;br /&gt;&lt;b&gt;[research/design] &lt;/b&gt;research about charts types and statistics available from GitHub (currently I am thinking about 3-4 charts: contributors activity (pie chart), commit timeline chart (area/line chart), code frequency chart (area/line chart), commits per weekday chart (pie chart)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add first chart to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;, pie chart with contributors activity in project, I've added 5 TimVideos projects to display that feature&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add another charts to planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add information on IRC if new posts has been added to planet (I am thinking about writing a listener on RSS feed from &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&amp;nbsp;and do action if something has changed, and I will set IRC notifications and social media notifications)&lt;br /&gt;&lt;b&gt;[management]&lt;/b&gt; move from Producteev to GitHub Issues and create new Issues with subtasks&lt;br /&gt;&lt;br /&gt;This week I will have last exams, so I might not always be on IRC, but I will work hard to pass all exams and get all&amp;nbsp;planned&amp;nbsp;things done. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +292,6 @@
 </description>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/gsoc-daily-log-major-improvement/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Started motherboard schematics&lt;/li&gt;&lt;li&gt;Filling out mechanical info &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=0&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-23T00:00:00+00:00</dc:date>
