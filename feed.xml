@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -249,16 +260,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/pinoss-forked-rubymoney-money-to-pinoss-money/</guid>
       <dc:date>2014-06-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>GSoC Update 6-19</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</link>
-      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
-
-</description>
-      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</guid>
-      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>

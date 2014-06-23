@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -245,6 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
       <dc:date>2014-06-18T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>

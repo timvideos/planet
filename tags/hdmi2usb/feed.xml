@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
@@ -280,21 +291,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/tariq786-forked-camdavidsonpilon-probabilistic-pr/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>RTP packetizer golden model</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</link>
-      <description>A working RTP packetizer has been developed to deal with &lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;uncompressed RTP payload&lt;/a&gt;. It is working after some basic testing. Here is the &lt;a href=&quot;http://bit.ly/1nLRZds&quot;&gt;code&lt;/a&gt;.You need modified rtp.py which is also included in the code. Tomorrow i shall add the documentation to tell you how i did all this and why i did it that way?&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rtp-packetizer-golden-model/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-22T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>
