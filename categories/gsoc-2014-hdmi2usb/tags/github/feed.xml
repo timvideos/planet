@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ayushsagar reopened issue ayushsagar/HDMI2USB-vmodserial#10</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -40,6 +51,18 @@
 </description>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar added mithro to ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -132,7 +155,7 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#11</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#4</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -208,30 +231,6 @@
 </description>
       <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created repository vmodvga-testcodes</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-created-repository-vmodvga-testcodes/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-created-repository-vmodvga-testcodes/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/vmodvga-testcodes</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-created-branch-master-at-rohit91-vmodvga-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/rohit91-created-branch-master-at-rohit91-vmodvga-/</guid>
       <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>

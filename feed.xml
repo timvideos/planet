@@ -25,6 +25,17 @@
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ayushsagar reopened issue ayushsagar/HDMI2USB-vmodserial#10</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -55,6 +66,18 @@
 </description>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar added mithro to ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -192,7 +215,7 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#11</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#4</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -223,32 +246,6 @@
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/23/aps-sids-opened-issue-sergeche-emmet-sublime-492/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 22/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</link>
-      <description>&lt;b&gt;[research] &lt;/b&gt;research about javascript chart library (finally I've chosen Highchart)&lt;br /&gt;&lt;b&gt;[research/design] &lt;/b&gt;research about charts types and statistics available from GitHub (currently I am thinking about 3-4 charts: contributors activity (pie chart), commit timeline chart (area/line chart), code frequency chart (area/line chart), commits per weekday chart (pie chart)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add first chart to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;, pie chart with contributors activity in project, I've added 5 TimVideos projects to display that feature&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add another charts to planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; add information on IRC if new posts has been added to planet (I am thinking about writing a listener on RSS feed from &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&amp;nbsp;and do action if something has changed, and I will set IRC notifications and social media notifications)&lt;br /&gt;&lt;b&gt;[management]&lt;/b&gt; move from Producteev to GitHub Issues and create new Issues with subtasks&lt;br /&gt;&lt;br /&gt;This week I will have last exams, so I might not always be on IRC, but I will work hard to pass all exams and get all&amp;nbsp;planned&amp;nbsp;things done. :+1:&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</guid>
-      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>
   </channel>
