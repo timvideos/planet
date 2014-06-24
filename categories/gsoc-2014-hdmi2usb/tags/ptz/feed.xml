@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</link>
@@ -271,18 +282,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/11/week-2-progress-report-serial-expansion-board-des/</guid>
       <dc:date>2014-06-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar created repository HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/10/ayushsagar-created-repository-hdmi2usb-vmodserial/</guid>
-      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-23T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
