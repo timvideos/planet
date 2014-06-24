@@ -25,6 +25,18 @@
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 forked shenki/exar-uart-driver to rohit91/exar-uart-driver</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Implementing XAPP 495 on Spartan 6</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/implementing-xapp-495-on-spartan-6/</link>
       <description>Today, i decided to do hardware testing and chose to implement the VTC reference design given in&amp;nbsp;http://bit.ly/1lluJn1 on Atlys board. I was able to implement the design successfully on Atlys board.&lt;br /&gt;&lt;br /&gt;Here are a few snapshots of the 720p frame&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-winAAxltkMQ/U6jsMWqA9NI/AAAAAAAAAIw/nj6F80P-O_4/s1600/hdmi_frame.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-winAAxltkMQ/U6jsMWqA9NI/AAAAAAAAAIw/nj6F80P-O_4/s1600/hdmi_frame.jpg&quot; height=&quot;240&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-p20NqdI17kY/U6jsMy13mlI/AAAAAAAAAI0/2QVW8I8MSVA/s1600/hdmi_frame_another_view.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-p20NqdI17kY/U6jsMy13mlI/AAAAAAAAAI0/2QVW8I8MSVA/s1600/hdmi_frame_another_view.jpg&quot; height=&quot;240&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-bz4_EWZBqe4/U6jsJ9k2BvI/AAAAAAAAAIo/7YJY6AK1Q3o/s1600/hdmi_frame_resolution.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-bz4_EWZBqe4/U6jsJ9k2BvI/AAAAAAAAAIo/7YJY6AK1Q3o/s1600/hdmi_frame_resolution.jpg&quot; height=&quot;240&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;Not only that, i was able to capture this HDMI traffic for the purpose of using it as RTP payload. I shall add the Verilog files that capture the HDMI to the bitbucket tomorrow. Here is a snapshot of the captured HDMI traffic going from FPGA to the monitor.&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;720p resolution chosen&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;512: en=1,hsync=1,vsync=1,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;525: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;539: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;553: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;566: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;580: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;593: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;607: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;620: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;634: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;647: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;661: en=1,hsync=0,vsync=0,red= 0,green= 0,blue= 0&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; .&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;HSync and VSync signals shall also be added to the packetizer upstream interface.&lt;div class=&quot;author&quot;&gt;
@@ -230,7 +242,7 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#14</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#9</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -238,17 +250,6 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#14</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>

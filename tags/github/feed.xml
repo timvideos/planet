@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 forked shenki/exar-uart-driver to rohit91/exar-uart-driver</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar reopened issue ayushsagar/HDMI2USB-vmodserial#10</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-reopened-issue-ayushsagar-hdmi2usb-vmo/</link>
       <description>&lt;!-- issues --&gt;
@@ -167,7 +179,7 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#14</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#9</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -178,7 +190,7 @@
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#14</title>
+      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#11</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
       <description>&lt;!-- issues --&gt;
 &lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
@@ -219,17 +231,6 @@
 </description>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/prose</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-prose/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-prose/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>
