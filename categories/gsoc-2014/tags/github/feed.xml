@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids created branch porting-overlay at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids opened issue sergeche/emmet-sublime#492</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/23/aps-sids-opened-issue-sergeche-emmet-sublime-492/</link>
       <description>&lt;!-- issues --&gt;
@@ -220,17 +232,6 @@
       <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>
   </channel>
