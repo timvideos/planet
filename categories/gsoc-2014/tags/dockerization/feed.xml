@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>GSoC Update 6-23</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</link>
+      <description>&lt;h2&gt;This week&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</guid>
+      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 6-20</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</link>
       <description>&lt;h2&gt;snippets&lt;/h2&gt;
@@ -214,18 +224,6 @@
 </description>
       <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-opened-pull-request-timvideos-planet-2/</guid>
-      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr forked timvideos/planet to maxstr/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-forked-timvideos-planet-to-maxstr-planet/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-forked-timvideos-planet-to-maxstr-planet/</guid>
       <dc:date>2014-06-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-24T00:00:00+00:00</dc:date>
