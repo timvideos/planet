@@ -10,6 +10,41 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 created repository rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-created-repository-rohit91-hdmi_test_v06/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-created-repository-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 created branch master at rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-created-branch-master-at-rohit91-hdmi_tes/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-created-branch-master-at-rohit91-hdmi_tes/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily Snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Coded debug firware, almost done. Pushed to my gsoc branch. &lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/19XB1AOZMp5Tr-nKEmX8CSuChd6O11wmKfwKc1nsk4OA/edit#&quot;&gt;Design Documentation &lt;/a&gt;&lt;/li&gt;&lt;li&gt;Testing UART, worked for Rohit not working for me(grrr)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -220,39 +255,6 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-futurevaigyanik-marin/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 commented on issue rohit91/vmodvga-testcodes#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-commented-on-issue-rohit91-vmodvga-testco/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/vmodvga-testcodes#5</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-5/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-5/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/vmodvga-testcodes#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-25T00:00:00+00:00</dc:date>
