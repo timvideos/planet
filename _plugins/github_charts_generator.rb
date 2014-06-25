@@ -40,8 +40,9 @@ module Jekyll
 
         projects_data[project]['name'] = project
 
-        pie_chart_data = 
         projects_data[project]['pie_chart'] = contributors_pie_chart_data(project)
+        projects_data[project]['code_frequency']  = code_frequency_chart_data(project)
+        projects_data[project]['commit_activity'] = commit_activity_stats_chart_data(project)
       end
 
       page.data['projects_data'] = projects_data
@@ -78,6 +79,44 @@ module Jekyll
       result.to_json
     end
 
+    def code_frequency_chart_data(project)
+      raw_data = get_data(:code_frequency_stats, project)
+
+      result = {
+        series:
+          raw_data.map { |data| data[0] * 1000 },
+        data: [
+          {
+            name: 'additions',
+            data: raw_data.map { |data| data[1] }
+          },
+          {
+            name: 'deletions',
+            data: raw_data.map { |data| -data[2] }
+          }
+        ]
+      }
+
+      result.to_json
+    end
+
+    def commit_activity_stats_chart_data(project)
+      raw_data = get_data(:commit_activity_stats, project)
+
+      result = {
+        series:
+          raw_data.map { |data| data[:week] * 1000 },
+        data: [
+          {
+            name: 'commits',
+            data: raw_data.map { |data| data[:total] }
+          }
+        ]
+      }
+
+      result.to_json
+    end
+
     def client
       @client ||= Octokit::Client.new \
         :login    => ENV['OCTOKIT_LOGIN'],
@@ -87,7 +126,7 @@ module Jekyll
     def get_data(type, project)
       result = nil
 
-      3.times do
+      5.times do
         result = client.send(type, project)
         return result unless result.nil?
 

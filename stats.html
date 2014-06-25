@@ -18,9 +18,13 @@ projects:
 <script>
   var ProjectsChartsData = {
     {% for project in page.projects_data %}
+    {{ project[1].code_frequency.series }}
       '{{ project[1].name }}': {
         'charts': {
-          'pieChart': {{ project[1].pie_chart }}
+          'pieChart': {{ project[1].pie_chart }},
+          'codeFrequency': {{ project[1].code_frequency }},
+          'commitActivity': {{ project[1].commit_activity }}
+
         }
       },
     {% endfor %}
