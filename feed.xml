@@ -45,6 +45,32 @@
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 25/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</link>
+      <description>&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;[university]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;Still need some time to learn to exams and I spend most of day reading books.&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot; /&gt;&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;[code]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;Created commit activity chart (with additions, deletions), Resolved problems with formatting axis X, but still I spend a lot of time to searching best solution and I did not found it yet.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 19.600000381469727px;&quot;&gt;Tomorrow&lt;/span&gt;&lt;span style=&quot;background-color: white; font-size: 14px; line-height: 19.600000381469727px;&quot;&gt;&amp;nbsp;I will wire a week summary post and small summary about my adventure with GSoC because of mid-term evaluation. :)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 24/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-24-06-2014/</link>
       <description>&lt;b&gt;[university] &lt;/b&gt;Today I've had one of last exams, so I was at university and passing exam and at home I spend some time learning to other exams.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Created code frequency chart (with additions, deletions), I have small problem with formatting axis x (that's axis with Dates, but Highcharts are trying to display all Dates instead of groupings&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -223,7 +249,7 @@
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#12</title>
+      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#10</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
       <description>&lt;!-- issues --&gt;
 &lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
@@ -231,30 +257,6 @@
 </description>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar added mithro to ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-overlay at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-25T00:00:00+00:00</dc:date>
