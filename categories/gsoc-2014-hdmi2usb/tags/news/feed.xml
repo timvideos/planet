@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Coded debug firware, almost done. Pushed to my gsoc branch. &lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/19XB1AOZMp5Tr-nKEmX8CSuChd6O11wmKfwKc1nsk4OA/edit#&quot;&gt;Design Documentation &lt;/a&gt;&lt;/li&gt;&lt;li&gt;Testing UART, worked for Rohit not working for me(grrr)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 5 summary: All set to start building!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/week-5-summary-all-set-to-start-building/</link>
@@ -294,21 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/gsoc-daily-log-major-improvement/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Started motherboard schematics&lt;/li&gt;&lt;li&gt;Filling out mechanical info &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=0&quot; target=&quot;_blank&quot;&gt;spreadsheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>

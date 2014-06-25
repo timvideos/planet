@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DEVELOPERS-PAGE</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>[GSoC Snippet] 24/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-24-06-2014/</link>
+      <description>&lt;b&gt;[university] &lt;/b&gt;Today I've had one of last exams, so I was at university and passing exam and at home I spend some time learning to other exams.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Created code frequency chart (with additions, deletions), I have small problem with formatting axis x (that's axis with Dates, but Highcharts are trying to display all Dates instead of groupings&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-24-06-2014/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/22/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -244,17 +259,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/planet.rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/pinoss-pushed-to-master-at-pinoss-planet-rb/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-24T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
