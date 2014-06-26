@@ -43,6 +43,8 @@ module Jekyll
         projects_data[project]['pie_chart'] = contributors_pie_chart_data(project)
         projects_data[project]['code_frequency']  = code_frequency_chart_data(project)
         projects_data[project]['commit_activity'] = commit_activity_stats_chart_data(project)
+        projects_data[project]['commits_per_hour'] = commits_per_hour_chart_data(project)
+        projects_data[project]['commits_per_weekday'] = commits_per_weekday_chart_data(project)
       end
 
       page.data['projects_data'] = projects_data
@@ -113,6 +115,46 @@ module Jekyll
           }
         ]
       }
+
+      result.to_json
+    end
+
+    DAY_NAME = {
+      0 => 'Sunday',
+      1 => 'Monday',
+      2 => 'Tuesday',
+      3 => 'Wendesday',
+      4 => 'Thursday',
+      5 => 'Friday',
+      6 => 'Saturday'
+    }
+
+    def commits_per_weekday_chart_data(project)
+      raw_data = get_data(:punch_card_stats, project)
+
+      grouped_by_weekday = raw_data.group_by { |data| data[0] }
+
+      result = grouped_by_weekday.map do |day, data|
+        [
+          DAY_NAME[day],
+          data.map { |d| d[2] }.inject(:+)
+        ]
+      end
+
+      result.to_json
+    end
+
+    def commits_per_hour_chart_data(project)
+      raw_data = get_data(:punch_card_stats, project)
+
+      grouped_by_hour = raw_data.group_by { |data| data[1] }
+
+      result = grouped_by_hour.map do |hour, data|
+        [
+          "#{hour}",
+          data.map { |d| d[2] }.inject(:+)
+        ]
+      end
 
       result.to_json
     end

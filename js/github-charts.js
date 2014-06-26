@@ -9,6 +9,8 @@ var contributorsPieChartInitializer = {
       var projectData = ProjectsChartsData[project];
 
       contributorsPieChartInitializer.initializePieChartForProject(project, projectData.charts.pieChart);
+      contributorsPieChartInitializer.initializeCommitsPerWeekdayChartForProject(project, projectData.charts.commitsPerWeekday);
+      contributorsPieChartInitializer.initializeCommitsPerHourChartForProject(project, projectData.charts.commitsPerHour);
       contributorsPieChartInitializer.initializeCodeFrequencyForProject(project, projectData.charts.codeFrequency);
       contributorsPieChartInitializer.initializeCommitActivityForProject(project, projectData.charts.commitActivity);
     }
@@ -44,6 +46,78 @@ var contributorsPieChartInitializer = {
         series: [{
           type: 'pie',
           name: 'Contributors',
+          data: projectData
+        }]
+      });
+    });
+  },
+
+  initializeCommitsPerWeekdayChartForProject: function(project, projectData){
+    $(function(){
+      $('[data-project="'+ project +'"] .commits-per-weekday').highcharts({
+        chart: {
+          plotBackgroundColor: null,
+          plotBorderWidth: null,
+          plotShadow: false
+        },
+        title: {
+          text: 'Commits per weekday'
+        },
+        tooltip: {
+          pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+          pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+              enabled: true,
+              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+              style: {
+                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+              }
+            }
+          }
+        },
+        series: [{
+          type: 'pie',
+          name: 'Commits per weekday',
+          data: projectData
+        }]
+      });
+    });
+  },
+
+  initializeCommitsPerHourChartForProject: function(project, projectData){
+    $(function(){
+      $('[data-project="'+ project +'"] .commits-per-hour').highcharts({
+        chart: {
+          plotBackgroundColor: null,
+          plotBorderWidth: null,
+          plotShadow: false
+        },
+        title: {
+          text: 'Commits per hour'
+        },
+        tooltip: {
+          pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+          pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+              enabled: true,
+              format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+              style: {
+                color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+              }
+            }
+          }
+        },
+        series: [{
+          type: 'pie',
+          name: 'Commits per hour',
           data: projectData
         }]
       });
