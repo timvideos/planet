@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
@@ -75,6 +86,17 @@
 </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -212,29 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-5/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 closed issue rohit91/vmodvga-testcodes#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-closed-issue-rohit91-vmodvga-testcodes-2/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 added mithro to rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-added-mithro-to-rohit91-hdmi2usb-vmodvga/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

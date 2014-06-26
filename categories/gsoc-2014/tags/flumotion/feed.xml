@@ -8,7 +8,28 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Problems with Overlay component</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</link>
+      <description>&lt;p&gt;As per my last post, I was facing some problems with overlay component. With help of Sebastian Dröge (slomo) from #gstreamer, I was able to fix the data flow error but the following error still remains.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids created branch porting-overlay at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</link>
@@ -206,28 +227,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch porting-httpstreamer at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/11/aps-sids-created-branch-porting-httpstreamer-at-a/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/aps-sids-created-branch-porting-httpstreamer-at-a/</guid>
-      <dc:date>2014-06-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>httpstreamer consumer problems</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/10/httpstreamer-consumer-problems/</link>
-      <description>&lt;p&gt;I have been stuggling with httpstreamer for past two days now. The mood of httpstreamer component stays on “waking” and the reason seems “a discont on eater default” but I’m not sure about this. The whole DEBUG log is available &lt;a href=&quot;http://pastebin.com/r5McSdsY&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 10 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/10/httpstreamer-consumer-problems/</guid>
-      <dc:date>2014-06-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

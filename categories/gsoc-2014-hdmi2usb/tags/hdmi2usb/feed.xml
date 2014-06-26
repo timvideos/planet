@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
@@ -246,17 +257,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-rohit91-vmodvga-testc/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at futurevaigyanik/Marine-Collision-Avoidance-with-Fuzzy-Logic</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-futurevaigyanik-marin/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/rohit91-pushed-to-master-at-futurevaigyanik-marin/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

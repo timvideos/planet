@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Problems with Overlay component</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</link>
+      <description>&lt;p&gt;As per my last post, I was facing some problems with overlay component. With help of Sebastian Dröge (slomo) from #gstreamer, I was able to fix the data flow error but the following error still remains.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 25/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</link>
@@ -279,21 +289,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/downstream-interface-of-rtp-verilog-core/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippets</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/daily-snippets/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Completed connector placement drawings for daughterboards and listed them on the&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=1547873779&quot; target=&quot;_blank&quot;&gt; mechanical design spreadsheet&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Completed &lt;a href=&quot;https://docs.google.com/drawings/d/1_AqSdjddKz_ljB_rFfbk5SCPRbmmGxUEGUEAXW8PphE/edit&quot; target=&quot;_blank&quot;&gt;support pins and header pins placement drawing&lt;/a&gt; for daughterboards.&lt;/li&gt;&lt;li&gt;Figured out dependency of daughterboard connector placements on chassis parameters and made a side-view diagram on&amp;nbsp;the spreadsheet to document them.&lt;/li&gt;&lt;li&gt;Did motherboard layout on the mechanical design spreadsheet to figure out chassis requirements.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/daily-snippets/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

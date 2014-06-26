@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Problems with Overlay component</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</link>
+      <description>&lt;p&gt;As per my last post, I was facing some problems with overlay component. With help of Sebastian Dröge (slomo) from #gstreamer, I was able to fix the data flow error but the following error still remains.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</guid>
+      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 25/06/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</link>
@@ -254,21 +264,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/15-june-14/</guid>
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 13/06/2014 and 04/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;added new routes for categories, tag page and feeds&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tag, category pages + opml feeds&lt;br /&gt;&lt;b&gt;[maintenance] &lt;/b&gt;Created monitoring on Monitis.com, works great. I am considering adding agent to our generate.timvideos.us server to monitor our generation process.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added reading categories from planet blogs RSS feed (from &amp;lt;category&amp;gt; node)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;css improvements on mobile devices&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-PrNlkqOmBlo/U5yRR5RNVxI/AAAAAAAAIFE/v7-u6T_Bd0g/s1600/Screen+Shot+06-14-14+at+08.14+PM.PNG&quot; height=&quot;202&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/gsoc-snippet-13-06-2014-and-04-06-2014/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
