@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul&gt;&lt;li&gt;Got the UART working: The uart of atlys without the vizzini driver enumerates as ttyACMx. Rohit was able to use it to send data but I was getting crap values. Turns out that you can only send data from fpga via this and not send data to fpga. My uart test code would echo back the byte sent and since fpga did not receive anything I got crap values. This wasted a good 2 hours of my life.&lt;/li&gt;&lt;li&gt;Shenki's UART driver is working: To install vizzini I have to first remove cdc-acm which I did not do and hence &amp;nbsp;it did not work initially. Then after reading carefully the README I was able to get it working. The uart enumerates as &amp;nbsp;ttyUSB0.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tested my code: My code was working in part, did some correction. But yesterday &amp;nbsp;there was power cut even in the evening so couldn't do much work. So I will be travelling to my parent's place today and work from there till things become normal here.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Sorry I missed the deadline. Will complete it ASAP.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Problems with Overlay component</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</link>
       <description>&lt;p&gt;As per my last post, I was facing some problems with overlay component. With help of Sebastian Dröge (slomo) from #gstreamer, I was able to fix the data flow error but the following error still remains.&lt;/p&gt;
@@ -272,21 +287,6 @@
 </description>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/gsoc-daily-log-trails-errors-part-2/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Downstream interface of RTP Verilog core</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/downstream-interface-of-rtp-verilog-core/</link>
-      <description>Today, i wanted to finish downstream interface of the RTP Verilog core. See &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1&quot;&gt;Figure 6&lt;/a&gt;&amp;nbsp; of the Spec to see how the downstream interface looks like. The downstream block is the MAC (Media Access Controller). At the moment, the idea is to send RTP packets to the MAC. Once this is working, we can then insert UDP/IP/Ethernet headers and send it to the downstream interface as a realistic packet.&lt;br /&gt;&lt;br /&gt;I got the downstream interface working but it is lagging. What this means is that packet arrival is faster than packet departure. There are two ways to deal with this. One is to back-pressure the upstream interface until the packet is sent downstream. This means you cannot get new data from upstream interface until all the previous data has drained downstream. The other approach is to use a reasonably sized FIFO and let the arrived data fill up the FIFO. While new data arrives at the FIFO, downstream block consumes data from FIFO.&lt;br /&gt;&lt;br /&gt;Initially, i am going to try the first approach. Later, i can deal with the second approach.&lt;br /&gt;&lt;br /&gt;What i first encountered during synthesis was of course&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;b&gt;Synthesis Errors !!!!&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;ERROR:HDLCompiler:1401 - &quot;/home/user/gsoc14/python_code/myhdl_code/sim_models/rtp_xilinx/rtl/packetizer.v&quot; Line 148: Signal nxt_fifo_full in unit packetizer is connected to following multiple drivers:&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;Driver 0: output signal nxt_fifo_full of instance Latch (nxt_fifo_full).&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;Driver 1: output signal nxt_fifo_full of instance Multiplexer (fifo_full_fifo_full_MUX_20689).&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;ERROR:HDLCompiler:1401 - &quot;/home/user/gsoc14/python_code/myhdl_code/sim_models/rtp_xilinx/rtl/packetizer.v&quot; Line 220: Signal nxt_send_buffer[10399] in unit packetizer is connected to following multiple drivers:&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;br /&gt;&lt;/span&gt;So i had to rewrite RTL to make these Errors go away. I was able to do rewrite RTL as well as synthesize correctly. Here is the synthesis &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/46fade6c2eb1e1fae6b3a57097a9658d83c3617d/sim_models/rtp_xilinx/packetizer.syr?at=master&quot;&gt;log file&lt;/a&gt;. Here is the synthesized &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/46fade6c2eb1e1fae6b3a57097a9658d83c3617d/sim_models/rtp_xilinx/postsyn/?at=master&quot;&gt;netlist &lt;/a&gt;and &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/46fade6c2eb1e1fae6b3a57097a9658d83c3617d/sim_models/rtp_xilinx/postsyn/tb_packetizer.v?at=master&quot;&gt;testbench&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Please run the &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/46fade6c2eb1e1fae6b3a57097a9658d83c3617d/sim_models/?at=master&quot;&gt;code&lt;/a&gt; and help me find bugs that you come across.&lt;br /&gt;&lt;br /&gt;Here is the output for a few clock cycles. The format is timestamp : 4bytes of RTP Data&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4356:80180000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4376:00000000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4416:00000501&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4436:001a0000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4456:00010000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4476:02000003&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4496:00000400&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4516:00050000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4536:06000007&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4556:00000800&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4576:00090000&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 4596:0a00000b&lt;br /&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I will do more testing next week.&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/downstream-interface-of-rtp-verilog-core/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-26T00:00:00+00:00</dc:date>

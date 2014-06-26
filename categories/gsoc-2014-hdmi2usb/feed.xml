@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul&gt;&lt;li&gt;Got the UART working: The uart of atlys without the vizzini driver enumerates as ttyACMx. Rohit was able to use it to send data but I was getting crap values. Turns out that you can only send data from fpga via this and not send data to fpga. My uart test code would echo back the byte sent and since fpga did not receive anything I got crap values. This wasted a good 2 hours of my life.&lt;/li&gt;&lt;li&gt;Shenki's UART driver is working: To install vizzini I have to first remove cdc-acm which I did not do and hence &amp;nbsp;it did not work initially. Then after reading carefully the README I was able to get it working. The uart enumerates as &amp;nbsp;ttyUSB0.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tested my code: My code was working in part, did some correction. But yesterday &amp;nbsp;there was power cut even in the evening so couldn't do much work. So I will be travelling to my parent's place today and work from there till things become normal here.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Sorry I missed the deadline. Will complete it ASAP.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -241,21 +256,6 @@
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-added-mithro-to-ayushsagar-hdmi2usb-vm/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I think I have some idea on why frame rate is slow. In my previous blog I explained how the state machine of image buffer works. Basically, a frame is stored first and then read into encoder for compression. From simulation data, a 1024*768 frame takes approx 25 ms (@ 78Mhz) to compress a frame. But if the frame rate of the HDMI source is 60hz then the minimum time taken to write a frame into the DDR2 Ram is 1/60s ie 17ms (assuming it takes no time to transfer data into DDR2 RAM which ofcourse is not true). So it takes 42 ms to store and compress a frame which gives you a frame rate of 23 fps. There is no pipelining between frames.&lt;br /&gt;&lt;br /&gt;In simulation, the encoder is fed with new data if its buffer is not full. But in actual firmware, data needs to be accessed from DDR2 RAM which even though is small is not negligible. Also the raw image data is buffered before being written into RAM to prevent loss of data, so it takes far more than 17 ms to write the whole frame into RAM. So my guess is frame rate of DDR2 + encoder system is around 20 fps.&lt;br /&gt;&lt;br /&gt;Also, I ran test bench for different encoding qualities. Turns out that for 100% encoding quality, the compression ratio is around 5-6 whereas for 50% encoding quality, the compression ratio is as high as 20-25.&lt;br /&gt;&lt;br /&gt;So output size of a frame at high encoding quality:&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;1024*768*24/5/1024/1024=3.6 MB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Now bandwidth of cypress fx2 is 40 MBps. So&amp;nbsp; fps in high quality case will be 40/3.6=11.11 fps. That's why changing the frequency did not change the frame rate(I guess).&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;In low quality case as the compression is high, fx2 bandwidth does not limit the frame rate but the firmware limits the frame rate. So the observed fps is around 18.5-19 which is close to the fps I am guessing using calculation. &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Friends, Romans, Mentors and countrymen please comment.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disclaimer: I have used a lot of handwaiving calculation. So if I have used too much liberty please comment on it. I will try and give rigorous&amp;nbsp; maths. &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-26T00:00:00+00:00</dc:date>
   </channel>

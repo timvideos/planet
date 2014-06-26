@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul&gt;&lt;li&gt;Got the UART working: The uart of atlys without the vizzini driver enumerates as ttyACMx. Rohit was able to use it to send data but I was getting crap values. Turns out that you can only send data from fpga via this and not send data to fpga. My uart test code would echo back the byte sent and since fpga did not receive anything I got crap values. This wasted a good 2 hours of my life.&lt;/li&gt;&lt;li&gt;Shenki's UART driver is working: To install vizzini I have to first remove cdc-acm which I did not do and hence &amp;nbsp;it did not work initially. Then after reading carefully the README I was able to get it working. The uart enumerates as &amp;nbsp;ttyUSB0.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tested my code: My code was working in part, did some correction. But yesterday &amp;nbsp;there was power cut even in the evening so couldn't do much work. So I will be travelling to my parent's place today and work from there till things become normal here.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Sorry I missed the deadline. Will complete it ASAP.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -241,21 +256,6 @@
 </description>
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Exar drivers</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/gsoc-daily-log-exar-drivers/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-ea2c611e-d27c-dcf1-f5c7-d71301459df8&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tuesday, 24th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-ea2c611e-d27c-dcf1-f5c7-d71301459df8&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried Ajith’s UART code on linux. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Shenki’s updated driver also didn’t work for me&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Atlast, since the Vizzini module was blocking my BeagleboneBlack’s USB-Serial from funtioning, I removed it and to my surprise also found the Exar one detected as CDC_ACM device at ttyACM1 and BBB at ttyACM0. Both are working fine&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Searched for daisy chain enabled SPI EEPROM devices. Couldn’t find them. Updated the doc with additional details regarding this.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/gsoc-daily-log-exar-drivers/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-26T00:00:00+00:00</dc:date>
