@@ -11,6 +11,17 @@
     <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/26/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/26/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
@@ -246,21 +257,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</link>
-      <description>&lt;b&gt;[maintenance] &lt;/b&gt;added code.timvideos.us to monitis monitoring tool&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;read GtiHub Api documentation to pass as many information about TimVideos organization members to People subpage of code.timvideos.us (I need to decide if I should load content on client site with GitHub API or with gem ocktokit on server site)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-26T00:00:00+00:00</dc:date>
