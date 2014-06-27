@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Open Source Bridge Conference!</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</link>
+      <description>&lt;p&gt;Hello! Apologies for not posting for over a week. I was attending the Open Source Bridge Conference in Portland. It is an amazing place to be. I met lots of people from Mozilla, RedHat, Wikimedia Foundation. Got to see the cool new projects people are working on, and upcoming fields in Data Science etc. There were special sessions dedicated to bringing more women into technology. I attended several talks and gave one of my own too. My talk was about the language selector I developed as part of my OPW internship with Wikimedia earlier this year. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
@@ -238,17 +248,6 @@
       <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/1-june-14/</guid>
       <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/01/niharika29-pushed-to-master-at-niharika29-streami/</guid>
-      <dc:date>2014-06-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>
   </channel>

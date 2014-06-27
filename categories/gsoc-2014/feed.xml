@@ -10,6 +10,28 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Open Source Bridge Conference!</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</link>
+      <description>&lt;p&gt;Hello! Apologies for not posting for over a week. I was attending the Open Source Bridge Conference in Portland. It is an amazing place to be. I met lots of people from Mozilla, RedHat, Wikimedia Foundation. Got to see the cool new projects people are working on, and upcoming fields in Data Science etc. There were special sessions dedicated to bringing more women into technology. I attended several talks and gave one of my own too. My talk was about the language selector I developed as part of my OPW internship with Wikimedia earlier this year. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids starred mmccaff/PlacesToPostYourStartup</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -219,27 +241,6 @@
 </description>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at pinoss/prose</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-gh-pages-at-pinoss-prose/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/pinoss-pushed-to-gh-pages-at-pinoss-prose/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-20</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</link>
-      <description>&lt;h2&gt;snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>

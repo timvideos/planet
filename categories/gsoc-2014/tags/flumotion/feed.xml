@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids starred mmccaff/PlacesToPostYourStartup</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -214,17 +226,6 @@
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-deleted-branch-porting-httpstreamer-at-a/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue SublimeCodeIntel/SublimeCodeIntel#93</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-commented-on-issue-sublimecodeintel-subl/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/aps-sids-commented-on-issue-sublimecodeintel-subl/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>
