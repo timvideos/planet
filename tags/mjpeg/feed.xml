@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
     <item>
       <title>Daily Snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
@@ -285,6 +285,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
       <dc:date>2014-05-29T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: SERIAL-EXTENSION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#10</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
@@ -106,7 +117,7 @@
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#15</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#11</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -243,21 +254,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/21/daily-snippet/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Week 4 summary: Speed bumps!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/week-4-summary-speed-bumps/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Last week was spent on forming the functional description of serial expansion board – what features need to be there, what all functionality is reasonable and feasible to add and how they would work together. I had also discussed with my mentor the board’s design, its modularity and how everything will fit inside the chassis. But there was an important question left to explore - how can we implement USB-Serial interface in the most efficient way – which was not an easy question to answer.&lt;br /&gt;&lt;br /&gt;&lt;div&gt;This week was all about getting deeper into physical description of serial expansion board with aim to start building PCB design as soon as possible, but a lot of problems and questions came along the way some of which will need us to reconsider the functional description of the serial interface board. And we have been still carrying the same question this week, which by far is most important one – how would the USB serial interface work? What are the maximum no. of serial ports we can support? This has been keeping me from updating a lot of things in the requirements document which are pending, from mechanical specs to component selection.&lt;br /&gt;&lt;br /&gt;Our PTZ cameras require hardware flow control. So those seemingly extra pins in the DB-9 connector for RTS/CTS and DTR/DSR pins are indeed needed. Sony cameras use DTR/DSR pins for handshaking and Canon uses RTS/CTS. Handshaking is important in PTZ cameras because the tasks they perform are mechanical (slow) in nature and they can easily miss out commands due to buffer overflow and perform erratically. So the requirement of having handshaking makes our original question even more complex. If that’s not enough, linux does not natively support DTR/DSR handshaking. Also there were a few other questions that I had in mind but I didn’t discuss because I was more occupied with the above issues. These were:&lt;br /&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt; text-align: left;&quot;&gt;&lt;li&gt;Board design width – What is the maximum permissible width of the motherboard?&lt;/li&gt;&lt;li&gt;DMX – We have a transmit channel, do we need a receive channel? What kind of devices are to be supported?&lt;/li&gt;&lt;li&gt;MIDI – Same question ^&lt;/li&gt;&lt;li&gt;IR remote type – IR remote control protocols are not standardized. I need to know what kind of IR remote control the IR receiver is going to be designed for. Or do we need &lt;a href=&quot;http://en.wikipedia.org/wiki/Infrared_Data_Association&quot;&gt;IrDA&lt;/a&gt;?&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;A lot of similar concerns were there for which I found workarounds. Like: &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;What will be the elevation of daughter board?&lt;/li&gt;&lt;li&gt;How will the headers fit to the DB9 footprint?&lt;/li&gt;&lt;li&gt;How to solve the issue of redundancy of RS232 drivers?&lt;/li&gt;&lt;/ul&gt;I have answered these and many others in the &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit&quot;&gt;requirements document&lt;/a&gt; for serial expansion board.&lt;br /&gt;&lt;br /&gt;We were counting on the Cypress FX2LP USB engine to implement serial ports. USB has 16 endpoints, EP 0 is reserved and the HDMI2USB firmware in Cypress FX2LP uses only EP 1, 2, 4 and 6. I also noticed that the USB allows use to use the same endpoint number for both direction, so the EP 2 and 4 being used for control serial port of HDMI2USB could be integrated into one endpoint. Based on this understanding I assuming 11 free endpoints are there and I was looking forward to implement up to 8 bulk-only virtual serial ports which require only one endpoint no. per serial port if we do not implement hardware flow control.&lt;br /&gt;&lt;br /&gt;On reading the Technical Reference Manual which I sadly didn’t find earlier I finally got answer to my question. And the answer was 0! We can’t have extra serial ports at all because it supports only a few endpoints which are 1,2,4,6 and 8. We made a false assumption that the Cypress FX2LP is a USB controller aimed at flexibility. But it’s rather aimed for high speed transfers and it seems to internally combine these end-points to have reduced no. of large endpoints for achieving higher throughput. Cypress FX2LP is not open-source and there is not much known about its internal operation so it cannot be modified to support our needs.&lt;br /&gt;The bottomline&lt;br /&gt;I do not see any way to use Cypress FX2LP for implementing extra serial ports. And there’s no way a custom multiplexed protocol would work without writing a driver for it (and making it support a number of OSes). Neither the serial driver supports any form of multiplexing. We need to iterate on forming the higher level description of serial expansion board.&lt;br /&gt;&lt;br /&gt;Here’s what I propose as of now: Let’s use PIC18F being used in production board to implement the USB-Serial interfaces. This brings up some initial questions to ask my from mentor (if he agrees):&lt;br /&gt;Why was that particular chip (PIC18F85J94) chosen?&lt;br /&gt;Do we plan to use a USB Hub to combine the HDMI2USB and PIC18F’s USB?&lt;br /&gt;That MCU supports only 4 USARTs, if we need more then we would have to bitbang serial ports. Will the MCU handle the workload in additional to existing functionality there?&lt;br /&gt;&lt;br /&gt;A plenty of discussion is pending on us to overcome issues.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/week-4-summary-speed-bumps/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>
