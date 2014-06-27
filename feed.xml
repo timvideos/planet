@@ -124,6 +124,36 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 27/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
+      <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Debug Data</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Things are not as easy as they seem to look. After plenty of debugging and testing on hardware I was finally able to get the debug code working. I haven't implemented the part which outputs size of encoded data because it is a 3 byte value and I didn't have the foresight to write a very generalised code. Other debug data are 1 byte.&lt;br /&gt;&lt;br /&gt;So this is what I get from the UART. By the way I am using the test image and encoding quality of 50%.&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Input Frame Rate: 60 Hz. This is what it is suppose to be.&lt;/li&gt;&lt;li&gt;Output Frame Rate: ranges from 15 to 21. So lets take the average value to be 18.&lt;/li&gt;&lt;li&gt;Time taken to write frame into DDR2 Ram: 16-17 ms. This is what I approximated&lt;/li&gt;&lt;li&gt;Time taken for encoder to compress: 23 ms Again I was close&lt;/li&gt;&lt;li&gt;No. of frames dropped: 2&lt;/li&gt;&lt;/ul&gt;So in a second is 60 frames. And for every frame read, 2 frames are dropped which means only 20 frames are being processed.&lt;br /&gt;&lt;br /&gt;Writing + processing time = 40 ms =&amp;gt; 25 fps. So I *guess* we are losing 10 milliseconds in sending the data. (will check this).&lt;br /&gt;&lt;br /&gt;So I guess we know what our bottleneck is : When image is written into ddr2, it is not processed and when image is processed, image is not written into ddr2.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -219,32 +249,6 @@
 </description>
       <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/gsoc-daily-log-oversampling-some-failed-adventure/</guid>
-      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul&gt;&lt;li&gt;Got the UART working: The uart of atlys without the vizzini driver enumerates as ttyACMx. Rohit was able to use it to send data but I was getting crap values. Turns out that you can only send data from fpga via this and not send data to fpga. My uart test code would echo back the byte sent and since fpga did not receive anything I got crap values. This wasted a good 2 hours of my life.&lt;/li&gt;&lt;li&gt;Shenki's UART driver is working: To install vizzini I have to first remove cdc-acm which I did not do and hence &amp;nbsp;it did not work initially. Then after reading carefully the README I was able to get it working. The uart enumerates as &amp;nbsp;ttyUSB0.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tested my code: My code was working in part, did some correction. But yesterday &amp;nbsp;there was power cut even in the evening so couldn't do much work. So I will be travelling to my parent's place today and work from there till things become normal here.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Sorry I missed the deadline. Will complete it ASAP.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</guid>
-      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
       <dc:date>2014-06-26T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>

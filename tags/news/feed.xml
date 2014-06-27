@@ -20,6 +20,36 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 27/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
+      <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Debug Data</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Things are not as easy as they seem to look. After plenty of debugging and testing on hardware I was finally able to get the debug code working. I haven't implemented the part which outputs size of encoded data because it is a 3 byte value and I didn't have the foresight to write a very generalised code. Other debug data are 1 byte.&lt;br /&gt;&lt;br /&gt;So this is what I get from the UART. By the way I am using the test image and encoding quality of 50%.&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Input Frame Rate: 60 Hz. This is what it is suppose to be.&lt;/li&gt;&lt;li&gt;Output Frame Rate: ranges from 15 to 21. So lets take the average value to be 18.&lt;/li&gt;&lt;li&gt;Time taken to write frame into DDR2 Ram: 16-17 ms. This is what I approximated&lt;/li&gt;&lt;li&gt;Time taken for encoder to compress: 23 ms Again I was close&lt;/li&gt;&lt;li&gt;No. of frames dropped: 2&lt;/li&gt;&lt;/ul&gt;So in a second is 60 frames. And for every frame read, 2 frames are dropped which means only 20 frames are being processed.&lt;br /&gt;&lt;br /&gt;Writing + processing time = 40 ms =&amp;gt; 25 fps. So I *guess* we are losing 10 milliseconds in sending the data. (will check this).&lt;br /&gt;&lt;br /&gt;So I guess we know what our bottleneck is : When image is written into ddr2, it is not processed and when image is processed, image is not written into ddr2.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC] What happenned during this week? (week 5)</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/26/gsoc-what-happenned-during-this-week-week-5/</link>
       <description>It was a great month, I learned a lot about Jekyll and Ruby, wrote a lot of new plugins, contributed to planet.rb and my first GitHub pull request. A lot of great work was made thanks to GSoC and TimVideos organization, thank you guys. :) I am really satisfied about my work during this month and can't wait to see results of my work in next 2 months.&lt;br /&gt;&lt;br /&gt;During this week I spend a lot of time on integrating &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt;&amp;nbsp;with GitHub API to get a lot of information from GitHub repositories and integrating edit interface (&lt;a href=&quot;http://prose.io/&quot;&gt;prose.io&lt;/a&gt;) to work with our getting-started page.&lt;br /&gt;&lt;br /&gt;On edit interface I've added prose.io realistic preview to every edit, so you will see your changes with realistic preview, I've also added edit button to every editable part of website to make editing easier.&lt;br /&gt;&lt;br /&gt;I've created GitHub Statistic page on planet (&lt;a href=&quot;http://planet.timvideos.us/stats/&quot;&gt;http://planet.timvideos.us/stats/&lt;/a&gt;), I've added there 5 charts per project and worked on presenting data to the user, I still have to fix some small issues with charts but almost all is done with that part.&lt;br /&gt;&lt;br /&gt;I've also created People page on planet (&lt;a href=&quot;http://planet.timvideos.us/people/&quot;&gt;http://planet.timvideos.us/people/&lt;/a&gt;) with information about people related to TimVideos community, and almost all data is fetched from GitHub page (avatar, blog url, name, location, etc.), but you can also override that information if you want to customize it a little bit.&lt;br /&gt;&lt;br /&gt;I've also made some small changes, like moving from prose.io application into gh-pages branch of my prose fork.&lt;br /&gt;&lt;br /&gt;Now I will work at IRC notifications about updates and start working on page with issues, but I also need to learn to last exams in that semester. :)&lt;div class=&quot;author&quot;&gt;
@@ -262,36 +292,6 @@
 </description>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/22/gsoc-snippet-22-06-2014/</guid>
-      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Random Sunday</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/gsoc-daily-log-random-sunday/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-c825-9fcc-67ee-8f32c7787cdb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 22nd June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-c825-9fcc-67ee-8f32c7787cdb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Went to relatives’ house for the day.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Upon returning, laptop crashed with error “Kernel Data inpage error”. This had been a common occurrence since I upgraded the HDD just a month back. Ran chkdsk on the entire disk. Took ~6 hours but it found 4 bad clusters in the system partition itself! :o &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Had a discussion with Ayush on auto-detection feature, EEPROM selection, wiring etc.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/gsoc-daily-log-random-sunday/</guid>
-      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</guid>
       <dc:date>2014-06-22T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>

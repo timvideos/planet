@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Debug Data</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Things are not as easy as they seem to look. After plenty of debugging and testing on hardware I was finally able to get the debug code working. I haven't implemented the part which outputs size of encoded data because it is a 3 byte value and I didn't have the foresight to write a very generalised code. Other debug data are 1 byte.&lt;br /&gt;&lt;br /&gt;So this is what I get from the UART. By the way I am using the test image and encoding quality of 50%.&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Input Frame Rate: 60 Hz. This is what it is suppose to be.&lt;/li&gt;&lt;li&gt;Output Frame Rate: ranges from 15 to 21. So lets take the average value to be 18.&lt;/li&gt;&lt;li&gt;Time taken to write frame into DDR2 Ram: 16-17 ms. This is what I approximated&lt;/li&gt;&lt;li&gt;Time taken for encoder to compress: 23 ms Again I was close&lt;/li&gt;&lt;li&gt;No. of frames dropped: 2&lt;/li&gt;&lt;/ul&gt;So in a second is 60 frames. And for every frame read, 2 frames are dropped which means only 20 frames are being processed.&lt;br /&gt;&lt;br /&gt;Writing + processing time = 40 ms =&amp;gt; 25 fps. So I *guess* we are losing 10 milliseconds in sending the data. (will check this).&lt;br /&gt;&lt;br /&gt;So I guess we know what our bottleneck is : When image is written into ddr2, it is not processed and when image is processed, image is not written into ddr2.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily Snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul&gt;&lt;li&gt;Got the UART working: The uart of atlys without the vizzini driver enumerates as ttyACMx. Rohit was able to use it to send data but I was getting crap values. Turns out that you can only send data from fpga via this and not send data to fpga. My uart test code would echo back the byte sent and since fpga did not receive anything I got crap values. This wasted a good 2 hours of my life.&lt;/li&gt;&lt;li&gt;Shenki's UART driver is working: To install vizzini I have to first remove cdc-acm which I did not do and hence &amp;nbsp;it did not work initially. Then after reading carefully the README I was able to get it working. The uart enumerates as &amp;nbsp;ttyUSB0.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Tested my code: My code was working in part, did some correction. But yesterday &amp;nbsp;there was power cut even in the evening so couldn't do much work. So I will be travelling to my parent's place today and work from there till things become normal here.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Sorry I missed the deadline. Will complete it ASAP.&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -269,21 +284,6 @@
       <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Yesterday probably I worked the longest (10 hrs maybe). I was trying to check whether the reason for slow fps is blocks after jpeg core. To check this I removed the the signals which the usb controller gave to the jpeg core. Also I wrote a code which counts the done signal of the jpeg core and I output the range of the count using LEDs(like for count less than 10 LED0 would light up). And it turns out that count of the done signal was in same range as the output fps. I tried different combinations like different encoding quality, allowing some signals of usb controller to control the jpeg core while ignoring other and the result was more or less the same. Meanwhile the code threw a timing error which took me 2 hrs to debug.&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&amp;nbsp;Also I did some reading on quantisation tables for JPEG. Turns out that quantisation should be low for luminance table (quality-85%) and high for chrominance of around 50%. But this is a general rule and cannot be used for all applications. &lt;br /&gt;&lt;br /&gt;Today I plan to change the jpeg top module and see whether it improves fps. I have few ideas. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 29 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/29/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-05-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-27T00:00:00+00:00</dc:date>
   </channel>
