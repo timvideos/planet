@@ -75,6 +75,21 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Cleanup</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/gsoc-daily-log-cleanup/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e2e5-651c-83bf-04378066b9cc&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 27th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e2e5-651c-83bf-04378066b9cc&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Cleanup up code quite significantly and directory structure&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Documented problems faced &lt;a href=&quot;https://docs.google.com/document/d/11dfCeLtNUrjcst97REtgqLIln-_pKwHgGT3xKjOamxs/edit#heading=h.m6zkv3g74xht&quot; target=&quot;_blank&quot;&gt;here.&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/gsoc-daily-log-cleanup/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Debug Data</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Things are not as easy as they seem to look. After plenty of debugging and testing on hardware I was finally able to get the debug code working. I haven't implemented the part which outputs size of encoded data because it is a 3 byte value and I didn't have the foresight to write a very generalised code. Other debug data are 1 byte.&lt;br /&gt;&lt;br /&gt;So this is what I get from the UART. By the way I am using the test image and encoding quality of 50%.&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Input Frame Rate: 60 Hz. This is what it is suppose to be.&lt;/li&gt;&lt;li&gt;Output Frame Rate: ranges from 15 to 21. So lets take the average value to be 18.&lt;/li&gt;&lt;li&gt;Time taken to write frame into DDR2 Ram: 16-17 ms. This is what I approximated&lt;/li&gt;&lt;li&gt;Time taken for encoder to compress: 23 ms Again I was close&lt;/li&gt;&lt;li&gt;No. of frames dropped: 2&lt;/li&gt;&lt;/ul&gt;So in a second is 60 frames. And for every frame read, 2 frames are dropped which means only 20 frames are being processed.&lt;br /&gt;&lt;br /&gt;Writing + processing time = 40 ms =&amp;gt; 25 fps. So I *guess* we are losing 10 milliseconds in sending the data. (will check this).&lt;br /&gt;&lt;br /&gt;So I guess we know what our bottleneck is : When image is written into ddr2, it is not processed and when image is processed, image is not written into ddr2.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -273,21 +288,6 @@
       <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/gsoc-daily-log-exar-drivers/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I think I have some idea on why frame rate is slow. In my previous blog I explained how the state machine of image buffer works. Basically, a frame is stored first and then read into encoder for compression. From simulation data, a 1024*768 frame takes approx 25 ms (@ 78Mhz) to compress a frame. But if the frame rate of the HDMI source is 60hz then the minimum time taken to write a frame into the DDR2 Ram is 1/60s ie 17ms (assuming it takes no time to transfer data into DDR2 RAM which ofcourse is not true). So it takes 42 ms to store and compress a frame which gives you a frame rate of 23 fps. There is no pipelining between frames.&lt;br /&gt;&lt;br /&gt;In simulation, the encoder is fed with new data if its buffer is not full. But in actual firmware, data needs to be accessed from DDR2 RAM which even though is small is not negligible. Also the raw image data is buffered before being written into RAM to prevent loss of data, so it takes far more than 17 ms to write the whole frame into RAM. So my guess is frame rate of DDR2 + encoder system is around 20 fps.&lt;br /&gt;&lt;br /&gt;Also, I ran test bench for different encoding qualities. Turns out that for 100% encoding quality, the compression ratio is around 5-6 whereas for 50% encoding quality, the compression ratio is as high as 20-25.&lt;br /&gt;&lt;br /&gt;So output size of a frame at high encoding quality:&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;1024*768*24/5/1024/1024=3.6 MB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Now bandwidth of cypress fx2 is 40 MBps. So&amp;nbsp; fps in high quality case will be 40/3.6=11.11 fps. That's why changing the frequency did not change the frame rate(I guess).&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;In low quality case as the compression is high, fx2 bandwidth does not limit the frame rate but the firmware limits the frame rate. So the observed fps is around 18.5-19 which is close to the fps I am guessing using calculation. &lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Friends, Romans, Mentors and countrymen please comment.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Disclaimer: I have used a lot of handwaiving calculation. So if I have used too much liberty please comment on it. I will try and give rigorous&amp;nbsp; maths. &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>
   </channel>
