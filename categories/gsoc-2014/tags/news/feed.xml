@@ -20,6 +20,16 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Midterm Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
+      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 27/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
       <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -247,21 +257,6 @@
 </description>
       <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-16-06-2014/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</link>
-      <description>&lt;b&gt;[maintenance] &lt;/b&gt;added code.timvideos.us to monitis monitoring tool&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;read GtiHub Api documentation to pass as many information about TimVideos organization members to People subpage of code.timvideos.us (I need to decide if I should load content on client site with GitHub API or with gem ocktokit on server site)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/gsoc-snippet-15-06-2014/</guid>
       <dc:date>2014-06-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>

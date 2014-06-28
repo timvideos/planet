@@ -35,6 +35,16 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Midterm Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
+      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 27/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
       <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +287,6 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/gsoc-daily-log-cleanup-reorder-and-resolving-issu/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all done and pushed to my &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;repo&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Got Tim to create a &lt;a href=&quot;https://github.com/timvideos/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;fork&lt;/a&gt;&amp;nbsp;in TimVideos.&lt;/li&gt;&lt;li&gt;Looking at the issues in my repository.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>

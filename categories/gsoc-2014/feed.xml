@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Open Source Bridge Conference!</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</link>
       <description>&lt;p&gt;Hello! Apologies for not posting for over a week. I was attending the Open Source Bridge Conference in Portland. It is an amazing place to be. I met lots of people from Mozilla, RedHat, Wikimedia Foundation. Got to see the cool new projects people are working on, and upcoming fields in Data Science etc. There were special sessions dedicated to bringing more women into technology. I attended several talks and gave one of my own too. My talk was about the language selector I developed as part of my OPW internship with Wikimedia earlier this year. &lt;/p&gt;
@@ -98,6 +109,16 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-1-cleanup-at-nih/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Midterm Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
+      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -225,28 +246,6 @@
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-23</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</link>
-      <description>&lt;h2&gt;This week&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-overlay at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>
   </channel>

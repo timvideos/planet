@@ -36,6 +36,17 @@
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
       <description>&lt;!-- push --&gt;
@@ -162,6 +173,16 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Midterm Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
+      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
+      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 27/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
       <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -223,29 +244,6 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred mmccaff/PlacesToPostYourStartup</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>
