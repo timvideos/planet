@@ -21,6 +21,17 @@
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/sids</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-sids/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-sids/</guid>
+      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -215,16 +226,6 @@
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>I watched the stream!</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</link>
-      <description>&lt;p&gt;Great news! I just completed porting of ogg muxer and httpstreamer consumer component. And with that, I “watched” a stream using Videotest producer + Theora encoder + ogg muxer + httpstreamer. The stream was created using this &lt;a href=&quot;https://github.com/aps-sids/flumotion-orig/blob/08ddcaae8321a1e3c970277b059fe889d21bcec4/test_config.xml&quot;&gt;configuration&lt;/a&gt; and here is the screenshot:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/i-watched-the-stream/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-28T00:00:00+00:00</dc:date>
   </channel>
