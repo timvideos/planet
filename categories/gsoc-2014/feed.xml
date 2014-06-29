@@ -10,6 +10,27 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>VP8 Encoder Ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/vp8-encoder-ported/</link>
+      <description>&lt;p&gt;I worked on porting the VP8 Encoder today. There were not many changes required, just that a few properties were removed and others’ names were changed.&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/vp8-encoder-ported/</guid>
+      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
       <description>&lt;!-- push --&gt;
@@ -215,32 +236,6 @@
 </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 25/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</link>
-      <description>&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;[university]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;Still need some time to learn to exams and I spend most of day reading books.&lt;/span&gt;&lt;br /&gt;&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;[code]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;Created commit activity chart (with additions, deletions), Resolved problems with formatting axis X, but still I spend a lot of time to searching best solution and I did not found it yet.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 19.600000381469727px;&quot;&gt;Tomorrow&lt;/span&gt;&lt;span style=&quot;background-color: white; font-size: 14px; line-height: 19.600000381469727px;&quot;&gt;&amp;nbsp;I will write a week summary post and small summary about my adventure with GSoC because of mid-term evaluation. :)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-29T00:00:00+00:00</dc:date>
