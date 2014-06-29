@@ -10,6 +10,56 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/supybot-configuration</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-repository-pinoss-supybot-configur/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-repository-pinoss-supybot-configur/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch master at pinoss/supybot-configuration</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-branch-master-at-pinoss-supybot-co/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-branch-master-at-pinoss-supybot-co/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 29/06/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</link>
+      <description>&lt;b&gt;[configuration]&lt;/b&gt; finally I figured out how Supybot should be configured and I have basic configuration (&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;). Supybot checks for changes in RSS for every 15 minutes and sends a message to irc channel. I've used and tested it on my test chanel on freenode, tomorrow I will add that bot to our server to run on actually used channel.&lt;br /&gt;&lt;br /&gt;Finally I've passed all my exams and now I will have more time for work. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Sigh of relief!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 28th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Marked improvement! Around 90-95% flickering and screen-blanking gone! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;HURRAY! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;More  details and video coming when I wake up. Its 6:30 in the morning here! Working all night is really  exhausting, but one does get a nice, peaceful and cool environment! :D&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Finally, a &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;big sigh of relief!&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; Although, remaining 5% flickering have to be removed&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -195,54 +245,6 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch revert-6-revert-5-revert-4-revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-6-revert-5-rever/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-6-revert-5-rever/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch revert-5-revert-4-revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-5-revert-4-rever/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-5-revert-4-rever/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch revert-4-revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-4-revert-1-clean/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-4-revert-1-clean/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-1-cleanup-at-nih/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-1-cleanup-at-nih/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-29T00:00:00+00:00</dc:date>
