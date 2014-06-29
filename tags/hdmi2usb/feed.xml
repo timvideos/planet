@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>[GSoC Daily Log]: Sigh of relief!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 28th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Marked improvement! Around 90-95% flickering and screen-blanking gone! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;HURRAY! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;More  details and video coming when I wake up. Its 6:30 in the morning here! Working all night is really  exhausting, but one does get a nice, peaceful and cool environment! :D&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Finally, a &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;big sigh of relief!&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; Although, remaining 5% flickering have to be removed&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
@@ -251,21 +266,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/gsoc-daily-log-drivers-and-pll/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Some github issues resolved in &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;my repo&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Completed remaining daughterboard drawings.&lt;/li&gt;&lt;li&gt;Filled up &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=1547873779&quot; target=&quot;_blank&quot;&gt;mechanical spreadsheets&lt;/a&gt; and &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1j8ddwDzGRI8FZ8g7eI2wMwBOZ7AQ7Ft_pCV2-mSTSwI/edit&quot; target=&quot;_blank&quot;&gt;end-point usage&lt;/a&gt; spreadsheet.&lt;/li&gt;&lt;li&gt;Reassigned PIC18F85J94 pins to use the 4 hardware UARTs. Two of the UARTs also share the only 2 available hardware I2C ports, so I2C for daughterboard auto-detection have to be bitbanged.&lt;/li&gt;&lt;li&gt;Understood PIC18F85J94 PPS-Lite multiplexer. Learnt using the PIC18F85J94 pin-usage spreadsheet made by Tim and filled it up with new pin assignments.&lt;/li&gt;&lt;li&gt;Went through clocking modes for the above. It turns out that it's internal Fast RC clock (FRC) source has at least 0.25% accuracy required by USB 2.0. However, I've also given the choice of putting a crystal.&lt;/li&gt;&lt;li&gt;Rearranged file structure of my repo and started daughterboard schematics.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
