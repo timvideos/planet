@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: SERIAL-EXTENSION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
+      <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
+      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</link>
@@ -236,17 +251,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#11</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-06-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
