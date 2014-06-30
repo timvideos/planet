@@ -25,6 +25,17 @@
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</link>
       <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;More github repository issues resolved and a few more added to the pile :D&lt;/li&gt;&lt;li&gt;Discussed PIC18 USB pin assignments: We shifted around pins to get access to hardware I2Cs, SPIs and UARTs in best possible way. All thanks to Tim and his spreadsheets!&lt;/li&gt;&lt;li&gt;While I was making the RS422 daughterboard I noted that the differences between RS422 and RS485 are not that trivial - RS422 have unidirectional lines and support simplex or full-duplex mode. RS485 can have a bidirectional line and is designed for multitap networks. So it can have simplex or half-duplex modes.&amp;nbsp;&lt;a href=&quot;http://www.ad-net.com.tw/index.php?id=62&quot;&gt;http://www.ad-net.com.tw/index.php?id=62&lt;/a&gt;&lt;/li&gt;&lt;li&gt;A really nice guide that differentiates between RS422 and RS485:&amp;nbsp;&lt;a href=&quot;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&quot;&gt;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figured out that flow control in RS422 and RS485 is not needed which is well explained here:&amp;nbsp;&lt;a href=&quot;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&quot;&gt;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&lt;/a&gt;&amp;nbsp;I like the way handshaking is explained in 2nd sentence.&lt;/li&gt;&lt;li&gt;There's RTS flow control which is used only if supported by software. And it doesn't hurt to provide &lt;u&gt;support&lt;/u&gt; for RTS control in hardware by giving a jumper option.&lt;/li&gt;&lt;li&gt;Another way of flow control which is sometimes built into the converter hardware is called&amp;nbsp;&lt;i&gt;Automatic Send Data Control&lt;/i&gt;. In this method a controller within the converter enables the RS485 transmitters *as soon* as it sees data coming from UART TX and shuts off the transmitter so Hi-Z state after a *certain time* of inactivity. The terms &quot;as soon&quot; and &quot;certain time&quot; are critical here and are highly baud-rate dependent. This is baud-rate specific and hence application specific. This is also not a part of any of the EIA-4XX standard and it might be a marketing thing.&lt;/li&gt;&lt;li&gt;If the &lt;i&gt;Automatic Send Data Control&lt;/i&gt;&amp;nbsp;is needed and the software doesn't support&amp;nbsp;RTS control we can force it in the FPGA or the PIC18F by manipulating RTS. Here's when board auto-detection can be useful.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -238,17 +249,6 @@
 </description>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-30T00:00:00+00:00</dc:date>
