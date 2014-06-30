@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
       <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
@@ -123,6 +134,21 @@
       <dc:date>2014-06-29T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Issues keep coming up! (another this time)</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-issues-keep-coming-up-another-this/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ee40-75bb-a99c-10e403465584&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 29th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ee40-75bb-a99c-10e403465584&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ol style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Okay, now it seems my previous success was only short lived. Please read on.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I find that there are two types of flickering going on here. Previously I hadn’t thought them to be occurring due to different reasons. I assumed the flickering due to single issue. But, now it seems there are 2 major( and 1 or more minor) reasons of flickering:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ol style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;There is a auto-offset feature in AD9984A which updates the offset for each channel’s PGA (Programmable Gain Amplifier). We can set the update frequency for auto-update feature. Datasheet recommends (Table 6) a value of 0b10 for update every 192 clamps. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: italic; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;But&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, This value and every less ones (0b00, 0b01) give severe flickering. Setting this value to 0b11 (3 VSYNCs) removes almost all flickering (As in my previous post). This flickering is not FPGA or clock induced flickering. Instead, this is due to AD9984A and present in the RGB data, not in the clocks or syncs.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;The Big Relief in my previous post was actually short lived! :( During that post, I had tried the test with my another FPGA Board (Saturn) acting as a VGA source and generating alternating colored bars, for capturing. I have been using this board for all my tests until now. Using the FPGA as VGA source, I reduced the flickering considerably. But, now with that success, I decided to try with production environment, aka, using the PC’s output for capturing. To my horror, there was another kind of flickering, with my TV blanking off intermittently, suggesting this flickering was more of due to clock issues. This flickering, as opposed to previous one, is FPGA induced due to incorrect clock or syncs&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;So, now I have another issue, VGA capture from my FPGA (running same code as Jahanzeb’s Test Pattern Generator, but with my patch for dynamic color bars) is working very good (90-95% great) but capture from my PC makes my TV screen go blank intermittently.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I don’t have access to any oscilloscope as of now (and urgently needed to see what's going on inside the wires). I’m thinking of either buying a cheap, low-cost Rigol one, once the GSoC mid-term payment shows up in account or try to get access to one from college, although most probably they won’t let me take it to my home. Lets see how this pans out. Its also that even the cheapest DSOs are priced almost twice or thrice in India compared to US prices. Sigh! :(&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Today I also tried different AD9984A register settings (&lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI_Test_v06/tree/master/i2c&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;see i2c folder&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;), since I found the reason of first type of flickering to be Auto-Offset Update frequency. So, I thought maybe trying different registers &amp;nbsp;would also help. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried to reduce flickering from PC’s output capture. Every type of tests, namely Oversampling (at 4x), PLL filter, Vsync filter, Hsync filter, sync processor filter, and even raw HSYNC were unable to reduce this flickering (more appropriately screen blanking intermittently) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-issues-keep-coming-up-another-this/</guid>
+      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -152,6 +178,21 @@
 </description>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]: Sigh of relief!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/gsoc-daily-log-sigh-of-relief/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 28th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Marked improvement! Around 90-95% flickering and screen-blanking gone! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;HURRAY! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;More  details and video coming when I wake up. Its 6:30 in the morning here! Working all night is really  exhausting, but one does get a nice, peaceful and cool environment! :D&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Finally, a &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;big sigh of relief!&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; Although, remaining 5% flickering have to be removed&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/gsoc-daily-log-sigh-of-relief/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -216,41 +257,6 @@
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created repository rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-repository-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-repository-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-branch-master-at-rohit91-hdmi_tes/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-branch-master-at-rohit91-hdmi_tes/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-06-30T00:00:00+00:00</dc:date>
   </channel>
