@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</link>
+      <description>&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;RS422/RS485 daughterboard schematics done.&lt;/li&gt;&lt;li&gt;Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.&lt;/li&gt;&lt;li&gt;Reduced 6 ports to 5 ports in serial expansion board.&lt;/li&gt;&lt;li&gt;PIC18F connections almost sorted out with port J left vacant.&lt;/li&gt;&lt;li&gt;Implemented the bus design in motherboard schematic.&lt;/li&gt;&lt;/ul&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
+      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
@@ -253,21 +268,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Daily Log]: Oversampling &amp;amp; some (failed) adventure!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/gsoc-daily-log-oversampling-some-failed-adventure/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ddb2-92b0-6745-bc2122c1ffdb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 26th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ddb2-92b0-6745-bc2122c1ffdb&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Once again tried oversampling with a 4x clock of &amp;nbsp;pixel clock. Good results this time. Had previously tried with 10x clock. It doesn’t work but 4x clock works better.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Oversampling resulted in comparatively better capture.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Identified HSYNC (ie HSOUT) as the main culprit which results in flickering &amp;nbsp;and screen going blank.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span id=&quot;docs-internal-guid-4adff4a2-ddb4-54e8-91b7-28354e6eb760&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried integrating the current into HDMI2USB. Integrating although was successful, the output on screen as well as USB(mplayer) was garbled in VGA mode, but normal in other modes.&amp;nbsp; Sometimes v4l2 showed timeout. So, I guess, &amp;nbsp;I have to perfect the capturing first before trying it with HDMI2USB. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/gsoc-daily-log-oversampling-some-failed-adventure/</guid>
-      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-06-30T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
