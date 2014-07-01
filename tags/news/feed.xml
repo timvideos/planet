@@ -25,6 +25,21 @@
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Adding HSYNC and VSYNC signals to the RTP packet interface</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</link>
+      <description>Before, we were streaming raw RGB values that were either randomly generated or monotonically increasing sequence. But as the purpose is to stream HDMI traffic, it makes sense to capture some real HDMI traffic and stream it through the packetizer. The last blog was an effort in this direction. We also have added HSYNC and VSYNC signals to the interface. See Figure 6 of the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Specification&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Now we can't just stream RGB values through the packetizer interface. Now we need to conform to HDMI protocol, which means we either assert HSYNC and VSYNC according to the protocol or somehow capture the traffic that already has this information. This is where the last blog comes into the picture. I was successfully able to generate HDMI traffic and dump it into a &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8169c3c4191f934217619868d006bd51ff403828/hdmi/hdmi_capture.txt?at=master&quot;&gt;file&lt;/a&gt;. Packetizer then reads this file and sends the data downstream accordingly. The &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8d8f95a4326e932c72bd070386d4d3fd9f534eb5/sim_models/rtl/?at=master&quot;&gt;files&lt;/a&gt; are here.&lt;br /&gt;&lt;br /&gt;More later!!!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</guid>
+      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
       <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
@@ -272,21 +287,6 @@
 </description>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-25-06-2014/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 24/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-24-06-2014/</link>
-      <description>&lt;b&gt;[university] &lt;/b&gt;Today I've had one of last exams, so I was at university and passing exam and at home I spend some time learning to other exams.&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Created code frequency chart (with additions, deletions), I have small problem with formatting axis x (that's axis with Dates, but Highcharts are trying to display all Dates instead of groupings&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/gsoc-snippet-24-06-2014/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-01T00:00:00+00:00</dc:date>

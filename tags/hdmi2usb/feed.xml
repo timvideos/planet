@@ -47,6 +47,21 @@
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Adding HSYNC and VSYNC signals to the RTP packet interface</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</link>
+      <description>Before, we were streaming raw RGB values that were either randomly generated or monotonically increasing sequence. But as the purpose is to stream HDMI traffic, it makes sense to capture some real HDMI traffic and stream it through the packetizer. The last blog was an effort in this direction. We also have added HSYNC and VSYNC signals to the interface. See Figure 6 of the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Specification&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Now we can't just stream RGB values through the packetizer interface. Now we need to conform to HDMI protocol, which means we either assert HSYNC and VSYNC according to the protocol or somehow capture the traffic that already has this information. This is where the last blog comes into the picture. I was successfully able to generate HDMI traffic and dump it into a &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8169c3c4191f934217619868d006bd51ff403828/hdmi/hdmi_capture.txt?at=master&quot;&gt;file&lt;/a&gt;. Packetizer then reads this file and sends the data downstream accordingly. The &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8d8f95a4326e932c72bd070386d4d3fd9f534eb5/sim_models/rtl/?at=master&quot;&gt;files&lt;/a&gt; are here.&lt;br /&gt;&lt;br /&gt;More later!!!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</guid>
+      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
       <description>&lt;!-- push --&gt;
@@ -254,17 +269,6 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-01T00:00:00+00:00</dc:date>
