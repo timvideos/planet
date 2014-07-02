@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Fixing timing issue in capturing HDMI</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
+      <description>The HDMI traffic that is generated is not being properly captured. At the moment, this is being debugged. Simulation is an integral part of this project which is missing in its sister project. The goal is to send real traffic so that at the destination we know what we are receiving. Right now RGB values get out of synchronization. Synchronization is so important. I have the necessary blocks to send HDMI data as Ethernet frames but the goal is to send right HDMI values which are with respect HSYNC and VSYNC.&lt;br /&gt;&lt;br /&gt;Here is one snapshot which shows HCOUNT and VCOUNT not consistent with sys_clk.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://tinypic.com/view.php?pic=2wnte3d&amp;amp;s=8#.U7NwtB__6b5&quot;&gt;HDMI Frame 1st row of pixels&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;It will be debugged by tomorrow hopefully.&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Spec&lt;/a&gt; will be updated tomorrow with what constitutes the right RGB values i.e., which RGB values need to be sent and which ones to be ignored.&lt;br /&gt;&lt;br /&gt;The immediate plan is&lt;br /&gt;&lt;br /&gt;1) to send the synchronized RGB as RTP packets via Ethernet and test it if they are being received correctly at the hardware level.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Adding HSYNC and VSYNC signals to the RTP packet interface</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</link>
       <description>Before, we were streaming raw RGB values that were either randomly generated or monotonically increasing sequence. But as the purpose is to stream HDMI traffic, it makes sense to capture some real HDMI traffic and stream it through the packetizer. The last blog was an effort in this direction. We also have added HSYNC and VSYNC signals to the interface. See Figure 6 of the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Specification&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Now we can't just stream RGB values through the packetizer interface. Now we need to conform to HDMI protocol, which means we either assert HSYNC and VSYNC according to the protocol or somehow capture the traffic that already has this information. This is where the last blog comes into the picture. I was successfully able to generate HDMI traffic and dump it into a &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8169c3c4191f934217619868d006bd51ff403828/hdmi/hdmi_capture.txt?at=master&quot;&gt;file&lt;/a&gt;. Packetizer then reads this file and sends the data downstream accordingly. The &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8d8f95a4326e932c72bd070386d4d3fd9f534eb5/sim_models/rtl/?at=master&quot;&gt;files&lt;/a&gt; are here.&lt;br /&gt;&lt;br /&gt;More later!!!&lt;div class=&quot;author&quot;&gt;
@@ -287,21 +302,6 @@
       <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/22/rtp-packet-crafting-using-dpkt-1-80-python-librar/</guid>
       <dc:date>2014-05-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Tools for RTP packet creation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/20/tools-for-rtp-packet-creation/</link>
-      <description>The purpose of yesterday's and today's work was to find out tools which could create customized RTP packets. Unfortunately after trying almost dozen tools, no such tool exist. If you know any, please let me know by adding your comments. The original exercise that was in my mind was to create custom RTP packets (Where i can define payload type, sequence number etc), save them in a file and later play them back. This would later become testbench for RTP module that is going to be implemented in Verilog.&lt;br /&gt;&lt;br /&gt;From the point of view of writing my own RTP traffic generation tool using available libraries, things are little difficult as the RTP &lt;b&gt;payload format&lt;/b&gt; is different for every payload type. This makes no sense to me but this is how it is. For example RTP &lt;b&gt;payload format&lt;/b&gt; for Vorbis (audio file) &lt;a href=&quot;http://tools.ietf.org/rfc/rfc5215.txt&quot;&gt;http://tools.ietf.org/rfc/rfc5215.txt&lt;/a&gt; is different than from MPEG (video file) &lt;a href=&quot;http://tools.ietf.org/html/rfc2250&quot;&gt;http://tools.ietf.org/html/rfc2250&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Fortunately, there is RTP payload for uncompressed video,&lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;http://tools.ietf.org/html/rfc4175&lt;/a&gt;. I am going to write a small program in Python or C that will generate RTP packets with uncompressed video payload and save as file on a disk.&lt;br /&gt;&lt;br /&gt;The tools i tried on the 2nd day are&lt;br /&gt;&lt;br /&gt;1)&amp;nbsp;&lt;a href=&quot;http://www.candelatech.com/downloads.php&quot;&gt;LANForge&lt;/a&gt;&lt;br /&gt;2)&amp;nbsp;&lt;a href=&quot;http://traffic.comics.unina.it/software/ITG/download.php&quot;&gt;D-ITG Traffic Generator&lt;/a&gt;&lt;br /&gt;3) &lt;a href=&quot;http://www.perihel.at/sec/mz/&quot;&gt;Mausezahn&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Time to look at HDMI2USB hardware ...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 20 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/20/tools-for-rtp-packet-creation/</guid>
-      <dc:date>2014-05-20T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-02T00:00:00+00:00</dc:date>
   </channel>

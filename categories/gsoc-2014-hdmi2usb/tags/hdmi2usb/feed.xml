@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Fixing timing issue in capturing HDMI</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
+      <description>The HDMI traffic that is generated is not being properly captured. At the moment, this is being debugged. Simulation is an integral part of this project which is missing in its sister project. The goal is to send real traffic so that at the destination we know what we are receiving. Right now RGB values get out of synchronization. Synchronization is so important. I have the necessary blocks to send HDMI data as Ethernet frames but the goal is to send right HDMI values which are with respect HSYNC and VSYNC.&lt;br /&gt;&lt;br /&gt;Here is one snapshot which shows HCOUNT and VCOUNT not consistent with sys_clk.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://tinypic.com/view.php?pic=2wnte3d&amp;amp;s=8#.U7NwtB__6b5&quot;&gt;HDMI Frame 1st row of pixels&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;It will be debugged by tomorrow hopefully.&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Spec&lt;/a&gt; will be updated tomorrow with what constitutes the right RGB values i.e., which RGB values need to be sent and which ones to be ignored.&lt;br /&gt;&lt;br /&gt;The immediate plan is&lt;br /&gt;&lt;br /&gt;1) to send the synchronized RGB as RTP packets via Ethernet and test it if they are being received correctly at the hardware level.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -29,6 +44,17 @@
 </description>
       <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#21</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
       <dc:date>2014-07-02T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -238,32 +264,6 @@
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/gsoc-daily-log-cleanup/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;More github repository issues resolved and a few more added to the pile :D&lt;/li&gt;&lt;li&gt;Discussed PIC18 USB pin assignments: We shifted around pins to get access to hardware I2Cs, SPIs and UARTs in best possible way. All thanks to Tim and his spreadsheets!&lt;/li&gt;&lt;li&gt;While I was making the RS422 daughterboard I noted that the differences between RS422 and RS485 are not that trivial - RS422 have unidirectional lines and support simplex or full-duplex mode. RS485 can have a bidirectional line and is designed for multitap networks. So it can have simplex or half-duplex modes.&amp;nbsp;&lt;a href=&quot;http://www.ad-net.com.tw/index.php?id=62&quot;&gt;http://www.ad-net.com.tw/index.php?id=62&lt;/a&gt;&lt;/li&gt;&lt;li&gt;A really nice guide that differentiates between RS422 and RS485:&amp;nbsp;&lt;a href=&quot;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&quot;&gt;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figured out that flow control in RS422 and RS485 is not needed which is well explained here:&amp;nbsp;&lt;a href=&quot;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&quot;&gt;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&lt;/a&gt;&amp;nbsp;I like the way handshaking is explained in 2nd sentence.&lt;/li&gt;&lt;li&gt;There's RTS flow control which is used only if supported by software. And it doesn't hurt to provide &lt;u&gt;support&lt;/u&gt; for RTS control in hardware by giving a jumper option.&lt;/li&gt;&lt;li&gt;Another way of flow control which is sometimes built into the converter hardware is called&amp;nbsp;&lt;i&gt;Automatic Send Data Control&lt;/i&gt;. In this method a controller within the converter enables the RS485 transmitters *as soon* as it sees data coming from UART TX and shuts off the transmitter so Hi-Z state after a *certain time* of inactivity. The terms &quot;as soon&quot; and &quot;certain time&quot; are critical here and are highly baud-rate dependent. This is baud-rate specific and hence application specific. This is also not a part of any of the EIA-4XX standard and it might be a marketing thing.&lt;/li&gt;&lt;li&gt;If the &lt;i&gt;Automatic Send Data Control&lt;/i&gt;&amp;nbsp;is needed and the software doesn't support&amp;nbsp;RTS control we can force it in the FPGA or the PIC18F by manipulating RTS. Here's when board auto-detection can be useful.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-02T00:00:00+00:00</dc:date>
   </channel>
