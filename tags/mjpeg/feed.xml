@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily Snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/daily-snippet/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Completed mid term report&lt;/li&gt;&lt;li&gt;Studied about DDR2&lt;/li&gt;&lt;li&gt;Studied about double and triple buffering. Here is an excellent link to the same. http://www.anandtech.com/show/2794/2&lt;/li&gt;&lt;li&gt;Tomorrow I will try to change the image buffer SM such that encoding starts as soon as 8 lines are written into DDR. If this works frame rate should increase.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/daily-snippet/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Debug Data</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/debug-data/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Things are not as easy as they seem to look. After plenty of debugging and testing on hardware I was finally able to get the debug code working. I haven't implemented the part which outputs size of encoded data because it is a 3 byte value and I didn't have the foresight to write a very generalised code. Other debug data are 1 byte.&lt;br /&gt;&lt;br /&gt;So this is what I get from the UART. By the way I am using the test image and encoding quality of 50%.&lt;br /&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Input Frame Rate: 60 Hz. This is what it is suppose to be.&lt;/li&gt;&lt;li&gt;Output Frame Rate: ranges from 15 to 21. So lets take the average value to be 18.&lt;/li&gt;&lt;li&gt;Time taken to write frame into DDR2 Ram: 16-17 ms. This is what I approximated&lt;/li&gt;&lt;li&gt;Time taken for encoder to compress: 23 ms Again I was close&lt;/li&gt;&lt;li&gt;No. of frames dropped: 2&lt;/li&gt;&lt;/ul&gt;So in a second is 60 frames. And for every frame read, 2 frames are dropped which means only 20 frames are being processed.&lt;br /&gt;&lt;br /&gt;Writing + processing time = 40 ms =&amp;gt; 25 fps. So I *guess* we are losing 10 milliseconds in sending the data. (will check this).&lt;br /&gt;&lt;br /&gt;So I guess we know what our bottleneck is : When image is written into ddr2, it is not processed and when image is processed, image is not written into ddr2.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -272,17 +287,6 @@
 </description>
       <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/fsm-changed-fps-did-not/</guid>
-      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to gsoc at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-05-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-02T00:00:00+00:00</dc:date>
