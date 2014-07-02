@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
@@ -223,17 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-created-branch-master-at-rohit91-hdmi_tes/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>

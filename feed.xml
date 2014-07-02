@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 6: Time for PCBs!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/week-6-time-for-pcbs/</link>
@@ -247,17 +258,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/vp8-encoder-ported/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>

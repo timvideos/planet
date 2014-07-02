@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 6: Time for PCBs!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/week-6-time-for-pcbs/</link>
@@ -255,18 +266,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-repository-rohit91-hdmi_test_v06/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-branch-master-at-rohit91-hdmi_tes/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/rohit91-created-branch-master-at-rohit91-hdmi_tes/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
