@@ -1,0 +1,29 @@
+{% for project in page.issues_data %}
+  <div class="col-md-12 col-lg-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4><span class="hidden-xs">{{ project[1].name }}</span></h4>
+      </div>
+      <div class="panel-body">
+        {% for issue in project[1].issues %}
+          <div class="row news">
+            <div class="col-sm-10">
+              <h5>
+                <a href="{{ issue.url }}">{{ issue.title }}</a>
+              </h5>
+              <div class="post">
+                <p class="post-content"></p>
+              </div>
+              <small class="description">{{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}</small>
+            </div>
+            <div class="col-sm-2">
+              <a href="{{ issue.user_url }}" class="pull-right">
+                <img src="{{ issue.user_avatar }}" class="img-circle">
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
