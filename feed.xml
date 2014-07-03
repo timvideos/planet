@@ -8,7 +8,54 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>GSoC Update 7-1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Changed daughterboard pinouts in schematics support PMOD I2C interface.&lt;/li&gt;&lt;li&gt;Looked at the possibility of using bidirectional isolators in data isolation stage, but it was ruled out as they were found to be expensive.&lt;/li&gt;&lt;li&gt;Re-justified use of data isolation stage in serial expansion motherboard.&lt;/li&gt;&lt;li&gt;Created new kicad modules (footprints)&lt;/li&gt;&lt;li&gt;Completed footprint association of components on motherboard schematics using CvPcb&lt;/li&gt;&lt;li&gt;Verified footprints for components and checked 0603 footprint to be imperial type instead of metric type. Checked datasheets of all components to make sure correct footprint is assigned to them.&lt;/li&gt;&lt;li&gt;Made sure only low current (2mA) LEDs are used.&lt;/li&gt;&lt;li&gt;Fixed hole dia and added shield pins in VHDCI module&lt;/li&gt;&lt;li&gt;Just started with PcbNew, will be creating new module for the daughterboard slot and start laying them out nicely.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Fixing timing issue in capturing HDMI</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
@@ -203,7 +250,7 @@
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#17</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#8</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -213,52 +260,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-repository-pinoss-supybot-configur/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-repository-pinoss-supybot-configur/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-branch-master-at-pinoss-supybot-co/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-branch-master-at-pinoss-supybot-co/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>

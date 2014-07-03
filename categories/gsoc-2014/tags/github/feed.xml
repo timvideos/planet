@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/supybot-configuration</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
@@ -225,18 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch porting-overlay at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/aps-sids-created-branch-porting-overlay-at-aps-si/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>

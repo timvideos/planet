@@ -8,7 +8,33 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Changed daughterboard pinouts in schematics support PMOD I2C interface.&lt;/li&gt;&lt;li&gt;Looked at the possibility of using bidirectional isolators in data isolation stage, but it was ruled out as they were found to be expensive.&lt;/li&gt;&lt;li&gt;Re-justified use of data isolation stage in serial expansion motherboard.&lt;/li&gt;&lt;li&gt;Created new kicad modules (footprints)&lt;/li&gt;&lt;li&gt;Completed footprint association of components on motherboard schematics using CvPcb&lt;/li&gt;&lt;li&gt;Verified footprints for components and checked 0603 footprint to be imperial type instead of metric type. Checked datasheets of all components to make sure correct footprint is assigned to them.&lt;/li&gt;&lt;li&gt;Made sure only low current (2mA) LEDs are used.&lt;/li&gt;&lt;li&gt;Fixed hole dia and added shield pins in VHDCI module&lt;/li&gt;&lt;li&gt;Just started with PcbNew, will be creating new module for the daughterboard slot and start laying them out nicely.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Fixing timing issue in capturing HDMI</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
@@ -203,7 +229,7 @@
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#17</title>
+      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#8</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
@@ -239,32 +265,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</guid>
       <dc:date>2014-06-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Daily Log]: Issues keep coming up! (another this time)</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-issues-keep-coming-up-another-this/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ee40-75bb-a99c-10e403465584&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 29th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-ee40-75bb-a99c-10e403465584&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ol style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Okay, now it seems my previous success was only short lived. Please read on.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I find that there are two types of flickering going on here. Previously I hadn’t thought them to be occurring due to different reasons. I assumed the flickering due to single issue. But, now it seems there are 2 major( and 1 or more minor) reasons of flickering:&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;ol style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;There is a auto-offset feature in AD9984A which updates the offset for each channel’s PGA (Programmable Gain Amplifier). We can set the update frequency for auto-update feature. Datasheet recommends (Table 6) a value of 0b10 for update every 192 clamps. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: italic; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;But&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;, This value and every less ones (0b00, 0b01) give severe flickering. Setting this value to 0b11 (3 VSYNCs) removes almost all flickering (As in my previous post). This flickering is not FPGA or clock induced flickering. Instead, this is due to AD9984A and present in the RGB data, not in the clocks or syncs.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;The Big Relief in my previous post was actually short lived! :( During that post, I had tried the test with my another FPGA Board (Saturn) acting as a VGA source and generating alternating colored bars, for capturing. I have been using this board for all my tests until now. Using the FPGA as VGA source, I reduced the flickering considerably. But, now with that success, I decided to try with production environment, aka, using the PC’s output for capturing. To my horror, there was another kind of flickering, with my TV blanking off intermittently, suggesting this flickering was more of due to clock issues. This flickering, as opposed to previous one, is FPGA induced due to incorrect clock or syncs&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;So, now I have another issue, VGA capture from my FPGA (running same code as Jahanzeb’s Test Pattern Generator, but with my patch for dynamic color bars) is working very good (90-95% great) but capture from my PC makes my TV screen go blank intermittently.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: lower-alpha; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I don’t have access to any oscilloscope as of now (and urgently needed to see what's going on inside the wires). I’m thinking of either buying a cheap, low-cost Rigol one, once the GSoC mid-term payment shows up in account or try to get access to one from college, although most probably they won’t let me take it to my home. Lets see how this pans out. Its also that even the cheapest DSOs are priced almost twice or thrice in India compared to US prices. Sigh! :(&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Today I also tried different AD9984A register settings (&lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI_Test_v06/tree/master/i2c&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;see i2c folder&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;), since I found the reason of first type of flickering to be Auto-Offset Update frequency. So, I thought maybe trying different registers &amp;nbsp;would also help. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: decimal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried to reduce flickering from PC’s output capture. Every type of tests, namely Oversampling (at 4x), PLL filter, Vsync filter, Hsync filter, sync processor filter, and even raw HSYNC were unable to reduce this flickering (more appropriately screen blanking intermittently) &lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-issues-keep-coming-up-another-this/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
