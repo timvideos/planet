@@ -21,6 +21,21 @@
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>HDMI correctly captured and on its way to MAC</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/hdmi-correctly-captured-and-on-its-way-to-mac/</link>
+      <description>The synchronization issue is solved. The proper RGB values are being captured. RTP packetizer is already complete and today we can generate correct stimulus for the packetizer. The correct stimulus comes from &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/7a0324c7d7d0713d88de17331cfc2cf6cf19564e/rtl/?at=master&quot;&gt;VTC_Demo&lt;/a&gt;. Take a look &amp;nbsp;at the &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/7a0324c7d7d0713d88de17331cfc2cf6cf19564e/vtc_demo_rtl.log?at=master&quot;&gt;log file&lt;/a&gt;&amp;nbsp;and the waveform&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://i58.tinypic.com/i5b407.png&quot;&gt;http://i58.tinypic.com/i5b407.png&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now we have all the data to send to the MAC to send it across. That will the next step which should be going significantly ahead by the end of the week.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/hdmi-correctly-captured-and-on-its-way-to-mac/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 7-1</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</link>
       <description>&lt;h2&gt;Snippets&lt;/h2&gt;
@@ -247,17 +262,6 @@
 </description>
       <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#8</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-03T00:00:00+00:00</dc:date>
