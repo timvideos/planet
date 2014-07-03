@@ -35,6 +35,21 @@
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 02/07/2014 and 03/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</link>
+      <description>Last few days I've had some problems with Internet connection, because I am currently in Croatia for 2 weeks. But finally I bought safe and quite fast Internet here and started to work again. Because I had poor Internet connection I wasn't able even to commit and connect to SSH (because of timeout error), but now it seems to work good.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've started working on issues, did some research and read about it, and created new page on planet with issues to start working on it (currently it has contains only list with issues, but soon I will add more features to that).&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've created new configuration for supybot to notificate new planet news on IRC. I think all is ready to be deployed on our server, but I need to talk with Tim how to add that supybot to server (run manually or with crontab, or as a deamon, to make sure that will always work).&lt;br /&gt;&lt;br /&gt;Next days I will spend working on issues, adding new functionalities, etc.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</link>
       <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Changed daughterboard pinouts in schematics support PMOD I2C interface.&lt;/li&gt;&lt;li&gt;Looked at the possibility of using bidirectional isolators in data isolation stage, but it was ruled out as they were found to be expensive.&lt;/li&gt;&lt;li&gt;Re-justified use of data isolation stage in serial expansion motherboard.&lt;/li&gt;&lt;li&gt;Created new kicad modules (footprints)&lt;/li&gt;&lt;li&gt;Completed footprint association of components on motherboard schematics using CvPcb&lt;/li&gt;&lt;li&gt;Verified footprints for components and checked 0603 footprint to be imperial type instead of metric type. Checked datasheets of all components to make sure correct footprint is assigned to them.&lt;/li&gt;&lt;li&gt;Made sure only low current (2mA) LEDs are used.&lt;/li&gt;&lt;li&gt;Fixed hole dia and added shield pins in VHDCI module&lt;/li&gt;&lt;li&gt;Just started with PcbNew, will be creating new module for the daughterboard slot and start laying them out nicely.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -277,16 +292,6 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Midterm Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
-      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-03T00:00:00+00:00</dc:date>

@@ -10,6 +10,28 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
+      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to docker at maxstr/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
       <description>&lt;!-- push --&gt;
@@ -207,28 +229,6 @@
 </description>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/sids</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-sids/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-sids/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-03T00:00:00+00:00</dc:date>
