@@ -51,6 +51,21 @@
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Reading</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 2nd July:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the about clock-crossing. Some implementation assume data arriving a slower rate compared to both clocks. While some other use FIFOs.&amp;nbsp; &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the Xilinx’s app-note XAPP224 - Data Recovery. Seems this one can be used. Only problem is that it specifies “ At least one data transition is required in the time that the circuit takes to drift one-quarter clock period. Example for a local oscillator 401 MHz and data arriving a 400Mbps, the circuit requires at least one negative transition every 100 clock cycles to function correctly.” Also it says “Care should be taken if the received data is a raw bitstream, because an adequate number of transitions may not exist.”&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing a new improved test code&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</guid>
+      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Fixing timing issue in capturing HDMI</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
       <description>The HDMI traffic that is generated is not being properly captured. At the moment, this is being debugged. Simulation is an integral part of this project which is missing in its sister project. The goal is to send real traffic so that at the destination we know what we are receiving. Right now RGB values get out of synchronization. Synchronization is so important. I have the necessary blocks to send HDMI data as Ethernet frames but the goal is to send right HDMI values which are with respect HSYNC and VSYNC.&lt;br /&gt;&lt;br /&gt;Here is one snapshot which shows HCOUNT and VCOUNT not consistent with sys_clk.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://tinypic.com/view.php?pic=2wnte3d&amp;amp;s=8#.U7NwtB__6b5&quot;&gt;HDMI Frame 1st row of pixels&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;It will be debugged by tomorrow hopefully.&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Spec&lt;/a&gt; will be updated tomorrow with what constitutes the right RGB values i.e., which RGB values need to be sent and which ones to be ignored.&lt;br /&gt;&lt;br /&gt;The immediate plan is&lt;br /&gt;&lt;br /&gt;1) to send the synchronized RGB as RTP packets via Ethernet and test it if they are being received correctly at the hardware level.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -252,17 +267,6 @@
 </description>
       <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar closed issue ayushsagar/HDMI2USB-vmodserial#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-03T00:00:00+00:00</dc:date>
