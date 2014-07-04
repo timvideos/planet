@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>HDMI correctly captured and on its way to MAC</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/hdmi-correctly-captured-and-on-its-way-to-mac/</link>
@@ -303,6 +303,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/23/defining-fifo-upstream-interface-using-myhdl-pyth/</guid>
       <dc:date>2014-05-23T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

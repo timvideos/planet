@@ -8,7 +8,33 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/daily-snippet/</link>
+      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;After starting with motherboard PCB design, the very next thing that needed to be done was designing the daughterboard slot footprint, which needed me to decide a depth of the daughterboard.&lt;/li&gt;&lt;li&gt;I did not have a basis for deciding the depth, so I thought it is necessary to complete the daughterboard schematics and I completed the remaining daughterboard schematics yesterday and fixed a number of issues with existing schematics - &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial/commits/master&quot; target=&quot;_blank&quot;&gt;36 commits!&lt;/a&gt;&lt;/li&gt;&lt;li&gt;MIDI daughterboard schematics are based on this:&amp;nbsp;&lt;a href=&quot;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&quot;&gt;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I have completed footprint assignments (CvPcb) and laid out components for RS232C daughterboard&amp;nbsp;(PcbNew)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;I plan to start PCBs for other daughterboards to spread out components and see how much space they would require and decide a depth.&lt;/li&gt;&lt;li&gt;After that I'll get back to motherboard schematics.&lt;/li&gt;&lt;li&gt;Not sure if the LED daughterboard has a use, since the serial lines are no bidirectional we can't connect LEDs directly. If it's done through a microcontroller we can probably use the GPIO daughterboard instead.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/daily-snippet/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</link>
@@ -228,28 +254,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
-      <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

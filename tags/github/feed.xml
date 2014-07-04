@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -220,17 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
