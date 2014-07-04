@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 7 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</link>
+      <description>&lt;p&gt;I’ve been travelling for pat 3 days for some university related work. But, I have been working on my project as well. I somehow got an internet connection for posting this update.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 7-1</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</link>
       <description>&lt;h2&gt;Snippets&lt;/h2&gt;
@@ -248,16 +258,6 @@
       <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/18/running-a-flumotion-docker-image/</guid>
       <dc:date>2014-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 4 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/week-4-progress/</link>
-      <description>&lt;p&gt;I started with some missed changes and continued with porting of Theora encoder, Ogg muxer and httpstreamer consumer. With these components, I was able to “watch” a test video stream.&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/week-4-progress/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-04T00:00:00+00:00</dc:date>
   </channel>
