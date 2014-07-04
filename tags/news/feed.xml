@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>UDP  working on Atlys</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/udp-working-on-atlys/</link>
+      <description>Today was working on hardware (Atlys board) trying to get FPGA to send UDP packets to the PC.&lt;br /&gt;The first attempt failed as the PC didn't have the 1G Ethernet card. The 2nd attempt took a while as the cable drivers were not installed. Its a big pain to get drivers installed on linux (Ubuntu 13.04 in particular). Finally i got that done and now UDP packets are being captured by Wireshark on the PC. Here is the snapshot.&lt;br /&gt;&lt;br /&gt;FPGA IP address = 192.168.1.2 (It is acting as source of UDP)&lt;br /&gt;PC IP address &amp;nbsp; &amp;nbsp; &amp;nbsp;= 192.168.1.1 (It is acting as destination of UDP)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/-C23R4JSa0o0/U7ZRi-8gJVI/AAAAAAAAAJk/nB6G6yf-37k/s1600/wireshark_capture_udp.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/-C23R4JSa0o0/U7ZRi-8gJVI/AAAAAAAAAJk/nB6G6yf-37k/s1600/wireshark_capture_udp.jpg&quot; height=&quot;271&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Time to send RTP packets piggybacked on UDP!!&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/udp-working-on-atlys/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/daily-snippet/</link>
       <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;After starting with motherboard PCB design, the very next thing that needed to be done was designing the daughterboard slot footprint, which needed me to decide a depth of the daughterboard.&lt;/li&gt;&lt;li&gt;I did not have a basis for deciding the depth, so I thought it is necessary to complete the daughterboard schematics and I completed the remaining daughterboard schematics yesterday and fixed a number of issues with existing schematics - &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial/commits/master&quot; target=&quot;_blank&quot;&gt;36 commits!&lt;/a&gt;&lt;/li&gt;&lt;li&gt;MIDI daughterboard schematics are based on this:&amp;nbsp;&lt;a href=&quot;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&quot;&gt;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I have completed footprint assignments (CvPcb) and laid out components for RS232C daughterboard&amp;nbsp;(PcbNew)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;I plan to start PCBs for other daughterboards to spread out components and see how much space they would require and decide a depth.&lt;/li&gt;&lt;li&gt;After that I'll get back to motherboard schematics.&lt;/li&gt;&lt;li&gt;Not sure if the LED daughterboard has a use, since the serial lines are no bidirectional we can't connect LEDs directly. If it's done through a microcontroller we can probably use the GPIO daughterboard instead.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
@@ -282,21 +297,6 @@
 </description>
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/gsoc-daily-log-cleanup/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;More github repository issues resolved and a few more added to the pile :D&lt;/li&gt;&lt;li&gt;Discussed PIC18 USB pin assignments: We shifted around pins to get access to hardware I2Cs, SPIs and UARTs in best possible way. All thanks to Tim and his spreadsheets!&lt;/li&gt;&lt;li&gt;While I was making the RS422 daughterboard I noted that the differences between RS422 and RS485 are not that trivial - RS422 have unidirectional lines and support simplex or full-duplex mode. RS485 can have a bidirectional line and is designed for multitap networks. So it can have simplex or half-duplex modes.&amp;nbsp;&lt;a href=&quot;http://www.ad-net.com.tw/index.php?id=62&quot;&gt;http://www.ad-net.com.tw/index.php?id=62&lt;/a&gt;&lt;/li&gt;&lt;li&gt;A really nice guide that differentiates between RS422 and RS485:&amp;nbsp;&lt;a href=&quot;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&quot;&gt;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figured out that flow control in RS422 and RS485 is not needed which is well explained here:&amp;nbsp;&lt;a href=&quot;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&quot;&gt;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&lt;/a&gt;&amp;nbsp;I like the way handshaking is explained in 2nd sentence.&lt;/li&gt;&lt;li&gt;There's RTS flow control which is used only if supported by software. And it doesn't hurt to provide &lt;u&gt;support&lt;/u&gt; for RTS control in hardware by giving a jumper option.&lt;/li&gt;&lt;li&gt;Another way of flow control which is sometimes built into the converter hardware is called&amp;nbsp;&lt;i&gt;Automatic Send Data Control&lt;/i&gt;. In this method a controller within the converter enables the RS485 transmitters *as soon* as it sees data coming from UART TX and shuts off the transmitter so Hi-Z state after a *certain time* of inactivity. The terms &quot;as soon&quot; and &quot;certain time&quot; are critical here and are highly baud-rate dependent. This is baud-rate specific and hence application specific. This is also not a part of any of the EIA-4XX standard and it might be a marketing thing.&lt;/li&gt;&lt;li&gt;If the &lt;i&gt;Automatic Send Data Control&lt;/i&gt;&amp;nbsp;is needed and the software doesn't support&amp;nbsp;RTS control we can force it in the FPGA or the PIC18F by manipulating RTS. Here's when board auto-detection can be useful.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-04T00:00:00+00:00</dc:date>
