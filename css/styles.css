@@ -88,7 +88,7 @@ img {
   background-color: #024c7d;
 }
 
-.news {
+.news, .issues {
   padding-bottom: 10px;
   border-bottom: 1px dashed #024c7d;
 }
@@ -100,6 +100,11 @@ img {
   margin-top: 10px;
   height:50px;
   width:50px;
+}
+
+.post-content,
+.issue-content {
+  display: none;
 }
 
 #sidebar, #sidebar a {

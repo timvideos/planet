@@ -25,6 +25,21 @@
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>RTP Integration</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/rtp-integration/</link>
+      <description>Now that UDP is working on Atlys FGPA and i can send UDP packets from Atlys FGPA to PC, i am working on adding RTP on top of UDP. Since i already have the RTP packetizer that interfaces with MAC, the only thing that is left is replacing the input &lt;b&gt;simulation&lt;/b&gt; model to RTP packetizer (that provides it with pixels) with actual &lt;b&gt;synthesizable&lt;/b&gt; model. I have HDMI pixel data dumped in a file, which is being read by RTP packetizer to create RTP packets. But now, i need something like DDR2 or RAM that holds this data. This stackoverflow &lt;a href=&quot;http://stackoverflow.com/questions/4321067/is-readmem-synthesizable-in-verilog&quot;&gt;post&lt;/a&gt;&amp;nbsp;may be good enough as well. Let me try that and update the blog.&lt;br /&gt;&lt;br /&gt;Its 4th of July holiday in US. Time to take a break as my family is coming to visit me for the day. I will keep it going on the weekend.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/rtp-integration/</guid>
+      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/daily-snippet/</link>
       <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;After starting with motherboard PCB design, the very next thing that needed to be done was designing the daughterboard slot footprint, which needed me to decide a depth of the daughterboard.&lt;/li&gt;&lt;li&gt;I did not have a basis for deciding the depth, so I thought it is necessary to complete the daughterboard schematics and I completed the remaining daughterboard schematics yesterday and fixed a number of issues with existing schematics - &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial/commits/master&quot; target=&quot;_blank&quot;&gt;36 commits!&lt;/a&gt;&lt;/li&gt;&lt;li&gt;MIDI daughterboard schematics are based on this:&amp;nbsp;&lt;a href=&quot;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&quot;&gt;http://www.personal.kent.edu/~sbirch/Music_Production/MP-II/MIDI/midi_physical_layer.htm&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I have completed footprint assignments (CvPcb) and laid out components for RS232C daughterboard&amp;nbsp;(PcbNew)&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-1ctpgcUBTQs/U7YXzku87rI/AAAAAAAADM4/DEThRTikmrY/s1600/pcbnew_rs232c.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;I plan to start PCBs for other daughterboards to spread out components and see how much space they would require and decide a depth.&lt;/li&gt;&lt;li&gt;After that I'll get back to motherboard schematics.&lt;/li&gt;&lt;li&gt;Not sure if the LED daughterboard has a use, since the serial lines are no bidirectional we can't connect LEDs directly. If it's done through a microcontroller we can probably use the GPIO daughterboard instead.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
@@ -260,21 +275,6 @@
 </description>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/ayushsagar-closed-issue-ayushsagar-hdmi2usb-vmods/</guid>
-      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Adding HSYNC and VSYNC signals to the RTP packet interface</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</link>
-      <description>Before, we were streaming raw RGB values that were either randomly generated or monotonically increasing sequence. But as the purpose is to stream HDMI traffic, it makes sense to capture some real HDMI traffic and stream it through the packetizer. The last blog was an effort in this direction. We also have added HSYNC and VSYNC signals to the interface. See Figure 6 of the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Specification&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Now we can't just stream RGB values through the packetizer interface. Now we need to conform to HDMI protocol, which means we either assert HSYNC and VSYNC according to the protocol or somehow capture the traffic that already has this information. This is where the last blog comes into the picture. I was successfully able to generate HDMI traffic and dump it into a &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8169c3c4191f934217619868d006bd51ff403828/hdmi/hdmi_capture.txt?at=master&quot;&gt;file&lt;/a&gt;. Packetizer then reads this file and sends the data downstream accordingly. The &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8d8f95a4326e932c72bd070386d4d3fd9f534eb5/sim_models/rtl/?at=master&quot;&gt;files&lt;/a&gt; are here.&lt;br /&gt;&lt;br /&gt;More later!!!&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-04T00:00:00+00:00</dc:date>
