@@ -12,9 +12,19 @@
                 <a href="{{ issue.url }}">{{ issue.title }}</a>
               </h5>
               <div class="post">
-                <p class="post-content"></p>
+                <p class="post-content">
+                  {% if issue.labels %}
+                    <p class="tags">
+                      {% for label in issue.labels %}
+                        <span class="label label-tag" style="background-color: #{{ label.color }};">
+                          {{ label.name }}
+                        </span>
+                      {% endfor %}
+                    </p>
+                  {% endif %}
+                </p>
               </div>
-              <small class="description">{{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}</small>
+              <small class="description">#{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}</small>
             </div>
             <div class="col-sm-2">
               <a href="{{ issue.user_url }}" class="pull-right">
