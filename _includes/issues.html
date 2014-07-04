@@ -6,23 +6,26 @@
       </div>
       <div class="panel-body">
         {% for issue in project[1].issues %}
-          <div class="row news">
+          <div class="row issues">
             <div class="col-sm-10">
               <h5>
                 <a href="{{ issue.url }}">{{ issue.title }}</a>
               </h5>
-              <div class="post">
-                <p class="post-content">
-                  {% if issue.labels %}
-                    <p class="tags">
-                      {% for label in issue.labels %}
-                        <span class="label label-tag" style="background-color: #{{ label.color }};">
-                          {{ label.name }}
-                        </span>
-                      {% endfor %}
-                    </p>
-                  {% endif %}
+              <div class="issue">
+                {% if issue.labels %}
+                  <p class="tags">
+                    {% for label in issue.labels %}
+                      <span class="label label-tag" style="background-color: #{{ label.color }};">
+                        {{ label.name }}
+                      </span>
+                    {% endfor %}
+                  </p>
+                {% endif %}
+                <p class="issue-content">
+                  {{ issue.body }}
                 </p>
+                <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
+                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">#{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}</small>
             </div>
