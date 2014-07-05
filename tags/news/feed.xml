@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</link>
+      <description>&lt;ul type=&quot;disc&quot;&gt;&lt;li&gt;Created footprints, completed footprint associations and started a PCB with components laid out for RS232C, RS422, DMX512, GPIO8, IR and MIDI daughterboards.&lt;/li&gt;&lt;li&gt;Rough estimate of maximum daughterboard PCB length:&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;margin: 0in 0in 0.0001pt 0.75in;&quot;&gt;&lt;span style=&quot;font-family: 'Times New Roman', serif; font-size: 13.5pt;&quot;&gt;IR daughterboard: 70 mm&lt;br /&gt;DMX512&amp;nbsp;daughterboard: 75 mm&lt;br /&gt;RS422&amp;nbsp;daughterboard: 90 mm&lt;br /&gt;GPIO8&amp;nbsp;daughterboard: 65 mm&lt;br /&gt;RS232&amp;nbsp;daughterboard: 60 mm&lt;br /&gt;MIDI&amp;nbsp;daughterboard: 70 mm&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoListParagraph&quot; style=&quot;margin-bottom: 0.0001pt; text-indent: -0.25in;&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;90 mm seems minimum daughterboard length to have.&lt;/li&gt;&lt;li&gt;Will start arranging components on motherboard PCB, with minimum keepout length of 90 mm for daughterboard slots and will see if there is space for setting daughterboard length greater than 90 mm.&lt;/li&gt;&lt;/ul&gt;&lt;!--[if !supportLists]--&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 7 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</link>
@@ -284,21 +299,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 29/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</link>
-      <description>&lt;b&gt;[configuration]&lt;/b&gt; finally I figured out how Supybot should be configured and I have basic configuration (&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;). Supybot checks for changes in RSS for every 15 minutes and sends a message to irc channel. I've used and tested it on my test chanel on freenode, tomorrow I will add that bot to our server to run on actually used channel.&lt;br /&gt;&lt;br /&gt;Finally I've passed all my exams and now I will have more time for work. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>

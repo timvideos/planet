@@ -8,7 +8,33 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</link>
+      <description>&lt;ul type=&quot;disc&quot;&gt;&lt;li&gt;Created footprints, completed footprint associations and started a PCB with components laid out for RS232C, RS422, DMX512, GPIO8, IR and MIDI daughterboards.&lt;/li&gt;&lt;li&gt;Rough estimate of maximum daughterboard PCB length:&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;margin: 0in 0in 0.0001pt 0.75in;&quot;&gt;&lt;span style=&quot;font-family: 'Times New Roman', serif; font-size: 13.5pt;&quot;&gt;IR daughterboard: 70 mm&lt;br /&gt;DMX512&amp;nbsp;daughterboard: 75 mm&lt;br /&gt;RS422&amp;nbsp;daughterboard: 90 mm&lt;br /&gt;GPIO8&amp;nbsp;daughterboard: 65 mm&lt;br /&gt;RS232&amp;nbsp;daughterboard: 60 mm&lt;br /&gt;MIDI&amp;nbsp;daughterboard: 70 mm&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoListParagraph&quot; style=&quot;margin-bottom: 0.0001pt; text-indent: -0.25in;&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;90 mm seems minimum daughterboard length to have.&lt;/li&gt;&lt;li&gt;Will start arranging components on motherboard PCB, with minimum keepout length of 90 mm for daughterboard slots and will see if there is space for setting daughterboard length greater than 90 mm.&lt;/li&gt;&lt;/ul&gt;&lt;!--[if !supportLists]--&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 7 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</link>
@@ -241,32 +267,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Reading</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 2nd July:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the about clock-crossing. Some implementation assume data arriving a slower rate compared to both clocks. While some other use FIFOs.&amp;nbsp; &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the Xilinx’s app-note XAPP224 - Data Recovery. Seems this one can be used. Only problem is that it specifies “ At least one data transition is required in the time that the circuit takes to drift one-quarter clock period. Example for a local oscillator 401 MHz and data arriving a 400Mbps, the circuit requires at least one negative transition every 100 clock cycles to function correctly.” Also it says “Care should be taken if the received data is a raw bitstream, because an adequate number of transitions may not exist.”&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing a new improved test code&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</guid>
-      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>

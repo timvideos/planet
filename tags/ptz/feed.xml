@@ -8,7 +8,33 @@
     <title>Tim Videos Planet - Developers news - Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</link>
+      <description>&lt;ul type=&quot;disc&quot;&gt;&lt;li&gt;Created footprints, completed footprint associations and started a PCB with components laid out for RS232C, RS422, DMX512, GPIO8, IR and MIDI daughterboards.&lt;/li&gt;&lt;li&gt;Rough estimate of maximum daughterboard PCB length:&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;margin: 0in 0in 0.0001pt 0.75in;&quot;&gt;&lt;span style=&quot;font-family: 'Times New Roman', serif; font-size: 13.5pt;&quot;&gt;IR daughterboard: 70 mm&lt;br /&gt;DMX512&amp;nbsp;daughterboard: 75 mm&lt;br /&gt;RS422&amp;nbsp;daughterboard: 90 mm&lt;br /&gt;GPIO8&amp;nbsp;daughterboard: 65 mm&lt;br /&gt;RS232&amp;nbsp;daughterboard: 60 mm&lt;br /&gt;MIDI&amp;nbsp;daughterboard: 70 mm&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoListParagraph&quot; style=&quot;margin-bottom: 0.0001pt; text-indent: -0.25in;&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;90 mm seems minimum daughterboard length to have.&lt;/li&gt;&lt;li&gt;Will start arranging components on motherboard PCB, with minimum keepout length of 90 mm for daughterboard slots and will see if there is space for setting daughterboard length greater than 90 mm.&lt;/li&gt;&lt;/ul&gt;&lt;!--[if !supportLists]--&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/daily-snippet/</link>
@@ -231,29 +257,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar forked idleberg/Creative-Commons-4.0-Markdown to ayushsagar/Creative-Commons-4.0-Markdown</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-forked-idleberg-creative-commons-4-0-m/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-forked-idleberg-creative-commons-4-0-m/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar commented on issue ayushsagar/HDMI2USB-vmodserial#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/27/ayushsagar-commented-on-issue-ayushsagar-hdmi2usb/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
