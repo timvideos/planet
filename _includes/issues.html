@@ -46,7 +46,12 @@
                 <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
-              <small class="description">#{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}</small>
+              <small class="description">
+              #{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}
+              {% if issue.assignee_login %}
+               • Assignee: <a href="{{ issue.assignee_url }}">{{ issue.assignee_login }}</a>
+              {% endif %}
+              </small>
             </div>
             <div class="col-sm-2">
               <a href="{{ issue.user_url }}" class="pull-right">

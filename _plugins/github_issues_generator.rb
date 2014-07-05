@@ -71,7 +71,13 @@ module Jekyll
 
       result['user_avatar'] = issue[:user][:avatar_url]
       result['user_login']  = issue[:user][:login]
-      result['user_url']    = issue[:user][:url]
+      result['user_url']    = issue[:user][:html_url]
+      
+      unless issue[:assignee].nil?
+        result['assignee_avatar'] = issue[:assignee][:avatar_url]
+        result['assignee_login']  = issue[:assignee][:login]
+        result['assignee_url']    = issue[:assignee][:html_url]
+      end
 
       labels = issue[:labels].map do |label|
         {
@@ -88,7 +94,6 @@ module Jekyll
       result['date']      = issue[:created_at]
       result['closed_at'] = issue[:closed_at]
       result['url']       = issue[:html_url]
-      result['assignee']  = issue[:assignee]
       result['body']      = issue[:body]
 
       result
