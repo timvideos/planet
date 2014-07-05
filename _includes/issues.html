@@ -1,8 +1,27 @@
+<div class="col-md-12">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4>Issues filter</h4>
+    </div>
+    <div class="panel-body">
+      {% if page.issues_labels %}
+        Labels: <p class="tags">
+          {% for label in page.issues_labels %}
+            <span class="label label-tag label-selector" style="background-color: #{{ label.color }};">
+              {{ label.name }}
+            </span>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% for project in page.issues_data %}
   <div class="col-md-12 col-lg-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4><span class="hidden-xs">{{ project[1].name }}</span></h4>
+        <h4>{{ project[1].name }}</h4>
       </div>
       <div class="panel-body">
         {% for issue in project[1].issues %}
@@ -21,9 +40,9 @@
                     {% endfor %}
                   </p>
                 {% endif %}
-                <p class="issue-content">
-                  {{ issue.body }}
-                </p>
+                <div class="issue-content">
+                  {{ issue.body | markdownify }}
+                </div>
                 <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>

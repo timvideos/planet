@@ -33,6 +33,7 @@ module Jekyll
 
       projects = page.data['issues']
 
+      issues_labels = []
       projects_data = {}
 
       projects.each do |project|
@@ -42,8 +43,11 @@ module Jekyll
         projects_data[project] = {}
         projects_data[project]['name'] = project
         projects_data[project]['issues'] = issues 
+      
+        issues_labels += issues.map { |issue| issue['labels'] } 
       end
 
+      page.data['issues_labels'] = issues_labels.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
       page.data['issues_data'] = projects_data
     end
 
@@ -69,12 +73,14 @@ module Jekyll
       result['user_login']  = issue[:user][:login]
       result['user_url']    = issue[:user][:url]
 
-      result['labels'] = issue[:labels].map do |label|
+      labels = issue[:labels].map do |label|
         {
           'name'  => label[:name],
-          'color' => label[:color]
+          'color' => label[:color].downcase
         }
       end
+
+      result['labels']    = labels
 
       result['number']    = issue[:number]
       result['title']     = issue[:title]
