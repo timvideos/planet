@@ -168,6 +168,10 @@ img {
   margin-right: 10px;
 }
 
+.labels {
+  text-align: justify; 
+}
+
 .label-default {
   background-color:#dddddd;
 }
