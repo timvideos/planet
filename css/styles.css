@@ -287,13 +287,15 @@ padding-bottom: 0;
 
 /* typeahead.js CSS */
 
+.twitter-typeahead {
+  display: block !important;
+}
+
 .tt-query,
 .tt-hint {
     width: 396px;
     height: 30px;
     padding: 8px 12px;
-    font-size: 24px;
-    line-height: 30px;
     border: 2px solid #ccc;
     border-radius: 8px;
     outline: none;
@@ -324,7 +326,7 @@ padding-bottom: 0;
     line-height: 24px;
 }
 
-.tt-suggestion.tt-is-under-cursor { /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+.tt-suggestion.tt-is-under-cursor, .tt-suggestion.tt-cursor {
     color: #fff;
     background-color: #0097cf;
 
