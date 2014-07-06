@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 05/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added markdown generation of issues in Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added first issues filter mockup (list all labels)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue assignee information&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/daily-snippet/</link>
       <description>&lt;ul type=&quot;disc&quot;&gt;&lt;li&gt;Created footprints, completed footprint associations and started a PCB with components laid out for RS232C, RS422, DMX512, GPIO8, IR and MIDI daughterboards.&lt;/li&gt;&lt;li&gt;Rough estimate of maximum daughterboard PCB length:&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;MsoNormal&quot; style=&quot;margin: 0in 0in 0.0001pt 0.75in;&quot;&gt;&lt;span style=&quot;font-family: 'Times New Roman', serif; font-size: 13.5pt;&quot;&gt;IR daughterboard: 70 mm&lt;br /&gt;DMX512&amp;nbsp;daughterboard: 75 mm&lt;br /&gt;RS422&amp;nbsp;daughterboard: 90 mm&lt;br /&gt;GPIO8&amp;nbsp;daughterboard: 65 mm&lt;br /&gt;RS232&amp;nbsp;daughterboard: 60 mm&lt;br /&gt;MIDI&amp;nbsp;daughterboard: 70 mm&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;MsoListParagraph&quot; style=&quot;margin-bottom: 0.0001pt; text-indent: -0.25in;&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;90 mm seems minimum daughterboard length to have.&lt;/li&gt;&lt;li&gt;Will start arranging components on motherboard PCB, with minimum keepout length of 90 mm for daughterboard slots and will see if there is space for setting daughterboard length greater than 90 mm.&lt;/li&gt;&lt;/ul&gt;&lt;!--[if !supportLists]--&gt;&lt;div class=&quot;author&quot;&gt;
@@ -283,21 +298,6 @@
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
-      <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-05T00:00:00+00:00</dc:date>
   </channel>

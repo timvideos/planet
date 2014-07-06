@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/05/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Some random low-priority things Part-2</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/gsoc-daily-log-some-random-low-priority-things-pa/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-03e8-abd2-ac54-dee30b660a64&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 4th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-03e8-abd2-ac54-dee30b660a64&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;One-off I2C initialization of AD9984A using Atlys in working excellent. Now, I can significantly reduce my test-setup of BeagleBoneBlack and associated wires. This part is considered complete. I can integrate this into my VGA Capture test code.Will push all codes tomorrow.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;UART-I2C bridge is is unreliable. But, it is not on my priority as of now. But, I can dynamically change value from my PC using python. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Now, focus is back to VGA Capture and also Requirements doc for PCB_v02&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -265,18 +276,6 @@
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/gsoc-daily-log-drivers-and-pll/</guid>
       <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked shenki/exar-uart-driver to rohit91/exar-uart-driver</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/rohit91-forked-shenki-exar-uart-driver-to-rohit91/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-05T00:00:00+00:00</dc:date>
   </channel>
