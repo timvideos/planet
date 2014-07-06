@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 06/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/06/gsoc-snippet-06-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added second issues filter mockup in Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added input autocomplete (twitter typeahead.js) to fields: author, assignee and title to make search easier&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; small CSS fixes&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add first javascript search engine for issues&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/06/gsoc-snippet-06-07-2014/</guid>
+      <dc:date>2014-07-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 05/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;added markdown generation of issues in Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added first issues filter mockup (list all labels)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue assignee information&lt;div class=&quot;author&quot;&gt;
@@ -248,16 +263,6 @@
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-snippet-20-06-2014-and-21-06-2014/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-19</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</link>
-      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
-
-</description>
-      <pubDate>Fri, 20 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/20/gsoc-update-6-19/</guid>
-      <dc:date>2014-06-20T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-06T00:00:00+00:00</dc:date>
   </channel>
