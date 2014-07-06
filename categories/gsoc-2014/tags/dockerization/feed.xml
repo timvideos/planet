@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>maxstr pushed to docker at maxstr/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
@@ -225,6 +225,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-pushed-to-patch-1-at-maxstr-planet/</guid>
       <dc:date>2014-06-05T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>

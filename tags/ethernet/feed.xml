@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>UDP  working on Atlys</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/udp-working-on-atlys/</link>
@@ -303,6 +303,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/27/opening-the-xilinx-atlys-board/</guid>
       <dc:date>2014-05-27T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-05T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>

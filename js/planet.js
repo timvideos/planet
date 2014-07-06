@@ -1,6 +1,5 @@
 $(document).ready(function(){
   ajaxPostLoader.init();
-  issuesLoader.init();
   tooltipInitializer.init();
   fancyBoxInitializer.init();
 });
@@ -89,44 +88,6 @@ var ajaxPostLoader = {
     $show_more.text('Show more...');
   }
 
-}
-
-
-var issuesLoader = {
-
-  init: function(){
-    this.initShowMoreClick();
-    this.initHideMoreClick();
-  },
-
-  initShowMoreClick: function(){
-    $('#main .issues').on('click', '.show-more', function(){
-      var $show_more = $(this),
-          $issue = $show_more.closest('.issue'),
-          $hide_more = $issue.find('.hide-more'),
-          $content = $issue.find('.issue-content');
-          
-      $content.show();
-
-      $show_more.hide();
-      $hide_more.show();
-
-    });
-  },
-
-  initHideMoreClick: function(){
-    $('#main .issues').on('click', '.hide-more', function(){
-      var $hide_more = $(this),
-          $issue = $hide_more.closest('.issue'),
-          $show_more = $issue.find('.show-more'),
-          $content = $issue.find('.issue-content');
-      
-      $content.hide();
-
-      $hide_more.hide();
-      $show_more.show();
-    });
-  }
 }
 
 var tooltipInitializer = {
