@@ -33,8 +33,11 @@ module Jekyll
 
       projects = page.data['issues']
 
-      issues_labels = []
-      projects_data = {}
+      issues_labels    = []
+      issues_authors   = []
+      issues_assignees = []
+      issues_titles    = []
+      projects_data    = {}
 
       projects.each do |project|
         issues = github_issues(project)
@@ -44,11 +47,17 @@ module Jekyll
         projects_data[project]['name'] = project
         projects_data[project]['issues'] = issues 
       
-        issues_labels += issues.map { |issue| issue['labels'] } 
+        issues_titles    += issues.map { |issue| issue['title'] }
+        issues_labels    += issues.map { |issue| issue['labels'] }
+        issues_authors   += issues.map { |issue| issue['user_login'] }
+        issues_assignees += issues.map { |issue| issue['assignee_login'] }
       end
 
-      page.data['issues_labels'] = issues_labels.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
-      page.data['issues_data'] = projects_data
+      page.data['issues_titles']    = issues_titles.compact.uniq.sort.to_json
+      page.data['issues_authors']   = issues_authors.compact.uniq.sort.to_json
+      page.data['issues_assignees'] = issues_assignees.compact.uniq.sort.to_json
+      page.data['issues_labels']    = issues_labels.compact.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
+      page.data['issues_data']      = projects_data
     end
 
     def github_issues(project)

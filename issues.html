@@ -10,5 +10,15 @@ issues:
   - timvideos/streaming-system
   - timvideos/planet
 ---
+<script>
+  var ProjectsIssuesData = {
+    'titles':    {{ page.issues_titles }},
+    'authors':   {{ page.issues_authors }},
+    'assignees': {{ page.issues_assignees }}
+  };
+</script>
+
+<script src="{{ "/js/typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/issues.js" | prepend: site.baseurl }}"></script>
 
 {% include issues.html %}
