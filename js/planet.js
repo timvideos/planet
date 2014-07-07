@@ -24,28 +24,28 @@ var ajaxPostLoader = {
 
   initShowMoreClick: function(){
     $('#main .news').on('click', '.show-more', function(){
-      var $show_more = $(this),
-          $post = $show_more.closest('.post'),
-          $hide_more = $post.find('.hide-more'),
-          $excerpt = $post.find('.post-excerpt'),
-          $content = $post.find('.post-content'),
-          json_path = $post.data('json');
+      var $showMore = $(this),
+          $post     = $showMore.closest('.post'),
+          $hideMore = $post.find('.hide-more'),
+          $excerpt  = $post.find('.post-excerpt'),
+          $content  = $post.find('.post-content'),
+          jsonPath  = $post.data('json');
 
-      $show_more.addClass('disabled');
-      $show_more.text('Loading...');
+      $showMore.addClass('disabled');
+      $showMore.text('Loading...');
 
       if($content.text().length > 0){
         $excerpt.hide();
         $content.show();
 
-        ajaxPostLoader.showHideMoreButton($show_more, $hide_more);
+        ajaxPostLoader.showHideMoreButton($showMore, $hideMore);
       }
       else{
-        $.getJSON(json_path, function(data){
+        $.getJSON(jsonPath, function(data){
           $excerpt.hide();
           $content.html(data.content);
 
-          ajaxPostLoader.showHideMoreButton($show_more, $hide_more);
+          ajaxPostLoader.showHideMoreButton($showMore, $hideMore);
         });
       }
 
@@ -54,38 +54,38 @@ var ajaxPostLoader = {
 
   initHideMoreClick: function(){
     $('#main .news').on('click', '.hide-more', function(){
-      var $hide_more = $(this),
-          $post = $hide_more.closest('.post'),
-          $show_more = $post.find('.show-more'),
-          $excerpt = $post.find('.post-excerpt'),
-          $content = $post.find('.post-content');
+      var $hideMore = $(this),
+          $post     = $hideMore.closest('.post'),
+          $showMore = $post.find('.show-more'),
+          $excerpt  = $post.find('.post-excerpt'),
+          $content  = $post.find('.post-content');
       
-      $hide_more.addClass('disabled');
-      $hide_more.text('Loading...');
+      $hideMore.addClass('disabled');
+      $hideMore.text('Loading...');
 
       $excerpt.show();
       $content.hide();
 
-      ajaxPostLoader.showShowMoreButton($show_more, $hide_more);
+      ajaxPostLoader.showShowMoreButton($showMore, $hideMore);
     });
   },
 
-  showHideMoreButton: function($show_more, $hide_more){
-    $show_more.removeClass('disabled');
-    $show_more.hide();
-    $hide_more.show();
+  showHideMoreButton: function($showMore, $hideMore){
+    $showMore.removeClass('disabled');
+    $showMore.hide();
+    $hideMore.show();
 
-    $hide_more.removeClass('disabled');
-    $hide_more.text('Hide more...');
+    $hideMore.removeClass('disabled');
+    $hideMore.text('Hide more...');
   },
 
-  showShowMoreButton: function($show_more, $hide_more){
-    $hide_more.removeClass('disabled');
-    $hide_more.hide();
-    $show_more.show();
+  showShowMoreButton: function($showMore, $hideMore){
+    $hideMore.removeClass('disabled');
+    $hideMore.hide();
+    $showMore.show();
     
-    $show_more.removeClass('disabled');
-    $show_more.text('Show more...');
+    $showMore.removeClass('disabled');
+    $showMore.text('Show more...');
   }
 
 }
