@@ -8,7 +8,44 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Sending RTP packets via FPGA</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</link>
+      <description>Today, i generated montonically incrementing RGB values as part of the packetizer and send that to the MAC after adding all the headers like RTP, UDP, IP and Ethernet. The simulation worked just fine. After that it was time to do the Xilinx build flow to make the RTP go across the 1 Gbps network. It took more than an hour to get the build flow finish. And lo and behold, i was struck by &lt;a href=&quot;http://pastebin.com/6Q8Ph6Gu&quot;&gt;timing violations&lt;/a&gt;. Time to fix this by re-coding.&lt;br /&gt;&lt;br /&gt;Debug mode continues&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 merged pull request Niharika29/bugtracker#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -231,39 +268,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-06T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
