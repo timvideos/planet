@@ -40,6 +40,21 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Interesting</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 7th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Some amusing things going on! If I use DCM_SP in place of DCM_CLKGEN, with *exact* same CLKFX_DIVIDE &amp;amp; CLKFX_MULTIPLY values and also same connections, the screen would go blank, but the PLL would indicate locked status. Same goes for the case when I directly connect the PLL to DATACK instead of through DCM. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br class=&quot;kix-line-break&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I suspect this tells that the DATACK clock is not clean.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I strongly suspected, that this may be due to design issue. So, I investigated some documents on DATACK. First, the AD9984A’s datasheet. It’s PCB design guidelines say adding 50-200 ohm resistor to reduce reflections. But, The reference schematic for AD9984 uses 22 ohm resistors for all clocks (DATACK, HSOUT, VSOUT &amp;amp; SOGOUT) whereas, uses 50 ohm for the data lines. I found one more schematic(FMCVideo_sch_RevD.pdf) &amp;nbsp;from Xilinx using AD9984A. This one didn’t use any series resistor on any digital lines. I don’t know how much impact it does at 65MHz, but I strongly suspect either this or other physical design issue in the PCB. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</link>
       <description>We're halfway through!&lt;br /&gt;&lt;br /&gt;Coagulated and arranged the components on PCB.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; height=&quot;379&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I'll ask Rohit to help me verify the VHDCI footprint by taking a printout of this and checking it against the VHDCI connector he has for right fit and correct alignment.&lt;div class=&quot;author&quot;&gt;
@@ -292,21 +307,6 @@
 </description>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
-      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Adding HSYNC and VSYNC signals to the RTP packet interface</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</link>
-      <description>Before, we were streaming raw RGB values that were either randomly generated or monotonically increasing sequence. But as the purpose is to stream HDMI traffic, it makes sense to capture some real HDMI traffic and stream it through the packetizer. The last blog was an effort in this direction. We also have added HSYNC and VSYNC signals to the interface. See Figure 6 of the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Specification&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Now we can't just stream RGB values through the packetizer interface. Now we need to conform to HDMI protocol, which means we either assert HSYNC and VSYNC according to the protocol or somehow capture the traffic that already has this information. This is where the last blog comes into the picture. I was successfully able to generate HDMI traffic and dump it into a &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8169c3c4191f934217619868d006bd51ff403828/hdmi/hdmi_capture.txt?at=master&quot;&gt;file&lt;/a&gt;. Packetizer then reads this file and sends the data downstream accordingly. The &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/8d8f95a4326e932c72bd070386d4d3fd9f534eb5/sim_models/rtl/?at=master&quot;&gt;files&lt;/a&gt; are here.&lt;br /&gt;&lt;br /&gt;More later!!!&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/adding-hsync-and-vsync-signals-to-the-rtp-packet-/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>

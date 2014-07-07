@@ -18,8 +18,8 @@
   <link href="/css/styles.css" rel="stylesheet" />
 </head>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script src="/js/planet.js"></script>
 
   <body>
@@ -70,7 +70,7 @@
   };
 </script>
 
-<script src="/js/typeahead.min.js"></script>
+<script src="/js/plugins/typeahead.min.js"></script>
 <script src="/js/issues.js"></script>
 
 <div class="col-md-12">
@@ -79,7 +79,7 @@
       <h4>Issues filter</h4>
     </div>
     <div class="panel-body">
-      <form class="form-horizontal" role="form">
+      <form class="form-horizontal issues-filter" role="form">
         <div class="form-group issues-title">
           <label for="inputTitle" class="col-sm-2 control-label">Title</label>
           <div class="col-sm-10">
@@ -105,11 +105,10 @@
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-10">
+          <label class="col-sm-2 control-label">Assigneed?</label>
+          <div class="col-sm-10">
             <div class="checkbox">
-              <label>
-                <input type="checkbox" name="assigneed"> assigneed
-              </label>
+              <input type="checkbox" id="inputAssigneedYes" name="assigneedYes"> <label for="inputAssigneedYes"><span class="glyphicon glyphicon-ok"></span></label>
             </div>
           </div>
         </div>
@@ -293,7 +292,8 @@
         
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Search!</button>
+            <button class="btn btn-default issues-search">Search!</button>
+            <button class="btn btn-default issues-reset">Reset</button>
           </div>
         </div>
       </form>
@@ -312,9 +312,9 @@
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/25">[streaming-system] Automated build and configuration of full streaming system</a>
+                <a href="https://github.com/timvideos/getting-started/issues/25" class="issue-title">[streaming-system] Automated build and configuration of full streaming system</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -340,7 +340,7 @@
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>System to build and configure all of the machines needed to record and stream a multi track conference.</p>
@@ -407,8 +407,8 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #25 • open • Feb 17, 2014 • mithro
-              
+                #25 • open • Feb 17, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -421,9 +421,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/24">[gstreamer] Create a gstreamer plugin for Lenkeng HDMI over IP extender</a>
+                <a href="https://github.com/timvideos/getting-started/issues/24" class="issue-title">[gstreamer] Create a gstreamer plugin for Lenkeng HDMI over IP extender</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -449,7 +449,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Create a gstreamer plugin for sending and receiving from <a href="https://github.com/timvideos/HDMI2USB/wiki/Alternatives#wiki-ethernet-capture-devices">Lenkeng LKV373</a> (and compatible) devices.</p>
@@ -516,8 +516,8 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #24 • open • Feb 17, 2014 • mithro
-              
+                #24 • open • Feb 17, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -530,9 +530,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/23">[gst-switch] Track the speaker! Zoom! Pan! Tilt!</a>
+                <a href="https://github.com/timvideos/getting-started/issues/23" class="issue-title">[gst-switch] Track the speaker! Zoom! Pan! Tilt!</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="iiie" data-assignee="">
                 
                   <div class="tags">
                     
@@ -558,7 +558,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Create and test a system for keeping a camera focused on the action.</p>
@@ -582,8 +582,8 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #23 • open • Feb 14, 2014 • iiie
-              
+                #23 • open • Feb 14, 2014 • iiie
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -596,9 +596,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/22">[Veyepar] Use avahi / zeroconfig to find our hosts on the network</a>
+                <a href="https://github.com/timvideos/getting-started/issues/22" class="issue-title">[Veyepar] Use avahi / zeroconfig to find our hosts on the network</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="iiie" data-assignee="">
                 
                   <div class="tags">
                     
@@ -620,7 +620,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>We’d like to worry about fewer things, who wouldn’t.
@@ -662,8 +662,8 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #22 • open • Feb 14, 2014 • iiie
-              
+                #22 • open • Feb 14, 2014 • iiie
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -676,9 +676,9 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/21">[streaming-system #56] Dockerize flumotion and support components</a>
+                <a href="https://github.com/timvideos/getting-started/issues/21" class="issue-title">[streaming-system #56] Dockerize flumotion and support components</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="iiie" data-assignee="">
                 
                   <div class="tags">
                     
@@ -704,7 +704,7 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="https://github.com/timvideos/streaming-system/issues/56">Streaming System Issue #56</a></p>
 
 <h1 id="brief-explanation">Brief explanation</h1>
@@ -792,8 +792,8 @@ This is reflected in its API, user interface, design philosophy and documentatio
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #21 • open • Feb 14, 2014 • iiie
-              
+                #21 • open • Feb 14, 2014 • iiie
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -806,9 +806,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/20">[streaming-system] Make the code.timvideos.us developer website awesome!</a>
+                <a href="https://github.com/timvideos/getting-started/issues/20" class="issue-title">[streaming-system] Make the code.timvideos.us developer website awesome!</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="pinoss">
                 
                   <div class="tags">
                     
@@ -838,7 +838,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>code.timvideos.us is the first point of content for potential developers and users. It could use a lot of work to make it easier to use and more informative.</p>
@@ -900,10 +900,10 @@ This is reflected in its API, user interface, design philosophy and documentatio
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #20 • open • Feb 14, 2014 • parx
-              
-               • Assignee: <a href="https://github.com/pinoss">pinoss</a>
-              
+                #20 • open • Feb 14, 2014 • parx
+                
+                 • Assignee: <a href="https://github.com/pinoss">pinoss</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -916,9 +916,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/19">[streaming-system] TimVideos.us website (viewing interface) improvements</a>
+                <a href="https://github.com/timvideos/getting-started/issues/19" class="issue-title">[streaming-system] TimVideos.us website (viewing interface) improvements</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -948,7 +948,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Some more details at <a href="https://github.com/timvideos/streaming-system/issues/42">Streaming system Issue #42</a>. </p>
 
 <h1 id="brief-explanation">Brief explanation</h1>
@@ -998,8 +998,8 @@ This is reflected in its API, user interface, design philosophy and documentatio
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #19 • open • Feb 14, 2014 • parx
-              
+                #19 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1012,9 +1012,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/18">[HDMI2USB] Intelligent Auto Audio gain </a>
+                <a href="https://github.com/timvideos/getting-started/issues/18" class="issue-title">[HDMI2USB] Intelligent Auto Audio gain </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1040,7 +1040,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief Explanation</h1>
 
 <p>HDMI2USB Intelligent Auto Audio gain</p>
@@ -1058,8 +1058,8 @@ This is reflected in its API, user interface, design philosophy and documentatio
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #18 • open • Feb 14, 2014 • parx
-              
+                #18 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1072,9 +1072,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/17">[HDMI2USB] firmware auto-builder</a>
+                <a href="https://github.com/timvideos/getting-started/issues/17" class="issue-title">[HDMI2USB] firmware auto-builder</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1116,7 +1116,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>On every commit, fire up a EC2 instance, build the HDMI2USB firmware. (This will require work on the HDMI2USB build system too.) Should auto-commit the firmware to the HDMI2USB prebuild repository.</p>
@@ -1167,8 +1167,8 @@ This is reflected in its API, user interface, design philosophy and documentatio
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #17 • open • Feb 14, 2014 • parx
-              
+                #17 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1181,9 +1181,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/16">[Veyepar] JSON schedule output into website</a>
+                <a href="https://github.com/timvideos/getting-started/issues/16" class="issue-title">[Veyepar] JSON schedule output into website</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1205,7 +1205,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Zookeepr / Symposium (PyCon Website) JSON schedule output into website + veyepar</p>
@@ -1259,8 +1259,8 @@ https://github.com/pinax/symposion/pull/45</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #16 • open • Feb 14, 2014 • parx
-              
+                #16 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1273,9 +1273,9 @@ https://github.com/pinax/symposion/pull/45</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/15">[gstreamer] Productionize/Update gstreamer dvswitch plugin</a>
+                <a href="https://github.com/timvideos/getting-started/issues/15" class="issue-title">[gstreamer] Productionize/Update gstreamer dvswitch plugin</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1301,7 +1301,7 @@ https://github.com/pinax/symposion/pull/45</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>The <a href="https://github.com/timvideos/gst-plugins-dvswitch">dvswitch gstreamer plugin</a> is an important part of a migration scheme from dvswitch to newer technologies. This plugin could use a bunch of work to make it better.</p>
@@ -1355,8 +1355,8 @@ https://github.com/pinax/symposion/pull/45</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #15 • open • Feb 14, 2014 • parx
-              
+                #15 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1369,9 +1369,9 @@ https://github.com/pinax/symposion/pull/45</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/14">[HDMI2USB #32] MJPEG core optimisation </a>
+                <a href="https://github.com/timvideos/getting-started/issues/14" class="issue-title">[HDMI2USB #32] MJPEG core optimisation </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="parx" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1397,7 +1397,7 @@ https://github.com/pinax/symposion/pull/45</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="http://github.com/timvideos/HDMI2USB/issues/38">HDMI2USB #32</a></p>
 
 <h1 id="brief-explanation">Brief explanation</h1>
@@ -1446,8 +1446,8 @@ https://github.com/pinax/symposion/pull/45</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #14 • open • Feb 14, 2014 • parx
-              
+                #14 • open • Feb 14, 2014 • parx
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1460,9 +1460,9 @@ https://github.com/pinax/symposion/pull/45</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/11">[streaming-system] Create a mobile theme for the website</a>
+                <a href="https://github.com/timvideos/getting-started/issues/11" class="issue-title">[streaming-system] Create a mobile theme for the website</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1484,7 +1484,7 @@ https://github.com/pinax/symposion/pull/45</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Make the website responsive so it looks nice on mobile devices.</p>
@@ -1505,8 +1505,8 @@ https://github.com/pinax/symposion/pull/45</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #11 • open • Apr 19, 2013 • mithro
-              
+                #11 • open • Apr 19, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1519,9 +1519,9 @@ https://github.com/pinax/symposion/pull/45</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/10">[hdmi2usb] Create a serial port extension board - Support both RS232 and RS485 modes.</a>
+                <a href="https://github.com/timvideos/getting-started/issues/10" class="issue-title">[hdmi2usb] Create a serial port extension board - Support both RS232 and RS485 modes.</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1551,7 +1551,7 @@ https://github.com/pinax/symposion/pull/45</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Create a serial port extension board - Support both RS232 and RS485 modes</p>
@@ -1578,8 +1578,8 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #10 • open • Apr 3, 2013 • mithro
-              
+                #10 • open • Apr 3, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1592,9 +1592,9 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/9">[flumotion] Port Flumotion to the gstreamer-1.0 API</a>
+                <a href="https://github.com/timvideos/getting-started/issues/9" class="issue-title">[flumotion] Port Flumotion to the gstreamer-1.0 API</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1624,7 +1624,7 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>TimVideos.us makes heavy usage of flumotion for the backend of the streaming system. Flumotion currently uses the gstreamer0.10 API which is now End of Lifed. We need to port it to the gstreamer-1.0 API.</p>
@@ -1693,8 +1693,8 @@ Since this has never been announced officially outside of the conference circuit
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #9 • open • Apr 3, 2013 • mithro
-              
+                #9 • open • Apr 3, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1707,9 +1707,9 @@ Since this has never been announced officially outside of the conference circuit
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/7">[HDMI2USB #15] HDMI Audio to USB Sound </a>
+                <a href="https://github.com/timvideos/getting-started/issues/7" class="issue-title">[HDMI2USB #15] HDMI Audio to USB Sound </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1731,7 +1731,7 @@ Since this has never been announced officially outside of the conference circuit
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="https://github.com/timvideos/HDMI2USB/issues/15">HDMI2USB #15</a></p>
 
 <h1 id="brief-explanation">Brief explanation</h1>
@@ -1749,8 +1749,8 @@ Since this has never been announced officially outside of the conference circuit
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #7 • open • Mar 21, 2013 • mithro
-              
+                #7 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1763,9 +1763,9 @@ Since this has never been announced officially outside of the conference circuit
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/6">[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board</a>
+                <a href="https://github.com/timvideos/getting-started/issues/6" class="issue-title">[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1787,7 +1787,7 @@ Since this has never been announced officially outside of the conference circuit
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>The Diligent Atlys board has a Marvell Gigabit Ethernet chip on it. It would be awesome if we could ship the video via this port rather then the USB.</p>
@@ -1850,8 +1850,8 @@ Since this has never been announced officially outside of the conference circuit
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #6 • open • Mar 21, 2013 • mithro
-              
+                #6 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1864,9 +1864,9 @@ Since this has never been announced officially outside of the conference circuit
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/5">[HDMI2USB #13] Add USB 3.0 support</a>
+                <a href="https://github.com/timvideos/getting-started/issues/5" class="issue-title">[HDMI2USB #13] Add USB 3.0 support</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1900,7 +1900,7 @@ Since this has never been announced officially outside of the conference circuit
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="https://github.com/timvideos/HDMI2USB/issues/13">HDMI2USB #13</a></p>
 
 <h1 id="contacts">Contacts</h1>
@@ -1914,8 +1914,8 @@ Since this has never been announced officially outside of the conference circuit
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #5 • open • Mar 21, 2013 • mithro
-              
+                #5 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1928,9 +1928,9 @@ Since this has never been announced officially outside of the conference circuit
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/4">[streaming-system #4] Add bug / feedback reporting from end users system</a>
+                <a href="https://github.com/timvideos/getting-started/issues/4" class="issue-title">[streaming-system #4] Add bug / feedback reporting from end users system</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -1956,7 +1956,7 @@ Since this has never been announced officially outside of the conference circuit
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="https://github.com/timvideos/streaming-system/issues/4">Streaming System #4</a></p>
 
 <h1 id="brief-explanation">Brief Explanation</h1>
@@ -2016,8 +2016,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #4 • open • Mar 20, 2013 • mithro
-              
+                #4 • open • Mar 20, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2030,9 +2030,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/3">[flumotion] Create a RTMP flumotion component</a>
+                <a href="https://github.com/timvideos/getting-started/issues/3" class="issue-title">[flumotion] Create a RTMP flumotion component</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2054,7 +2054,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <h1 id="brief-explanation">Brief explanation</h1>
 
 <p>Create a new flumotion component which lets you stream to existing RTMP services (such as YouTube or JustinTV).</p>
@@ -2088,8 +2088,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #3 • open • Mar 20, 2013 • mithro
-              
+                #3 • open • Mar 20, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2102,9 +2102,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/getting-started/issues/2">[HDMI2USB #11] Create a 3G-SDI extension board for HDMI2USB</a>
+                <a href="https://github.com/timvideos/getting-started/issues/2" class="issue-title">[HDMI2USB #11] Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2134,7 +2134,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>More technical details at <a href="https://github.com/timvideos/HDMI2USB/issues/11">HDMI2USB #11</a></p>
 
 <h1 id="brief-explanation">Brief explanation</h1>
@@ -2161,8 +2161,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #2 • open • Mar 20, 2013 • mithro
-              
+                #2 • open • Mar 20, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2186,9 +2186,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/48">Expose I2C interfaces via USB</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/48" class="issue-title">Expose I2C interfaces via USB</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2202,7 +2202,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Exposing the EDID information and other I2C busses via the USB could be useful for debug an experimentation. </p>
 
 <p>One solution would be to emulate the i2c_tiny_usb device. A driver for this device already exist in the Linux kernel. See http://www.harbaum.org/till/i2c_tiny_usb/index.shtml for more information.</p>
@@ -2212,8 +2212,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #48 • open • Jun 24, 2014 • mithro
-              
+                #48 • open • Jun 24, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2226,9 +2226,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/47">Get real VID:PID values for HDMI2USB project</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/47" class="issue-title">Get real VID:PID values for HDMI2USB project</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2242,7 +2242,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Currently we are using a VID:PID that was chosen randomly, this is probably bad.</p>
 
 <p>From http://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/
@@ -2260,8 +2260,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #47 • open • Jun 24, 2014 • mithro
-              
+                #47 • open • Jun 24, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2274,9 +2274,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/46">fx2 uvc firmware does not enumerate </a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/46" class="issue-title">fx2 uvc firmware does not enumerate </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="shenki" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2298,7 +2298,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>A number of users have reported seeing the following using fxload. The same firmware images are successful when using libFPGALink. @ajitmathew and @shenki have experienced the same symptoms.</p>
 
 <p><code>
@@ -2335,8 +2335,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #46 • open • May 18, 2014 • shenki
-              
+                #46 • open • May 18, 2014 • shenki
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2349,15 +2349,15 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/45">Board not accepting USB device number</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/45" class="issue-title">Board not accepting USB device number</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="puck" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>After l’ve followed the instructions on:
 https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board:-Loading-Firmware
 Up to Stage 3, step 3, when I plug the USB cable back into the PROG port, on my Linux box I get:</p>
@@ -2388,8 +2388,8 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #45 • open • May 7, 2014 • puck
-              
+                #45 • open • May 7, 2014 • puck
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2402,9 +2402,9 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/44">Connect the USB-UART connector to the control system inside the firmware</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/44" class="issue-title">Connect the USB-UART connector to the control system inside the firmware</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2422,7 +2422,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>We have a “control port” which appears via the USB PROG port as a “usb serial port”.</p>
 
 <p>The Atlys board also has a “USB-UART” connect. It would be nice if the control port was also connected to this. Allowing control / debugging of the system when the Cypress firmware programming fails.</p>
@@ -2434,8 +2434,8 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #44 • open • May 7, 2014 • mithro
-              
+                #44 • open • May 7, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2448,9 +2448,9 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/42">Better EDID information</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/42" class="issue-title">Better EDID information</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2464,7 +2464,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Currently the EDID information is parsed through from the output monitor but stripped of all resolutions apart from 1024x768.</p>
 
 <p>It is probably better we just have our own EDID information.</p>
@@ -2475,8 +2475,8 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #42 • open • Apr 20, 2014 • mithro
-              
+                #42 • open • Apr 20, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2489,15 +2489,15 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/pull/41">Issue #33 New Test Image Generator with more life </a>
+                <a href="https://github.com/timvideos/HDMI2USB/pull/41" class="issue-title">Issue #33 New Test Image Generator with more life </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="rohit91" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>This test pattern generator generates a dynamic image with 8 colored vertical bars with their
 colors alternating with their complement/negative color , after every 1
 second.
@@ -2508,8 +2508,8 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #41 • open • Apr 11, 2014 • rohit91
-              
+                #41 • open • Apr 11, 2014 • rohit91
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2522,15 +2522,15 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/pull/39">Issue #31 : Module for Heart Beat on static images added</a>
+                <a href="https://github.com/timvideos/HDMI2USB/pull/39" class="issue-title">Issue #31 : Module for Heart Beat on static images added</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="ajitmathew" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The module causes a block of pixel to change colour at a specific rate.
 The size of the block and the rate can be changed using generic mapping.</p>
 
@@ -2539,8 +2539,8 @@ The size of the block and the rate can be changed using generic mapping.</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #39 • open • Mar 28, 2014 • ajitmathew
-              
+                #39 • open • Mar 28, 2014 • ajitmathew
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2553,15 +2553,15 @@ The size of the block and the rate can be changed using generic mapping.</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/38">Resolve warnings in firmware build</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/38" class="issue-title">Resolve warnings in firmware build</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="shenki" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The build currently contains a large number of warnings:</p>
 
 <p><code>
@@ -2575,8 +2575,8 @@ The size of the block and the rate can be changed using generic mapping.</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #38 • open • Mar 28, 2014 • shenki
-              
+                #38 • open • Mar 28, 2014 • shenki
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2589,9 +2589,9 @@ The size of the block and the rate can be changed using generic mapping.</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/36">Surface the Spartan 6's Device DNA serial number in the USB information</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/36" class="issue-title">Surface the Spartan 6's Device DNA serial number in the USB information</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2609,7 +2609,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The HDMI2USB presents multiple USB devices to the host computer. By surfacing a serial number in the device information, the host computer can associate them together.</p>
 
 <p>The same serial number should be presented on both the UVC device and the CDC device. Device DNA on the Spartan 6 chip gives us a unique serial number we can use for this. We just need to get the value up into the Cypress endpoint information.</p>
@@ -2700,8 +2700,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #36 • open • Mar 21, 2014 • mithro
-              
+                #36 • open • Mar 21, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2714,9 +2714,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/35">Create a "Altera USB Blaster" emulation software for PIC18F series</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/35" class="issue-title">Create a "Altera USB Blaster" emulation software for PIC18F series</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2734,7 +2734,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>It would be nice if firmware for the PIC18F series devices which pretended to be a Altera USB Blaster existed.</p>
 
 <ul>
@@ -2758,8 +2758,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #35 • open • Mar 20, 2014 • mithro
-              
+                #35 • open • Mar 20, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2772,9 +2772,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/34">Create a NeroJTAG compatible firmware for the PIC18F series chips</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/34" class="issue-title">Create a NeroJTAG compatible firmware for the PIC18F series chips</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2792,7 +2792,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>NeroJTAG seems to be the dominant open source JTAG communication protocol. It would be nice if the PIC18F series devices (which have inbuilt USB controllers) had support for this.</p>
 
 <p>http://www.makestuff.eu/wordpress/software/nerojtag/</p>
@@ -2804,8 +2804,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #34 • open • Mar 20, 2014 • mithro
-              
+                #34 • open • Mar 20, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2818,9 +2818,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/33">Make the "test" image nicer.</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/33" class="issue-title">Make the "test" image nicer.</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2838,7 +2838,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The HDMI2USB inputs can be switched to a test image. It would be nice if this image was prettier and/or had some type animation in it.</p>
 
                 </div>
@@ -2846,8 +2846,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #33 • open • Mar 18, 2014 • mithro
-              
+                #33 • open • Mar 18, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2860,9 +2860,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/32">Optimisation MJPEG to support atleast 720p@30fps</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/32" class="issue-title">Optimisation MJPEG to support atleast 720p@30fps</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2872,7 +2872,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Optimisation of the MJPEG core in the HDMI2USB firmware to support full frame rate recording.</p>
 
 <p>Current performance is roughly <code>720p@15fps</code> minimum requirement would be <code>720p@30fps</code>. We’d really like it to reach somewhere between <code>1080p@30Hz</code> –&gt; <code>1080p@120Hz</code>.</p>
@@ -2884,8 +2884,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #32 • open • Feb 17, 2014 • mithro
-              
+                #32 • open • Feb 17, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2898,9 +2898,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/31">Heartbeat on static images</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/31" class="issue-title">Heartbeat on static images</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="CarlFK" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2914,7 +2914,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>If the display is static, it is hard to tell if everything is functioning.  </p>
 
 <p>it would be handy (maybe?) to be able to enable something dynamic that can be checked for.  maybe even 1 pixel, or small block in the corner that pulses.</p>
@@ -2924,8 +2924,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #31 • open • Dec 13, 2013 • CarlFK
-              
+                #31 • open • Dec 13, 2013 • CarlFK
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2938,9 +2938,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/30">640x480 inputs cause corrupted display</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/30" class="issue-title">640x480 inputs cause corrupted display</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="micolous" data-assignee="">
                 
                   <div class="tags">
                     
@@ -2954,7 +2954,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Running a HDMI 640x480 input (Xbox 360) results in a corrupted display.  As a result it is difficult to fix the resolution so that it appears properly.</p>
 
 <p><img src="https://f.cloud.github.com/assets/246847/783187/17b0c022-ea4a-11e2-9382-5f7f2460b936.png" alt="xbox" /></p>
@@ -2974,8 +2974,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #30 • open • Jul 11, 2013 • micolous
-              
+                #30 • open • Jul 11, 2013 • micolous
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2988,9 +2988,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/29">Write a "debug script"</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/29" class="issue-title">Write a "debug script"</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3000,7 +3000,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Should do the following;</p>
 
 <ul>
@@ -3018,8 +3018,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #29 • open • Jul 9, 2013 • mithro
-              
+                #29 • open • Jul 9, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3032,9 +3032,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/27">Analyse existing VGA2HDMI solutions</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/27" class="issue-title">Analyse existing VGA2HDMI solutions</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3044,7 +3044,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Find out what chips are used in them and what type of cost they are.</p>
 
                 </div>
@@ -3052,8 +3052,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #27 • open • Jun 5, 2013 • mithro
-              
+                #27 • open • Jun 5, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3066,9 +3066,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/26">Verification setups</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/26" class="issue-title">Verification setups</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
                 
                   <div class="tags">
                     
@@ -3078,7 +3078,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Please check that HDMI2USB works with the following set ups;</p>
 
 <h1 id="set-up-1">Set Up 1</h1>
@@ -3134,10 +3134,10 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #26 • open • Jun 5, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
-              
+                #26 • open • Jun 5, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3150,9 +3150,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/20">Support HDMI CEC control</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/20" class="issue-title">Support HDMI CEC control</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3170,7 +3170,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Raspberry pi has support, would be good if we could duplicate it.</p>
 
                 </div>
@@ -3178,8 +3178,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #20 • open • Apr 1, 2013 • mithro
-              
+                #20 • open • Apr 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3192,9 +3192,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/19">Support dumping raw HDMI data that can be loaded into wireshark</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/19" class="issue-title">Support dumping raw HDMI data that can be loaded into wireshark</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3212,7 +3212,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Wire shark is the tool for doing debugging of protocols, would be great if the system had a raw mode which dumped the HDMI data in format suitable for wire shark.</p>
 
                 </div>
@@ -3220,8 +3220,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #19 • open • Apr 1, 2013 • mithro
-              
+                #19 • open • Apr 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3234,9 +3234,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/17">Investigate (and hopefully mitigate) JPEG block boundary artifacts on fine text detail</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/17" class="issue-title">Investigate (and hopefully mitigate) JPEG block boundary artifacts on fine text detail</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3254,7 +3254,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>When a vertical line is on a block boundary, JPEG can sometimes discard the whole line - this is mostly apparent on fine text capture.</p>
 
 <p>Investigate ways to mitigate this problem and add tests to prevent this problem from reoccurring.</p>
@@ -3264,8 +3264,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #17 • open • Apr 1, 2013 • mithro
-              
+                #17 • open • Apr 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3278,9 +3278,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/16">Convert cypress firmware to be compiled by sdcc</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/16" class="issue-title">Convert cypress firmware to be compiled by sdcc</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3294,7 +3294,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Currently we use the closed source Kiel UV2 software for compiling the Cypress firmware.</p>
 
 <p>We’d like to use open source tools instead, the sdcc compiler has support for the 8051 chip inside the chip and a number of people have already done a lot of the work. Take a look at the links below;</p>
@@ -3311,8 +3311,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #16 • open • Apr 1, 2013 • mithro
-              
+                #16 • open • Apr 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3325,9 +3325,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/15">HDMI Audio to USB Sound</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/15" class="issue-title">HDMI Audio to USB Sound</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3341,7 +3341,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>http://www.usb.org/developers/devclass_docs/audio10.pdf</p>
 
                 </div>
@@ -3349,8 +3349,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #15 • open • Mar 21, 2013 • mithro
-              
+                #15 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3363,9 +3363,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/14">Look at supporting Marvell Ethernet chip on Digilent board</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/14" class="issue-title">Look at supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3383,7 +3383,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Use instead of USB</p>
 
                 </div>
@@ -3391,8 +3391,8 @@ readDna -p</p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #14 • open • Mar 21, 2013 • mithro
-              
+                #14 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3405,9 +3405,9 @@ readDna -p</p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/13">Add USB 3.0 support</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/13" class="issue-title">Add USB 3.0 support</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3421,7 +3421,7 @@ readDna -p</p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Should support USB 2.0 backwards compatible. </p>
 
 <p>Support transfer of raw frames rather than MJPEG stream.</p>
@@ -3448,8 +3448,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #13 • open • Mar 21, 2013 • mithro
-              
+                #13 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3462,9 +3462,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/12">Mac's have issues</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/12" class="issue-title">Mac's have issues</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3478,7 +3478,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>A number of Mac’s didn’t work with the board.</p>
 
                 </div>
@@ -3486,8 +3486,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #12 • open • Mar 21, 2013 • mithro
-              
+                #12 • open • Mar 21, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3500,9 +3500,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/11">Create a 3G-SDI extension board for HDMI2USB</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/11" class="issue-title">Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3516,7 +3516,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -3524,8 +3524,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #11 • open • Mar 20, 2013 • mithro
-              
+                #11 • open • Mar 20, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3538,9 +3538,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/10">Write a test bench based testsuite</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/10" class="issue-title">Write a test bench based testsuite</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
                 
                   <div class="tags">
                     
@@ -3550,7 +3550,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Should test the following;</p>
 
 <ul>
@@ -3566,10 +3566,10 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #10 • open • Mar 19, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
-              
+                #10 • open • Mar 19, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3582,9 +3582,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/9">Clean up Git repository</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/9" class="issue-title">Clean up Git repository</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
                 
                   <div class="tags">
                     
@@ -3598,7 +3598,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Need to:</p>
 
 <ul>
@@ -3614,10 +3614,10 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #9 • open • Mar 19, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
-              
+                #9 • open • Mar 19, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3630,9 +3630,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/7">Create build script which requires no GUI tools</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/7" class="issue-title">Create build script which requires no GUI tools</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3646,7 +3646,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Makefile, cmake or other system which builds all of the following;</p>
 
 <ul>
@@ -3665,8 +3665,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #7 • open • Mar 19, 2013 • mithro
-              
+                #7 • open • Mar 19, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3679,9 +3679,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/5">Create replacement HDMI extension board which has DVI or HDMI connectors</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/5" class="issue-title">Create replacement HDMI extension board which has DVI or HDMI connectors</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3691,7 +3691,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The http://digilentinc.com/Products/Detail.cfm?NavPath=2,648,870&amp;Prod=VMOD-MIB adds another 4 HDMI ports to the Digilent board, but they are the HDMI-Micro-D connectors which are hard to get cables for.</p>
 
 <p>Would be awesome to create a version which has HDMI or DVI connectors instead.</p>
@@ -3701,8 +3701,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #5 • open • Mar 19, 2013 • mithro
-              
+                #5 • open • Mar 19, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3715,9 +3715,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/3">Have documentation automatic generated from VHDL/Verilog code (Kinda like doxygen or javadoc)</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/3" class="issue-title">Have documentation automatic generated from VHDL/Verilog code (Kinda like doxygen or javadoc)</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
                 
                   <div class="tags">
                     
@@ -3735,7 +3735,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -3743,10 +3743,10 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #3 • open • Mar 19, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
-              
+                #3 • open • Mar 19, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3759,9 +3759,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/2">Create specifications for custom PCB board</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/2" class="issue-title">Create specifications for custom PCB board</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="mithro">
                 
                   <div class="tags">
                     
@@ -3771,7 +3771,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -3779,10 +3779,10 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #2 • open • Mar 19, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/mithro">mithro</a>
-              
+                #2 • open • Mar 19, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/mithro">mithro</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3795,9 +3795,9 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/HDMI2USB/issues/1">Create a VGA connector based extension board for the Atlys Board</a>
+                <a href="https://github.com/timvideos/HDMI2USB/issues/1" class="issue-title">Create a VGA connector based extension board for the Atlys Board</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -3807,7 +3807,7 @@ FPGA platforms may be possible with some work. </p>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>VGA is going to be around for a long time, we really need to continue to have a VGA input system.</p>
 
                 </div>
@@ -3815,8 +3815,8 @@ FPGA platforms may be possible with some work. </p>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #1 • open • Mar 19, 2013 • mithro
-              
+                #1 • open • Mar 19, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3840,15 +3840,15 @@ FPGA platforms may be possible with some work. </p>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/28">install instructions </a>
+                <a href="https://github.com/timvideos/gst-switch/issues/28" class="issue-title">install instructions </a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="CarlFK" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Current install instructions have way too many git clone, including </p>
 
 <p>git clone https://github.com/hyades/gst-switch.git
@@ -3870,8 +3870,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #28 • open • Mar 28, 2014 • CarlFK
-              
+                #28 • open • Mar 28, 2014 • CarlFK
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3884,15 +3884,15 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/27">depandancy on speakertrack</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/27" class="issue-title">depandancy on speakertrack</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="CarlFK" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>This seems to be a bad default depandancy given I don’t think it works?</p>
 
 <p>gstswitchptz.c:30:44: fatal error: gst/speakertrack/gstcamcontrol.h: No such file or directory
@@ -3905,8 +3905,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #27 • open • Mar 28, 2014 • CarlFK
-              
+                #27 • open • Mar 28, 2014 • CarlFK
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3919,15 +3919,15 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/pull/26">Updated Readme, fixes</a>
+                <a href="https://github.com/timvideos/gst-switch/pull/26" class="issue-title">Updated Readme, fixes</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="hyades" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -3935,8 +3935,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #26 • open • Sep 25, 2013 • hyades
-              
+                #26 • open • Sep 25, 2013 • hyades
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3949,15 +3949,15 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/24">Warnings running gst-switch-srv and gst-switch-ui</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/24" class="issue-title">Warnings running gst-switch-srv and gst-switch-ui</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="hyades" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>I run only gst-switch-srv. I get these pair of warnings repeatedly
 ```shell
 (gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:<gdppay1:src> Got data flow before stream-start event</gdppay1:src></p>
@@ -3977,8 +3977,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #24 • open • Jun 26, 2013 • hyades
-              
+                #24 • open • Jun 26, 2013 • hyades
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3991,9 +3991,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/23">Create a virtual PTZ camera for testing</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/23" class="issue-title">Create a virtual PTZ camera for testing</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4003,7 +4003,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>For testing the speaker track stuff it would be nice to have a “virtual” PTZ camera that you can give a video file and only shows a portion simulating a camera view.</p>
 
                 </div>
@@ -4011,8 +4011,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #23 • open • Apr 10, 2013 • mithro
-              
+                #23 • open • Apr 10, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4025,9 +4025,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/22">Need a way to identify all input coming from a single computer/source</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/22" class="issue-title">Need a way to identify all input coming from a single computer/source</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4041,7 +4041,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>A single computer could be sending;
  * Video
  * Audio
@@ -4059,8 +4059,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #22 • open • Apr 1, 2013 • mithro
-              
+                #22 • open • Apr 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4073,9 +4073,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/20">Convert doxygen comments into gtk-doc suitable input</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/20" class="issue-title">Convert doxygen comments into gtk-doc suitable input</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4085,7 +4085,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>gstreamer components seem to use gtk-doc rather than doxygen.</p>
 
                 </div>
@@ -4093,8 +4093,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #20 • open • Mar 31, 2013 • mithro
-              
+                #20 • open • Mar 31, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4107,15 +4107,15 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/19">Figure out the missing video frames</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/19" class="issue-title">Figure out the missing video frames</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The frame strips are missing video frames. Find out what happened to them and fix.</p>
 
 <p>Current theories include;
@@ -4128,8 +4128,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #19 • open • Mar 3, 2013 • mithro
-              
+                #19 • open • Mar 3, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4142,9 +4142,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/18">Add "make valgrind"</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/18" class="issue-title">Add "make valgrind"</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4154,7 +4154,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Should run the tests under valgrind and then diff the output and check if any new leaks.</p>
 
                 </div>
@@ -4162,8 +4162,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #18 • open • Mar 1, 2013 • mithro
-              
+                #18 • open • Mar 1, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4176,9 +4176,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/17">Move to some type of pre-built test runner</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/17" class="issue-title">Move to some type of pre-built test runner</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4188,7 +4188,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Rather than writing our own.</p>
 
                 </div>
@@ -4196,8 +4196,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #17 • open • Feb 28, 2013 • mithro
-              
+                #17 • open • Feb 28, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4210,9 +4210,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/16">Should be an option to run the tests in valgrind</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/16" class="issue-title">Should be an option to run the tests in valgrind</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4222,7 +4222,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>https://live.gnome.org/Valgrind</p>
 
 <p>Memcheck</p>
@@ -4258,8 +4258,8 @@ make
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #16 • open • Feb 28, 2013 • mithro
-              
+                #16 • open • Feb 28, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4272,9 +4272,9 @@ make
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/15">Time output should be produced right aligned and backspaced</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/15" class="issue-title">Time output should be produced right aligned and backspaced</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4284,7 +4284,7 @@ make
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>IE The output should look like</p>
 
 <p><code>
@@ -4322,8 +4322,8 @@ $ echo -e ‘12345\b6’
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #15 • open • Feb 28, 2013 • mithro
-              
+                #15 • open • Feb 28, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4336,9 +4336,9 @@ $ echo -e ‘12345\b6’
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/11">Run addresssanitizer over the code</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/11" class="issue-title">Run addresssanitizer over the code</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4352,7 +4352,7 @@ $ echo -e ‘12345\b6’
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>http://www.chromium.org/developers/testing/addresssanitizer</p>
 
                 </div>
@@ -4360,8 +4360,8 @@ $ echo -e ‘12345\b6’
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #11 • open • Feb 28, 2013 • mithro
-              
+                #11 • open • Feb 28, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4374,9 +4374,9 @@ $ echo -e ‘12345\b6’
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/10">Builds are failing on travis-ci.</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/10" class="issue-title">Builds are failing on travis-ci.</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="duzy">
                 
                   <div class="tags">
                     
@@ -4386,7 +4386,7 @@ $ echo -e ‘12345\b6’
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <travis-ci> [travis-ci] timvideos/gst-switch#1 (master - 6b0e5c2 : Duzy Chan): The build failed.
 <travis-ci> [travis-ci] Change view : https://github.com/timvideos/gst-switch/compare/8fd62a4e8988...6b0e5c23ee62
 <travis-ci> [travis-ci] Build details : http://travis-ci.org/timvideos/gst-switch/builds/5090659
@@ -4406,10 +4406,10 @@ $ echo -e ‘12345\b6’
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #10 • open • Feb 28, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/duzy">duzy</a>
-              
+                #10 • open • Feb 28, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/duzy">duzy</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4422,9 +4422,9 @@ $ echo -e ‘12345\b6’
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/6">After a test segfaults, the server process is left running</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/6" class="issue-title">After a test segfaults, the server process is left running</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4434,7 +4434,7 @@ $ echo -e ‘12345\b6’
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 <p><code>
 Running test_video_preview_sink2 (30 seconds)
@@ -4457,8 +4457,8 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #6 • open • Feb 11, 2013 • mithro
-              
+                #6 • open • Feb 11, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4471,15 +4471,15 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/4">Tests should have names not numbers</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/4" class="issue-title">Tests should have names not numbers</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="duzy">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Title says it all.</p>
 
                 </div>
@@ -4487,10 +4487,10 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #4 • open • Feb 11, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/duzy">duzy</a>
-              
+                #4 • open • Feb 11, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/duzy">duzy</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4503,15 +4503,15 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/2">Test timer should use average test run time</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/2" class="issue-title">Test timer should use average test run time</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>It should estimate rather then the hard-coded method now.</p>
 
                 </div>
@@ -4519,8 +4519,8 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #2 • open • Feb 8, 2013 • mithro
-              
+                #2 • open • Feb 8, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4533,15 +4533,15 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/gst-switch/issues/1">gstcomposite and gstworker objects should have debug logging types</a>
+                <a href="https://github.com/timvideos/gst-switch/issues/1" class="issue-title">gstcomposite and gstworker objects should have debug logging types</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>From gstpipeline.c
 ```
 GST_DEBUG_CATEGORY_STATIC (pipeline_debug);
@@ -4568,8 +4568,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #1 • open • Feb 7, 2013 • mithro
-              
+                #1 • open • Feb 7, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4593,9 +4593,9 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/60">Replace JWPlayer with fully free (libre) software equivalent</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/60" class="issue-title">Replace JWPlayer with fully free (libre) software equivalent</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4605,7 +4605,7 @@ Outputs the following
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>JWPlayer is released under a CC BY-NC-SA 3.0 – the NC (non-commercial) part means it doesn’t satisfy the <a href="http://en.wikipedia.org/wiki/Debian_Free_Software_Guidelines">Debian Free Software Guidelines (DFSG)</a> and hence is not truely “free (libre) software”.</p>
 
 <p>The choice of using JWPlayer was made back when flash video support was needed because HTML5 video was not supported by a majority of browsers (JWPlayer was the only option with allowed for seamless flash and HTML5 integration). This is no longer the case with almost all browsers supporting HTML5! Flash support is only needed for RTMP adaptive streaming, which we don’t really use/support at the moment.</p>
@@ -4629,8 +4629,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #60 • open • Mar 16, 2014 • mithro
-              
+                #60 • open • Mar 16, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4643,15 +4643,15 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/pull/57">vagrant  to demonstrate install</a>
+                <a href="https://github.com/timvideos/streaming-system/pull/57" class="issue-title">vagrant  to demonstrate install</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="CarlFK" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -4659,8 +4659,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #57 • open • Mar 5, 2014 • CarlFK
-              
+                #57 • open • Mar 5, 2014 • CarlFK
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4673,9 +4673,9 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/56">Create a docker package for flumotion</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/56" class="issue-title">Create a docker package for flumotion</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4689,7 +4689,7 @@ Outputs the following
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Currently we have 1 flumotion per stream. This currently uses 1 machine per stream as managing the configuration of multiple streams on one machine is to hard.</p>
 
 <p>We should package flumotion up in a docker thingy - https://www.docker.io/
@@ -4712,8 +4712,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #56 • open • Jan 9, 2014 • mithro
-              
+                #56 • open • Jan 9, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4726,9 +4726,9 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/55">Add "lip sync" or other delay detector</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/55" class="issue-title">Add "lip sync" or other delay detector</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4738,7 +4738,7 @@ Outputs the following
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -4746,8 +4746,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #55 • open • Jan 9, 2014 • mithro
-              
+                #55 • open • Jan 9, 2014 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4760,15 +4760,15 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/53">Add documentation on how to contribute to the project</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/53" class="issue-title">Add documentation on how to contribute to the project</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="codersquid" data-assignee="">
                 
                   <div class="tags">
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Add documentation on how to contribute that you can point to as a starting point for new people to read on how to contribute. For example, when a new person shows up in irc, you’d point them to this.</p>
 
 <p>As for where the documentation could live – github treats CONTRIBUTING.md as a first class citizen, so you could put the documentation in that, and then also put it in the README as a link. Or, you could document it on the wiki and have a link to that in CONTRIBUTING and the README.</p>
@@ -4778,8 +4778,8 @@ Outputs the following
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #53 • open • Dec 30, 2013 • codersquid
-              
+                #53 • open • Dec 30, 2013 • codersquid
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4792,9 +4792,9 @@ Outputs the following
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/44">Track client side video quality and performance</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/44" class="issue-title">Track client side video quality and performance</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4804,7 +4804,7 @@ Outputs the following
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>We should be collecting video quality and performance stats on the client side and then report on them. Maybe through Google Analytics? </p>
 
 <h1 id="firefox">Firefox</h1>
@@ -4839,8 +4839,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #44 • open • Jul 7, 2013 • mithro
-              
+                #44 • open • Jul 7, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4853,9 +4853,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/42">Move room configuration from config.json to database</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/42" class="issue-title">Move room configuration from config.json to database</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4865,7 +4865,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -4873,8 +4873,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #42 • open • Jul 6, 2013 • mithro
-              
+                #42 • open • Jul 6, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4887,9 +4887,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/41">Create a web-rtc flumotion component</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/41" class="issue-title">Create a web-rtc flumotion component</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4899,7 +4899,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>WebRTC is awesome, lets see if we can use it?</p>
 
                 </div>
@@ -4907,8 +4907,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #41 • open • Jun 5, 2013 • mithro
-              
+                #41 • open • Jun 5, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4921,9 +4921,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/34">Change setup scripts to some type of configuration management system</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/34" class="issue-title">Change setup scripts to some type of configuration management system</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="tflink">
                 
                   <div class="tags">
                     
@@ -4933,7 +4933,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -4941,10 +4941,10 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #34 • open • Mar 21, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/tflink">tflink</a>
-              
+                #34 • open • Mar 21, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/tflink">tflink</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4957,9 +4957,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/33">Port website to new style "Class Based Views"</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/33" class="issue-title">Port website to new style "Class Based Views"</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -4969,7 +4969,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>https://docs.djangoproject.com/en/dev/topics/class-based-views/</p>
 
                 </div>
@@ -4977,8 +4977,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #33 • open • Mar 18, 2013 • mithro
-              
+                #33 • open • Mar 18, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4991,9 +4991,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/32">Upgrade to jwplayer 6.0</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/32" class="issue-title">Upgrade to jwplayer 6.0</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="mithro">
                 
                   <div class="tags">
                     
@@ -5003,7 +5003,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>We currently use jwplayer 5.0 which is the previous version of the player. The new version includes a lot of new features such as;
  * Extended device support, including mobile support
  * Built in support for Captions (is this useful?)
@@ -5021,10 +5021,10 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #32 • open • Mar 16, 2013 • mithro
-              
-               • Assignee: <a href="https://github.com/mithro">mithro</a>
-              
+                #32 • open • Mar 16, 2013 • mithro
+                
+                 • Assignee: <a href="https://github.com/mithro">mithro</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5037,9 +5037,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/31">Refactor the Javascript to use classes</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/31" class="issue-title">Refactor the Javascript to use classes</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5049,7 +5049,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -5057,8 +5057,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #31 • open • Mar 16, 2013 • mithro
-              
+                #31 • open • Mar 16, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5071,9 +5071,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/30">Replace watchdog with something that uploads component status to website</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/30" class="issue-title">Replace watchdog with something that uploads component status to website</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5083,7 +5083,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Make a status page for each encoder.</p>
 
                 </div>
@@ -5091,8 +5091,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #30 • open • Mar 16, 2013 • mithro
-              
+                #30 • open • Mar 16, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5105,9 +5105,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/28">Mobile redirect to Justin.TV mobile stream...</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/28" class="issue-title">Mobile redirect to Justin.TV mobile stream...</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5117,7 +5117,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -5125,8 +5125,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #28 • open • Mar 15, 2013 • mithro
-              
+                #28 • open • Mar 15, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5139,9 +5139,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/24">Generate minimized Javascript/CSS output</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/24" class="issue-title">Generate minimized Javascript/CSS output</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5151,7 +5151,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   
 
                 </div>
@@ -5159,8 +5159,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #24 • open • Mar 13, 2013 • mithro
-              
+                #24 • open • Mar 13, 2013 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5173,9 +5173,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/18">Draw graphs of the various stats we collect</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/18" class="issue-title">Draw graphs of the various stats we collect</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5185,7 +5185,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>For example we collect the number of connected clients and the bitrate. It would be nice to see these over time…</p>
 
                 </div>
@@ -5193,8 +5193,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #18 • open • Mar 13, 2012 • mithro
-              
+                #18 • open • Mar 13, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5207,9 +5207,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/16">Add better client side error report</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/16" class="issue-title">Add better client side error report</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5219,7 +5219,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Take a look at http://areciboapp.com/demo</p>
 
                 </div>
@@ -5227,8 +5227,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #16 • open • Mar 11, 2012 • mithro
-              
+                #16 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5241,9 +5241,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/15">Finish blackmagic component</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/15" class="issue-title">Finish blackmagic component</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5253,7 +5253,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Should support both the opensource gstreamer component and the commercial one.</p>
 
                 </div>
@@ -5261,8 +5261,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #15 • open • Mar 11, 2012 • mithro
-              
+                #15 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5275,9 +5275,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/14">Add "continuous frames" to Flumotion</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/14" class="issue-title">Add "continuous frames" to Flumotion</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5287,7 +5287,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Create a flumotion component which produces blank frames when feeder runs out.</p>
 
 <p>Checkout the inter stuff at on the portable.</p>
@@ -5298,8 +5298,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #14 • open • Mar 11, 2012 • mithro
-              
+                #14 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5312,9 +5312,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/13">Create a Justin TV Flumotion component</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/13" class="issue-title">Create a Justin TV Flumotion component</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="mithro">
                 
                   <div class="tags">
                     
@@ -5324,7 +5324,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>We have a justintv component using the pipeline using.
    rtmpsink location=rtmp://live.justin.tv/app/%(justintv_key)s</p>
 
@@ -5337,10 +5337,10 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #13 • open • Mar 11, 2012 • mithro
-              
-               • Assignee: <a href="https://github.com/mithro">mithro</a>
-              
+                #13 • open • Mar 11, 2012 • mithro
+                
+                 • Assignee: <a href="https://github.com/mithro">mithro</a>
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5353,9 +5353,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/12">Add JavaScript analytics</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/12" class="issue-title">Add JavaScript analytics</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5365,7 +5365,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>The system has a nice stat tracking feature. Make the frontend record everything possible about the client experiences. </p>
 
                 </div>
@@ -5373,8 +5373,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #12 • open • Mar 11, 2012 • mithro
-              
+                #12 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5387,9 +5387,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/11">Flip instructions on the box</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/11" class="issue-title">Flip instructions on the box</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5399,7 +5399,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>They are currently upside down.</p>
 
                 </div>
@@ -5407,8 +5407,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #11 • open • Mar 11, 2012 • mithro
-              
+                #11 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5421,9 +5421,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/10">Merge DVSwitch, DVfifo and Firewire flumotion components.</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/10" class="issue-title">Merge DVSwitch, DVfifo and Firewire flumotion components.</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5433,7 +5433,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>They have 95% common code. Refactor them to have a common base class.</p>
 
                 </div>
@@ -5441,8 +5441,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #10 • open • Mar 11, 2012 • mithro
-              
+                #10 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5455,9 +5455,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/9">Add control over twinpac (via IR sender)</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/9" class="issue-title">Add control over twinpac (via IR sender)</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5467,7 +5467,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Currently looking at IRtoy. Write a config file which lets us control the twinpac (and automatically make it all happy).</p>
 
                 </div>
@@ -5475,8 +5475,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #9 • open • Mar 11, 2012 • mithro
-              
+                #9 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5489,9 +5489,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/8">Monitoring to everything!</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/8" class="issue-title">Monitoring to everything!</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5501,7 +5501,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>We need a better way to monitor everything, munin seems like the best bet.</p>
 
 <p>Each encoder/collector/amplifier should register on the main server.</p>
@@ -5511,8 +5511,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #8 • open • Mar 11, 2012 • mithro
-              
+                #8 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5525,9 +5525,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/7">Push preview images to S3</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/7" class="issue-title">Push preview images to S3</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5537,7 +5537,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Preview images are consuming a massive amount of bandwidth. Pushing them to S3 or similar CDN would be awesome.</p>
 
                 </div>
@@ -5545,8 +5545,8 @@ displayed due to performance issues.</li>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #7 • open • Mar 11, 2012 • mithro
-              
+                #7 • open • Mar 11, 2012 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5559,9 +5559,9 @@ displayed due to performance issues.</li>
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/4">Add a bug reporting functionality</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/4" class="issue-title">Add a bug reporting functionality</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5571,7 +5571,7 @@ displayed due to performance issues.</li>
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <p>Create a website/webpage which records information as requested below;
 ```
 If you have other problems like the sound being quiet or the display being wrong in anyway, or if you can’t get the stream to work, please send me an email with the following details;
@@ -5593,8 +5593,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #4 • open • Jun 1, 2011 • mithro
-              
+                #4 • open • Jun 1, 2011 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5607,9 +5607,9 @@ If you have other problems like the sound being quiet or the display being wrong
           <div class="row issues">
             <div class="col-sm-10">
               <h5>
-                <a href="https://github.com/timvideos/streaming-system/issues/3">Add auto-debugging</a>
+                <a href="https://github.com/timvideos/streaming-system/issues/3" class="issue-title">Add auto-debugging</a>
               </h5>
-              <div class="issue">
+              <div class="issue" data-author="mithro" data-assignee="">
                 
                   <div class="tags">
                     
@@ -5619,7 +5619,7 @@ If you have other problems like the sound being quiet or the display being wrong
                     
                   </div>
                 
-                <div class="issue-content">
+                <div class="issue-content issue-body">
                   <ul>
   <li>Does the video work?      - Switch to HD off</li>
   <li>Does the video work, now? - Switch to Flash</li>
@@ -5632,8 +5632,8 @@ If you have other problems like the sound being quiet or the display being wrong
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
-              #3 • open • Jun 1, 2011 • mithro
-              
+                #3 • open • Jun 1, 2011 • mithro
+                
               </small>
             </div>
             <div class="col-sm-2">
