@@ -25,6 +25,36 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Plans</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&lt;div&gt;I would like to make hdmi2usb usable for 720p atleast.&amp;nbsp; Since we have already achieved 30 fps, things are looking good. Now the next thing to work on is finding an optimum encoding quality so that the encoded frame fit the fx2 bandwidth and are viewable.&lt;br /&gt;&lt;br /&gt;Tariq observed that we are clocking pixels which do not have useful data. I would like to check that too. It most probably will not affect the frame rate but it might effect things at higher resolution.&lt;br /&gt;&lt;br /&gt;How did fps improve to 30 fps?&lt;br /&gt;In the original read/write state machine of DDR, read and writes did not happen simultaneously. I modified the read and write state machine to start encoding as soon as 8 lines are read into the DDR. This allows encoding of every alternate frame and hence fps of 30. In case Shenki you want to test it on your system, then here is the &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VSlUtT19xbDBKLWM/edit?usp=sharing&quot;&gt;xsvf file&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;How things can be improved further?&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Double/triple buffering: Can improve the frame rate to the maximum frame rate of the encoder(currently it is 40 fps).&lt;/li&gt;&lt;li&gt;Using two encoder instead of one: Now as every alternate frame is being dropped, another encoder can be used to process these frames. This way we can get fully 60Hz frame rate. But there are issuses:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Already the encoder is taking up almost half of the BRAMs available. So there might not be enough space for adding another encoder or if it is possible to add another encoder, there might not be enough space for other features which are going to be added.&lt;/li&gt;&lt;li&gt;As two encoded frames will be produced simultaneously, an way to send these to host via fx2 has to be designed which in turn will cost more memory.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;(Suggested by shenki)Removing DDR image buffer and storing frames directly into the line buffer: I am not sure if it is possible. Wil have to check.&lt;/li&gt;&lt;li&gt;Subsampling: Currently the encoder takes in RGB888 and converts into YCrCb and then subsamples it at 4:2:2. This can be changed into 4:2:0. This can reduce encoding time and might help us with the bandwidth issues.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</link>
+      <description>We're halfway through!&lt;br /&gt;&lt;br /&gt;Coagulated and arranged the components on PCB.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; height=&quot;379&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I'll ask Rohit to help me verify the VHDCI footprint by taking a printout of this and checking it against the VHDCI connector he has for right fit and correct alignment.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>6 July '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</link>
       <description>&lt;p&gt;I merged some commits Skay made a few days ago and made some changes:&lt;/p&gt;
@@ -262,36 +292,6 @@
 </description>
       <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</guid>
-      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Fixing timing issue in capturing HDMI</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</link>
-      <description>The HDMI traffic that is generated is not being properly captured. At the moment, this is being debugged. Simulation is an integral part of this project which is missing in its sister project. The goal is to send real traffic so that at the destination we know what we are receiving. Right now RGB values get out of synchronization. Synchronization is so important. I have the necessary blocks to send HDMI data as Ethernet frames but the goal is to send right HDMI values which are with respect HSYNC and VSYNC.&lt;br /&gt;&lt;br /&gt;Here is one snapshot which shows HCOUNT and VCOUNT not consistent with sys_clk.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://tinypic.com/view.php?pic=2wnte3d&amp;amp;s=8#.U7NwtB__6b5&quot;&gt;HDMI Frame 1st row of pixels&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;It will be debugged by tomorrow hopefully.&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit#heading=h.fnxxz0x6v3xd&quot;&gt;Spec&lt;/a&gt; will be updated tomorrow with what constitutes the right RGB values i.e., which RGB values need to be sent and which ones to be ignored.&lt;br /&gt;&lt;br /&gt;The immediate plan is&lt;br /&gt;&lt;br /&gt;1) to send the synchronized RGB as RTP packets via Ethernet and test it if they are being received correctly at the hardware level.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/fixing-timing-issue-in-capturing-hdmi/</guid>
-      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Completed mid term report&lt;/li&gt;&lt;li&gt;Studied about DDR2&lt;/li&gt;&lt;li&gt;Studied about double and triple buffering. Here is an excellent link to the same. http://www.anandtech.com/show/2794/2&lt;/li&gt;&lt;li&gt;Tomorrow I will try to change the image buffer SM such that encoding starts as soon as 8 lines are written into DDR. If this works frame rate should increase.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/daily-snippet/</guid>
       <dc:date>2014-07-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>
