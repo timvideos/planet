@@ -32,6 +32,16 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>6 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</link>
+      <description>&lt;p&gt;I merged some commits Skay made a few days ago and made some changes:&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -232,21 +242,6 @@
 </description>
       <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-created-branch-master-at-pinoss-supybot-co/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 29/06/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</link>
-      <description>&lt;b&gt;[configuration]&lt;/b&gt; finally I figured out how Supybot should be configured and I have basic configuration (&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;). Supybot checks for changes in RSS for every 15 minutes and sends a message to irc channel. I've used and tested it on my test chanel on freenode, tomorrow I will add that bot to our server to run on actually used channel.&lt;br /&gt;&lt;br /&gt;Finally I've passed all my exams and now I will have more time for work. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/gsoc-snippet-29-06-2014/</guid>
       <dc:date>2014-06-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>
