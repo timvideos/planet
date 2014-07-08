@@ -67,7 +67,7 @@ module Jekyll
       special_filters.each do |filter|
         issues_filter_values[filter.downcase] = {
           'name'   => filter,
-          'values' => issues_filter_values[filter.downcase].compact.uniq.sort
+          'values' => issues_filter_values[filter.downcase].flatten.compact.uniq.sort
         }
       end
 
@@ -119,15 +119,15 @@ module Jekyll
       special_filter_value = {}
       special_filters.each do |filter|
         filter_regex =  /\A(#{filter})\s*\-\s*(.+)\z/i
-        special_label = labels.find { |label| label['name'] =~ filter_regex }
+        special_labels = labels.select { |label| label['name'] =~ filter_regex }
 
-        if special_label.nil?
+        if special_labels.empty?
           special_filter_value[filter.downcase] = {
             'name'  => filter,
             'value' => nil
           }
         else
-          value = special_label['name'][filter_regex, 2]
+          value = special_labels.map { |special_label| special_label['name'][filter_regex, 2] }
           special_filter_value[filter.downcase] = {
             'name'  => filter,
             'value' => value

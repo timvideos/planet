@@ -285,6 +285,10 @@ padding-bottom: 0;
   display: none;
 }
 
+#main .issue-special-filter-name {
+  font-weight: bold;
+}
+
 .spacer {
   margin-top: 20px;
 }

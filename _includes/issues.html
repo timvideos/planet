@@ -97,7 +97,7 @@
               <h5>
                 <a href="{{ issue.url }}" class="issue-title">{{ issue.title }}</a>
               </h5>
-              <div class="issue" data-author="{{ issue.user_login }}" data-assignee="{{ issue.assignee_login }}"{% for filter in issue.special_filter_value %} data-{{ filter[0] }}="{{ filter[1].value }}"{% endfor %}>
+              <div class="issue" data-author="{{ issue.user_login }}" data-assignee="{{ issue.assignee_login }}"{% for filter in issue.special_filter_value %} data-{{ filter[0] }}="{{ filter[1].value | join: ';' }}"{% endfor %}>
                 {% if issue.labels %}
                   <div class="tags">
                     {% for label in issue.labels %}
@@ -108,7 +108,25 @@
                   </div>
                 {% endif %}
                 <div class="issue-content issue-body">
-                  {{ issue.body | markdownify }}
+                  <h4>Issue body</h4>
+                  <div>
+                    {{ issue.body | markdownify }}
+                  </div>
+                  <h4>Issue details</h4>
+                  <div class="issue-details">
+                    {% for filter in issue.special_filter_value %}
+                      {% if filter[1].value %}
+                        <div class="issue-detail">
+                          <div class="col-sm-4 issue-special-filter-name">
+                            {{ filter[1].name | capitalize }}
+                          </div>
+                          <div class="col-sm-8">
+                            {{ filter[1].value | join: ', ' }}
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
                 </div>
                 <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
