@@ -46,8 +46,8 @@ module Jekyll
     #
     # Returns nothing
     def generate_for_all(site)
-      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
-      allowed_tags  = site.config['rss_allowed_tags'].split  ' ' rescue []
+      allowed_types = site.config['rss']['allowed_types'].split ' ' rescue []
+      allowed_tags  = site.config['rss']['allowed_tags'].split  ' ' rescue []
 
         # Create the rss with the help of the RSS module
       generate_rss(site,  site.config['name']) do |post|
@@ -65,8 +65,8 @@ module Jekyll
     #
     # Returns nothing
     def generate_for_categories(site)
-      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
-      allowed_tags  = site.config['rss_allowed_tags'].split ' ' rescue []
+      allowed_types = site.config['rss']['allowed_types'].split ' ' rescue []
+      allowed_tags  = site.config['rss']['allowed_tags'].split ' ' rescue []
 
       category_dir = site.config['category_dir'] || 'categories'
       tag_dir = site.config['tag_dir'] || 'tags'
@@ -103,7 +103,7 @@ module Jekyll
     #
     # Returns nothing
     def generate_for_tags(site)
-      allowed_types = site.config['rss_allowed_types'].split ' ' rescue []
+      allowed_types = site.config['rss']['allowed_types'].split ' ' rescue []
       tag_dir = site.config['tag_dir'] || 'tags'
 
       site.tags.keys.each do |tag|
@@ -131,10 +131,10 @@ module Jekyll
         maker.channel.updated = site.posts.map { |p| p.date  }.max
         maker.channel.copyright = site.config['copyright']
 
-        post_limit = (site.config['rss_post_limit'] - 1 rescue site.posts.count)
+        post_limit = (site.config['rss']['post_limit'] - 1 rescue site.posts.count)
 
-        allowed_tags = site.config['rss_allowed_tags'].split " " rescue []
-        allowed_types = site.config['rss_allowed_types'].split " " rescue []
+        allowed_tags = site.config['rss']['allowed_tags'].split " " rescue []
+        allowed_types = site.config['rss']['allowed_types'].split " " rescue []
 
         filtered_posts = site.posts.select do |post|
           block_given? ? yield(post) : true
@@ -154,8 +154,8 @@ module Jekyll
       end
 
       # File creation and writing
-      rss_path = ensure_slashes(path || site.config['rss_path'] || "/")
-      rss_name = name || site.config['rss_name'] || "rss.xml"
+      rss_path = ensure_slashes(path || site.config['rss']['path'] || "/")
+      rss_name = name || site.config['rss']['name'] || "rss.xml"
       full_path = File.join(site.dest, rss_path)
       ensure_dir(full_path)
 

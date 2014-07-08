@@ -20,27 +20,34 @@ module Jekyll
     def generate(site)
       site.pages.each do |page|
         if page.data.key? 'issues'
-          fetch_project_data(page)
+          fetch_project_data(site, page)
         end
       end
     end
 
     private
 
-    def fetch_project_data(page)
+    def fetch_project_data(site, page)
       require 'octokit'
       require 'json'
 
+      special_filters = site.config['issues']['special_filters'].split ' ' rescue []
+
       projects = page.data['issues']
 
-      issues_labels    = []
-      issues_authors   = []
-      issues_assignees = []
-      issues_titles    = []
-      projects_data    = {}
+      issues_labels        = []
+      issues_authors       = []
+      issues_assignees     = []
+      issues_titles        = []
+      issues_filter_values = {}
+      projects_data        = {}
+
+      special_filters.each do |filter|
+        issues_filter_values[filter.downcase] = []
+      end
 
       projects.each do |project|
-        issues = github_issues(project)
+        issues = github_issues(project, special_filters)
         next if issues.empty?
 
         projects_data[project] = {}
@@ -51,6 +58,17 @@ module Jekyll
         issues_labels    += issues.map { |issue| issue['labels'] }
         issues_authors   += issues.map { |issue| issue['user_login'] }
         issues_assignees += issues.map { |issue| issue['assignee_login'] }
+        
+        special_filters.each do |filter|
+          issues_filter_values[filter.downcase] += issues.map { |issue| issue['special_filter_value'][filter.downcase]['value'] }
+        end
+      end
+      
+      special_filters.each do |filter|
+        issues_filter_values[filter.downcase] = {
+          'name'   => filter,
+          'values' => issues_filter_values[filter.downcase].compact.uniq.sort
+        }
       end
 
       page.data['issues_titles']    = issues_titles.compact.uniq.sort.to_json
@@ -58,9 +76,11 @@ module Jekyll
       page.data['issues_assignees'] = issues_assignees.compact.uniq.sort.to_json
       page.data['issues_labels']    = issues_labels.compact.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
       page.data['issues_data']      = projects_data
+
+      page.data['issues_special_filters'] = issues_filter_values
     end
 
-    def github_issues(project)
+    def github_issues(project, special_filters = [])
       result = []
 
       page = 1
@@ -72,10 +92,10 @@ module Jekyll
         result += data
       end while !data.nil? and !data.empty?
 
-      result.map { |issue| parse_issue(issue) }
+      result.map { |issue| parse_issue(issue, special_filters) }
     end
 
-    def parse_issue(issue)
+    def parse_issue(issue, special_filters = [])
       result = {}
 
       result['user_avatar'] = issue[:user][:avatar_url]
@@ -95,7 +115,31 @@ module Jekyll
         }
       end
 
+
+      special_filter_value = {}
+      special_filters.each do |filter|
+        filter_regex =  /\A(#{filter})\s*\-\s*(.+)\z/i
+        special_label = labels.find { |label| label['name'] =~ filter_regex }
+
+        if special_label.nil?
+          special_filter_value[filter.downcase] = {
+            'name'  => filter,
+            'value' => nil
+          }
+        else
+          value = special_label['name'][filter_regex, 2]
+          special_filter_value[filter.downcase] = {
+            'name'  => filter,
+            'value' => value
+          }
+
+          labels.delete_if { |label| label['name'] =~ filter_regex }
+        end
+
+      end
+
       result['labels']    = labels
+      result['special_filter_value'] = special_filter_value
 
       result['number']    = issue[:number]
       result['title']     = issue[:title]

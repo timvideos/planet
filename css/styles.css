@@ -281,6 +281,10 @@ padding-bottom: 0;
   margin-top: 10px;
 }
 
+#main .issues-advanced-search {
+  display: none;
+}
+
 .spacer {
   margin-top: 20px;
 }

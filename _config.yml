@@ -17,9 +17,13 @@ opml:
     title: "Tim Videos"
     text: "Tim Videos"
 
-rss_name: feed.xml
-rss_post_limit: 20
-rss_allowed_tags: news
-rss_allowed_types: standard
-rss_categories: gsoc-2014 gsoc-2014-hdmi2usb
-rss_tags: news github
+rss:
+  name: feed.xml
+  post_limit: 20
+  allowed_tags: news
+  allowed_types: standard
+  categories: gsoc-2014 gsoc-2014-hdmi2usb
+  tags: news github
+
+issues:
+  special_filters: Project Skill Level Type Language Backend firmware
