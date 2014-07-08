@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Sending RTP packets via FPGA</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</link>
@@ -52,6 +63,21 @@
 </description>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Debugging continues and eventually pays off: One RTP packet swims across the wire</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues-and-eventually-pays-off-one-r/</link>
+      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;br /&gt;&lt;br /&gt;And finally the good news, one RTP packet made it across the English channel ( i mean the Ethernet wire).&lt;br /&gt;&lt;br /&gt;Here is the snapshot. Note that RTP is sent as UDP packet. Only Look at the first packet.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-5dVl0WgIfcY/U7uCsmMhW9I/AAAAAAAAAKM/ooWEbS64Qsg/s1600/rtp_packet_across_ethernet.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-5dVl0WgIfcY/U7uCsmMhW9I/AAAAAAAAAKM/ooWEbS64Qsg/s1600/rtp_packet_across_ethernet.jpg&quot; height=&quot;214&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Now i will send more RTP packets and work backwards towards putting a DDR2 or similar and connecting that with VTC_DEMO colorbar.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues-and-eventually-pays-off-one-r/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -263,32 +289,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/gsoc-daily-log-some-random-low-priority-things/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Changed daughterboard pinouts in schematics support PMOD I2C interface.&lt;/li&gt;&lt;li&gt;Looked at the possibility of using bidirectional isolators in data isolation stage, but it was ruled out as they were found to be expensive.&lt;/li&gt;&lt;li&gt;Re-justified use of data isolation stage in serial expansion motherboard.&lt;/li&gt;&lt;li&gt;Created new kicad modules (footprints)&lt;/li&gt;&lt;li&gt;Completed footprint association of components on motherboard schematics using CvPcb&lt;/li&gt;&lt;li&gt;Verified footprints for components and checked 0603 footprint to be imperial type instead of metric type. Checked datasheets of all components to make sure correct footprint is assigned to them.&lt;/li&gt;&lt;li&gt;Made sure only low current (2mA) LEDs are used.&lt;/li&gt;&lt;li&gt;Fixed hole dia and added shield pins in VHDCI module&lt;/li&gt;&lt;li&gt;Just started with PcbNew, will be creating new module for the daughterboard slot and start laying them out nicely.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://2.bp.blogspot.com/-oFdFbkpsL04/U7TDff_JFII/AAAAAAAADMo/5xySMPFV0x0/s1600/pcbnew.png&quot; height=&quot;170&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-08T00:00:00+00:00</dc:date>
   </channel>
 </rss>
