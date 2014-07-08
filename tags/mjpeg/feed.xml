@@ -10,6 +10,52 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew opened pull request timvideos/HDMI2USB#49</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Plans</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&lt;div&gt;I would like to make hdmi2usb usable for 720p atleast.&amp;nbsp; Since we have already achieved 30 fps, things are looking good. Now the next thing to work on is finding an optimum encoding quality so that the encoded frame fit the fx2 bandwidth and are viewable.&lt;br /&gt;&lt;br /&gt;Tariq observed that we are clocking pixels which do not have useful data. I would like to check that too. It most probably will not affect the frame rate but it might effect things at higher resolution.&lt;br /&gt;&lt;br /&gt;How did fps improve to 30 fps?&lt;br /&gt;In the original read/write state machine of DDR, read and writes did not happen simultaneously. I modified the read and write state machine to start encoding as soon as 8 lines are read into the DDR. This allows encoding of every alternate frame and hence fps of 30. In case Shenki you want to test it on your system, then here is the &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VSlUtT19xbDBKLWM/edit?usp=sharing&quot;&gt;xsvf file&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;How things can be improved further?&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Double/triple buffering: Can improve the frame rate to the maximum frame rate of the encoder(currently it is 40 fps).&lt;/li&gt;&lt;li&gt;Using two encoder instead of one: Now as every alternate frame is being dropped, another encoder can be used to process these frames. This way we can get fully 60Hz frame rate. But there are issuses:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Already the encoder is taking up almost half of the BRAMs available. So there might not be enough space for adding another encoder or if it is possible to add another encoder, there might not be enough space for other features which are going to be added.&lt;/li&gt;&lt;li&gt;As two encoded frames will be produced simultaneously, an way to send these to host via fx2 has to be designed which in turn will cost more memory.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;(Suggested by shenki)Removing DDR image buffer and storing frames directly into the line buffer: I am not sure if it is possible. Wil have to check.&lt;/li&gt;&lt;li&gt;Subsampling: Currently the encoder takes in RGB888 and converts into YCrCb and then subsamples it at 4:2:2. This can be changed into 4:2:0. This can reduce encoding time and might help us with the bandwidth issues.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -232,62 +278,6 @@
       <pubDate>Tue, 03 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/03/uart-documentation/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Weekend Review</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Work done in last week: &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Investigated the effect of encoding quality.&lt;/li&gt;&lt;li&gt;Investigated the effect of post jpeg stages&lt;/li&gt;&lt;li&gt;Changed FSM of JPEG core&lt;/li&gt;&lt;li&gt;Underclocking of Jpeg core&lt;/li&gt;&lt;li&gt;Studied Chroma Subsampling&lt;/li&gt;&lt;li&gt;Wrote code of UART (alpha stage)&lt;/li&gt;&lt;/ul&gt;Work to be done this week:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Complete UART implementation with documentation on how to use it so that it can be used by other developers.(2-3 days)&lt;/li&gt;&lt;li&gt;&amp;nbsp;Then try one of these:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Investigate performance of pre-jpeg blocks. &lt;/li&gt;&lt;li&gt;Write a test bench to simulate the HDMI2USB firmware.(Will take a week or two).&lt;/li&gt;&lt;li&gt;Implement chroma subsampling 4:2:0.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/weekend-review/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Wrote a code to test the UART on hardware&lt;/li&gt;&lt;li&gt;Wasted a lot of time trying to get the driver running. Shenki changed the source code to make it compatible with latest kernel but my terminal hangs when I install the drivers.&lt;/li&gt;&lt;li&gt;Finally tested the UART using Windows. Working!&lt;/li&gt;&lt;li&gt;Tested the code for different baud rates. Working for 19200.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Integrate the code with HDMI2USB and test it.&lt;/li&gt;&lt;li&gt;If things work, write documentation and give to HDMI2USB community to test. &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/daily-snippet/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/02/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&amp;nbsp;Today&lt;br /&gt;[Code] UART done with Testbench&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;&lt;br /&gt;Test it on hardware&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 30 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/05/30/snippet/</guid>
-      <dc:date>2014-05-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-08T00:00:00+00:00</dc:date>
   </channel>

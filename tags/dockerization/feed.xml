@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>GSoC Update 7-8</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to docker at maxstr/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
       <description>&lt;!-- push --&gt;
@@ -213,17 +223,6 @@
       <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</guid>
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to patch-1 at maxstr/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-pushed-to-patch-1-at-maxstr-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/05/maxstr-pushed-to-patch-1-at-maxstr-planet/</guid>
-      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-08T00:00:00+00:00</dc:date>
   </channel>

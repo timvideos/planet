@@ -21,6 +21,16 @@
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>GSoC Update 7-8</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>FGDP Ported</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/fgdp-ported/</link>
       <description>&lt;p&gt;I have been working on porting FGDP producer and consumer for a while now. It’s ported completely and the test pass, but I need to test it with the streams. Basically the FGDP sink and src elements register functions do not register the plugins automatically and we need to explicitly register them. There were a few other regular API changes as well.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
@@ -234,17 +244,6 @@
 </description>
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-08T00:00:00+00:00</dc:date>
