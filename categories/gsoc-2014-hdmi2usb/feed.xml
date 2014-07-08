@@ -55,6 +55,21 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</link>
+      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</link>
       <description>We're halfway through!&lt;br /&gt;&lt;br /&gt;Coagulated and arranged the components on PCB.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; height=&quot;379&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I'll ask Rohit to help me verify the VHDCI footprint by taking a printout of this and checking it against the VHDCI connector he has for right fit and correct alignment.&lt;div class=&quot;author&quot;&gt;
@@ -273,21 +288,6 @@
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Reading</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 2nd July:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-fc45-9b45-495d-1b05c52fbf23&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the about clock-crossing. Some implementation assume data arriving a slower rate compared to both clocks. While some other use FIFOs.&amp;nbsp; &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Read the Xilinx’s app-note XAPP224 - Data Recovery. Seems this one can be used. Only problem is that it specifies “ At least one data transition is required in the time that the circuit takes to drift one-quarter clock period. Example for a local oscillator 401 MHz and data arriving a 400Mbps, the circuit requires at least one negative transition every 100 clock cycles to function correctly.” Also it says “Care should be taken if the received data is a raw bitstream, because an adequate number of transitions may not exist.”&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Started writing a new improved test code&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/02/gsoc-daily-log-reading/</guid>
-      <dc:date>2014-07-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>
   </channel>

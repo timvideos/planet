@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 07/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added basic search/filter engine working only for author, title, body and assignee fields in issues on Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed javascripts folder structure: plugins moved to&lt;b&gt; /js/plugins&lt;/b&gt; directory and all custom JavasScripts are in &lt;b&gt;/js&lt;/b&gt; directory. I've also changed variable name styles of some variables in own written JavaScritps from &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;lowercase_separated_by_underscores &lt;/span&gt;to &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;camelCase&lt;/span&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add filters based on labels (Project, Skill, Level, Type, Language). I will create solution that is generic and will work also for new filters added after development&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>6 July '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</link>
       <description>&lt;p&gt;I merged some commits Skay made a few days ago and made some changes:&lt;/p&gt;
@@ -247,16 +262,6 @@
 </description>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/porting-overlay-convertor/</guid>
-      <dc:date>2014-06-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-20</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</link>
-      <description>&lt;h2&gt;snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/21/gsoc-update-6-20/</guid>
       <dc:date>2014-06-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>

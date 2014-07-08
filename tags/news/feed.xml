@@ -40,6 +40,21 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 07/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added basic search/filter engine working only for author, title, body and assignee fields in issues on Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed javascripts folder structure: plugins moved to&lt;b&gt; /js/plugins&lt;/b&gt; directory and all custom JavasScripts are in &lt;b&gt;/js&lt;/b&gt; directory. I've also changed variable name styles of some variables in own written JavaScritps from &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;lowercase_separated_by_underscores &lt;/span&gt;to &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;camelCase&lt;/span&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add filters based on labels (Project, Skill, Level, Type, Language). I will create solution that is generic and will work also for new filters added after development&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Interesting</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 7th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Some amusing things going on! If I use DCM_SP in place of DCM_CLKGEN, with *exact* same CLKFX_DIVIDE &amp;amp; CLKFX_MULTIPLY values and also same connections, the screen would go blank, but the PLL would indicate locked status. Same goes for the case when I directly connect the PLL to DATACK instead of through DCM. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br class=&quot;kix-line-break&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I suspect this tells that the DATACK clock is not clean.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I strongly suspected, that this may be due to design issue. So, I investigated some documents on DATACK. First, the AD9984A’s datasheet. It’s PCB design guidelines say adding 50-200 ohm resistor to reduce reflections. But, The reference schematic for AD9984 uses 22 ohm resistors for all clocks (DATACK, HSOUT, VSOUT &amp;amp; SOGOUT) whereas, uses 50 ohm for the data lines. I found one more schematic(FMCVideo_sch_RevD.pdf) &amp;nbsp;from Xilinx using AD9984A. This one didn’t use any series resistor on any digital lines. I don’t know how much impact it does at 65MHz, but I strongly suspect either this or other physical design issue in the PCB. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -52,6 +67,21 @@
 </description>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</link>
+      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -262,36 +292,6 @@
 </description>
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 02/07/2014 and 03/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</link>
-      <description>Last few days I've had some problems with Internet connection, because I am currently in Croatia for 2 weeks. But finally I bought safe and quite fast Internet here and started to work again. Because I had poor Internet connection I wasn't able even to commit and connect to SSH (because of timeout error), but now it seems to work good.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've started working on issues, did some research and read about it, and created new page on planet with issues to start working on it (currently it has contains only list with issues, but soon I will add more features to that).&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've created new configuration for supybot to notificate new planet news on IRC. I think all is ready to be deployed on our server, but I need to talk with Tim how to add that supybot to server (run manually or with crontab, or as a deamon, to make sure that will always work).&lt;br /&gt;&lt;br /&gt;Next days I will spend working on issues, adding new functionalities, etc.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Some random low-priority things</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/gsoc-daily-log-some-random-low-priority-things/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-01f2-725e-c403-8e3cfcfc1161&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 3rd July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-01f2-725e-c403-8e3cfcfc1161&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Took a break from VGA capturing, Wrote VHDL code for I2C initialization of AD9984A and also UART-to-I2C bridge, so that normal users can initialize and changes settings (such as gain, offset etc) dynamically through their PC (like using python serial module). It is working but is not reliable, fails 1 out of 10 times.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Standard one-off initialization code almost complete. Will do it by tomorrow.&lt;/span&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span id=&quot;docs-internal-guid-4adff4a2-01fe-b431-13b8-9e29748cc909&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Arranging for a oscilloscope. Talked to some people who could allow me to use it or lend it.&lt;/span&gt; &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/gsoc-daily-log-some-random-low-priority-things/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>

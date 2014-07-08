@@ -55,6 +55,21 @@
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</link>
+      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
+      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</link>
       <description>We're halfway through!&lt;br /&gt;&lt;br /&gt;Coagulated and arranged the components on PCB.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; height=&quot;379&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I'll ask Rohit to help me verify the VHDCI footprint by taking a printout of this and checking it against the VHDCI connector he has for right fit and correct alignment.&lt;div class=&quot;author&quot;&gt;
@@ -292,21 +307,6 @@
 </description>
       <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/gsoc-weekly-overview-days-of-slient-hardwork/</guid>
-      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</link>
-      <description>&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;RS422/RS485 daughterboard schematics done.&lt;/li&gt;&lt;li&gt;Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.&lt;/li&gt;&lt;li&gt;Reduced 6 ports to 5 ports in serial expansion board.&lt;/li&gt;&lt;li&gt;PIC18F connections almost sorted out with port J left vacant.&lt;/li&gt;&lt;li&gt;Implemented the bus design in motherboard schematic.&lt;/li&gt;&lt;/ul&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-07T00:00:00+00:00</dc:date>
