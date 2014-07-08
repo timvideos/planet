@@ -64,198 +64,224 @@
             <input type="text" class="form-control typeahead" id="inputAuthor" placeholder="Author" name="author">
           </div>
         </div>
-        <div class="form-group issues-assignee">
-          <label for="inputAssignee" class="col-sm-2 control-label">Assignee</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control typeahead" id="inputAssignee" placeholder="Assignee" name="assignee">
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-default issues-advanced">Advanced search</button>
           </div>
         </div>
-        <div class="form-group">
-          <label class="col-sm-2 control-label">Assigneed?</label>
-          <div class="col-sm-10">
-            <div class="checkbox">
-              <input type="checkbox" id="inputAssigneedYes" name="assigneedYes"> <label for="inputAssigneedYes"><span class="glyphicon glyphicon-ok"></span></label>
+        <div class="issues-advanced-search">
+          <div class="form-group issues-assignee">
+            <label for="inputAssignee" class="col-sm-2 control-label">Assignee</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control typeahead" id="inputAssignee" placeholder="Assignee" name="assignee">
             </div>
           </div>
-        </div>
-        
           <div class="form-group">
-            <label for="inputLabels" class="col-sm-2 control-label">Labels</label>
+            <label class="col-sm-2 control-label">Assigneed?</label>
             <div class="col-sm-10">
-              <div class="labels">
-                
-                  <span class="label label-tag label-selector" style="background-color: #009800;">
-                    atlys-only
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Portable Box - Budget
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - Developer Tools
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - Flumotion
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - HDMI2USB
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - HDMI2USB (Extension Boards)
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - Streaming System (Website)
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - Veyepar
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - gst-switch
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    Project - gstreamer
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02d7e1;">
-                    pie in sky
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Language - C
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Language - Javascript/HTML
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Language - Python
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Language - Ruby
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Language - VHDL / Verilog
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Skill - DevOps / System Administration
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Skill - Django
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    Skill - Electronics & Tools
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #02e10c;">
-                    hardware
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #5319e7;">
-                    Level - Challenging
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #5319e7;">
-                    Level - Easy
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #5319e7;">
-                    Level - Medium
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #7851a9;">
-                    Backend - Deploy
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #800080;">
-                    Backend - Scripts
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #84b6eb;">
-                    enhancement
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #84b6eb;">
-                    new-project
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #bf00ff;">
-                    Backend - Flumotion
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #bfdadc;">
-                    kind-of-related
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #cc317c;">
-                    question
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #d7e102;">
-                    Type - Firmware
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #d7e102;">
-                    Type - Hardware
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #d7e102;">
-                    Type - Software
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #d7e102;">
-                    cleanup
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #d7e102;">
-                    software
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #e102d8;">
-                    firmware-cypress
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #e102d8;">
-                    firmware-fpga
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #e102d8;">
-                    firmware-pic
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #e10c02;">
-                    Frontend
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #e10c02;">
-                    Hot
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #ededed;">
-                    in progress
-                  </span>
-                
-                  <span class="label label-tag label-selector" style="background-color: #fc2929;">
-                    bug
-                  </span>
-                
+              <div class="checkbox">
+                <input type="checkbox" id="inputAssigneedYes" name="assigneedYes"> <label for="inputAssigneedYes"><span class="glyphicon glyphicon-ok"></span></label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="inputAssigneedNo" name="assigneedNo"> <label for="inputAssigneedNo"><span class="glyphicon glyphicon-remove"></span></label>
               </div>
             </div>
           </div>
-        
+          
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Project</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectDeveloper Tools" name="projectDeveloper Tools"> <label for="inputProjectDeveloper Tools">Developer Tools</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectFlumotion" name="projectFlumotion"> <label for="inputProjectFlumotion">Flumotion</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectHDMI2USB" name="projectHDMI2USB"> <label for="inputProjectHDMI2USB">HDMI2USB</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectHDMI2USB (Extension Boards)" name="projectHDMI2USB (Extension Boards)"> <label for="inputProjectHDMI2USB (Extension Boards)">HDMI2USB (Extension Boards)</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectStreaming System (Website)" name="projectStreaming System (Website)"> <label for="inputProjectStreaming System (Website)">Streaming System (Website)</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectVeyepar" name="projectVeyepar"> <label for="inputProjectVeyepar">Veyepar</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectgst-switch" name="projectgst-switch"> <label for="inputProjectgst-switch">gst-switch</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputProjectgstreamer" name="projectgstreamer"> <label for="inputProjectgstreamer">gstreamer</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Skill</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputSkillDevOps / System Administration" name="skillDevOps / System Administration"> <label for="inputSkillDevOps / System Administration">DevOps / System Administration</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputSkillDjango" name="skillDjango"> <label for="inputSkillDjango">Django</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputSkillElectronics & Tools" name="skillElectronics & Tools"> <label for="inputSkillElectronics & Tools">Electronics & Tools</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Level</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLevelChallenging" name="levelChallenging"> <label for="inputLevelChallenging">Challenging</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLevelEasy" name="levelEasy"> <label for="inputLevelEasy">Easy</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLevelMedium" name="levelMedium"> <label for="inputLevelMedium">Medium</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Type</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputTypeFirmware" name="typeFirmware"> <label for="inputTypeFirmware">Firmware</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputTypeSoftware" name="typeSoftware"> <label for="inputTypeSoftware">Software</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Language</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLanguageC" name="languageC"> <label for="inputLanguageC">C</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLanguageJavascript/HTML" name="languageJavascript/HTML"> <label for="inputLanguageJavascript/HTML">Javascript/HTML</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLanguagePython" name="languagePython"> <label for="inputLanguagePython">Python</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputLanguageVHDL / Verilog" name="languageVHDL / Verilog"> <label for="inputLanguageVHDL / Verilog">VHDL / Verilog</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Backend</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputBackendDeploy" name="backendDeploy"> <label for="inputBackendDeploy">Deploy</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputBackendFlumotion" name="backendFlumotion"> <label for="inputBackendFlumotion">Flumotion</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputBackendScripts" name="backendScripts"> <label for="inputBackendScripts">Scripts</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Firmware</label>
+                <div class="col-sm-10">
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputFirmwarecypress" name="firmwarecypress"> <label for="inputFirmwarecypress">cypress</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputFirmwarefpga" name="firmwarefpga"> <label for="inputFirmwarefpga">fpga</label>
+                    </div>
+                  
+                    <div class="checkbox">
+                      <input type="checkbox" id="inputFirmwarepic" name="firmwarepic"> <label for="inputFirmwarepic">pic</label>
+                    </div>
+                  
+                </div>
+              </div>
+            
+          
+          
+            <div class="form-group">
+              <label for="inputLabels" class="col-sm-2 control-label">Labels</label>
+              <div class="col-sm-10">
+                <div class="labels">
+                  
+                    <span class="label label-tag label-selector" style="background-color: #009800;">atlys-only</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #02d7e1;">Portable Box - Budget</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #02d7e1;">pie in sky</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #02e10c;">hardware</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #84b6eb;">enhancement</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #84b6eb;">new-project</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #bfdadc;">kind-of-related</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #cc317c;">question</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #d7e102;">cleanup</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #d7e102;">software</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #e10c02;">Frontend</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #e10c02;">Hot</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #ededed;">in progress</span>
+                  
+                    <span class="label label-tag label-selector" style="background-color: #fc2929;">bug</span>
+                  
+                </div>
+              </div>
+            </div>
+          
+        </div>
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
             <button class="btn btn-default issues-search">Search!</button>
@@ -280,29 +306,9 @@
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/25" class="issue-title">[streaming-system] Automated build and configuration of full streaming system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Challenging
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Streaming System (Website)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - DevOps / System Administration
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -389,28 +395,12 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/24" class="issue-title">[gstreamer] Create a gstreamer plugin for Lenkeng HDMI over IP extender</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="gstreamer" data-skill="" data-level="Medium" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #e10c02;">
                         Hot
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - C
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - gstreamer
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
                       </span>
                     
                   </div>
@@ -498,29 +488,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/23" class="issue-title">[gst-switch] Track the speaker! Zoom! Pan! Tilt!</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="">
+              <div class="issue" data-author="iiie" data-assignee="" data-project="gst-switch" data-skill="Electronics & Tools" data-level="Challenging" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - C
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Challenging
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - gst-switch
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Electronics & Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -564,25 +534,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/22" class="issue-title">[Veyepar] Use avahi / zeroconfig to find our hosts on the network</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="">
+              <div class="issue" data-author="iiie" data-assignee="" data-project="Veyepar" data-skill="" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Veyepar
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -644,29 +598,9 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/21" class="issue-title">[streaming-system #56] Dockerize flumotion and support components</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="">
+              <div class="issue" data-author="iiie" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Streaming System (Website)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - DevOps / System Administration
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -774,32 +708,12 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/20" class="issue-title">[streaming-system] Make the code.timvideos.us developer website awesome!</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="pinoss">
+              <div class="issue" data-author="parx" data-assignee="pinoss" data-project="Developer Tools" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #ededed;">
                         in progress
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Javascript/HTML
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Ruby
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Developer Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
                       </span>
                     
                   </div>
@@ -884,33 +798,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/19" class="issue-title">[streaming-system] TimVideos.us website (viewing interface) improvements</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Javascript/HTML
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Streaming System (Website)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Django
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -980,29 +870,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/18" class="issue-title">[HDMI2USB] Intelligent Auto Audio gain </a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
-                      </span>
                     
                   </div>
                 
@@ -1040,45 +910,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/17" class="issue-title">[HDMI2USB] firmware auto-builder</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="Developer Tools" data-skill="DevOps / System Administration" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Developer Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - DevOps / System Administration
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Electronics & Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -1149,25 +983,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/16" class="issue-title">[Veyepar] JSON schedule output into website</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="Veyepar" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Veyepar
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -1241,28 +1059,12 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/15" class="issue-title">[gstreamer] Productionize/Update gstreamer dvswitch plugin</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="gstreamer" data-skill="" data-level="Easy" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #e10c02;">
                         Hot
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - C
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - gstreamer
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
                       </span>
                     
                   </div>
@@ -1337,28 +1139,12 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/14" class="issue-title">[HDMI2USB #32] MJPEG core optimisation </a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="">
+              <div class="issue" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #e10c02;">
                         Hot
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
                       </span>
                     
                   </div>
@@ -1428,25 +1214,9 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/11" class="issue-title">[streaming-system] Create a mobile theme for the website</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Javascript/HTML
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Streaming System (Website)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -1487,33 +1257,9 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/10" class="issue-title">[hdmi2usb] Create a serial port extension board - Support both RS232 and RS485 modes.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB (Extension Boards)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Electronics & Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
-                      </span>
                     
                   </div>
                 
@@ -1560,32 +1306,12 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/9" class="issue-title">[flumotion] Port Flumotion to the gstreamer-1.0 API</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #e10c02;">
                         Hot
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Challenging
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Flumotion
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - gstreamer
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
                       </span>
                     
                   </div>
@@ -1675,25 +1401,9 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/7" class="issue-title">[HDMI2USB #15] HDMI Audio to USB Sound </a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Easy" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
                     
                   </div>
                 
@@ -1731,25 +1441,9 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/6" class="issue-title">[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
                     
                   </div>
                 
@@ -1832,36 +1526,12 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/5" class="issue-title">[HDMI2USB #13] Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #e10c02;">
                         Hot
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Medium
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB (Extension Boards)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Electronics & Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
                       </span>
                     
                   </div>
@@ -1896,29 +1566,9 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/4" class="issue-title">[streaming-system #4] Add bug / feedback reporting from end users system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Javascript/HTML
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Streaming System (Website)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Django
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -1998,25 +1648,9 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/3" class="issue-title">[flumotion] Create a RTMP flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - Python
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Easy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - Flumotion
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Software
-                      </span>
                     
                   </div>
                 
@@ -2070,33 +1704,9 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/2" class="issue-title">[HDMI2USB #11] Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Challenging" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Language - VHDL / Verilog
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #5319e7;">
-                        Level - Challenging
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02d7e1;">
-                        Project - HDMI2USB (Extension Boards)
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #02e10c;">
-                        Skill - Electronics & Tools
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Firmware
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #d7e102;">
-                        Type - Hardware
-                      </span>
                     
                   </div>
                 
@@ -2154,17 +1764,9 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/48" class="issue-title">Expose I2C interfaces via USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                   </div>
                 
@@ -2194,16 +1796,12 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/47" class="issue-title">Get real VID:PID values for HDMI2USB project</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #fc2929;">
                         bug
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
                       </span>
                     
                   </div>
@@ -2242,20 +1840,12 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/46" class="issue-title">fx2 uvc firmware does not enumerate </a>
               </h5>
-              <div class="issue" data-author="shenki" data-assignee="">
+              <div class="issue" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #fc2929;">
                         bug
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #02e10c;">
@@ -2317,7 +1907,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/45" class="issue-title">Board not accepting USB device number</a>
               </h5>
-              <div class="issue" data-author="puck" data-assignee="">
+              <div class="issue" data-author="puck" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2370,7 +1960,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/44" class="issue-title">Connect the USB-UART connector to the control system inside the firmware</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -2380,10 +1970,6 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                   </div>
@@ -2416,16 +2002,12 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/42" class="issue-title">Better EDID information</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
                       </span>
                     
                   </div>
@@ -2457,7 +2039,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/41" class="issue-title">Issue #33 New Test Image Generator with more life </a>
               </h5>
-              <div class="issue" data-author="rohit91" data-assignee="">
+              <div class="issue" data-author="rohit91" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2490,7 +2072,7 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/39" class="issue-title">Issue #31 : Module for Heart Beat on static images added</a>
               </h5>
-              <div class="issue" data-author="ajitmathew" data-assignee="">
+              <div class="issue" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2521,7 +2103,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/38" class="issue-title">Resolve warnings in firmware build</a>
               </h5>
-              <div class="issue" data-author="shenki" data-assignee="">
+              <div class="issue" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2557,20 +2139,12 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/36" class="issue-title">Surface the Spartan 6's Device DNA serial number in the USB information</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                   </div>
@@ -2682,13 +2256,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/35" class="issue-title">Create a "Altera USB Blaster" emulation software for PIC18F series</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-pic
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #bfdadc;">
                         kind-of-related
@@ -2740,13 +2310,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/34" class="issue-title">Create a NeroJTAG compatible firmware for the PIC18F series chips</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-pic
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #bfdadc;">
                         kind-of-related
@@ -2786,16 +2352,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/33" class="issue-title">Make the "test" image nicer.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #02d7e1;">
@@ -2828,13 +2390,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/32" class="issue-title">Optimisation MJPEG to support atleast 720p@30fps</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                   </div>
                 
@@ -2866,16 +2424,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/31" class="issue-title">Heartbeat on static images</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="">
+              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                   </div>
@@ -2906,16 +2460,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/30" class="issue-title">640x480 inputs cause corrupted display</a>
               </h5>
-              <div class="issue" data-author="micolous" data-assignee="">
+              <div class="issue" data-author="micolous" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #fc2929;">
                         bug
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                   </div>
@@ -2956,7 +2506,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/29" class="issue-title">Write a "debug script"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3000,7 +2550,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/27" class="issue-title">Analyse existing VGA2HDMI solutions</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3034,13 +2584,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/26" class="issue-title">Verification setups</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                   </div>
                 
@@ -3118,16 +2664,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/20" class="issue-title">Support HDMI CEC control</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #02d7e1;">
@@ -3160,16 +2702,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/19" class="issue-title">Support dumping raw HDMI data that can be loaded into wireshark</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #02d7e1;">
@@ -3202,16 +2740,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/17" class="issue-title">Investigate (and hopefully mitigate) JPEG block boundary artifacts on fine text detail</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #fc2929;">
                         bug
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #cc317c;">
@@ -3246,16 +2780,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/16" class="issue-title">Convert cypress firmware to be compiled by sdcc</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-cypress
                       </span>
                     
                   </div>
@@ -3293,13 +2823,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/15" class="issue-title">HDMI Audio to USB Sound</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #02d7e1;">
                         pie in sky
@@ -3331,16 +2857,12 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/14" class="issue-title">Look at supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #009800;">
                         atlys-only
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #02d7e1;">
@@ -3373,13 +2895,9 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/13" class="issue-title">Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #02e10c;">
                         hardware
@@ -3430,16 +2948,12 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/12" class="issue-title">Mac's have issues</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #fc2929;">
                         bug
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                   </div>
@@ -3468,7 +2982,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/11" class="issue-title">Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3506,13 +3020,9 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/10" class="issue-title">Write a test bench based testsuite</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                   </div>
                 
@@ -3550,13 +3060,9 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/9" class="issue-title">Clean up Git repository</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #d7e102;">
                         software
@@ -3598,13 +3104,9 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/7" class="issue-title">Create build script which requires no GUI tools</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
-                      </span>
                     
                       <span class="label label-tag" style="background-color: #d7e102;">
                         software
@@ -3647,7 +3149,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/5" class="issue-title">Create replacement HDMI extension board which has DVI or HDMI connectors</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3683,16 +3185,12 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/3" class="issue-title">Have documentation automatic generated from VHDL/Verilog code (Kinda like doxygen or javadoc)</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb">
+              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
                       <span class="label label-tag" style="background-color: #84b6eb;">
                         enhancement
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #e102d8;">
-                        firmware-fpga
                       </span>
                     
                       <span class="label label-tag" style="background-color: #d7e102;">
@@ -3727,7 +3225,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/2" class="issue-title">Create specifications for custom PCB board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro">
+              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3763,7 +3261,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/1" class="issue-title">Create a VGA connector based extension board for the Atlys Board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3808,7 +3306,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/28" class="issue-title">install instructions </a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="">
+              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3852,7 +3350,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/27" class="issue-title">depandancy on speakertrack</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="">
+              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3887,7 +3385,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/pull/26" class="issue-title">Updated Readme, fixes</a>
               </h5>
-              <div class="issue" data-author="hyades" data-assignee="">
+              <div class="issue" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3917,7 +3415,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/24" class="issue-title">Warnings running gst-switch-srv and gst-switch-ui</a>
               </h5>
-              <div class="issue" data-author="hyades" data-assignee="">
+              <div class="issue" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3959,7 +3457,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/23" class="issue-title">Create a virtual PTZ camera for testing</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3993,7 +3491,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/22" class="issue-title">Need a way to identify all input coming from a single computer/source</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4041,7 +3539,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/20" class="issue-title">Convert doxygen comments into gtk-doc suitable input</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4075,7 +3573,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/19" class="issue-title">Figure out the missing video frames</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4110,7 +3608,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/18" class="issue-title">Add "make valgrind"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4144,7 +3642,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/17" class="issue-title">Move to some type of pre-built test runner</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4178,7 +3676,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/16" class="issue-title">Should be an option to run the tests in valgrind</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4240,7 +3738,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/15" class="issue-title">Time output should be produced right aligned and backspaced</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4304,7 +3802,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/11" class="issue-title">Run addresssanitizer over the code</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4342,7 +3840,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/10" class="issue-title">Builds are failing on travis-ci.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="duzy">
+              <div class="issue" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4390,7 +3888,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/6" class="issue-title">After a test segfaults, the server process is left running</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4439,7 +3937,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/4" class="issue-title">Tests should have names not numbers</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="duzy">
+              <div class="issue" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4471,7 +3969,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/2" class="issue-title">Test timer should use average test run time</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4501,7 +3999,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/1" class="issue-title">gstcomposite and gstworker objects should have debug logging types</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4561,7 +4059,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/60" class="issue-title">Replace JWPlayer with fully free (libre) software equivalent</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4611,7 +4109,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/pull/57" class="issue-title">vagrant  to demonstrate install</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="">
+              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4641,17 +4139,9 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/56" class="issue-title">Create a docker package for flumotion</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #7851a9;">
-                        Backend - Deploy
-                      </span>
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -4694,13 +4184,9 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/55" class="issue-title">Add "lip sync" or other delay detector</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -4728,7 +4214,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/53" class="issue-title">Add documentation on how to contribute to the project</a>
               </h5>
-              <div class="issue" data-author="codersquid" data-assignee="">
+              <div class="issue" data-author="codersquid" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4760,7 +4246,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/44" class="issue-title">Track client side video quality and performance</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4821,7 +4307,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/42" class="issue-title">Move room configuration from config.json to database</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4855,13 +4341,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/41" class="issue-title">Create a web-rtc flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -4889,13 +4371,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/34" class="issue-title">Change setup scripts to some type of configuration management system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="tflink">
+              <div class="issue" data-author="mithro" data-assignee="tflink" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #800080;">
-                        Backend - Scripts
-                      </span>
                     
                   </div>
                 
@@ -4925,7 +4403,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/33" class="issue-title">Port website to new style "Class Based Views"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4959,7 +4437,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/32" class="issue-title">Upgrade to jwplayer 6.0</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro">
+              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5005,7 +4483,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/31" class="issue-title">Refactor the Javascript to use classes</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5039,13 +4517,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/30" class="issue-title">Replace watchdog with something that uploads component status to website</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #800080;">
-                        Backend - Scripts
-                      </span>
                     
                   </div>
                 
@@ -5073,7 +4547,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/28" class="issue-title">Mobile redirect to Justin.TV mobile stream...</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5107,7 +4581,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/24" class="issue-title">Generate minimized Javascript/CSS output</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5141,7 +4615,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/18" class="issue-title">Draw graphs of the various stats we collect</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5175,7 +4649,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/16" class="issue-title">Add better client side error report</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5209,13 +4683,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/15" class="issue-title">Finish blackmagic component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -5243,13 +4713,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/14" class="issue-title">Add "continuous frames" to Flumotion</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -5280,13 +4746,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/13" class="issue-title">Create a Justin TV Flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro">
+              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -5321,7 +4783,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/12" class="issue-title">Add JavaScript analytics</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5355,7 +4817,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/11" class="issue-title">Flip instructions on the box</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5389,13 +4851,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/10" class="issue-title">Merge DVSwitch, DVfifo and Firewire flumotion components.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #bf00ff;">
-                        Backend - Flumotion
-                      </span>
                     
                   </div>
                 
@@ -5423,7 +4881,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/9" class="issue-title">Add control over twinpac (via IR sender)</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5457,13 +4915,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/8" class="issue-title">Monitoring to everything!</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #7851a9;">
-                        Backend - Deploy
-                      </span>
                     
                   </div>
                 
@@ -5493,13 +4947,9 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/7" class="issue-title">Push preview images to S3</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
-                    
-                      <span class="label label-tag" style="background-color: #800080;">
-                        Backend - Scripts
-                      </span>
                     
                   </div>
                 
@@ -5527,7 +4977,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/4" class="issue-title">Add a bug reporting functionality</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5575,7 +5025,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/3" class="issue-title">Add auto-debugging</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="">
+              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     

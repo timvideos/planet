@@ -112,6 +112,7 @@ var issuesFilter = {
   init: function(){
     this.searchInit();
     this.resetInit();
+    this.advancedSearchInit();
   },
 
   searchInit: function(){
@@ -177,6 +178,15 @@ var issuesFilter = {
 
       $form.get(0).reset();
       $issues.show();
+    });
+  },
+  advancedSearchInit: function(){
+    $('#main').on('click', '.issues-filter .issues-advanced', function(e){
+      e.preventDefault();
+
+      var $advancedSearchFilter = $('.issues-advanced-search');
+      
+      $advancedSearchFilter.toggle();
     });
   }
 }
