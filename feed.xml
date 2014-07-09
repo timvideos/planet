@@ -25,6 +25,18 @@
       <dc:date>2014-07-09T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 starred abhishek-kakkar/BeagleLogic</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</guid>
+      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -237,21 +249,6 @@
 </description>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 07/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added basic search/filter engine working only for author, title, body and assignee fields in issues on Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed javascripts folder structure: plugins moved to&lt;b&gt; /js/plugins&lt;/b&gt; directory and all custom JavasScripts are in &lt;b&gt;/js&lt;/b&gt; directory. I've also changed variable name styles of some variables in own written JavaScritps from &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;lowercase_separated_by_underscores &lt;/span&gt;to &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;camelCase&lt;/span&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add filters based on labels (Project, Skill, Level, Type, Language). I will create solution that is generic and will work also for new filters added after development&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-09T00:00:00+00:00</dc:date>

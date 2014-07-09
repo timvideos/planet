@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred abhishek-kakkar/BeagleLogic</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</guid>
+      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]: Interesting</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 7th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-124b-1d7e-0615-fad0cec76276&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Some amusing things going on! If I use DCM_SP in place of DCM_CLKGEN, with *exact* same CLKFX_DIVIDE &amp;amp; CLKFX_MULTIPLY values and also same connections, the screen would go blank, but the PLL would indicate locked status. Same goes for the case when I directly connect the PLL to DATACK instead of through DCM. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br class=&quot;kix-line-break&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I suspect this tells that the DATACK clock is not clean.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I strongly suspected, that this may be due to design issue. So, I investigated some documents on DATACK. First, the AD9984A’s datasheet. It’s PCB design guidelines say adding 50-200 ohm resistor to reduce reflections. But, The reference schematic for AD9984 uses 22 ohm resistors for all clocks (DATACK, HSOUT, VSOUT &amp;amp; SOGOUT) whereas, uses 50 ohm for the data lines. I found one more schematic(FMCVideo_sch_RevD.pdf) &amp;nbsp;from Xilinx using AD9984A. This one didn’t use any series resistor on any digital lines. I don’t know how much impact it does at 65MHz, but I strongly suspect either this or other physical design issue in the PCB. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -271,17 +283,6 @@
       <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/26/gsoc-daily-log-oversampling-some-failed-adventure/</guid>
       <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-09T00:00:00+00:00</dc:date>
   </channel>
