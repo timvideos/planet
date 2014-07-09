@@ -21,6 +21,21 @@
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 08/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-snippet-08-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added filters mockup based on labels, now it is possible to create new filters only by adding new keyword to _config.yml (issues: special_filters)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed hierarchy of rss configuration in _config.yml to make all settings consistent&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added details to every issue (below body of issue)&lt;br /&gt;&lt;br /&gt;Now I will create working search/filter engine in JavaScript based on that filters that will work without any further work in future in case of new filters.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-snippet-08-07-2014/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -251,17 +266,6 @@
       <pubDate>Thu, 26 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/26/gsoc-what-happenned-during-this-week-week-5/</guid>
       <dc:date>2014-06-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-08T00:00:00+00:00</dc:date>
   </channel>
