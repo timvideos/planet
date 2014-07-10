@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
+      <description>&lt;!-- gollum --&gt;
+&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
@@ -260,21 +271,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/05/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;As I am planning to write a test bench to simulate HDMI2USB, I spent most of the day trying to understand the TMSB protocol as I had not encountered it earlier. I was finally able to write a code which generates TMSB signal given RGB values.&lt;br /&gt;&lt;br /&gt;Work for Today: Understand the working of DDR2 ram and simulate it successfully. Then I will be ready for simulation of the whole.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/05/daily-snippet/</guid>
-      <dc:date>2014-06-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
