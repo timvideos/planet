@@ -48,6 +48,17 @@
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/10/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/10/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -241,18 +252,6 @@
 </description>
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
-      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew deleted branch debug at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-10T00:00:00+00:00</dc:date>

@@ -112,6 +112,10 @@ var issuesFilter = {
   init: function(){
     this.searchInit();
     this.resetInit();
+    this.assigneedYesCheckboxInit();
+    this.assigneedNoCheckboxInit();
+    this.stateOpenCheckboxInit();
+    this.stateClosedCheckboxInit();
     this.advancedSearchInit();
   },
 
@@ -119,44 +123,105 @@ var issuesFilter = {
     $('#main').on('click', '.issues-filter .issues-search', function(e){
       e.preventDefault();
 
-      var $issues        = $('.issues'),
-          $issuesFilter  = $('.issues-filter'),
-          filterTitle    = $.trim($issuesFilter.find('#inputTitle').val().toLowerCase()),
-          filterBody     = $.trim($issuesFilter.find('#inputBody').val().toLowerCase()),
-          filterAuthor   = $.trim($issuesFilter.find('#inputAuthor').val().toLowerCase()),
-          filterAssignee = $.trim($issuesFilter.find('#inputAssignee').val().toLowerCase());
+      var $issues         = $('.issues'),
+          $issuesFilter   = $('.issues-filter'),
+          filterTitle     = $.trim($issuesFilter.find('#inputTitle').val().toLowerCase()),
+          filterBody      = $.trim($issuesFilter.find('#inputBody').val().toLowerCase()),
+          filterAuthor    = $.trim($issuesFilter.find('#inputAuthor').val().toLowerCase()),
+          filterAssignee  = $.trim($issuesFilter.find('#inputAssignee').val().toLowerCase()),
+          $assigneedYes   = $issuesFilter.find('#inputAssigneedYes'),
+          $assigneedNo    = $issuesFilter.find('#inputAssigneedNo'),
+          $stateOpen      = $issuesFilter.find('#inputStateOpen'),
+          $stateClosed    = $issuesFilter.find('#inputStateClosed'),
+          $specialFiltersCheckboxes = $('.issue-special-filter input[type="checkbox"]:checked'); 
 
       for(var i=0; i < $issues.length; ++i){
-        var $issue      = $($issues[i]),
-            $issueData  = $issue.find('.issue'),
-            title       = $issue.find('.issue-title').text().toLowerCase(),
-            body        = $issue.find('.issue-body').text().toLowerCase(),
-            author      = $issueData.data('author').toLowerCase(),
-            assignee    = $issueData.data('assignee').toLowerCase();
+        var $issue          = $($issues[i]),
+            $issueData      = $issue.find('.issue'),
+            title           = $issue.find('.issue-title').text().toLowerCase(),
+            body            = $issue.find('.issue-body').text().toLowerCase(),
+            author          = $issueData.data('author').toLowerCase(),
+            state           = $issueData.data('state').toLowerCase(),
+            assignee        = $issueData.data('assignee').toLowerCase();
+             
 
         var showIssue = true;
 
-        if(filterTitle.length){
+        if(showIssue && filterTitle.length){
           if(title.indexOf(filterTitle) < 0) {
             showIssue = false;
           }
         }
 
-        if(filterBody.length){
+        if(showIssue && filterBody.length){
           if(body.indexOf(filterBody) < 0) {
             showIssue = false;
           }
         }
 
-        if(filterAuthor.length){
+        if(showIssue && filterAuthor.length){
           if(author.indexOf(filterAuthor) < 0) {
             showIssue = false;
           }
         }
 
-        if(filterAssignee.length){
+        if(showIssue && filterAssignee.length){
           if(assignee.indexOf(filterAssignee) < 0) {
             showIssue = false;
+          }
+        }
+
+        if(showIssue && $assigneedYes.is(':checked')){
+          if(!assignee) {
+            showIssue = false;
+          }
+        }
+
+        if(showIssue && $assigneedNo.is(':checked')){
+          if(assignee && assignee.length > 0) {
+            showIssue = false;
+          }
+        }
+
+        if(showIssue && $stateOpen.is(':checked')){
+          if(state != 'open') {
+            showIssue = false;
+          }
+        }
+
+        if(showIssue && $stateClosed.is(':checked')){
+          if(state != 'closed') {
+            showIssue = false;
+          }
+        }
+
+
+        if(showIssue && $specialFiltersCheckboxes.length){
+          for(var j=0; j < $specialFiltersCheckboxes.length; ++j){
+            var $checkbox = $($specialFiltersCheckboxes[j]),
+                specialFilterType  = $checkbox.data('special-filter-type'),
+                specialFilterValue = $checkbox.data('special-filter-value');
+
+            if(!showIssue)
+              break;
+
+            if($issueData.data(specialFilterType)){
+              var issueSpecialFilterValues = $issueData.data(specialFilterType).split(';'),
+                  anyEquals = false;
+
+              for(var k=0; k < issueSpecialFilterValues.length; ++k){
+                if(issueSpecialFilterValues[k] == specialFilterValue) {
+                  anyEquals = true;
+                  break;
+                }
+              }
+
+              if(!anyEquals)
+                showIssue = false;
+            }
+            else{
+              showIssue = false;
+            }
           }
         }
 
@@ -168,6 +233,7 @@ var issuesFilter = {
       }
     });
   },
+  
   resetInit: function(){
     $('#main').on('click', '.issues-filter .issues-reset', function(e){
       e.preventDefault();
@@ -180,6 +246,7 @@ var issuesFilter = {
       $issues.show();
     });
   },
+
   advancedSearchInit: function(){
     $('#main').on('click', '.issues-filter .issues-advanced', function(e){
       e.preventDefault();
@@ -187,6 +254,38 @@ var issuesFilter = {
       var $advancedSearchFilter = $('.issues-advanced-search');
       
       $advancedSearchFilter.toggle();
+    });
+  },
+
+  assigneedYesCheckboxInit: function(){
+    $('#main').on('change', '.issues-filter #inputAssigneedYes', function(e){
+      var $checkboxAssigneedNo = $('#main .issues-filter #inputAssigneedNo');
+
+      $checkboxAssigneedNo.attr('checked', false);
+    });
+  },
+
+  assigneedNoCheckboxInit: function(){
+    $('#main').on('change', '.issues-filter #inputAssigneedNo', function(e){
+      var $checkboxAssigneedNo = $('#main .issues-filter #inputAssigneedYes');
+
+      $checkboxAssigneedNo.attr('checked', false);
+    });
+  },
+
+  stateOpenCheckboxInit: function(){
+    $('#main').on('change', '.issues-filter #inputStateOpen', function(e){
+      var $checkboxStateClosed = $('#main .issues-filter #inputStateClosed');
+
+      $checkboxStateClosed.attr('checked', false);
+    });
+  },
+
+  stateClosedCheckboxInit: function(){
+    $('#main').on('change', '.issues-filter #inputStateClosed', function(e){
+      var $checkboxStateOpen = $('#main .issues-filter #inputStateOpen');
+
+      $checkboxStateOpen.attr('checked', false);
     });
   }
 }

@@ -121,164 +121,175 @@
               </div>
             </div>
           </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label">State</label>
+            <div class="col-sm-10">
+              <div class="checkbox">
+                <input type="checkbox" id="inputStateOpen" name="stateOpen"> <label for="inputStateOpen">open</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" id="inputStateClosed" name="stateClosed"> <label for="inputStateClosed">closed</label>
+              </div>
+            </div>
+          </div>
           
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Project</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectDeveloper Tools" name="projectDeveloper Tools"> <label for="inputProjectDeveloper Tools">Developer Tools</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="Developer Tools" id="inputProjectDeveloper Tools" name="projectDeveloper Tools"> <label for="inputProjectDeveloper Tools">Developer Tools</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectFlumotion" name="projectFlumotion"> <label for="inputProjectFlumotion">Flumotion</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="Flumotion" id="inputProjectFlumotion" name="projectFlumotion"> <label for="inputProjectFlumotion">Flumotion</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectHDMI2USB" name="projectHDMI2USB"> <label for="inputProjectHDMI2USB">HDMI2USB</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="HDMI2USB" id="inputProjectHDMI2USB" name="projectHDMI2USB"> <label for="inputProjectHDMI2USB">HDMI2USB</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectHDMI2USB (Extension Boards)" name="projectHDMI2USB (Extension Boards)"> <label for="inputProjectHDMI2USB (Extension Boards)">HDMI2USB (Extension Boards)</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="HDMI2USB (Extension Boards)" id="inputProjectHDMI2USB (Extension Boards)" name="projectHDMI2USB (Extension Boards)"> <label for="inputProjectHDMI2USB (Extension Boards)">HDMI2USB (Extension Boards)</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectStreaming System (Website)" name="projectStreaming System (Website)"> <label for="inputProjectStreaming System (Website)">Streaming System (Website)</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="Streaming System (Website)" id="inputProjectStreaming System (Website)" name="projectStreaming System (Website)"> <label for="inputProjectStreaming System (Website)">Streaming System (Website)</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectVeyepar" name="projectVeyepar"> <label for="inputProjectVeyepar">Veyepar</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="Veyepar" id="inputProjectVeyepar" name="projectVeyepar"> <label for="inputProjectVeyepar">Veyepar</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectgst-switch" name="projectgst-switch"> <label for="inputProjectgst-switch">gst-switch</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="gst-switch" id="inputProjectgst-switch" name="projectgst-switch"> <label for="inputProjectgst-switch">gst-switch</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputProjectgstreamer" name="projectgstreamer"> <label for="inputProjectgstreamer">gstreamer</label>
+                      <input type="checkbox" data-special-filter-type="project" data-special-filter-value="gstreamer" id="inputProjectgstreamer" name="projectgstreamer"> <label for="inputProjectgstreamer">gstreamer</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Skill</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputSkillDevOps / System Administration" name="skillDevOps / System Administration"> <label for="inputSkillDevOps / System Administration">DevOps / System Administration</label>
+                      <input type="checkbox" data-special-filter-type="skill" data-special-filter-value="DevOps / System Administration" id="inputSkillDevOps / System Administration" name="skillDevOps / System Administration"> <label for="inputSkillDevOps / System Administration">DevOps / System Administration</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputSkillDjango" name="skillDjango"> <label for="inputSkillDjango">Django</label>
+                      <input type="checkbox" data-special-filter-type="skill" data-special-filter-value="Django" id="inputSkillDjango" name="skillDjango"> <label for="inputSkillDjango">Django</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputSkillElectronics & Tools" name="skillElectronics & Tools"> <label for="inputSkillElectronics & Tools">Electronics & Tools</label>
+                      <input type="checkbox" data-special-filter-type="skill" data-special-filter-value="Electronics & Tools" id="inputSkillElectronics & Tools" name="skillElectronics & Tools"> <label for="inputSkillElectronics & Tools">Electronics & Tools</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Level</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLevelChallenging" name="levelChallenging"> <label for="inputLevelChallenging">Challenging</label>
+                      <input type="checkbox" data-special-filter-type="level" data-special-filter-value="Challenging" id="inputLevelChallenging" name="levelChallenging"> <label for="inputLevelChallenging">Challenging</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLevelEasy" name="levelEasy"> <label for="inputLevelEasy">Easy</label>
+                      <input type="checkbox" data-special-filter-type="level" data-special-filter-value="Easy" id="inputLevelEasy" name="levelEasy"> <label for="inputLevelEasy">Easy</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLevelMedium" name="levelMedium"> <label for="inputLevelMedium">Medium</label>
+                      <input type="checkbox" data-special-filter-type="level" data-special-filter-value="Medium" id="inputLevelMedium" name="levelMedium"> <label for="inputLevelMedium">Medium</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Type</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputTypeFirmware" name="typeFirmware"> <label for="inputTypeFirmware">Firmware</label>
+                      <input type="checkbox" data-special-filter-type="type" data-special-filter-value="Firmware" id="inputTypeFirmware" name="typeFirmware"> <label for="inputTypeFirmware">Firmware</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputTypeHardware" name="typeHardware"> <label for="inputTypeHardware">Hardware</label>
+                      <input type="checkbox" data-special-filter-type="type" data-special-filter-value="Hardware" id="inputTypeHardware" name="typeHardware"> <label for="inputTypeHardware">Hardware</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputTypeSoftware" name="typeSoftware"> <label for="inputTypeSoftware">Software</label>
+                      <input type="checkbox" data-special-filter-type="type" data-special-filter-value="Software" id="inputTypeSoftware" name="typeSoftware"> <label for="inputTypeSoftware">Software</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Language</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLanguageC" name="languageC"> <label for="inputLanguageC">C</label>
+                      <input type="checkbox" data-special-filter-type="language" data-special-filter-value="C" id="inputLanguageC" name="languageC"> <label for="inputLanguageC">C</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLanguageJavascript/HTML" name="languageJavascript/HTML"> <label for="inputLanguageJavascript/HTML">Javascript/HTML</label>
+                      <input type="checkbox" data-special-filter-type="language" data-special-filter-value="Javascript/HTML" id="inputLanguageJavascript/HTML" name="languageJavascript/HTML"> <label for="inputLanguageJavascript/HTML">Javascript/HTML</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLanguagePython" name="languagePython"> <label for="inputLanguagePython">Python</label>
+                      <input type="checkbox" data-special-filter-type="language" data-special-filter-value="Python" id="inputLanguagePython" name="languagePython"> <label for="inputLanguagePython">Python</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLanguageRuby" name="languageRuby"> <label for="inputLanguageRuby">Ruby</label>
+                      <input type="checkbox" data-special-filter-type="language" data-special-filter-value="Ruby" id="inputLanguageRuby" name="languageRuby"> <label for="inputLanguageRuby">Ruby</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputLanguageVHDL / Verilog" name="languageVHDL / Verilog"> <label for="inputLanguageVHDL / Verilog">VHDL / Verilog</label>
+                      <input type="checkbox" data-special-filter-type="language" data-special-filter-value="VHDL / Verilog" id="inputLanguageVHDL / Verilog" name="languageVHDL / Verilog"> <label for="inputLanguageVHDL / Verilog">VHDL / Verilog</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Backend</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputBackendDeploy" name="backendDeploy"> <label for="inputBackendDeploy">Deploy</label>
+                      <input type="checkbox" data-special-filter-type="backend" data-special-filter-value="Deploy" id="inputBackendDeploy" name="backendDeploy"> <label for="inputBackendDeploy">Deploy</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputBackendFlumotion" name="backendFlumotion"> <label for="inputBackendFlumotion">Flumotion</label>
+                      <input type="checkbox" data-special-filter-type="backend" data-special-filter-value="Flumotion" id="inputBackendFlumotion" name="backendFlumotion"> <label for="inputBackendFlumotion">Flumotion</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputBackendScripts" name="backendScripts"> <label for="inputBackendScripts">Scripts</label>
+                      <input type="checkbox" data-special-filter-type="backend" data-special-filter-value="Scripts" id="inputBackendScripts" name="backendScripts"> <label for="inputBackendScripts">Scripts</label>
                     </div>
                   
                 </div>
               </div>
             
-              <div class="form-group">
+              <div class="form-group issue-special-filter">
                 <label class="col-sm-2 control-label">Firmware</label>
                 <div class="col-sm-10">
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputFirmwarecypress" name="firmwarecypress"> <label for="inputFirmwarecypress">cypress</label>
+                      <input type="checkbox" data-special-filter-type="firmware" data-special-filter-value="cypress" id="inputFirmwarecypress" name="firmwarecypress"> <label for="inputFirmwarecypress">cypress</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputFirmwarefpga" name="firmwarefpga"> <label for="inputFirmwarefpga">fpga</label>
+                      <input type="checkbox" data-special-filter-type="firmware" data-special-filter-value="fpga" id="inputFirmwarefpga" name="firmwarefpga"> <label for="inputFirmwarefpga">fpga</label>
                     </div>
                   
                     <div class="checkbox">
-                      <input type="checkbox" id="inputFirmwarepic" name="firmwarepic"> <label for="inputFirmwarepic">pic</label>
+                      <input type="checkbox" data-special-filter-type="firmware" data-special-filter-value="pic" id="inputFirmwarepic" name="firmwarepic"> <label for="inputFirmwarepic">pic</label>
                     </div>
                   
                 </div>
@@ -348,7 +359,7 @@
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/25" class="issue-title">[streaming-system] Automated build and configuration of full streaming system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -489,6 +500,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <small class="description">
                 #25 • open • Feb 17, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -503,7 +515,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/24" class="issue-title">[gstreamer] Create a gstreamer plugin for Lenkeng HDMI over IP extender</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="gstreamer" data-skill="" data-level="Medium" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="gstreamer" data-skill="" data-level="Medium" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -639,6 +651,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <small class="description">
                 #24 • open • Feb 17, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -653,7 +666,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/23" class="issue-title">[gst-switch] Track the speaker! Zoom! Pan! Tilt!</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="" data-project="gst-switch" data-skill="Electronics & Tools" data-level="Challenging" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="gst-switch" data-skill="Electronics & Tools" data-level="Challenging" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -751,6 +764,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <small class="description">
                 #23 • open • Feb 14, 2014 • iiie
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -765,7 +779,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/22" class="issue-title">[Veyepar] Use avahi / zeroconfig to find our hosts on the network</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="" data-project="Veyepar" data-skill="" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="Veyepar" data-skill="" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -872,6 +886,7 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
               <small class="description">
                 #22 • open • Feb 14, 2014 • iiie
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -886,7 +901,7 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/21" class="issue-title">[streaming-system #56] Dockerize flumotion and support components</a>
               </h5>
-              <div class="issue" data-author="iiie" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1048,6 +1063,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #21 • open • Feb 14, 2014 • iiie
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1062,7 +1078,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/20" class="issue-title">[streaming-system] Make the code.timvideos.us developer website awesome!</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="pinoss" data-project="Developer Tools" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Ruby" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="1" data-state="open" data-author="parx" data-assignee="pinoss" data-project="Developer Tools" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Ruby" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1193,6 +1209,9 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #20 • open • Feb 14, 2014 • parx
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: GSoC 2014 End">#1</span>
+                
+                
                  • Assignee: <a href="https://github.com/pinoss">pinoss</a>
                 
               </small>
@@ -1209,7 +1228,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/19" class="issue-title">[streaming-system] TimVideos.us website (viewing interface) improvements</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1333,6 +1352,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #19 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1347,7 +1367,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/18" class="issue-title">[HDMI2USB] Intelligent Auto Audio gain </a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1430,6 +1450,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #18 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1444,7 +1465,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/17" class="issue-title">[HDMI2USB] firmware auto-builder</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="Developer Tools;HDMI2USB" data-skill="DevOps / System Administration;Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware;Software" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Developer Tools;HDMI2USB" data-skill="DevOps / System Administration;Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware;Software" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1569,6 +1590,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #17 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1583,7 +1605,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/16" class="issue-title">[Veyepar] JSON schedule output into website</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="Veyepar" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Veyepar" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1702,6 +1724,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <small class="description">
                 #16 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1716,7 +1739,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/15" class="issue-title">[gstreamer] Productionize/Update gstreamer dvswitch plugin</a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="gstreamer" data-skill="" data-level="Easy" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="gstreamer" data-skill="" data-level="Easy" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1839,6 +1862,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <small class="description">
                 #15 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1853,7 +1877,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/14" class="issue-title">[HDMI2USB #32] MJPEG core optimisation </a>
               </h5>
-              <div class="issue" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -1962,6 +1986,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <small class="description">
                 #14 • open • Feb 14, 2014 • parx
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -1976,7 +2001,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/11" class="issue-title">[streaming-system] Create a mobile theme for the website</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2062,6 +2087,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <small class="description">
                 #11 • open • Apr 19, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2076,7 +2102,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/10" class="issue-title">[hdmi2usb] Create a serial port extension board - Support both RS232 and RS485 modes.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2177,6 +2203,7 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
               <small class="description">
                 #10 • open • Apr 3, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2191,7 +2218,7 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/9" class="issue-title">[flumotion] Port Flumotion to the gstreamer-1.0 API</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="Flumotion;gstreamer" data-skill="" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion;gstreamer" data-skill="" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2329,6 +2356,7 @@ Since this has never been announced officially outside of the conference circuit
               <small class="description">
                 #9 • open • Apr 3, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2343,7 +2371,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/7" class="issue-title">[HDMI2USB #15] HDMI Audio to USB Sound </a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Easy" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Easy" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2426,6 +2454,7 @@ Since this has never been announced officially outside of the conference circuit
               <small class="description">
                 #7 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2440,7 +2469,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/6" class="issue-title">[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2568,6 +2597,7 @@ Since this has never been announced officially outside of the conference circuit
               <small class="description">
                 #6 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2582,7 +2612,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/5" class="issue-title">[HDMI2USB #13] Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2674,6 +2704,7 @@ Since this has never been announced officially outside of the conference circuit
               <small class="description">
                 #5 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2688,7 +2719,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/4" class="issue-title">[streaming-system #4] Add bug / feedback reporting from end users system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2822,6 +2853,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #4 • open • Mar 20, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2836,7 +2868,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/3" class="issue-title">[flumotion] Create a RTMP flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -2935,6 +2967,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #3 • open • Mar 20, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -2949,7 +2982,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/2" class="issue-title">[HDMI2USB #11] Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Challenging" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Challenging" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3050,6 +3083,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #2 • open • Mar 20, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3075,7 +3109,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/49" class="issue-title">Debug module added</a>
               </h5>
-              <div class="issue" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3112,6 +3146,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #49 • open • Jul 8, 2014 • ajitmathew
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3126,7 +3161,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/48" class="issue-title">Expose I2C interfaces via USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="tags">
                     
@@ -3174,6 +3209,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #48 • open • Jun 24, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3188,7 +3224,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/47" class="issue-title">Get real VID:PID values for HDMI2USB project</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
@@ -3248,6 +3284,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #47 • open • Jun 24, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3262,7 +3299,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/46" class="issue-title">fx2 uvc firmware does not enumerate </a>
               </h5>
-              <div class="issue" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="tags">
                     
@@ -3345,6 +3382,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #46 • open • May 18, 2014 • shenki
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3359,7 +3397,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/45" class="issue-title">Board not accepting USB device number</a>
               </h5>
-              <div class="issue" data-author="puck" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="puck" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3419,6 +3457,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <small class="description">
                 #45 • open • May 7, 2014 • puck
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3433,7 +3472,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/44" class="issue-title">Connect the USB-UART connector to the control system inside the firmware</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -3491,6 +3530,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <small class="description">
                 #44 • open • May 7, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3505,7 +3545,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/42" class="issue-title">Better EDID information</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
@@ -3558,6 +3598,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <small class="description">
                 #42 • open • Apr 20, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3572,7 +3613,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/41" class="issue-title">Issue #33 New Test Image Generator with more life </a>
               </h5>
-              <div class="issue" data-author="rohit91" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="rohit91" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3612,6 +3653,7 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
               <small class="description">
                 #41 • open • Apr 11, 2014 • rohit91
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3626,7 +3668,7 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/39" class="issue-title">Issue #31 : Module for Heart Beat on static images added</a>
               </h5>
-              <div class="issue" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3664,6 +3706,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <small class="description">
                 #39 • open • Mar 28, 2014 • ajitmathew
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3678,7 +3721,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/38" class="issue-title">Resolve warnings in firmware build</a>
               </h5>
-              <div class="issue" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -3721,6 +3764,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <small class="description">
                 #38 • open • Mar 28, 2014 • shenki
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3735,7 +3779,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/36" class="issue-title">Surface the Spartan 6's Device DNA serial number in the USB information</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="tags">
                     
@@ -3868,6 +3912,7 @@ readDna -p</p>
               <small class="description">
                 #36 • open • Mar 21, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3882,7 +3927,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/35" class="issue-title">Create a "Altera USB Blaster" emulation software for PIC18F series</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="tags">
                     
@@ -3952,6 +3997,7 @@ readDna -p</p>
               <small class="description">
                 #35 • open • Mar 20, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -3966,7 +4012,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/34" class="issue-title">Create a NeroJTAG compatible firmware for the PIC18F series chips</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="tags">
                     
@@ -4024,6 +4070,7 @@ readDna -p</p>
               <small class="description">
                 #34 • open • Mar 20, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4038,7 +4085,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/33" class="issue-title">Make the "test" image nicer.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4092,6 +4139,7 @@ readDna -p</p>
               <small class="description">
                 #33 • open • Mar 18, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4106,7 +4154,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/32" class="issue-title">Optimisation MJPEG to support atleast 720p@30fps</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4156,6 +4204,7 @@ readDna -p</p>
               <small class="description">
                 #32 • open • Feb 17, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4170,7 +4219,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/31" class="issue-title">Heartbeat on static images</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4222,6 +4271,7 @@ readDna -p</p>
               <small class="description">
                 #31 • open • Dec 13, 2013 • CarlFK
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4236,7 +4286,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/30" class="issue-title">640x480 inputs cause corrupted display</a>
               </h5>
-              <div class="issue" data-author="micolous" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="micolous" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4298,6 +4348,7 @@ readDna -p</p>
               <small class="description">
                 #30 • open • Jul 11, 2013 • micolous
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4312,7 +4363,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/29" class="issue-title">Write a "debug script"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4363,6 +4414,7 @@ readDna -p</p>
               <small class="description">
                 #29 • open • Jul 9, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4377,7 +4429,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/27" class="issue-title">Analyse existing VGA2HDMI solutions</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="2" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -4418,6 +4470,9 @@ readDna -p</p>
               <small class="description">
                 #27 • open • Jun 5, 2013 • mithro
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: VGA Input Capture">#2</span>
+                
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4432,7 +4487,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/26" class="issue-title">Verification setups</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4526,6 +4581,7 @@ readDna -p</p>
               <small class="description">
                 #26 • open • Jun 5, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
                 
               </small>
@@ -4542,7 +4598,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/20" class="issue-title">Support HDMI CEC control</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4596,6 +4652,7 @@ readDna -p</p>
               <small class="description">
                 #20 • open • Apr 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4610,7 +4667,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/19" class="issue-title">Support dumping raw HDMI data that can be loaded into wireshark</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4664,6 +4721,7 @@ readDna -p</p>
               <small class="description">
                 #19 • open • Apr 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4678,7 +4736,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/17" class="issue-title">Investigate (and hopefully mitigate) JPEG block boundary artifacts on fine text detail</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4734,6 +4792,7 @@ readDna -p</p>
               <small class="description">
                 #17 • open • Apr 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4748,7 +4807,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/16" class="issue-title">Convert cypress firmware to be compiled by sdcc</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="tags">
                     
@@ -4807,6 +4866,7 @@ readDna -p</p>
               <small class="description">
                 #16 • open • Apr 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4821,7 +4881,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/15" class="issue-title">HDMI Audio to USB Sound</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4871,6 +4931,7 @@ readDna -p</p>
               <small class="description">
                 #15 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4885,7 +4946,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/14" class="issue-title">Look at supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -4939,6 +5000,7 @@ readDna -p</p>
               <small class="description">
                 #14 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -4953,7 +5015,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/13" class="issue-title">Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5022,6 +5084,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #13 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5036,7 +5099,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/12" class="issue-title">Mac's have issues</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5086,6 +5149,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #12 • open • Mar 21, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5100,7 +5164,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/11" class="issue-title">Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5145,6 +5209,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #11 • open • Mar 20, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5159,7 +5224,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/10" class="issue-title">Write a test bench based testsuite</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5213,6 +5278,9 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #10 • open • Mar 19, 2013 • mithro
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                
+                
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
                 
               </small>
@@ -5229,7 +5297,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/9" class="issue-title">Clean up Git repository</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5287,6 +5355,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #9 • open • Mar 19, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
                 
               </small>
@@ -5303,7 +5372,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/7" class="issue-title">Create build script which requires no GUI tools</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5364,6 +5433,9 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #7 • open • Mar 19, 2013 • mithro
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5378,7 +5450,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/5" class="issue-title">Create replacement HDMI extension board which has DVI or HDMI connectors</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5421,6 +5493,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #5 • open • Mar 19, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5435,7 +5508,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/3" class="issue-title">Have documentation automatic generated from VHDL/Verilog code (Kinda like doxygen or javadoc)</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="tags">
                     
@@ -5489,6 +5562,9 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #3 • open • Mar 19, 2013 • mithro
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                
+                
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
                 
               </small>
@@ -5505,7 +5581,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/2" class="issue-title">Create specifications for custom PCB board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5546,6 +5622,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #2 • open • Mar 19, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/mithro">mithro</a>
                 
               </small>
@@ -5562,7 +5639,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/1" class="issue-title">Create a VGA connector based extension board for the Atlys Board</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="2" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5603,6 +5680,9 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #1 • open • Mar 19, 2013 • mithro
                 
+                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: VGA Input Capture">#2</span>
+                
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5628,7 +5708,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/28" class="issue-title">install instructions </a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5679,6 +5759,7 @@ make
               <small class="description">
                 #28 • open • Mar 28, 2014 • CarlFK
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5693,7 +5774,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/27" class="issue-title">depandancy on speakertrack</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5735,6 +5816,7 @@ make
               <small class="description">
                 #27 • open • Mar 28, 2014 • CarlFK
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5749,7 +5831,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/pull/26" class="issue-title">Updated Readme, fixes</a>
               </h5>
-              <div class="issue" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5786,6 +5868,7 @@ make
               <small class="description">
                 #26 • open • Sep 25, 2013 • hyades
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5800,7 +5883,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/24" class="issue-title">Warnings running gst-switch-srv and gst-switch-ui</a>
               </h5>
-              <div class="issue" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5849,6 +5932,7 @@ make
               <small class="description">
                 #24 • open • Jun 26, 2013 • hyades
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5863,7 +5947,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/23" class="issue-title">Create a virtual PTZ camera for testing</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5904,6 +5988,7 @@ make
               <small class="description">
                 #23 • open • Apr 10, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5918,7 +6003,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/22" class="issue-title">Need a way to identify all input coming from a single computer/source</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -5973,6 +6058,7 @@ make
               <small class="description">
                 #22 • open • Apr 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -5987,7 +6073,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/20" class="issue-title">Convert doxygen comments into gtk-doc suitable input</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6028,6 +6114,7 @@ make
               <small class="description">
                 #20 • open • Mar 31, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6042,7 +6129,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/19" class="issue-title">Figure out the missing video frames</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6084,6 +6171,7 @@ make
               <small class="description">
                 #19 • open • Mar 3, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6098,7 +6186,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/18" class="issue-title">Add "make valgrind"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6139,6 +6227,7 @@ make
               <small class="description">
                 #18 • open • Mar 1, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6153,7 +6242,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/17" class="issue-title">Move to some type of pre-built test runner</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6194,6 +6283,7 @@ make
               <small class="description">
                 #17 • open • Feb 28, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6208,7 +6298,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/16" class="issue-title">Should be an option to run the tests in valgrind</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6277,6 +6367,7 @@ make
               <small class="description">
                 #16 • open • Feb 28, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6291,7 +6382,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/15" class="issue-title">Time output should be produced right aligned and backspaced</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6362,6 +6453,7 @@ $ echo -e ‘12345\b6’
               <small class="description">
                 #15 • open • Feb 28, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6376,7 +6468,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/11" class="issue-title">Run addresssanitizer over the code</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6421,6 +6513,7 @@ $ echo -e ‘12345\b6’
               <small class="description">
                 #11 • open • Feb 28, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6435,7 +6528,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/10" class="issue-title">Builds are failing on travis-ci.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6488,6 +6581,7 @@ $ echo -e ‘12345\b6’
               <small class="description">
                 #10 • open • Feb 28, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/duzy">duzy</a>
                 
               </small>
@@ -6504,7 +6598,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/6" class="issue-title">After a test segfaults, the server process is left running</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6560,6 +6654,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <small class="description">
                 #6 • open • Feb 11, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6574,7 +6669,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/4" class="issue-title">Tests should have names not numbers</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6611,6 +6706,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <small class="description">
                 #4 • open • Feb 11, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/duzy">duzy</a>
                 
               </small>
@@ -6627,7 +6723,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/2" class="issue-title">Test timer should use average test run time</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6664,6 +6760,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <small class="description">
                 #2 • open • Feb 8, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6678,7 +6775,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/1" class="issue-title">gstcomposite and gstworker objects should have debug logging types</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6734,6 +6831,7 @@ Outputs the following
               <small class="description">
                 #1 • open • Feb 7, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6759,7 +6857,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/60" class="issue-title">Replace JWPlayer with fully free (libre) software equivalent</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6816,6 +6914,7 @@ Outputs the following
               <small class="description">
                 #60 • open • Mar 16, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6830,7 +6929,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/pull/57" class="issue-title">vagrant  to demonstrate install</a>
               </h5>
-              <div class="issue" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6867,6 +6966,7 @@ Outputs the following
               <small class="description">
                 #57 • open • Mar 5, 2014 • CarlFK
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6881,7 +6981,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/56" class="issue-title">Create a docker package for flumotion</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy;Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy;Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -6942,6 +7042,7 @@ Outputs the following
               <small class="description">
                 #56 • open • Jan 9, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -6956,7 +7057,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/55" class="issue-title">Add "lip sync" or other delay detector</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7002,6 +7103,7 @@ Outputs the following
               <small class="description">
                 #55 • open • Jan 9, 2014 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7016,7 +7118,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/53" class="issue-title">Add documentation on how to contribute to the project</a>
               </h5>
-              <div class="issue" data-author="codersquid" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="codersquid" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7055,6 +7157,7 @@ Outputs the following
               <small class="description">
                 #53 • open • Dec 30, 2013 • codersquid
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7069,7 +7172,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/44" class="issue-title">Track client side video quality and performance</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7137,6 +7240,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #44 • open • Jul 7, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7151,7 +7255,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/42" class="issue-title">Move room configuration from config.json to database</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7192,6 +7296,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #42 • open • Jul 6, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7206,7 +7311,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/41" class="issue-title">Create a web-rtc flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7252,6 +7357,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #41 • open • Jun 5, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7266,7 +7372,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/34" class="issue-title">Change setup scripts to some type of configuration management system</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="tflink" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="tflink" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7312,6 +7418,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #34 • open • Mar 21, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/tflink">tflink</a>
                 
               </small>
@@ -7328,7 +7435,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/33" class="issue-title">Port website to new style "Class Based Views"</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7369,6 +7476,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #33 • open • Mar 18, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7383,7 +7491,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/32" class="issue-title">Upgrade to jwplayer 6.0</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7434,6 +7542,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #32 • open • Mar 16, 2013 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/mithro">mithro</a>
                 
               </small>
@@ -7450,7 +7559,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/31" class="issue-title">Refactor the Javascript to use classes</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7491,6 +7600,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #31 • open • Mar 16, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7505,7 +7615,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/30" class="issue-title">Replace watchdog with something that uploads component status to website</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7551,6 +7661,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #30 • open • Mar 16, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7565,7 +7676,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/28" class="issue-title">Mobile redirect to Justin.TV mobile stream...</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7606,6 +7717,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #28 • open • Mar 15, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7620,7 +7732,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/24" class="issue-title">Generate minimized Javascript/CSS output</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7661,6 +7773,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #24 • open • Mar 13, 2013 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7675,7 +7788,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/18" class="issue-title">Draw graphs of the various stats we collect</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7716,6 +7829,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #18 • open • Mar 13, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7730,7 +7844,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/16" class="issue-title">Add better client side error report</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7771,6 +7885,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #16 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7785,7 +7900,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/15" class="issue-title">Finish blackmagic component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7831,6 +7946,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #15 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7845,7 +7961,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/14" class="issue-title">Add "continuous frames" to Flumotion</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7894,6 +8010,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #14 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -7908,7 +8025,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/13" class="issue-title">Create a Justin TV Flumotion component</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -7959,6 +8076,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #13 • open • Mar 11, 2012 • mithro
                 
+                
                  • Assignee: <a href="https://github.com/mithro">mithro</a>
                 
               </small>
@@ -7975,7 +8093,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/12" class="issue-title">Add JavaScript analytics</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8016,6 +8134,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #12 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8030,7 +8149,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/11" class="issue-title">Flip instructions on the box</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8071,6 +8190,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #11 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8085,7 +8205,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/10" class="issue-title">Merge DVSwitch, DVfifo and Firewire flumotion components.</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8131,6 +8251,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #10 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8145,7 +8266,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/9" class="issue-title">Add control over twinpac (via IR sender)</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8186,6 +8307,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #9 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8200,7 +8322,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/8" class="issue-title">Monitoring to everything!</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8248,6 +8370,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #8 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8262,7 +8385,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/7" class="issue-title">Push preview images to S3</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8308,6 +8431,7 @@ displayed due to performance issues.</li>
               <small class="description">
                 #7 • open • Mar 11, 2012 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8322,7 +8446,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/4" class="issue-title">Add a bug reporting functionality</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8377,6 +8501,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <small class="description">
                 #4 • open • Jun 1, 2011 • mithro
                 
+                
               </small>
             </div>
             <div class="col-sm-2">
@@ -8391,7 +8516,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/3" class="issue-title">Add auto-debugging</a>
               </h5>
-              <div class="issue" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="tags">
                     
@@ -8436,6 +8561,7 @@ If you have other problems like the sound being quiet or the display being wrong
               </div>
               <small class="description">
                 #3 • open • Jun 1, 2011 • mithro
+                
                 
               </small>
             </div>
