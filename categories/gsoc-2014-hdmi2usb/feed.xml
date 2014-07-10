@@ -25,6 +25,17 @@
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 created branch gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</link>
       <description>&lt;!-- create --&gt;
@@ -256,21 +267,6 @@
 </description>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</link>
-      <description>We're halfway through!&lt;br /&gt;&lt;br /&gt;Coagulated and arranged the components on PCB.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-Bbb16OWkprA/U7omCqc3GdI/AAAAAAAADTk/yMZzPWZUSlA/s1600/mboard_layout1.png&quot; height=&quot;379&quot; width=&quot;640&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;I'll ask Rohit to help me verify the VHDCI footprint by taking a printout of this and checking it against the VHDCI connector he has for right fit and correct alignment.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/daily-snippet/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-10T00:00:00+00:00</dc:date>
