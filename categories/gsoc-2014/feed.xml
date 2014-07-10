@@ -21,6 +21,21 @@
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 10/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/10/gsoc-snippet-10-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added search/filter engine based on labels (special filters) in Issues on Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt;&amp;nbsp;added state (open/closed) filter in Issues on Planet&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/10/gsoc-snippet-10-07-2014/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -237,17 +252,6 @@
 </description>
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/gsoc-snippet-04-07-2014/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-10T00:00:00+00:00</dc:date>
