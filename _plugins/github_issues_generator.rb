@@ -30,6 +30,7 @@ module Jekyll
     def fetch_project_data(site, page)
       require 'octokit'
       require 'json'
+      require 'date'
 
       special_filters = site.config['issues']['special_filters'].split ' ' rescue []
 
@@ -106,6 +107,14 @@ module Jekyll
         result['assignee_avatar'] = issue[:assignee][:avatar_url]
         result['assignee_login']  = issue[:assignee][:login]
         result['assignee_url']    = issue[:assignee][:html_url]
+      end
+
+      unless issue[:milestone].nil?
+        result['milestone_number']      = issue[:milestone][:number]
+        result['milestone_state']       = issue[:milestone][:state]
+        result['milestone_title']       = issue[:milestone][:title]
+        result['milestone_description'] = issue[:milestone][:description]
+        result['milestone_due_on']      = DateTime.parse(issue[:milestone][:due_on]) rescue nil
       end
 
       labels = issue[:labels].map do |label|
