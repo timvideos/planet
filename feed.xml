@@ -25,6 +25,18 @@
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 created branch gsoc at rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -63,6 +75,21 @@
       <dc:date>2014-07-09T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: </title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2005-3311-fb33-ac1baa4e4bf0&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 9th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2005-3311-fb33-ac1baa4e4bf0&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Spent the day in VGA PCBv02 Requirements and looking for suitable I2C buffer IC&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Rest of the time was spent in tinkering with PLL phase adjustment and jitter filter setting using Clocking Wizard&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/gsoc-daily-log/</guid>
+      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -93,6 +120,21 @@
 </description>
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Weekly Overview]: Its all about timing!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/gsoc-weekly-overview-its-all-about-timing/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-0df12890-2004-8afa-5022-b9b6769cfcef&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;From my previous Video Conference with my mentor, I learned about a whole new thing called Clock Domain Crossing. I had never heard or known of it before, as most of my designs were simple single-clock ones. This was a completely new thing!&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Reading:&lt;/span&gt;&lt;/h2&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;My mentor gave me some pointers on oversampling and clock domain crossing, and gave me &amp;nbsp;Application Notes from Xilinx on Data &amp;amp; Clock Recovery, Async Oversampling etc. They were quite helpful in getting good understanding of the problem and issues. I also searched-for and found some documents on Clock Domain Crossing, synchronization and metastability. So, this week learnt a handful of new things! &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Taking mind off from VGA capture:&lt;/span&gt;&lt;/h2&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br class=&quot;kix-line-break&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;After much reading, it started getting boring. So, I decided to implement AD9984A I2C initialization using Atlys as an exciting break from boredom. Wrote the code for AD9984A I2C init and it worked! After some confidence, I decided to implement UART-I2C bridge for AD9984A initialization and dynamic configuration from any PC itself. It would help a user change the brightness and contrast settings, and take low-level control of AD9984A using their PC. So, I wrote the code. But, it turned out to be unreliable. Worked 9 out of 10 times but it would fail the 1 time or so. Anyways, this was much needed break from VGA capture.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Next, day I decided to go back to VGA Capturing. I thought, since I2C part is complete, I should now integrate it into my VGA Capture Test codes, and do away with BeagleBoneBlack, hence freeing up space from my test area. But, the *exact* *same* code refused to work after integration. &amp;nbsp;I found this was somehow related to the program code getting inferred as BRAM8 instead of Distributed RAM in standalone testing. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Back to VGA Capture:&lt;/span&gt;&lt;/h2&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;During reading *lots* of documents, I found some quick simple ideas that could help in improving the condition, such as using removing the DCM_CLKGEN block and directly connecting the DATACK to PLL and try to reduce jitter and skew from it. This was because I read in XAPP861 that DCM’s CLKFX has much higher jitter. But, The screen would stop showing any output even if I was getting the PLL_Lock. Confusing! Also, There is another amusing thing. If I use DCM_SP in place of DCM_CLKGEN, with *exact* same CLKFX_DIVIDE &amp;amp; CLKFX_MULTIPLY values and also same connections, the screen would go blank, but the PLL would indicate locked status.&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I strongly suspected, that this may be due to design issue. So, I investigated some documents on DATACK. First, the AD9984A’s datasheet. It’s PCB design guidelines say adding 50-200 ohm resistor to reduce reflections. But, The reference schematic from Analog Devices for AD9984 uses 22 ohm resistors for all clocks (DATACK, HSOUT, VSOUT &amp;amp; SOGOUT) whereas, uses 50 ohm for the data lines. I found one more schematic(FMCVideo_sch_RevD.pdf) &amp;nbsp;from Xilinx using AD9984A, using the DATACK clock directly as a main clock. &amp;nbsp;This one didn’t use any series resistor on any digital lines. &amp;nbsp;I don’t know how much impact it does at 65MHz, but I strongly suspect either this or other physical design issue in the PCB. &lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Upcoming Week:&lt;/span&gt;&lt;/h2&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;It is going to be fun and challenging. Hopefully, I’ll get access to an oscilloscope and see exactly what’s going on with the DATACK, HSOUT and VSOUT signals. I’ll be writing code for oversampling and synchronization, using the techniques learnt from the app notes. Also, I’ll be reserving 3-4 hours each day for PCB designing. So, except a nice (but not finalized :P ) PCB design by next week. Hopefully, some issues with requirements(dimensions etc) for PCBv02 get resolved in next VC with my mentor. Also, this week I’m planning on assembling another PCBv01 for simultaneous testing by other members of community. So, yeah, fun and challenging!&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/gsoc-weekly-overview-its-all-about-timing/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -213,47 +255,6 @@
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Sending RTP packets via FPGA</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</link>
-      <description>Today, i generated montonically incrementing RGB values as part of the packetizer and send that to the MAC after adding all the headers like RTP, UDP, IP and Ethernet. The simulation worked just fine. After that it was time to do the Xilinx build flow to make the RTP go across the 1 Gbps network. It took more than an hour to get the build flow finish. And lo and behold, i was struck by &lt;a href=&quot;http://pastebin.com/6Q8Ph6Gu&quot;&gt;timing violations&lt;/a&gt;. Time to fix this by re-coding.&lt;br /&gt;&lt;br /&gt;Debug mode continues&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Plans</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&lt;div&gt;I would like to make hdmi2usb usable for 720p atleast.&amp;nbsp; Since we have already achieved 30 fps, things are looking good. Now the next thing to work on is finding an optimum encoding quality so that the encoded frame fit the fx2 bandwidth and are viewable.&lt;br /&gt;&lt;br /&gt;Tariq observed that we are clocking pixels which do not have useful data. I would like to check that too. It most probably will not affect the frame rate but it might effect things at higher resolution.&lt;br /&gt;&lt;br /&gt;How did fps improve to 30 fps?&lt;br /&gt;In the original read/write state machine of DDR, read and writes did not happen simultaneously. I modified the read and write state machine to start encoding as soon as 8 lines are read into the DDR. This allows encoding of every alternate frame and hence fps of 30. In case Shenki you want to test it on your system, then here is the &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VSlUtT19xbDBKLWM/edit?usp=sharing&quot;&gt;xsvf file&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;How things can be improved further?&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Double/triple buffering: Can improve the frame rate to the maximum frame rate of the encoder(currently it is 40 fps).&lt;/li&gt;&lt;li&gt;Using two encoder instead of one: Now as every alternate frame is being dropped, another encoder can be used to process these frames. This way we can get fully 60Hz frame rate. But there are issuses:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Already the encoder is taking up almost half of the BRAMs available. So there might not be enough space for adding another encoder or if it is possible to add another encoder, there might not be enough space for other features which are going to be added.&lt;/li&gt;&lt;li&gt;As two encoded frames will be produced simultaneously, an way to send these to host via fx2 has to be designed which in turn will cost more memory.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;(Suggested by shenki)Removing DDR image buffer and storing frames directly into the line buffer: I am not sure if it is possible. Wil have to check.&lt;/li&gt;&lt;li&gt;Subsampling: Currently the encoder takes in RGB888 and converts into YCrCb and then subsamples it at 4:2:2. This can be changed into 4:2:0. This can reduce encoding time and might help us with the bandwidth issues.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-10T00:00:00+00:00</dc:date>
   </channel>
