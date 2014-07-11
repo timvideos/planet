@@ -8,7 +8,37 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Working on DDR2/Receiver logic and attending a conference in Tampa Florida</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-receiver-logic-and-attending-a-co/</link>
+      <description>&lt;span style=&quot;font-size: large;&quot;&gt;Now we need to push real HMDI traffic through Packetizer and Ethernet. I am reading up and learning about DDR2 in my time that i have from attending &lt;a href=&quot;http://www.isvlsi.org/&quot;&gt;ISVLSI&lt;/a&gt; conference in Tampa, Florida. The other thing that can be done before this and perhaps should be done before DDR2 integration is regenerate the image on the receiver side using VLC or may be GStreamer. This will be done prior to integrating DDR2.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: large;&quot;&gt;This will be continue on the weekend and next week until get done. Since i am traveling back home, you may not see Friday's blog.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: large;&quot;&gt;Please tolerate that :)&lt;/span&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-receiver-logic-and-attending-a-co/</guid>
+      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Working on DDR2 and attending a conference in Tampa Florida</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-and-attending-a-conference-in-tam/</link>
+      <description>Now we need to push real HMDI traffic through Packetizer and Ethernet. I am reading up and learning about DDR2 in my time that i have from attending &lt;a href=&quot;http://www.isvlsi.org/&quot;&gt;ISVLSI&lt;/a&gt; conference in Tampa, Florida.&lt;br /&gt;&lt;br /&gt;This will be continue on the weekend and next week until get done. Since i am traveling back home, you may not see Friday's blog.&lt;br /&gt;&lt;br /&gt;Please tolerate that :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-and-attending-a-conference-in-tam/</guid>
+      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Testing RTP packetizer with multiple (2 and 3 packets)</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/testing-rtp-packetizer-with-multiple-2-and-3-pack/</link>
@@ -239,36 +269,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/gsoc-daily-log-interesting/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Debugging continues and eventually pays off: One RTP packet swims across the wire</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues-and-eventually-pays-off-one-r/</link>
-      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;br /&gt;&lt;br /&gt;And finally the good news, one RTP packet made it across the English channel ( i mean the Ethernet wire).&lt;br /&gt;&lt;br /&gt;Here is the snapshot. Note that RTP is sent as UDP packet. Only Look at the first packet.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-5dVl0WgIfcY/U7uCsmMhW9I/AAAAAAAAAKM/ooWEbS64Qsg/s1600/rtp_packet_across_ethernet.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-5dVl0WgIfcY/U7uCsmMhW9I/AAAAAAAAAKM/ooWEbS64Qsg/s1600/rtp_packet_across_ethernet.jpg&quot; height=&quot;214&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;Now i will send more RTP packets and work backwards towards putting a DDR2 or similar and connecting that with VTC_DEMO colorbar.&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues-and-eventually-pays-off-one-r/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debugging continues</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</link>
-      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
