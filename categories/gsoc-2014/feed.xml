@@ -11,6 +11,32 @@
     <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/11/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 11/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/11/gsoc-snippet-11-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added filter based on labels (now you can select labels/tags and find issues related to your criteria)&lt;br /&gt;&lt;br /&gt;I will add now last filter (milestones), so you will be able to select issues that belong to selected milestone.&lt;br /&gt;&lt;br /&gt;I will be unavailable till Sunday (I am on my way home, I will be available from Monday).&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/11/gsoc-snippet-11-07-2014/</guid>
+      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/10/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
@@ -226,32 +252,6 @@
 </description>
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 04/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/gsoc-snippet-04-07-2014/</link>
-      <description>Today I talked with Tim about deployment of getting-started page, we've created document with steps of deployment and we will continue tomorrow.&lt;br /&gt;&lt;br /&gt;I also found some great posts about organizing work with GitHub Issues:&amp;nbsp;&lt;a href=&quot;http://www.ianbicking.org/blog/2014/03/use-github-issues-to-organize-a-project.html&quot;&gt;http://www.ianbicking.org/blog/2014/03/use-github-issues-to-organize-a-project.html&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;http://wiredcraft.com/posts/2014/01/08/how-we-write-our-github-issues.html&quot;&gt;http://wiredcraft.com/posts/2014/01/08/how-we-write-our-github-issues.html&lt;/a&gt;. Great post how to keep well organization of projects and issues and make sure that every feature is created incremental.&lt;br /&gt;&lt;br /&gt;I also found great application to manage Issues and assignment and status (to make Issues more like Trello or Kanban table):&amp;nbsp;&lt;a href=&quot;https://waffle.io/&quot;&gt;https://waffle.io/&lt;/a&gt;&amp;nbsp;and &lt;a href=&quot;http://octokan.com/&quot;&gt;http://octokan.com&lt;/a&gt;, I've tested them, and I very like waffle.io, because of nice and easy interface, it can be used by everyone in organization to track progress of projects and it is free of charge!&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added labels to issues website on Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue content to issues website on Planet (currently they are not generated from markdown, I will fix it tomorrow)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/gsoc-snippet-04-07-2014/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-11T00:00:00+00:00</dc:date>
