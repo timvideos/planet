@@ -40,6 +40,17 @@
       <dc:date>2014-07-11T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
+      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
@@ -86,6 +97,21 @@
 </description>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</guid>
+      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]:</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-26be-90ca-c27a-61ad5a8adf94&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 10th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-26be-90ca-c27a-61ad5a8adf94&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Worked on schematic. Added I2C Buffers and EEPROM. Fixed ERC Errors&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Worked on VGA Capture code. Got slight improvement in capture quality. Code pushed to repo.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/gsoc-daily-log/</guid>
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -234,36 +260,6 @@
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/08/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Sending RTP packets via FPGA</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</link>
-      <description>Today, i generated montonically incrementing RGB values as part of the packetizer and send that to the MAC after adding all the headers like RTP, UDP, IP and Ethernet. The simulation worked just fine. After that it was time to do the Xilinx build flow to make the RTP go across the 1 Gbps network. It took more than an hour to get the build flow finish. And lo and behold, i was struck by &lt;a href=&quot;http://pastebin.com/6Q8Ph6Gu&quot;&gt;timing violations&lt;/a&gt;. Time to fix this by re-coding.&lt;br /&gt;&lt;br /&gt;Debug mode continues&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Plans</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&lt;div&gt;I would like to make hdmi2usb usable for 720p atleast.&amp;nbsp; Since we have already achieved 30 fps, things are looking good. Now the next thing to work on is finding an optimum encoding quality so that the encoded frame fit the fx2 bandwidth and are viewable.&lt;br /&gt;&lt;br /&gt;Tariq observed that we are clocking pixels which do not have useful data. I would like to check that too. It most probably will not affect the frame rate but it might effect things at higher resolution.&lt;br /&gt;&lt;br /&gt;How did fps improve to 30 fps?&lt;br /&gt;In the original read/write state machine of DDR, read and writes did not happen simultaneously. I modified the read and write state machine to start encoding as soon as 8 lines are read into the DDR. This allows encoding of every alternate frame and hence fps of 30. In case Shenki you want to test it on your system, then here is the &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VSlUtT19xbDBKLWM/edit?usp=sharing&quot;&gt;xsvf file&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;How things can be improved further?&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Double/triple buffering: Can improve the frame rate to the maximum frame rate of the encoder(currently it is 40 fps).&lt;/li&gt;&lt;li&gt;Using two encoder instead of one: Now as every alternate frame is being dropped, another encoder can be used to process these frames. This way we can get fully 60Hz frame rate. But there are issuses:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Already the encoder is taking up almost half of the BRAMs available. So there might not be enough space for adding another encoder or if it is possible to add another encoder, there might not be enough space for other features which are going to be added.&lt;/li&gt;&lt;li&gt;As two encoded frames will be produced simultaneously, an way to send these to host via fx2 has to be designed which in turn will cost more memory.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;(Suggested by shenki)Removing DDR image buffer and storing frames directly into the line buffer: I am not sure if it is possible. Wil have to check.&lt;/li&gt;&lt;li&gt;Subsampling: Currently the encoder takes in RGB888 and converts into YCrCb and then subsamples it at 4:2:2. This can be changed into 4:2:0. This can reduce encoding time and might help us with the bandwidth issues.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-11T00:00:00+00:00</dc:date>
   </channel>
