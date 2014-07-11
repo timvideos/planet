@@ -77,7 +77,7 @@
               <div class="col-sm-10">
                 <div class="labels">
                   {% for label in page.issues_labels %}
-                    <span class="label label-tag label-selector" style="background-color: #{{ label.color }};">{{ label.name }}</span>
+                    <span class="label label-tag label-selector" style="background-color: #{{ label.color }}; border-color: {{ label.color | darken_color: 0.8 }}">{{ label.name }}</span>
                   {% endfor %}
                 </div>
               </div>
@@ -110,11 +110,9 @@
               </h5>
               <div class="issue" data-milestone="{{ issue.milestone_number }}" data-state="{{ issue.state }}" data-author="{{ issue.user_login }}" data-assignee="{{ issue.assignee_login }}"{% for filter in issue.special_filter_value %} data-{{ filter[0] }}="{{ filter[1].value | join: ';' }}"{% endfor %}>
                 {% if issue.labels %}
-                  <div class="tags">
+                  <div class="labels">
                     {% for label in issue.labels %}
-                      <span class="label label-tag" style="background-color: #{{ label.color }};">
-                        {{ label.name }}
-                      </span>
+                      <span class="label label-tag" style="background-color: #{{ label.color }};">{{ label.name }}</span>
                     {% endfor %}
                   </div>
                 {% endif %}

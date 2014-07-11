@@ -117,6 +117,7 @@ var issuesFilter = {
     this.stateOpenCheckboxInit();
     this.stateClosedCheckboxInit();
     this.advancedSearchInit();
+    this.labelsSelectInit();
   },
 
   searchInit: function(){
@@ -133,11 +134,13 @@ var issuesFilter = {
           $assigneedNo    = $issuesFilter.find('#inputAssigneedNo'),
           $stateOpen      = $issuesFilter.find('#inputStateOpen'),
           $stateClosed    = $issuesFilter.find('#inputStateClosed'),
-          $specialFiltersCheckboxes = $('.issue-special-filter input[type="checkbox"]:checked'); 
+          $filterLabels   = $issuesFilter.find('.labels .label-selected'),
+          $specialFiltersCheckboxes = $('.issue-special-filter input[type="checkbox"]:checked');
 
       for(var i=0; i < $issues.length; ++i){
         var $issue          = $($issues[i]),
             $issueData      = $issue.find('.issue'),
+            $labels         = $issue.find('.labels .label'),
             title           = $issue.find('.issue-title').text().toLowerCase(),
             body            = $issue.find('.issue-body').text().toLowerCase(),
             author          = $issueData.data('author').toLowerCase(),
@@ -225,6 +228,27 @@ var issuesFilter = {
           }
         }
 
+        if(showIssue && $filterLabels.length){
+          for(var j=0; j < $filterLabels.length; ++j){
+            var $label     = $($filterLabels[j]),
+                labelValue = $.trim($label.text()),
+                anyEquals = false;
+
+            if(!showIssue)
+              break;
+
+            for(var k=0; k < $labels.length; ++k){
+              if($.trim($($labels[k]).text()) == labelValue) {
+                anyEquals = true;
+                break;
+              }
+            }
+
+            if(!anyEquals)
+              showIssue = false;
+          }
+        }
+
         if(showIssue)
           $issue.show();
         else
@@ -286,6 +310,14 @@ var issuesFilter = {
       var $checkboxStateOpen = $('#main .issues-filter #inputStateOpen');
 
       $checkboxStateOpen.attr('checked', false);
+    });
+  },
+
+  labelsSelectInit: function(){
+    $('#main').on('click', '.issues-filter .label-selector', function(e){
+      var $self = $(this);
+
+      $(this).toggleClass('label-selected');
     });
   }
 }

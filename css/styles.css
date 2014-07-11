@@ -186,6 +186,24 @@ img {
   color: #fff;
 }
 
+.label-selector {
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+}
+
+.label-selector:hover, .label-selector:focus {
+  border-bottom-width: 3px;
+  position: relative;
+  top: 1px;
+}
+
+.label-selector:active, .label-selected {
+  border-bottom-width: 1px;
+  position: relative;
+  top: 3px;
+}
+
 .description {
   font-family: courier, courier-new, monospace;
   color: #999;
