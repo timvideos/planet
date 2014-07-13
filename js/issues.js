@@ -112,10 +112,7 @@ var issuesFilter = {
   init: function(){
     this.searchInit();
     this.resetInit();
-    this.assigneedYesCheckboxInit();
-    this.assigneedNoCheckboxInit();
-    this.stateOpenCheckboxInit();
-    this.stateClosedCheckboxInit();
+    this.radioCheckboxInit();
     this.advancedSearchInit();
     this.labelsSelectInit();
   },
@@ -124,17 +121,18 @@ var issuesFilter = {
     $('#main').on('click', '.issues-filter .issues-search', function(e){
       e.preventDefault();
 
-      var $issues         = $('.issues'),
-          $issuesFilter   = $('.issues-filter'),
-          filterTitle     = $.trim($issuesFilter.find('#inputTitle').val().toLowerCase()),
-          filterBody      = $.trim($issuesFilter.find('#inputBody').val().toLowerCase()),
-          filterAuthor    = $.trim($issuesFilter.find('#inputAuthor').val().toLowerCase()),
-          filterAssignee  = $.trim($issuesFilter.find('#inputAssignee').val().toLowerCase()),
-          $assigneedYes   = $issuesFilter.find('#inputAssigneedYes'),
-          $assigneedNo    = $issuesFilter.find('#inputAssigneedNo'),
-          $stateOpen      = $issuesFilter.find('#inputStateOpen'),
-          $stateClosed    = $issuesFilter.find('#inputStateClosed'),
-          $filterLabels   = $issuesFilter.find('.labels .label-selected'),
+      var $issues          = $('.issues'),
+          $issuesFilter    = $('.issues-filter'),
+          filterTitle      = $.trim($issuesFilter.find('#inputTitle').val().toLowerCase()),
+          filterBody       = $.trim($issuesFilter.find('#inputBody').val().toLowerCase()),
+          filterAuthor     = $.trim($issuesFilter.find('#inputAuthor').val().toLowerCase()),
+          filterAssignee   = $.trim($issuesFilter.find('#inputAssignee').val().toLowerCase()),
+          $assigneedYes    = $issuesFilter.find('#inputAssigneedYes'),
+          $assigneedNo     = $issuesFilter.find('#inputAssigneedNo'),
+          $stateOpen       = $issuesFilter.find('#inputStateOpen'),
+          $stateClosed     = $issuesFilter.find('#inputStateClosed'),
+          $filterLabels    = $issuesFilter.find('.labels .label-selected'),
+          $filterMilestone = $issuesFilter.find('.issue-milestone:checked'),
           $specialFiltersCheckboxes = $('.issue-special-filter input[type="checkbox"]:checked');
 
       for(var i=0; i < $issues.length; ++i){
@@ -143,6 +141,7 @@ var issuesFilter = {
             $labels         = $issue.find('.labels .label'),
             title           = $issue.find('.issue-title').text().toLowerCase(),
             body            = $issue.find('.issue-body').text().toLowerCase(),
+            milestoneId     = $issueData.data('milestone-id'),
             author          = $issueData.data('author').toLowerCase(),
             state           = $issueData.data('state').toLowerCase(),
             assignee        = $issueData.data('assignee').toLowerCase();
@@ -198,6 +197,11 @@ var issuesFilter = {
           }
         }
 
+        if(showIssue && $filterMilestone.length){
+          if(milestoneId != $filterMilestone.data('milestone-id')){
+            showIssue = false;
+          }
+        }
 
         if(showIssue && $specialFiltersCheckboxes.length){
           for(var j=0; j < $specialFiltersCheckboxes.length; ++j){
@@ -264,10 +268,12 @@ var issuesFilter = {
 
       var $resetButton = $(this),
           $form        = $resetButton.closest('form');
-          $issues      = $('.issues');
+          $issues      = $('.issues'),
+          $selectedLabels = $('.label-selected');
 
       $form.get(0).reset();
       $issues.show();
+      $selectedLabels.removeClass('label-selected');
     });
   },
 
@@ -281,35 +287,13 @@ var issuesFilter = {
     });
   },
 
-  assigneedYesCheckboxInit: function(){
-    $('#main').on('change', '.issues-filter #inputAssigneedYes', function(e){
-      var $checkboxAssigneedNo = $('#main .issues-filter #inputAssigneedNo');
+  radioCheckboxInit: function(){
+    $('#main').on('change', '.issues-filter .radio-checkbox', function(e){
+      var $self          = $(this),
+          $formGroup     = $self.closest('.form-group'),
+          $allCheckboxes = $formGroup.find('.radio-checkbox'); 
 
-      $checkboxAssigneedNo.attr('checked', false);
-    });
-  },
-
-  assigneedNoCheckboxInit: function(){
-    $('#main').on('change', '.issues-filter #inputAssigneedNo', function(e){
-      var $checkboxAssigneedNo = $('#main .issues-filter #inputAssigneedYes');
-
-      $checkboxAssigneedNo.attr('checked', false);
-    });
-  },
-
-  stateOpenCheckboxInit: function(){
-    $('#main').on('change', '.issues-filter #inputStateOpen', function(e){
-      var $checkboxStateClosed = $('#main .issues-filter #inputStateClosed');
-
-      $checkboxStateClosed.attr('checked', false);
-    });
-  },
-
-  stateClosedCheckboxInit: function(){
-    $('#main').on('change', '.issues-filter #inputStateClosed', function(e){
-      var $checkboxStateOpen = $('#main .issues-filter #inputStateOpen');
-
-      $checkboxStateOpen.attr('checked', false);
+      $allCheckboxes.not($self).attr('checked', false);
     });
   },
 

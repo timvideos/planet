@@ -40,6 +40,7 @@ module Jekyll
       issues_authors       = []
       issues_assignees     = []
       issues_titles        = []
+      issues_milestones    = []
       issues_filter_values = {}
       projects_data        = {}
 
@@ -55,11 +56,21 @@ module Jekyll
         projects_data[project]['name'] = project
         projects_data[project]['issues'] = issues 
       
-        issues_titles    += issues.map { |issue| issue['title'] }
-        issues_labels    += issues.map { |issue| issue['labels'] }
-        issues_authors   += issues.map { |issue| issue['user_login'] }
-        issues_assignees += issues.map { |issue| issue['assignee_login'] }
-        
+        issues_titles     += issues.map    { |issue| issue['title'] }
+        issues_labels     += issues.map    { |issue| issue['labels'] }
+        issues_authors    += issues.map    { |issue| issue['user_login'] }
+        issues_assignees  += issues.map    { |issue| issue['assignee_login'] }
+        issues_milestones += issues.select { |issue| !issue['milestone_number'].nil? }.map do |issue|
+          {
+            'id'           => issue['milestone_id'],
+            'number'       => issue['milestone_number'],
+            'state'        => issue['milestone_state'],
+            'title'        => issue['milestone_title'],
+            'description'  => issue['milestone_description'],
+            'due_on'       => issue['milestone_due_on']
+          }
+        end
+
         special_filters.each do |filter|
           issues_filter_values[filter.downcase] += issues.map { |issue| issue['special_filter_value'][filter.downcase]['value'] }
         end
@@ -72,11 +83,12 @@ module Jekyll
         }
       end
 
-      page.data['issues_titles']    = issues_titles.compact.uniq.sort.to_json
-      page.data['issues_authors']   = issues_authors.compact.uniq.sort.to_json
-      page.data['issues_assignees'] = issues_assignees.compact.uniq.sort.to_json
-      page.data['issues_labels']    = issues_labels.compact.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
-      page.data['issues_data']      = projects_data
+      page.data['issues_titles']     = issues_titles.compact.uniq.sort.to_json
+      page.data['issues_authors']    = issues_authors.compact.uniq.sort.to_json
+      page.data['issues_assignees']  = issues_assignees.compact.uniq.sort.to_json
+      page.data['issues_milestones'] = issues_milestones.compact.uniq.sort_by { |milestone| milestone['number'] }
+      page.data['issues_labels']     = issues_labels.compact.flatten.uniq.sort_by { |label| [label['color'], label['name']] }
+      page.data['issues_data']       = projects_data
 
       page.data['issues_special_filters'] = issues_filter_values
     end
@@ -110,11 +122,12 @@ module Jekyll
       end
 
       unless issue[:milestone].nil?
+        result['milestone_id']          = issue[:milestone][:id]
         result['milestone_number']      = issue[:milestone][:number]
         result['milestone_state']       = issue[:milestone][:state]
         result['milestone_title']       = issue[:milestone][:title]
         result['milestone_description'] = issue[:milestone][:description]
-        result['milestone_due_on']      = DateTime.parse(issue[:milestone][:due_on]) rescue nil
+        result['milestone_due_on']      = issue[:milestone][:due_on]
       end
 
       labels = issue[:labels].map do |label|
