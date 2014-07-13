@@ -80,10 +80,10 @@
             <label class="col-sm-2 control-label">Assigneed?</label>
             <div class="col-sm-10">
               <div class="checkbox">
-                <input type="checkbox" id="inputAssigneedYes" name="assigneedYes"> <label for="inputAssigneedYes"><span class="glyphicon glyphicon-ok"></span></label>
+                <input type="checkbox" class="radio-checkbox" id="inputAssigneedYes" name="assigneedYes"> <label for="inputAssigneedYes"><span class="glyphicon glyphicon-ok"></span></label>
               </div>
               <div class="checkbox">
-                <input type="checkbox" id="inputAssigneedNo" name="assigneedNo"> <label for="inputAssigneedNo"><span class="glyphicon glyphicon-remove"></span></label>
+                <input type="checkbox" class="radio-checkbox" id="inputAssigneedNo" name="assigneedNo"> <label for="inputAssigneedNo"><span class="glyphicon glyphicon-remove"></span></label>
               </div>
             </div>
           </div>
@@ -91,13 +91,42 @@
             <label class="col-sm-2 control-label">State</label>
             <div class="col-sm-10">
               <div class="checkbox">
-                <input type="checkbox" id="inputStateOpen" name="stateOpen"> <label for="inputStateOpen">open</label>
+                <input type="checkbox" class="radio-checkbox" id="inputStateOpen" name="stateOpen"> <label for="inputStateOpen">open</label>
               </div>
               <div class="checkbox">
-                <input type="checkbox" id="inputStateClosed" name="stateClosed"> <label for="inputStateClosed">closed</label>
+                <input type="checkbox" class="radio-checkbox" id="inputStateClosed" name="stateClosed"> <label for="inputStateClosed">closed</label>
               </div>
             </div>
           </div>
+          
+            <div class="form-group issue-milestones-filter">
+              <label class="col-sm-2 control-label">Milestone</label>
+              <div class="col-sm-10">
+                
+                  <div class="checkbox">
+                    <input type="checkbox" class="radio-checkbox issue-milestone" id="inputMilestone716454" data-milestone-id="716454"> <label for="inputMilestone716454"><span data-toggle="tooltip" data-original-title="End of Google Summer of Code 2014 edition. \ Due on: Aug 22, 2014">#1: GSoC 2014 End</span></label>
+                  </div>
+                
+                  <div class="checkbox">
+                    <input type="checkbox" class="radio-checkbox issue-milestone" id="inputMilestone292023" data-milestone-id="292023"> <label for="inputMilestone292023"><span data-toggle="tooltip" data-original-title="Final handover of the system as agreed through FreeLancer.
+See https://www.freelancer.com/projects/2671589.html
+
+Believe the final agreement was:
+ * Solution which works on the Digilent Atlys board, using onboard USB chip (COMPLETE)
+ * Solution which includes UVC + CDC output.
+ * Solution which allows video switching.
+ * Final code cleanup and documentation.
+
+">#1: Freelancer Handover</span></label>
+                  </div>
+                
+                  <div class="checkbox">
+                    <input type="checkbox" class="radio-checkbox issue-milestone" id="inputMilestone292024" data-milestone-id="292024"> <label for="inputMilestone292024"><span data-toggle="tooltip" data-original-title="Allow the board to capture legacy VGA signals.">#2: VGA Input Capture</span></label>
+                  </div>
+                
+              </div>
+            </div>
+          
           
             
               <div class="form-group issue-special-filter">
@@ -325,7 +354,7 @@
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/25" class="issue-title">[streaming-system] Automated build and configuration of full streaming system</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -342,7 +371,7 @@
 
 <h2 id="expected-results">Expected results</h2>
 
-<p>Convert existing scripts and manual processes to a consistent and modular deployment system templates.
+<p>Convert existing scripts and manual processes to a consistent and modular deployment system templates.<br />
 Demonstrate it working in VMs.</p>
 
 <h1 id="detailed-explanation">Detailed Explanation</h1>
@@ -359,7 +388,7 @@ Demonstrate it working in VMs.</p>
 
 <h2 id="configuration">Configuration</h2>
 
-<p>Everything possible will be contained in the master config file. There should be no editing additional config files by hand. Part of this project will be to determine what all needs to be included in the master config file. The file will likely be created by the veyepar system which will be responsible for transforming the conference schedule into a consistent format and providing a UI to manage such things as:
+<p>Everything possible will be contained in the master config file. There should be no editing additional config files by hand. Part of this project will be to determine what all needs to be included in the master config file. The file will likely be created by the veyepar system which will be responsible for transforming the conference schedule into a consistent format and providing a UI to manage such things as:<br />
 Talks in the room that the attendees know as “UB2.252A (Lameere)” will have a url of www.timvideos.com/fosdem2014/lameere ad an irc channel of #fosdem-lameere; and the video mixer machine has a mac address of 00:11:22…, content source machines: [22:33:44… 44:55:66…], host names: lameere-mixer, lameere-source-1 and -2, and somehow specifying if the encoders will be EC2, RackSpace or local vm’s.</p>
 
 <h2 id="pieces">Pieces</h2>
@@ -377,9 +406,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
 
 <h2 id="further-reading">Further reading</h2>
 
-<p>Existing build systems that do quite a bit of what is needed:
- https://github.com/yoe/fosdemvideo/blob/master/doc/README
- https://github.com/CarlFK/veyepar/blob/master/setup/nodes/pxe/README.txt
+<p>Existing build systems that do quite a bit of what is needed:<br />
+ https://github.com/yoe/fosdemvideo/blob/master/doc/README<br />
+ https://github.com/CarlFK/veyepar/blob/master/setup/nodes/pxe/README.txt<br />
  https://github.com/timvideos/streaming-system/blob/master/tools/setup/runall.sh</p>
 
 <h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
@@ -481,7 +510,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/24" class="issue-title">[gstreamer] Create a gstreamer plugin for Lenkeng HDMI over IP extender</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="gstreamer" data-skill="" data-level="Medium" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="gstreamer" data-skill="" data-level="Medium" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -630,7 +659,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/23" class="issue-title">[gst-switch] Track the speaker! Zoom! Pan! Tilt!</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="gst-switch" data-skill="Electronics & Tools" data-level="Challenging" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="iiie" data-assignee="" data-project="gst-switch" data-skill="Electronics & Tools" data-level="Challenging" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -743,7 +772,7 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/22" class="issue-title">[Veyepar] Use avahi / zeroconfig to find our hosts on the network</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="Veyepar" data-skill="" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="iiie" data-assignee="" data-project="Veyepar" data-skill="" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -754,9 +783,9 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
                   <div>
                     <h1 id="brief-explanation">Brief explanation</h1>
 
-<p>We’d like to worry about fewer things, who wouldn’t.
-If we’re setting a room with a couple of computers to record a talk, we shouldn’t have to configure the network, it should “just work”.
-Avahi makes this easy, farther away host take longer to respond.
+<p>We’d like to worry about fewer things, who wouldn’t.<br />
+If we’re setting a room with a couple of computers to record a talk, we shouldn’t have to configure the network, it should “just work”.<br />
+Avahi makes this easy, farther away host take longer to respond.<br />
 Make a setup program that updates the configs for either DVSwitch or GSTSwitch.</p>
 
 <h2 id="expected-results">Expected results</h2>
@@ -865,7 +894,7 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/21" class="issue-title">[streaming-system #56] Dockerize flumotion and support components</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="iiie" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="iiie" data-assignee="" data-project="Streaming System (Website)" data-skill="DevOps / System Administration" data-level="Medium" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -897,26 +926,26 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
 <p><strong>This project is about making distribution and bring up easy, not about sandboxing / isolation.</strong></p>
 
 <blockquote>
-  <p>Docker is an open-source project to easily create lightweight, portable, self-sufficient
-containers from any application. The same container that a developer builds and 
-tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack
+  <p>Docker is an open-source project to easily create lightweight, portable, self-sufficient<br />
+containers from any application. The same container that a developer builds and <br />
+tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack<br />
 clusters, public clouds and more.</p>
 </blockquote>
 
 <hr />
 
 <blockquote>
-  <p><strong>Portable deployment across machines.</strong>
-Docker defines a format for bundling an application and all its dependencies into a single
-object which can be transferred to any Docker-enabled machine, and executed there with
+  <p><strong>Portable deployment across machines.</strong><br />
+Docker defines a format for bundling an application and all its dependencies into a single<br />
+object which can be transferred to any Docker-enabled machine, and executed there with<br />
 the guarantee that the execution environment exposed to the application will be the same.</p>
 </blockquote>
 
 <hr />
 
 <blockquote>
-  <p><strong>Application-centric</strong>*
-Docker is optimized for the deployment of applications, as opposed to machines.
+  <p><strong>Application-centric</strong>*<br />
+Docker is optimized for the deployment of applications, as opposed to machines.<br />
 This is reflected in its API, user interface, design philosophy and documentation.</p>
 </blockquote>
 
@@ -924,14 +953,14 @@ This is reflected in its API, user interface, design philosophy and documentatio
 
 <h2 id="flumotion-in-the-timvideos-streaming-system">Flumotion in the TimVideos streaming system</h2>
 
-<p>There are 3 types of flumotion configurations; they should share a base docker image but also be provides a separate docker image correctly configured.
- * Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.
-  * Requires dvswitch support.
- * Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.
+<p>There are 3 types of flumotion configurations; they should share a base docker image but also be provides a separate docker image correctly configured.<br />
+ * Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.<br />
+  * Requires dvswitch support.<br />
+ * Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.<br />
  * Repeater/Amplifier - runs in the cloud and streams a copy of the encoder output. Allows the system to scale past the limits of a single machine.</p>
 
-<p>There are a couple of support applications we use with flumotion; these should be installed inside the docker image and started as part of the container.
- * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.
+<p>There are a couple of support applications we use with flumotion; these should be installed inside the docker image and started as part of the container.<br />
+ * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.<br />
  * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/register">register</a> - Registers with the tracker website (so the stream can be found) and sends statistics and logs for reporting and load balancing support.</p>
 
 <h2 id="further-reading">Further reading</h2>
@@ -1042,7 +1071,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/20" class="issue-title">[streaming-system] Make the code.timvideos.us developer website awesome!</a>
               </h5>
-              <div class="issue" data-milestone="1" data-state="open" data-author="parx" data-assignee="pinoss" data-project="Developer Tools" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Ruby" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="716454" data-state="open" data-author="parx" data-assignee="pinoss" data-project="Developer Tools" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Ruby" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1067,24 +1096,24 @@ This is reflected in its API, user interface, design philosophy and documentatio
 
 <p>code.timvideos.us is generated using <a href="http://jekyllrb.com/">jekyll</a> and pushed to <a href="http://pages.github.com/">GitHub Pages</a>. We don’t use the github automatic generation as we have a couple of custom plugins.</p>
 
-<p>Things which could be done;
- * Blog / News items for the website. jekyll has strong support but we are not using it at all.
-   * Some type of Planet / RSS aggregator to collect developers information.
- * Code status integration – pull some type of stats from GitHub and publish it as part of the website.
- * Social web integration;
-  * Some type of twitter display, follow us on twitter, etc. <a href="@timvideosus">http://twitter.com/timvideosus</a>. New news items get publish to twitter account.
-  * Some type of G+ integration. New news items get publish to the G+ page.
- * Better Ideas / Issues page (javascript base system).
-  * Allow filtering using tags.
-  * Would be good for jekyll plugin to preload the issues information in some way.
-  * Split out into jekyll plugin other people can use.
- * Auto-generated the People page from github some how.
- * Better edit interface (rather than using the wiki edit stuff). 
-    * Integrate some type Markdown editor.
-      * http://oscargodson.github.io/EpicEditor/
-      * http://dillinger.io/
- * Auto-download of Google Drive/Docs images.
- * Make sure everything works under IE, Firefox and Chrome.
+<p>Things which could be done;<br />
+ * Blog / News items for the website. jekyll has strong support but we are not using it at all.<br />
+   * Some type of Planet / RSS aggregator to collect developers information.<br />
+ * Code status integration – pull some type of stats from GitHub and publish it as part of the website.<br />
+ * Social web integration;<br />
+  * Some type of twitter display, follow us on twitter, etc. <a href="@timvideosus">http://twitter.com/timvideosus</a>. New news items get publish to twitter account.<br />
+  * Some type of G+ integration. New news items get publish to the G+ page.<br />
+ * Better Ideas / Issues page (javascript base system).<br />
+  * Allow filtering using tags.<br />
+  * Would be good for jekyll plugin to preload the issues information in some way.<br />
+  * Split out into jekyll plugin other people can use.<br />
+ * Auto-generated the People page from github some how.<br />
+ * Better edit interface (rather than using the wiki edit stuff). <br />
+    * Integrate some type Markdown editor.<br />
+      * http://oscargodson.github.io/EpicEditor/<br />
+      * http://dillinger.io/<br />
+ * Auto-download of Google Drive/Docs images.<br />
+ * Make sure everything works under IE, Firefox and Chrome.<br />
    * Automated testing (Selenium? Sauce Labs?) that simple things work.</p>
 
 <h2 id="further-reading">Further reading</h2>
@@ -1171,7 +1200,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <small class="description">
                 #20 • open • Feb 14, 2014 • parx
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: GSoC 2014 End">#1</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / GSoC 2014 End \ Due on: Aug 22, 2014">#1</span>
                 
                 
                  • Assignee: <a href="https://github.com/pinoss">pinoss</a>
@@ -1190,7 +1219,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/19" class="issue-title">[streaming-system] TimVideos.us website (viewing interface) improvements</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML;Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1213,13 +1242,13 @@ This is reflected in its API, user interface, design philosophy and documentatio
 
 <h1 id="detailed-explanation">Detailed Explanation</h1>
 
-<p>This will also include improving the frontend website to support things like;
- * Proper theming of each channel. (Themes seperate from channels are needed so you can define a “Linux.conf.au 2015 theme” which is then used by multiple channels.)
- * Adding conference level pages (currently a version of the front page which groups together channels for each conference and supports theming for that conference).
- * Reworking the front timvideos.us page.
- * Accounts for control over each channel (admin level only, no users level accounts).
- * Admin interface for configuring channels.
- * Web base control of schedule download.
+<p>This will also include improving the frontend website to support things like;<br />
+ * Proper theming of each channel. (Themes seperate from channels are needed so you can define a “Linux.conf.au 2015 theme” which is then used by multiple channels.)<br />
+ * Adding conference level pages (currently a version of the front page which groups together channels for each conference and supports theming for that conference).<br />
+ * Reworking the front timvideos.us page.<br />
+ * Accounts for control over each channel (admin level only, no users level accounts).<br />
+ * Admin interface for configuring channels.<br />
+ * Web base control of schedule download.<br />
  * Support for proper backing up of the website.</p>
 
 <h2 id="further-reading">Further reading</h2>
@@ -1329,7 +1358,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/18" class="issue-title">[HDMI2USB] Intelligent Auto Audio gain </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1427,7 +1456,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/17" class="issue-title">[HDMI2USB] firmware auto-builder</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Developer Tools;HDMI2USB" data-skill="DevOps / System Administration;Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware;Software" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="Developer Tools;HDMI2USB" data-skill="DevOps / System Administration;Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware;Software" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1450,10 +1479,10 @@ This is reflected in its API, user interface, design philosophy and documentatio
 
 <p>HDMI2USB build system will need to be verified that it can produce the firmware in a reliable / automatic manner.</p>
 
-<p>Some type of webhook is needed.
-&gt; Every GitHub repository has the option to communicate with a web server whenever
-&gt; the repository is pushed to. These “webhooks” can be used to update an external
-&gt; issue tracker, trigger CI builds, update a backup mirror, or even deploy to your
+<p>Some type of webhook is needed.<br />
+&gt; Every GitHub repository has the option to communicate with a web server whenever<br />
+&gt; the repository is pushed to. These “webhooks” can be used to update an external<br />
+&gt; issue tracker, trigger CI builds, update a backup mirror, or even deploy to your<br />
 &gt; production server.</p>
 
 <h2 id="further-reading">Further reading</h2>
@@ -1567,7 +1596,7 @@ This is reflected in its API, user interface, design philosophy and documentatio
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/16" class="issue-title">[Veyepar] JSON schedule output into website</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="Veyepar" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="Veyepar" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1583,39 +1612,39 @@ This is reflected in its API, user interface, design philosophy and documentatio
 <p>Feed validator!!!!</p>
 
 <h1 id="problem">Problem</h1>
-<p>The Steaming UI and Processing videos relies on the talk schedule.  This data is typically in the conference website.  There is sometimes an API available,
+<p>The Steaming UI and Processing videos relies on the talk schedule.  This data is typically in the conference website.  There is sometimes an API available,<br />
 These APIs are not always accurate, example they may be missing the Keynote entries, or the start time is on a date that is not part of the conference. </p>
 
-<p>Things that will help:
- * A spec defining what data is needed.
- * A validater to inspect provided data.  (command line to validate a local file, public facing web page that will let conference web site developers test their API.)
+<p>Things that will help:<br />
+ * A spec defining what data is needed.<br />
+ * A validater to inspect provided data.  (command line to validate a local file, public facing web page that will let conference web site developers test their API.)<br />
  * Work with the open source conference site projects to add the API to their codebase.</p>
 
 <p>There are 3 popular conference systems: </p>
 
-<p>http://zookeepr.org - https://github.com/zookeepr/zookeepr
-http://pentabarf.org - https://github.com/nevs/pentabarf
+<p>http://zookeepr.org - https://github.com/zookeepr/zookeepr<br />
+http://pentabarf.org - https://github.com/nevs/pentabarf<br />
 http://eldarion.com/symposion/ - https://github.com/pinax/symposion</p>
 
-<p>All 3 have schedule exports - examples:
-http://www.pytennessee.org/api/schedule_json/
-http://lca2013.linux.org.au/programme/schedule/json
+<p>All 3 have schedule exports - examples:<br />
+http://www.pytennessee.org/api/schedule_json/<br />
+http://lca2013.linux.org.au/programme/schedule/json<br />
 https://fosdem.org/2014/schedule/xml  </p>
 
-<p>These two systems consume it:
-https://github.com/timvideos/streaming-system
+<p>These two systems consume it:<br />
+https://github.com/timvideos/streaming-system<br />
 https://github.com/CarlFK/veyepar/blob/master/dj/scripts/addeps.py  </p>
 
-<p>A description of the data is at the top of addeps.py 
+<p>A description of the data is at the top of addeps.py <br />
 and a little more http://nextdayvideo.com/page/metadata.html</p>
 
-<p>https://github.com/CarlFK/veyepar/blob/master/dj/scripts/addeps.py#L288<br />
-stores the data to the model 
+<p>https://github.com/CarlFK/veyepar/blob/master/dj/scripts/addeps.py#L288  <br />
+stores the data to the model <br />
 https://github.com/CarlFK/veyepar/blob/master/dj/main/models.py#L228</p>
 
 <p>The reason addeps.py is 2200 lines long is because the conference system coders keep changing things.  mostly it is because the symposium system doesn’t have the code, so each time someone installs it they write their own.  and things evolve too.  like adding “what kind of license is it released under?” </p>
 
-<p>symposium team has not accepted the pull request that will help stabilize the API 
+<p>symposium team has not accepted the pull request that will help stabilize the API <br />
 https://github.com/pinax/symposion/pull/45</p>
 
 <h1 id="contacts">Contacts</h1>
@@ -1701,7 +1730,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/15" class="issue-title">[gstreamer] Productionize/Update gstreamer dvswitch plugin</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="gstreamer" data-skill="" data-level="Easy" data-type="Software" data-language="C" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="gstreamer" data-skill="" data-level="Easy" data-type="Software" data-language="C" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1727,15 +1756,15 @@ https://github.com/pinax/symposion/pull/45</p>
 
 <h1 id="detailed-explanation">Detailed Explanation</h1>
 
-<p>The following tasks are the minimum things that need to be finished;
- * Porting plugin to support both gstreamer0.10 and gstreamer1.x
- * Add testing infrastructure for making sure the plugin works reliably.
+<p>The following tasks are the minimum things that need to be finished;<br />
+ * Porting plugin to support both gstreamer0.10 and gstreamer1.x<br />
+ * Add testing infrastructure for making sure the plugin works reliably.<br />
  * Add auto-reconnect on disconnection support.</p>
 
 <p>The dvswitch plugin is used by https://github.com/timvideos/dvsource-v4l2-other to send data from a v4l2src source to DVSwitch.</p>
 
-<p>Read the README files for both repositories;
- * https://github.com/timvideos/dvsource-v4l2-other/blob/dvswitchsink/README.md
+<p>Read the README files for both repositories;<br />
+ * https://github.com/timvideos/dvsource-v4l2-other/blob/dvswitchsink/README.md<br />
  * https://github.com/timvideos/gst-plugins-dvswitch/blob/master/README.md</p>
 
 <h2 id="further-reading">Further reading</h2>
@@ -1837,7 +1866,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/14" class="issue-title">[HDMI2USB #32] MJPEG core optimisation </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="parx" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware;Hardware" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -1959,7 +1988,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/11" class="issue-title">[streaming-system] Create a mobile theme for the website</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2060,7 +2089,7 @@ https://github.com/pinax/symposion/pull/45</p>
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/10" class="issue-title">[hdmi2usb] Create a serial port extension board - Support both RS232 and RS485 modes.</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2079,7 +2108,7 @@ https://github.com/pinax/symposion/pull/45</p>
 
 <h1 id="detailed-explanation">Detailed Explanation</h1>
 
-<p>This can be achieved using SP331 transcevier.
+<p>This can be achieved using SP331 transcevier.<br />
 The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 contains four drivers and four receivers when selected in RS-232 mode; and two drivers and two receivers when selected in RS-485 mode. The SP331 also contains a dual mode which has two RS-232 drivers/receivers plus one differential RS-485 driver/receiver.</p>
 
 <p>The RS-232 transceivers can typically operate at 230kbps while adhering to the RS-232 specifications. The RS-485 transceivers can operate up to 10Mbps while adhering to the RS-485 specifications. The SP331 includes a self-test loopback mode where the driver outputs are internally configured to the receiver inputs. This allows for easy diagnostic serial port testing without using an external loopback plug. The RS-232 and RS-485 drivers can be disabled (High-Z output) by controlling a set of four select pins.</p>
@@ -2176,7 +2205,7 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/9" class="issue-title">[flumotion] Port Flumotion to the gstreamer-1.0 API</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion;gstreamer" data-skill="" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion;gstreamer" data-skill="" data-level="Challenging" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2211,7 +2240,7 @@ The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 conta
 <blockquote>
   <p>GStreamer 0.10 no longer maintained</p>
 
-  <p>2013-03-15 10:00
+  <p>2013-03-15 10:00<br />
 Since this has never been announced officially outside of the conference circuit, the GStreamer team would like to clarify that GStreamer 0.10 is no longer maintained. Not by us, nor by anyone else. There will be no more GStreamer 0.10 releases, not even bug-fix releases. Bugs will not be investigated unless they also apply to GStreamer 1.x. Patches will only be reviewed and pushed if they apply to one of the current 1.x branches or fix an issue that still pertains to 1.x. Bug fixes have not been backported systematically to 0.10 for a very long time now, and there are many hundreds of bugs that have only been fixed in 1.x, and manymore are fixed every week. Any commits to the 0.10 branch are made purely on an ad-hoc basis now, and we may lock down the branch completely. No more features will be added to 0.10. However, GStreamer 0.10 support is of course still available on a commercial basis from the usual suspects.</p>
 
   <p>We realise and regret that this may cause some inconvenience, and we also understand that there are circumstances where there are valid reasons not to migrate to 1.0 at this time, or in some cases ever, but we would also like to dispel any doubt whatsoever that there is any other way. We have neither the resources, nor the will or the energy to maintain more than one major version. We must use the little resources we have on code that has a future.</p>
@@ -2327,7 +2356,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/7" class="issue-title">[HDMI2USB #15] HDMI Audio to USB Sound </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Easy" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Easy" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2425,7 +2454,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/6" class="issue-title">[HDMI2USB #14] Supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB" data-skill="" data-level="Medium" data-type="Firmware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2568,7 +2597,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/5" class="issue-title">[HDMI2USB #13] Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Medium" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2673,7 +2702,7 @@ Since this has never been announced officially outside of the conference circuit
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/4" class="issue-title">[streaming-system #4] Add bug / feedback reporting from end users system</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="Streaming System (Website)" data-skill="Django" data-level="Easy" data-type="Software" data-language="Javascript/HTML" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2694,9 +2723,9 @@ Since this has never been announced officially outside of the conference circuit
 
 <h1 id="detailed-explanation">Detailed Explanation</h1>
 
-<p>A user may face issues in watching streams, some possibilities include;
- * Low internet bandwidth
- * Outdated browser or operating system
+<p>A user may face issues in watching streams, some possibilities include;<br />
+ * Low internet bandwidth<br />
+ * Outdated browser or operating system<br />
  * Problems at TimVideos server end</p>
 
 <p>Create a website/webpage which records information as requested below;
@@ -2710,17 +2739,17 @@ If you have other problems like the sound being quiet or the display being wrong
 * Anything else you think is important.
 </code></p>
 
-<p>Take inspiration from tools like;
- * http://bugherd.com/
- * http://www.aviusinsight.com/
- * http://www.feedbackferret.com/
- * http://www.userreport.com/
+<p>Take inspiration from tools like;<br />
+ * http://bugherd.com/<br />
+ * http://www.aviusinsight.com/<br />
+ * http://www.feedbackferret.com/<br />
+ * http://www.userreport.com/<br />
  * http://usersnap.com/</p>
 
 <h2 id="further-reading">Further reading</h2>
 
-<p>Related issues;
- * Add auto-debugging – https://github.com/timvideos/streaming-system/issues/3
+<p>Related issues;<br />
+ * Add auto-debugging – https://github.com/timvideos/streaming-system/issues/3<br />
  * Track client side video quality and performance – https://github.com/timvideos/streaming-system/issues/44</p>
 
 <h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
@@ -2822,7 +2851,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/3" class="issue-title">[flumotion] Create a RTMP flumotion component</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="Flumotion" data-skill="" data-level="Easy" data-type="Software" data-language="Python" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -2835,23 +2864,23 @@ If you have other problems like the sound being quiet or the display being wrong
 
 <p>Create a new flumotion component which lets you stream to existing RTMP services (such as YouTube or JustinTV).</p>
 
-<p>Should support the following targets:
- * Generic RTMP system - just give the system a URL of your RTMP streaming server.
- * Adobe  Flash Media Server (and load a Flash Media Player profile xml)
-  * http://help.adobe.com/en_US/flashmediaserver/devguide/WSd391de4d9c7bd609-52e437a812a3725dfa0-8000.html
- * JustinTV ( https://github.com/timvideos/streaming-system/issues/13 )
-   * http://www.justin.tv/p/fme
- * YouTube Live Events 
-   * https://developers.google.com/youtube/2.0/developers_guide_protocol_managing_live_events
-   * http://www.wowza.com/forums/content.php?542-How-to-use-Push-Publishing-AddOn-with-YouTube
-   * https://www.youtube.com/yt/playbook/live.html
- * Cloudfront RTMP streaming
+<p>Should support the following targets:<br />
+ * Generic RTMP system - just give the system a URL of your RTMP streaming server.<br />
+ * Adobe  Flash Media Server (and load a Flash Media Player profile xml)<br />
+  * http://help.adobe.com/en_US/flashmediaserver/devguide/WSd391de4d9c7bd609-52e437a812a3725dfa0-8000.html<br />
+ * JustinTV ( https://github.com/timvideos/streaming-system/issues/13 )<br />
+   * http://www.justin.tv/p/fme<br />
+ * YouTube Live Events <br />
+   * https://developers.google.com/youtube/2.0/developers_guide_protocol_managing_live_events<br />
+   * http://www.wowza.com/forums/content.php?542-How-to-use-Push-Publishing-AddOn-with-YouTube<br />
+   * https://www.youtube.com/yt/playbook/live.html<br />
+ * Cloudfront RTMP streaming<br />
    * http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-rtmp.html</p>
 
-<p>Other helpful links:
- * http://wiki.gnashdev.org/RTMP
- * http://www.flumotion.net/releases/flumotion-flashmedia/0.10.0.html 
-   * This is for consuming a stream from an external source into flumotion (and hence is a Producer component inside flumotion).
+<p>Other helpful links:<br />
+ * http://wiki.gnashdev.org/RTMP<br />
+ * http://www.flumotion.net/releases/flumotion-flashmedia/0.10.0.html <br />
+   * This is for consuming a stream from an external source into flumotion (and hence is a Producer component inside flumotion).<br />
    * We want to produce a stream from flumotion to send to an external destination (and hence is a Consumer component inside flumotion).</p>
 
 <h1 id="contacts">Contacts</h1>
@@ -2936,7 +2965,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/getting-started/issues/2" class="issue-title">[HDMI2USB #11] Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Challenging" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="HDMI2USB (Extension Boards)" data-skill="Electronics & Tools" data-level="Challenging" data-type="Firmware;Hardware" data-language="VHDL / Verilog" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3063,7 +3092,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/49" class="issue-title">Debug module added</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3115,7 +3144,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/48" class="issue-title">Expose I2C interfaces via USB</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="labels">
                     
@@ -3178,7 +3207,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/47" class="issue-title">Get real VID:PID values for HDMI2USB project</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="labels">
                     
@@ -3191,7 +3220,7 @@ If you have other problems like the sound being quiet or the display being wrong
                   <div>
                     <p>Currently we are using a VID:PID that was chosen randomly, this is probably bad.</p>
 
-<p>From http://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/
+<p>From http://www.oshwa.org/2013/11/19/new-faq-on-usb-vendor-id-and-product-id/<br />
 &gt; USB vendor IDs (VID) and product IDs (PID) are 16-bit numbers used to identify USB devices to a computer or other host. Each vendor ID is assigned by the USB Implementers Forum to a specific company, which in turn assign a PID to individual products. The VID and PID are then embedded in the product and communicated to the computer when the device is plugged in, along with text strings describing the vendor and product and additional descriptors about the communication protocols supported by the device.</p>
 
 <p>Options appear to be;</p>
@@ -3251,7 +3280,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/46" class="issue-title">fx2 uvc firmware does not enumerate </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="labels">
                     
@@ -3266,8 +3295,7 @@ If you have other problems like the sound being quiet or the display being wrong
                   <div>
                     <p>A number of users have reported seeing the following using fxload. The same firmware images are successful when using libFPGALink. @ajitmathew and @shenki have experienced the same symptoms.</p>
 
-<p><code>
-[ 4082.081760] usb 3-1: new high-speed USB device number 5 using xhci_hcd
+<pre><code>[ 4082.081760] usb 3-1: new high-speed USB device number 5 using xhci_hcd
 [ 4082.099278] usb 3-1: config 1 interface 0 altsetting 0 bulk endpoint 0x1 has invalid maxpacket 64
 [ 4082.099289] usb 3-1: config 1 interface 0 altsetting 0 bulk endpoint 0x81 has invalid maxpacket 64
 [ 4082.101581] usb 3-1: string descriptor 0 read error: -32
@@ -3293,7 +3321,7 @@ If you have other problems like the sound being quiet or the display being wrong
 [ 6692.797829] usb 3-1: Device not responding to set address.
 [ 6693.001626] usb 3-1: Device not responding to set address.
 [ 6693.202716] usb 3-1: device not accepting address 9, error -71
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -3345,7 +3373,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/45" class="issue-title">Board not accepting USB device number</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="puck" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="puck" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3354,27 +3382,27 @@ If you have other problems like the sound being quiet or the display being wrong
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>After l’ve followed the instructions on:
-https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board:-Loading-Firmware
+                    <p>After l’ve followed the instructions on:<br />
+https://github.com/timvideos/HDMI2USB/wiki/Digilent-Atlys-Board:-Loading-Firmware<br />
 Up to Stage 3, step 3, when I plug the USB cable back into the PROG port, on my Linux box I get:</p>
 
-<p>[8552952.824097] usb 1-1.6.2: new full-speed USB device number 120 using ehci-pci
-[8552953.243713] usb 1-1.6.2: device not accepting address 120, error -32
+<p>[8552952.824097] usb 1-1.6.2: new full-speed USB device number 120 using ehci-pci<br />
+[8552953.243713] usb 1-1.6.2: device not accepting address 120, error -32<br />
 [8552953.243830] hub 1-1.6:1.0: unable to enumerate USB device on port 2</p>
 
 <p>The HDMI2USB test screen is output on the HDMI OUT, and if I plug in a PC to an HDMI IN port, I can select the input which is correctly displayed on HDMI OUT.</p>
 
 <p>I’ve tried plugging the USB into a screen connected to my PC, and into a laptop. USB devices on my PC:</p>
 
-<p>Bus 004 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
-Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
-Bus 002 Device 002: ID 045e:0750 Microsoft Corp. Wired Keyboard 600
-Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
-Bus 001 Device 059: ID 04b4:6560 Cypress Semiconductor Corp. CY7C65640 USB-2.0 “TetraHub”
-Bus 001 Device 072: ID 045e:0024 Microsoft Corp. Trackball Explorer
-Bus 001 Device 071: ID 04b4:6560 Cypress Semiconductor Corp. CY7C65640 USB-2.0 “TetraHub”
-Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+<p>Bus 004 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub<br />
+Bus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub<br />
+Bus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub<br />
+Bus 002 Device 002: ID 045e:0750 Microsoft Corp. Wired Keyboard 600<br />
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub<br />
+Bus 001 Device 059: ID 04b4:6560 Cypress Semiconductor Corp. CY7C65640 USB-2.0 “TetraHub”<br />
+Bus 001 Device 072: ID 045e:0024 Microsoft Corp. Trackball Explorer<br />
+Bus 001 Device 071: ID 04b4:6560 Cypress Semiconductor Corp. CY7C65640 USB-2.0 “TetraHub”<br />
+Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub<br />
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
 
 <p>Firmware is commit 2ddc2c7cf4326bd860e0e4f30206b2d49093873b in the HDMI2USB-firmware-prebuilt git repo.</p>
@@ -3420,7 +3448,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/44" class="issue-title">Connect the USB-UART connector to the control system inside the firmware</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -3489,7 +3517,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/42" class="issue-title">Better EDID information</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="labels">
                     
@@ -3555,7 +3583,7 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/41" class="issue-title">Issue #33 New Test Image Generator with more life </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="rohit91" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="rohit91" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3564,9 +3592,9 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub</p>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>This test pattern generator generates a dynamic image with 8 colored vertical bars with their
-colors alternating with their complement/negative color , after every 1
-second.
+                    <p>This test pattern generator generates a dynamic image with 8 colored vertical bars with their<br />
+colors alternating with their complement/negative color , after every 1<br />
+second.<br />
 This was also meant to be as exercise to become familiar with Git workings.</p>
 
                   </div>
@@ -3610,7 +3638,7 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/pull/39" class="issue-title">Issue #31 : Module for Heart Beat on static images added</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="ajitmathew" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3619,7 +3647,7 @@ This was also meant to be as exercise to become familiar with Git workings.</p>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>The module causes a block of pixel to change colour at a specific rate.
+                    <p>The module causes a block of pixel to change colour at a specific rate.<br />
 The size of the block and the rate can be changed using generic mapping.</p>
 
                   </div>
@@ -3663,7 +3691,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/38" class="issue-title">Resolve warnings in firmware build</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="shenki" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -3674,9 +3702,8 @@ The size of the block and the rate can be changed using generic mapping.</p>
                   <div>
                     <p>The build currently contains a large number of warnings:</p>
 
-<p><code>
-  Number of warnings: 341
-</code></p>
+<pre><code>  Number of warnings: 341
+</code></pre>
 
 <p>These should be fixed, or suppressed.</p>
 
@@ -3721,7 +3748,7 @@ The size of the block and the rate can be changed using generic mapping.</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/36" class="issue-title">Surface the Spartan 6's Device DNA serial number in the USB information</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress;fpga">
                 
                   <div class="labels">
                     
@@ -3754,8 +3781,8 @@ The size of the block and the rate can be changed using generic mapping.</p>
 <blockquote>
   <p>It would be really great if we could get that serial number to appear in a field that udev has access (for both the serial and video device). Then on linux we can provide a udev rule which creates a directory which contains both the video and serial device. Much easier than trying to figure out which serial/video devices are associated with a HDMI2USB device. This would also make multiple HDMI2USB devices easier to work with.</p>
 
-  <p>Information I have found on doing this;
-https://wiki.debian.org/udev
+  <p>Information I have found on doing this;<br />
+https://wiki.debian.org/udev<br />
 http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/</p>
 
   <table>
@@ -3775,46 +3802,46 @@ http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/</p>
   <p>http://www.xilinx.com/support/documentation/user_guides/ug380.pdf</p>
 
   <h3 id="jtag-access-to-device-identifier">JTAG Access to Device Identifier</h3>
-  <p>The FPGA’s internal device identifier, plus any values shifted in on the
-DIN input, can be
-read via the JTAG port using the private ISC_DNA command. This requires
-the
-ISC_ENABLE to be loaded before the ISC_DNA command is issued.
-Bit 56 of the identifier, shown in Figure 5-14, appears on the TDO JTAG
-output following
-the ISC_DNA command when the device enters the Shift-DR state. The
-remaining Device
-DNA bits and any data on the input to the register are shifted out
-sequentially while the
-JTAG controller is left in the Shift-DR state. When this operation is
-complete, the
+  <p>The FPGA’s internal device identifier, plus any values shifted in on the<br />
+DIN input, can be<br />
+read via the JTAG port using the private ISC_DNA command. This requires<br />
+the<br />
+ISC_ENABLE to be loaded before the ISC_DNA command is issued.<br />
+Bit 56 of the identifier, shown in Figure 5-14, appears on the TDO JTAG<br />
+output following<br />
+the ISC_DNA command when the device enters the Shift-DR state. The<br />
+remaining Device<br />
+DNA bits and any data on the input to the register are shifted out<br />
+sequentially while the<br />
+JTAG controller is left in the Shift-DR state. When this operation is<br />
+complete, the<br />
 ISC_DISABLE command should be issued.</p>
 
   <h3 id="impact-access-to-device-identifier">iMPACT Access to Device Identifier</h3>
-  <p>The iMPACT software in ISE 10.1 (and later) tools can also read the device DNA value.
+  <p>The iMPACT software in ISE 10.1 (and later) tools can also read the device DNA value.<br />
 readDna -p</p>
 </blockquote>
 
-<p>From http://www.xilinx.com/support/documentation/sw_manuals/xilinx12_1/spartan6_hdl.pdf page no 94.
-&gt; ##### Device DNA
-&gt;
-&gt; This element allows access to a dedicated shift register that can be loaded
-&gt; with the Device DNA data bits (unique ID) for a given Virtex®-6 device. In
-&gt; addition to shifting out the DNA data bits, this component allows for the
-&gt; inclusion of supplemental bits of your data, or allows for the DNA data to
-&gt; rollover (repeat DNA data after initial data has been shifted out). 
-&gt;
-&gt; To access the Device DNA data, you must first load the shift register by
-&gt; setting the active high READ signal for one clock cycle. After the shift
-&gt; register is loaded, the data can be synchronously shifted out by enabling the
-&gt; active high SHIFT input and capturing the data out the DOUT output port.
-&gt; Additional data can be appended to the end of the 57-bit shift register by
-&gt; connecting the appropriate logic to the DIN port. If DNA data rollover is
-&gt; desired, connect the DOUT port directly to the DIN port to allow for the same
-&gt; data to be shifted out after completing the 57-bit shift operation. If no
-&gt; additional data is necessary, the DIN port can be tied to a logic zero. The
-&gt; attribute SIM_DNA_VALUE can be optionally set to allow for simulation of a
-&gt; possible DNA data sequence. By default, the Device DNA data bits are all
+<p>From http://www.xilinx.com/support/documentation/sw_manuals/xilinx12_1/spartan6_hdl.pdf page no 94.<br />
+&gt; ##### Device DNA<br />
+&gt;<br />
+&gt; This element allows access to a dedicated shift register that can be loaded<br />
+&gt; with the Device DNA data bits (unique ID) for a given Virtex®-6 device. In<br />
+&gt; addition to shifting out the DNA data bits, this component allows for the<br />
+&gt; inclusion of supplemental bits of your data, or allows for the DNA data to<br />
+&gt; rollover (repeat DNA data after initial data has been shifted out). <br />
+&gt;<br />
+&gt; To access the Device DNA data, you must first load the shift register by<br />
+&gt; setting the active high READ signal for one clock cycle. After the shift<br />
+&gt; register is loaded, the data can be synchronously shifted out by enabling the<br />
+&gt; active high SHIFT input and capturing the data out the DOUT output port.<br />
+&gt; Additional data can be appended to the end of the 57-bit shift register by<br />
+&gt; connecting the appropriate logic to the DIN port. If DNA data rollover is<br />
+&gt; desired, connect the DOUT port directly to the DIN port to allow for the same<br />
+&gt; data to be shifted out after completing the 57-bit shift operation. If no<br />
+&gt; additional data is necessary, the DIN port can be tied to a logic zero. The<br />
+&gt; attribute SIM_DNA_VALUE can be optionally set to allow for simulation of a<br />
+&gt; possible DNA data sequence. By default, the Device DNA data bits are all<br />
 &gt; zeros in the simulation model.</p>
 
                   </div>
@@ -3867,7 +3894,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/35" class="issue-title">Create a "Altera USB Blaster" emulation software for PIC18F series</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="labels">
                     
@@ -3948,7 +3975,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/34" class="issue-title">Create a NeroJTAG compatible firmware for the PIC18F series chips</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="pic">
                 
                   <div class="labels">
                     
@@ -4017,7 +4044,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/33" class="issue-title">Make the "test" image nicer.</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4082,7 +4109,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/32" class="issue-title">Optimisation MJPEG to support atleast 720p@30fps</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4147,7 +4174,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/31" class="issue-title">Heartbeat on static images</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4212,7 +4239,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/30" class="issue-title">640x480 inputs cause corrupted display</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="micolous" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="micolous" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4287,7 +4314,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/29" class="issue-title">Write a "debug script"</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -4351,7 +4378,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/27" class="issue-title">Analyse existing VGA2HDMI solutions</a>
               </h5>
-              <div class="issue" data-milestone="2" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="292024" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -4390,7 +4417,7 @@ readDna -p</p>
               <small class="description">
                 #27 • open • Jun 5, 2013 • mithro
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: VGA Input Capture">#2</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / VGA Input Capture">#2</span>
                 
                 
               </small>
@@ -4407,7 +4434,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/26" class="issue-title">Verification setups</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4518,7 +4545,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/20" class="issue-title">Support HDMI CEC control</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4583,7 +4610,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/19" class="issue-title">Support dumping raw HDMI data that can be loaded into wireshark</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4648,7 +4675,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/17" class="issue-title">Investigate (and hopefully mitigate) JPEG block boundary artifacts on fine text detail</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4715,7 +4742,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/16" class="issue-title">Convert cypress firmware to be compiled by sdcc</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="cypress">
                 
                   <div class="labels">
                     
@@ -4730,11 +4757,11 @@ readDna -p</p>
 
 <p>We’d like to use open source tools instead, the sdcc compiler has support for the 8051 chip inside the chip and a number of people have already done a lot of the work. Take a look at the links below;</p>
 
-<p>Links
- * https://www.google.com.au/search?q=sdcc+cypress+ez+usb+firmware
- * http://www.linux-usb.org/ezusb/
- * http://braiden.org/?p=59
- * https://github.com/hansiglaser/ezusb-firmware
+<p>Links<br />
+ * https://www.google.com.au/search?q=sdcc+cypress+ez+usb+firmware<br />
+ * http://www.linux-usb.org/ezusb/<br />
+ * http://braiden.org/?p=59<br />
+ * https://github.com/hansiglaser/ezusb-firmware<br />
  * http://allmybrain.com/2009/04/14/fx2-cystream-throughput-test-with-sdcc-and-fx2lib/</p>
 
                   </div>
@@ -4787,7 +4814,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/15" class="issue-title">HDMI Audio to USB Sound</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4850,7 +4877,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/14" class="issue-title">Look at supporting Marvell Ethernet chip on Digilent board</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4915,7 +4942,7 @@ readDna -p</p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/13" class="issue-title">Add USB 3.0 support</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -4930,21 +4957,21 @@ readDna -p</p>
 
 <p>Support transfer of raw frames rather than MJPEG stream.</p>
 
-<p>Take a look at https://github.com/mossmann/daisho/tree/master/sw/fpga/common/usb3
-```
+<p>Take a look at https://github.com/mossmann/daisho/tree/master/sw/fpga/common/usb3<br />
+```<br />
 Daisho USB Core </p>
 
-<p>This is an open source USB 3.0 core.  It can be used to implement a USB device
-on an FPGA with a USB 3.0 transceiver such as the TUSB1310A.  It can also
+<p>This is an open source USB 3.0 core.  It can be used to implement a USB device<br />
+on an FPGA with a USB 3.0 transceiver such as the TUSB1310A.  It can also<br />
 operate in USB 2.0 mode with a ULPI transceiver. </p>
 
-<p>This core is being developed for the Altera Cyclone IV.  Operation on other
+<p>This core is being developed for the Altera Cyclone IV.  Operation on other<br />
 FPGA platforms may be possible with some work. </p>
 
-<p>Planned functionality includes device (not host) operation in USB 2.0 and 3.0
+<p>Planned functionality includes device (not host) operation in USB 2.0 and 3.0<br />
 (including SuperSpeed) modes. </p>
 
-<p>The core is part of Project Daisho but may be used on other platforms.
+<p>The core is part of Project Daisho but may be used on other platforms.<br />
 ```</p>
 
                   </div>
@@ -4997,7 +5024,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/12" class="issue-title">Mac's have issues</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -5060,7 +5087,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/11" class="issue-title">Create a 3G-SDI extension board for HDMI2USB</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5116,7 +5143,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/10" class="issue-title">Write a test bench based testsuite</a>
               </h5>
-              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="292023" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -5170,7 +5197,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #10 • open • Mar 19, 2013 • mithro
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / Freelancer Handover">#1</span>
                 
                 
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
@@ -5189,7 +5216,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/9" class="issue-title">Clean up Git repository</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -5262,7 +5289,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/7" class="issue-title">Create build script which requires no GUI tools</a>
               </h5>
-              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="292023" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -5321,7 +5348,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #7 • open • Mar 19, 2013 • mithro
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / Freelancer Handover">#1</span>
                 
                 
               </small>
@@ -5338,7 +5365,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/5" class="issue-title">Create replacement HDMI extension board which has DVI or HDMI connectors</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5394,7 +5421,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/3" class="issue-title">Have documentation automatic generated from VHDL/Verilog code (Kinda like doxygen or javadoc)</a>
               </h5>
-              <div class="issue" data-milestone="1" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
+              <div class="issue" data-milestone-id="292023" data-state="open" data-author="mithro" data-assignee="jahanzeb" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="fpga">
                 
                   <div class="labels">
                     
@@ -5444,7 +5471,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #3 • open • Mar 19, 2013 • mithro
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: Freelancer Handover">#1</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / Freelancer Handover">#1</span>
                 
                 
                  • Assignee: <a href="https://github.com/jahanzeb">jahanzeb</a>
@@ -5463,7 +5490,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/2" class="issue-title">Create specifications for custom PCB board</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5519,7 +5546,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/HDMI2USB/issues/1" class="issue-title">Create a VGA connector based extension board for the Atlys Board</a>
               </h5>
-              <div class="issue" data-milestone="2" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="292024" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5558,7 +5585,7 @@ FPGA platforms may be possible with some work. </p>
               <small class="description">
                 #1 • open • Mar 19, 2013 • mithro
                 
-                 • Milestone: <span data-toggle="tooltip" data-original-title="State: open / Title: VGA Input Capture">#2</span>
+                 • Milestone: <span data-toggle="tooltip" data-original-title="open / VGA Input Capture">#2</span>
                 
                 
               </small>
@@ -5586,7 +5613,7 @@ FPGA platforms may be possible with some work. </p>
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/28" class="issue-title">install instructions </a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5597,18 +5624,18 @@ FPGA platforms may be possible with some work. </p>
                   <div>
                     <p>Current install instructions have way too many git clone, including </p>
 
-<p>git clone https://github.com/hyades/gst-switch.git
+<p>git clone https://github.com/hyades/gst-switch.git<br />
 and building that not  timvideos/gst-switch</p>
 
-<p>Here is my start:
-```
+<p>Here is my start:<br />
+```<br />
 # git clone https://github.com/timvideos/gst-switch.git</p>
 
 <p>sudo apt-get install libgtk-3-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev </p>
 
-<p>cd gst-switch
-./autogen.sh 
-make
+<p>cd gst-switch<br />
+./autogen.sh <br />
+make<br />
 ```</p>
 
                   </div>
@@ -5652,7 +5679,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/27" class="issue-title">depandancy on speakertrack</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5663,7 +5690,7 @@ make
                   <div>
                     <p>This seems to be a bad default depandancy given I don’t think it works?</p>
 
-<p>gstswitchptz.c:30:44: fatal error: gst/speakertrack/gstcamcontrol.h: No such file or directory
+<p>gstswitchptz.c:30:44: fatal error: gst/speakertrack/gstcamcontrol.h: No such file or directory<br />
  #include &lt;gst/speakertrack/gstcamcontrol.hhttps://github.com/duzy/gst-switch/blob/speaker-tracking/tools/gstswitchptz.c</p>
 
 <p>https://github.com/duzy/gst-switch/blob/speaker-tracking/tools/gstswitchptz.c</p>
@@ -5709,7 +5736,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/pull/26" class="issue-title">Updated Readme, fixes</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5761,7 +5788,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/24" class="issue-title">Warnings running gst-switch-srv and gst-switch-ui</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="hyades" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5770,15 +5797,15 @@ make
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>I run only gst-switch-srv. I get these pair of warnings repeatedly
-```shell
+                    <p>I run only gst-switch-srv. I get these pair of warnings repeatedly<br />
+```shell<br />
 (gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:<gdppay1:src> Got data flow before stream-start event</gdppay1:src></p>
 
 <p>(gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:<tcp_sink:sink> Got data flow before stream-start event
 ```</tcp_sink:sink></p>
 
-<p>Now running gst-switch-ui:
-```shell
+<p>Now running gst-switch-ui:<br />
+```shell<br />
 (gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:<videoconvert1:src> Got data flow before stream-start event</videoconvert1:src></p>
 
 <p>(gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:<sink:sink> Got data flow before stream-start event
@@ -5825,7 +5852,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/23" class="issue-title">Create a virtual PTZ camera for testing</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5879,7 +5906,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/22" class="issue-title">Need a way to identify all input coming from a single computer/source</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5892,16 +5919,16 @@ make
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>A single computer could be sending;
- * Video
- * Audio
+                    <p>A single computer could be sending;<br />
+ * Video<br />
+ * Audio<br />
  * Face information</p>
 
 <p>Need some way to “group” them into the UI so it’s clear where they are coming from.</p>
 
-<p>Open Questions:
- * What happens when there are multiple video sources connected to a single computer? 
- * Maybe we need levels of grouping? IE Computer, input source, etc?
+<p>Open Questions:<br />
+ * What happens when there are multiple video sources connected to a single computer? <br />
+ * Maybe we need levels of grouping? IE Computer, input source, etc?<br />
  * How is this information sent to the gst-switch server?</p>
 
                   </div>
@@ -5945,7 +5972,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/20" class="issue-title">Convert doxygen comments into gtk-doc suitable input</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -5999,7 +6026,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/19" class="issue-title">Figure out the missing video frames</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6010,8 +6037,8 @@ make
                   <div>
                     <p>The frame strips are missing video frames. Find out what happened to them and fix.</p>
 
-<p>Current theories include;
- * inter doesn’t have enough slack in the frame delay.
+<p>Current theories include;<br />
+ * inter doesn’t have enough slack in the frame delay.<br />
  * missing frames are not created by the test src.</p>
 
 
@@ -6056,7 +6083,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/18" class="issue-title">Add "make valgrind"</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6110,7 +6137,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/17" class="issue-title">Move to some type of pre-built test runner</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6164,7 +6191,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/16" class="issue-title">Should be an option to run the tests in valgrind</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6246,7 +6273,7 @@ make
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/15" class="issue-title">Time output should be produced right aligned and backspaced</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6259,34 +6286,30 @@ make
                   <div>
                     <p>IE The output should look like</p>
 
-<p><code>
-BLAH1                                                           (176 seconds)
-</code></p>
+<pre><code>BLAH1                                                           (176 seconds)
+</code></pre>
 
-<p><code>
-BLAH1
+<pre><code>BLAH1
 BLAH2                                                           (176 seconds)
-</code></p>
+</code></pre>
 
-<p><code>
-BLAH1
+<pre><code>BLAH1
 BLAH2
 BLAH3                                                           (176 seconds)
-</code></p>
+</code></pre>
 
 <p>This can be calculated by doing the following</p>
 
-<p>```
-int i = atoi(getenv(‘COLS’))
+<pre><code>int i = atoi(getenv('COLS'))
 if (i == 0)
-  i = 80;</p>
+  i = 80;
 
-<p>printf(“Blahh\n”);
-printf(“\r%s(%4d seconds)”, “ “<em>30, 167);
-printf(“\r%s(%4d seconds)”, “ “</em>30, 165);
-```
-—–
-$ echo -e ‘12345\b6’
+printf("Blahh\n");
+printf("\r%s(%4d seconds)", " "*30, 167);
+printf("\r%s(%4d seconds)", " "*30, 165);
+</code></pre>
+<hr />
+<p>$ echo -e ‘12345\b6’<br />
 12346</p>
 
                   </div>
@@ -6330,7 +6353,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/11" class="issue-title">Run addresssanitizer over the code</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6386,7 +6409,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/10" class="issue-title">Builds are failing on travis-ci.</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6454,7 +6477,7 @@ $ echo -e ‘12345\b6’
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/6" class="issue-title">After a test segfaults, the server process is left running</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6466,8 +6489,7 @@ $ echo -e ‘12345\b6’
                   <h4>Issue body</h4>
                   <div>
                     
-<p><code>
-Running test_video_preview_sink2 (30 seconds)
+<pre><code>Running test_video_preview_sink2 (30 seconds)
 Running test_video_preview_sink3 (30 seconds)
 ./tests/test_switch_server.c:562:error: test_video_preview_sink2: 1 errors
 ./tests/test_switch_server.c:562:error: test_video_preview_sink3: 1 errors
@@ -6480,7 +6502,7 @@ make: *** [test-video] Error 2
 tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
 18005 pts/3    S+     0:00  |   \_ grep --color=auto test
 17319 pts/3    Sl    22:52 /usr/bin/valgrind.bin --show-reachable=yes --track-origins=yes --track-fds=yes --tool=memcheck --leak-check=full --leak-resolution=high --num-callers=20 --log-file=test-switch-server-valgrind.log --suppressions=../../gstreamer/common/gst.supp --suppressions=../../gst-plugins-base/tests/check/gst-plugins-base.supp --suppressions=../../gst-plugins-good/tests/check/gst-plugins-good.supp --suppressions=../../gst-plugins-bad/tests/check/gst-plugins-bad.supp --suppressions=../../gst-plugins-ugly/tests/check/gst-plugins-ugly.supp --suppressions=faac.supp ../tools/gst-switch-srv -v --gst-debug-no-color --record=test-recording.data
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -6523,7 +6545,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/4" class="issue-title">Tests should have names not numbers</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="duzy" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6577,7 +6599,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/2" class="issue-title">Test timer should use average test run time</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6629,7 +6651,7 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
               <h5>
                 <a href="https://github.com/timvideos/gst-switch/issues/1" class="issue-title">gstcomposite and gstworker objects should have debug logging types</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6638,15 +6660,15 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>From gstpipeline.c
-```
-GST_DEBUG_CATEGORY_STATIC (pipeline_debug);
+                    <p>From gstpipeline.c<br />
+```<br />
+GST_DEBUG_CATEGORY_STATIC (pipeline_debug);<br />
 #define GST_CAT_DEFAULT pipeline_debug</p>
 
 <h1 id="define-doinit-">define _do_init \</h1>
-<p>{ \
-  GST_DEBUG_CATEGORY_INIT (pipeline_debug, “pipeline”, GST_DEBUG_BOLD, \
-      “debugging info for the ‘pipeline’ container element”); \
+<p>{ \<br />
+  GST_DEBUG_CATEGORY_INIT (pipeline_debug, “pipeline”, GST_DEBUG_BOLD, \<br />
+      “debugging info for the ‘pipeline’ container element”); \<br />
 }</p>
 
 <h1 id="define-gstpipelineparentclass-parentclass">define gst_pipeline_parent_class parent_class</h1>
@@ -6655,7 +6677,7 @@ GST_DEBUG_CATEGORY_STATIC (pipeline_debug);
 <p>GST_CAT_DEBUG_OBJECT (GST_CAT_REFCOUNTING, pipeline, “dispose”);
 <code>
 Outputs the following
-</code>
+</code><br />
 0:00:02.316013376 15488      0x7b9ebc0 DEBUG               pipeline gstpipeline.c:219:gst_pipeline_init:&lt;GstPipeline@0x7b9ce30&gt; set bus <bus1> on pipeline
 ```</bus1></p>
 
@@ -6711,7 +6733,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/60" class="issue-title">Replace JWPlayer with fully free (libre) software equivalent</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6728,16 +6750,16 @@ Outputs the following
 
 <p>We should either write our own replacement or convert to using an existing FOSS video player.</p>
 
-<p>Features we need are;
- * HTML5 support
- * Support for multiple video format support (WebM / H264) – must auto detect.
+<p>Features we need are;<br />
+ * HTML5 support<br />
+ * Support for multiple video format support (WebM / H264) – must auto detect.<br />
  * Support for multiple quality levels (SD, HD, audio only, etc) – must auto detect.</p>
 
-<p>Ideally we’d love to support are;
- * Some type of DVR / seek into the past support.
- * Adaptive streaming (https://developer.mozilla.org/en-US/docs/DASH_Adaptive_Streaming_for_HTML_5_Video)
- * Mobile support
- * YouTube Live event support / Amazon Cloud Front backend support (probably need RTMP support for this?)
+<p>Ideally we’d love to support are;<br />
+ * Some type of DVR / seek into the past support.<br />
+ * Adaptive streaming (https://developer.mozilla.org/en-US/docs/DASH_Adaptive_Streaming_for_HTML_5_Video)<br />
+ * Mobile support<br />
+ * YouTube Live event support / Amazon Cloud Front backend support (probably need RTMP support for this?)<br />
  * Great statistic / analytics support</p>
 
                   </div>
@@ -6781,7 +6803,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/pull/57" class="issue-title">vagrant  to demonstrate install</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="CarlFK" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6833,7 +6855,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/56" class="issue-title">Create a docker package for flumotion</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy;Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy;Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6849,14 +6871,14 @@ Outputs the following
 
 <h1 id="flumotion-in-the-timvideos-streaming-system">Flumotion in the TimVideos streaming system</h1>
 
-<p>There are 3 types of flumotion configurations; they should share a base docker image but also be provides a separate docker image correctly configured.
- * Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.
-  * Requires dvswitch support.
- * Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.
+<p>There are 3 types of flumotion configurations; they should share a base docker image but also be provides a separate docker image correctly configured.<br />
+ * Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.<br />
+  * Requires dvswitch support.<br />
+ * Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.<br />
  * Repeater/Amplifier - runs in the cloud and streams a copy of the encoder output. Allows the system to scale past the limits of a single machine.</p>
 
-<p>There are a couple of support applications we use with flumotion; these should be installed inside the docker image and started as part of the container.
- * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.
+<p>There are a couple of support applications we use with flumotion; these should be installed inside the docker image and started as part of the container.<br />
+ * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.<br />
  * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/register">register</a> - Registers with the tracker website (so the stream can be found) and sends statistics and logs for reporting and load balancing support.</p>
 
                   </div>
@@ -6909,7 +6931,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/55" class="issue-title">Add "lip sync" or other delay detector</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -6970,7 +6992,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/53" class="issue-title">Add documentation on how to contribute to the project</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="codersquid" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="codersquid" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7024,7 +7046,7 @@ Outputs the following
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/44" class="issue-title">Track client side video quality and performance</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7039,18 +7061,18 @@ Outputs the following
 
 <h1 id="firefox">Firefox</h1>
 <ul>
-  <li>mozParsedFrames - number of frames that have been demuxed and
+  <li>mozParsedFrames - number of frames that have been demuxed and<br />
 extracted out of the media.</li>
-  <li>mozDecodedFrames - number of frames that have been decoded -
+  <li>mozDecodedFrames - number of frames that have been decoded -<br />
 converted into YCbCr.</li>
-  <li>mozPresentedFrames - number of frames that have been presented to
-the rendering pipeline for rendering - were “set as the current
+  <li>mozPresentedFrames - number of frames that have been presented to<br />
+the rendering pipeline for rendering - were “set as the current<br />
 image”.</li>
-  <li>mozPaintedFrames - number of frames which were presented to the
-rendering pipeline and ended up being painted on the screen. Note that
-if the video is not on screen (e.g. in another tab or scrolled off
+  <li>mozPaintedFrames - number of frames which were presented to the<br />
+rendering pipeline and ended up being painted on the screen. Note that<br />
+if the video is not on screen (e.g. in another tab or scrolled off<br />
 screen), this counter will not increase.</li>
-  <li>mozFrameDelay - the time delay between presenting the last frame
+  <li>mozFrameDelay - the time delay between presenting the last frame<br />
 and it being painted on screen (approximately).</li>
 </ul>
 
@@ -7058,9 +7080,9 @@ and it being painted on screen (approximately).</li>
 <ul>
   <li>webkitAudioBytesDecoded - number of audio bytes that have been decoded.</li>
   <li>webkitVideoBytesDecoded - number of video bytes that have been decoded.</li>
-  <li>webkitDecodedFrames - number of frames that have been demuxed and
+  <li>webkitDecodedFrames - number of frames that have been demuxed and<br />
 extracted out of the media.</li>
-  <li>webkitDroppedFrames - number of frames that were decoded but not
+  <li>webkitDroppedFrames - number of frames that were decoded but not<br />
 displayed due to performance issues.</li>
 </ul>
 
@@ -7105,7 +7127,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/42" class="issue-title">Move room configuration from config.json to database</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7159,7 +7181,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/41" class="issue-title">Create a web-rtc flumotion component</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7220,7 +7242,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/34" class="issue-title">Change setup scripts to some type of configuration management system</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="tflink" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="tflink" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7283,7 +7305,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/33" class="issue-title">Port website to new style "Class Based Views"</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7337,7 +7359,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/32" class="issue-title">Upgrade to jwplayer 6.0</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7348,12 +7370,12 @@ displayed due to performance issues.</li>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>We currently use jwplayer 5.0 which is the previous version of the player. The new version includes a lot of new features such as;
- * Extended device support, including mobile support
- * Built in support for Captions (is this useful?)
- * Improved Javascript API
- * Improved analytics, including a lot more information
- * Improved streaming support, including inbuilt quality selection and better adaptive support
+                    <p>We currently use jwplayer 5.0 which is the previous version of the player. The new version includes a lot of new features such as;<br />
+ * Extended device support, including mobile support<br />
+ * Built in support for Captions (is this useful?)<br />
+ * Improved Javascript API<br />
+ * Improved analytics, including a lot more information<br />
+ * Improved streaming support, including inbuilt quality selection and better adaptive support<br />
  * Better embedding and quicker loading.</p>
 
 <p>Some further details about migrating can be found at http://www.longtailvideo.com/support/jw-player/28834/migrating-from-jw5-to-jw6 and http://www.longtailvideo.com/support/bits-on-the-run/31912/upgrading-players-to-jw6/ and http://www.jwplayer.com/upgrade-steps/</p>
@@ -7403,7 +7425,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/31" class="issue-title">Refactor the Javascript to use classes</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7457,7 +7479,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/30" class="issue-title">Replace watchdog with something that uploads component status to website</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7518,7 +7540,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/28" class="issue-title">Mobile redirect to Justin.TV mobile stream...</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7572,7 +7594,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/24" class="issue-title">Generate minimized Javascript/CSS output</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7626,7 +7648,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/18" class="issue-title">Draw graphs of the various stats we collect</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7680,7 +7702,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/16" class="issue-title">Add better client side error report</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7734,7 +7756,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/15" class="issue-title">Finish blackmagic component</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7795,7 +7817,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/14" class="issue-title">Add "continuous frames" to Flumotion</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7859,7 +7881,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/13" class="issue-title">Create a Justin TV Flumotion component</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="mithro" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7868,10 +7890,10 @@ displayed due to performance issues.</li>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>We have a justintv component using the pipeline using.
+                    <p>We have a justintv component using the pipeline using.<br />
    rtmpsink location=rtmp://live.justin.tv/app/%(justintv_key)s</p>
 
-<p>According the following page http://apiwiki.justin.tv/mediawiki/index.php/VLC_Broadcasting_API
+<p>According the following page http://apiwiki.justin.tv/mediawiki/index.php/VLC_Broadcasting_API<br />
   enc=x264{keyint=60,idrint=2},vcodec=h264,vb=300,acodec=mp4a,ab=32,channels=2,samplerate=2205</p>
 
 
@@ -7927,7 +7949,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/12" class="issue-title">Add JavaScript analytics</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -7981,7 +8003,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/11" class="issue-title">Flip instructions on the box</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8035,7 +8057,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/10" class="issue-title">Merge DVSwitch, DVfifo and Firewire flumotion components.</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Flumotion" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8096,7 +8118,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/9" class="issue-title">Add control over twinpac (via IR sender)</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8150,7 +8172,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/8" class="issue-title">Monitoring to everything!</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Deploy" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8213,7 +8235,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/7" class="issue-title">Push preview images to S3</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="Scripts" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8274,7 +8296,7 @@ displayed due to performance issues.</li>
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/4" class="issue-title">Add a bug reporting functionality</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     
@@ -8285,14 +8307,14 @@ displayed due to performance issues.</li>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>Create a website/webpage which records information as requested below;
-```
-If you have other problems like the sound being quiet or the display being wrong in anyway, or if you can’t get the stream to work, please send me an email with the following details;
-* Browser Type (Chrome, Safari, IE, etc)
-* Exact Browser Version (a screenshot of the about page would be awesome!)
-* Operating System - as much detail as possible (IE Ubuntu Lucid 64bit)
-* The speed and type of Internet connection you have. (IE ADSL, Cable, ADSL2 and 256k, 6M). You can find this information in your ADSL model. 
-* Please go to http://www.speedtest.net/ and send me the numbers the widget reports.
+                    <p>Create a website/webpage which records information as requested below;<br />
+```<br />
+If you have other problems like the sound being quiet or the display being wrong in anyway, or if you can’t get the stream to work, please send me an email with the following details;<br />
+* Browser Type (Chrome, Safari, IE, etc)<br />
+* Exact Browser Version (a screenshot of the about page would be awesome!)<br />
+* Operating System - as much detail as possible (IE Ubuntu Lucid 64bit)<br />
+* The speed and type of Internet connection you have. (IE ADSL, Cable, ADSL2 and 256k, 6M). You can find this information in your ADSL model. <br />
+* Please go to http://www.speedtest.net/ and send me the numbers the widget reports.<br />
 * Anything else you think is important.</p>
 
 <p>This is meant to be used by people watching a live video stream.  They may be technical, but we can’t rely on that, and really we want the process to be as automated as possible.  The more work the user has to do, the less they will use it.</p>
@@ -8342,7 +8364,7 @@ If you have other problems like the sound being quiet or the display being wrong
               <h5>
                 <a href="https://github.com/timvideos/streaming-system/issues/3" class="issue-title">Add auto-debugging</a>
               </h5>
-              <div class="issue" data-milestone="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
+              <div class="issue" data-milestone-id="" data-state="open" data-author="mithro" data-assignee="" data-project="" data-skill="" data-level="" data-type="" data-language="" data-backend="" data-firmware="">
                 
                   <div class="labels">
                     

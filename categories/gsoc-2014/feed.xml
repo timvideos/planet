@@ -8,7 +8,33 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 13/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-snippet-13-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;add milestones filter in Issues on Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; change markdown engine in issues to GitHub Flavored Markdown&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-snippet-13-07-2014/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -229,31 +255,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-07-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 05/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;added markdown generation of issues in Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added first issues filter mockup (list all labels)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue assignee information&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</guid>
-      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 7 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</link>
-      <description>&lt;p&gt;I’ve been traveling for past 3 days for some university related work. But, I have been working on my project as well. I somehow got an internet connection for posting this update.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/week-7-progress/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-12T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
