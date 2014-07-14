@@ -21,6 +21,17 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss deleted branch gh-pages at pinoss/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</link>
       <description>&lt;!-- delete --&gt;
@@ -219,17 +230,6 @@
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>
