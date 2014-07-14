@@ -10,6 +10,38 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Week 8 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
+      <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -49,6 +81,21 @@
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-snippet-13-07-2014/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Dirac encoder ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</link>
+      <description>&lt;p&gt;I have been working on components that require some “effects” components to be ported first which were causing a problem. So, I stashed the commits and worked on Dirac encoder which was not much work. As a result, Dirac encoder is ported and I’m getting back to other components.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
+      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
@@ -207,57 +254,6 @@
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 07/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added basic search/filter engine working only for author, title, body and assignee fields in issues on Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed javascripts folder structure: plugins moved to&lt;b&gt; /js/plugins&lt;/b&gt; directory and all custom JavasScripts are in &lt;b&gt;/js&lt;/b&gt; directory. I've also changed variable name styles of some variables in own written JavaScritps from &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;lowercase_separated_by_underscores &lt;/span&gt;to &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;camelCase&lt;/span&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add filters based on labels (Project, Skill, Level, Type, Language). I will create solution that is generic and will work also for new filters added after development&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>6 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</link>
-      <description>&lt;p&gt;I merged some commits Skay made a few days ago and made some changes:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/06/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 06/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/06/gsoc-snippet-06-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added second issues filter mockup in Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added input autocomplete (twitter typeahead.js) to fields: author, assignee and title to make search easier&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; small CSS fixes&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Plans for next days:&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add first javascript search engine for issues&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/06/gsoc-snippet-06-07-2014/</guid>
-      <dc:date>2014-07-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>

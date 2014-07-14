@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 8 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
+      <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC] What happenned during last weeks?</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-what-happenned-during-last-weeks/</link>
       <description>I would like to apologize, that I haven't written any summarize post during last 2 weeks, but I wanted to end one big part of my project and then summarize it in bigger post. I am doing it right now. :)&lt;br /&gt;&lt;br /&gt;Last weeks I spend working with GitHub Issues and Supybot configuration. I did a lot of research and read a lot of articles about organizing work with issues, about supybot configuration, etc.&lt;br /&gt;Then I started working with supybot, after few days I created final configuration for RSS changes notification with Supybot and added it to my GitHub:&amp;nbsp;&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;After working with Supybot I started working with GitHub Issues. I found nice applications and articles about Issues and I wrote about them here:&amp;nbsp;&lt;a href=&quot;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&quot;&gt;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Then I started working with Issues, I created some mockups and started creating filter/search engine.&lt;br /&gt;&lt;br /&gt;And I created GitHub Issues plugin for Jekyll to download all issues and generated and presented them on Issues page, after that I added input autocomplete for author, assignee and title to make search easier.&lt;br /&gt;&lt;br /&gt;Then I started refactoring Javascripts and I changes all variable names in JavaScripts to camelCase, then I was ready to add first filter engine for author, assignee and title fields.&lt;br /&gt;&lt;br /&gt;After that I changed _config.yml configuration and grouped rss settings into single node. After that I added new field to config.yml with list of special filters based on labels of Issues and modified JavaScript filter engine to support these special filters.&lt;br /&gt;&lt;br /&gt;Then I added few small filters: labels, state, milestones and changed markdown engine in issues to GitHub Flavored Markdown.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now I will work on Getting Started deployment process, I will try moving generation of website to Travis CI and then integrate that site with Planet. Then I want to fix some small CSS/JS problems and start working with Integration Planet with social media pages (notifying about new posts). I also have some tasks in backlog and I will work with them. :)&lt;div class=&quot;author&quot;&gt;
@@ -38,6 +48,21 @@
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-snippet-13-07-2014/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Dirac encoder ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</link>
+      <description>&lt;p&gt;I have been working on components that require some “effects” components to be ported first which were causing a problem. So, I stashed the commits and worked on Dirac encoder which was not much work. As a result, Dirac encoder is ported and I’m getting back to other components.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
+      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>[GSoC Snippet] 11/07/2014</title>
@@ -247,31 +272,6 @@
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Midterm Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
-      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 27/08/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</link>
-      <description>&lt;b&gt;[configuration]&lt;/b&gt; supybot configuration to add RSS feed to our IRC: Today I was fighting (for few hours) with Supybot configuration. Actually, thanks to supybot-wizard, configuration is really easy, but in documentation there are no examples of correct configuration and some custom options are really hard to be set. So I still don't have working configuration, but I think I am will do that tomorrow. :+1:&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/gsoc-snippet-27-08-2014/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>

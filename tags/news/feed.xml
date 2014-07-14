@@ -25,6 +25,16 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Week 8 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
+      <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC] What happenned during last weeks?</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-what-happenned-during-last-weeks/</link>
       <description>I would like to apologize, that I haven't written any summarize post during last 2 weeks, but I wanted to end one big part of my project and then summarize it in bigger post. I am doing it right now. :)&lt;br /&gt;&lt;br /&gt;Last weeks I spend working with GitHub Issues and Supybot configuration. I did a lot of research and read a lot of articles about organizing work with issues, about supybot configuration, etc.&lt;br /&gt;Then I started working with supybot, after few days I created final configuration for RSS changes notification with Supybot and added it to my GitHub:&amp;nbsp;&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;After working with Supybot I started working with GitHub Issues. I found nice applications and articles about Issues and I wrote about them here:&amp;nbsp;&lt;a href=&quot;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&quot;&gt;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Then I started working with Issues, I created some mockups and started creating filter/search engine.&lt;br /&gt;&lt;br /&gt;And I created GitHub Issues plugin for Jekyll to download all issues and generated and presented them on Issues page, after that I added input autocomplete for author, assignee and title to make search easier.&lt;br /&gt;&lt;br /&gt;Then I started refactoring Javascripts and I changes all variable names in JavaScripts to camelCase, then I was ready to add first filter engine for author, assignee and title fields.&lt;br /&gt;&lt;br /&gt;After that I changed _config.yml configuration and grouped rss settings into single node. After that I added new field to config.yml with list of special filters based on labels of Issues and modified JavaScript filter engine to support these special filters.&lt;br /&gt;&lt;br /&gt;Then I added few small filters: labels, state, milestones and changed markdown engine in issues to GitHub Flavored Markdown.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now I will work on Getting Started deployment process, I will try moving generation of website to Travis CI and then integrate that site with Planet. Then I want to fix some small CSS/JS problems and start working with Integration Planet with social media pages (notifying about new posts). I also have some tasks in backlog and I will work with them. :)&lt;div class=&quot;author&quot;&gt;
@@ -67,6 +77,21 @@
 </description>
       <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</guid>
+      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Dirac encoder ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</link>
+      <description>&lt;p&gt;I have been working on components that require some “effects” components to be ported first which were causing a problem. So, I stashed the commits and worked on Dirac encoder which was not much work. As a result, Dirac encoder is ported and I’m getting back to other components.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
       <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -272,36 +297,6 @@
 </description>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/sending-rtp-packets-via-fpga/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Plans</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div&gt;&lt;div&gt;I would like to make hdmi2usb usable for 720p atleast.&amp;nbsp; Since we have already achieved 30 fps, things are looking good. Now the next thing to work on is finding an optimum encoding quality so that the encoded frame fit the fx2 bandwidth and are viewable.&lt;br /&gt;&lt;br /&gt;Tariq observed that we are clocking pixels which do not have useful data. I would like to check that too. It most probably will not affect the frame rate but it might effect things at higher resolution.&lt;br /&gt;&lt;br /&gt;How did fps improve to 30 fps?&lt;br /&gt;In the original read/write state machine of DDR, read and writes did not happen simultaneously. I modified the read and write state machine to start encoding as soon as 8 lines are read into the DDR. This allows encoding of every alternate frame and hence fps of 30. In case Shenki you want to test it on your system, then here is the &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VSlUtT19xbDBKLWM/edit?usp=sharing&quot;&gt;xsvf file&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;How things can be improved further?&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Double/triple buffering: Can improve the frame rate to the maximum frame rate of the encoder(currently it is 40 fps).&lt;/li&gt;&lt;li&gt;Using two encoder instead of one: Now as every alternate frame is being dropped, another encoder can be used to process these frames. This way we can get fully 60Hz frame rate. But there are issuses:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Already the encoder is taking up almost half of the BRAMs available. So there might not be enough space for adding another encoder or if it is possible to add another encoder, there might not be enough space for other features which are going to be added.&lt;/li&gt;&lt;li&gt;As two encoded frames will be produced simultaneously, an way to send these to host via fx2 has to be designed which in turn will cost more memory.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;(Suggested by shenki)Removing DDR image buffer and storing frames directly into the line buffer: I am not sure if it is possible. Wil have to check.&lt;/li&gt;&lt;li&gt;Subsampling: Currently the encoder takes in RGB888 and converts into YCrCb and then subsamples it at 4:2:2. This can be changed into 4:2:0. This can reduce encoding time and might help us with the bandwidth issues.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/plans/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 07/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added basic search/filter engine working only for author, title, body and assignee fields in issues on Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed javascripts folder structure: plugins moved to&lt;b&gt; /js/plugins&lt;/b&gt; directory and all custom JavasScripts are in &lt;b&gt;/js&lt;/b&gt; directory. I've also changed variable name styles of some variables in own written JavaScritps from &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;lowercase_separated_by_underscores &lt;/span&gt;to &lt;span style=&quot;font-family: Courier New, Courier, monospace;&quot;&gt;camelCase&lt;/span&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;&lt;u&gt;Plans for tomorrow:&lt;/u&gt;&lt;/i&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;add filters based on labels (Project, Skill, Level, Type, Language). I will create solution that is generic and will work also for new filters added after development&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/gsoc-snippet-07-07-2014/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>

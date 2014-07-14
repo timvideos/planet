@@ -36,6 +36,38 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Week 8 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
+      <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 created repository rohit91/HDMI_FIFO_Test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/rohit91-created-repository-rohit91-hdmi_fifo_test/</link>
       <description>&lt;!-- create --&gt;
@@ -101,6 +133,21 @@
 </description>
       <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</guid>
+      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Dirac encoder ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</link>
+      <description>&lt;p&gt;I have been working on components that require some “effects” components to be ported first which were causing a problem. So, I stashed the commits and worked on Dirac encoder which was not much work. As a result, Dirac encoder is ported and I’m getting back to other components.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
       <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -220,59 +267,6 @@
 </description>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created branch gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-created-branch-gsoc-at-rohit91-hdmi2usb-v/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/10/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/10/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 10/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/10/gsoc-snippet-10-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added search/filter engine based on labels (special filters) in Issues on Planet&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt;&amp;nbsp;added state (open/closed) filter in Issues on Planet&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/10/gsoc-snippet-10-07-2014/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-26be-90ca-c27a-61ad5a8adf94&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 10th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-26be-90ca-c27a-61ad5a8adf94&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Worked on schematic. Added I2C Buffers and EEPROM. Fixed ERC Errors&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Worked on VGA Capture code. Got slight improvement in capture quality. Code pushed to repo.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/gsoc-daily-log/</guid>
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
