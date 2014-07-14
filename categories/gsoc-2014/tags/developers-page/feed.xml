@@ -10,6 +10,41 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss deleted branch gh-pages at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch gh-pages at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -231,43 +266,6 @@
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/04/gsoc-snippet-04-07-2014/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 02/07/2014 and 03/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</link>
-      <description>Last few days I've had some problems with Internet connection, because I am currently in Croatia for 2 weeks. But finally I bought safe and quite fast Internet here and started to work again. Because I had poor Internet connection I wasn't able even to commit and connect to SSH (because of timeout error), but now it seems to work good.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've started working on issues, did some research and read about it, and created new page on planet with issues to start working on it (currently it has contains only list with issues, but soon I will add more features to that).&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;I've created new configuration for supybot to notificate new planet news on IRC. I think all is ready to be deployed on our server, but I need to talk with Tim how to add that supybot to server (run manually or with crontab, or as a deamon, to make sure that will always work).&lt;br /&gt;&lt;br /&gt;Next days I will spend working on issues, adding new functionalities, etc.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>
