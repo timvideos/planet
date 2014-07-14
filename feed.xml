@@ -36,6 +36,21 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>GSOC ain't your College Assignment</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I submitted my first c code and it was a such a disaster that I am looking back and laughing at it. Contributing to open source comes with it's own baggage like license, coding style and git, all of which I never cared about. But these are very important in an collaborative environment and hence important to learn. I got the bare bone version of my debug program working (with errors) and committed it. But before committing I remembered, &quot;Where is the license?&quot; So I copied the license from a VHDL file ( I know I am a smartass) and then happily committed it, feeling proud of my achievement. Only later I realised that it won't compile because to comment in VHDL we use &quot;--&quot; which will throw a compile error in C. Shenki must have been ROFLing on seeing it.&lt;br /&gt;&lt;br /&gt;Also I would like to propose daily tweeting instead of daily blogging. I haven't been blogging lately not because I was not working but blog, don't know why, sounds to&amp;nbsp; me hard work, like the daily cursive writing my Mom used to make me write when I was a kid.&lt;br /&gt;&lt;br /&gt;Okay now I am rambling. Daily Snippet:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-Studied Git&lt;br /&gt;-Studied Linux Coding Stlye Guide&lt;br /&gt;-Sat and wondered why mithro and shenki work so hard?&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-work on comments and *try* to rebase&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
       <description>&lt;!-- push --&gt;
@@ -252,21 +267,6 @@
 </description>
       <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/11/gsoc-snippet-11-07-2014/</guid>
-      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2ad2-38f2-2a79-ab0962ddaad6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 11th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2ad2-38f2-2a79-ab0962ddaad6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Found an old code from Xilinx’s UG458 which also uses AD9984A for VGA Capturing. Adapted and used the exact same code in my project. Gives same result as mine! :/ Intriguing! See the repo for the commit.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Added Test Points in the schematic&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/gsoc-daily-log/</guid>
       <dc:date>2014-07-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>

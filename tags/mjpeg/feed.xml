@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>GSOC ain't your College Assignment</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I submitted my first c code and it was a such a disaster that I am looking back and laughing at it. Contributing to open source comes with it's own baggage like license, coding style and git, all of which I never cared about. But these are very important in an collaborative environment and hence important to learn. I got the bare bone version of my debug program working (with errors) and committed it. But before committing I remembered, &quot;Where is the license?&quot; So I copied the license from a VHDL file ( I know I am a smartass) and then happily committed it, feeling proud of my achievement. Only later I realised that it won't compile because to comment in VHDL we use &quot;--&quot; which will throw a compile error in C. Shenki must have been ROFLing on seeing it.&lt;br /&gt;&lt;br /&gt;Also I would like to propose daily tweeting instead of daily blogging. I haven't been blogging lately not because I was not working but blog, don't know why, sounds to&amp;nbsp; me hard work, like the daily cursive writing my Mom used to make me write when I was a kid.&lt;br /&gt;&lt;br /&gt;Okay now I am rambling. Daily Snippet:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-Studied Git&lt;br /&gt;-Studied Linux Coding Stlye Guide&lt;br /&gt;-Sat and wondered why mithro and shenki work so hard?&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-work on comments and *try* to rebase&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
       <description>&lt;!-- push --&gt;
@@ -254,21 +269,6 @@
 </description>
       <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;-Studied&amp;nbsp;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;ug416 and ug388 to understand XILINX MIG&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Studied working of DDR2 Ram&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; white-space: pre-wrap;&quot;&gt;-Ran example design to understand the working further. Took me lot of time to get the clocks working at correct rate as PLL values were changed manually which I didn't take notice of.&lt;/span&gt;&lt;br /&gt;&lt;span id=&quot;docs-internal-guid-ffdcb646-6e8a-ffb5-4a66-414fe4bcad2e&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;321px;&quot; src=&quot;https://lh4.googleusercontent.com/Fja4sKaFLPqsgI8RyrgxmwIgF3leN6uPqmk7yRMkUAahP7vfDt6tQ8wevFSp6oDLEw-6uRu3ICsG-CejCpGG-Q2sNxwnaBD1a_xHAywrXMB6ZdxhAodTOiGevgo8bxiq0A&quot; style=&quot;-webkit-transform: rotate(0rad); border: none;&quot; width=&quot;512px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;The read FSM of DDR2 looks something like this^. So 1 burst read gives 64 bytes. Jpeg encoder needs 1280*8*3 bytes to start. That means it takes a lot of cycle to fill the jpeg. I will try &lt;/span&gt;&lt;span style=&quot;white-space: pre-wrap;&quot;&gt;under clocking&lt;/span&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt; the DDR2 ram today and see whether it affects the frame rate. &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span style=&quot;vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-size: 15px; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Also I will start coding the test bench.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/daily-snippet/</guid>
       <dc:date>2014-06-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
