@@ -58,6 +58,17 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Week 8 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
       <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
@@ -256,17 +267,6 @@
 </description>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/testing-rtp-packetizer-with-multiple-2-and-3-pack/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
