@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/HDMI_FIFO_Test</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 created repository rohit91/HDMI_FIFO_Test</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/rohit91-created-repository-rohit91-hdmi_fifo_test/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/rohit91-created-repository-rohit91-hdmi_fifo_test/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Daily Log]:</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</link>
@@ -257,32 +280,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/gsoc-weekly-overview-days-of-slient-hardwork/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_Test_v06</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/rohit91-pushed-to-master-at-rohit91-hdmi_test_v06/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Sigh of relief!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 28th June 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-e518-5f88-252a-1053c7c01f83&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Marked improvement! Around 90-95% flickering and screen-blanking gone! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;HURRAY! &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;More  details and video coming when I wake up. Its 6:30 in the morning here! Working all night is really  exhausting, but one does get a nice, peaceful and cool environment! :D&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Finally, a &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;big sigh of relief!&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; Although, remaining 5% flickering have to be removed&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/29/gsoc-daily-log-sigh-of-relief/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>

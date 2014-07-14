@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -18,6 +18,21 @@
 </description>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC] What happenned during last weeks?</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-what-happenned-during-last-weeks/</link>
+      <description>I would like to apologize, that I haven't written any summarize post during last 2 weeks, but I wanted to end one big part of my project and then summarize it in bigger post. I am doing it right now. :)&lt;br /&gt;&lt;br /&gt;Last weeks I spend working with GitHub Issues and Supybot configuration. I did a lot of research and read a lot of articles about organizing work with issues, about supybot configuration, etc.&lt;br /&gt;Then I started working with supybot, after few days I created final configuration for RSS changes notification with Supybot and added it to my GitHub:&amp;nbsp;&lt;a href=&quot;https://github.com/pinoss/supybot-configuration&quot;&gt;https://github.com/pinoss/supybot-configuration&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;After working with Supybot I started working with GitHub Issues. I found nice applications and articles about Issues and I wrote about them here:&amp;nbsp;&lt;a href=&quot;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&quot;&gt;http://pinoit.blogspot.com/2014/07/gsoc-snippet-04072014.html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Then I started working with Issues, I created some mockups and started creating filter/search engine.&lt;br /&gt;&lt;br /&gt;And I created GitHub Issues plugin for Jekyll to download all issues and generated and presented them on Issues page, after that I added input autocomplete for author, assignee and title to make search easier.&lt;br /&gt;&lt;br /&gt;Then I started refactoring Javascripts and I changes all variable names in JavaScripts to camelCase, then I was ready to add first filter engine for author, assignee and title fields.&lt;br /&gt;&lt;br /&gt;After that I changed _config.yml configuration and grouped rss settings into single node. After that I added new field to config.yml with list of special filters based on labels of Issues and modified JavaScript filter engine to support these special filters.&lt;br /&gt;&lt;br /&gt;Then I added few small filters: labels, state, milestones and changed markdown engine in issues to GitHub Flavored Markdown.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now I will work on Getting Started deployment process, I will try moving generation of website to Travis CI and then integrate that site with Planet. Then I want to fix some small CSS/JS problems and start working with Integration Planet with social media pages (notifying about new posts). I also have some tasks in backlog and I will work with them. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-what-happenned-during-last-weeks/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -254,17 +269,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-snippet-02-07-2014-and-03-07-2014/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/supybot-configuration</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/pinoss-pushed-to-master-at-pinoss-supybot-configu/</guid>
-      <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
