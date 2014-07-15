@@ -25,6 +25,16 @@
       <dc:date>2014-07-15T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>GSoC Update 7-14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</link>
+      <description>&lt;h2&gt;snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</guid>
+      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI_FIFO_Test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</link>
       <description>&lt;!-- push --&gt;
@@ -251,21 +261,6 @@
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/gsoc-daily-log/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2c7a-d845-cb4c-658d01f912c6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 12th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2c7a-d845-cb4c-658d01f912c6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Since, even Xilinx’s code for AD9984A from UG458 failed, I’m writing a new FIFO based implementation with independent reading and writing clocks.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Day spent in working out its state diagram and starting preliminary coding&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</guid>
-      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-15T00:00:00+00:00</dc:date>
   </channel>

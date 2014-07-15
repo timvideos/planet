@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>GSoC Update 7-14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</link>
+      <description>&lt;h2&gt;snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</guid>
+      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 7-8</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</link>
       <description>&lt;h2&gt;Snippets&lt;/h2&gt;
@@ -213,16 +223,6 @@
       <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-update-6-8/</guid>
       <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-6</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-15T00:00:00+00:00</dc:date>
   </channel>
