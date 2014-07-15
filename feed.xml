@@ -97,6 +97,21 @@
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]:</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-377a-ee8f-8323-b0e801818185&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 14th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-377a-ee8f-8323-b0e801818185&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Ran the FIFO based implementation on Atlys. Seems to work. Image starts tearing as going down. &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Update: Flicerking Fixed!! Slight shaking (by 1 or max 2 pixels) remain.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Will try 2-FIFO implementation to see if that removes it.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-daily-log/</guid>
+      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSOC ain't your College Assignment</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I submitted my first c code and it was a such a disaster that I am looking back and laughing at it. Contributing to open source comes with it's own baggage like license, coding style and git, all of which I never cared about. But these are very important in an collaborative environment and hence important to learn. I got the bare bone version of my debug program working (with errors) and committed it. But before committing I remembered, &quot;Where is the license?&quot; So I copied the license from a VHDL file ( I know I am a smartass) and then happily committed it, feeling proud of my achievement. Only later I realised that it won't compile because to comment in VHDL we use &quot;--&quot; which will throw a compile error in C. Shenki must have been ROFLing on seeing it.&lt;br /&gt;&lt;br /&gt;Also I would like to propose daily tweeting instead of daily blogging. I haven't been blogging lately not because I was not working but blog, don't know why, sounds to&amp;nbsp; me hard work, like the daily cursive writing my Mom used to make me write when I was a kid.&lt;br /&gt;&lt;br /&gt;Okay now I am rambling. Daily Snippet:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-Studied Git&lt;br /&gt;-Studied Linux Coding Stlye Guide&lt;br /&gt;-Sat and wondered why mithro and shenki work so hard?&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-work on comments and *try* to rebase&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -251,21 +266,6 @@
       <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
       <dc:date>2014-07-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Working on DDR2/Receiver logic and attending a conference in Tampa Florida</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-receiver-logic-and-attending-a-co/</link>
-      <description>&lt;span style=&quot;font-size: large;&quot;&gt;Now we need to push real HMDI traffic through Packetizer and Ethernet. I am reading up and learning about DDR2 in my time that i have from attending &lt;a href=&quot;http://www.isvlsi.org/&quot;&gt;ISVLSI&lt;/a&gt; conference in Tampa, Florida. The other thing that can be done before this and perhaps should be done before DDR2 integration is regenerate the image on the receiver side using VLC or may be GStreamer. This will be done prior to integrating DDR2.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: large;&quot;&gt;This will be continue on the weekend and next week until get done. Since i am traveling back home, you may not see Friday's blog.&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: large;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: large;&quot;&gt;Please tolerate that :)&lt;/span&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/working-on-ddr2-receiver-logic-and-attending-a-co/</guid>
-      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-14T00:00:00+00:00</dc:date>
   </channel>
