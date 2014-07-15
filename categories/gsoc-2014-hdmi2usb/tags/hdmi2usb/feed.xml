@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Working on GStreamer</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/working-on-gstreamer/</link>
+      <description>Today i restarted with GStreamer after around 2 months. I started using GStreamer to generate RTP traffic, capture it via Wireshark and save it as ASCII file. My first two blogs talk about these. Since we are dealing with uncompressed video, using GStreamer to generate RTP traffic didn't work.&lt;br /&gt;&lt;br /&gt;Now the goal is to use GStreamer to reconstruct video frame from RTP/UDP traffic coming at the Ethernet interface. From some discussion at IRC channel #gstreamer, it seems it is more than creating a simple Gstreamer pipeline. I have been advised to read up &lt;a href=&quot;http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/manual.pdf&quot;&gt;GStreamer Application Development manual&lt;/a&gt;, which i am doing right now. From reading a few chapters, it seems i have to write a C program to get the job done. But here and there i see &lt;a href=&quot;http://stackoverflow.com/questions/11996715/gstreamer-udp-send-receive-one-liner&quot;&gt;Gstreamer one-liners&lt;/a&gt; as well. I am going to check it tomorrow on #gstreamer. If you can suggest something, please do. I am learning the ropes when it comes to Gstreamer.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/working-on-gstreamer/</guid>
+      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI_FIFO_Test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</link>
@@ -264,18 +279,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/sending-more-rtp-packets-continues/</guid>
       <dc:date>2014-07-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred abhishek-kakkar/BeagleLogic</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/rohit91-starred-abhishek-kakkar-beaglelogic/</guid>
-      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
