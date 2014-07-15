@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 15/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;I've started working on new application for social media notification from RSS feed. I started working with code, currently I am designing architecture for that application. I would like to create app similar to supybot: Application will be listening for any changes in RSS feeds and pushes messages to social media walls (I would like to support G+, Twitter and Facebook).&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</guid>
+      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
       <description>&lt;!-- push --&gt;
@@ -250,21 +265,6 @@
 </description>
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 05/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;added markdown generation of issues in Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added first issues filter mockup (list all labels)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue assignee information&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</guid>
       <dc:date>2014-07-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-15T00:00:00+00:00</dc:date>
