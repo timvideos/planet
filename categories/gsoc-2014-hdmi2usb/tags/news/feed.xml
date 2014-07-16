@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Oops Forgot again</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I usually write my blog before going to bed. Yesterday I went to bed and then I realised I forgot to write my snippet. Now I had a very tough choice to make-&quot;Sleep,blopost,sleep,blogpost&quot; Finally I chose sleep. So now I wake up and write my blog.&lt;br /&gt;Daily Snippet:&lt;br /&gt;1) Removed some bugs from the debugger. (Behold the irony)&lt;br /&gt;2) Added non blocking keyboard IO.&lt;br /&gt;&lt;br /&gt;Hopefully I complete it today.&lt;br /&gt;&lt;br /&gt;Phew, now I can sleep in &lt;a href=&quot;http://giphy.com/gifs/cwCBshoHs4nbW&quot;&gt;peace&lt;/a&gt;. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Working on GStreamer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/working-on-gstreamer/</link>
@@ -294,21 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues-and-eventually-pays-off-one-r/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Debugging continues</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</link>
-      <description>All the timing violations are corrected. The build flow works great. But wireshark is not capturing anything. The whole day was dedicated to debugging why packets are not coming out of FPGA.&lt;br /&gt;This will continue until problem solved. I am going to upload the design and log files later so you may suggest.&lt;br /&gt;&lt;br /&gt;I am thinking of putting a testbench and check the simulation after each of the synthesis, translation, mapping and p&amp;amp;r phases.&lt;br /&gt;&lt;br /&gt;The other would be to use Chipscope.&lt;br /&gt;&lt;br /&gt;Debug mode continues.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/07/debugging-continues/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>

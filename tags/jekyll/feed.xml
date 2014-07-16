@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>[GSoC Snippet] 15/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</link>
@@ -267,6 +267,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-07-05T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>

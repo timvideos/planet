@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Oops Forgot again</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I usually write my blog before going to bed. Yesterday I went to bed and then I realised I forgot to write my snippet. Now I had a very tough choice to make-&quot;Sleep,blopost,sleep,blogpost&quot; Finally I chose sleep. So now I wake up and write my blog.&lt;br /&gt;Daily Snippet:&lt;br /&gt;1) Removed some bugs from the debugger. (Behold the irony)&lt;br /&gt;2) Added non blocking keyboard IO.&lt;br /&gt;&lt;br /&gt;Hopefully I complete it today.&lt;br /&gt;&lt;br /&gt;Phew, now I can sleep in &lt;a href=&quot;http://giphy.com/gifs/cwCBshoHs4nbW&quot;&gt;peace&lt;/a&gt;. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>GSOC ain't your College Assignment</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
@@ -256,21 +271,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>TimVideo GSoC 2014: MJPEG Optimisation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Used Joelw's code on his blog to test the DDR2 ram. After initial hiccups I was finally able to do it. Also I underclocked the DDR2 Ram to check if there is a change in frame rate. When clock was reduced by half there was no change and when I reduced it further mplayer showed a timeout error.&lt;br /&gt;@shenki: I have added a new commit with the &lt;a href=&quot;https://github.com/ajitmathew/HDMI2USB/commit/78a97676ac6f9163bf5f5751f4597046b86c3e2b&quot;&gt;xsvf files&lt;/a&gt;. Try them on your board and please tell me the frame rate you observed. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 06 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/06/timvideo-gsoc-2014-mjpeg-optimisation/</guid>
-      <dc:date>2014-06-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
