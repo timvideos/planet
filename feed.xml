@@ -40,6 +40,17 @@
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
       <description>&lt;!-- create --&gt;
@@ -255,16 +266,6 @@
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 8 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</link>
-      <description>&lt;p&gt;This week I mostly struggled with porting the custom elements. Though, I successfully ported FGDP producer + consumer components along with the Dirac encoder.&lt;/p&gt;
-
-</description>
-      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
-      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>

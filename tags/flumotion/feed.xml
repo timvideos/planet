@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
       <description>&lt;!-- create --&gt;
@@ -223,16 +234,6 @@
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Problems with Overlay component</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</link>
-      <description>&lt;p&gt;As per my last post, I was facing some problems with overlay component. With help of Sebastian Dröge (slomo) from #gstreamer, I was able to fix the data flow error but the following error still remains.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/25/problems-with-overlay-component/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>
