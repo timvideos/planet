@@ -25,6 +25,21 @@
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Debug Program almost done!  </title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debug-program-almost-done/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;The bare bone debug program is ready.&lt;br /&gt;Here is how the program looks &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VdzEwLUdJTFFkSDg/edit?usp=sharing&quot;&gt;like&lt;/a&gt;. Things will improve as other developers add stuff to the debug infrastructure like packet count, expansion boards ID etc. &lt;br /&gt;There are two bugs which I couldn't fix even after hours of attempt:&amp;nbsp; &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;UART is suddenly send incorrect data causing wrong output for a moment.&lt;/li&gt;&lt;li&gt;HDMI 1 is shown connected even though only one is connected.&lt;/li&gt;&lt;/ul&gt;I will spend some more time on it in the weekend.&lt;br /&gt;&lt;br /&gt;Tomorrow I am planning to go back to the real stuff I am working on. Tomorrow I will try to add another encoder. Let's see if it is possible. If not, atleast we will know that this solution is not possible for available fpga resource.&lt;br /&gt;&lt;br /&gt;Till then I am going to sleep. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debug-program-almost-done/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSOC ain't your College Assignment</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I submitted my first c code and it was a such a disaster that I am looking back and laughing at it. Contributing to open source comes with it's own baggage like license, coding style and git, all of which I never cared about. But these are very important in an collaborative environment and hence important to learn. I got the bare bone version of my debug program working (with errors) and committed it. But before committing I remembered, &quot;Where is the license?&quot; So I copied the license from a VHDL file ( I know I am a smartass) and then happily committed it, feeling proud of my achievement. Only later I realised that it won't compile because to comment in VHDL we use &quot;--&quot; which will throw a compile error in C. Shenki must have been ROFLing on seeing it.&lt;br /&gt;&lt;br /&gt;Also I would like to propose daily tweeting instead of daily blogging. I haven't been blogging lately not because I was not working but blog, don't know why, sounds to&amp;nbsp; me hard work, like the daily cursive writing my Mom used to make me write when I was a kid.&lt;br /&gt;&lt;br /&gt;Okay now I am rambling. Daily Snippet:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-Studied Git&lt;br /&gt;-Studied Linux Coding Stlye Guide&lt;br /&gt;-Sat and wondered why mithro and shenki work so hard?&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-work on comments and *try* to rebase&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -258,17 +273,6 @@
 </description>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/i-m-back/</guid>
-      <dc:date>2014-06-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to gsoc at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/ajitmathew-pushed-to-gsoc-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
