@@ -25,6 +25,16 @@
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>DVSwitch Plugin Ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
+      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Debugging Gstreamer and testing packetizer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</link>
       <description>It was a hectic day trying to get RTP to work using Gstreamer. The receiver is not working yet. I am experimenting with Gstreamer. It is an excellent tool. I really liked it. After reading documentation and bouncing back and forth on #gstreamer, i tried the following and its variation&lt;br /&gt;&lt;br /&gt;$gst-launch-1.0 -v GST_DEBUG=udpsrc:5 udpsrc uri=udp://192.168.1.1:1234 ! rtpbin ! rtpvrawdepay ! videoconvert ! autovideosink&lt;br /&gt;&lt;br /&gt;but it does not work. It seems that &quot;caps&quot; is missing.It documentation is little hard to digest. I am trying to debug that.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the other hand, Packetizer is missing some packets. For example, when i am trying to send an entire frame (720x3 packets) via RTP, it misses some packets e.g., packets with sequence number 16-28 are missing. I am trying to debug that as well.&lt;br /&gt;&lt;br /&gt;I am hopeful i will be able to debug the Packetizer by tomorrow. I am hopeful to get to some point on Gstreamer by Thursday. If not, i will deal with image reconstruction in Pythonic way.&lt;div class=&quot;author&quot;&gt;
@@ -48,6 +58,40 @@
 </description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -217,54 +261,6 @@
 </description>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-daily-log/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSOC ain't your College Assignment</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Today I submitted my first c code and it was a such a disaster that I am looking back and laughing at it. Contributing to open source comes with it's own baggage like license, coding style and git, all of which I never cared about. But these are very important in an collaborative environment and hence important to learn. I got the bare bone version of my debug program working (with errors) and committed it. But before committing I remembered, &quot;Where is the license?&quot; So I copied the license from a VHDL file ( I know I am a smartass) and then happily committed it, feeling proud of my achievement. Only later I realised that it won't compile because to comment in VHDL we use &quot;--&quot; which will throw a compile error in C. Shenki must have been ROFLing on seeing it.&lt;br /&gt;&lt;br /&gt;Also I would like to propose daily tweeting instead of daily blogging. I haven't been blogging lately not because I was not working but blog, don't know why, sounds to&amp;nbsp; me hard work, like the daily cursive writing my Mom used to make me write when I was a kid.&lt;br /&gt;&lt;br /&gt;Okay now I am rambling. Daily Snippet:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-Studied Git&lt;br /&gt;-Studied Linux Coding Stlye Guide&lt;br /&gt;-Sat and wondered why mithro and shenki work so hard?&lt;br /&gt;&lt;br /&gt;Tomorrow:&lt;br /&gt;-[code]Debug program&lt;br /&gt;-work on comments and *try* to rebase&amp;nbsp; &lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/gsoc-ain-t-your-college-assignment/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>

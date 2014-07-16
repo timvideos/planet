@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>DVSwitch Plugin Ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
+      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +28,40 @@
 </description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -190,50 +234,6 @@
       <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-sids/</guid>
       <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Midterm Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</link>
-      <description>&lt;p&gt;I just recieved the e-mail stating that I have passed the midterm evaluation for my project. Though I have been struggling with porting for about a week now, this gives me a bit of joy.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/midterm-progress/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred mmccaff/PlacesToPostYourStartup</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-starred-mmccaff-placestopostyourstartup/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
   </channel>

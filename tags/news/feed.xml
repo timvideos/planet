@@ -25,6 +25,16 @@
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>DVSwitch Plugin Ported</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
+      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Debugging Gstreamer and testing packetizer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</link>
       <description>It was a hectic day trying to get RTP to work using Gstreamer. The receiver is not working yet. I am experimenting with Gstreamer. It is an excellent tool. I really liked it. After reading documentation and bouncing back and forth on #gstreamer, i tried the following and its variation&lt;br /&gt;&lt;br /&gt;$gst-launch-1.0 -v GST_DEBUG=udpsrc:5 udpsrc uri=udp://192.168.1.1:1234 ! rtpbin ! rtpvrawdepay ! videoconvert ! autovideosink&lt;br /&gt;&lt;br /&gt;but it does not work. It seems that &quot;caps&quot; is missing.It documentation is little hard to digest. I am trying to debug that.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the other hand, Packetizer is missing some packets. For example, when i am trying to send an entire frame (720x3 packets) via RTP, it misses some packets e.g., packets with sequence number 16-28 are missing. I am trying to debug that as well.&lt;br /&gt;&lt;br /&gt;I am hopeful i will be able to debug the Packetizer by tomorrow. I am hopeful to get to some point on Gstreamer by Thursday. If not, i will deal with image reconstruction in Pythonic way.&lt;div class=&quot;author&quot;&gt;
@@ -282,21 +292,6 @@
 </description>
       <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/11/gsoc-snippet-11-07-2014/</guid>
-      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2ad2-38f2-2a79-ab0962ddaad6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 11th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-2ad2-38f2-2a79-ab0962ddaad6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Found an old code from Xilinx’s UG458 which also uses AD9984A for VGA Capturing. Adapted and used the exact same code in my project. Gives same result as mine! :/ Intriguing! See the repo for the commit.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Added Test Points in the schematic&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/11/gsoc-daily-log/</guid>
       <dc:date>2014-07-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
