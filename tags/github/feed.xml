@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI_FIFO_Test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</link>
       <description>&lt;!-- push --&gt;
@@ -221,17 +233,6 @@
 </description>
       <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-created-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-created-the-timvideos-hdmi2usb-wiki/</guid>
       <dc:date>2014-07-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>

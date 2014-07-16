@@ -40,6 +40,18 @@
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Working on GStreamer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/working-on-gstreamer/</link>
       <description>Today i restarted with GStreamer after around 2 months. I started using GStreamer to generate RTP traffic, capture it via Wireshark and save it as ASCII file. My first two blogs talk about these. Since we are dealing with uncompressed video, using GStreamer to generate RTP traffic didn't work.&lt;br /&gt;&lt;br /&gt;Now the goal is to use GStreamer to reconstruct video frame from RTP/UDP traffic coming at the Ethernet interface. From some discussion at IRC channel #gstreamer, it seems it is more than creating a simple Gstreamer pipeline. I have been advised to read up &lt;a href=&quot;http://gstreamer.freedesktop.org/data/doc/gstreamer/head/manual/manual.pdf&quot;&gt;GStreamer Application Development manual&lt;/a&gt;, which i am doing right now. From reading a few chapters, it seems i have to write a C program to get the job done. But here and there i see &lt;a href=&quot;http://stackoverflow.com/questions/11996715/gstreamer-udp-send-receive-one-liner&quot;&gt;Gstreamer one-liners&lt;/a&gt; as well. I am going to check it tomorrow on #gstreamer. If you can suggest something, please do. I am learning the ropes when it comes to Gstreamer.&lt;div class=&quot;author&quot;&gt;
@@ -252,18 +264,6 @@
 </description>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/week-8-progress/</guid>
-      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created repository rohit91/HDMI_FIFO_Test</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/rohit91-created-repository-rohit91-hdmi_fifo_test/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/rohit91-created-repository-rohit91-hdmi_fifo_test/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-16T00:00:00+00:00</dc:date>
