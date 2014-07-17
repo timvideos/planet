@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Snippet] 17/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;started working on feedbook gem, created draft of config file, added timeloop gem, first part of coding&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 16/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;created &lt;span style=&quot;-webkit-text-size-adjust: auto;&quot;&gt;and&lt;/span&gt;&amp;nbsp;added to rubygems&amp;nbsp;new gem called &lt;b&gt;timeloop&lt;/b&gt;&amp;nbsp;that allows user &amp;nbsp;creating loops with time interval easily. I will use it in my new gem called &lt;b&gt;feedbook &lt;/b&gt;to checking changes in RSS feed every period of time.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://github.com/pinoss/timeloop&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -228,18 +243,6 @@
 </description>
       <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</guid>
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-17T00:00:00+00:00</dc:date>
