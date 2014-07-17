@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>[GSoC Snippet] 16/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;created &lt;span style=&quot;-webkit-text-size-adjust: auto;&quot;&gt;and&lt;/span&gt;&amp;nbsp;added to rubygems&amp;nbsp;new gem called &lt;b&gt;timeloop&lt;/b&gt;&amp;nbsp;that allows user &amp;nbsp;creating loops with time interval easily. I will use it in my new gem called &lt;b&gt;feedbook &lt;/b&gt;to checking changes in RSS feed every period of time.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://github.com/pinoss/timeloop&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
@@ -248,21 +263,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 08/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-snippet-08-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added filters mockup based on labels, now it is possible to create new filters only by adding new keyword to _config.yml (issues: special_filters)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;changed hierarchy of rss configuration in _config.yml to make all settings consistent&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added details to every issue (below body of issue)&lt;br /&gt;&lt;br /&gt;Now I will create working search/filter engine in JavaScript based on that filters that will work without any further work in future in case of new filters.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-snippet-08-07-2014/</guid>
-      <dc:date>2014-07-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>

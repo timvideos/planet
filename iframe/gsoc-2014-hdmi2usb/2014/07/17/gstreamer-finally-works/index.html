@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Gstreamer finally works !</h1>
+      <div class="article">
+        <p class="meta description">
+          Jul 17, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F17%2Fgstreamer-finally-works%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F17%2Fgstreamer-finally-works%2F&text=TimVideos.us%20Gstreamer+finally+works+%21%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F17%2Fgstreamer-finally-works%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F17%2Fgstreamer-finally-works%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          What a day today that ended up with falling in love with Gstreamer ! What an amazing tool !<br /><br />Mos of today was dominated by the following loop<br /><br />&nbsp;Googling, talking to Gstreamer community, going back fixing the RTL code, running hardware, look at Gstreamer output<br /><br />I must appreciate the community that really helped me with Gstreamer debugging. The problem was "Specification" that i mentioned a while ago that two people can never understand exactly the same specification. This happened today when i got a chance to compare my version of <a href="http://tools.ietf.org/html/rfc4175">RFC 4175</a>&nbsp;implementation and Gstreamer's implementation. Other than three things, the implementations were identical. It took a while to figure that out. The three things were<br /><br />1) Gstreamer counts scan lines from 0 while my implementation started counting lines from 26 and up (See section 3 of the above RFC)<br /><br />2) My implementation was offsetting pixels by bytes while Gstreamer was offsetting pixels by number of pixels (which is the correct way). So i corrected my implementation<br /><br />3) Even if one sends one line i.e., 1280 pixels (as three packets of 424,424 and 432 pixels), that last packet of 432 pixels must have marker bit set to 1. My implementation assumed marker bit would be set to 1 for the last packet in the frame (line # 720).<br /><br />Once these were resolved, FPGA was able to send one line of 1280 pixels (all RED Color i.e., FF_00_00) that was correctly captured by Gstreamer as well as Wireshark. Please take a look at the following snapshots.<br /><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-UpseqX25SeM/U8dRMM7oxYI/AAAAAAAAALI/Xt73ls8wW14/s1600/Wireshark_row0_capture.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-UpseqX25SeM/U8dRMM7oxYI/AAAAAAAAALI/Xt73ls8wW14/s1600/Wireshark_row0_capture.jpg" height="268" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/--b01ZW7P2Go/U8dRMCRQg3I/AAAAAAAAALE/cSAQviEdZTA/s1600/Gstreamer_row0_capture.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/--b01ZW7P2Go/U8dRMCRQg3I/AAAAAAAAALE/cSAQviEdZTA/s1600/Gstreamer_row0_capture.jpg" height="206" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: left;">Following is the command that is used to launch Gstreamer</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both;">$GST_DEBUG=rtp*:9 gst-launch-1.0 -v udpsrc uri=udp://192.168.1.1:5004 &nbsp;caps="</div><div class="separator" style="clear: both;">application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, sampling=(string)RGB, depth=(string)8, width=(string)1280, height=(string)1" ! &nbsp;rtpvrawdepay &nbsp;! videoconvert ! videoscale ! "video/x-raw,height=720" ! autovideosink</div><br /><br />OK. Now is the time to send full frame and capture it via Gstreamer. That is the goal for tomorrow.<br /><br />Thanks for visiting my blog. Please give your precious feedback by commenting.<br /><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Gstreamer finally works !</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works/</link>
+      <description>What a day today that ended up with falling in love with Gstreamer ! What an amazing tool !&lt;br /&gt;&lt;br /&gt;Mos of today was dominated by the following loop&lt;br /&gt;&lt;br /&gt;&amp;nbsp;Googling, talking to Gstreamer community, going back fixing the RTL code, running hardware, look at Gstreamer output&lt;br /&gt;&lt;br /&gt;I must appreciate the community that really helped me with Gstreamer debugging. The problem was &quot;Specification&quot; that i mentioned a while ago that two people can never understand exactly the same specification. This happened today when i got a chance to compare my version of &lt;a href=&quot;http://tools.ietf.org/html/rfc4175&quot;&gt;RFC 4175&lt;/a&gt;&amp;nbsp;implementation and Gstreamer's implementation. Other than three things, the implementations were identical. It took a while to figure that out. The three things were&lt;br /&gt;&lt;br /&gt;1) Gstreamer counts scan lines from 0 while my implementation started counting lines from 26 and up (See section 3 of the above RFC)&lt;br /&gt;&lt;br /&gt;2) My implementation was offsetting pixels by bytes while Gstreamer was offsetting pixels by number of pixels (which is the correct way). So i corrected my implementation&lt;br /&gt;&lt;br /&gt;3) Even if one sends one line i.e., 1280 pixels (as three packets of 424,424 and 432 pixels), that last packet of 432 pixels must have marker bit set to 1. My implementation assumed marker bit would be set to 1 for the last packet in the frame (line # 720).&lt;br /&gt;&lt;br /&gt;Once these were resolved, FPGA was able to send one line of 1280 pixels (all RED Color i.e., FF_00_00) that was correctly captured by Gstreamer as well as Wireshark. Please take a look at the following snapshots.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-UpseqX25SeM/U8dRMM7oxYI/AAAAAAAAALI/Xt73ls8wW14/s1600/Wireshark_row0_capture.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://3.bp.blogspot.com/-UpseqX25SeM/U8dRMM7oxYI/AAAAAAAAALI/Xt73ls8wW14/s1600/Wireshark_row0_capture.jpg&quot; height=&quot;268&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://4.bp.blogspot.com/--b01ZW7P2Go/U8dRMCRQg3I/AAAAAAAAALE/cSAQviEdZTA/s1600/Gstreamer_row0_capture.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://4.bp.blogspot.com/--b01ZW7P2Go/U8dRMCRQg3I/AAAAAAAAALE/cSAQviEdZTA/s1600/Gstreamer_row0_capture.jpg&quot; height=&quot;206&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;Following is the command that is used to launch Gstreamer&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;$GST_DEBUG=rtp*:9 gst-launch-1.0 -v udpsrc uri=udp://192.168.1.1:5004 &amp;nbsp;caps=&quot;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, sampling=(string)RGB, depth=(string)8, width=(string)1280, height=(string)1&quot; ! &amp;nbsp;rtpvrawdepay &amp;nbsp;! videoconvert ! videoscale ! &quot;video/x-raw,height=720&quot; ! autovideosink&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;OK. Now is the time to send full frame and capture it via Gstreamer. That is the goal for tomorrow.&lt;br /&gt;&lt;br /&gt;Thanks for visiting my blog. Please give your precious feedback by commenting.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Oops Forgot again</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</link>
@@ -275,17 +290,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/testing-rtp-packetizer-with-multiple-2-and-3-pack/</guid>
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
