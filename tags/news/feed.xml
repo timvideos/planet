@@ -175,6 +175,21 @@
       <dc:date>2014-07-15T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]:</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-4617-0873-b855-86a4b088f1dc&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 16th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-4617-0873-b855-86a4b088f1dc&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Reordered the components through Mouser. Should be delivered by Friday. Hugh shipping and customs :/&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Writing code for 2-FIFO implementation. Tomorrow, will work on PCB&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/gsoc-daily-log/</guid>
+      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Image streaming issues with VLC media player</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/image-streaming-issues-with-vlc-media-player/</link>
       <description>Today i dedicated a good chunk of time learning how to stream raw video using VLC media player. The idea is to work backwards. That is, i want to generate UDP stream from a local image and capture it via Wireshark. Once this is done, i can move towards capturing RTP/UDP stream coming from FPGA. So in a way, it is getting more acquainted with sending video stream and capturing it.&lt;br /&gt;&lt;br /&gt;&amp;nbsp;Here is the relevant post that i tried&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://stackoverflow.com/questions/2738228/how-to-stream-your-images-files-with-vlc&quot;&gt;http://stackoverflow.com/questions/2738228/how-to-stream-your-images-files-with-vlc&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;after learning the command line of VLC. &amp;nbsp;Here is what i am inputting at the command line&lt;br /&gt;&lt;br /&gt;vlc -I dummy fake:// --fake-file checkboard.jpg --fake-duration 5000 --fake-width 300 --fake-height 300 --fake-caching 40 -vvv --sout &quot;#std{access=udp,mux=ts,dst=127.0.0.1:1234}&quot; --loop&lt;br /&gt;&lt;br /&gt;Unfortunately, i am constantly getting the following &lt;span style=&quot;color: red;&quot;&gt;ERROR&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;color: red;&quot;&gt;vlc: unknown option or missing mandatory argument `--fake-file=checkboard.jpg'&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;color: red;&quot;&gt;&lt;br /&gt;&lt;/span&gt;If you have any experience with VLC or you want to suggest some other tools like Gstreamer or ffmpeg might be better for this, please explain&lt;div class=&quot;author&quot;&gt;
@@ -272,21 +287,6 @@
 </description>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/gsoc-snippet-13-07-2014/</guid>
-      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-35e2-9c64-1742-c872ec08cf96&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 13th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-35e2-9c64-1742-c872ec08cf96&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Spent the writing code for the FIFO based implementation for VGA Capture and Simulation testbench. Watched FIFA World Cup 2014 Final thereafter.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/13/gsoc-daily-log/</guid>
       <dc:date>2014-07-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-17T00:00:00+00:00</dc:date>
