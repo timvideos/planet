@@ -40,6 +40,27 @@
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>DVSwitch Testing</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</link>
+      <description>&lt;p&gt;I ported the DVSwitch Gstreamer Element yesterday, but it had to be tested to know if it works or not. So, I worked on testing this today. I used following commands to test it:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
       <description>&lt;!-- push --&gt;
@@ -238,31 +259,6 @@
 </description>
       <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/15/gsoc-weekly-overview-change-of-plan/</guid>
-      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 7-14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</link>
-      <description>&lt;h2&gt;snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</guid>
-      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;I've started working on new application for social media notification from RSS feed. I started working with code, currently I am designing architecture for that application. I would like to create app similar to supybot: Application will be listening for any changes in RSS feeds and pushes messages to social media walls (I would like to support G+, Twitter and Facebook).&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</guid>
       <dc:date>2014-07-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-17T00:00:00+00:00</dc:date>

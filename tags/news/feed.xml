@@ -40,6 +40,16 @@
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>DVSwitch Testing</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</link>
+      <description>&lt;p&gt;I ported the DVSwitch Gstreamer Element yesterday, but it had to be tested to know if it works or not. So, I worked on testing this today. I used following commands to test it:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</guid>
+      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Oops Forgot again</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I usually write my blog before going to bed. Yesterday I went to bed and then I realised I forgot to write my snippet. Now I had a very tough choice to make-&quot;Sleep,blopost,sleep,blogpost&quot; Finally I chose sleep. So now I wake up and write my blog.&lt;br /&gt;Daily Snippet:&lt;br /&gt;1) Removed some bugs from the debugger. (Behold the irony)&lt;br /&gt;2) Added non blocking keyboard IO.&lt;br /&gt;&lt;br /&gt;Hopefully I complete it today.&lt;br /&gt;&lt;br /&gt;Phew, now I can sleep in &lt;a href=&quot;http://giphy.com/gifs/cwCBshoHs4nbW&quot;&gt;peace&lt;/a&gt;. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -277,21 +287,6 @@
 </description>
       <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/12/gsoc-daily-log/</guid>
-      <dc:date>2014-07-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Dirac encoder ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</link>
-      <description>&lt;p&gt;I have been working on components that require some “effects” components to be ported first which were causing a problem. So, I stashed the commits and worked on Dirac encoder which was not much work. As a result, Dirac encoder is ported and I’m getting back to other components.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://aps-sids.github.io/porting-flumotion&quot;&gt;Porting Flumotion - GSoC '14 Progress Blog&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/12/dirac-encoder-ported/</guid>
       <dc:date>2014-07-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-17T00:00:00+00:00</dc:date>
