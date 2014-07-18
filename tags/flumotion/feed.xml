@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>DVSwitch Testing</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</link>
       <description>&lt;p&gt;I ported the DVSwitch Gstreamer Element yesterday, but it had to be tested to know if it works or not. So, I worked on testing this today. I used following commands to test it:&lt;/p&gt;
@@ -223,16 +234,6 @@
       <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/29/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-06-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>VP8 Encoder Ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/28/vp8-encoder-ported/</link>
-      <description>&lt;p&gt;I worked on porting the VP8 Encoder today. There were not many changes required, just that a few properties were removed and others’ names were changed.&lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/28/vp8-encoder-ported/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-18T00:00:00+00:00</dc:date>
   </channel>
