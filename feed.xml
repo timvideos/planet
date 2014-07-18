@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Debugging Verilog RTP Packetizer frame generation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</link>
+      <description>Packetizer Verilog RTL is somehow missing some packets when i . This was reported in the day before yesterday's blog. I am still trying to debug it. I might go with simulation or chipscope approach. Right now i am making changes and testing in the hardware.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I also posted the instructions on how to reproduce yesterday's blog results of sending one row of 1280 pixels by FPGA and reconstruction in Gstreamer. Please look at the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer&quot;&gt;README.md&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Debugging will continue on the weekend or next week as i have some commitment on Friday July 18th. See you after a short break !&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>17 July '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
       <description>&lt;ul&gt;
@@ -248,17 +263,6 @@
 </description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-18T00:00:00+00:00</dc:date>
