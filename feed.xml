@@ -8,7 +8,20 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>17 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Learnt to use South for migrations to database&lt;/li&gt;
+&lt;li&gt;Added Bug status and Bug priority to reported bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
@@ -248,18 +261,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

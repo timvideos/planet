@@ -8,7 +8,20 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>17 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Learnt to use South for migrations to database&lt;/li&gt;
+&lt;li&gt;Added Bug status and Bug priority to reported bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 17/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</link>
@@ -233,18 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
       <dc:date>2014-07-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss deleted branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

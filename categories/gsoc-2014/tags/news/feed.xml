@@ -8,7 +8,20 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>17 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Learnt to use South for migrations to database&lt;/li&gt;
+&lt;li&gt;Added Bug status and Bug priority to reported bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 17/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</link>
@@ -264,21 +277,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/06/gsoc-snippet-06-07-2014/</guid>
       <dc:date>2014-07-06T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 05/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;added markdown generation of issues in Planet&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added first issues filter mockup (list all labels)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; added issue assignee information&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/05/gsoc-snippet-05-07-2014/</guid>
-      <dc:date>2014-07-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

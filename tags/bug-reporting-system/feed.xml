@@ -8,7 +8,20 @@
     <title>Tim Videos Planet - Developers news - Tag: BUG-REPORTING-SYSTEM</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>17 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Learnt to use South for migrations to database&lt;/li&gt;
+&lt;li&gt;Added Bug status and Bug priority to reported bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
@@ -233,16 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>12 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/12-june-14/</link>
-      <description>&lt;p&gt;What I did today:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/12-june-14/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
