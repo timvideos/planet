@@ -8,235 +8,233 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
     <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on commit aps-sids/flumotion-orig@ddcdfeb1b2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss forked javan/whenever to pinoss/whenever</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created tag v1.0.0 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</link>
+      <title>pinoss created tag v1.0.3 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created repository pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</link>
+      <title>pinoss pushed to master at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v1.0.2 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v1.0.1 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-1-at-pinoss-timeloop/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-1-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-repository-pinoss-feedbook/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-repository-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created branch master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</link>
+      <title>pinoss created branch master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
+      <title>aps-sids created branch porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-created-branch-porting-dvswitch-at-aps-s/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss deleted branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-created-branch-porting-dvswitch-at-aps-s/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/20/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/19/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/13/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-13T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/11/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/11/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-07-11T00:00:00+00:00</dc:date>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>

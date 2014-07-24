@@ -8,235 +8,228 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
     <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+      <title>rohit91 reopened issue rohit91/HDMI2USB-vmodvga#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <title>rohit91 commented on issue rohit91/HDMI2USB-vmodvga#7</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-commented-on-issue-rohit91-hdmi2usb-vmodv/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-commented-on-issue-rohit91-hdmi2usb-vmodv/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-6/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-6/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-16/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-16/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#14</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-14/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-14/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on commit aps-sids/flumotion-orig@ddcdfeb1b2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew pushed to ajit-debug-v2 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-pushed-to-ajit-debug-v2-at-ajitmathew-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-pushed-to-ajit-debug-v2-at-ajitmathew-/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew commented on commit ajitmathew/HDMI2USB@7f2f8e8afd</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 reopened issue rohit91/HDMI2USB-vmodvga#11</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 commented on issue rohit91/HDMI2USB-vmodvga#19</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-commented-on-issue-rohit91-hdmi2usb-vmodv/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-commented-on-issue-rohit91-hdmi2usb-vmodv/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#11</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-11/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-11/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#10</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-10/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-10/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss forked javan/whenever to pinoss/whenever</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created tag v1.0.0 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</link>
+      <title>pinoss created tag v1.0.3 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created repository pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI_FIFO_Test</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/14/rohit91-pushed-to-master-at-rohit91-hdmi_fifo_tes/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss deleted branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-deleted-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-created-branch-gh-pages-at-pinoss-getting-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>

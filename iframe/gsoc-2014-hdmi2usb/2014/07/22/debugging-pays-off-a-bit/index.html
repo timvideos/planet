@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/07/22/debugging-pays-off-a-bit//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Debugging pays off a bit</h1>
+      <div class="article">
+        <p class="meta description">
+          Jul 22, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F22%2Fdebugging-pays-off-a-bit%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F22%2Fdebugging-pays-off-a-bit%2F&text=TimVideos.us%20Debugging+pays+off+a+bit%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F22%2Fdebugging-pays-off-a-bit%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F22%2Fdebugging-pays-off-a-bit%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          First, note that the yesterday's blog is marked by Google as today's (Monday blog). Please treat it as Sunday's blog. Today, the day was spent debugging why packets were missing? It finally came to light that the 1 Gbps MAC was overflowing. I adjusted the delay to make it not overflow.<br /><br />Here is what i get when i send the 720p frame (all RED color) as 6 rows, 44 rows, 100 rows, 200 rows and all the 720 rows. The full image has some artifacts. I am going to see if these can be resolved or not.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/--fb3M1FRzHI/U84QIx42unI/AAAAAAAAALg/stxlKMPTRz8/s1600/720p_frame_6rows.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/--fb3M1FRzHI/U84QIx42unI/AAAAAAAAALg/stxlKMPTRz8/s1600/720p_frame_6rows.jpg" height="19" width="640" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-KF_gOUdrjuM/U84QIV9zyZI/AAAAAAAAALc/8YXIBmOrv3Y/s1600/720p_frame_44rows.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-KF_gOUdrjuM/U84QIV9zyZI/AAAAAAAAALc/8YXIBmOrv3Y/s1600/720p_frame_44rows.jpg" height="32" width="640" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-fprof2a4-N8/U84QIci_KfI/AAAAAAAAAL0/O-7sktD6mDk/s1600/720p_frame_100rows.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-fprof2a4-N8/U84QIci_KfI/AAAAAAAAAL0/O-7sktD6mDk/s1600/720p_frame_100rows.jpg" height="70" width="640" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-GJkhY-aRgAk/U84QIVz0hwI/AAAAAAAAALY/OnjK1XmNXCs/s1600/720p_frame_200rows.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-GJkhY-aRgAk/U84QIVz0hwI/AAAAAAAAALY/OnjK1XmNXCs/s1600/720p_frame_200rows.jpg" height="122" width="640" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-We0UZ_eJWX8/U84QJBDer5I/AAAAAAAAALs/iRCWPEguYSw/s1600/720p_frame_720rows.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-We0UZ_eJWX8/U84QJBDer5I/AAAAAAAAALs/iRCWPEguYSw/s1600/720p_frame_720rows.jpg" height="406" width="640" /></a></div><br /><br /><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/07/19/running-docker-d-streamingsystem//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Running Docker'd Streamingsystem</h1>
+      <div class="article">
+        <p class="meta description">
+          Jul 19, 2014
+           • Max (Dockerization)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/dockerization">
+                  dockerization
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F07%2F19%2Frunning-docker-d-streamingsystem%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F07%2F19%2Frunning-docker-d-streamingsystem%2F&text=TimVideos.us%20Running+Docker%27d+Streamingsystem%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F07%2F19%2Frunning-docker-d-streamingsystem%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F07%2F19%2Frunning-docker-d-streamingsystem%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <p>I covered this in a post a few weeks ago, but I've updated it a bit here.</p>
+
+<h2>How to get streaming system up and running!</h2>
+
+<ul>
+<li>make sure your host(s) getting pushed to has docker <a href="https://docs.docker.com/installation/ubuntulinux/">installed</a> (ubuntu instructions)</li>
+<li>clone my 'docker' streamingsystem
+
+<ul>
+<li><code>git clone -b docker https://github.com/maxstr/streaming-system.git</code></li>
+</ul></li>
+<li>fill out config.private.json, config.json
+
+<ul>
+<li>I recommend setting up just a single channel. You can try running the encoder/collector on the same host if you wish!</li>
+</ul></li>
+<li><code>cd streaming-system/flumotion-config/tools/pusher</code></li>
+<li><code>. bin/activate</code></li>
+<li><code>fab prepare_deploy</code> 
+
+<ul>
+<li>this generates 'host files' in the hosts directory from config.json</li>
+<li>fill out ssh connection details in the host file. you can include a username, a password, and a keyfile. the user specified must have sudo access.</li>
+</ul></li>
+<li><code>fab deploy</code> 
+
+<ul>
+<li>this pushes out the local configuration files to the hosts and builds the images</li>
+</ul></li>
+<li>wait 
+
+<ul>
+<li>~1.4gb is being downloaded from docker repository, this will only take a long time once per host because of the way commits work :) </li>
+</ul></li>
+<li><code>fab up</code> 
+
+<ul>
+<li>this starts all the flumotion containers on all hosts.</li>
+</ul></li>
+<li>voila~</li>
+<li><code>fab down</code> to stop all containers on host.</li>
+</ul><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://mstritzi.nfshost.com/blog">Max Stritzinger</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

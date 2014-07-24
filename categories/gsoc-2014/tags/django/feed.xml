@@ -8,7 +8,123 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>24 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</link>
+      <description>&lt;p&gt;I spent most of the day improvising the forms and looking up better ways I could take and save a page screenshot. I have two major tasks left to do now:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>23 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/23-july-14/</link>
+      <description>&lt;p&gt;Modified the form fields today and added a little more design to it. I learnt how to include drop-down fields in Django models. &lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/23-july-14/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>22 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/22-july-14/</link>
+      <description>&lt;p&gt;Finally had success in resolving the bug about view not loading. The url was bring masked by another. I implemented the Edit and Delete functionalities on bugs today. They are in their most basic form, for now. 
+Every bug has an Edit and Delete button associated with it. Hitting edit takes you to a form with pre-populated data, which can be edited by the admin. 
+Clicking Delete, deletes the bug and refreshes the page. 
+I did some basic styling for the forms as well. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/22-july-14/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>21 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/21/21-july-14/</link>
+      <description>&lt;p&gt;I have been stuck at an issue for a couple of days. I generate Edit and Delete  links in django-tables2 table dynamically, but they don&amp;rsquo;t seem to work. I tried a lot of different things but nothing helps. 
+I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com/questions/24868947/django-tables2-linkcolumn-link-doesnt-work&quot;&gt;here&lt;/a&gt;. Hopefully I&amp;rsquo;ll resolve this soon. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/21/21-july-14/</guid>
+      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/19/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>19 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/19/19-july-14/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;Created custom Edit and Delete buttons next to the bug. &lt;/li&gt;
+&lt;li&gt;Styled the table better. 
+&lt;a href=&quot;https://www.dropbox.com/s/1k4s90zx2rl3wwl/Screenshot%202014-07-19%2022.38.51.png&quot;&gt;https://www.dropbox.com/s/1k4s90zx2rl3wwl/Screenshot%202014-07-19%2022.38.51.png&lt;/a&gt; - Screenshot&lt;/li&gt;
+&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/19-july-14/</guid>
+      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>18 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/18-july-14/</link>
+      <description>&lt;p&gt;I tried to apply custom CSS to the table generated by django_tables2 today but was unsuccessful. I am considering generating the table myself now instead of using django_tables2. Also, it will be easier to create drop-downs for Bug Status and Priority settings. &lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/18-july-14/</guid>
+      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>17 July '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
@@ -87,7 +203,7 @@
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 merged pull request Niharika29/bugtracker#2</title>
+      <title>Niharika29 merged pull request Niharika29/bugtracker#1</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-merged-pull-request-niharika29-bugtrac/</link>
       <description>&lt;!-- pull_request --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
@@ -133,119 +249,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-4-revert-1-clean/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 created branch revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-1-cleanup-at-nih/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-1-cleanup-at-nih/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>17 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/17/17-june-14/</link>
-      <description>&lt;p&gt;Created a preliminary admin-backend. &lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/17/17-june-14/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>16 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/16/16-june-14/</link>
-      <description>&lt;p&gt;Read about &lt;a href=&quot;https://docs.djangoproject.com/en/1.6/topics/db/managers/#django.db.models.Manager&quot;&gt;Managers&lt;/a&gt; and QuerySets in Django for fetching data on admin end. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 16 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/16/16-june-14/</guid>
-      <dc:date>2014-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>15 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/15/15-june-14/</link>
-      <description>&lt;p&gt;Investigated further about the authentication system in django. Made a dummy form for user login. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 15 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/15-june-14/</guid>
-      <dc:date>2014-06-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>14 June '14 (Previous post was wrongly dated, it should be 13)</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;Looked up the Admin functionality already provided by Django and if it could possibly be modified for our purpose. Turns out it would be better to make an Admin end from scratch. &lt;/li&gt;
-&lt;li&gt;Read about &lt;a href=&quot;http://django-braces.readthedocs.org/en/v1.4.0/&quot;&gt;django-braces&lt;/a&gt; and gitignore.&lt;/li&gt;
-&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/14/14-june-14-previous-post-was-wrongly-dated-it-sho/</guid>
-      <dc:date>2014-06-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>14 June '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</link>
-      <description>&lt;p&gt;Done with the form today. Only styling remains. Data being computed in JS and saved to database. &lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/14-june-14/</guid>
-      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>

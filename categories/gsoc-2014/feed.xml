@@ -8,222 +8,211 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
     <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>17 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;Learnt to use South for migrations to database&lt;/li&gt;
-&lt;li&gt;Added Bug status and Bug priority to reported bugs&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 17/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;started working on feedbook gem, created draft of config file, added timeloop gem, first part of coding&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 16/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;created &lt;span style=&quot;-webkit-text-size-adjust: auto;&quot;&gt;and&lt;/span&gt;&amp;nbsp;added to rubygems&amp;nbsp;new gem called &lt;b&gt;timeloop&lt;/b&gt;&amp;nbsp;that allows user &amp;nbsp;creating loops with time interval easily. I will use it in my new gem called &lt;b&gt;feedbook &lt;/b&gt;to checking changes in RSS feed every period of time.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;https://github.com/pinoss/timeloop&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>DVSwitch Testing</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</link>
-      <description>&lt;p&gt;I ported the DVSwitch Gstreamer Element yesterday, but it had to be tested to know if it works or not. So, I worked on testing this today. I used following commands to test it:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on commit aps-sids/flumotion-orig@ddcdfeb1b2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>24 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</link>
+      <description>&lt;p&gt;I spent most of the day improvising the forms and looking up better ways I could take and save a page screenshot. I have two major tasks left to do now:&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</guid>
+      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss forked javan/whenever to pinoss/whenever</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created tag v1.0.0 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</link>
+      <title>pinoss created tag v1.0.3 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created repository pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</link>
+      <title>GSoC Update 7-22</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/gsoc-update-7-22/</link>
+      <description>&lt;h2&gt;snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/gsoc-update-7-22/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>23 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/23-july-14/</link>
+      <description>&lt;p&gt;Modified the form fields today and added a little more design to it. I learnt how to include drop-down fields in Django models. &lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/23-july-14/</guid>
+      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v1.0.2 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v1.0.1 at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-1-at-pinoss-timeloop/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-1-at-pinoss-timeloop/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-repository-pinoss-feedbook/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-repository-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss created branch master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</link>
+      <title>pinoss created branch master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-branch-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>DVSwitch Plugin Ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
-      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</link>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-porting-to-1-0-at-aps-sids-gst/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to master at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</link>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-master-at-aps-sids-gst-plugins/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids deleted branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 7-14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</link>
-      <description>&lt;h2&gt;snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-update-7-14/</guid>
-      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 15/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;I've started working on new application for social media notification from RSS feed. I started working with code, currently I am designing architecture for that application. I would like to create app similar to supybot: Application will be listening for any changes in RSS feeds and pushes messages to social media walls (I would like to support G+, Twitter and Facebook).&lt;div class=&quot;author&quot;&gt;
+      <title>[GSoC Snippet] 22/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/gsoc-snippet-22-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; fixed small issues with feedbook gem, now everything should work fine. I still need some time to write tests and after it I will add email and IRC gateway. I added source code of my gem to GitHub and I will add it to rubygems after I did some tests. :)&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -231,21 +220,21 @@
 
 
 </description>
-      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/15/gsoc-snippet-15-07-2014/</guid>
-      <dc:date>2014-07-15T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/gsoc-snippet-22-07-2014/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>pinoss pushed to master at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/14/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-07-14T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
