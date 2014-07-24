@@ -21,11 +21,11 @@ projects:
     {{ project[1].code_frequency.series }}
       '{{ project[1].name }}': {
         'charts': {
-          'pieChart': {{ project[1].pie_chart }},
-          'codeFrequency': {{ project[1].code_frequency }},
-          'commitActivity': {{ project[1].commit_activity }},
-          'commitsPerHour': {{ project[1].commits_per_hour }},
-          'commitsPerWeekday': {{ project[1].commits_per_weekday }},
+          {% if project[1].pie_chart %}'pieChart': {{ project[1].pie_chart }},{% endfor %}
+          {% if project[1].code_frequency %}'codeFrequency': {{ project[1].code_frequency }},{% endfor %}
+          {% if project[1].commit_activity %}'commitActivity': {{ project[1].commit_activity }},{% endfor %}
+          {% if project[1].commits_per_hour %}'commitsPerHour': {{ project[1].commits_per_hour }},{% endfor %}
+          {% if project[1].commits_per_weekday %}'commitsPerWeekday': {{ project[1].commits_per_weekday }},{% endfor %}
         }
       },
     {% endfor %}

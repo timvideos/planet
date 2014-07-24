@@ -40,11 +40,20 @@ module Jekyll
 
         projects_data[project]['name'] = project
 
-        projects_data[project]['pie_chart'] = contributors_pie_chart_data(project)
-        projects_data[project]['code_frequency']  = code_frequency_chart_data(project)
-        projects_data[project]['commit_activity'] = commit_activity_stats_chart_data(project)
-        projects_data[project]['commits_per_hour'] = commits_per_hour_chart_data(project)
-        projects_data[project]['commits_per_weekday'] = commits_per_weekday_chart_data(project)
+        pie_chart = contributors_pie_chart_data(project)
+        projects_data[project]['pie_chart'] = pie_chart unless pie_chart.nil?
+        
+        code_frequency = code_frequency_chart_data(project)
+        projects_data[project]['code_frequency']  = code_frequency unless code_frequency.nil?
+        
+        commit_activity = commit_activity_stats_chart_data(project)
+        projects_data[project]['commit_activity'] = commit_activity unless commit_activity.nil?
+        
+        commits_per_hour = commits_per_hour_chart_data(project)
+        projects_data[project]['commits_per_hour'] = commits_per_hour unless commits_per_hour.nil?
+        
+        commits_per_weekday = commits_per_weekday_chart_data(project)
+        projects_data[project]['commits_per_weekday'] = commits_per_weekday unless commits_per_weekday.nil? 
       end
 
       page.data['projects_data'] = projects_data
@@ -79,6 +88,9 @@ module Jekyll
       end
 
       result.to_json
+
+    rescue => e
+      puts "Contributors stats data generation error."
     end
 
     def code_frequency_chart_data(project)
@@ -100,6 +112,9 @@ module Jekyll
       }
 
       result.to_json
+
+    rescue => e
+      puts "Contributors stats data generation error."
     end
 
     def commit_activity_stats_chart_data(project)
@@ -117,6 +132,9 @@ module Jekyll
       }
 
       result.to_json
+
+    rescue => e
+      puts "Commit activity data generation error."
     end
 
     DAY_NAME = {
@@ -142,6 +160,9 @@ module Jekyll
       end
 
       result.to_json
+
+    rescue => e
+      puts "Commits per weekday chart data generation error."
     end
 
     def commits_per_hour_chart_data(project)
@@ -157,6 +178,9 @@ module Jekyll
       end
 
       result.to_json
+
+    rescue => e
+      puts "Commits per hour chart data stats data generation error."
     end
 
     def client
