@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>GSoC Update 7-22</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/gsoc-update-7-22/</link>
       <description>&lt;h2&gt;snippets&lt;/h2&gt;
@@ -210,17 +221,6 @@
 </description>
       <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-06-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr opened pull request timvideos/streaming-system#62</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/12/maxstr-opened-pull-request-timvideos-streaming-sy/</guid>
       <dc:date>2014-06-12T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-25T00:00:00+00:00</dc:date>

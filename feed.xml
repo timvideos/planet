@@ -66,6 +66,17 @@
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;wrote more tests for feedbook gem (currently I covered 92% of all lines of code with tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;wrote YARDoc to every method inside gem to make it easier to contribute to it&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed Planet generation in case of not working GitHub API&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added email and irc notifier to feedbook gem&lt;br /&gt;&lt;br /&gt;Now I need to write configuration validator, links shortener (I don't know which shortener I would like to use: goo.gl or bit.ly) and few things about configuration in README and gem will be ready to be deployed. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -226,17 +237,6 @@
 </description>
       <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on commit aps-sids/flumotion-orig@ddcdfeb1b2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-25T00:00:00+00:00</dc:date>
