@@ -25,6 +25,29 @@
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch porting-generic-decoder at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-created-branch-porting-generic-decoder-a/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-created-branch-porting-generic-decoder-a/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</link>
       <description>&lt;!-- push --&gt;
@@ -211,32 +234,6 @@
 </description>
       <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to docker at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 22/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/gsoc-snippet-22-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; fixed small issues with feedbook gem, now everything should work fine. I still need some time to write tests and after it I will add email and IRC gateway. I added source code of my gem to GitHub and I will add it to rubygems after I did some tests. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/gsoc-snippet-22-07-2014/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-25T00:00:00+00:00</dc:date>
