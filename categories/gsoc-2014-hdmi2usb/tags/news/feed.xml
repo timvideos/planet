@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Daily Snippey</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</link>
+      <description>&lt;p dir=ltr&gt;Debugger program with cdc in done&lt;br&gt;H2u firmware with cdc debug done with timing errors. But it works. Worked really hard on it but did not meet timing. &lt;br&gt;Memory pipelining done for all encoding quality. &lt;br&gt;Today (Saturday) we have a Church outing so I will fix everything and commit them on Sunday. &lt;br&gt;Cheers! &lt;/p&gt;&lt;p dir=ltr&gt;EDIT: The title was a typo because I was using my tab. But it sounds cool. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily Snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VNzFKMTdsZDNWVmc/edit?usp=sharing&quot;&gt;Video Link &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -292,21 +307,6 @@
 </description>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debugging Gstreamer and testing packetizer</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</link>
-      <description>It was a hectic day trying to get RTP to work using Gstreamer. The receiver is not working yet. I am experimenting with Gstreamer. It is an excellent tool. I really liked it. After reading documentation and bouncing back and forth on #gstreamer, i tried the following and its variation&lt;br /&gt;&lt;br /&gt;$gst-launch-1.0 -v GST_DEBUG=udpsrc:5 udpsrc uri=udp://192.168.1.1:1234 ! rtpbin ! rtpvrawdepay ! videoconvert ! autovideosink&lt;br /&gt;&lt;br /&gt;but it does not work. It seems that &quot;caps&quot; is missing.It documentation is little hard to digest. I am trying to debug that.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the other hand, Packetizer is missing some packets. For example, when i am trying to send an entire frame (720x3 packets) via RTP, it misses some packets e.g., packets with sequence number 16-28 are missing. I am trying to debug that as well.&lt;br /&gt;&lt;br /&gt;I am hopeful i will be able to debug the Packetizer by tomorrow. I am hopeful to get to some point on Gstreamer by Thursday. If not, i will deal with image reconstruction in Pythonic way.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-25T00:00:00+00:00</dc:date>

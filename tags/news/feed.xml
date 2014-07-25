@@ -25,6 +25,21 @@
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Daily Snippey</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</link>
+      <description>&lt;p dir=ltr&gt;Debugger program with cdc in done&lt;br&gt;H2u firmware with cdc debug done with timing errors. But it works. Worked really hard on it but did not meet timing. &lt;br&gt;Memory pipelining done for all encoding quality. &lt;br&gt;Today (Saturday) we have a Church outing so I will fix everything and commit them on Sunday. &lt;br&gt;Cheers! &lt;/p&gt;&lt;p dir=ltr&gt;EDIT: The title was a typo because I was using my tab. But it sounds cool. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily Snippet</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/daily-snippet/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VNzFKMTdsZDNWVmc/edit?usp=sharing&quot;&gt;Video Link &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -271,21 +286,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
 </description>
       <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/gsoc-snippet-20-07-2014/</guid>
-      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/20/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-56c5-7500-25b6-d4b29de10f5c&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 20th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-56c5-7500-25b6-d4b29de10f5c&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PCB Routing: 70% ratsnest routed. Fine tuning remaining. &lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga/commit/0e8941c7fc61b8bddb6cc80856a8750088da734d&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;Commit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/20/gsoc-daily-log/</guid>
       <dc:date>2014-07-20T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-25T00:00:00+00:00</dc:date>
