@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;wrote more tests for feedbook gem (currently I covered 92% of all lines of code with tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;wrote YARDoc to every method inside gem to make it easier to contribute to it&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed Planet generation in case of not working GitHub API&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added email and irc notifier to feedbook gem&lt;br /&gt;&lt;br /&gt;Now I need to write configuration validator, links shortener (I don't know which shortener I would like to use: goo.gl or bit.ly) and few things about configuration in README and gem will be ready to be deployed. :+1:&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</guid>
+      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -249,18 +264,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-tag-v1-0-0-at-pinoss-timeloop/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created repository pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-created-repository-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-24T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
