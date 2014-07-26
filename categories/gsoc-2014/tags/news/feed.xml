@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>GSoC Update 7-24 /7-25</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
@@ -260,16 +270,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>DVSwitch Plugin Ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
-      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

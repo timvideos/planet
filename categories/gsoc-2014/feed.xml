@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>GSoC Update 7-24 /7-25</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</link>
+      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to docker at maxstr/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
@@ -224,18 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-repository-pinoss-feedbook/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created branch master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-branch-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
