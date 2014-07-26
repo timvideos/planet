@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>1 Gbps MAC Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</link>
+      <description>I tried to debug the MAC. I found something weird and that was Wireshark was capturing all the packets while Gstreamer was not capturing the same packets and still waiting for some packets. I am trying to debug this further for more packets (for a complete 720p frame and back to back frames). I suspect from debugging today that MAC is fine. I'll confirm this soon.&lt;br /&gt;&lt;br /&gt;Happy Debugging.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>1 Gbps MAC debugging</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/1-gbps-mac-debugging/</link>
       <description>If you recall, last week, packets sent by &lt;a href=&quot;http://bit.ly/1rzsZsz&quot;&gt;Packetizer&lt;/a&gt; were getting dropped or were missing. It turned out that 1 Gbps MAC that is integrated with Packetizer was overflowing despite making sure all flow control protocols were followed while interfacing with the MAC. To deal with this, delay was inserted between each RTP packet so MAC never overruns. It fixed everything and you could see entire RED frame, RGB flag and RGB loop. The only thing that got hurt is the frame per second.&lt;br /&gt;&lt;br /&gt;So i am trying to figure out how to debug this MAC and get the fps up. I shall see if i could post some calculations of the current implementation.&lt;br /&gt;&lt;br /&gt;Happy Debugging.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -293,21 +308,6 @@
       <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/rtp-integration/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>HDMI correctly captured and on its way to MAC</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/hdmi-correctly-captured-and-on-its-way-to-mac/</link>
-      <description>The synchronization issue is solved. The proper RGB values are being captured. RTP packetizer is already complete and today we can generate correct stimulus for the packetizer. The correct stimulus comes from &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/7a0324c7d7d0713d88de17331cfc2cf6cf19564e/rtl/?at=master&quot;&gt;VTC_Demo&lt;/a&gt;. Take a look &amp;nbsp;at the &lt;a href=&quot;https://bitbucket.org/tariq786/myhdl_projs/src/7a0324c7d7d0713d88de17331cfc2cf6cf19564e/vtc_demo_rtl.log?at=master&quot;&gt;log file&lt;/a&gt;&amp;nbsp;and the waveform&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://i58.tinypic.com/i5b407.png&quot;&gt;http://i58.tinypic.com/i5b407.png&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now we have all the data to send to the MAC to send it across. That will the next step which should be going significantly ahead by the end of the week.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/hdmi-correctly-captured-and-on-its-way-to-mac/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-26T00:00:00+00:00</dc:date>
   </channel>

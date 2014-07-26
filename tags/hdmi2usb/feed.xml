@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>1 Gbps MAC Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</link>
+      <description>I tried to debug the MAC. I found something weird and that was Wireshark was capturing all the packets while Gstreamer was not capturing the same packets and still waiting for some packets. I am trying to debug this further for more packets (for a complete 720p frame and back to back frames). I suspect from debugging today that MAC is fine. I'll confirm this soon.&lt;br /&gt;&lt;br /&gt;Happy Debugging.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
@@ -237,17 +252,6 @@
 </description>
       <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/time-for-a-visual-treat/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 reopened issue rohit91/HDMI2USB-vmodvga#11</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</guid>
       <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-26T00:00:00+00:00</dc:date>

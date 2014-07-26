@@ -20,6 +20,21 @@
       <dc:date>2014-07-26T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>1 Gbps MAC Debugging continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</link>
+      <description>I tried to debug the MAC. I found something weird and that was Wireshark was capturing all the packets while Gstreamer was not capturing the same packets and still waiting for some packets. I am trying to debug this further for more packets (for a complete 720p frame and back to back frames). I suspect from debugging today that MAC is fine. I'll confirm this soon.&lt;br /&gt;&lt;br /&gt;Happy Debugging.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;wrote more tests for feedbook gem (currently I covered 92% of all lines of code with tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;wrote YARDoc to every method inside gem to make it easier to contribute to it&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed Planet generation in case of not working GitHub API&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added email and irc notifier to feedbook gem&lt;br /&gt;&lt;br /&gt;Now I need to write configuration validator, links shortener (I don't know which shortener I would like to use: goo.gl or bit.ly) and few things about configuration in README and gem will be ready to be deployed. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -270,21 +285,6 @@ I did some basic styling for the forms as well. &lt;/p&gt;&lt;div class=&quot;au
 </description>
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/gsoc-daily-log/</guid>
-      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debugging frame sending in Packetizer RTL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</link>
-      <description>I have been debugging why Packetizer is missing some packets randomly by Chipscope pro as well as simulation. Lets pray to hear the good news soon :)&lt;br /&gt;&lt;br /&gt;I am trying to setup trigger conditions. It seems i need to work more on that. It should be done by Monday or latest by Tuesday.&lt;br /&gt;&lt;br /&gt;Keep looking at the blog.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-26T00:00:00+00:00</dc:date>
