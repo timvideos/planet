@@ -21,6 +21,30 @@
       <dc:date>2014-07-26T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss created tag v0.9.1 at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-1-at-pinoss-feedbook/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-1-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v0.9.0 at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-0-at-pinoss-feedbook/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-0-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;wrote more tests for feedbook gem (currently I covered 92% of all lines of code with tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;wrote YARDoc to every method inside gem to make it easier to contribute to it&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed Planet generation in case of not working GitHub API&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added email and irc notifier to feedbook gem&lt;br /&gt;&lt;br /&gt;Now I need to write configuration validator, links shortener (I don't know which shortener I would like to use: goo.gl or bit.ly) and few things about configuration in README and gem will be ready to be deployed. :+1:&lt;div class=&quot;author&quot;&gt;
@@ -239,29 +263,6 @@
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-16-07-2014/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked javan/whenever to pinoss/whenever</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/pinoss-forked-javan-whenever-to-pinoss-whenever/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-26T00:00:00+00:00</dc:date>
   </channel>
