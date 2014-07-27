@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</guid>
+      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
@@ -218,18 +229,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-deleted-branch-porting-to-1-0-at-aps-sid/</guid>
       <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch porting-to-1.0 at aps-sids/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/aps-sids-created-branch-porting-to-1-0-at-aps-sid/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</guid>
+      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/feedbook</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
@@ -222,17 +233,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
     <item>
       <title>GSoC Update 7-24 /7-25</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</link>
@@ -287,6 +287,6 @@ I did some basic styling for the forms as well. &lt;/p&gt;&lt;div class=&quot;au
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/gsoc-daily-log/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>
