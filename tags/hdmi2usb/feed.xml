@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-78c7-08fd-1c27-38b30a2c849a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 26th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-78c7-08fd-1c27-38b30a2c849a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Felt unwell. (Maybe due to drinking chilled water in monsoons? This one gets added to my ‘Things to avoid’ list). Slept a lot.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/gsoc-daily-log/</guid>
+      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>1 Gbps MAC Debugging continues</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</link>
       <description>I tried to debug the MAC. I found something weird and that was Wireshark was capturing all the packets while Gstreamer was not capturing the same packets and still waiting for some packets. I am trying to debug this further for more packets (for a complete 720p frame and back to back frames). I suspect from debugging today that MAC is fine. I'll confirm this soon.&lt;br /&gt;&lt;br /&gt;Happy Debugging.&lt;div class=&quot;author&quot;&gt;
@@ -238,21 +253,6 @@
       <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/1-gbps-mac-debugging/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Time for a visual treat !</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/time-for-a-visual-treat/</link>
-      <description>Last time, i said a picture is worth a thousand words. How about video? Video is frames per second x 1000.&lt;br /&gt;&lt;br /&gt;Please see the following RGB Video&lt;br /&gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;a href=&quot;https://drive.google.com/file/d/0B7QWctE40BXcc1hkTk9RMUYtWWM/edit?usp=sharing&quot;&gt;&amp;nbsp;RGB Video&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/time-for-a-visual-treat/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-27T00:00:00+00:00</dc:date>
   </channel>
