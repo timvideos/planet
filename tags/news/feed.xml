@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>1 Gbps MAC debugging continues on the weekend</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/1-gbps-mac-debugging-continues-on-the-weekend/</link>
+      <description>Today, it turned out that 1 Gbps MAC was actually dropping packets. I tried to debug this by&lt;br /&gt;&lt;br /&gt;1) Creating simulation environment for the entire design (packetizer + MAC)&lt;br /&gt;2) Changing transmit fifo depth in gigmac from 6 to 12 and up&lt;br /&gt;3) Creating internal reset for packetizer as the actual design gets reset externally from FPGA. Look at lines 148-155&lt;br /&gt;&lt;a href=&quot;http://pastebin.com/HXmiiGU0&quot;&gt;http://pastebin.com/HXmiiGU0&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Right now, simulation is not working as gemac_ready signal (see above pastebin) which is reset for packetizer is still not toggling. I shall look at it tomorrow Monday, although Monday is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Eid_al-Fitr&quot;&gt;special day.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;If this doesn't really work, then&amp;nbsp; Chipscope is the next step. There is a possibility that 1 Gbps MAC cannot handle such high HDMI throughput but that is what i am after to confirm.&lt;br /&gt;&lt;br /&gt;Happy Debugging. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/1-gbps-mac-debugging-continues-on-the-weekend/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 26/07/2014 - 27/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/gsoc-snippet-26-07-2014-27-07-2014/</link>
@@ -274,24 +289,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/22/daily-snippet/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>22 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/22-july-14/</link>
-      <description>&lt;p&gt;Finally had success in resolving the bug about view not loading. The url was bring masked by another. I implemented the Edit and Delete functionalities on bugs today. They are in their most basic form, for now. 
-Every bug has an Edit and Delete button associated with it. Hitting edit takes you to a form with pre-populated data, which can be edited by the admin. 
-Clicking Delete, deletes the bug and refreshes the page. 
-I did some basic styling for the forms as well. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/22-july-14/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>1 Gbps MAC debugging continues on the weekend</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/1-gbps-mac-debugging-continues-on-the-weekend/</link>
+      <description>Today, it turned out that 1 Gbps MAC was actually dropping packets. I tried to debug this by&lt;br /&gt;&lt;br /&gt;1) Creating simulation environment for the entire design (packetizer + MAC)&lt;br /&gt;2) Changing transmit fifo depth in gigmac from 6 to 12 and up&lt;br /&gt;3) Creating internal reset for packetizer as the actual design gets reset externally from FPGA. Look at lines 148-155&lt;br /&gt;&lt;a href=&quot;http://pastebin.com/HXmiiGU0&quot;&gt;http://pastebin.com/HXmiiGU0&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Right now, simulation is not working as gemac_ready signal (see above pastebin) which is reset for packetizer is still not toggling. I shall look at it tomorrow Monday, although Monday is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Eid_al-Fitr&quot;&gt;special day.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;If this doesn't really work, then&amp;nbsp; Chipscope is the next step. There is a possibility that 1 Gbps MAC cannot handle such high HDMI throughput but that is what i am after to confirm.&lt;br /&gt;&lt;br /&gt;Happy Debugging. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/1-gbps-mac-debugging-continues-on-the-weekend/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>1 Gbps MAC Debugging continues</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/26/1-gbps-mac-debugging-continues/</link>
@@ -294,21 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/udp-working-on-atlys/</guid>
       <dc:date>2014-07-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>RTP Integration</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/rtp-integration/</link>
-      <description>Now that UDP is working on Atlys FGPA and i can send UDP packets from Atlys FGPA to PC, i am working on adding RTP on top of UDP. Since i already have the RTP packetizer that interfaces with MAC, the only thing that is left is replacing the input &lt;b&gt;simulation&lt;/b&gt; model to RTP packetizer (that provides it with pixels) with actual &lt;b&gt;synthesizable&lt;/b&gt; model. I have HDMI pixel data dumped in a file, which is being read by RTP packetizer to create RTP packets. But now, i need something like DDR2 or RAM that holds this data. This stackoverflow &lt;a href=&quot;http://stackoverflow.com/questions/4321067/is-readmem-synthesizable-in-verilog&quot;&gt;post&lt;/a&gt;&amp;nbsp;may be good enough as well. Let me try that and update the blog.&lt;br /&gt;&lt;br /&gt;Its 4th of July holiday in US. Time to take a break as my family is coming to visit me for the day. I will keep it going on the weekend.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/04/rtp-integration/</guid>
-      <dc:date>2014-07-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
