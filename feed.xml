@@ -10,6 +10,32 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/feedbook</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
+      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 26/07/2014 - 27/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/gsoc-snippet-26-07-2014-27-07-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;added ability to extend feedbook without forking a gem&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added option to facebook notifier to use APP SECRET key (instead of default Graph API Key)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added googl url shortener filter to Liquid (now it is possible to use your plugins from Jekyll that extends Liquid filters and tags in Feedbook)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[research]&lt;/b&gt; I did big research about GitHub Issues Tools, I tried again waffle.io, octokan.com, BugHub, ZenHub for Chrome and many others and it is really hard to find best tool for GitHub Issues, but waffle.io seems to suit all our needs. It has ability to create own Board with multiple repositories and have all Issues grouped in one place, you can add as many columns as you wish, filter by milestones, assigned, sources, etc. And there are a lot of people using it. :)&lt;br /&gt;&lt;br /&gt;&lt;i&gt;What is next/my plans to the end of GSoC 2014?&lt;/i&gt;&lt;br /&gt;1. Work with &lt;b&gt;feedbook&lt;/b&gt; (add Google+ integration, write offline mode and more tests to make sure, that all works correctly). [next few days]&lt;br /&gt;2. Update our document about deployment process of &lt;b&gt;getting-started &lt;/b&gt;website (and create and deploy as many as I can (because of permissions)) [tomorrow/day after tomorrow]&lt;br /&gt;3. Integrate &lt;b&gt;planet &lt;/b&gt;with &lt;b&gt;getting-started&lt;/b&gt;.&lt;br /&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;br /&gt;5. Small CSS/HTML fixes and enhancements.&lt;br /&gt;6. Add Diagram to my GitHub Issues Filter.&lt;br /&gt;7. Add acceptance/integration tests for planet and getting-started website.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/gsoc-snippet-26-07-2014-27-07-2014/</guid>
+      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to master at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
       <description>&lt;!-- push --&gt;
@@ -225,28 +251,6 @@
       <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 reopened issue rohit91/HDMI2USB-vmodvga#16</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-reopened-issue-rohit91-hdmi2usb-vmodvga-1/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-27T00:00:00+00:00</dc:date>
   </channel>
