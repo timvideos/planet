@@ -21,6 +21,21 @@
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>28 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</link>
+      <description>&lt;p&gt;I talked to Sheila about getting the app up and running on a server. She&amp;rsquo;s helping me by writing fabric scripts to automate the process (something I am completely unfamiliar with). She gave me the link to a helpful blogpost for deploying a django project for the first time. It can be found &lt;a href=&quot;http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/feedbook</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
       <description>&lt;!-- push --&gt;
@@ -225,18 +240,6 @@
 </description>
       <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created tag v1.0.3 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-created-tag-v1-0-3-at-pinoss-timeloop/</guid>
       <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>

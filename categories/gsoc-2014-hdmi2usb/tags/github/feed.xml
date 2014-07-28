@@ -10,6 +10,30 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred Ttl/evolutionary-circuits</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked Ttl/evolutionary-circuits to rohit91/evolutionary-circuits</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
@@ -206,28 +230,6 @@
 </description>
       <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-11/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-10/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-10/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
       <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>

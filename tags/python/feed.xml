@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>28 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</link>
+      <description>&lt;p&gt;I talked to Sheila about getting the app up and running on a server. She&amp;rsquo;s helping me by writing fabric scripts to automate the process (something I am completely unfamiliar with). She gave me the link to a helpful blogpost for deploying a django project for the first time. It can be found &lt;a href=&quot;http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
       <description>&lt;!-- push --&gt;
@@ -235,18 +250,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
 </description>
       <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-5-revert-4-rever/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch revert-4-revert-1-cleanup at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-4-revert-1-clean/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-created-branch-revert-4-revert-1-clean/</guid>
       <dc:date>2014-06-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>

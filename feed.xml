@@ -10,6 +10,30 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred Ttl/evolutionary-circuits</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked Ttl/evolutionary-circuits to rohit91/evolutionary-circuits</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +42,21 @@
 </description>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>28 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</link>
+      <description>&lt;p&gt;I talked to Sheila about getting the app up and running on a server. She&amp;rsquo;s helping me by writing fabric scripts to automate the process (something I am completely unfamiliar with). She gave me the link to a helpful blogpost for deploying a django project for the first time. It can be found &lt;a href=&quot;http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</guid>
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -212,47 +251,6 @@
 </description>
       <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 23/07/2014 - 24/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;wrote more tests for feedbook gem (currently I covered 92% of all lines of code with tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;wrote YARDoc to every method inside gem to make it easier to contribute to it&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed Planet generation in case of not working GitHub API&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added email and irc notifier to feedbook gem&lt;br /&gt;&lt;br /&gt;Now I need to write configuration validator, links shortener (I don't know which shortener I would like to use: goo.gl or bit.ly) and few things about configuration in README and gem will be ready to be deployed. :+1:&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/gsoc-snippet-23-07-2014-24-07-2014/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippey</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</link>
-      <description>&lt;p dir=ltr&gt;Debugger program with cdc in done&lt;br&gt;H2u firmware with cdc debug done with timing errors. But it works. Worked really hard on it but did not meet timing. &lt;br&gt;Memory pipelining done for all encoding quality. &lt;br&gt;Today (Saturday) we have a Church outing so I will fix everything and commit them on Sunday. &lt;br&gt;Cheers! &lt;/p&gt;&lt;p dir=ltr&gt;EDIT: The title was a typo because I was using my tab. But it sounds cool. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>
