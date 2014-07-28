@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 10 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</link>
+      <description>&lt;p&gt;This week, I was eagerly waiting for some good results so I can post on this blog. I was initially working on porting of DVSwitch flumotion component. The code changes were done but stream was still giving errors that caps aren’t set or stream format is not compatible.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -229,17 +239,6 @@
 </description>
       <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
       <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>

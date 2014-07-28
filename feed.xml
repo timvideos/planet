@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 10 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</link>
+      <description>&lt;p&gt;This week, I was eagerly waiting for some good results so I can post on this blog. I was initially working on porting of DVSwitch flumotion component. The code changes were done but stream was still giving errors that caps aren’t set or stream format is not compatible.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred Ttl/evolutionary-circuits</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</link>
       <description>&lt;!-- watch --&gt;
@@ -240,17 +250,6 @@
 </description>
       <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-16/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to docker at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>

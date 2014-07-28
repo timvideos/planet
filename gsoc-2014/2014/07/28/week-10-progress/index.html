@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/people/">PEOPLE</a>
+    </li>
+    <li class="">
+      <a href="/issues/">ISSUES</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+    <li class="">
+      <a href="/stats/">GITHUB STATISTICS</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Week 10 Progress</h1>
+      <div class="article">
+        <p class="meta description">
+          Jul 28, 2014
+           • Amanpreet (Porting Flumotion)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/flumotion">
+                  flumotion
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014%2F2014%2F07%2F28%2Fweek-10-progress%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014%2F2014%2F07%2F28%2Fweek-10-progress%2F&text=TimVideos.us%20Week+10+Progress%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014%2F2014%2F07%2F28%2Fweek-10-progress%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014%2F2014%2F07%2F28%2Fweek-10-progress%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <p>This week, I was eagerly waiting for some good results so I can post on this blog. I was initially working on porting of DVSwitch flumotion component. The code changes were done but stream was still giving errors that caps aren’t set or stream format is not compatible.</p>
+
+<p>I wasn’t able to fix this after various efforts. Then I realized that this might be due to the fact that decoder was not ported and that missing component might be creating problems. So, I diverted towards porting generic decoder.</p>
+
+<p>Now this decoder code uses a custom plugin ‘synckeeper’. For porting, when I used <code>Gst.Pad.new_from_template()</code> as seen in this <a href="https://github.com/aps-sids/flumotion-orig/commit/cf3cfbf09f6e8234d95836b30181ad4ed9e5eddc#diff-9d30e92cb49af87d67d5cb9dea9b6783R71">diff</a>, it led to a crash. Some research about this issue hinted that this might be a problem due to older python-gi an gobject bindings since I have been working on Ubuntu 12.04 Precise.</p>
+
+<p>This whole idea of working on precise was just a temporary measure and we (me and mithro) realized that this was about time to shift to latest Ubuntu 14.04 Trusty since most of the components are ported.</p>
+
+<p>But there was still one more issue, incompatibility with latest Twisted Python. There was some twisted features used in flumotion core that were deprecated and subsequently removed in newer Twisted versions. Mithro did some work regarding that. He found out a patch by someone that was supposed to fix this issue. With that, along with some other changes, mithro created a modern-twisted branch.</p>
+
+<p>I merged that with my code and was able to run a test audio + video stream successfully on Trusty. There were the following errors though:</p>
+
+<div class="highlight"><pre><code class="bash">DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56      creating ComponentClientFactory <span class="o">(</span>flumotion/job/job.py:285<span class="o">)</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError     created ComponentClientFactory &lt;flumotion.component.component.ComponentClientFactory instance at 0x7f6848ac2b00&gt; <span class="o">(</span>flumotion/job/job.py:288<span class="o">)</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError     logging in with authenticator &lt;flumotion.twisted.pb.RemoteAuthenticator instance at 0x7f6848c069e0&gt; <span class="o">(</span>flumotion/job/job.py:295<span class="o">)</span>
+INFO  <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+     Connecting to manager localhost:8642 with TCP <span class="o">(</span>flumotion/job/job.py:304<span class="o">)</span>
+LOG   <span class="o">[</span>40686<span class="o">]</span>                                  twisted           Jul 28 11:33:56 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError      <span class="o">[</span>JobClientBroker,client<span class="o">]</span> Starting factory &lt;flumotion.component.component.ComponentClientFactory instance at 0x7f6848ac2b00&gt;
+ <span class="o">(</span>twisted/python/threadable.py:53<span class="o">)</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+</code></pre></div>
+
+<p>So, from now on, I’m going to tie the loose ends and fix the issues with this and other unported components. With Trusty and latest libraries, hopefully I will be able to fix remaining problems.</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

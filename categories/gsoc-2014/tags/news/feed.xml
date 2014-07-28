@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Week 10 Progress</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</link>
+      <description>&lt;p&gt;This week, I was eagerly waiting for some good results so I can post on this blog. I was initially working on porting of DVSwitch flumotion component. The code changes were done but stream was still giving errors that caps aren’t set or stream format is not compatible.&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</guid>
+      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>28 July '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</link>
       <description>&lt;p&gt;I talked to Sheila about getting the app up and running on a server. She&amp;rsquo;s helping me by writing fabric scripts to automate the process (something I am completely unfamiliar with). She gave me the link to a helpful blogpost for deploying a django project for the first time. It can be found &lt;a href=&quot;http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
@@ -259,21 +269,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
       <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/17-july-14/</guid>
       <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 17/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</link>
-      <description>&lt;b&gt;[code] &lt;/b&gt;started working on feedbook gem, created draft of config file, added timeloop gem, first part of coding&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/gsoc-snippet-17-07-2014/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-28T00:00:00+00:00</dc:date>
   </channel>
