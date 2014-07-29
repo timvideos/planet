@@ -10,6 +10,29 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew pushed to ajit-debug-v3 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-ajit-debug-v3-at-ajitmathew-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-ajit-debug-v3-at-ajitmathew-/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch ajit-debug-v3 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-ajit-debug-v3-at-ajitma/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-ajit-debug-v3-at-ajitma/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Daily Snippey</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/daily-snippey/</link>
       <description>&lt;p dir=ltr&gt;Debugger program with cdc in done&lt;br&gt;H2u firmware with cdc debug done with timing errors. But it works. Worked really hard on it but did not meet timing. &lt;br&gt;Memory pipelining done for all encoding quality. &lt;br&gt;Today (Saturday) we have a Church outing so I will fix everything and commit them on Sunday. &lt;br&gt;Cheers! &lt;/p&gt;&lt;p dir=ltr&gt;EDIT: The title was a typo because I was using my tab. But it sounds cool. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
@@ -243,28 +266,6 @@
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/10/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
       <dc:date>2014-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-created-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 09 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/09/ajitmathew-created-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-07-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-29T00:00:00+00:00</dc:date>
   </channel>
