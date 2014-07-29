@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Week 10 Progress</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</link>
@@ -241,17 +252,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-20/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#16</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-16/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-16/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
