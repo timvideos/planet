@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>The 2nd last day of 1 Gbps debugging</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
+      <description>Today it came to light that complete simulation environment cannot be built as parts of the code actually probe PHY status registers. So the idea of top level design testbench did n't work. So i am back to unit testing and making sure that there is nothing in the code that is responsible for generating conditions that make a packet drop from MAC. After that i shall send traffic from FPGA to PC and see if the receiver PC's MAC is able to catch up or not by doing ifconfig or other utilities that can help detect packet loss. It seems likely that receiver MAC is not able to keep up.&lt;br /&gt;&lt;br /&gt;This whole saga should end tomorrow. I am pretty hopeful.&lt;br /&gt;&lt;br /&gt;Other than that we celebrated our holy Eid today. So spending some time with the family is good. It is good to take a break from GSoC.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>1 Gbps MAC debugging continues on the weekend</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/1-gbps-mac-debugging-continues-on-the-weekend/</link>
       <description>Today, it turned out that 1 Gbps MAC was actually dropping packets. I tried to debug this by&lt;br /&gt;&lt;br /&gt;1) Creating simulation environment for the entire design (packetizer + MAC)&lt;br /&gt;2) Changing transmit fifo depth in gigmac from 6 to 12 and up&lt;br /&gt;3) Creating internal reset for packetizer as the actual design gets reset externally from FPGA. Look at lines 148-155&lt;br /&gt;&lt;a href=&quot;http://pastebin.com/HXmiiGU0&quot;&gt;http://pastebin.com/HXmiiGU0&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Right now, simulation is not working as gemac_ready signal (see above pastebin) which is reset for packetizer is still not toggling. I shall look at it tomorrow Monday, although Monday is a &lt;a href=&quot;http://en.wikipedia.org/wiki/Eid_al-Fitr&quot;&gt;special day.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;If this doesn't really work, then&amp;nbsp; Chipscope is the next step. There is a possibility that 1 Gbps MAC cannot handle such high HDMI throughput but that is what i am after to confirm.&lt;br /&gt;&lt;br /&gt;Happy Debugging. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -292,21 +307,6 @@
 </description>
       <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/gsoc-daily-log/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debugging Verilog RTP Packetizer frame generation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</link>
-      <description>Packetizer Verilog RTL is somehow missing some packets when i . This was reported in the day before yesterday's blog. I am still trying to debug it. I might go with simulation or chipscope approach. Right now i am making changes and testing in the hardware.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I also posted the instructions on how to reproduce yesterday's blog results of sending one row of 1280 pixels by FPGA and reconstruction in Gstreamer. Please look at the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer&quot;&gt;README.md&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Debugging will continue on the weekend or next week as i have some commitment on Friday July 18th. See you after a short break !&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</guid>
       <dc:date>2014-07-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-29T00:00:00+00:00</dc:date>
