@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/last-day-of-debugging-1-gbps-transmitter-s-mac//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/people/">PEOPLE</a>
+    </li>
+    <li class="">
+      <a href="/issues/">ISSUES</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+    <li class="">
+      <a href="/stats/">GITHUB STATISTICS</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Last day of debugging 1 Gbps transmitter's MAC</h1>
+      <div class="article">
+        <p class="meta description">
+          Jul 30, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F30%2Flast-day-of-debugging-1-gbps-transmitter-s-mac%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F30%2Flast-day-of-debugging-1-gbps-transmitter-s-mac%2F&text=TimVideos.us%20Last+day+of+debugging+1+Gbps+transmitter%27s+MAC%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F30%2Flast-day-of-debugging-1-gbps-transmitter-s-mac%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F30%2Flast-day-of-debugging-1-gbps-transmitter-s-mac%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <div style="text-align: justify;">Today the first thing was testing the packetizer via simulation and the last thing that was emulation using Xilinx Chipscope, which took majority of the time as it is tricky and needs lot of debugging. The goal of the today's activity was to make sure that sender (which in this case is FPGA) does not miss packets or drop packets. For example, if FPGA is configured to send 102 packets ( which is sending 34 lines of 720p frame where each line is 1280 pixels and each line is sent as 3 packets ), it sends all the packets in a sequence starting from 0 to 101 without missing any packet from 0 to 101. The reason 102 packets were chosen because receiver PC randomly misses a few of the packets from 102 packets. This was confirmed by Wireshark. Every time, FPGA sends 102 packets, the receiver PC randomly drops 4 to 6 packets from 102 packets. If the number of packets sent from the transmitter FPGA are increased, then receiver drops more packets and these are random every time transmitter sends packets.</div><br /><div style="text-align: justify;">So before blaming the receiver for packet drop, it is good to check the transmitter. As mentioned above, i went through the chain of simulation. Please refer to the <a href="https://docs.google.com/document/d/1oknHWujhhMfLyjyc4yfocAlLUUg15ptux0R3oOo5Bms/edit#">original proposal</a> where i highlighted the importance of simulation on Pages 10 and 11. Simulation is done after each step of Xilinx Build flow as show in the Figure below.</div><br />&nbsp;<img height="400" src="https://docs.google.com/drawings/d/s730nxQ3qXuIY2HXvZpu02Q/image?w=215&amp;h=454&amp;rev=1&amp;ac=1" style="-webkit-transform: rotate(0rad); border: none; font-family: Arial; font-size: 15px; white-space: pre-wrap;" width="187" /><br /><br />Here are the snapshots that show RTL, post-synthesis, post-translate, post-map and post-pnr simulations. Post-pnr simulation is actually done with SDF delay annotation. All these simulations show that packets went from sequence number 0 to 101<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-wftCSheP6DM/U9h7RPKj2oI/AAAAAAAAAN8/QV3Mr2n420E/s1600/rtl_sim.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-wftCSheP6DM/U9h7RPKj2oI/AAAAAAAAAN8/QV3Mr2n420E/s1600/rtl_sim.png" height="188" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-3z0Fc05Q-Ho/U9h7QpEXOAI/AAAAAAAAANk/pcIHs-lQL_U/s1600/postsyn_sim.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-3z0Fc05Q-Ho/U9h7QpEXOAI/AAAAAAAAANk/pcIHs-lQL_U/s1600/postsyn_sim.png" height="196" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-WUVEXaLzGcI/U9h7Qzf-UtI/AAAAAAAAANo/taIIl8PEwLc/s1600/posttran_sim.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-WUVEXaLzGcI/U9h7Qzf-UtI/AAAAAAAAANo/taIIl8PEwLc/s1600/posttran_sim.png" height="198" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-L3fBwHZ7-i8/U9h7QrgPKSI/AAAAAAAAANc/qgMdmD2kha8/s1600/postmap_sim.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-L3fBwHZ7-i8/U9h7QrgPKSI/AAAAAAAAANc/qgMdmD2kha8/s1600/postmap_sim.png" height="198" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-ZgL4_rgJt3Q/U9h7Qh1QTuI/AAAAAAAAANg/th4kDjCHdvI/s1600/postpnr_sim.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-ZgL4_rgJt3Q/U9h7Qh1QTuI/AAAAAAAAANg/th4kDjCHdvI/s1600/postpnr_sim.png" height="198" width="400" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: left;">Then after this came the step of verifying with Xilinx Chipscope, which took the whole day. Here are sequence of shots that show sequence number going from 0 to 101.&nbsp;</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-yXpamPRC1b0/U9h77iBtNdI/AAAAAAAAAOI/5pt4fRGldEk/s1600/sequence1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-yXpamPRC1b0/U9h77iBtNdI/AAAAAAAAAOI/5pt4fRGldEk/s1600/sequence1.png" height="182" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-hrVmQXVoT3E/U9h77jV7eII/AAAAAAAAAOc/IJxiVMOLV0I/s1600/sequence2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hrVmQXVoT3E/U9h77jV7eII/AAAAAAAAAOc/IJxiVMOLV0I/s1600/sequence2.png" height="177" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-wdZkAONxEXw/U9h77gy6FTI/AAAAAAAAAOE/NHMaluepmQQ/s1600/sequence3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-wdZkAONxEXw/U9h77gy6FTI/AAAAAAAAAOE/NHMaluepmQQ/s1600/sequence3.png" height="181" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-azNEx2dkslE/U9h78Any6-I/AAAAAAAAAOM/JC-UHQ5zyW0/s1600/sequence4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-azNEx2dkslE/U9h78Any6-I/AAAAAAAAAOM/JC-UHQ5zyW0/s1600/sequence4.png" height="191" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-xMaiDRXy-aw/U9h78WS41eI/AAAAAAAAAOU/5hQuia-FY5I/s1600/sequence5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-xMaiDRXy-aw/U9h78WS41eI/AAAAAAAAAOU/5hQuia-FY5I/s1600/sequence5.png" height="192" width="400" /></a></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">After verifying through simulation chain and emulation using Chipscope, we are confident that transmitter is not dropping or missing packets.</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">Now we either need to slow down the transmitter or make sure receiver is fast enough to capture the transmitter. This is the aim for the rest of the week.</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">Please share your feedback</div><div class="separator" style="clear: both; text-align: left;"><br /></div><div class="separator" style="clear: both; text-align: left;">Thanks!&nbsp;</div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
