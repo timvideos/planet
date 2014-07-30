@@ -73,6 +73,40 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>ajitmathew pushed to testing at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew opened pull request timvideos/HDMI2USB#80</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch testing at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>The 2nd last day of 1 Gbps debugging</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
       <description>Today it came to light that complete simulation environment cannot be built as parts of the code actually probe PHY status registers. So the idea of top level design testbench did n't work. So i am back to unit testing and making sure that there is nothing in the code that is responsible for generating conditions that make a packet drop from MAC. After that i shall send traffic from FPGA to PC and see if the receiver PC's MAC is able to catch up or not by doing ifconfig or other utilities that can help detect packet loss. It seems likely that receiver MAC is not able to keep up.&lt;br /&gt;&lt;br /&gt;This whole saga should end tomorrow. I am pretty hopeful.&lt;br /&gt;&lt;br /&gt;Other than that we celebrated our holy Eid today. So spending some time with the family is good. It is good to take a break from GSoC.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -208,41 +242,6 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to ajit-debug-v3 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-ajit-debug-v3-at-ajitmathew-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-ajit-debug-v3-at-ajitmathew-/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch memory at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-memory-at-ajitmathew-hd/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-memory-at-ajitmathew-hd/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch ajit-debug-v3 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-ajit-debug-v3-at-ajitma/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-ajit-debug-v3-at-ajitma/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>

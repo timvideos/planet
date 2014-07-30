@@ -10,6 +10,40 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew pushed to testing at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew opened pull request timvideos/HDMI2USB#80</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch testing at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew pushed to memory at ajitmathew/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
@@ -218,51 +252,6 @@
       <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/controller-port/</guid>
       <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Instead of two encoder, I tried changing the state machine to drop frames as low as possible but it didn't work. Will try to work on it tomorrow.&lt;br /&gt;Also I changed the code of the heart beat feature I had implemented long ago. I did not have atlys board when I implemented it so came to know about a bug in the code when I ran it on the board. Eventually was able to fix it and improved the code to use lesser number of flops.&lt;br /&gt;Also mithro added me to the &lt;a href=&quot;https://github.com/orgs/timvideos/teams/hardware-hackers&quot;&gt;TimVideos Hardware hacker team&lt;/a&gt;. It felt nice, actually very nice. It actually felt like this:&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://mashable.com/wp-content/uploads/2013/07/Jeremy-Renner.gif&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://mashable.com/wp-content/uploads/2013/07/Jeremy-Renner.gif&quot; height=&quot;200&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://cdn.memegenerator.net/instances/500x/52659381.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/div&gt;So can I now update my linkedin profile? But before that let me learn Git coz when shenki talks about stuff like bisecting, rebase I am like this &lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://media0.giphy.com/media/i9nkolRQgbN9C/giphy.gif&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://media0.giphy.com/media/i9nkolRQgbN9C/giphy.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://media1.giphy.com/media/i9nkolRQgbN9C/200_s.gif&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/daily-snippet/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Oops Forgot again</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I usually write my blog before going to bed. Yesterday I went to bed and then I realised I forgot to write my snippet. Now I had a very tough choice to make-&quot;Sleep,blopost,sleep,blogpost&quot; Finally I chose sleep. So now I wake up and write my blog.&lt;br /&gt;Daily Snippet:&lt;br /&gt;1) Removed some bugs from the debugger. (Behold the irony)&lt;br /&gt;2) Added non blocking keyboard IO.&lt;br /&gt;&lt;br /&gt;Hopefully I complete it today.&lt;br /&gt;&lt;br /&gt;Phew, now I can sleep in &lt;a href=&quot;http://giphy.com/gifs/cwCBshoHs4nbW&quot;&gt;peace&lt;/a&gt;. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/oops-forgot-again/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debug Program almost done!  </title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debug-program-almost-done/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;The bare bone debug program is ready.&lt;br /&gt;Here is how the program looks &lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VdzEwLUdJTFFkSDg/edit?usp=sharing&quot;&gt;like&lt;/a&gt;. Things will improve as other developers add stuff to the debug infrastructure like packet count, expansion boards ID etc. &lt;br /&gt;There are two bugs which I couldn't fix even after hours of attempt:&amp;nbsp; &lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;UART is suddenly send incorrect data causing wrong output for a moment.&lt;/li&gt;&lt;li&gt;HDMI 1 is shown connected even though only one is connected.&lt;/li&gt;&lt;/ul&gt;I will spend some more time on it in the weekend.&lt;br /&gt;&lt;br /&gt;Tomorrow I am planning to go back to the real stuff I am working on. Tomorrow I will try to add another encoder. Let's see if it is possible. If not, atleast we will know that this solution is not possible for available fpga resource.&lt;br /&gt;&lt;br /&gt;Till then I am going to sleep. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debug-program-almost-done/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
