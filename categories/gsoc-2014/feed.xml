@@ -54,6 +54,18 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss created repository pinoss/jekyll-github</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-created-repository-pinoss-jekyll-github/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-created-repository-pinoss-jekyll-github/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 29/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-29-07-2014/</link>
       <description>&lt;b&gt;[docs]&lt;/b&gt; wrote design documentation for Feedbook:&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&quot;&gt;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=&quot;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&quot;&gt;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; deployed &lt;i&gt;prose-gatekeeper &lt;/i&gt;to Heroku (&lt;a href=&quot;https://gatekeeper-timvideos.herokuapp.com/&quot;&gt;https://gatekeeper-timvideos.herokuapp.com&lt;/a&gt;)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;compiled and deployed prose.io to GitHub pages (&lt;a href=&quot;http://code.timvideos.us/prose/&quot;&gt;http://code.timvideos.us/prose/&lt;/a&gt;)&lt;br /&gt;&lt;b&gt;[code]&lt;/b&gt; updated document about deployment of timvideos getting-started&lt;div class=&quot;author&quot;&gt;
@@ -231,18 +243,6 @@
 </description>
       <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-1-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created tag v0.9.0 at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-0-at-pinoss-feedbook/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-0-at-pinoss-feedbook/</guid>
       <dc:date>2014-07-26T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
