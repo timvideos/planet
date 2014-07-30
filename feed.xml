@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>The 2nd last day of 1 Gbps debugging</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
@@ -101,6 +112,17 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-12/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -219,29 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-starred-ttl-evolutionary-circuits/</guid>
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked Ttl/evolutionary-circuits to rohit91/evolutionary-circuits</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</guid>
-      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>

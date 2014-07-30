@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 commented on pull request Niharika29/bugtracker#8</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/niharika29-commented-on-pull-request-niharika29-b/</link>
@@ -224,28 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/pinoss-pushed-to-master-at-timvideos-planet/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>

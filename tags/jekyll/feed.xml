@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/prose</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/feedbook</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
@@ -230,36 +252,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/gsoc-snippet-20-07-2014/</guid>
       <dc:date>2014-07-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 19/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/19/gsoc-snippet-19-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt;&amp;nbsp;added Facebook and Twitter notifiers implementation, pushing to Google Plus stream is impossible, because of read-only API, added new posts comparer, getting posts from feed, etc.&lt;br /&gt;&lt;br /&gt;Tomorrow I will add command line interface (like supybot or planet) to get all things works, then I will need some time to tests. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/gsoc-snippet-19-07-2014/</guid>
-      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 18/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/gsoc-snippet-18-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt;&amp;nbsp;created more code in feedbook, added configuration file schema, notifiers stubs, feeds, etc. I haven't today internet connection, I did as many as I could without it. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/gsoc-snippet-18-07-2014/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
