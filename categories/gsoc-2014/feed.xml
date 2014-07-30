@@ -69,6 +69,17 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to gh-pages at timvideos/prose</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
       <description>&lt;!-- push --&gt;
@@ -233,17 +244,6 @@
       <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</guid>
       <dc:date>2014-07-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to docker at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
