@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/jekyll-github</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-jekyll-github/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-jekyll-github/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
       <description>&lt;!-- push --&gt;
@@ -63,6 +74,21 @@
 </description>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-created-repository-pinoss-jekyll-github/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 30/07/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-30-07-2014/</link>
+      <description>&lt;b&gt;[code]&lt;/b&gt; added CNAME to prose gatekeeper and prose editor&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added off-line mode to feedbook (+ tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created project for GitHub Jekyll plugins (gem), I will write Readme file now&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-30-07-2014/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -221,29 +247,6 @@
 </description>
       <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created tag v1.0.2 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/pinoss-created-tag-v1-0-2-at-pinoss-timeloop/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
