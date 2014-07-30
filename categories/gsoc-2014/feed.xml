@@ -80,6 +80,16 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>30 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/30-july-14/</link>
+      <description>&lt;p&gt;I installed vagrant on my Ubuntu VM, which I then had to upgrade from 1.0.1 to 1.6.3 (the latest). The Ubuntu maintainers didn&amp;rsquo;t stock the latest version, so I had to get it from the vagrant website directly. I ran a &amp;lsquo;vagrant up&amp;rsquo; after the installation completed and got the following error message:&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/30-july-14/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to gh-pages at timvideos/prose</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
       <description>&lt;!-- push --&gt;
@@ -233,16 +243,6 @@
 </description>
       <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/pinoss-created-tag-v0-9-0-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 7-24 /7-25</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/26/gsoc-update-7-24-7-25/</guid>
       <dc:date>2014-07-26T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>

@@ -40,6 +40,16 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>30 July '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/30-july-14/</link>
+      <description>&lt;p&gt;I installed vagrant on my Ubuntu VM, which I then had to upgrade from 1.0.1 to 1.6.3 (the latest). The Ubuntu maintainers didn&amp;rsquo;t stock the latest version, so I had to get it from the vagrant website directly. I ran a &amp;lsquo;vagrant up&amp;rsquo; after the installation completed and got the following error message:&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/30-july-14/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>The 2nd last day of 1 Gbps debugging</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
       <description>Today it came to light that complete simulation environment cannot be built as parts of the code actually probe PHY status registers. So the idea of top level design testbench did n't work. So i am back to unit testing and making sure that there is nothing in the code that is responsible for generating conditions that make a packet drop from MAC. After that i shall send traffic from FPGA to PC and see if the receiver PC's MAC is able to catch up or not by doing ifconfig or other utilities that can help detect packet loss. It seems likely that receiver MAC is not able to keep up.&lt;br /&gt;&lt;br /&gt;This whole saga should end tomorrow. I am pretty hopeful.&lt;br /&gt;&lt;br /&gt;Other than that we celebrated our holy Eid today. So spending some time with the family is good. It is good to take a break from GSoC.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -272,21 +282,6 @@
 </description>
       <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/23/gsoc-update-7-22/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-6fb3-8133-9692-224676664cb8&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 23rd July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-6fb3-8133-9692-224676664cb8&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PCB Design started from scratch. Changed components placement, PCB dimensions, and layout. Initial routing 40% done. Without length-matching.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Fixed some issues listed on github&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/gsoc-daily-log/</guid>
       <dc:date>2014-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
