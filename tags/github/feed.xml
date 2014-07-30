@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to gh-pages at timvideos/prose</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +29,17 @@
 </description>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -212,28 +234,6 @@
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</guid>
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
