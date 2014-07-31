@@ -10,6 +10,29 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew pushed to heart_beat_v2 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-pushed-to-heart_beat_v2-at-ajitmathew-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-pushed-to-heart_beat_v2-at-ajitmathew-/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch heart_beat_v2 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat_v2-at-ajitma/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat_v2-at-ajitma/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew created branch heart_beat at ajitmathew/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</link>
       <description>&lt;!-- create --&gt;
@@ -214,29 +237,6 @@
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/28/rohit91-forked-ttl-evolutionary-circuits-to-rohit/</guid>
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created tag rev2.0_secondDesign_w/o_LengthMatching at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-created-tag-rev2-0_seconddesign_w-o_lengt/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/25/rohit91-created-tag-rev2-0_seconddesign_w-o_lengt/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>
