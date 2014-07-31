@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew created branch heart_beat at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/jekyll-github</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-jekyll-github/</link>
       <description>&lt;!-- push --&gt;
@@ -220,17 +232,6 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/niharika29-commented-on-pull-request-niharika29-b/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/29/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-31T00:00:00+00:00</dc:date>

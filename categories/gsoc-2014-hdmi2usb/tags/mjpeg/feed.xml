@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew created branch heart_beat at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Lot of pushing done</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- Debug Infrastructure Pushed&lt;br /&gt;- Pipelined Memory Pushed&lt;br /&gt;- Will do heart beat tomorrow&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -237,21 +249,6 @@
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/ajitmathew-commented-on-commit-shenki-hdmi2usb-80/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>HDMI2USB Serial Controller Port</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/19/hdmi2usb-serial-controller-port/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;When we connect HDMI2USB to host, two CDC are enumerated. One is for UVC(ACM0) and the other is for controller port(ACM1).&lt;br /&gt;The controller port can be used to control certain features of HDMI2USB and also display status of USB, jpeg encoder etc.&lt;br /&gt;To access this use any serial terminal program like gtkterm. The commands send to the control port is in ASCII. The ascii commands are two byte, first is the address(like U or u for USB TOP) and the second is the command you want to send to that address (like S or s for status). So if you send US, it will return the status of the USB Top module. Since the terminal I am using allows only hexadecimal commands, so I have to convert the ASCII commands to their hex equivalent (which is irritating).&lt;br /&gt;&lt;br /&gt;While creating the debug infrastructure, I completely neglected that there is already a lot of infrastructure already built in due to the control port. Some feature that I have added like frame rate etc can be exposed via the control port. Then we can have a debugger using the control port. Plus it can be used to control features of firmware which is even more awesome. What say mithro/shenki?&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/19/hdmi2usb-serial-controller-port/</guid>
-      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>
