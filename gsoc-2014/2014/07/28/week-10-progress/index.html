@@ -112,22 +112,21 @@
 
 <p>I merged that with my code and was able to run a test audio + video stream successfully on Trusty. There were the following errors though:</p>
 
-<div class="highlight"><pre><code class="bash">DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56      creating ComponentClientFactory <span class="o">(</span>flumotion/job/job.py:285<span class="o">)</span>
-DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul <span class="m">28</span> 11:33:56      creating ComponentClientFactory <span class="o">(</span>flumotion/job/job.py:285<span class="o">)</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul <span class="m">28</span> 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError     created ComponentClientFactory &lt;flumotion.component.component.ComponentClientFactory instance at 0x7f6848ac2b00&gt; <span class="o">(</span>flumotion/job/job.py:288<span class="o">)</span>
-DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul <span class="m">28</span> 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError     logging in with authenticator &lt;flumotion.twisted.pb.RemoteAuthenticator instance at 0x7f6848c069e0&gt; <span class="o">(</span>flumotion/job/job.py:295<span class="o">)</span>
-INFO  <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+INFO  <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul <span class="m">28</span> 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
      Connecting to manager localhost:8642 with TCP <span class="o">(</span>flumotion/job/job.py:304<span class="o">)</span>
-LOG   <span class="o">[</span>40686<span class="o">]</span>                                  twisted           Jul 28 11:33:56 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+LOG   <span class="o">[</span>40686<span class="o">]</span>                                  twisted           Jul <span class="m">28</span> 11:33:56 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError      <span class="o">[</span>JobClientBroker,client<span class="o">]</span> Starting factory &lt;flumotion.component.component.ComponentClientFactory instance at 0x7f6848ac2b00&gt;
  <span class="o">(</span>twisted/python/threadable.py:53<span class="o">)</span>
-DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul 28 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
+DEBUG <span class="o">[</span>40686<span class="o">]</span> <span class="s2">&quot;/default/http-audio-video&quot;</span>      jobmedium         Jul <span class="m">28</span> 11:33:56 : int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
 TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
-TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span>
-</code></pre></div>
+TypeError: int<span class="o">()</span> argument must be a string or a number, not <span class="s1">&#39;NoneType&#39;</span></code></pre></div>
 
 <p>So, from now on, I’m going to tie the loose ends and fix the issues with this and other unported components. With Trusty and latest libraries, hopefully I will be able to fix remaining problems.</p><div class="author">
   <span>

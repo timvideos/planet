@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Testing TimVideos Streaming System</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</link>
+      <description>&lt;p&gt;Timvideos make heavy use of Flumotion for streaming live videos. So, I went ahead to test the ported Flumotion with the streaming system to fix the issue.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Snippet] 30/07/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-30-07-2014/</link>
       <description>&lt;b&gt;[code]&lt;/b&gt; added CNAME to prose gatekeeper and prose editor&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added off-line mode to feedbook (+ tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created project for GitHub Jekyll plugins (gem), I will write Readme file now&lt;div class=&quot;author&quot;&gt;
@@ -251,21 +261,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
 </description>
       <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/running-docker-d-streamingsystem/</guid>
-      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 19/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/19/gsoc-snippet-19-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt;&amp;nbsp;added Facebook and Twitter notifiers implementation, pushing to Google Plus stream is impossible, because of read-only API, added new posts comparer, getting posts from feed, etc.&lt;br /&gt;&lt;br /&gt;Tomorrow I will add command line interface (like supybot or planet) to get all things works, then I will need some time to tests. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/19/gsoc-snippet-19-07-2014/</guid>
       <dc:date>2014-07-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-31T00:00:00+00:00</dc:date>

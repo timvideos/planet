@@ -68,17 +68,16 @@
         <p class="article">
           <p>An issue that has been troubling me for a while is that the ‘pspec’ parameter in the callback was set to None.</p>
 
-<div class="highlight"><pre><code class="python"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
   <span class="n">File</span> <span class="s">&quot;/home/aps/workspace/gsoc/flumotion-orig/flumotion/common/gstreamer.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">55</span><span class="p">,</span> <span class="ow">in</span> <span class="n">verbose_deep_notify_cb</span>
     <span class="n">value</span> <span class="o">=</span> <span class="n">orig</span><span class="o">.</span><span class="n">get_property</span><span class="p">(</span><span class="n">pspec</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
-<span class="ne">AttributeError</span><span class="p">:</span> <span class="s">&#39;NoneType&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s">&#39;name&#39;</span>
-</code></pre></div>
+<span class="ne">AttributeError</span><span class="p">:</span> <span class="s">&#39;NoneType&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s">&#39;name&#39;</span></code></pre></div>
 
 <p>This was due to the change in working of “deep-notify” signal of GObject library. After a lot of research and bug hunting, I figured out that we need to connect the callback to a more specific notification signal. So, I did change in this <a href="https://github.com/aps-sids/flumotion-orig/commit/29f59d93b0666916374cec0e903f3b0ae4088ac5">commit</a> and it works as expected.</p>
 
 <p>Now, a simple stream with only the Videotest producer runs perfectly fine. You can take a look at output from <a href="http://paste.ubuntu.com/7602897/">Manager</a> and <a href="http://paste.ubuntu.com/7602905/">Worker</a> and a <a href="http://a.disquscdn.com/uploads/mediaembed/images/1064/5842/original.jpg">screenshot</a> as well. But don’t take my word for it, go ahead and run the stream yourself. Here are the steps (for Ubuntu 12.04) to do that:</p>
 
-<div class="highlight"><pre><code class="bash"><span class="c"># Getting and compiling the latest code</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Getting and compiling the latest code</span>
 
 <span class="nv">$ </span>sudo add-apt-repository ppa:gstreamer-developers/ppa -y
 <span class="nv">$ </span>sudo apt-get update -qq
@@ -112,8 +111,7 @@
 <span class="nv">$ </span>flumotion-worker -v -T tcp -u user -p <span class="nb">test</span>
 
 <span class="c"># in terminal 3 (you need a working flumotion installation for this)</span>
-<span class="nv">$ </span>flumotion-admin -v
-</code></pre></div><div class="author">
+<span class="nv">$ </span>flumotion-admin -v</code></pre></div><div class="author">
   <span>
     <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
   </span>

@@ -110,7 +110,7 @@
 
 <p>Final step needed to “watch” a stream is a sink, httpstreamer. After porting this and running the stream, I get following error:</p>
 
-<div class="highlight"><pre><code class="bash"><span class="o">(</span>flumotion-job:7808<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-depay:src&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">(</span>flumotion-job:7808<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-depay:src&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
 
 <span class="o">(</span>flumotion-job:7808<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-identity:src&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
 
@@ -128,8 +128,7 @@
 
 <span class="o">(</span>flumotion-job:7806<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;sink:sink&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
 
-<span class="o">(</span>flumotion-job:7806<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-identity:sink&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span>
-</code></pre></div>
+<span class="o">(</span>flumotion-job:7806<span class="o">)</span>: GStreamer-WARNING **: gstpad.c:4506:store_sticky_event:&lt;eater:default-identity:sink&gt; Sticky event misordering, got <span class="s1">&#39;segment&#39;</span> before <span class="s1">&#39;caps&#39;</span></code></pre></div>
 
 <p>thaytan from #gstreamer told me that it means some element is not setting up pads in the right order. It needs to set caps before sending the segment event.</p>
 

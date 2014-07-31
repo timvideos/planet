@@ -10,6 +10,27 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Testing TimVideos Streaming System</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</link>
+      <description>&lt;p&gt;Timvideos make heavy use of Flumotion for streaming live videos. So, I went ahead to test the ported Flumotion with the streaming system to fix the issue.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/31/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
       <description>&lt;!-- push --&gt;
@@ -205,27 +226,6 @@
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/dvswitch-testing/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/17/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>DVSwitch Plugin Ported</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</link>
-      <description>&lt;p&gt;After months of working with Python, I’m suddenly working with C since two days. And I feel much older now :D Anyway, I had to do this in order to port &lt;a href=&quot;https://github.com/aps-sids/gst-plugins-dvswitch&quot;&gt;Gst Plugin DVSwitch&lt;/a&gt; to Gstreamer 1.0 for porting Flumotion component.&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/16/dvswitch-plugin-ported/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>

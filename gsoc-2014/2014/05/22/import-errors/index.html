@@ -102,7 +102,7 @@
         <p class="article">
           <p>While porting the base modules and running the respective tests, I have encountered the same error which was there for previous GSoC student. Basically, its the ImportError conflict since introspected and static glib/gtk bindings must not be mixed as evident by the following error:</p>
 
-<div class="highlight"><pre><code class="python"><span class="n">flumotion</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">flumotion</span>
   <span class="n">test</span>
     <span class="n">test_common_gstreamer</span> <span class="o">...</span>                                           <span class="p">[</span><span class="n">ERROR</span><span class="p">]</span>
 
@@ -127,8 +127,7 @@
 <span class="o">-------------------------------------------------------------------------------</span>
 <span class="n">Ran</span> <span class="mi">1</span> <span class="n">tests</span> <span class="ow">in</span> <span class="mf">0.003</span><span class="n">s</span>
 
-<span class="n">FAILED</span> <span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div>
+<span class="n">FAILED</span> <span class="p">(</span><span class="n">errors</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span></code></pre></div>
 
 <p>Now, I suspect there could be two reasons for this:</p>
 

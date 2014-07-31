@@ -72,14 +72,13 @@
 
 <p>Also, in line 68 – I’m not able to understand reason for this. Refer to this piece of code – <a href="https://github.com/aps-sids/flumotion-orig/blob/porting-to-gst1.0/flumotion/component/feedcomponent010.py#L201-L208">feedcomponent010.py#L201-L208</a></p>
 
-<div class="highlight"><pre><code class="python"><span class="c"># &gt;&gt; self.feeders.values()</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># &gt;&gt; self.feeders.values()</span>
 <span class="p">[</span><span class="o">&lt;</span><span class="n">Feeder</span> <span class="n">dv</span> <span class="p">(</span><span class="mi">0</span> <span class="n">client</span><span class="p">(</span><span class="n">s</span><span class="p">))</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">Feeder</span> <span class="n">audio</span> <span class="p">(</span><span class="mi">0</span> <span class="n">client</span><span class="p">(</span><span class="n">s</span><span class="p">))</span><span class="o">&gt;</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">Feeder</span> <span class="n">video</span> <span class="p">(</span><span class="mi">0</span> <span class="n">client</span><span class="p">(</span><span class="n">s</span><span class="p">))</span><span class="o">&gt;</span><span class="p">]</span>
 
 <span class="c"># When feeder is &lt;Feeder dv (0 client(s))&gt;</span>
 <span class="n">pipeline</span><span class="o">.</span><span class="n">get_by_name</span><span class="p">(</span><span class="n">feeder</span><span class="o">.</span><span class="n">elementName</span><span class="p">)</span>   <span class="c">#  gives None</span>
 
-<span class="c"># I haven&#39;t changed the pipeline so I don&#39;t know why there is no feeder in pipeline</span>
-</code></pre></div><div class="author">
+<span class="c"># I haven&#39;t changed the pipeline so I don&#39;t know why there is no feeder in pipeline</span></code></pre></div><div class="author">
   <span>
     <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
   </span>

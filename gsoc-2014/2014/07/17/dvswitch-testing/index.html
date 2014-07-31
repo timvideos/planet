@@ -102,7 +102,7 @@
         <p class="article">
           <p>I ported the DVSwitch Gstreamer Element yesterday, but it had to be tested to know if it works or not. So, I worked on testing this today. I used following commands to test it:</p>
 
-<div class="highlight"><pre><code class="bash"><span class="c">#In terminal 1</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#In terminal 1</span>
 
 dvswitch --host<span class="o">=</span>localhost --port<span class="o">=</span>2000
 
@@ -110,8 +110,7 @@ dvswitch --host<span class="o">=</span>localhost --port<span class="o">=</span>2
 
 gst-launch-1.0 -v videotestsrc is-live<span class="o">=</span><span class="nb">true</span> ! videoconvert ! avenc_dvvideo ! avmux_dv ! dvswitchsink <span class="nv">host</span><span class="o">=</span>localhost <span class="nv">port</span><span class="o">=</span>2000
 
-<span class="c">#Some more such gst pipelines in other terminals</span>
-</code></pre></div>
+<span class="c">#Some more such gst pipelines in other terminals</span></code></pre></div>
 
 <p>These videos could be seen in dvswitch ui. Here is a screenshot.</p>
 
