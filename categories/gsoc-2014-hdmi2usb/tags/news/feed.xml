@@ -40,6 +40,21 @@
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]: Fixed I2C Problems in VHDL</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/gsoc-daily-log-fixed-i2c-problems-in-vhdl/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 30th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Fixed I2C problem with code. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Also, tried I2C using Picoblaze softcore processor. Seems good. Uses similar resources.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/gsoc-daily-log-fixed-i2c-problems-in-vhdl/</guid>
+      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>The 2nd last day of 1 Gbps debugging</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
       <description>Today it came to light that complete simulation environment cannot be built as parts of the code actually probe PHY status registers. So the idea of top level design testbench did n't work. So i am back to unit testing and making sure that there is nothing in the code that is responsible for generating conditions that make a packet drop from MAC. After that i shall send traffic from FPGA to PC and see if the receiver PC's MAC is able to catch up or not by doing ifconfig or other utilities that can help detect packet loss. It seems likely that receiver MAC is not able to keep up.&lt;br /&gt;&lt;br /&gt;This whole saga should end tomorrow. I am pretty hopeful.&lt;br /&gt;&lt;br /&gt;Other than that we celebrated our holy Eid today. So spending some time with the family is good. It is good to take a break from GSoC.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
@@ -52,6 +67,21 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</guid>
+      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Weekly Overview]: PCB sent for Fab!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/gsoc-weekly-overview-pcb-sent-for-fab/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-e5cc462c-89b9-4051-6749-733c9dae42f6&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;The biggest news of this week was PCB being sent for Fab to Hackvana!&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Here is the design sent to Fab:&lt;/span&gt;&lt;a href=&quot;http://gerblook.org/pcb/JB6z7ixXL2hbVSKhU6CjCk#front&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;http://gerblook.org/pcb/JB6z7ixXL2hbVSKhU6CjCk&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;KiCad Design files are on the repository: &lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;https://github.com/rohit91/HDMI2USB-vmodvga&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Pictures:&lt;/span&gt;&lt;/h1&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Front:&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-4wzO7u53XJo/U9mHtSQlMhI/AAAAAAAABww/YiIr8T387Ls/s1600/top.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-4wzO7u53XJo/U9mHtSQlMhI/AAAAAAAABww/YiIr8T387Ls/s1600/top.png&quot; height=&quot;640&quot; width=&quot;562&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;PCB Front&lt;/td&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Back:&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &lt;br /&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot; style=&quot;margin-left: auto; margin-right: auto; text-align: center;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-AB2gtr3d7_g/U9mH_kMwWmI/AAAAAAAABw4/fNPltxTdxhs/s1600/bottom.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: auto; margin-right: auto;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;http://1.bp.blogspot.com/-AB2gtr3d7_g/U9mH_kMwWmI/AAAAAAAABw4/fNPltxTdxhs/s1600/bottom.png&quot; height=&quot;640&quot; width=&quot;562&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&quot;tr-caption&quot; style=&quot;text-align: center;&quot;&gt;PCB Back&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Upcoming Week:&lt;/span&gt;&lt;/h1&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;With the PCB sent for fab, I’ll order 0.1uF 0805 caps, since I don’t have them and they are required in PCB Rev02. Some other components required will also be ordered. And, I’ll be moving back to working on VGA capture and fixing I2C problem. &lt;/span&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://1.bp.blogspot.com/-4wzO7u53XJo/U9mHtSQlMhI/AAAAAAAABww/YiIr8T387Ls/s1600/top.png&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/gsoc-weekly-overview-pcb-sent-for-fab/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -278,36 +308,6 @@
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]:</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/20/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-56c5-7500-25b6-d4b29de10f5c&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 20th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-4adff4a2-56c5-7500-25b6-d4b29de10f5c&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;PCB Routing: 70% ratsnest routed. Fine tuning remaining. &lt;/span&gt;&lt;a href=&quot;https://github.com/rohit91/HDMI2USB-vmodvga/commit/0e8941c7fc61b8bddb6cc80856a8750088da734d&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline;&quot;&gt;Commit&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/20/gsoc-daily-log/</guid>
-      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>HDMI2USB Serial Controller Port</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/19/hdmi2usb-serial-controller-port/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;When we connect HDMI2USB to host, two CDC are enumerated. One is for UVC(ACM0) and the other is for controller port(ACM1).&lt;br /&gt;The controller port can be used to control certain features of HDMI2USB and also display status of USB, jpeg encoder etc.&lt;br /&gt;To access this use any serial terminal program like gtkterm. The commands send to the control port is in ASCII. The ascii commands are two byte, first is the address(like U or u for USB TOP) and the second is the command you want to send to that address (like S or s for status). So if you send US, it will return the status of the USB Top module. Since the terminal I am using allows only hexadecimal commands, so I have to convert the ASCII commands to their hex equivalent (which is irritating).&lt;br /&gt;&lt;br /&gt;While creating the debug infrastructure, I completely neglected that there is already a lot of infrastructure already built in due to the control port. Some feature that I have added like frame rate etc can be exposed via the control port. Then we can have a debugger using the control port. Plus it can be used to control features of firmware which is even more awesome. What say mithro/shenki?&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 19 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/19/hdmi2usb-serial-controller-port/</guid>
-      <dc:date>2014-07-19T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-07-30T00:00:00+00:00</dc:date>
   </channel>
