@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Today's post will be merged with tomorrow's post</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</link>
+      <description>I had to go out of town for most of the day so will update the blog tomorrow (Thursday). Please stay tuned.&lt;br /&gt;&lt;br /&gt;Thanks&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Lot of pushing done</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</link>
@@ -279,21 +294,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/gsoc-daily-log/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily Snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;a href=&quot;https://drive.google.com/file/d/0B0zz3gJ27U-VNzFKMTdsZDNWVmc/edit?usp=sharing&quot;&gt;Video Link &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/daily-snippet/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>

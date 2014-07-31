@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Today's post will be merged with tomorrow's post</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</link>
+      <description>I had to go out of town for most of the day so will update the blog tomorrow (Thursday). Please stay tuned.&lt;br /&gt;&lt;br /&gt;Thanks&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Lot of pushing done</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</link>
@@ -294,21 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/gsoc-daily-log/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Debugging frame sending in Packetizer RTL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</link>
-      <description>I have been debugging why Packetizer is missing some packets randomly by Chipscope pro as well as simulation. Lets pray to hear the good news soon :)&lt;br /&gt;&lt;br /&gt;I am trying to setup trigger conditions. It seems i need to work more on that. It should be done by Monday or latest by Tuesday.&lt;br /&gt;&lt;br /&gt;Keep looking at the blog.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</guid>
-      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>

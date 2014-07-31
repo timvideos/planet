@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Today's post will be merged with tomorrow's post</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</link>
+      <description>I had to go out of town for most of the day so will update the blog tomorrow (Thursday). Please stay tuned.&lt;br /&gt;&lt;br /&gt;Thanks&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Lot of pushing done</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</link>
@@ -243,17 +258,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-created-branch-ajit-debug-v3-at-ajitma/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew commented on commit ajitmathew/HDMI2USB@64bf8d8b78</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+    <dc:date>2014-07-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>
