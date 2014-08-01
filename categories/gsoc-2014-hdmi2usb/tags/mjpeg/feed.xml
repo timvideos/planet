@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Unable to get hidefsnow working</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I wanted to add a 1080p test pattern to firmware so the performance at&amp;nbsp; that resolution can be understood. Unfortunately things are not working. I am getting strange output values from debugger. Hopefully I get it done soon. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew pushed to heart_beat_v2 at ajitmathew/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-pushed-to-heart_beat_v2-at-ajitmathew-/</link>
       <description>&lt;!-- push --&gt;
@@ -238,18 +253,6 @@
       <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/22/daily-snippet/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch ajit-debug-v2 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/ajitmathew-created-branch-ajit-debug-v2-at-ajitma/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/ajitmathew-created-branch-ajit-debug-v2-at-ajitma/</guid>
-      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
   </channel>
