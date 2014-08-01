@@ -25,6 +25,21 @@
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Snippet] 01/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/gsoc-snippet-01-08-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;Added GitHub Charts loader to planet (before Highcharts.js being loaded, there is a indicator that page is loading)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;Fixed small css issues on mobile devices&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/gsoc-snippet-01-08-2014/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>1 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
       <description>&lt;p&gt;Sheila setup a rackspace VM for me to deploy the Django app. It&amp;rsquo;s the first time I&amp;rsquo;m using (and learning) Fabric.&lt;/p&gt;
@@ -252,16 +267,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
       <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/21/21-july-14/</guid>
       <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 9 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/20/week-9-progress/</link>
-      <description>&lt;p&gt;This week, I ported dvswitch gstreamer plugin to 1.0 version. It was compiled and I tested both dvswitch source and sink plugins. Tests run properly, but I’m unable to successfully build it as a debian package.&lt;/p&gt;
-
-</description>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/week-9-progress/</guid>
-      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
   </channel>
