@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/08/01/capturing-ethernet-header-adjusting-packetizer-sp//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Capturing Ethernet header, adjusting packetizer speed and moving between OS</h1>
+      <div class="article">
+        <p class="meta description">
+          Aug 1, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F01%2Fcapturing-ethernet-header-adjusting-packetizer-sp%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F01%2Fcapturing-ethernet-header-adjusting-packetizer-sp%2F&text=TimVideos.us%20Capturing+Ethernet+header%2C+adjusting+packetizer+speed+and+moving+between+OS%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F01%2Fcapturing-ethernet-header-adjusting-packetizer-sp%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F01%2Fcapturing-ethernet-header-adjusting-packetizer-sp%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          &nbsp;I was asked about what is the inter-packet gap (IPG) and can this be varied. I checked and it turns out that IPG is inserted by PHY and not MAC. So MAC has no control over it. Since we are using Marvell 88E1111 PHY, the PHY inserts preamble, start of frame delimiter, CRC and inter-packet gap. The following wikipedia post is really useful<br /><br /><a href="http://en.wikipedia.org/wiki/Ethernet_frame">http://en.wikipedia.org/wiki/Ethernet_frame</a><br /><br />Then &nbsp;i was after capturing Ethernet Header (&nbsp;preamble, start of frame delimiter, CRC and inter-packet gap) but this is not possible given the hardware (NIC + Ubuntu) that i have.<br /><br />This stackexchnage &nbsp;post is useful.<br /><br /><a href="http://serverfault.com/questions/521443/can-wireshark-capture-an-entire-ethernet-frame-including-preamble-crc-and-inter">http://serverfault.com/questions/521443/can-wireshark-capture-an-entire-ethernet-frame-including-preamble-crc-and-inter</a><br /><br />I came across the following raw Ethernet Capture tool.<br /><br /><a href="https://gist.github.com/austinmarton/2862515">https://gist.github.com/austinmarton/2862515</a><br /><br />I Compiled C source code to capture raw packets but for some reason, NIC + Ubuntu are stripping this information (preamble, start of frame delimiter, crc and ipg) and start from MAC header &nbsp;(dst mac address, src MAC address ...)<br /><br /><a href="http://pastebin.com/gMPnzy0g">http://pastebin.com/gMPnzy0g</a><br /><br />Then i did calculation based on the transmitter packetizer to see how fast its throughput is. It turns out that it is actually 3x faster than 1 Gbps. As mentioned earlier, either the transmitter should slow down or the receiver should catch up. I am sticking to the first approach of slowing down the transmitter. Below is how and by how much?<br /><br />I calculated the time to send one packet given 30 fps and then found out the delay to insert between packets (3000 clock cycles, where one cycle = 1/125 Mhz). I shall post these calculations tomorrow.<br /><br /><br />After configuring 3000 cycles delay between packets, i sent 102 packets (0 to 101 ) (see the last to last blog) from FPGA to PC (Ubuntu 13.10 machine). It turned out that Gstreamer got stuck at packet # 97 and never got to receive packet 98 till 101. Wireshark behaved differently from Gstreamer. It showed a couple of missing packets but those packets were successfully captured by Gstreamer AND Wireshark showed couple of packets that Gstreamer could not capture (e.g., packet # 98, 99, 100 and 101).<br /><br />&nbsp;It seemed that the transmitter needed to slow down further.So i increased the inter-packet delay &nbsp;to 5000 clock cycles but still Gstreamer would get stuck at packet # 97. I knew that if i increase the delay to 20,000 clock cycles, it would work but that is not ideal as it would mean &lt; 10 fps.<br /><br />So i moved to my laptop that has 1 Gbps NIC but different Operating System (Windows 7) and used a newer Cat 6 cable. I configured the FPGA to send 102 packets to the laptop where the inter-packet delay is 3000 clock cycles. I was running Wireshark in Windows 7. It turned out that ALL the packets got captured and Wireshark did n't drop even a single packet. &nbsp;I could not get Gstreamer to work on Windows 7 for some reason.<br /><br />The point is that successful capture depends upon the NIC, cable and OS. I shall see if can get a recent NIC to reproduce the same behavior with Ubuntu 13.10 machine.<br /><br />Here is the successful 102 packets captured by Wireshark in Windows 7 with inter-packet delay of 3000 clock cycles.<br /><br /><a href="http://pastebin.com/Rw7FXKQd">http://pastebin.com/Rw7FXKQd</a><br /><br />You may want to look at the <a href="http://hdmi2ethernet.blogspot.com/2014/07/testing-rtp-packetizer-with-multiple-2.html">older blog post</a>&nbsp;to decipher the above packets.<br /><br />I am on un-official vacation from tomorrow till next Friday. I shall work on this as i get time. The blogs might not be updated regularly. The remaining goal is further testing and documentation.<br /><br /><br /><br /><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

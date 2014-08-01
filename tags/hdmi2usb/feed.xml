@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Capturing Ethernet header, adjusting packetizer speed and moving between OS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/capturing-ethernet-header-adjusting-packetizer-sp/</link>
+      <description>&amp;nbsp;I was asked about what is the inter-packet gap (IPG) and can this be varied. I checked and it turns out that IPG is inserted by PHY and not MAC. So MAC has no control over it. Since we are using Marvell 88E1111 PHY, the PHY inserts preamble, start of frame delimiter, CRC and inter-packet gap. The following wikipedia post is really useful&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ethernet_frame&quot;&gt;http://en.wikipedia.org/wiki/Ethernet_frame&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Then &amp;nbsp;i was after capturing Ethernet Header (&amp;nbsp;preamble, start of frame delimiter, CRC and inter-packet gap) but this is not possible given the hardware (NIC + Ubuntu) that i have.&lt;br /&gt;&lt;br /&gt;This stackexchnage &amp;nbsp;post is useful.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://serverfault.com/questions/521443/can-wireshark-capture-an-entire-ethernet-frame-including-preamble-crc-and-inter&quot;&gt;http://serverfault.com/questions/521443/can-wireshark-capture-an-entire-ethernet-frame-including-preamble-crc-and-inter&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I came across the following raw Ethernet Capture tool.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://gist.github.com/austinmarton/2862515&quot;&gt;https://gist.github.com/austinmarton/2862515&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I Compiled C source code to capture raw packets but for some reason, NIC + Ubuntu are stripping this information (preamble, start of frame delimiter, crc and ipg) and start from MAC header &amp;nbsp;(dst mac address, src MAC address ...)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://pastebin.com/gMPnzy0g&quot;&gt;http://pastebin.com/gMPnzy0g&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Then i did calculation based on the transmitter packetizer to see how fast its throughput is. It turns out that it is actually 3x faster than 1 Gbps. As mentioned earlier, either the transmitter should slow down or the receiver should catch up. I am sticking to the first approach of slowing down the transmitter. Below is how and by how much?&lt;br /&gt;&lt;br /&gt;I calculated the time to send one packet given 30 fps and then found out the delay to insert between packets (3000 clock cycles, where one cycle = 1/125 Mhz). I shall post these calculations tomorrow.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;After configuring 3000 cycles delay between packets, i sent 102 packets (0 to 101 ) (see the last to last blog) from FPGA to PC (Ubuntu 13.10 machine). It turned out that Gstreamer got stuck at packet # 97 and never got to receive packet 98 till 101. Wireshark behaved differently from Gstreamer. It showed a couple of missing packets but those packets were successfully captured by Gstreamer AND Wireshark showed couple of packets that Gstreamer could not capture (e.g., packet # 98, 99, 100 and 101).&lt;br /&gt;&lt;br /&gt;&amp;nbsp;It seemed that the transmitter needed to slow down further.So i increased the inter-packet delay &amp;nbsp;to 5000 clock cycles but still Gstreamer would get stuck at packet # 97. I knew that if i increase the delay to 20,000 clock cycles, it would work but that is not ideal as it would mean &amp;lt; 10 fps.&lt;br /&gt;&lt;br /&gt;So i moved to my laptop that has 1 Gbps NIC but different Operating System (Windows 7) and used a newer Cat 6 cable. I configured the FPGA to send 102 packets to the laptop where the inter-packet delay is 3000 clock cycles. I was running Wireshark in Windows 7. It turned out that ALL the packets got captured and Wireshark did n't drop even a single packet. &amp;nbsp;I could not get Gstreamer to work on Windows 7 for some reason.&lt;br /&gt;&lt;br /&gt;The point is that successful capture depends upon the NIC, cable and OS. I shall see if can get a recent NIC to reproduce the same behavior with Ubuntu 13.10 machine.&lt;br /&gt;&lt;br /&gt;Here is the successful 102 packets captured by Wireshark in Windows 7 with inter-packet delay of 3000 clock cycles.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://pastebin.com/Rw7FXKQd&quot;&gt;http://pastebin.com/Rw7FXKQd&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;You may want to look at the &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/2014/07/testing-rtp-packetizer-with-multiple-2.html&quot;&gt;older blog post&lt;/a&gt;&amp;nbsp;to decipher the above packets.&lt;br /&gt;&lt;br /&gt;I am on un-official vacation from tomorrow till next Friday. I shall work on this as i get time. The blogs might not be updated regularly. The remaining goal is further testing and documentation.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/capturing-ethernet-header-adjusting-packetizer-sp/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Today's post will be merged with tomorrow's post</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</link>
       <description>I had to go out of town for most of the day so will update the blog tomorrow (Thursday). Please stay tuned.&lt;br /&gt;&lt;br /&gt;Thanks&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Has anyone tried reproducing some of &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer&quot;&gt;this&lt;/a&gt; work. Please share your success or failure story.&lt;div class=&quot;author&quot;&gt;
@@ -245,17 +260,6 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/gsoc-weekly-overview-pcb-sent-for-fab/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to memory at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
