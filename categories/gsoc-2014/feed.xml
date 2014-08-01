@@ -37,6 +37,16 @@
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>1 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
+      <description>&lt;p&gt;Sheila setup a rackspace VM for me to deploy the Django app. It&amp;rsquo;s the first time I&amp;rsquo;m using (and learning) Fabric.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Testing TimVideos Streaming System</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</link>
       <description>&lt;p&gt;Timvideos make heavy use of Flumotion for streaming live videos. So, I went ahead to test the ported Flumotion with the streaming system to fix the issue.&lt;/p&gt;
@@ -233,16 +243,6 @@
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/29-july-14/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 10 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</link>
-      <description>&lt;p&gt;This week, I was eagerly waiting for some good results so I can post on this blog. I was initially working on porting of DVSwitch flumotion component. The code changes were done but stream was still giving errors that caps aren’t set or stream format is not compatible.&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/week-10-progress/</guid>
-      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
   </channel>

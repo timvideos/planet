@@ -67,6 +67,16 @@
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>1 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
+      <description>&lt;p&gt;Sheila setup a rackspace VM for me to deploy the Django app. It&amp;rsquo;s the first time I&amp;rsquo;m using (and learning) Fabric.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Today's post will be merged with tomorrow's post</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</link>
       <description>I had to go out of town for most of the day so will update the blog tomorrow (Thursday). Please stay tuned.&lt;br /&gt;&lt;br /&gt;Thanks&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Has anyone tried reproducing some of &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer&quot;&gt;this&lt;/a&gt; work. Please share your success or failure story.&lt;div class=&quot;author&quot;&gt;
@@ -243,21 +253,6 @@
 </description>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/last-day-of-debugging-1-gbps-transmitter-s-mac/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 30/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-30-07-2014/</link>
-      <description>&lt;b&gt;[code]&lt;/b&gt; added CNAME to prose gatekeeper and prose editor&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added off-line mode to feedbook (+ tests)&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;created project for GitHub Jekyll plugins (gem), I will write Readme file now&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-30-07-2014/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>

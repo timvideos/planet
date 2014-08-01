@@ -25,6 +25,16 @@
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>1 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
+      <description>&lt;p&gt;Sheila setup a rackspace VM for me to deploy the Django app. It&amp;rsquo;s the first time I&amp;rsquo;m using (and learning) Fabric.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Testing TimVideos Streaming System</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</link>
       <description>&lt;p&gt;Timvideos make heavy use of Flumotion for streaming live videos. So, I went ahead to test the ported Flumotion with the streaming system to fix the issue.&lt;/p&gt;
@@ -251,21 +261,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
 </description>
       <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/week-9-progress/</guid>
-      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 20/07/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/20/gsoc-snippet-20-07-2014/</link>
-      <description>[code] added command line interface, config example, simple help, and all is nearly done, all I need to do is to write more tests and test it on my own. Today I've decided to add 2 more gateways: email and irc: Why should we have more than one application to notify posts, we can have social media sites, email and IRC all together. :+1:&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/gsoc-snippet-20-07-2014/</guid>
       <dc:date>2014-07-20T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
