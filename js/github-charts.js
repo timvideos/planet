@@ -14,6 +14,8 @@ var contributorsPieChartInitializer = {
       contributorsPieChartInitializer.initializeCodeFrequencyForProject(project, projectData.charts.codeFrequency);
       contributorsPieChartInitializer.initializeCommitActivityForProject(project, projectData.charts.commitActivity);
     }
+
+    setTimeout(function(){ $('#main').removeClass('loading') }, 2000)
   },
 
   initializePieChartForProject: function(project, projectData){
