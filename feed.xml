@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids reopened issue timvideos/streaming-system#18</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</guid>
+      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on issue timvideos/streaming-system#18</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
+      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Unable to get hidefsnow working</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
@@ -228,28 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to gh-pages at timvideos/prose</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
