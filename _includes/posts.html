@@ -2,7 +2,7 @@
   <div class="col-md-12 col-lg-6">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a href="{{ page.subdir }}{% category_url %}{{ category[0] | downcase }}/feed.xml"><i class="fa fa-rss"></i></a> <a href="{{ page.subdir }}{% category_url %}{{ category[0] | downcase }}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> <a href="{{ page.subdir }}{% category_url %}{{ category[0] | downcase }}">{{ category[0] | upcase }}</a></span></h4>
+        <h4><span class="hidden-xs">{{ page.caption }}</span> <span class="pull-right"><a target="_blank" href="{{ site.baseurl }}{% category_url %}{{ category[0] | downcase }}/feed.xml"><i class="fa fa-rss"></i></a> <a target="_blank" href="{{ site.baseurl }}{% category_url %}{{ category[0] | downcase }}/feed.opml"><i class="fa fa-dot-circle-o"></i></a> <a href="{{ page.subdir }}{% category_url %}{{ category[0] | downcase }}">{{ category[0] | upcase }}</a></span></h4>
       </div>
       <div class="panel-body">
         {% for post in category[1] %}
