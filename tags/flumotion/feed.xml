@@ -22,6 +22,17 @@
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids commented on issue timvideos/getting-started#9</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Testing TimVideos Streaming System</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/testing-timvideos-streaming-system/</link>
       <description>&lt;p&gt;Timvideos make heavy use of Flumotion for streaming live videos. So, I went ahead to test the ported Flumotion with the streaming system to fix the issue.&lt;/p&gt;
@@ -215,18 +226,6 @@
 </description>
       <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-pushed-to-dvswitchsink-at-aps-sids-dvsou/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids forked timvideos/dvsource-v4l2-other to aps-sids/dvsource-v4l2-other</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-forked-timvideos-dvsource-v4l2-other-to-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/18/aps-sids-forked-timvideos-dvsource-v4l2-other-to-/</guid>
       <dc:date>2014-07-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-01T00:00:00+00:00</dc:date>
