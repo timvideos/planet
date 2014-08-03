@@ -32,7 +32,7 @@ bundle exec planet generate -e html
 COMMIT_ID=$(git rev-parse HEAD)
 
 # Run jekyll
-bundle exec jekyll build > /dev/null 2>&1
+bundle exec jekyll build
 
 cd ..
 
@@ -43,14 +43,14 @@ if [ ! -d website ]; then
     cd website
 else
     cd website
-    git pull -q
+    git pull
 fi 
 
 # Remove the old content
 rm -rf *
 
 # Get back the README.md file
-git checkout -q README.md
+git checkout README.md
 
 # Copy the site into this directory
 cp -R ../website-source/_site/* .
@@ -59,7 +59,7 @@ git status
 
 # Make git match the content
 git add -A .
-git commit -q -m "Converted https://github.com/timvideos/planet/commit/$COMMIT_ID"
+git commit -m "Converted https://github.com/timvideos/planet/commit/$COMMIT_ID"
 
 # Push the change
-git push -q origin gh-pages
+git push origin gh-pages
