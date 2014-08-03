@@ -8,7 +8,40 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: BUG-REPORTING-SYSTEM</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 merged pull request Niharika29/bugtracker#8</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-merged-pull-request-niharika29-bugtrac/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>2 Aug, '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/2-aug-14/</link>
+      <description>&lt;p&gt;Sheila and I setup deployed the website on the backspace VM finally today.
+It can be accessed &lt;a href=&quot;http://bugtracker.codersquid.com/bugform/&quot;&gt;here&lt;/a&gt;. The JS and CSS files are not getting loaded, that&amp;rsquo;s an issue I will deal with tomorrow. Here&amp;rsquo;s some bugs and errors we encountered while deploying the website:&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/2-aug-14/</guid>
+      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>1 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
@@ -221,37 +254,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>6 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</link>
-      <description>&lt;p&gt;I merged some commits Skay made a few days ago and made some changes:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/6-july-14/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Open Source Bridge Conference!</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</link>
-      <description>&lt;p&gt;Hello! Apologies for not posting for over a week. I was attending the Open Source Bridge Conference in Portland. It is an amazing place to be. I met lots of people from Mozilla, RedHat, Wikimedia Foundation. Got to see the cool new projects people are working on, and upcoming fields in Data Science etc. There were special sessions dedicated to bringing more women into technology. I attended several talks and gave one of my own too. My talk was about the language selector I developed as part of my OPW internship with Wikimedia earlier this year. &lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/open-source-bridge-conference/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/27/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-06-27T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
