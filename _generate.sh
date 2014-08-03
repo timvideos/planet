@@ -32,7 +32,7 @@ bundle exec planet generate -e html
 COMMIT_ID=$(git rev-parse HEAD)
 
 # Run jekyll
-bundle exec jekyll build
+bundle exec jekyll build --trace
 
 cd ..
 
