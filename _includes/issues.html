@@ -26,7 +26,37 @@
         <div class="form-group">
           <div class="col-sm-offset-2 col-sm-10">
             <button class="btn btn-default issues-advanced">Advanced search</button>
+            <button class="btn btn-default issues-diagram">Projects diagram</button>
           </div>
+        </div>
+        <div class="issues-diagram-search text-center">
+          <img src="https://docs.google.com/drawings/d/1zYlT69xQqbAjzuJgKj-UhO1vRF5JNLpic8xmPrfNtXM/pub?w=960&amp;h=720" usemap="#wiki-flow-diagram-map" alt="Getting Started Flow Diagram">
+          <map name="wiki-flow-diagram-map">
+           <area class="area-selector" shape="rect" coords="47,458,197,549" data-type="hdmi2usb-extension-boards-projects"
+            title="HDMI2USB Extension Board Tasks"></area>
+           <area class="area-selector" shape="rect" coords="209,463,360,552" data-type="hdmi2usb-firmware-projects"
+            title="HDMI2USB Firmware Tasks"></area>
+           <area class="area-selector" shape="rect" coords="451,466,602,550" data-type="gst-switch"
+            title="gst-switch Tasks"></area>
+           <area class="area-selector" shape="rect" coords="449,557,600,642" data-type="gstreamer"
+            title="gstreamer Tasks"></area>
+           <area class="area-selector" shape="rect" coords="615,462,763,550" data-type="flumotion"
+            title="flumotion Tasks"></area>
+           <area class="area-selector" shape="rect" coords="773,462,923,551" data-type="streaming-system"
+            title="Tim Video's Website"></area>
+           <area class="area-selector" shape="rect" coords="586,65,723,215"  data-type="software-projects"
+            title="Software Tasks"></area>
+           <area class="area-selector" shape="rect" coords="228,65,374,210"  data-type="hardware-projects"
+            title="Hardware Tasks"></area>
+           <area class="area-selector" shape="rect" coords="209,301,355,444" data-type="hdmi2usb-firmware-projects"
+            title="Firmware Tasks"></area>
+           <area class="area-selector" shape="rect" coords="453,296,598,448" data-type="gst-switch"
+            title="C Tasks"></area>
+           <area class="area-selector" shape="rect" coords="615,298,760,449" data-type="streaming-system-python"
+            title="Python Tasks"></area>
+           <area class="area-selector" shape="rect" coords="774,298,927,448" data-type="streaming-system-web"
+            title="Web Tasks"></area>
+          </map>
         </div>
         <div class="issues-advanced-search">
           <div class="form-group issues-assignee">
@@ -107,69 +137,71 @@
   </div>
 </div>
 
-{% for project in page.issues_data %}
-  <div class="col-md-12 col-lg-6">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4>{{ project[1].name }}</h4>
-      </div>
-      <div class="panel-body">
-        {% for issue in project[1].issues %}
-          <div class="row issues">
-            <div class="col-sm-10">
-              <h5>
-                <a href="{{ issue.url }}" class="issue-title">{{ issue.title }}</a>
-              </h5>
-              <div class="issue" data-milestone-id="{{ issue.milestone_id }}" data-state="{{ issue.state }}" data-author="{{ issue.user_login }}" data-assignee="{{ issue.assignee_login }}"{% for filter in issue.special_filter_value %} data-{{ filter[0] }}="{{ filter[1].value | join: ';' }}"{% endfor %}>
-                {% if issue.labels %}
-                  <div class="labels">
-                    {% for label in issue.labels %}
-                      <span class="label label-tag" style="background-color: #{{ label.color }};">{{ label.name }}</span>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-                <div class="issue-content issue-body">
-                  <h4>Issue body</h4>
-                  <div>
-                    {{ issue.body | markdownify_gfm }}
-                  </div>
-                  <h4>Issue details</h4>
-                  <div class="issue-details">
-                    {% for filter in issue.special_filter_value %}
-                      {% if filter[1].value %}
-                        <div class="issue-detail">
-                          <div class="col-sm-4 issue-special-filter-name">
-                            {{ filter[1].name | capitalize }}
+<div id="issues">
+  {% for project in page.issues_data %}
+    <div class="col-md-12 col-lg-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4>{{ project[1].name }}</h4>
+        </div>
+        <div class="panel-body">
+          {% for issue in project[1].issues %}
+            <div class="row issues">
+              <div class="col-sm-10">
+                <h5>
+                  <a href="{{ issue.url }}" class="issue-title">{{ issue.title }}</a>
+                </h5>
+                <div class="issue" data-milestone-id="{{ issue.milestone_id }}" data-state="{{ issue.state }}" data-author="{{ issue.user_login }}" data-assignee="{{ issue.assignee_login }}"{% for filter in issue.special_filter_value %} data-{{ filter[0] }}="{{ filter[1].value | join: ';' }}"{% endfor %}>
+                  {% if issue.labels %}
+                    <div class="labels">
+                      {% for label in issue.labels %}
+                        <span class="label label-tag" style="background-color: #{{ label.color }};">{{ label.name }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  <div class="issue-content issue-body">
+                    <h4>Issue body</h4>
+                    <div>
+                      {{ issue.body | markdownify_gfm }}
+                    </div>
+                    <h4>Issue details</h4>
+                    <div class="issue-details">
+                      {% for filter in issue.special_filter_value %}
+                        {% if filter[1].value %}
+                          <div class="issue-detail">
+                            <div class="col-sm-4 issue-special-filter-name">
+                              {{ filter[1].name | capitalize }}
+                            </div>
+                            <div class="col-sm-8">
+                              {{ filter[1].value | join: ', ' }}
+                            </div>
                           </div>
-                          <div class="col-sm-8">
-                            {{ filter[1].value | join: ', ' }}
-                          </div>
-                        </div>
-                      {% endif %}
-                    {% endfor %}
+                        {% endif %}
+                      {% endfor %}
+                    </div>
                   </div>
+                  <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
+                  <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
                 </div>
-                <button type="button" data-toggle="tooltip" data-original-title="read in {{ issue.body | reading_time }}" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
-                <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
+                <small class="description">
+                  #{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}
+                  {% if issue.milestone_number %}
+                   • Milestone: <span data-toggle="tooltip" data-original-title="{{ issue.milestone_state }} / {{ issue.milestone_title }}{% if issue.milestone_due_on %} \ Due on: {{ issue.milestone_due_on | date: '%b %-d, %Y' }}{% endif %}">#{{ issue.milestone_number }}</span>
+                  {% endif %}
+                  {% if issue.assignee_login %}
+                   • Assignee: <a href="{{ issue.assignee_url }}">{{ issue.assignee_login }}</a>
+                  {% endif %}
+                </small>
               </div>
-              <small class="description">
-                #{{ issue.number }} • {{ issue.state }} • {{ issue.date | date: "%b %-d, %Y" }} • {{ issue.user_login }}
-                {% if issue.milestone_number %}
-                 • Milestone: <span data-toggle="tooltip" data-original-title="{{ issue.milestone_state }} / {{ issue.milestone_title }}{% if issue.milestone_due_on %} \ Due on: {{ issue.milestone_due_on | date: '%b %-d, %Y' }}{% endif %}">#{{ issue.milestone_number }}</span>
-                {% endif %}
-                {% if issue.assignee_login %}
-                 • Assignee: <a href="{{ issue.assignee_url }}">{{ issue.assignee_login }}</a>
-                {% endif %}
-              </small>
+              <div class="col-sm-2">
+                <a href="{{ issue.user_url }}" class="pull-right">
+                  <img src="{{ issue.user_avatar }}" class="img-circle">
+                </a>
+              </div>
             </div>
-            <div class="col-sm-2">
-              <a href="{{ issue.user_url }}" class="pull-right">
-                <img src="{{ issue.user_avatar }}" class="img-circle">
-              </a>
-            </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>

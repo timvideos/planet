@@ -1,5 +1,9 @@
 #! /bin/bash
 
+echo "Started generate.sh job"
+
+date
+
 set -e 
 set -x
 
@@ -63,3 +67,7 @@ git commit -m "Converted https://github.com/timvideos/planet/commit/$COMMIT_ID"
 
 # Push the change
 git push origin gh-pages
+
+date
+
+echo "End of generate.sh job."
