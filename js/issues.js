@@ -328,76 +328,112 @@ var issuesDiagramFiter = {
         $resetButton = $filter.find('.issues-reset'),
         $searchButton = $filter.find('.issues-search');
 
-    $('#main').on('click', 'map [data-type="hdmi2usb-extension-boards-projects"]', function(){
+    $('#main').on('click', 'map [href="#hdmi2usb-extension-boards-projects"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="HDMI2USB (Extension Boards)"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="HDMI2USB (Extension Boards)"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="hdmi2usb-firmware-projects"]', function(){
+    $('#main').on('click', 'map [href="#hdmi2usb-firmware-projects"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="HDMI2USB"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="HDMI2USB"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="gst-switch"]', function(){
+    $('#main').on('click', 'map [href="#gst-switch"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="gst-switch"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="gst-switch"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="gstreamer"]', function(){
+    $('#main').on('click', 'map [href="#gstreamer"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="gstreamer"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="gstreamer"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="flumotion"]', function(){
+    $('#main').on('click', 'map [href="#streaming-system"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Flumotion"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="Streaming System (Website)"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="software-projects"]', function(){
+    $('#main').on('click', 'map [href="#flumotion"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Software"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="Flumotion"][data-special-filter-type="project"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="hardware-projects"]', function(){
+    $('#main').on('click', 'map [href="#software"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Hardware"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="Software"][data-special-filter-type="type"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="streaming-system"]', function(){
+    $('#main').on('click', 'map [href="#hardware"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Streaming System (Website)"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="Hardware"][data-special-filter-type="type"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="streaming-system-python"]', function(){
+    $('#main').on('click', 'map [href="#firmware"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Streaming System (Website)"]').prop('checked', true);
-      $filter.find('[data-special-filter-value="Python"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="Firmware"][data-special-filter-type="type"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
     });
 
-    $('#main').on('click', 'map [data-type="streaming-system-web"]', function(){
+    $('#main').on('click', 'map [href="#c"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
       $resetButton.trigger('click');
-      $filter.find('[data-special-filter-value="Streaming System (Website)"]').prop('checked', true);
-      $filter.find('[data-special-filter-value="Javascript/HTML"]').prop('checked', true);
+      $filter.find('[data-special-filter-value="C"][data-special-filter-type="language"]').prop('checked', true);
       $searchButton.trigger('click');
-      $('html, body').animate({ scrollTop: $('#issues').offset().top }, 1000);
+      $('#main').scrollTo('#issues-start');
+    });
+
+    $('#main').on('click', 'map [href="#python"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      $resetButton.trigger('click');
+      $filter.find('[data-special-filter-value="Python"][data-special-filter-type="language"]').prop('checked', true);
+      $searchButton.trigger('click');
+      $('#main').scrollTo('#issues-start');
+    });
+
+    $('#main').on('click', 'map [href="#web"]', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      $resetButton.trigger('click');
+      $filter.find('[data-special-filter-value="Javascript/HTML"][data-special-filter-type="language"]').prop('checked', true);
+      $searchButton.trigger('click');
+      $('#main').scrollTo('#issues-start');
     });
   }
 }
