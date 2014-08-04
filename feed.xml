@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/streaming-system#75</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -18,6 +29,28 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -54,6 +87,36 @@
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoc Snippet] 03/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/gsoc-snippet-03-08-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;CSS improvements on mobile devices on planet and getting-started&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added generate.sh logger on &lt;a href=&quot;http://generate.timvideos.us/&quot;&gt;generate.timvideos.us&lt;/a&gt; to log planet.sh output&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added diagram to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt; (needs small improvements)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/gsoc-snippet-03-08-2014/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 3rd August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Simulating the 2-FIFO implementation. Problem in switching FIFO. Will have to look at code again&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Update: Okay. It was the testbench’s fault; &amp;nbsp;never lowered down the reset! Silly mistake #facepalm&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids starred pixelsign/html5-device-mockups</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-starred-pixelsign-html5-device-mockups/</link>
       <description>&lt;!-- watch --&gt;
@@ -63,6 +126,28 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-starred-pixelsign-html5-device-mockups/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>3 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/3-aug-14/</link>
+      <description>&lt;p&gt;The necessary JS and CSS files were not being loaded. I ran a 
+&amp;ldquo; python manage.py findstatic &amp;rdquo;. It told me some apps were not installed. &lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/3-aug-14/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -154,92 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-forked-timvideos-timvideos-github-io-to-pi/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created branch gh-pages at timvideos/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 02/08/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/gsoc-snippet-02-08-2014/</link>
-      <description>&lt;b&gt;[deploy] &lt;/b&gt;deployed getting-started to timvideos/getting-started with Travis CI and Prose.io editor&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed links for RSS feeds on iframe pages&lt;br /&gt;&lt;br /&gt;Tomorrow I will write post about my week progress (actually about 2 weeks progress, because I forgot to write post last week).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/gsoc-snippet-02-08-2014/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids reopened issue timvideos/streaming-system#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/streaming-system#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>2 Aug, '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/2-aug-14/</link>
-      <description>&lt;p&gt;Sheila and I setup deployed the website on the backspace VM finally today.
-It can be accessed &lt;a href=&quot;http://bugtracker.codersquid.com/bugform/&quot;&gt;here&lt;/a&gt;. The JS and CSS files are not getting loaded, that&amp;rsquo;s an issue I will deal with tomorrow. Here&amp;rsquo;s some bugs and errors we encountered while deploying the website:&lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/2-aug-14/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Unable to get hidefsnow working</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I wanted to add a 1080p test pattern to firmware so the performance at&amp;nbsp; that resolution can be understood. Unfortunately things are not working. I am getting strange output values from debugger. Hopefully I get it done soon. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

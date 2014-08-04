@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -18,6 +18,43 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoc Snippet] 03/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/gsoc-snippet-03-08-2014/</link>
+      <description>&lt;b&gt;[code] &lt;/b&gt;CSS improvements on mobile devices on planet and getting-started&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added generate.sh logger on &lt;a href=&quot;http://generate.timvideos.us/&quot;&gt;generate.timvideos.us&lt;/a&gt; to log planet.sh output&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added diagram to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt; (needs small improvements)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/gsoc-snippet-03-08-2014/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -210,39 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at timvideos/prose</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-timvideos-prose/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to gh-pages at pinoss/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/pinoss-pushed-to-gh-pages-at-pinoss-getting-start/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/streaming-system#75</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -18,6 +29,28 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -63,6 +96,17 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-starred-pixelsign-html5-device-mockups/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -188,51 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred im4aLL/chromeSmoothScroll</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-starred-im4all-chromesmoothscroll/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-starred-im4all-chromesmoothscroll/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/getting-started#9</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/31/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/31/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
-      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

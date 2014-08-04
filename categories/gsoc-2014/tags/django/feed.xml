@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
     <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
@@ -29,6 +29,17 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>3 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/3-aug-14/</link>
+      <description>&lt;p&gt;The necessary JS and CSS files were not being loaded. I ran a 
+&amp;ldquo; python manage.py findstatic &amp;rdquo;. It told me some apps were not installed. &lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/3-aug-14/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -243,17 +254,6 @@ I raised the question on Stackoverflow &lt;a href=&quot;http://stackoverflow.com
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
       <dc:date>2014-07-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 merged pull request Niharika29/bugtracker#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/07/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
-      <dc:date>2014-07-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

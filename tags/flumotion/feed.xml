@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/streaming-system#75</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred pixelsign/html5-device-mockups</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-starred-pixelsign-html5-device-mockups/</link>
@@ -19,6 +30,17 @@
 </description>
       <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-starred-pixelsign-html5-device-mockups/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/03/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
       <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -209,26 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-created-branch-porting-dvswitch-at-aps-s/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Problems porting DVSwitch Flumotion component</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/21/problems-porting-dvswitch-flumotion-component/</link>
-      <description>&lt;p&gt;While porting flumotion dvswitch producer, I’m stuck with a problem. Here’s the &lt;a href=&quot;http://pastebin.com/D8xr98Nt&quot;&gt;DEBUG LOG&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/21/problems-porting-dvswitch-flumotion-component/</guid>
-      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Week 9 Progress</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/20/week-9-progress/</link>
-      <description>&lt;p&gt;This week, I ported dvswitch gstreamer plugin to 1.0 version. It was compiled and I tested both dvswitch source and sink plugins. Tests run properly, but I’m unable to successfully build it as a debian package.&lt;/p&gt;
-
-</description>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/20/week-9-progress/</guid>
-      <dc:date>2014-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

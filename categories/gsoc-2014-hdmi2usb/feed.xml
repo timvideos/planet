@@ -8,7 +8,37 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 3rd August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Simulating the 2-FIFO implementation. Problem in switching FIFO. Will have to look at code again&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Update: Okay. It was the testbench’s fault; &amp;nbsp;never lowered down the reset! Silly mistake #facepalm&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</guid>
+      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/02/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1e-f9f4-0ea0-bb5076b7e94a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Saturday, 2nd August, 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1e-f9f4-0ea0-bb5076b7e94a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Completed assignment, went to college for its submission&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/02/gsoc-daily-log/</guid>
+      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Unable to get hidefsnow working</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
@@ -22,6 +52,21 @@
 </description>
       <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</guid>
+      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1d-e0c0-b1e6-2909d2f11561&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 1st August, 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1d-e0c0-b1e6-2909d2f11561&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Did the pending college assignment&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/gsoc-daily-log/</guid>
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -52,6 +97,21 @@
 </description>
       <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/today-s-post-will-be-merged-with-tomorrow-s-post/</guid>
+      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1c-cce5-d544-6e1fb55bcdde&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Thursday, 31st July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e1c-cce5-d544-6e1fb55bcdde&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Worked on 2-FIFO implementation&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/gsoc-daily-log/</guid>
       <dc:date>2014-07-31T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -218,50 +278,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-created-tag-rev02_lengthmatched_w-o_topco/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#9</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-9/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-9/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#22</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-22/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-22/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#15</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-15/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-15/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 closed issue rohit91/HDMI2USB-vmodvga#12</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-12/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-closed-issue-rohit91-hdmi2usb-vmodvga-12/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
