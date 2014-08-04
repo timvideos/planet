@@ -10,6 +10,28 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids commented on issue timvideos/streaming-system#75</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -208,28 +230,6 @@
 </description>
       <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids reopened issue timvideos/streaming-system#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-reopened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/streaming-system#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-04T00:00:00+00:00</dc:date>

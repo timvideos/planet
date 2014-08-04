@@ -311,6 +311,12 @@ padding-bottom: 0;
   font-weight: bold;
 }
 
+#main #issues-start {
+  width: 100%;
+  height: 1px;
+  float: left;
+}
+
 .spacer {
   margin-top: 20px;
 }

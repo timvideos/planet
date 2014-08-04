@@ -10,6 +10,21 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>[GSoC] What happenned during last 2 weeks?</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/gsoc-what-happenned-during-last-2-weeks/</link>
+      <description>Last weeks I spend working with feedbook, getting-started and planet projects.&lt;br /&gt;&lt;br /&gt;Finally I've deployed getting-started website to &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;, with prose editor and gatekeeper, and Travis CI builds, now, every commit (to master) triggers build website to gh-pages branch, build takes about 40 seconds and website is updated.&lt;br /&gt;&lt;br /&gt;During last 2 weeks I created new gem/application called Feedbook (&lt;a href=&quot;https://github.com/pinoss/feedbook/&quot;&gt;https://github.com/pinoss/feedbook/&lt;/a&gt;). What is feedbook? On GitHub I wrote that&amp;nbsp;&lt;i&gt;Feedbook is a simple console application that is build for social media notifications about RSS/Atom updates. &lt;/i&gt;I also created a gem called timeloop for looping every period of time (&lt;a href=&quot;https://github.com/pinoss/timeloop&quot;&gt;https://github.com/pinoss/timeloop&lt;/a&gt;). Last 2 weeks feedbook was under active development, I've designed architecture, config file and develop that small application and released stable 1.0 version last week. Currently I am working on small improvements and these will be released in 1.1 version. Now Feedbook supports IRC, Email, Facebook and Twitter notifications, and it is possible to write own Notifiers very easy (I wrote about it in README file). I've written many tests for Feedbook gem and added YARDoc documetation. I also wrote small document with design documentation for feedbook:&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&quot;&gt;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&lt;/a&gt; and &lt;a href=&quot;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&quot;&gt;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I've also started adding my work from planet and getting-started to Jekyll plugin on GitHub, now I need to write some README files and separate all written plugins and add them to jekyllrb.com :) (On &lt;a href=&quot;http://pinoit.blogspot.com/2014/08/gsoc-snippet-31072014.html&quot;&gt;31/07/2014 post&lt;/a&gt;&amp;nbsp;I wrote about plugins that I would like to release as standalone gems/plugins.&lt;br /&gt;&lt;br /&gt;On planet I've added GitHub charts loader and fixed css issues on mobile devices and problems with RSS links on iFrame. I've noticed problems with site generation on generate.timvideos.us, so I've added logger to generate.sh script and timestamps to check what is wrong with planet generation. I've also added diagram to planet.timvideos.us to issues to make it easier to find issue to work on. :)&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/gsoc-what-happenned-during-last-2-weeks/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoc Snippet] 03/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/03/gsoc-snippet-03-08-2014/</link>
       <description>&lt;b&gt;[code] &lt;/b&gt;CSS improvements on mobile devices on planet and getting-started&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added generate.sh logger on &lt;a href=&quot;http://generate.timvideos.us/&quot;&gt;generate.timvideos.us&lt;/a&gt; to log planet.sh output&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added diagram to &lt;a href=&quot;http://planet.timvideos.us/&quot;&gt;planet.timvideos.us&lt;/a&gt; (needs small improvements)&lt;div class=&quot;author&quot;&gt;
@@ -274,21 +289,6 @@ It can be accessed &lt;a href=&quot;http://bugtracker.codersquid.com/bugform/&qu
 </description>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/30/gsoc-snippet-29-07-2014/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]: Fixed I2C Problems in VHDL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/gsoc-daily-log-fixed-i2c-problems-in-vhdl/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 30th July 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Fixed I2C problem with code. &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Also, tried I2C using Picoblaze softcore processor. Seems good. Uses similar resources.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/gsoc-daily-log-fixed-i2c-problems-in-vhdl/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-04T00:00:00+00:00</dc:date>
