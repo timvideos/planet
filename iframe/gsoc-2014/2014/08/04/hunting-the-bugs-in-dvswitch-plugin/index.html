@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/plugins/jquery.plugins.js"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014</h4>
+      
+      <h1>Hunting the bugs in DVSwitch plugin</h1>
+      <div class="article">
+        <p class="meta description">
+          Aug 4, 2014
+           • Amanpreet (Porting Flumotion)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/flumotion">
+                  flumotion
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F08%2F04%2Fhunting-the-bugs-in-dvswitch-plugin%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F08%2F04%2Fhunting-the-bugs-in-dvswitch-plugin%2F&text=TimVideos.us%20Hunting+the+bugs+in+DVSwitch+plugin%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F08%2F04%2Fhunting-the-bugs-in-dvswitch-plugin%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014%2F2014%2F08%2F04%2Fhunting-the-bugs-in-dvswitch-plugin%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <p>With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:</p>
+
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">Twisted</span> <span class="n">traceback</span><span class="p">:</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+<span class="n">Failure</span><span class="p">:</span> <span class="n">flumotion</span><span class="o">.</span><span class="n">common</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">GStreamerGstError</span><span class="p">:</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">__main__</span><span class="o">.</span><span class="n">GstDvswitchSrc</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f10c8c5f410</span> <span class="p">(</span><span class="n">GstDvswitchSrc</span> <span class="n">at</span> <span class="mh">0x18a7be0</span><span class="p">)</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">GError</span><span class="p">(</span><span class="s">&#39;Internal data flow error.&#39;</span><span class="p">,),</span> <span class="s">&#39;gstbasesrc.c(2865): gst_base_src_loop (): /GstPipeline:pipeline-producer-audio-video/GstDvswitchSrc:src:</span><span class="se">\n</span><span class="s">streaming task paused, reason not-negotiated (-4)&#39;</span><span class="p">)</span>
+ 
+<span class="n">DEBUG</span> <span class="p">[</span><span class="mi">19679</span><span class="p">]</span> <span class="n">twisted</span> <span class="n">Aug</span> <span class="mo">04</span> <span class="mi">16</span><span class="p">:</span><span class="mi">52</span><span class="p">:</span><span class="mi">36</span> <span class="p">[</span><span class="o">-</span><span class="p">]</span> <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+<span class="n">Failure</span><span class="p">:</span> <span class="n">flumotion</span><span class="o">.</span><span class="n">common</span><span class="o">.</span><span class="n">errors</span><span class="o">.</span><span class="n">GStreamerGstError</span><span class="p">:</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">__main__</span><span class="o">.</span><span class="n">GstDvswitchSrc</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f10c8c5f410</span> <span class="p">(</span><span class="n">GstDvswitchSrc</span> <span class="n">at</span> <span class="mh">0x18a7be0</span><span class="p">)</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">GError</span><span class="p">(</span><span class="s">&#39;Internal data flow error.&#39;</span><span class="p">,),</span> <span class="s">&#39;gstbasesrc.c(2865): gst_base_src_loop (): /GstPipeline:pipeline-producer-audio-video/GstDvswitchSrc:src:</span><span class="se">\n</span><span class="s">streaming task paused, reason not-negotiated (-4)&#39;</span><span class="p">)</span></code></pre></div>
+
+<p>This shows that some link is not negotiated somewhere in the pipeline. To find the root of this problem, I got out this <a href="http://paste.ubuntu.com/7954475/">DEBUG log</a>. Now this log gave some insights about what is going on and I find these questions to start with:</p>
+
+<ol>
+  <li>
+    <p>Line 81 – linking src:(any) to typefindelement0:(any) (0/0) with caps “(NULL)”  – Does this mean that caps must be set by dvswitchsrc plugin?</p>
+  </li>
+  <li>
+    <p>Line 119 – no such pad ‘video’ in element “demux”  – Is this causing the problem as pads can’t be linked?</p>
+  </li>
+</ol>
+
+<p>There are various such error, but the failure occus at Line 1373 - ` gstbasetransform.c:2115:gst_base_transform_handle_buffer:<videorate0> warning: not negotiated `</videorate0></p>
+
+<p>So, I’m now going to inspect all these problems and hopefully fix them.</p><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://aps-sids.github.io/porting-flumotion">Porting Flumotion - GSoC '14 Progress Blog</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

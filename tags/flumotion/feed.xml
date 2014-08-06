@@ -8,7 +8,28 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Hunting the bugs in DVSwitch plugin</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</link>
+      <description>&lt;p&gt;With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids commented on issue timvideos/streaming-system#75</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
@@ -208,29 +229,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-dvswitch at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-created-branch-porting-dvswitch-at-aps-s/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/22/aps-sids-created-branch-porting-dvswitch-at-aps-s/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,51 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -29,6 +73,17 @@
 </description>
       <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to docker at maxstr/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
       <dc:date>2014-08-04T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -175,63 +230,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss opened pull request timvideos/getting-started#26</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-opened-pull-request-timvideos-getting-star/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-opened-pull-request-timvideos-getting-star/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss merged pull request timvideos/getting-started#26</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-merged-pull-request-timvideos-getting-star/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-merged-pull-request-timvideos-getting-star/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked timvideos/timvideos.github.io to pinoss/timvideos.github.io</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-forked-timvideos-timvideos-github-io-to-pi/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-forked-timvideos-timvideos-github-io-to-pi/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch gh-pages at timvideos/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>

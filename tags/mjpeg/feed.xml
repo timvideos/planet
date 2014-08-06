@@ -8,7 +8,44 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Hidef snow working!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally got the hidef snow working through hdmi2usb via HDMI out but not via usb.&lt;br /&gt;I am getting a timeout error. I increased the watchdog timer inside the usb module to absurdly large value but it still did not remove the error. The large size of frame might be the problem.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew pushed to master at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew commented on issue timvideos/HDMI2USB#68</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
+      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Unable to get hidefsnow working</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
@@ -217,43 +254,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-pushed-to-ajit-debug-v2-at-ajitmathew-/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew commented on commit ajitmathew/HDMI2USB@7f2f8e8afd</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-commented-on-commit-ajitmathew-hdmi2us/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/23/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
-      <dc:date>2014-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/22/daily-snippet/</link>
-      <description>&lt;p dir=ltr&gt;Oops missed yesterday's blog.&lt;br&gt;- Heart beat feature completed&lt;br&gt;- Sent debug data out of cdc&lt;br&gt;- working on debugger program&lt;br&gt;- major changes to debug &lt;u&gt;module&lt;/u&gt;&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 22 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/22/daily-snippet/</guid>
-      <dc:date>2014-07-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
