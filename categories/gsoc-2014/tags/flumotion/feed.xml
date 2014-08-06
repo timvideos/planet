@@ -10,6 +10,27 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Bug hunting continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</link>
+      <description>&lt;p&gt;I’m running a stream from dvswitch and this is the gstreamer pipeline I’m using:&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
       <description>&lt;!-- push --&gt;
@@ -206,28 +227,6 @@
       <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-created-branch-porting-generic-decoder-a/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on commit aps-sids/flumotion-orig@ddcdfeb1b2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/aps-sids-commented-on-commit-aps-sids-flumotion-o/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-06T00:00:00+00:00</dc:date>
   </channel>

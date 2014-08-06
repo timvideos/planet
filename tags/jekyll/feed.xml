@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at timvideos/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/05/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
       <description>&lt;!-- push --&gt;
@@ -230,21 +241,6 @@
 </description>
       <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-created-branch-gh-pages-at-timvideos-getti/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Snippet] 02/08/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/gsoc-snippet-02-08-2014/</link>
-      <description>&lt;b&gt;[deploy] &lt;/b&gt;deployed getting-started to timvideos/getting-started with Travis CI and Prose.io editor&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;fixed links for RSS feeds on iframe pages&lt;br /&gt;&lt;br /&gt;Tomorrow I will write post about my week progress (actually about 2 weeks progress, because I forgot to write post last week).&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/gsoc-snippet-02-08-2014/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-06T00:00:00+00:00</dc:date>

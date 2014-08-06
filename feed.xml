@@ -10,6 +10,40 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 starred Mezgrman/TweetPony</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/niharika29-starred-mezgrman-tweetpony/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/niharika29-starred-mezgrman-tweetpony/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Hidef snow working!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally got the hidef snow working through hdmi2usb via HDMI out but not via usb.&lt;br /&gt;I am getting a timeout error. I increased the watchdog timer inside the usb module to absurdly large value but it still did not remove the error. The large size of frame might be the problem.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -22,6 +56,27 @@
 </description>
       <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Bug hunting continues</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</link>
+      <description>&lt;p&gt;I’m running a stream from dvswitch and this is the gstreamer pipeline I’m using:&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</guid>
+      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-08-06T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -184,64 +239,6 @@
 </description>
       <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to docker at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Hunting the bugs in DVSwitch plugin</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</link>
-      <description>&lt;p&gt;With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC] What happenned during last 2 weeks?</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/gsoc-what-happenned-during-last-2-weeks/</link>
-      <description>Last weeks I spend working with feedbook, getting-started and planet projects.&lt;br /&gt;&lt;br /&gt;Finally I've deployed getting-started website to &lt;a href=&quot;http://code.timvideos.us/&quot;&gt;code.timvideos.us&lt;/a&gt;, with prose editor and gatekeeper, and Travis CI builds, now, every commit (to master) triggers build website to gh-pages branch, build takes about 40 seconds and website is updated.&lt;br /&gt;&lt;br /&gt;During last 2 weeks I created new gem/application called Feedbook (&lt;a href=&quot;https://github.com/pinoss/feedbook/&quot;&gt;https://github.com/pinoss/feedbook/&lt;/a&gt;). What is feedbook? On GitHub I wrote that&amp;nbsp;&lt;i&gt;Feedbook is a simple console application that is build for social media notifications about RSS/Atom updates. &lt;/i&gt;I also created a gem called timeloop for looping every period of time (&lt;a href=&quot;https://github.com/pinoss/timeloop&quot;&gt;https://github.com/pinoss/timeloop&lt;/a&gt;). Last 2 weeks feedbook was under active development, I've designed architecture, config file and develop that small application and released stable 1.0 version last week. Currently I am working on small improvements and these will be released in 1.1 version. Now Feedbook supports IRC, Email, Facebook and Twitter notifications, and it is possible to write own Notifiers very easy (I wrote about it in README file). I've written many tests for Feedbook gem and added YARDoc documetation. I also wrote small document with design documentation for feedbook:&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&quot;&gt;https://docs.google.com/document/d/1K3-9CdqzLC9MJ97uCIrlrAeGQfrTB4KZF2GMeMlWZJE/edit?usp=sharing&lt;/a&gt; and &lt;a href=&quot;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&quot;&gt;https://drive.google.com/file/d/0B01dRm0dflH1QTBObXIzUG9NaTA/edit?usp=sharing&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I've also started adding my work from planet and getting-started to Jekyll plugin on GitHub, now I need to write some README files and separate all written plugins and add them to jekyllrb.com :) (On &lt;a href=&quot;http://pinoit.blogspot.com/2014/08/gsoc-snippet-31072014.html&quot;&gt;31/07/2014 post&lt;/a&gt;&amp;nbsp;I wrote about plugins that I would like to release as standalone gems/plugins.&lt;br /&gt;&lt;br /&gt;On planet I've added GitHub charts loader and fixed css issues on mobile devices and problems with RSS links on iFrame. I've noticed problems with site generation on generate.timvideos.us, so I've added logger to generate.sh script and timestamps to check what is wrong with planet generation. I've also added diagram to planet.timvideos.us to issues to make it easier to find issue to work on. :)&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/gsoc-what-happenned-during-last-2-weeks/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/streaming-system#75</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
       <dc:date>2014-08-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-06T00:00:00+00:00</dc:date>
