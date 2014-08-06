@@ -28,15 +28,15 @@ else
 fi
 
 git pull
-bundle install --path vendor/bundle
+/usr/local/bin/bundle install
 
 # Generate posts from planet.yml
-bundle exec planet generate -e html
+/usr/local/bin/bundle exec planet generate -e html
 
 COMMIT_ID=$(git rev-parse HEAD)
 
 # Run jekyll
-bundle exec jekyll build --trace
+/usr/local/bin/bundle exec jekyll build --trace
 
 cd ..
 
