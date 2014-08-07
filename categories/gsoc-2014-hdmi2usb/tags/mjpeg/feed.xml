@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew commented on pull request timvideos/HDMI2USB#90</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Hidef snow working!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally got the hidef snow working through hdmi2usb via HDMI out but not via usb.&lt;br /&gt;I am getting a timeout error. I increased the watchdog timer inside the usb module to absurdly large value but it still did not remove the error. The large size of frame might be the problem.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -241,17 +252,6 @@
 </description>
       <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/daily-snippet/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to ajit-debug-v2 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-pushed-to-ajit-debug-v2-at-ajitmathew-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/24/ajitmathew-pushed-to-ajit-debug-v2-at-ajitmathew-/</guid>
       <dc:date>2014-07-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-07T00:00:00+00:00</dc:date>
