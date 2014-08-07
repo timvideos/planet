@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss edited the timvideos/getting-started wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -222,17 +233,6 @@
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/planet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-07T00:00:00+00:00</dc:date>
   </channel>
