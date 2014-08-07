@@ -21,6 +21,17 @@
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss edited the timvideos/getting-started wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -29,6 +40,29 @@
 </description>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created the timvideos/getting-started wiki</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-the-timvideos-getting-started-wiki/</link>
+      <description>&lt;!-- gollum --&gt;
+&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-the-timvideos-getting-started-wiki/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/jekyll-github-plugins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-github-pl/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-github-pl/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -201,38 +235,6 @@
 </description>
       <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/pinoss-pushed-to-master-at-timvideos-planet/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to docker at maxstr/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Hunting the bugs in DVSwitch plugin</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</link>
-      <description>&lt;p&gt;With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</guid>
       <dc:date>2014-08-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-07T00:00:00+00:00</dc:date>
