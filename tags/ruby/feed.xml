@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss edited the timvideos/getting-started wiki</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</link>
+      <description>&lt;!-- gollum --&gt;
+&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -234,17 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss opened pull request timvideos/getting-started#26</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-opened-pull-request-timvideos-getting-star/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/pinoss-opened-pull-request-timvideos-getting-star/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
