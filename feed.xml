@@ -230,14 +230,18 @@
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ajitmathew commented on pull request timvideos/HDMI2USB#90</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+      <title>Control port via UART</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/control-port-via-uart/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;This is turning out to be more difficult than I thought. I was trying to use the same controller module for cdc and UART. But for some reason which I haven't been able to figure out, the video output is null when I am trying to do that. Tried a bunch of stuff but nothing worked. I guess I will have to make a separate controller for UART. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
 
 </description>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</guid>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/control-port-via-uart/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-07T00:00:00+00:00</dc:date>
