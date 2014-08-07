@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Bug hunting continues</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</link>
       <description>&lt;p&gt;I’m running a stream from dvswitch and this is the gstreamer pipeline I’m using:&lt;/p&gt;
@@ -214,18 +225,6 @@
 </description>
       <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch porting-generic-decoder at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-created-branch-porting-generic-decoder-a/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-created-branch-porting-generic-decoder-a/</guid>
       <dc:date>2014-07-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-07T00:00:00+00:00</dc:date>
