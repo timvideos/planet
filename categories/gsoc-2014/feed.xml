@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/08/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/08/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-08T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
@@ -229,17 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/gsoc-snippet-07-08-2014/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-07T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-08T00:00:00+00:00</dc:date>
   </channel>
 </rss>
