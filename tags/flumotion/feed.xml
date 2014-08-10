@@ -8,7 +8,28 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>PROBLEM FOUND. MUST FIX.</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/09/problem-found-must-fix/</link>
+      <description>&lt;p&gt;I’ve become a sleep deprived bug hunter now, feel like a robo though :P&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/09/problem-found-must-fix/</guid>
+      <dc:date>2014-08-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/09/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/09/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
+      <dc:date>2014-08-09T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
@@ -205,28 +226,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-07-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to master at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 27 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/27/aps-sids-pushed-to-master-at-timvideos-streaming-/</guid>
-      <dc:date>2014-07-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-generic-decoder at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/25/aps-sids-pushed-to-porting-generic-decoder-at-aps/</guid>
-      <dc:date>2014-07-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-08T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-09T00:00:00+00:00</dc:date>
   </channel>
 </rss>
