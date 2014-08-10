@@ -8,7 +8,51 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-page-url-tag</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-opml-generator</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-opml-gen/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-opml-gen/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/09/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
@@ -188,54 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-opml-gene/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-json-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-json-gene/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-json-gene/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-iframe-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-iframe-ge/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-iframe-ge/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-github-plugins</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-github-pl/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-github-pl/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-category-tag-page-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-category-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-category-/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>

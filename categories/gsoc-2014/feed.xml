@@ -8,7 +8,66 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-page-url-tag</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/jekyll-opml-generator</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-opml-gen/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-opml-gen/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>10 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/10-aug-14/</link>
+      <description>&lt;p&gt;Hi. I was away to my grandparent&amp;rsquo;s place yesterday and most part of today owing to an Indian festival. I spent some time trying to wrap my head around how decorators work in Django. I think I&amp;rsquo;ve isolated the due to which the user is repeatedly logged out. I&amp;rsquo;ll code it up tomorrow and hope that it works as I think it should. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/10-aug-14/</guid>
+      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>PROBLEM FOUND. MUST FIX.</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/09/problem-found-must-fix/</link>
@@ -176,66 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-the-timvideos-getting-started-wiki/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created tag v1.1.0 at pinoss/feedbook</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-tag-v1-1-0-at-pinoss-feedbook/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-tag-v1-1-0-at-pinoss-feedbook/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-page-url-tag</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-page-url-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-page-url-/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-opml-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-opml-gene/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-opml-gene/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-json-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-json-gene/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-json-gene/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-iframe-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-iframe-ge/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-iframe-ge/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
