@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/08/11/successful-transmission-of-packets-and-recovery//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/plugins/jquery.plugins.js"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-12 col-md-12 col-lg-12" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Successful transmission of packets and recovery </h1>
+      <div class="article">
+        <p class="meta description">
+          Aug 11, 2014
+           • Tariq (Ethernet Support)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/iframe/tags/ethernet">
+                  ethernet
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F11%2Fsuccessful-transmission-of-packets-and-recovery%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F11%2Fsuccessful-transmission-of-packets-and-recovery%2F&text=TimVideos.us%20Successful+transmission+of+packets+and+recovery+%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F11%2Fsuccessful-transmission-of-packets-and-recovery%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F11%2Fsuccessful-transmission-of-packets-and-recovery%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          Hi,<br />Good to see you after a break. I was at a Conference last week and after the end of each day, i dedicated some time to figuring out why packets were getting dropped and how to correct that. Finally, i got it working after lot of debugging using simulation, Chipscope pro and Googling. Anyway, i tried a couple of options. Some worked and some didn't. These were:<br /><br />1) Adding latency (number of milliseconds before a packet is declared dropped) to the Gstreamer command<br /><br />time gst-launch-1.0 -v udpsrc uri=udp://192.168.1.1:5004 &nbsp;caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, sampling=(string)RGB, depth=(string)8, width=(string)1280, height=(string)720" ! rtpbin latency=1 ! rtpvrawdepay &nbsp;! videoconvert ! &nbsp;autovideosink<br /><br />I also tried with latency of 0 and it worked. Now the inter-packet delay is configurable using Atlys Switches sw0 to sw5. The default delay is 3000 clock cycles which corresponds to approximately 30 fps. Here is the configuration.<br /><br />sw5 sw4 sw3 sw2 sw1 sw0 &nbsp; Delay in clock cycles<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3000<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2625<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2250<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1875<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1500<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1125<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;750<br />0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;375<br /><br /><div>0 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5500<br />0 &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;8000<br />0 &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 10500<br />1 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 13000<br />1 &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 15500<br />1 &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 18000<br />1 &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 20500<br /><br /></div><div>sw6 is reserved for jumbo frame size and sw7 is reserved for 1080p (for future tweaks)</div><br />2) By Tcp tuning in <a href="http://www.cyberciti.biz/faq/linux-tcp-tuning/">Linux</a> and <a href="http://www.speedguide.net/downloads.php">Windows 7</a><br /><br />I &nbsp;tried without tuning and it worked. The tuning was done to see how much of inter-packet delay can be decreased. It turned out that as you approach to 0 inter-packet delay, Tcp tuning does not work<br /><br />3) Going from Cat 5 to Cat 6 cable and it didn't make a difference.<br /><br />4) Going from Linux to Windows 7 as my laptop had Windows 7 and i was stuck with this last week. It was not different going from Linux to Windows 7 except that Gstreamer didn't work in Window 7 for some reason.<br /><br />Here is a quick <a href="https://www.dropbox.com/s/s7zyqe1mcy3yw17/20140811_010800.mp4">demo</a>. You will see frame rate going up (faster RGB pattern) and then going down (slow RGB pattern)<br /><br /><br />Now i shall work on DDR2 integration and documentation this week.<br /><br />Please give your valuable feedback<br /><br /><br /><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://hdmi2ethernet.blogspot.com/">GSOC 2014</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
