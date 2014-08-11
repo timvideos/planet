@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/11/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/getting-started</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
@@ -220,18 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-page-url-/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created repository pinoss/jekyll-opml-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-opml-gene/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-created-repository-pinoss-jekyll-opml-gene/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-10T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
