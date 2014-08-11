@@ -25,6 +25,21 @@
       <dc:date>2014-08-11T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Control Port Still not working</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/control-port-still-not-working/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Fixed some error but status commands are still not working grrrr..&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/control-port-still-not-working/</guid>
+      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[GSoC Daily Log]</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/10/gsoc-daily-log/</link>
       <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c39d-ca92-85d4-bf9e95db357a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 10th August, 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c39d-ca92-85d4-bf9e95db357a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Assembling completed. One PCB got damaged, due to its pad getting broken. (Either the PCB is slightly delicate or I’ve forgotten my soldering techniques :/ )&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Power supplies working fine, but IC is not respnding to I2C.Very discouraging! &amp;nbsp;I was really excited to try work with my new board. Anyways, time for debugging.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -293,21 +308,6 @@
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/gsoc-daily-log-fixed-i2c-problems-in-vhdl/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>The 2nd last day of 1 Gbps debugging</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</link>
-      <description>Today it came to light that complete simulation environment cannot be built as parts of the code actually probe PHY status registers. So the idea of top level design testbench did n't work. So i am back to unit testing and making sure that there is nothing in the code that is responsible for generating conditions that make a packet drop from MAC. After that i shall send traffic from FPGA to PC and see if the receiver PC's MAC is able to catch up or not by doing ifconfig or other utilities that can help detect packet loss. It seems likely that receiver MAC is not able to keep up.&lt;br /&gt;&lt;br /&gt;This whole saga should end tomorrow. I am pretty hopeful.&lt;br /&gt;&lt;br /&gt;Other than that we celebrated our holy Eid today. So spending some time with the family is good. It is good to take a break from GSoC.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/the-2nd-last-day-of-1-gbps-debugging/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-11T00:00:00+00:00</dc:date>
   </channel>
