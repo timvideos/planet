@@ -8,7 +8,41 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: PYTHON</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 created repository Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 created branch master at Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>11 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</link>
+      <description>&lt;p&gt;Things I did today:&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
@@ -209,42 +243,6 @@ It can be accessed &lt;a href=&quot;http://bugtracker.codersquid.com/bugform/&qu
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/29/29-july-14/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>28 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</link>
-      <description>&lt;p&gt;I talked to Sheila about getting the app up and running on a server. She&amp;rsquo;s helping me by writing fabric scripts to automate the process (something I am completely unfamiliar with). She gave me the link to a helpful blogpost for deploying a django project for the first time. It can be found &lt;a href=&quot;http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/28/28-july-14/</guid>
-      <dc:date>2014-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>24 July '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</link>
-      <description>&lt;p&gt;I spent most of the day improvising the forms and looking up better ways I could take and save a page screenshot. I have two major tasks left to do now:&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/24/24-july-14/</guid>
-      <dc:date>2014-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>

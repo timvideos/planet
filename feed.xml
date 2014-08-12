@@ -8,7 +8,41 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 created repository Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 created branch master at Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>11 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</link>
+      <description>&lt;p&gt;Things I did today:&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Successful transmission of packets and recovery </title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/successful-transmission-of-packets-and-recovery/</link>
@@ -223,46 +257,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/09/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-08-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/08/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/08/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
-      <dc:date>2014-08-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/08/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c392-242b-33a7-3ccaefb80919&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Friday, 8th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c392-242b-33a7-3ccaefb80919&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Went to college. Wasn’t able to do any work &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/08/gsoc-daily-log/</guid>
-      <dc:date>2014-08-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>8 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/08/8-aug-14/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;I improved the styling. Changing some internal structure and hiding some unnecessary fields.&lt;/li&gt;
-&lt;li&gt;Resolved the IP address issue. Hadn&amp;rsquo;t installed app in virtualenv. Skay helped.&lt;/li&gt;
-&lt;li&gt;Looked into permission decorators. &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/08/8-aug-14/</guid>
-      <dc:date>2014-08-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>

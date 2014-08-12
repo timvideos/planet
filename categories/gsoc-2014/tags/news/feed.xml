@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>11 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</link>
+      <description>&lt;p&gt;Things I did today:&lt;/p&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 11/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/gsoc-snippet-11-08-2014/</link>
@@ -265,16 +275,6 @@ It can be accessed &lt;a href=&quot;http://bugtracker.codersquid.com/bugform/&qu
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/gsoc-snippet-01-08-2014/</guid>
       <dc:date>2014-08-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>1 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</link>
-      <description>&lt;p&gt;Sheila setup a rackspace VM for me to deploy the Django app. It&amp;rsquo;s the first time I&amp;rsquo;m using (and learning) Fabric.&lt;/p&gt;
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/01/1-aug-14/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>

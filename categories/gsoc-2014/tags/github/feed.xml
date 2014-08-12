@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 created repository Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 created branch master at Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-branch-master-at-niharika29-ni/</guid>
+      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/jekyll-json-generator</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/pinoss-pushed-to-master-at-pinoss-jekyll-json-gen/</link>
@@ -207,28 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-feedbook/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to gh-pages at timvideos/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-gh-pages-at-timvideos-getting-st/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss edited the timvideos/getting-started wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-edited-the-timvideos-getting-started-wiki/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>
