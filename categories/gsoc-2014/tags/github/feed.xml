@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started-tester</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-08-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/jekyll-page-url-tag</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</link>
       <description>&lt;!-- push --&gt;
@@ -219,17 +230,6 @@
 </description>
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-jekyll-json-gen/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/jekyll-iframe-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-jekyll-iframe-g/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-jekyll-iframe-g/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-13T00:00:00+00:00</dc:date>
