@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Documentation Continues towards finishing</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/14/documentation-continues-towards-finishing/</link>
+      <description>Today was spent updating the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt; repository and &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;. The&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;&amp;nbsp;refers to&amp;nbsp;&lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt;&amp;nbsp;quite a bit. Besides that i uploaded the static image &lt;a href=&quot;https://www.dropbox.com/s/wtyj6ecr5wft5kp/20140813_102144.mp4&quot;&gt;Demo&lt;/a&gt;&amp;nbsp;(see yesterday's post as well).&lt;br /&gt;&lt;br /&gt;Now I hope to get sometime to work on DDR2 as that is in good progress. I hope to finish this bonus step by Friday.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/14/documentation-continues-towards-finishing/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred swetland/zynq-sandbox</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/rohit91-starred-swetland-zynq-sandbox/</link>
@@ -270,18 +285,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-created-repository-rohit91-hdmi2usb-vmodv/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/HDMI2USB-vModVGA-TestBitFiles</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-created-branch-master-at-rohit91-hdmi2usb/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-created-branch-master-at-rohit91-hdmi2usb/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-13T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
