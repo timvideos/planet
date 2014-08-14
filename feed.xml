@@ -10,6 +10,52 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>Niharika29 starred daneden/animate.css</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-starred-daneden-animate-css/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-starred-daneden-animate-css/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to gh-pages at Niharika29/jekyll-wardrobe</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-pushed-to-gh-pages-at-niharika29-jekyl/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-pushed-to-gh-pages-at-niharika29-jekyl/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 opened pull request muan/jekyll-wardrobe#3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-opened-pull-request-muan-jekyll-wardro/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-opened-pull-request-muan-jekyll-wardro/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 forked muan/jekyll-wardrobe to Niharika29/jekyll-wardrobe</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-forked-muan-jekyll-wardrobe-to-niharik/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-forked-muan-jekyll-wardrobe-to-niharik/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Documentation Continues towards finishing</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/14/documentation-continues-towards-finishing/</link>
       <description>Today was spent updating the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt; repository and &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;. The&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;&amp;nbsp;refers to&amp;nbsp;&lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt;&amp;nbsp;quite a bit. Besides that i uploaded the static image &lt;a href=&quot;https://www.dropbox.com/s/wtyj6ecr5wft5kp/20140813_102144.mp4&quot;&gt;Demo&lt;/a&gt;&amp;nbsp;(see yesterday's post as well).&lt;br /&gt;&lt;br /&gt;Now I hope to get sometime to work on DDR2 as that is in good progress. I hope to finish this bonus step by Friday.&lt;div class=&quot;author&quot;&gt;
@@ -213,57 +259,6 @@
       <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/gsoc-snippet-12-08-2014/</guid>
       <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>12 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/12-aug-14/</link>
-      <description>&lt;p&gt;Today I worked on adding a link in the streaming-system website frontend. I assumed it to be a straightforward task, which it should have been, but I&amp;rsquo;ve messed up my git repo somewhat. Doing a &amp;lsquo;make serve&amp;rsquo; for the streaming system turns up a series of errors. I&amp;rsquo;ve setup the stream before, so I think I can resolve it. That&amp;rsquo;s my first task for tomorrow. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/12-aug-14/</guid>
-      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>11 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</link>
-      <description>&lt;p&gt;Things I did today:&lt;/p&gt;
-
-</description>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/11-aug-14/</guid>
-      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Successful transmission of packets and recovery </title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/successful-transmission-of-packets-and-recovery/</link>
-      <description>Hi,&lt;br /&gt;Good to see you after a break. I was at a Conference last week and after the end of each day, i dedicated some time to figuring out why packets were getting dropped and how to correct that. Finally, i got it working after lot of debugging using simulation, Chipscope pro and Googling. Anyway, i tried a couple of options. Some worked and some didn't. These were:&lt;br /&gt;&lt;br /&gt;1) Adding latency (number of milliseconds before a packet is declared dropped) to the Gstreamer command&lt;br /&gt;&lt;br /&gt;time gst-launch-1.0 -v udpsrc uri=udp://192.168.1.1:5004 &amp;nbsp;caps=&quot;application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)RAW, sampling=(string)RGB, depth=(string)8, width=(string)1280, height=(string)720&quot; ! rtpbin latency=1 ! rtpvrawdepay &amp;nbsp;! videoconvert ! &amp;nbsp;autovideosink&lt;br /&gt;&lt;br /&gt;I also tried with latency of 0 and it worked. Now the inter-packet delay is configurable using Atlys Switches sw0 to sw5. The default delay is 3000 clock cycles which corresponds to approximately 30 fps. Here is the configuration.&lt;br /&gt;&lt;br /&gt;sw5 sw4 sw3 sw2 sw1 sw0 &amp;nbsp; Delay in clock cycles&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3000&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2625&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2250&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1875&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1500&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1125&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;750&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;375&lt;br /&gt;&lt;br /&gt;&lt;div&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;5500&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;8000&lt;br /&gt;0 &amp;nbsp; &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 10500&lt;br /&gt;1 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 13000&lt;br /&gt;1 &amp;nbsp; &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 15500&lt;br /&gt;1 &amp;nbsp; &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 18000&lt;br /&gt;1 &amp;nbsp; &amp;nbsp; &amp;nbsp;1 &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp;0 &amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 20500&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;sw6 is reserved for jumbo frame size and sw7 is reserved for 1080p (for future tweaks)&lt;/div&gt;&lt;br /&gt;2) By Tcp tuning in &lt;a href=&quot;http://www.cyberciti.biz/faq/linux-tcp-tuning/&quot;&gt;Linux&lt;/a&gt; and &lt;a href=&quot;http://www.speedguide.net/downloads.php&quot;&gt;Windows 7&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I &amp;nbsp;tried without tuning and it worked. The tuning was done to see how much of inter-packet delay can be decreased. It turned out that as you approach to 0 inter-packet delay, Tcp tuning does not work&lt;br /&gt;&lt;br /&gt;3) Going from Cat 5 to Cat 6 cable and it didn't make a difference.&lt;br /&gt;&lt;br /&gt;4) Going from Linux to Windows 7 as my laptop had Windows 7 and i was stuck with this last week. It was not different going from Linux to Windows 7 except that Gstreamer didn't work in Window 7 for some reason.&lt;br /&gt;&lt;br /&gt;Here is a quick &lt;a href=&quot;https://www.dropbox.com/s/s7zyqe1mcy3yw17/20140811_010800.mp4&quot;&gt;demo&lt;/a&gt;. You will see frame rate going up (faster RGB pattern) and then going down (slow RGB pattern)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Now i shall work on DDR2 integration and documentation this week.&lt;br /&gt;&lt;br /&gt;Please give your valuable feedback&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/successful-transmission-of-packets-and-recovery/</guid>
-      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/jekyll-json-generator</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/pinoss-pushed-to-master-at-pinoss-jekyll-json-gen/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/11/pinoss-pushed-to-master-at-pinoss-jekyll-json-gen/</guid>
-      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-14T00:00:00+00:00</dc:date>
   </channel>
