@@ -55,6 +55,21 @@
       <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[Last GSoC Snippet] 15/09/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/last-gsoc-snippet-15-09-2014/</link>
+      <description>I will sum up everything in another post (I will write GSoC report tomorrow or day after tomorrow). I've already written outline and I need some time to write it. :)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tests for Jekyll plugins&lt;br /&gt;&lt;b&gt;[monitor] &lt;/b&gt;updated monitor.us configuration&lt;br /&gt;&lt;b&gt;[doc] &lt;/b&gt;written outline for GSoC Report&lt;br /&gt;&lt;br /&gt;&lt;i style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;What is next/my plans to the end of GSoC 2014? [STATUS]&lt;/i&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;...&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;- Done&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;...&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: large; line-height: 19px;&quot;&gt;&lt;b style=&quot;background-color: #b6d7a8;&quot;&gt;All is done! :)&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/last-gsoc-snippet-15-09-2014/</guid>
+      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Final Report and almost finished Documentation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</link>
       <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
@@ -235,18 +250,6 @@
 </description>
       <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
-      <dc:date>2014-08-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/planet-tester</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-created-repository-pinoss-planet-tester/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-created-repository-pinoss-planet-tester/</guid>
       <dc:date>2014-08-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-15T00:00:00+00:00</dc:date>
