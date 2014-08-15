@@ -21,6 +21,29 @@
       <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-pushed-to-master-at-niharika29-streami/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-pushed-to-master-at-niharika29-streami/</guid>
+      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 forked timvideos/streaming-system to Niharika29/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-forked-timvideos-streaming-system-to-n/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-forked-timvideos-streaming-system-to-n/</guid>
+      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Final Report and almost finished Documentation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</link>
       <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
@@ -229,36 +252,6 @@
 </description>
       <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/13/gsoc-snippet-13-08-2014/</guid>
-      <dc:date>2014-08-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-cdab-5007-bc71-585f0b1147c4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 11th August, 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-cdab-5007-bc71-585f0b1147c4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried using replacing the IC on assembled PCB from my spare AD9984A IC. In the process a pad on PCB got broken! :( Will have to do complete assembly from scratch on new PCB. Also got a burn injury on my finger when accidently touched the soldering iron. In short, Bad day! &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/gsoc-daily-log/</guid>
-      <dc:date>2014-08-13T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Documentation and adding test images continues</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/documentation-and-adding-test-images-continues/</link>
-      <description>Today, i added a test image generated from &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0CB0QFjAA&amp;amp;url=http%3A%2F%2Fwww.xilinx.com%2Fsupport%2Fdocumentation%2Fapplication_notes%2Fxapp495_S6TMDS_Video_Interface.pdf&amp;amp;ei=HZvpU8OlMI3IsAS3iYDgBg&amp;amp;usg=AFQjCNGcUSidjPZvALh-Tz2nuRLzrfJOoA&amp;amp;sig2=NduuOeH5tklG0rW3cdD31w&amp;amp;bvm=bv.72676100,d.cWc&quot;&gt;VTC_DEMO&lt;/a&gt; (see yesterday's post). What this means is that besides &lt;a href=&quot;https://www.dropbox.com/s/s7zyqe1mcy3yw17/20140811_010800.mp4&quot;&gt;RGB loop&lt;/a&gt;, now this test image can be seen. You need to select this test image by turning switch sw7 up on the Atlys FPGA. Previously, the ideas was to use switches sw7 and sw6 for future purposes. But today i ended up using sw7 for test image. &amp;nbsp;Here is a &lt;a href=&quot;https://www.dropbox.com/s/wtyj6ecr5wft5kp/20140813_102144.mp4&quot;&gt;Demo&lt;/a&gt; of the test image.&lt;br /&gt;&lt;br /&gt;This also brings us closer to DDR2 integration. Right now, we are confident that HDMI traffic from VTC_DEMO is correctly captured in a file which is then read by packetizer using $readmemb. $readmemb is &lt;a href=&quot;http://stackoverflow.com/questions/4321067/is-readmem-synthesizable-in-verilog&quot;&gt;synthesized&lt;/a&gt; into BRAM or LUTs. That is how test image is read by packetizer, which eventually sends it to downstream MAC and off to the destination PC.&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?usp=drive_web&quot;&gt;Documentation&lt;/a&gt; has been updated as well. It will continue this week.&lt;br /&gt;&lt;br /&gt;Please share your comments directly on the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?usp=drive_web&quot;&gt;Documentation&lt;/a&gt; or here.&lt;br /&gt;&lt;br /&gt;Thanks&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/documentation-and-adding-test-images-continues/</guid>
       <dc:date>2014-08-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-15T00:00:00+00:00</dc:date>
