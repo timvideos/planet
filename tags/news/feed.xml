@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Final Report and almost finished Documentation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</link>
+      <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</guid>
+      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC Snippet] 14/08/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/gsoc-snippet-14-08-2014/</link>
@@ -284,20 +299,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/08/gsoc-daily-log/</guid>
       <dc:date>2014-08-08T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>8 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/08/8-aug-14/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;I improved the styling. Changing some internal structure and hiding some unnecessary fields.&lt;/li&gt;
-&lt;li&gt;Resolved the IP address issue. Hadn&amp;rsquo;t installed app in virtualenv. Skay helped.&lt;/li&gt;
-&lt;li&gt;Looked into permission decorators. &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/08/8-aug-14/</guid>
-      <dc:date>2014-08-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
