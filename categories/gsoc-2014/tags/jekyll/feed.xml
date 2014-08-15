@@ -21,6 +21,32 @@
       <dc:date>2014-08-14T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>pinoss pushed to master at pinoss/getting-started-tester</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/pinoss-pushed-to-master-at-pinoss-getting-started/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/pinoss-pushed-to-master-at-pinoss-getting-started/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Snippet] 14/08/2014</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/gsoc-snippet-14-08-2014/</link>
+      <description>&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot;&gt;[code]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot;&gt;completed planet-tester (acceptance tests for planet repository). Added README files about usage of planet and getting-started testers.&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;a href=&quot;https://github.com/pinoss/getting-started-tester&quot; style=&quot;-webkit-transition: color 0.3s; background-color: white; color: #009eb8; display: inline; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; outline: none; text-align: justify; text-decoration: none; transition: color 0.3s;&quot;&gt;https://github.com/pinoss/getting-started-tester&lt;/a&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;a href=&quot;https://github.com/pinoss/planet-tester&quot; style=&quot;-webkit-transition: color 0.3s; background-color: white; color: #009eb8; display: inline; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; outline: none; text-align: justify; text-decoration: none; transition: color 0.3s;&quot;&gt;https://github.com/pinoss/planet-tester&lt;/a&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;b&gt;[code]&lt;/b&gt; started writing my GSoC 2014 Summary Post&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;i style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;What is next/my plans to the end of GSoC 2014? [STATUS]&lt;/i&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;...&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;- All README files are written. I need to add more tests.&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;...&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;7. Add acceptance/integration tests for planet and getting-started website.&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;- Done.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/gsoc-snippet-14-08-2014/</guid>
+      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/planet-tester</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/13/pinoss-pushed-to-master-at-pinoss-planet-tester/</link>
       <description>&lt;!-- push --&gt;
@@ -224,28 +250,6 @@
       <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/gsoc-snippet-10-08-2014/</guid>
       <dc:date>2014-08-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/getting-started</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-timvideos-getting-star/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/jekyll-page-url-tag</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-14T00:00:00+00:00</dc:date>
   </channel>
