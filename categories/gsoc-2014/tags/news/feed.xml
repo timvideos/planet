@@ -10,6 +10,16 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>16 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/16/16-aug-14/</link>
+      <description>&lt;p&gt;Things I did today:&lt;/p&gt;
+
+</description>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/16/16-aug-14/</guid>
+      <dc:date>2014-08-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>[Last GSoC Snippet] 15/09/2014</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/last-gsoc-snippet-15-09-2014/</link>
       <description>I will sum up everything in another post (I will write GSoC report tomorrow or day after tomorrow). I've already written outline and I need some time to write it. :)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tests for Jekyll plugins&lt;br /&gt;&lt;b&gt;[monitor] &lt;/b&gt;updated monitor.us configuration&lt;br /&gt;&lt;b&gt;[doc] &lt;/b&gt;written outline for GSoC Report&lt;br /&gt;&lt;br /&gt;&lt;i style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;What is next/my plans to the end of GSoC 2014? [STATUS]&lt;/i&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;...&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;- Done&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;...&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: large; line-height: 19px;&quot;&gt;&lt;b style=&quot;background-color: #b6d7a8;&quot;&gt;All is done! :)&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
@@ -267,16 +277,6 @@
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/gsoc-snippet-05-08-2014/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Hunting the bugs in DVSwitch plugin</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</link>
-      <description>&lt;p&gt;With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-16T00:00:00+00:00</dc:date>
   </channel>
