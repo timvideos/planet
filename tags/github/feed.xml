@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/bugtracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/16/niharika29-pushed-to-master-at-niharika29-bugtrac/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/16/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
+      <dc:date>2014-08-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/jekyll-iframe-generator</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/pinoss-pushed-to-master-at-pinoss-jekyll-iframe-g/</link>
@@ -224,18 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/pinoss-created-repository-pinoss-getting-started-/</guid>
       <dc:date>2014-08-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 created repository Niharika29/Niharika29.github.io</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/niharika29-created-repository-niharika29-niharika/</guid>
-      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-15T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
