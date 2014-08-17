@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8"/>
+  <title>TimVideos.us Planet - Developers News</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="description" content="News from our best developers, all news aggregated by planet."/>
+  <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
+  <link rel="canonical" href="http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation//">
+  <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/font-awesome.min.css" rel="stylesheet" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link href="/css/styles.css" rel="stylesheet" />
+</head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/plugins/bootstrap.min.js"></script>
+<script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script src="/js/plugins/jquery.plugins.js"></script>
+<script src="/js/planet.js"></script>
+
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="row">
+          <div class="column col-sm-3 col-md-3 col-lg-2" id="sidebar">
+  <a class="logo" href="/">
+    <img src="/img/logo.png" />
+    <span>PLANET</span>
+  </a>
+  <ul class="nav">
+    <li class="active">
+      <a href="/">NEWS</a>
+    </li>
+    <li class="">
+      <a href="/people/">PEOPLE</a>
+    </li>
+    <li class="">
+      <a href="/issues/">ISSUES</a>
+    </li>
+    <li class="">
+      <a href="/github/">GITHUB ACTIVITIES</a>
+    </li>
+    <li class="">
+      <a href="/stats/">GITHUB STATISTICS</a>
+    </li>
+  </ul>
+  <ul class="nav hidden-xs" id="sidebar-footer">
+    <li class="social">
+      <a href="/feed.xml"><i class="fa fa-rss"></i></a>
+      <a href="/feed.opml"><i class="fa fa-dot-circle-o"></i></a>
+      <a href="http://www.twitter.com/TimVideosUs"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+      <span>Proudly hosted by <a id="github" href="http://www.github.com">GitHub</a>
+      </span>
+    </li>
+  </ul>
+</div>
+          <div class="column col-sm-9 col-md-9 col-lg-10" id="main">
+            <div class="padding">
+              <div class="col-sm-12">
+  <div class="panel panel-default" id="featured">
+    <div class="panel-body">
+      
+        <h4>gsoc-2014-hdmi2usb</h4>
+      
+      <h1>Debug Infrastructure Documentation</h1>
+      <div class="article">
+        <p class="meta description">
+          Aug 17, 2014
+           • Ajit (MJPEG Optimisation)
+          
+        </p>
+        
+          <p class="tags">
+            <span>Tags: </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/news">
+                  news
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/hdmi2usb">
+                  hdmi2usb
+                </a>
+              </span>
+            
+              <span class="label label-tag">
+                <a href="/tags/mjpeg">
+                  mjpeg
+                </a>
+              </span>
+            
+          </p>
+        
+        <p class="share-buttons">
+  <span>Share: </span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F17%2Fdebug-infrastructure-documentation%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F17%2Fdebug-infrastructure-documentation%2F&text=TimVideos.us%20Debug+Infrastructure+Documentation%20http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F17%2Fdebug-infrastructure-documentation%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fgsoc-2014-hdmi2usb%2F2014%2F08%2F17%2Fdebug-infrastructure-documentation%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+</p>
+        <p class="article">
+          <div dir="ltr" style="text-align: left;" trbidi="on">Debug infrastructure provides an easy interface for a developer to output data from the FPGA board for debugging. It is also useful for end users in case of troubleshooting.<br /><br /><h4 style="text-align: left;">The BIG PICTURE:</h4><div><span id="docs-internal-guid-3c2e4da6-e57a-1e7f-99d8-25e94f272ef1"><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><img height="275px;" src="https://docs.google.com/drawings/d/sWiUs9sKILX1TDoZ4QiVsLw/image?w=759&amp;h=275&amp;rev=39&amp;ac=1" style="-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);" width="759px;" /></span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><br /></span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">The debug data is collected into the debug_module which then breaks the data into bytes and sends them to UART module and USB_top module. These module send data via CDC/UART to host.</span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><br /></span></span></div><h3 style="text-align: left;"><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">How to read output data?</span></span></h3><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">The output of UART/CDC are bytes. So to convert them to human readable format and hence allow easy debugging, a program fpga_debug.c has been provided which reads data from the fpga and then outputs data in correct format. </span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">To compile fpga_debug.c</span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">&gt; cd tools</span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">&gt; make</span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><br /></span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">To run debugging program</span></span></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;">&gt; ./fpga_debug</span></span></div><div><br /></div><h4 style="text-align: left;">How to add new debug data?&nbsp;</h4><div><ul style="text-align: left;"><li>Route the data into debug_module</li><li>Break it into bytes and add to uart_byte_array</li><li>&nbsp;Change value of "constant N_BYTES &nbsp;: integer" appropriately</li><li>In fpga_debug add code to parse and output the new data</li></ul><div>You are done!</div></div><div><br /></div><div><br /></div><div><span><span style="font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;"><br /></span></span></div></div><div class="author">
+  <span>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
+  </span>
+</div>
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+            <div class="loader">
+              <div class="loader-indicator"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

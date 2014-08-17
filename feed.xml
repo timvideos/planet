@@ -32,6 +32,21 @@
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Debug Infrastructure Documentation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Debug infrastructure provides an easy interface for a developer to output data from the FPGA board for debugging. It is also useful for end users in case of troubleshooting.&lt;br /&gt;&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;The BIG PICTURE:&lt;/h4&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-3c2e4da6-e57a-1e7f-99d8-25e94f272ef1&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;275px;&quot; src=&quot;https://docs.google.com/drawings/d/sWiUs9sKILX1TDoZ4QiVsLw/image?w=759&amp;amp;h=275&amp;amp;rev=39&amp;amp;ac=1&quot; style=&quot;-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);&quot; width=&quot;759px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The debug data is collected into the debug_module which then breaks the data into bytes and sends them to UART module and USB_top module. These module send data via CDC/UART to host.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;h3 style=&quot;text-align: left;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;How to read output data?&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The output of UART/CDC are bytes. So to convert them to human readable format and hence allow easy debugging, a program fpga_debug.c has been provided which reads data from the fpga and then outputs data in correct format. &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;To compile fpga_debug.c&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; cd tools&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; make&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;To run debugging program&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; ./fpga_debug&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to add new debug data?&amp;nbsp;&lt;/h4&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Route the data into debug_module&lt;/li&gt;&lt;li&gt;Break it into bytes and add to uart_byte_array&lt;/li&gt;&lt;li&gt;&amp;nbsp;Change value of &quot;constant N_BYTES &amp;nbsp;: integer&quot; appropriately&lt;/li&gt;&lt;li&gt;In fpga_debug add code to parse and output the new data&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;You are done!&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</guid>
+      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>17 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</link>
       <description>&lt;p&gt;I updated my PR according to Tim&amp;rsquo;s directions. Also finished my GSoC final report, almost. I&amp;rsquo;ll put it up on Docs tomorrow morning.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
@@ -228,17 +243,6 @@
 </description>
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-pushed-to-gh-pages-at-niharika29-jekyl/</guid>
-      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 opened pull request muan/jekyll-wardrobe#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-opened-pull-request-muan-jekyll-wardro/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-opened-pull-request-muan-jekyll-wardro/</guid>
       <dc:date>2014-08-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-17T00:00:00+00:00</dc:date>
