@@ -51,6 +51,21 @@
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae4-8f0f-e9cd-f8b8b7a0d99a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 18th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae4-8f0f-e9cd-f8b8b7a0d99a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tested VGA Capture code using Rev02 PCB.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;My initial code (non-FIFO implementation) is working excellent!&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;But ironically, the FIFO implementation is not working on new PCB!&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/gsoc-daily-log/</guid>
+      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Bye World!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
       <description>You might have heard Hello World! in almost all programming languages when the language is introduced. Today is the time to say Bye World! as it is the last official day of Google Summer of Code 2014. This is by no means to say that this blog is dead. This blog will continue to survive and i will continue to contribute after today. It was a good learning exercise and learning should not stop.&lt;br /&gt;&lt;br /&gt;Thanks to TimVideos, Google and all those who shaped, mentored and gave feedback about the project.&lt;br /&gt;&lt;br /&gt;Looking back, the proposal went through several iterations of proposal before being accepted. Right from the beginning, the expectations were high and that was a good motivation to work. The start of the project was very broad : looking this, evaluating that etc etc. After a while, things started to converge. As the time went by, i started to become more independent: i only had one VC with my mentor after midterm. Being independent is a good thing and i want to thank my mentor that he enforced this. Overall more time was spent debugging as big portion of the project was integration and testing on the host PC.&lt;br /&gt;&lt;br /&gt;If you have comments or questions, please keep posting. Besides me, you are going to make this blog alive !&lt;div class=&quot;author&quot;&gt;
@@ -96,6 +111,21 @@
 </description>
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/niharika29-commented-on-pull-request-timvideos-st/</guid>
+      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae3-0550-ce22-aebd1290173e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 17th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae3-0550-ce22-aebd1290173e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Soldered the remaining components like Bypass caps and VHDCI connector.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;IC is responding to I2C Hurray! :)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/gsoc-daily-log/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -224,33 +254,6 @@
 </description>
       <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-pushed-to-master-at-niharika29-niharik/</guid>
-      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 forked timvideos/streaming-system to Niharika29/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-forked-timvideos-streaming-system-to-n/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/niharika29-forked-timvideos-streaming-system-to-n/</guid>
-      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[Last GSoC Snippet] 15/09/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/15/last-gsoc-snippet-15-09-2014/</link>
-      <description>I will sum up everything in another post (I will write GSoC report tomorrow or day after tomorrow). I've already written outline and I need some time to write it. :)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;added tests for Jekyll plugins&lt;br /&gt;&lt;b&gt;[monitor] &lt;/b&gt;updated monitor.us configuration&lt;br /&gt;&lt;b&gt;[doc] &lt;/b&gt;written outline for GSoC Report&lt;br /&gt;&lt;br /&gt;&lt;i style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;What is next/my plans to the end of GSoC 2014? [STATUS]&lt;/i&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;...&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;- Done&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;...&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: #333333; font-family: Helvetica Neue Light, HelveticaNeue-Light, Helvetica Neue, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: large; line-height: 19px;&quot;&gt;&lt;b style=&quot;background-color: #b6d7a8;&quot;&gt;All is done! :)&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/last-gsoc-snippet-15-09-2014/</guid>
       <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-18T00:00:00+00:00</dc:date>

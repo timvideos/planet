@@ -25,6 +25,21 @@
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae4-8f0f-e9cd-f8b8b7a0d99a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 18th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae4-8f0f-e9cd-f8b8b7a0d99a&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tested VGA Capture code using Rev02 PCB.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;My initial code (non-FIFO implementation) is working excellent!&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;But ironically, the FIFO implementation is not working on new PCB!&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/gsoc-daily-log/</guid>
+      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Bye World!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
       <description>You might have heard Hello World! in almost all programming languages when the language is introduced. Today is the time to say Bye World! as it is the last official day of Google Summer of Code 2014. This is by no means to say that this blog is dead. This blog will continue to survive and i will continue to contribute after today. It was a good learning exercise and learning should not stop.&lt;br /&gt;&lt;br /&gt;Thanks to TimVideos, Google and all those who shaped, mentored and gave feedback about the project.&lt;br /&gt;&lt;br /&gt;Looking back, the proposal went through several iterations of proposal before being accepted. Right from the beginning, the expectations were high and that was a good motivation to work. The start of the project was very broad : looking this, evaluating that etc etc. After a while, things started to converge. As the time went by, i started to become more independent: i only had one VC with my mentor after midterm. Being independent is a good thing and i want to thank my mentor that he enforced this. Overall more time was spent debugging as big portion of the project was integration and testing on the host PC.&lt;br /&gt;&lt;br /&gt;If you have comments or questions, please keep posting. Besides me, you are going to make this blog alive !&lt;div class=&quot;author&quot;&gt;
@@ -49,6 +64,21 @@
       <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>[GSoC Daily Log]</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/gsoc-daily-log/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae3-0550-ce22-aebd1290173e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 17th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-eae3-0550-ce22-aebd1290173e&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Soldered the remaining components like Bypass caps and VHDCI connector.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;IC is responding to I2C Hurray! :)&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/gsoc-daily-log/</guid>
+      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>Debug Infrastructure Documentation</title>
@@ -271,32 +301,6 @@
       <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/control-port-via-uart/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew commented on pull request timvideos/HDMI2USB#90</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Hidef snow working!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally got the hidef snow working through hdmi2usb via HDMI out but not via usb.&lt;br /&gt;I am getting a timeout error. I increased the watchdog timer inside the usb module to absurdly large value but it still did not remove the error. The large size of frame might be the problem.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</guid>
-      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-18T00:00:00+00:00</dc:date>
   </channel>
