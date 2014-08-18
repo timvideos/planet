@@ -25,6 +25,21 @@
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>Bye World!</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
+      <description>You might have heard Hello World! in almost all programming languages when the language is introduced. Today is the time to say Bye World! as it is the last official day of Google Summer of Code 2014. This is by no means to say that this blog is dead. This blog will continue to survive and i will continue to contribute after today. It was a good learning exercise and learning should not stop.&lt;br /&gt;&lt;br /&gt;Thanks to TimVideos, Google and all those who shaped, mentored and gave feedback about the project.&lt;br /&gt;&lt;br /&gt;Looking back, the proposal went through several iterations of proposal before being accepted. Right from the beginning, the expectations were high and that was a good motivation to work. The start of the project was very broad : looking this, evaluating that etc etc. After a while, things started to converge. As the time went by, i started to become more independent: i only had one VC with my mentor after midterm. Being independent is a good thing and i want to thank my mentor that he enforced this. Overall more time was spent debugging as big portion of the project was integration and testing on the host PC.&lt;br /&gt;&lt;br /&gt;If you have comments or questions, please keep posting. Besides me, you are going to make this blog alive !&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</guid>
+      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -49,6 +64,21 @@
       <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Final Report and Documentation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-documentation/</link>
+      <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later. They don't need to be addressed right away.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-documentation/</guid>
+      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>Final Report and almost finished Documentation</title>
@@ -267,33 +297,6 @@
       <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</guid>
       <dc:date>2014-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c390-006f-f2aa-67b9bbe07853&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Wednesday, 6th August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-c390-006f-f2aa-67b9bbe07853&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Went to college. Wasn’t able to do any work.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/gsoc-daily-log/</guid>
-      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred chrulri/lsusb-android</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-starred-chrulri-lsusb-android/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-starred-chrulri-lsusb-android/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-18T00:00:00+00:00</dc:date>
   </channel>
