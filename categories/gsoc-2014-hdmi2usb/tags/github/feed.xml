@@ -10,6 +10,30 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred TIGAL/OpenTracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-starred-tigal-opentracker/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-starred-tigal-opentracker/</guid>
+      <dc:date>2014-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked TIGAL/OpenTracker to rohit91/OpenTracker</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-forked-tigal-opentracker-to-rohit91-opent/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-forked-tigal-opentracker-to-rohit91-opent/</guid>
+      <dc:date>2014-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
       <description>&lt;!-- gollum --&gt;
@@ -213,30 +237,6 @@
 </description>
       <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created tag v02 at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-created-tag-v02-at-rohit91-hdmi2usb-vmodv/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-created-tag-v02-at-rohit91-hdmi2usb-vmodv/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created tag rev02_lengthMatched_w/o_topCopperPour at rohit91/HDMI2USB-vmodvga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-created-tag-rev02_lengthmatched_w-o_topco/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/rohit91-created-tag-rev02_lengthmatched_w-o_topco/</guid>
       <dc:date>2014-07-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-20T00:00:00+00:00</dc:date>
