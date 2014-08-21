@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred twlostow/dsi-shield</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-starred-twlostow-dsi-shield/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-starred-twlostow-dsi-shield/</guid>
+      <dc:date>2014-08-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +30,18 @@
 </description>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-08-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked twlostow/dsi-shield to rohit91/dsi-shield</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-forked-twlostow-dsi-shield-to-rohit91-dsi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-forked-twlostow-dsi-shield-to-rohit91-dsi/</guid>
       <dc:date>2014-08-21T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -229,28 +253,6 @@
       <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</guid>
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/niharika29-pushed-to-master-at-niharika29-streami/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/niharika29-pushed-to-master-at-niharika29-streami/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-21T00:00:00+00:00</dc:date>
   </channel>

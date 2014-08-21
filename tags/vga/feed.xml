@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred twlostow/dsi-shield</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-starred-twlostow-dsi-shield/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-starred-twlostow-dsi-shield/</guid>
+      <dc:date>2014-08-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
       <description>&lt;!-- push --&gt;
@@ -18,6 +30,18 @@
 </description>
       <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-08-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked twlostow/dsi-shield to rohit91/dsi-shield</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-forked-twlostow-dsi-shield-to-rohit91-dsi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-forked-twlostow-dsi-shield-to-rohit91-dsi/</guid>
       <dc:date>2014-08-21T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -245,36 +269,6 @@
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-created-branch-master-at-rohit91-hdmi2usb/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Weekly Overview]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/gsoc-weekly-overview/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-6b20e433-b0e8-a6d2-d160-201d64bca3ce&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;This week although started great, ended becoming most unsatisfactory and least productive week of my GSoC duration!&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;I2C &amp;amp; VGA Capture&lt;/span&gt;&lt;/h2&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;As mentioned in previous weekly overview, PCBs, have been sent for fabrication. After that I set on fixing the I2C part so that my mentor can try my bitfiles without much headache. I had purchased a logic analyser just a week back, specially for I2C debugging and, God!, it was really helpful in identifying problems in code. I fixed the I2C code and added it to VGA Capture code, thus eliminating need for any other setup for AD9984A initialization. &lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I also tried I2C using picoblaze, which interestingly used same resources as standalone I2C core.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Rest of the week was unproductive with respect to my project as my college has opened, and almost 4 days were lost to semester registrations, assignments, &amp;nbsp;and training conducted by Training &amp;amp; Placement (TnP) department.&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Although, I was able to complete the 2-FIFO implementation, and simulate it. On, actual hardware, every alternate line is skipped by it on the screen, which it shouldn’t. As of writing this post, I’m currently testing the code on Atlys and trying to ascertain it reason.&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: italic; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Update&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;: Just now I found out the reason for every alternate skipped lines. It was due to incorrect FIFO switching. &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;br class=&quot;kix-line-break&quot; /&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;There is also a new weird issue. If the screen has only a background and no windows, then the video captured is very stable, but if I drag a window to the screen, the capture becomes unstable, and also some pixels are shifted! I’ll add a video of this phenomenon later today.&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline;&quot;&gt;Upcoming Week:&lt;/span&gt;&lt;/h2&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;I’ll be focussing on completing the code this week, so that the final week could be used for finishing touches and documentation. Also, upon receiving the PCBs, I’ll assemble and test them. They should hopefully offer better performance and color clarity than current PCB.&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/gsoc-weekly-overview/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>[GSoC Daily Log]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Sunday, 3rd August 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-9e29-3f6c-0683-911f13d8b464&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Simulating the 2-FIFO implementation. Problem in switching FIFO. Will have to look at code again&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Update: Okay. It was the testbench’s fault; &amp;nbsp;never lowered down the reset! Silly mistake #facepalm&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 03 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/03/gsoc-daily-log/</guid>
-      <dc:date>2014-08-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-21T00:00:00+00:00</dc:date>
   </channel>
