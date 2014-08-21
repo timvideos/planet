@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to gsoc at rohit91/HDMI2USB-vmodvga</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/21/rohit91-pushed-to-gsoc-at-rohit91-hdmi2usb-vmodvg/</guid>
+      <dc:date>2014-08-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred TIGAL/OpenTracker</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-starred-tigal-opentracker/</link>
@@ -221,17 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/16/niharika29-opened-pull-request-timvideos-streamin/</guid>
       <dc:date>2014-08-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to porting-dvswitch at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/16/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/16/aps-sids-pushed-to-porting-dvswitch-at-aps-sids-f/</guid>
-      <dc:date>2014-08-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-20T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
