@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to master at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/23/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/23/aps-sids-pushed-to-master-at-timvideos-streaming-/</guid>
+      <dc:date>2014-08-23T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids opened issue aps-sids/flumotion-orig#5</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/20/aps-sids-opened-issue-aps-sids-flumotion-orig-5/</link>
       <description>&lt;!-- issues --&gt;
@@ -214,17 +225,6 @@
 </description>
       <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-reopened-issue-timvideos-streaming-syste/</guid>
-      <dc:date>2014-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/streaming-system#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/02/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
       <dc:date>2014-08-02T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-08-23T00:00:00+00:00</dc:date>
