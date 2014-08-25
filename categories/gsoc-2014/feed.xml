@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
     <item>
       <title>aps-sids pushed to master at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
@@ -239,6 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-08-24T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>

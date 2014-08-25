@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
     <item>
       <title>Bye World!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
@@ -309,6 +309,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-08-24T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
