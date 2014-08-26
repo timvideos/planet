@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue aps-sids/flumotion-orig#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
+      <dc:date>2014-08-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue aps-sids/flumotion-orig#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-closed-issue-aps-sids-flumotion-orig-6/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-closed-issue-aps-sids-flumotion-orig-6/</guid>
+      <dc:date>2014-08-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
@@ -206,27 +228,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/05/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Hunting the bugs in DVSwitch plugin</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</link>
-      <description>&lt;p&gt;With help of thaytan, slomo and mithro, I was able to figure out that the problem mentioned in previous post was that dvswitchsrc doesn’t know any caps, and gdppay needs it. thaytan suggested me to use typefind element that can automatically get the caps. Using this, I could run the pipeline without error using gst-launch but running with flumotion still gives following error:&lt;/p&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/hunting-the-bugs-in-dvswitch-plugin/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/streaming-system#75</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 04 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/04/aps-sids-commented-on-issue-timvideos-streaming-s/</guid>
-      <dc:date>2014-08-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

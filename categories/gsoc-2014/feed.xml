@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue aps-sids/flumotion-orig#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
+      <dc:date>2014-08-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue aps-sids/flumotion-orig#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-closed-issue-aps-sids-flumotion-orig-6/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-closed-issue-aps-sids-flumotion-orig-6/</guid>
+      <dc:date>2014-08-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-pushed-to-master-at-timvideos-streaming-/</link>
@@ -213,32 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/niharika29-commented-on-pull-request-timvideos-st/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/aps-sids.github.com</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>17 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</link>
-      <description>&lt;p&gt;I updated my PR according to Tim&amp;rsquo;s directions. Also finished my GSoC final report, almost. I&amp;rsquo;ll put it up on Docs tomorrow morning.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
