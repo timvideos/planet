@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Niharika29.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/27/niharika29-pushed-to-master-at-niharika29-niharik/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/27/niharika29-pushed-to-master-at-niharika29-niharik/</guid>
+      <dc:date>2014-08-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids commented on issue aps-sids/flumotion-orig#6</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/26/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
@@ -220,17 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/niharika29-commented-on-pull-request-timvideos-st/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/aps-sids.github.com</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-26T00:00:00+00:00</dc:date>
+    <dc:date>2014-08-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>
