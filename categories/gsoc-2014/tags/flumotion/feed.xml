@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
+      <dc:date>2014-09-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch check-signal at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-created-branch-check-signal-at-timvideos/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-created-branch-check-signal-at-timvideos/</guid>
+      <dc:date>2014-09-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids created branch porting-firewire at aps-sids/flumotion-orig</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/28/aps-sids-created-branch-porting-firewire-at-aps-s/</link>
@@ -208,27 +231,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/07/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2014-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Bug hunting continues</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</link>
-      <description>&lt;p&gt;I’m running a stream from dvswitch and this is the gstreamer pipeline I’m using:&lt;/p&gt;
-
-</description>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/bug-hunting-continues/</guid>
-      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to gh-pages at aps-sids/porting-flumotion</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/aps-sids-pushed-to-gh-pages-at-aps-sids-porting-f/</guid>
-      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-08-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
