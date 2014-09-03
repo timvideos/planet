@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred emluque/generativeText</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-emluque-generativetext/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-emluque-generativetext/</guid>
+      <dc:date>2014-09-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids opened pull request timvideos/streaming-system#79</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-opened-pull-request-timvideos-streaming-/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-opened-pull-request-timvideos-streaming-/</guid>
+      <dc:date>2014-09-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
@@ -210,29 +233,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-pushed-to-master-at-niharika29-bugtrac/</guid>
       <dc:date>2014-08-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 merged pull request Niharika29/bugtracker#9</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-merged-pull-request-niharika29-bugtrac/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-merged-pull-request-niharika29-bugtrac/</guid>
-      <dc:date>2014-08-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created tag v1.0.0 at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-created-tag-v1-0-0-at-niharika29-bugtr/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-created-tag-v1-0-0-at-niharika29-bugtr/</guid>
-      <dc:date>2014-08-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
