@@ -22,6 +22,18 @@
       <dc:date>2014-09-03T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids starred AndrewRook/phdfootball</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-andrewrook-phdfootball/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-andrewrook-phdfootball/</guid>
+      <dc:date>2014-09-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids opened pull request timvideos/streaming-system#79</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-opened-pull-request-timvideos-streaming-/</link>
       <description>&lt;!-- pull_request --&gt;
@@ -221,16 +233,6 @@
       <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/aps-sids-opened-issue-ebidel-material-playground-/</guid>
       <dc:date>2014-08-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>PROBLEM FOUND. MUST FIX.</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/09/problem-found-must-fix/</link>
-      <description>&lt;p&gt;I’ve become a sleep deprived bug hunter now, feel like a robo though :P&lt;/p&gt;
-
-</description>
-      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/09/problem-found-must-fix/</guid>
-      <dc:date>2014-08-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-09-03T00:00:00+00:00</dc:date>
   </channel>
