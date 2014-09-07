@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 07 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</link>
+      <description>&lt;!-- pull_request_review_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 07 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
+      <dc:date>2014-09-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred emluque/generativeText</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-emluque-generativetext/</link>
@@ -223,17 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/20/aps-sids-opened-issue-aps-sids-flumotion-orig-1/</guid>
       <dc:date>2014-08-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 released Bugtracker - Version 1 at Niharika29/bugtracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-released-bugtracker-version-1-at-nihar/</link>
-      <description>&lt;!-- release --&gt;
-&lt;span class=&quot;mega-octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/19/niharika29-released-bugtracker-version-1-at-nihar/</guid>
-      <dc:date>2014-08-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
