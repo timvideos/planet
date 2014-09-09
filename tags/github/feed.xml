@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 07 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids created branch test-room at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</guid>
+      <dc:date>2014-09-09T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</link>
@@ -227,17 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-commented-on-commit-timvideos-streaming-/</guid>
       <dc:date>2014-08-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/23/niharika29-pushed-to-master-at-niharika29-streami/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/23/niharika29-pushed-to-master-at-niharika29-streami/</guid>
-      <dc:date>2014-08-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-07T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-09T00:00:00+00:00</dc:date>
   </channel>
 </rss>
