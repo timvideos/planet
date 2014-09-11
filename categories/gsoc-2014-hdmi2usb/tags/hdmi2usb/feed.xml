@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Need for a remote access to FPGA</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;My mid sems finally got over yesterday and I got some free time in my life. So I am blogging. After completion of GSoC, lot of my juniors are asking me about my &amp;nbsp;project and a few seem to be interested. Few days back I answered a question on quora :&amp;nbsp;&lt;a href=&quot;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&quot;&gt;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&lt;/a&gt;&amp;nbsp;and the person asking the question PMed me regarding my project. But what is stopping them from contributing is that they don't have an access to FPGA. In India, an Atlys board costs around INR 20K which is a big deal for a student. Also colleges have the old spartan 3 boards or don't give easy access to FPGA board.&lt;br /&gt;I was recently talking to an alumni who is working in a FPGA based startup and he mentioned to me how they have created a hack which allows the developers to remotely access the FPGA, dump the .bit and see results. If we at TimVideos can develop a similar solution then it would improve participation greatly. If the logistics are handled, making this possible is not very challenging. Another solution can be to make a comprehensive test bench which allows black box and white box testing. A good language to create this test bench will be System Verilog as it combine verilog and class structure of C++. But this is a very big project. Creating accurate models for verification will take a lot of time.&lt;br /&gt;&lt;br /&gt;The need to have expensive hardware for development is big disadvantage for open source hardware development.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</guid>
+      <dc:date>2014-09-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Thank You TimVideos!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/thank-you-timvideos/</link>
@@ -254,21 +269,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</guid>
       <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Final Report and Documentation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-documentation/</link>
-      <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later. They don't need to be addressed right away.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-documentation/</guid>
-      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>

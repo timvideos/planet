@@ -8,7 +8,22 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Need for a remote access to FPGA</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</link>
+      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;My mid sems finally got over yesterday and I got some free time in my life. So I am blogging. After completion of GSoC, lot of my juniors are asking me about my &amp;nbsp;project and a few seem to be interested. Few days back I answered a question on quora :&amp;nbsp;&lt;a href=&quot;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&quot;&gt;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&lt;/a&gt;&amp;nbsp;and the person asking the question PMed me regarding my project. But what is stopping them from contributing is that they don't have an access to FPGA. In India, an Atlys board costs around INR 20K which is a big deal for a student. Also colleges have the old spartan 3 boards or don't give easy access to FPGA board.&lt;br /&gt;I was recently talking to an alumni who is working in a FPGA based startup and he mentioned to me how they have created a hack which allows the developers to remotely access the FPGA, dump the .bit and see results. If we at TimVideos can develop a similar solution then it would improve participation greatly. If the logistics are handled, making this possible is not very challenging. Another solution can be to make a comprehensive test bench which allows black box and white box testing. A good language to create this test bench will be System Verilog as it combine verilog and class structure of C++. But this is a very big project. Creating accurate models for verification will take a lot of time.&lt;br /&gt;&lt;br /&gt;The need to have expensive hardware for development is big disadvantage for open source hardware development.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</guid>
+      <dc:date>2014-09-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Thank You TimVideos!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/thank-you-timvideos/</link>
@@ -257,17 +272,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
       <dc:date>2014-07-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew pushed to memory at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/29/ajitmathew-pushed-to-memory-at-ajitmathew-hdmi2us/</guid>
-      <dc:date>2014-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
