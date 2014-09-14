@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+  <head>
+    <title>Tag: news - Tim Videos Feeds</title>
+  </head>
+  <body>
+    <outline text="Tim Videos" title="Tim Videos">
+      <outline text="news" title="news">
+        <outline htmlUrl="http://pinoit.blogspot.com" text="Maciej (Developer Website) - Blog" title="Maciej (Developer Website) - Blog" type="rss" version="RSS" xmlUrl="http://pinoit.blogspot.in/feeds/posts/default"/>
+        <outline htmlUrl="http://aps-sids.github.io/porting-flumotion" text="Amanpreet (Porting Flumotion) - Blog" title="Amanpreet (Porting Flumotion) - Blog" type="rss" version="RSS" xmlUrl="http://aps-sids.github.io/porting-flumotion/atom.xml"/>
+        <outline htmlUrl="http://mstritzi.nfshost.com/blog" text="Max (Dockerization) - Blog" title="Max (Dockerization) - Blog" type="rss" version="RSS" xmlUrl="http://mstritzi.nfshost.com/blog/rss/"/>
+        <outline htmlUrl="http://niharika.svbtle.com" text="Niharika (Bug reporting system) - Blog" title="Niharika (Bug reporting system) - Blog" type="rss" version="RSS" xmlUrl="http://niharika.svbtle.com/feed"/>
+        <outline htmlUrl="http://dreamsxtrinsic.blogspot.com/" text="Rohit (VGA Extension) - Blog" title="Rohit (VGA Extension) - Blog" type="rss" version="RSS" xmlUrl="http://dreamsxtrinsic.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://hdmi2ethernet.blogspot.com/" text="Tariq (Ethernet Support) - Blog" title="Tariq (Ethernet Support) - Blog" type="rss" version="RSS" xmlUrl="http://hdmi2ethernet.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://ajitmathewgsoc.blogspot.com/" text="Ajit (MJPEG Optimisation) - Blog" title="Ajit (MJPEG Optimisation) - Blog" type="rss" version="RSS" xmlUrl="http://ajitmathewgsoc.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://ptzfortimvideos-gsoc14.blogspot.com/" text="Ayush (PTZ/Serial Extension) - Blog" title="Ayush (PTZ/Serial Extension) - Blog" type="rss" version="RSS" xmlUrl="http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
