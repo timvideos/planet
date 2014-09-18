@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 18 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss commented on commit kripton/timvideos.github.io@dccecd329c</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/18/pinoss-commented-on-commit-kripton-timvideos-gith/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 18 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/18/pinoss-commented-on-commit-kripton-timvideos-gith/</guid>
+      <dc:date>2014-09-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>[GSoC] Final Report (mparuszewski)</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/18/gsoc-final-report-mparuszewski/</link>
@@ -244,17 +255,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-timvideos-getting-star/</guid>
       <dc:date>2014-08-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/jekyll-page-url-tag</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 10 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/10/pinoss-pushed-to-master-at-pinoss-jekyll-page-url/</guid>
-      <dc:date>2014-08-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-11T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
