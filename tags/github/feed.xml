@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 18 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 19 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/gst-plugins-dvswitch#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/19/aps-sids-commented-on-issue-timvideos-gst-plugins/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 19 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/19/aps-sids-commented-on-issue-timvideos-gst-plugins/</guid>
+      <dc:date>2014-09-19T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss commented on commit kripton/timvideos.github.io@dccecd329c</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/18/pinoss-commented-on-commit-kripton-timvideos-gith/</link>
@@ -227,18 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-pushed-to-master-at-timvideos-streaming-/</guid>
       <dc:date>2014-08-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch direct-links at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-created-branch-direct-links-at-timvideos/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/24/aps-sids-created-branch-direct-links-at-timvideos/</guid>
-      <dc:date>2014-08-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>

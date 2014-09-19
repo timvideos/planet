@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 18 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 19 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/gst-plugins-dvswitch#6</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/19/aps-sids-commented-on-issue-timvideos-gst-plugins/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 19 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/19/aps-sids-commented-on-issue-timvideos-gst-plugins/</guid>
+      <dc:date>2014-09-19T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids created branch test-room at timvideos/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</link>
@@ -224,17 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/20/aps-sids-opened-issue-aps-sids-flumotion-orig-1/</guid>
       <dc:date>2014-08-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/aps-sids.github.com</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-18T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>
