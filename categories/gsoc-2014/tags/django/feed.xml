@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 21 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred andreis/interview</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/25/niharika29-starred-andreis-interview/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/25/niharika29-starred-andreis-interview/</guid>
+      <dc:date>2014-09-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 forked andreis/interview to Niharika29/interview</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/25/niharika29-forked-andreis-interview-to-niharika29/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/25/niharika29-forked-andreis-interview-to-niharika29/</guid>
+      <dc:date>2014-09-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/Niharika29.github.io</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/27/niharika29-pushed-to-master-at-niharika29-niharik/</link>
@@ -211,29 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/15/15-aug-14/</guid>
       <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 starred daneden/animate.css</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-starred-daneden-animate-css/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-starred-daneden-animate-css/</guid>
-      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to gh-pages at Niharika29/jekyll-wardrobe</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-pushed-to-gh-pages-at-niharika29-jekyl/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/niharika29-pushed-to-gh-pages-at-niharika29-jekyl/</guid>
-      <dc:date>2014-08-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-21T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
