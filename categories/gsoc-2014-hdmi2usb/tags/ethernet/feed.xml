@@ -40,21 +40,6 @@
       <dc:date>2014-08-15T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Final Report and almost finished Documentation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</link>
-      <description>Today was spent making &lt;a href=&quot;http://bit.ly/1rydWx6&quot;&gt;final report&lt;/a&gt;&amp;nbsp;and finishing &lt;a href=&quot;http://bit.ly/1jc1wFk&quot;&gt;Documentation&lt;/a&gt;. Bits and pieces of Documentation are still left which i will get to later.&lt;br /&gt;&lt;br /&gt;Please review these and share your comments. I might not be able to address your comments immediately as i am feeling unwell.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/15/final-report-and-almost-finished-documentation/</guid>
-      <dc:date>2014-08-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
       <title>Documentation Continues towards finishing</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/14/documentation-continues-towards-finishing/</link>
       <description>Today was spent updating the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt; repository and &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;. The&amp;nbsp;&lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#&quot;&gt;Documentation&lt;/a&gt;&amp;nbsp;refers to&amp;nbsp;&lt;a href=&quot;https://bitbucket.org/tariq786/packetizer/src&quot;&gt;bitbucket&lt;/a&gt;&amp;nbsp;quite a bit. Besides that i uploaded the static image &lt;a href=&quot;https://www.dropbox.com/s/wtyj6ecr5wft5kp/20140813_102144.mp4&quot;&gt;Demo&lt;/a&gt;&amp;nbsp;(see yesterday's post as well).&lt;br /&gt;&lt;br /&gt;Now I hope to get sometime to work on DDR2 as that is in good progress. I hope to finish this bonus step by Friday.&lt;div class=&quot;author&quot;&gt;
@@ -308,6 +293,21 @@
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Debugging Gstreamer and testing packetizer</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</link>
+      <description>It was a hectic day trying to get RTP to work using Gstreamer. The receiver is not working yet. I am experimenting with Gstreamer. It is an excellent tool. I really liked it. After reading documentation and bouncing back and forth on #gstreamer, i tried the following and its variation&lt;br /&gt;&lt;br /&gt;$gst-launch-1.0 -v GST_DEBUG=udpsrc:5 udpsrc uri=udp://192.168.1.1:1234 ! rtpbin ! rtpvrawdepay ! videoconvert ! autovideosink&lt;br /&gt;&lt;br /&gt;but it does not work. It seems that &quot;caps&quot; is missing.It documentation is little hard to digest. I am trying to debug that.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the other hand, Packetizer is missing some packets. For example, when i am trying to send an entire frame (720x3 packets) via RTP, it misses some packets e.g., packets with sequence number 16-28 are missing. I am trying to debug that as well.&lt;br /&gt;&lt;br /&gt;I am hopeful i will be able to debug the Packetizer by tomorrow. I am hopeful to get to some point on Gstreamer by Thursday. If not, i will deal with image reconstruction in Pythonic way.&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</guid>
+      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2014-09-25T00:00:00+00:00</dc:date>
   </channel>
