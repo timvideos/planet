@@ -15,7 +15,7 @@ cd /tmp/planet-website
 # Tell ssh to use the given identity
 cat > /tmp/planet-website/ssh <<'EOF'
 #!/bin/sh
-exec ssh -i ~/.ssh/timvideos-website "$@"
+exec ssh -i /home/timvideos/.ssh/timvideos-website "$@"
 EOF
 chmod a+x /tmp/planet-website/ssh
 export GIT_SSH=/tmp/planet-website/ssh

@@ -18,9 +18,9 @@ module Jekyll
       "/iframe/#{super}"
     end
 
-    def render(layouts, site_payload)
-      super(layouts, site_payload)
-    end
+    # def render(layouts, site_payload)
+    #   super(layouts, site_payload)
+    # end
 
   end
 
