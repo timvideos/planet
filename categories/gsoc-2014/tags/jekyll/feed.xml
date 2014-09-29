@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at timvideos/planet</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/09/28/pinoss-pushed-to-master-at-timvideos-planet/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/28/pinoss-pushed-to-master-at-timvideos-planet/</guid>
+      <dc:date>2014-09-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/feedbook</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/21/pinoss-pushed-to-master-at-pinoss-feedbook/</link>
@@ -240,21 +251,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/11/pinoss-pushed-to-master-at-pinoss-jekyll-category/</guid>
       <dc:date>2014-08-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Snippet] 11/08/2014</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/11/gsoc-snippet-11-08-2014/</link>
-      <description>&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot;&gt;[doc]&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot;&gt;written README files for jekyll plugins written by me:&lt;/span&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/pinoss/jekyll-iframe-generator&quot;&gt;jekyll-iframe-generator&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/pinoss/jekyll-json-generator&quot;&gt;jekyll-json-generator&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/pinoss/jekyll-category-tag-page-generator&quot;&gt;jekyll-category-tag-page-generator&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[code] &lt;/b&gt;started writing tests for Jekyll Plugins&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;i style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;What is next/my plans to the end of GSoC 2014? [STATUS]&lt;/i&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;1. Work with&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;feedbook&lt;/b&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;&amp;nbsp;(add Google+ integration).&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;- Currently there are no gems for pushing to Google+ streams. With Feedbook it is easy to add own Notifier when Google+ API will not be read-only.&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;...&lt;/div&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;4. Extract my written Jekyll plugins into GitHub projects and share code with the others (and add some tests of course).&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;- Done, all README files are written, now I need to write some tests. Already started writing tests&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;...&lt;/span&gt;&lt;br style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; text-align: justify;&quot; /&gt;&lt;span style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19.600000381469727px; text-align: justify;&quot;&gt;7. Add acceptance/integration tests for planet and getting-started website.&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;background-color: white; color: #333333; font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 19px; margin: 0px; outline: none; padding: 0px; text-align: justify;&quot;&gt;- Started working on it.&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://pinoit.blogspot.com&quot;&gt;pino IT / ruby / developer&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/11/gsoc-snippet-11-08-2014/</guid>
-      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-25T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
