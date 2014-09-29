@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+  <head>
+    <title>Tag: dockerization - Tim Videos Feeds</title>
+  </head>
+  <body>
+    <outline text="Tim Videos" title="Tim Videos">
+      <outline text="dockerization" title="dockerization">
+        <outline htmlUrl="http://mstritzi.nfshost.com/blog" text="Max (Dockerization) - Blog" title="Max (Dockerization) - Blog" type="rss" version="RSS" xmlUrl="http://mstritzi.nfshost.com/blog/rss/"/>
+        <outline htmlUrl="https://github.com/maxstr" text="Max (Dockerization) - GitHub" title="Max (Dockerization) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/maxstr.atom"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
