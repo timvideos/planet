@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked mossmann/unambiguous-encapsulation to tariq786/unambiguous-encapsulation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/29/tariq786-forked-mossmann-unambiguous-encapsulatio/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/29/tariq786-forked-mossmann-unambiguous-encapsulatio/</guid>
+      <dc:date>2014-09-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at timvideos/planet</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/09/28/pinoss-pushed-to-master-at-timvideos-planet/</link>
@@ -234,18 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/30/gsoc-project-report-vga-capture-expansion-board-f/</guid>
       <dc:date>2014-08-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch porting-firewire at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/28/aps-sids-created-branch-porting-firewire-at-aps-s/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/28/aps-sids-created-branch-porting-firewire-at-aps-s/</guid>
-      <dc:date>2014-08-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>

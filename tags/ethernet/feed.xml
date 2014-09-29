@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked mossmann/unambiguous-encapsulation to tariq786/unambiguous-encapsulation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/29/tariq786-forked-mossmann-unambiguous-encapsulatio/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/29/tariq786-forked-mossmann-unambiguous-encapsulatio/</guid>
+      <dc:date>2014-09-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Bye World!</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
@@ -294,21 +306,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/17/gstreamer-finally-works/</guid>
       <dc:date>2014-07-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Debugging Gstreamer and testing packetizer</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</link>
-      <description>It was a hectic day trying to get RTP to work using Gstreamer. The receiver is not working yet. I am experimenting with Gstreamer. It is an excellent tool. I really liked it. After reading documentation and bouncing back and forth on #gstreamer, i tried the following and its variation&lt;br /&gt;&lt;br /&gt;$gst-launch-1.0 -v GST_DEBUG=udpsrc:5 udpsrc uri=udp://192.168.1.1:1234 ! rtpbin ! rtpvrawdepay ! videoconvert ! autovideosink&lt;br /&gt;&lt;br /&gt;but it does not work. It seems that &quot;caps&quot; is missing.It documentation is little hard to digest. I am trying to debug that.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;On the other hand, Packetizer is missing some packets. For example, when i am trying to send an entire frame (720x3 packets) via RTP, it misses some packets e.g., packets with sequence number 16-28 are missing. I am trying to debug that as well.&lt;br /&gt;&lt;br /&gt;I am hopeful i will be able to debug the Packetizer by tomorrow. I am hopeful to get to some point on Gstreamer by Thursday. If not, i will deal with image reconstruction in Pythonic way.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/16/debugging-gstreamer-and-testing-packetizer/</guid>
-      <dc:date>2014-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-09-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
