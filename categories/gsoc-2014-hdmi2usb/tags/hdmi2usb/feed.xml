@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 29 Sep 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 02 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked valbok/HEngine to tariq786/HEngine</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/02/tariq786-forked-valbok-hengine-to-tariq786-hengin/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 02 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/02/tariq786-forked-valbok-hengine-to-tariq786-hengin/</guid>
+      <dc:date>2014-10-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked mossmann/unambiguous-encapsulation to tariq786/unambiguous-encapsulation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/29/tariq786-forked-mossmann-unambiguous-encapsulatio/</link>
@@ -255,17 +267,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</guid>
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-09-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
