@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 02 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/coreboot-ADTS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/03/ayushsagar-pushed-to-master-at-ayushsagar-coreboo/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/03/ayushsagar-pushed-to-master-at-ayushsagar-coreboo/</guid>
+      <dc:date>2014-10-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked valbok/HEngine to tariq786/HEngine</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/02/tariq786-forked-valbok-hengine-to-tariq786-hengin/</link>
@@ -252,21 +263,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/gsoc-daily-log/</guid>
       <dc:date>2014-08-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Bye World!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</link>
-      <description>You might have heard Hello World! in almost all programming languages when the language is introduced. Today is the time to say Bye World! as it is the last official day of Google Summer of Code 2014. This is by no means to say that this blog is dead. This blog will continue to survive and i will continue to contribute after today. It was a good learning exercise and learning should not stop.&lt;br /&gt;&lt;br /&gt;Thanks to TimVideos, Google and all those who shaped, mentored and gave feedback about the project.&lt;br /&gt;&lt;br /&gt;Looking back, the proposal went through several iterations of proposal before being accepted. Right from the beginning, the expectations were high and that was a good motivation to work. The start of the project was very broad : looking this, evaluating that etc etc. After a while, things started to converge. As the time went by, i started to become more independent: i only had one VC with my mentor after midterm. Being independent is a good thing and i want to thank my mentor that he enforced this. Overall more time was spent debugging as big portion of the project was integration and testing on the host PC.&lt;br /&gt;&lt;br /&gt;If you have comments or questions, please keep posting. Besides me, you are going to make this blog alive !&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/bye-world/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>

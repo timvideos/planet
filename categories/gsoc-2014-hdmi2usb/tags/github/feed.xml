@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 02 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/coreboot-ADTS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/03/ayushsagar-pushed-to-master-at-ayushsagar-coreboo/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/03/ayushsagar-pushed-to-master-at-ayushsagar-coreboo/</guid>
+      <dc:date>2014-10-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked valbok/HEngine to tariq786/HEngine</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/02/tariq786-forked-valbok-hengine-to-tariq786-hengin/</link>
@@ -230,18 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
       <dc:date>2014-08-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked chrulri/lsusb-android to rohit91/lsusb-android</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-forked-chrulri-lsusb-android-to-rohit91-l/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/rohit91-forked-chrulri-lsusb-android-to-rohit91-l/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-02T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
