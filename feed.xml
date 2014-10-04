@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to gh-pages at aps-sids/sids2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/04/aps-sids-pushed-to-gh-pages-at-aps-sids-sids2/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/04/aps-sids-pushed-to-gh-pages-at-aps-sids-sids2/</guid>
+      <dc:date>2014-10-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/coreboot-ADTS</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/03/ayushsagar-pushed-to-master-at-ayushsagar-coreboo/</link>
@@ -231,17 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-opened-pull-request-timvideos-streaming-/</guid>
       <dc:date>2014-09-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
-      <dc:date>2014-09-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
