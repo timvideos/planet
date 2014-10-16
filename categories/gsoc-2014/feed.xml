@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>A C++ speed-me-up trick</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
+      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I&amp;rsquo;ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</guid>
+      <dc:date>2014-10-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids opened pull request timvideos/gst-plugins-dvswitch#11</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/10/09/aps-sids-opened-pull-request-timvideos-gst-plugin/</link>
@@ -226,17 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</guid>
       <dc:date>2014-09-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- pull_request_review_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 07 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2014-09-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>

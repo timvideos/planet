@@ -8,7 +8,17 @@
     <title>Tim Videos Planet - Developers news - Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>A C++ speed-me-up trick</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
+      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I&amp;rsquo;ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</guid>
+      <dc:date>2014-10-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Need for a remote access to FPGA</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</link>
@@ -284,21 +294,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/13/gsoc-snippet-13-08-2014/</guid>
       <dc:date>2014-08-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>[GSoC Daily Log]</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/gsoc-daily-log/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-cdab-5007-bc71-585f0b1147c4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Monday, 11th August, 2014:&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; id=&quot;docs-internal-guid-f9e93502-cdab-5007-bc71-585f0b1147c4&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline;&quot;&gt;Tried using replacing the IC on assembled PCB from my spare AD9984A IC. In the process a pad on PCB got broken! :( Will have to do complete assembly from scratch on new PCB. Also got a burn injury on my finger when accidently touched the soldering iron. In short, Bad day! &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://dreamsxtrinsic.blogspot.com/&quot;&gt;Dreams eXtrinsic&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 13 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/gsoc-daily-log/</guid>
-      <dc:date>2014-08-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-09T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
