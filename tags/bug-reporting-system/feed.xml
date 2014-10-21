@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: BUG-REPORTING-SYSTEM</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred cloudspokes/arena-web</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</guid>
+      <dc:date>2014-10-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>A C++ speed-me-up trick</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
@@ -226,21 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/14/14-aug-14/</guid>
       <dc:date>2014-08-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>12 Aug '14</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/12-aug-14/</link>
-      <description>&lt;p&gt;Today I worked on adding a link in the streaming-system website frontend. I assumed it to be a straightforward task, which it should have been, but I&amp;rsquo;ve messed up my git repo somewhat. Doing a &amp;lsquo;make serve&amp;rsquo; for the streaming system turns up a series of errors. I&amp;rsquo;ve setup the stream before, so I think I can resolve it. That&amp;rsquo;s my first task for tomorrow. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/12/12-aug-14/</guid>
-      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred cloudspokes/arena-web</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</guid>
+      <dc:date>2014-10-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>A C++ speed-me-up trick</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
@@ -224,18 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/09/18/pinoss-commented-on-commit-kripton-timvideos-gith/</guid>
       <dc:date>2014-09-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch test-room at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</guid>
-      <dc:date>2014-09-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-16T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
