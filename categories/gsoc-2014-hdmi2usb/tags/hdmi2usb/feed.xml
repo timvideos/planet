@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 24 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at derbedhruv/pediperi</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/24/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 24 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/24/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</guid>
+      <dc:date>2014-10-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred inversepath/usbarmory</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/21/rohit91-starred-inversepath-usbarmory/</link>
@@ -245,21 +256,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/19/gsoc-final-report/</guid>
       <dc:date>2014-08-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Heart Beat Feature</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/heart-beat-feature/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;If a static is being displayed by HDMI2USB (for example a slide in a presentation), then it is difficult to tell whether the HDMI2USB is working or it is hung. So a heart beat feature has been added which causes a block of pixel to pulse in the lower right corner of the screen indicating that HDMI2USB is alive.&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to control?&lt;/h4&gt;&lt;div&gt;Heart Beat (HB) can be switched on/off using switch SW 0 or using the CDC control port by sending ASCII command &quot;S(s)&quot; and &quot;H(h)&quot;. But the control port will work only when the switch is on. So the switch acts as a &quot;hard off&quot; signal.&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to tweak the pulse?&lt;/h4&gt;&lt;div&gt;The heart beat module is instantiated in the image_selector module. To change height, width and pulsing rate of the pixels, change the generics HB_length, HB_width and alt_aft_frame in hdl/misc/image_selector.vhd file.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;http://youtu.be/hsOfT9qg4hI&quot;&gt;Video&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/heart-beat-feature/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-21T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
