@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 27 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at derbedhruv/pediperi</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</guid>
+      <dc:date>2014-10-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar created branch mega_scan at derbedhruv/pediperi</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-created-branch-mega_scan-at-derbedhruv/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-created-branch-mega_scan-at-derbedhruv/</guid>
+      <dc:date>2014-10-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at derbedhruv/pediperi</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/27/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</link>
@@ -219,29 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-starred-tigal-opentracker/</guid>
       <dc:date>2014-08-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked TIGAL/OpenTracker to rohit91/OpenTracker</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-forked-tigal-opentracker-to-rohit91-opent/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 20 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/20/rohit91-forked-tigal-opentracker-to-rohit91-opent/</guid>
-      <dc:date>2014-08-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-27T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
