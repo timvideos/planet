@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 pushed to master at tariq786/unambiguous-encapsulation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-pushed-to-master-at-tariq786-unambiguous/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-pushed-to-master-at-tariq786-unambiguous/</guid>
+      <dc:date>2014-10-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>tariq786 opened pull request mossmann/unambiguous-encapsulation#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-opened-pull-request-mossmann-unambiguous/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-opened-pull-request-mossmann-unambiguous/</guid>
+      <dc:date>2014-10-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked valbok/HEngine to tariq786/HEngine</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/02/tariq786-forked-valbok-hengine-to-tariq786-hengin/</link>
@@ -273,36 +295,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/22/debugging-pays-off-a-bit/</guid>
       <dc:date>2014-07-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Debugging frame sending in Packetizer RTL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</link>
-      <description>I have been debugging why Packetizer is missing some packets randomly by Chipscope pro as well as simulation. Lets pray to hear the good news soon :)&lt;br /&gt;&lt;br /&gt;I am trying to setup trigger conditions. It seems i need to work more on that. It should be done by Monday or latest by Tuesday.&lt;br /&gt;&lt;br /&gt;Keep looking at the blog.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 21 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/21/debugging-frame-sending-in-packetizer-rtl/</guid>
-      <dc:date>2014-07-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debugging Verilog RTP Packetizer frame generation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</link>
-      <description>Packetizer Verilog RTL is somehow missing some packets when i . This was reported in the day before yesterday's blog. I am still trying to debug it. I might go with simulation or chipscope approach. Right now i am making changes and testing in the hardware.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;I also posted the instructions on how to reproduce yesterday's blog results of sending one row of 1280 pixels by FPGA and reconstruction in Gstreamer. Please look at the &lt;a href=&quot;https://bitbucket.org/tariq786/packetizer&quot;&gt;README.md&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Debugging will continue on the weekend or next week as i have some commitment on Friday July 18th. See you after a short break !&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/18/debugging-verilog-rtp-packetizer-frame-generation/</guid>
-      <dc:date>2014-07-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-28T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
