@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 starred mossmann/unambiguous-encapsulation</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/31/tariq786-starred-mossmann-unambiguous-encapsulati/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/31/tariq786-starred-mossmann-unambiguous-encapsulati/</guid>
+      <dc:date>2014-10-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 pushed to master at tariq786/unambiguous-encapsulation</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-pushed-to-master-at-tariq786-unambiguous/</link>
@@ -238,18 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/rohit91-starred-karan-projects/</guid>
       <dc:date>2014-08-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred josephmisiti/awesome-machine-learning</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/rohit91-starred-josephmisiti-awesome-machine-lear/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/rohit91-starred-josephmisiti-awesome-machine-lear/</guid>
-      <dc:date>2014-08-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-29T00:00:00+00:00</dc:date>
+    <dc:date>2014-10-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>
