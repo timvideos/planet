@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to mega_scan at derbedhruv/pediperi</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/11/01/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/11/01/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</guid>
+      <dc:date>2014-11-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to mega_scan at derbedhruv/pediperi</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</link>
@@ -239,21 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/week-6-time-for-pcbs/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</link>
-      <description>&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;RS422/RS485 daughterboard schematics done.&lt;/li&gt;&lt;li&gt;Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.&lt;/li&gt;&lt;li&gt;Reduced 6 ports to 5 ports in serial expansion board.&lt;/li&gt;&lt;li&gt;PIC18F connections almost sorted out with port J left vacant.&lt;/li&gt;&lt;li&gt;Implemented the bus design in motherboard schematic.&lt;/li&gt;&lt;/ul&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
-      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-10-31T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
