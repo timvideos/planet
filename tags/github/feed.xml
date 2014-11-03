@@ -8,7 +8,42 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
+      <dc:date>2014-11-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created repository aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-repository-aps-sids-law-schools-/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-repository-aps-sids-law-schools-/</guid>
+      <dc:date>2014-11-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch master at aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-branch-master-at-aps-sids-law-sc/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-branch-master-at-aps-sids-law-sc/</guid>
+      <dc:date>2014-11-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to mega_scan at derbedhruv/pediperi</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/11/01/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</link>
@@ -204,41 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/10/09/aps-sids-deleted-branch-ppa-at-timvideos-gst-plug/</guid>
       <dc:date>2014-10-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch ppa at timvideos/gst-plugins-dvswitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/09/aps-sids-created-branch-ppa-at-timvideos-gst-plug/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/09/aps-sids-created-branch-ppa-at-timvideos-gst-plug/</guid>
-      <dc:date>2014-10-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/timesheet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/08/pinoss-pushed-to-master-at-pinoss-timesheet/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/08/pinoss-pushed-to-master-at-pinoss-timesheet/</guid>
-      <dc:date>2014-10-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/timesheet</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/08/pinoss-created-repository-pinoss-timesheet/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/08/pinoss-created-repository-pinoss-timesheet/</guid>
-      <dc:date>2014-10-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-01T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
