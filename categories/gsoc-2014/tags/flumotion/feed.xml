@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue stefanfoulis/django-phonenumber-field#41</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-stefanfoulis-django-p/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-stefanfoulis-django-p/</guid>
+      <dc:date>2014-11-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
@@ -227,17 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-opened-pull-request-timvideos-streaming-/</guid>
       <dc:date>2014-09-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/01/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
-      <dc:date>2014-09-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-03T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
