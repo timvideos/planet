@@ -8,7 +8,40 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
+      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
+      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-pull-request-timvideos-stre/</link>
+      <description>&lt;!-- pull_request_review_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
+      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
@@ -202,41 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/09/19/aps-sids-commented-on-issue-timvideos-gst-plugins/</guid>
       <dc:date>2014-09-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created branch test-room at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 09 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/09/aps-sids-created-branch-test-room-at-timvideos-st/</guid>
-      <dc:date>2014-09-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- pull_request_review_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 07 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/07/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2014-09-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred emluque/generativeText</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-emluque-generativetext/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 03 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/09/03/aps-sids-starred-emluque-generativetext/</guid>
-      <dc:date>2014-09-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-04T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
