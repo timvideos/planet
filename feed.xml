@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
+      <dc:date>2014-11-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on issue yourlabs/django-cities-light#67</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-commented-on-issue-yourlabs-django-citie/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-commented-on-issue-yourlabs-django-citie/</guid>
+      <dc:date>2014-11-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
@@ -210,28 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</guid>
       <dc:date>2014-10-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to mega_scan at derbedhruv/pediperi</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-mega_scan-at-derbedhruv-pedi/</guid>
-      <dc:date>2014-10-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at derbedhruv/pediperi</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/28/ayushsagar-pushed-to-master-at-derbedhruv-pediper/</guid>
-      <dc:date>2014-10-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-05T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
