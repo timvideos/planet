@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
+      <dc:date>2014-11-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/11/07/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
@@ -221,17 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/31/tariq786-starred-mossmann-unambiguous-encapsulati/</guid>
       <dc:date>2014-10-31T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 pushed to master at tariq786/unambiguous-encapsulation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-pushed-to-master-at-tariq786-unambiguous/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/10/29/tariq786-pushed-to-master-at-tariq786-unambiguous/</guid>
-      <dc:date>2014-10-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-07T00:00:00+00:00</dc:date>
+    <dc:date>2014-11-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
