@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr commented on issue timvideos/streaming-system#56</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/01/14/maxstr-commented-on-issue-timvideos-streaming-sys/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/01/14/maxstr-commented-on-issue-timvideos-streaming-sys/</guid>
+      <dc:date>2015-01-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to docker at maxstr/streaming-system</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/04/maxstr-pushed-to-docker-at-maxstr-streaming-syste/</link>
@@ -211,17 +222,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/15/gsoc-update-6-14/</guid>
       <dc:date>2014-06-15T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/dockered-streamingsystem</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/13/maxstr-pushed-to-master-at-maxstr-dockered-stream/</guid>
-      <dc:date>2014-06-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>

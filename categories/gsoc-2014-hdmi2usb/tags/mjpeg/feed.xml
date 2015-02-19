@@ -8,270 +8,242 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
     <item>
-      <title>Need for a remote access to FPGA</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;My mid sems finally got over yesterday and I got some free time in my life. So I am blogging. After completion of GSoC, lot of my juniors are asking me about my &amp;nbsp;project and a few seem to be interested. Few days back I answered a question on quora :&amp;nbsp;&lt;a href=&quot;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&quot;&gt;http://www.quora.com/What-are-some-suggested-open-source-projects-in-Verilog-for-intermediates/answer/Ajit-Mathew&lt;/a&gt;&amp;nbsp;and the person asking the question PMed me regarding my project. But what is stopping them from contributing is that they don't have an access to FPGA. In India, an Atlys board costs around INR 20K which is a big deal for a student. Also colleges have the old spartan 3 boards or don't give easy access to FPGA board.&lt;br /&gt;I was recently talking to an alumni who is working in a FPGA based startup and he mentioned to me how they have created a hack which allows the developers to remotely access the FPGA, dump the .bit and see results. If we at TimVideos can develop a similar solution then it would improve participation greatly. If the logistics are handled, making this possible is not very challenging. Another solution can be to make a comprehensive test bench which allows black box and white box testing. A good language to create this test bench will be System Verilog as it combine verilog and class structure of C++. But this is a very big project. Creating accurate models for verification will take a lot of time.&lt;br /&gt;&lt;br /&gt;The need to have expensive hardware for development is big disadvantage for open source hardware development.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
+      <title>ajitmathew pushed to debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/15/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/09/11/need-for-a-remote-access-to-fpga/</guid>
-      <dc:date>2014-09-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Thank You TimVideos!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/thank-you-timvideos/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;It is slightly late but better late than never. My final evaluation results are out and I have been given a pass grade by my organisation. It felt really good to see the mail of successful completion of GSoC after three months of hard work.&lt;br /&gt;I would be very ungrateful if I don't thank my mentor, Joel &quot;Shenki&quot; Stanley. He is probably the coolest mentor and I have dibs on him if I participate next year. Initially I was worried as I didn't have a clear understanding of what to do and in those times shenki was really cool and motivated me which was a big help. I would also like to than our org admin Tim &quot;mithro&quot; Ansell, whose dedication to this org inspires me. Seriously, I would love to sit and talk with him on how he manages to motivate himself to learn and do so many stuff (BTW he works at Google).&lt;br /&gt;I would like to keep contributing for the organisation as and when I get some free time. I also see a lot of my junior getting inspired and wanting to work for this org (one of them had sent a mail on the mailing list some time ago). I am planning to start a OSDG-Hardware group and introduce them to TimVideos. I see a lot of student interested to contribute but don't have sufficient knowledge about things relates to FPGA. So I will be soon (read &quot;when I am free&quot;) posting some material and links which will help a raw student who knows only a HDL to become a &quot;hardware developer&quot;. Another problem which I found when I discussed with my junior about open source hardware development is the need to have &quot;the hardware&quot; which for us in out case is the FPGA (very expensive considering a country like India). We can slightly mitigate this problem by developing a test suite which helps students who don't have hardware.&lt;br /&gt;The journey of GSoC was great. I have was voted as the most hardworking GSoC intern among my friends who were also interning at GSoC orgs. My learning was really awesome. I feel smarter than most of my batch mates (which will slowly fade away when mid semester exams start). Also the exposure to open source community has restored my faith in humanity because good people still exist and that too in great number. Overall, this experience will remain green in my mind forever.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/25/thank-you-timvideos/</guid>
-      <dc:date>2014-08-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSOC Final Report</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/19/gsoc-final-report/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Result Summary&lt;/span&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b id=&quot;docs-internal-guid-20092824-ecf0-9859-2eb2-215aa4a61f31&quot; style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Timvideos is trying to develop an opensource video conferencing solution. The organisation has both a hardware component (HDMI2USB) and software component (like Gstreamer, flumotion). I was working on the hardware side of the org specifically on HDMI2USB fpga firmware. HDMI2SUSB is basically a solution based on FPGA to compress HD video stream input from a source like video camera and output the compressed stream via USB, hence the name HDMI2USB.&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;GOALS&lt;/span&gt;&lt;/h2&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;My &amp;nbsp;project was on &quot;Optimisation of MPEG Core&quot;. In the original firmware, the output stream from USB was about 10-11 fps which is very low and not suitable for video recording, the primary purpose of HDMI2USB. The aim of my project was to improve this frame rate. I had proposed to improve it to 60 fps @ 720p. As the reason for a slow frame rate was not fully understood, I built a lot of firmware to get the &quot;status&quot; of the HDMI2USB which later on became my second project, to create a &quot;Debug Infrastructure&quot; for HDMI2USB. &lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h2 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 17px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Final Outcome&lt;/span&gt;&lt;/h2&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Finally I was able to improve the frame rate to 30 fps (which is the minimum required for recording) and set a system which allows developers to easily output debug data via CDC or UART Port.&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h4 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 2pt; margin-top: 12pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;How did the frame rate improve?&lt;/span&gt;&lt;/h4&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The title of my project &quot;Optimisation of MPEG Core&quot; isn't a very apt title. The work I did tried to optimize the whole firmware. The original firmware has an image buffer which stores a frame before being compress by the JPEG core. The state machine of the image buffer was such that no processing was done when a frame was being read and no frames were read when processing was done. This was the bottleneck which was causing a slow frame rate. To remove this bottleneck I pipelined the read and write cycles of the image buffer. This reduced the number of frames which were being dropped and hence improve the frame rate.&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h4 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 2pt; margin-top: 12pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Debug Interface&lt;/span&gt;&lt;/h4&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The debug interface is a new feature added to the HDMI2USB firmware. Unlike programming language which can be easily debugged using printf statement, systems on hardware like FPGA require elaborate methods. The debug interface which has been implemented allows data to be output via CDC port which was part of the original firmware and UART port which has been added to allow more options to developers and users incase CDC fails. Also a program has been included which reads bytes from fpga and presents them to users in a human readable format. &lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h4 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 2pt; margin-top: 12pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Heart Beat Feature&lt;/span&gt;&lt;/h4&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Sometimes when the image is static, it is difficult to tell whether the fpga firmware is working or it has hung. To remove this ambiguity, a heart beat feature was added which is basically a small block of pixel in the bottom right corner of the frame pulsing at a constant rate. This feature can be turned on/off using a hardware switch and via the CDC control port.&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Community Outcomes&lt;/span&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The Timvideos developers’ community has promising outcomes after completion of this project. The biggest being the HDMI2USB can be used for recording. Now that HDMI2USB firmware streams at 30 fps, it can be used for recording at 30 fps which is the minimum frame rate required for video recording. Also, I may not have been able to meet the 60 fps as I mentioned in my proposal but I have successfully revealed some issues in the HDMI2USB firmware which need to be dealt with, most importantly the bandwidth of FX2 chip.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;There are certain other features which can be implemented but have not been implemented due to lack of time like reducing subsampling to 4:2:0 and implementing a triple buffer in the image buffer. This may or may not change the frame rate but it will be interesting to see the outcomes if they are implemented. The debug infrastructure that has been setup will allow future developers to easily debug the hardware and also provide an easy way of troubleshooting for future users. Addition of UART allows multiple debug/control option incase cypress fx2 fails. &amp;nbsp;As my project dealt more with optimisation which involves getting a good understanding of the system as a whole, I have gained good knowledge about the fpga firmware. This will be useful for future developers as I am in a position to be able to guide them regarding specific issues. Also thanks to the exposure I received due to this project, I have started a Open Source Hardware Developers Group in my university where soon I will be introducing TimVideos. Hopefully this will increase the number of developers for HDMI2USB.&lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt; text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Replicating Results&lt;/span&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;All the code relevant to the project has been merged into the HDMI2USB &lt;/span&gt;&lt;a href=&quot;https://github.com/timvideos/HDMI2USB&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;repository&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Also check out the how to use section in the following blog posts:&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;a href=&quot;http://ajitmathewgsoc.blogspot.in/2014/06/uart-documentation.html&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;UART&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;a href=&quot;http://ajitmathewgsoc.blogspot.in/2014/08/heart-beat-feature.html&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Heart Beat&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;a href=&quot;http://ajitmathewgsoc.blogspot.in/2014/08/debug-infrastructure-documentation.html&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Debug Interface&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;a href=&quot;https://github.com/timvideos/HDMI2USB/wiki/Viewing&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;To check the frame rate&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Bugs/To Do&lt;/span&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;ul style=&quot;margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Support 1080p via USB: I successfully added 1080p test pattern (Hidef snow) to the hdmi2usb. It was streaming out of the HDMI port but not out of USB. Here is the &lt;/span&gt;&lt;a href=&quot;http://youtu.be/5_YHWTe9moI&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;video&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Add Control Port via UART: I was able to expose some features of control port to UART but not all. I will try to finish after GSOC.&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; list-style-type: disc; text-decoration: none; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Automatic Encoding Quality Control: It has been noticed that the encoding quality depends highly on the type of image. So there can be a auto encoding qulaity control like the one in youtube (it changes the resolution though) which allows more compression if the frame rate is slow. &lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;a href=&quot;https://docs.google.com/document/d/1sEhcLmseSLfqr2kH5UtSyMhg5yaNTnCkdNkSvA_ayq4/edit#heading=h.jefh9mjwbidh&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: #1155cc; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Documentation&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;b style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: Arial; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Developers Guide has been updated to reflect new changes. &lt;/span&gt;&lt;/div&gt;&lt;/b&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 10pt;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: black; font-family: 'Trebuchet MS'; font-size: 21px; font-style: normal; font-variant: normal; font-weight: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Learnings&lt;/span&gt;&lt;/h1&gt;&lt;h1 dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 4pt; margin-top: 14pt; text-align: justify;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-top: 0pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;This project has been a great learning curve for me. My knowledge about fpga and related stuff has increased exponentially. The mentors are great and supportive. Working for this org was a great introduction to Open Source Development. I would highly recommend the org to anyone who is new and wants to get dirty with FOSS.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/h1&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/19/gsoc-final-report/</guid>
-      <dc:date>2014-08-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Heart Beat Feature</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/heart-beat-feature/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;If a static is being displayed by HDMI2USB (for example a slide in a presentation), then it is difficult to tell whether the HDMI2USB is working or it is hung. So a heart beat feature has been added which causes a block of pixel to pulse in the lower right corner of the screen indicating that HDMI2USB is alive.&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to control?&lt;/h4&gt;&lt;div&gt;Heart Beat (HB) can be switched on/off using switch SW 0 or using the CDC control port by sending ASCII command &quot;S(s)&quot; and &quot;H(h)&quot;. But the control port will work only when the switch is on. So the switch acts as a &quot;hard off&quot; signal.&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to tweak the pulse?&lt;/h4&gt;&lt;div&gt;The heart beat module is instantiated in the image_selector module. To change height, width and pulsing rate of the pixels, change the generics HB_length, HB_width and alt_aft_frame in hdl/misc/image_selector.vhd file.&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;http://youtu.be/hsOfT9qg4hI&quot;&gt;Video&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/heart-beat-feature/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew edited the timvideos/HDMI2USB wiki</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</link>
-      <description>&lt;!-- gollum --&gt;
-&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/18/ajitmathew-edited-the-timvideos-hdmi2usb-wiki/</guid>
-      <dc:date>2014-08-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Debug Infrastructure Documentation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Debug infrastructure provides an easy interface for a developer to output data from the FPGA board for debugging. It is also useful for end users in case of troubleshooting.&lt;br /&gt;&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;The BIG PICTURE:&lt;/h4&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-3c2e4da6-e57a-1e7f-99d8-25e94f272ef1&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;img height=&quot;275px;&quot; src=&quot;https://docs.google.com/drawings/d/sWiUs9sKILX1TDoZ4QiVsLw/image?w=759&amp;amp;h=275&amp;amp;rev=39&amp;amp;ac=1&quot; style=&quot;-webkit-transform: rotate(0.00rad); border: none; transform: rotate(0.00rad);&quot; width=&quot;759px;&quot; /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The debug data is collected into the debug_module which then breaks the data into bytes and sends them to UART module and USB_top module. These module send data via CDC/UART to host.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;h3 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;How to use?&lt;/span&gt;&lt;/h3&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;The output of UART/CDC are bytes. So to convert them to human readable format and hence allow easy debugging, a program fpga_debug.c has been provided which reads data from the fpga and then outputs data in correct format. &lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;To compile fpga_debug.c&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; cd tools&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; make&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;To run debugging program&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&amp;gt; ./fpga_debug&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;How to add new debug data?&amp;nbsp;&lt;/h4&gt;&lt;div&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Route the data into debug_module&lt;/li&gt;&lt;li&gt;Break it into bytes and add to uart_byte_array&lt;/li&gt;&lt;li&gt;&amp;nbsp;Change value of &quot;constant N_BYTES &amp;nbsp;: integer&quot; appropriately&lt;/li&gt;&lt;li&gt;In fpga_debug.c add code to parse and output the new data&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;You are done!&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;Output Bytes:&lt;/h4&gt;&lt;div&gt;&lt;span id=&quot;docs-internal-guid-9accb71d-e7dd-51eb-09c9-5221da483b43&quot;&gt;&lt;br /&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left: 0pt;&quot;&gt;&lt;table style=&quot;border-collapse: collapse; border: none;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;140&quot;&gt;&lt;/col&gt;&lt;col width=&quot;484&quot;&gt;&lt;/col&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;background-color: #bfbfbf; border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Byte&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;background-color: #bfbfbf; border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Description&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Device State&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;5:2&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Resolution of Source&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;6&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Input frame rate in fps&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;7&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Output frame rate in fps&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;8&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frame write time in ms&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;9&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frame Processing Time in ms&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;No. of frames dropped for every frame processed&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height: 0px;&quot;&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;13:11&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td style=&quot;border-bottom: solid #000000 1px; border-left: solid #000000 1px; border-right: solid #000000 1px; border-top: solid #000000 1px; padding: 7px 7px 7px 7px; vertical-align: top;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;line-height: 1.15; margin-bottom: 0pt; margin-left: -1.5pt; margin-top: 0pt; text-align: justify; text-indent: -1.5pt;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;No. of bytes in a frame&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;NOTE: &lt;/b&gt;To use UART port, &lt;a href=&quot;https://github.com/timvideos/HDMI2USB/wiki/Installing-Exar-Driver&quot;&gt;exar device driver should be installed&lt;/a&gt;. But the driver does not allow CDC port to function along with it. So you can use either UART or CDC but not both.&lt;br /&gt;&lt;br /&gt;&lt;h4 style=&quot;text-align: left;&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=naJ_AHqOFrQ&amp;amp;feature=youtu.be&amp;amp;noredirect=1&quot;&gt;Video&lt;/a&gt;&lt;/h4&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial; font-size: 15px; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/17/debug-infrastructure-documentation/</guid>
-      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Control Port Still not working</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/control-port-still-not-working/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Fixed some error but status commands are still not working grrrr..&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/11/control-port-still-not-working/</guid>
-      <dc:date>2014-08-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Control port via UART</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/control-port-via-uart/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;This is turning out to be more difficult than I thought. I was trying to use the same controller module for cdc and UART. But for some reason which I haven't been able to figure out, the video output is null when I am trying to do that. Tried a bunch of stuff but nothing worked. I guess I will have to make a separate controller for UART. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/control-port-via-uart/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew commented on pull request timvideos/HDMI2USB#90</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/07/ajitmathew-commented-on-pull-request-timvideos-hd/</guid>
-      <dc:date>2014-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Hidef snow working!</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;Finally got the hidef snow working through hdmi2usb via HDMI out but not via usb.&lt;br /&gt;I am getting a timeout error. I increased the watchdog timer inside the usb module to absurdly large value but it still did not remove the error. The large size of frame might be the problem.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/06/hidef-snow-working/</guid>
-      <dc:date>2014-08-06T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/15/ajitmathew-pushed-to-debug-at-ajitmathew-hdmi2usb/</guid>
+      <dc:date>2015-01-15T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>ajitmathew pushed to master at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</link>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-pushed-to-master-at-ajitmathew-hdmi2us/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>ajitmathew commented on issue timvideos/HDMI2USB#68</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/05/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
-      <dc:date>2014-08-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Unable to get hidefsnow working</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;I wanted to add a 1080p test pattern to firmware so the performance at&amp;nbsp; that resolution can be understood. Unfortunately things are not working. I am getting strange output values from debugger. Hopefully I get it done soon. &lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/01/unable-to-get-hidefsnow-working/</guid>
-      <dc:date>2014-08-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to heart_beat_v2 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-pushed-to-heart_beat_v2-at-ajitmathew-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-pushed-to-heart_beat_v2-at-ajitmathew-/</guid>
-      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch heart_beat_v2 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat_v2-at-ajitma/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat_v2-at-ajitma/</guid>
-      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch heart_beat at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/31/ajitmathew-created-branch-heart_beat-at-ajitmathe/</guid>
-      <dc:date>2014-07-31T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Lot of pushing done</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;- Debug Infrastructure Pushed&lt;br /&gt;- Pipelined Memory Pushed&lt;br /&gt;- Will do heart beat tomorrow&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ajitmathewgsoc.blogspot.com/&quot;&gt;TimVideo GSoC 2014: MJPEG Optimisation&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/lot-of-pushing-done/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew pushed to testing at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-pushed-to-testing-at-ajitmathew-hdmi2u/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew opened pull request timvideos/HDMI2USB#80</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
+      <title>ajitmathew opened pull request timvideos/HDMI2USB#100</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
       <description>&lt;!-- pull_request --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch testing at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-testing-at-ajitmathew-h/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-testing-at-ajitmathew-h/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch sprints at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-sprints-at-ajitmathew-h/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-sprints-at-ajitmathew-h/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch memory at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-memory-at-ajitmathew-hd/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-memory-at-ajitmathew-hd/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch heart_beat_v2 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat_v2-at-ajitma/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat_v2-at-ajitma/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch heart_beat at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat-at-ajitmathe/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat-at-ajitmathe/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-debug-at-ajitmathew-hdm/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch ctrl_port at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ctrl_port-at-ajitmathew/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ctrl_port-at-ajitmathew/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch ajit-debug-v3 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ajit-debug-v3-at-ajitma/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ajit-debug-v3-at-ajitma/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew deleted branch ajit-debug-v2 at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ajit-debug-v2-at-ajitma/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ajit-debug-v2-at-ajitma/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>ajitmathew created branch testing at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/30/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
-      <dc:date>2014-07-30T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+    <item>
+      <title>ajitmathew created branch sprints at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-sprints-at-ajitmathew-h/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-sprints-at-ajitmathew-h/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch debug at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-debug-at-ajitmathew-hdm/</guid>
+      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew forked timvideos/HDMI2USB-firmware-prebuilt to ajitmathew/HDMI2USB-firmware-prebuilt</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-forked-timvideos-hdmi2usb-firmware-pre/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-forked-timvideos-hdmi2usb-firmware-pre/</guid>
+      <dc:date>2015-01-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch testing at ajitmathew/HDMI2USB-firmware-prebuilt</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
+      <dc:date>2015-01-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew opened pull request timvideos/HDMI2USB#99</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-01-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch ctrl_port at ajitmathew/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-created-branch-ctrl_port-at-ajitmathew/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 07 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-created-branch-ctrl_port-at-ajitmathew/</guid>
+      <dc:date>2015-01-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew edited the mithro/libfpgalink wiki</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/06/ajitmathew-edited-the-mithro-libfpgalink-wiki/</link>
+      <description>&lt;!-- gollum --&gt;
+&lt;span class=&quot;mega-octicon octicon-book&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 06 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/06/ajitmathew-edited-the-mithro-libfpgalink-wiki/</guid>
+      <dc:date>2015-01-06T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>

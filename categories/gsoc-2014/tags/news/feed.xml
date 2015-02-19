@@ -8,11 +8,11 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: NEWS</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
     <item>
       <title>A C++ speed-me-up trick</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
-      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I&amp;rsquo;ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
+      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I’ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
 
 </description>
       <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
@@ -37,7 +37,7 @@
     <item>
       <title>17 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</link>
-      <description>&lt;p&gt;I updated my PR according to Tim&amp;rsquo;s directions. Also finished my GSoC final report, almost. I&amp;rsquo;ll put it up on Docs tomorrow morning.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <description>&lt;p&gt;I updated my PR according to Tim’s directions. Also finished my GSoC final report, almost. I’ll put it up on Docs tomorrow morning.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -102,7 +102,7 @@
     <item>
       <title>14 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/14/14-aug-14/</link>
-      <description>&lt;p&gt;Tried setting up the streaming system, but ran into a very unhelpful error message. Skay could replicate the issue on her system. She figured out a way to make the server work though, and I&amp;rsquo;ll try and make it work tomorrow on my system, &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <description>&lt;p&gt;Tried setting up the streaming system, but ran into a very unhelpful error message. Skay could replicate the issue on her system. She figured out a way to make the server work though, and I’ll try and make it work tomorrow on my system, &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -147,7 +147,7 @@
     <item>
       <title>12 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/12/12-aug-14/</link>
-      <description>&lt;p&gt;Today I worked on adding a link in the streaming-system website frontend. I assumed it to be a straightforward task, which it should have been, but I&amp;rsquo;ve messed up my git repo somewhat. Doing a &amp;lsquo;make serve&amp;rsquo; for the streaming system turns up a series of errors. I&amp;rsquo;ve setup the stream before, so I think I can resolve it. That&amp;rsquo;s my first task for tomorrow. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <description>&lt;p&gt;Today I worked on adding a link in the streaming-system website frontend. I assumed it to be a straightforward task, which it should have been, but I’ve messed up my git repo somewhat. Doing a ‘make serve’ for the streaming system turns up a series of errors. I’ve setup the stream before, so I think I can resolve it. That’s my first task for tomorrow. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -202,7 +202,7 @@
     <item>
       <title>10 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/10/10-aug-14/</link>
-      <description>&lt;p&gt;Hi. I was away to my grandparent&amp;rsquo;s place yesterday and most part of today owing to an Indian festival. I spent some time trying to wrap my head around how decorators work in Django. I think I&amp;rsquo;ve isolated the due to which the user is repeatedly logged out. I&amp;rsquo;ll code it up tomorrow and hope that it works as I think it should. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <description>&lt;p&gt;Hi. I was away to my grandparent’s place yesterday and most part of today owing to an Indian festival. I spent some time trying to wrap my head around how decorators work in Django. I think I’ve isolated the due to which the user is repeatedly logged out. I’ll code it up tomorrow and hope that it works as I think it should. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -229,7 +229,7 @@
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/08/8-aug-14/</link>
       <description>&lt;ul&gt;
 &lt;li&gt;I improved the styling. Changing some internal structure and hiding some unnecessary fields.&lt;/li&gt;
-&lt;li&gt;Resolved the IP address issue. Hadn&amp;rsquo;t installed app in virtualenv. Skay helped.&lt;/li&gt;
+&lt;li&gt;Resolved the IP address issue. Hadn’t installed app in virtualenv. Skay helped.&lt;/li&gt;
 &lt;li&gt;Looked into permission decorators. &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -256,7 +256,7 @@
     <item>
       <title>7 Aug '14</title>
       <link>http://planet.timvideos.us/gsoc-2014/2014/08/07/7-aug-14/</link>
-      <description>&lt;p&gt;The app is fully up. I still need to fix the IP address error, which I don&amp;rsquo;t have any idea what&amp;rsquo;s causing it. Authorization for admin backend is done using Django auth system for now. Bugs getting saved in database and edit and delete functions working fine. Need to improve the UI though. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+      <description>&lt;p&gt;The app is fully up. I still need to fix the IP address error, which I don’t have any idea what’s causing it. Authorization for admin backend is done using Django auth system for now. Bugs getting saved in database and edit and delete functions working fine. Need to improve the UI though. &lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -283,6 +283,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/08/06/gsoc-snippet-06-08-2014/</guid>
       <dc:date>2014-08-06T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>

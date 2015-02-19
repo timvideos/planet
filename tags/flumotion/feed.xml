@@ -8,228 +8,232 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
     <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/12/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+      <title>aps-sids forked jdm/asknot to aps-sids/asknot</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-forked-jdm-asknot-to-aps-sids-asknot/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/12/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-forked-jdm-asknot-to-aps-sids-asknot/</guid>
+      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids commented on issue Guake/guake#269</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/12/aps-sids-commented-on-issue-guake-guake-269/</link>
+      <title>aps-sids commented on issue rg3/youtube-dl#4978</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-commented-on-issue-rg3-youtube-dl-4978/</link>
       <description>&lt;!-- issue_comment --&gt;
 &lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/12/aps-sids-commented-on-issue-guake-guake-269/</guid>
-      <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-commented-on-issue-rg3-youtube-dl-4978/</guid>
+      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+      <title>aps-sids closed issue rg3/youtube-dl#4978</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-11T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</guid>
+      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids opened issue maraujop/django-crispy-forms#382</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-opened-issue-maraujop-django-crispy-form/</link>
+      <title>aps-sids opened issue rg3/youtube-dl#4978</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</link>
       <description>&lt;!-- issues --&gt;
 &lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Tue, 11 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/11/aps-sids-opened-issue-maraujop-django-crispy-form/</guid>
-      <dc:date>2014-11-11T00:00:00+00:00</dc:date>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</guid>
+      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/07/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/07/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-07T00:00:00+00:00</dc:date>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2015-02-16T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/07/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/07/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2014-11-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue yourlabs/django-cities-light#67</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-commented-on-issue-yourlabs-django-citie/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/06/aps-sids-commented-on-issue-yourlabs-django-citie/</guid>
-      <dc:date>2014-11-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids opened issue Guake/guake#408</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-opened-issue-guake-guake-408/</link>
+      <title>aps-sids opened issue timvideos/getting-started#29</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</link>
       <description>&lt;!-- issues --&gt;
 &lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-opened-issue-guake-guake-408/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</guid>
+      <dc:date>2015-02-16T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- pull_request_review_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue yourlabs/django-cities-light#67</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-yourlabs-django-citie/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-yourlabs-django-citie/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue Guake/guake#408</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-guake-guake-408/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-guake-guake-408/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue Guake/guake#269</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-guake-guake-269/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 05 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/05/aps-sids-commented-on-issue-guake-guake-269/</guid>
-      <dc:date>2014-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue yourlabs/django-cities-light#67</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-yourlabs-django-citie/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-yourlabs-django-citie/</guid>
-      <dc:date>2014-11-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue stefanfoulis/django-phonenumber-field#41</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-stefanfoulis-django-p/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 04 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/04/aps-sids-commented-on-issue-stefanfoulis-django-p/</guid>
-      <dc:date>2014-11-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-pushed-to-master-at-aps-sids-law-schools/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-pushed-to-master-at-aps-sids-law-schools/</guid>
-      <dc:date>2014-11-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created repository aps-sids/law-schools-portal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-repository-aps-sids-law-schools-/</link>
+      <title>aps-sids created repository aps-sids/pocket-tanks-xna</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-pocket-tanks/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
   &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
 
 </description>
-      <pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/11/03/aps-sids-created-repository-aps-sids-law-schools-/</guid>
-      <dc:date>2014-11-03T00:00:00+00:00</dc:date>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-pocket-tanks/</guid>
+      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2014-11-12T00:00:00+00:00</dc:date>
+    <item>
+      <title>aps-sids created repository aps-sids/gesture-recognition-unity3d</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-gesture-reco/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-gesture-reco/</guid>
+      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch master at aps-sids/pocket-tanks-xna</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-pocket/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-pocket/</guid>
+      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch master at aps-sids/gesture-recognition-unity3d</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-gestur/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-gestur/</guid>
+      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to add-man-page at timvideos/dvsource-v4l2-other</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
+      <dc:date>2015-02-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to add-man-page at timvideos/dvsource-v4l2-other</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-stre/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on pull request timvideos/flumotion#7</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on pull request timvideos/dvsource-v4l2-other#9</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-dvso/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-dvso/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on issue timvideos/getting-started#15</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
+      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on issue timvideos/getting-started#4</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/09/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/09/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
+      <dc:date>2015-02-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/06/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/06/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
+      <dc:date>2015-02-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/04/aps-sids-commented-on-pull-request-timvideos-stre/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/04/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
+      <dc:date>2015-02-04T00:00:00+00:00</dc:date>
+    </item>
+    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>
