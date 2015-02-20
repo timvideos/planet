@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/asknot</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-pushed-to-master-at-aps-sids-asknot/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-pushed-to-master-at-aps-sids-asknot/</guid>
+      <dc:date>2015-02-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch gh-pages at aps-sids/asknot</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-created-branch-gh-pages-at-aps-sids-askn/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-created-branch-gh-pages-at-aps-sids-askn/</guid>
+      <dc:date>2015-02-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 commented on issue rohit91/TripleBuffer#1</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</link>
@@ -216,29 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
       <dc:date>2015-02-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 forked theadamlt/Sublime-Arduino to tariq786/Sublime-Arduino</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/10/tariq786-forked-theadamlt-sublime-arduino-to-tari/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/10/tariq786-forked-theadamlt-sublime-arduino-to-tari/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>

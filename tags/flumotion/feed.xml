@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/asknot</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-pushed-to-master-at-aps-sids-asknot/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-pushed-to-master-at-aps-sids-asknot/</guid>
+      <dc:date>2015-02-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids created branch gh-pages at aps-sids/asknot</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-created-branch-gh-pages-at-aps-sids-askn/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-created-branch-gh-pages-at-aps-sids-askn/</guid>
+      <dc:date>2015-02-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids forked jdm/asknot to aps-sids/asknot</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-forked-jdm-asknot-to-aps-sids-asknot/</link>
@@ -212,28 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/09/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
       <dc:date>2015-02-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to check-signal at timvideos/streaming-system</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/06/aps-sids-pushed-to-check-signal-at-timvideos-stre/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/06/aps-sids-pushed-to-check-signal-at-timvideos-stre/</guid>
-      <dc:date>2015-02-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/04/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/04/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2015-02-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-19T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>
