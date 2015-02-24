@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred olsonjeffery/msp430-skel</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</guid>
+      <dc:date>2015-02-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 commented on issue rohit91/TripleBuffer#1</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</link>
@@ -235,17 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/12/tariq786-forked-theycallmeswift-arduino-101-works/</guid>
       <dc:date>2015-01-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to hdmi2usb at rohit91/libfpgalink</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/rohit91-pushed-to-hdmi2usb-at-rohit91-libfpgalink/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/rohit91-pushed-to-hdmi2usb-at-rohit91-libfpgalink/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
