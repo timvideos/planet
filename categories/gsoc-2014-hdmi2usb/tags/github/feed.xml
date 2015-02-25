@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked brandonhamilton/building-a-soc-with-migen to tariq786/building-a-soc-with-migen</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/25/tariq786-forked-brandonhamilton-building-a-soc-wi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/25/tariq786-forked-brandonhamilton-building-a-soc-wi/</guid>
+      <dc:date>2015-02-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred olsonjeffery/msp430-skel</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</link>
@@ -235,18 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/12/tariq786-forked-walac-pyusb-to-tariq786-pyusb/</guid>
       <dc:date>2015-01-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 forked theycallmeswift/arduino-101-workshop to tariq786/arduino-101-workshop</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/12/tariq786-forked-theycallmeswift-arduino-101-works/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/12/tariq786-forked-theycallmeswift-arduino-101-works/</guid>
-      <dc:date>2015-01-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
