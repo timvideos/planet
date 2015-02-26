@@ -8,7 +8,51 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss merged pull request pinoss/timeloop#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss merged pull request pinoss/timeloop#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss commented on pull request pinoss/timeloop#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-commented-on-pull-request-pinoss-timeloop-/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-commented-on-pull-request-pinoss-timeloop-/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/asknot</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-pushed-to-master-at-aps-sids-asknot/</link>
@@ -192,50 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
       <dc:date>2015-02-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to add-man-page at timvideos/dvsource-v4l2-other</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/streaming-system#79</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-stre/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/flumotion#7</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-25T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

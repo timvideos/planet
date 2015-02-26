@@ -8,7 +8,51 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/timeloop</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss merged pull request pinoss/timeloop#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss merged pull request pinoss/timeloop#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss commented on pull request pinoss/timeloop#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-commented-on-pull-request-pinoss-timeloop-/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-commented-on-pull-request-pinoss-timeloop-/</guid>
+      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked brandonhamilton/building-a-soc-with-migen to tariq786/building-a-soc-with-migen</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/25/tariq786-forked-brandonhamilton-building-a-soc-wi/</link>
@@ -192,54 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-pocket-tanks/</guid>
       <dc:date>2015-02-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created repository aps-sids/gesture-recognition-unity3d</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-gesture-reco/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-gesture-reco/</guid>
-      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch master at aps-sids/pocket-tanks-xna</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-pocket/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-pocket/</guid>
-      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch master at aps-sids/gesture-recognition-unity3d</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-gestur/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-gestur/</guid>
-      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created repository rohit91/TripleBuffer</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-repository-rohit91-triplebuffer/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-repository-rohit91-triplebuffer/</guid>
-      <dc:date>2015-02-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-25T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
