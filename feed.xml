@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 forked tapasweni-pathak/Help-The-Needy to Niharika29/Help-The-Needy</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/28/niharika29-forked-tapasweni-pathak-help-the-needy/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/28/niharika29-forked-tapasweni-pathak-help-the-needy/</guid>
+      <dc:date>2015-02-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/timeloop</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</link>
@@ -224,18 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</guid>
       <dc:date>2015-02-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids created repository aps-sids/pocket-tanks-xna</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-pocket-tanks/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-repository-aps-sids-pocket-tanks/</guid>
-      <dc:date>2015-02-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>

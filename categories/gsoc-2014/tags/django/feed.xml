@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 forked tapasweni-pathak/Help-The-Needy to Niharika29/Help-The-Needy</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/02/28/niharika29-forked-tapasweni-pathak-help-the-needy/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/28/niharika29-forked-tapasweni-pathak-help-the-needy/</guid>
+      <dc:date>2015-02-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 starred CamHenlin/imessageclient</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/02/08/niharika29-starred-camhenlin-imessageclient/</link>
@@ -234,16 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-forked-cloudspokes-arena-web-to-nihari/</guid>
       <dc:date>2014-10-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>A C++ speed-me-up trick</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
-      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I’ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
-
-</description>
-      <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</guid>
-      <dc:date>2014-10-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-26T00:00:00+00:00</dc:date>
+    <dc:date>2015-02-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
