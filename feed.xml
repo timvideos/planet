@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred speters/CMSIS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</guid>
+      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked speters/CMSIS to rohit91/CMSIS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</guid>
+      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 forked tapasweni-pathak/Help-The-Needy to Niharika29/Help-The-Needy</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/02/28/niharika29-forked-tapasweni-pathak-help-the-needy/</link>
@@ -214,28 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/17/ayushsagar-forked-5harad-crowds-to-ayushsagar-cro/</guid>
       <dc:date>2015-02-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to porting-to-gst1.0 at aps-sids/flumotion-orig</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
-      <dc:date>2015-02-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids opened issue timvideos/getting-started#29</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</guid>
-      <dc:date>2015-02-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>

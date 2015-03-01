@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 28 Feb 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred speters/CMSIS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</guid>
+      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked speters/CMSIS to rohit91/CMSIS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</guid>
+      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred olsonjeffery/msp430-skel</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</link>
@@ -219,29 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/08/rohit91-forked-mithro-libfpgalink-to-rohit91-libf/</guid>
       <dc:date>2015-01-08T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked makestuff/fx2lib to rohit91/fx2lib</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/08/rohit91-forked-makestuff-fx2lib-to-rohit91-fx2lib/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 08 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/08/rohit91-forked-makestuff-fx2lib-to-rohit91-fx2lib/</guid>
-      <dc:date>2015-01-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 commented on issue timvideos/HDMI2USB#5</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/12/22/rohit91-commented-on-issue-timvideos-hdmi2usb-5/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/12/22/rohit91-commented-on-issue-timvideos-hdmi2usb-5/</guid>
-      <dc:date>2014-12-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-02-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
