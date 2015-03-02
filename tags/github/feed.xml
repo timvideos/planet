@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar created repository ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</guid>
+      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar created branch master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-branch-master-at-ayushsagar-cr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-branch-master-at-ayushsagar-cr/</guid>
+      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred speters/CMSIS</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
@@ -215,29 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-pinoss-backpackly/</guid>
       <dc:date>2015-02-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss forked timvideos/website to pinoss/website</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-forked-timvideos-website-to-pinoss-website/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-forked-timvideos-website-to-pinoss-website/</guid>
-      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids opened issue rg3/youtube-dl#4978</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</guid>
-      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>

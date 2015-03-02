@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar created repository ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</guid>
+      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ayushsagar created branch master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-branch-master-at-ayushsagar-cr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-branch-master-at-ayushsagar-cr/</guid>
+      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred speters/CMSIS</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
@@ -224,30 +248,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/26/tariq786-forked-hutch31-sdlib-to-tariq786-sdlib/</guid>
       <dc:date>2015-01-26T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred diydrones/ardupilot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/26/rohit91-starred-diydrones-ardupilot/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/26/rohit91-starred-diydrones-ardupilot/</guid>
-      <dc:date>2015-01-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked diydrones/ardupilot to rohit91/ardupilot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/26/rohit91-forked-diydrones-ardupilot-to-rohit91-ard/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/26/rohit91-forked-diydrones-ardupilot-to-rohit91-ard/</guid>
-      <dc:date>2015-01-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-01T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
