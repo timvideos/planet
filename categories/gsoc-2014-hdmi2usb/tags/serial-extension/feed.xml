@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: SERIAL-EXTENSION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar created repository ayushsagar/crowdOHR</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</link>
@@ -238,17 +249,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/daily-snippet/</guid>
       <dc:date>2014-07-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/HDMI2USB-vmodserial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/03/ayushsagar-pushed-to-master-at-ayushsagar-hdmi2us/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>

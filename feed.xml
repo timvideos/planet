@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/Self-Balancing-Bot</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-pushed-to-master-at-rohit91-self-balancin/</link>
@@ -229,17 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-commented-on-issue-rg3-youtube-dl-4978/</guid>
       <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids closed issue rg3/youtube-dl#4978</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</guid>
-      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
