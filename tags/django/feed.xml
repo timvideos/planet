@@ -223,28 +223,29 @@
       <dc:date>2014-12-22T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 starred cloudspokes/arena-web</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+      <title>A C++ speed-me-up trick</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</link>
+      <description>&lt;p&gt;After a couple of months of wondering how to wrap up this blog, I decided to keep it anyway. I’ll use it for posting random tricks/tutorials whenever I get time.&lt;/p&gt;
 
 </description>
-      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-starred-cloudspokes-arena-web/</guid>
-      <dc:date>2014-10-21T00:00:00+00:00</dc:date>
+      <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/16/a-c-speed-me-up-trick/</guid>
+      <dc:date>2014-10-16T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>Niharika29 forked cloudspokes/arena-web to Niharika29/arena-web</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-forked-cloudspokes-arena-web-to-nihari/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+      <title>17 Aug '14</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</link>
+      <description>&lt;p&gt;I updated my PR according to Tim’s directions. Also finished my GSoC final report, almost. I’ll put it up on Docs tomorrow morning.&lt;/p&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://niharika.svbtle.com&quot;&gt;Niharika Kohli&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
 
 </description>
-      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/10/21/niharika29-forked-cloudspokes-arena-web-to-nihari/</guid>
-      <dc:date>2014-10-21T00:00:00+00:00</dc:date>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2014/08/17/17-aug-14/</guid>
+      <dc:date>2014-08-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-03-03T00:00:00+00:00</dc:date>
   </channel>
