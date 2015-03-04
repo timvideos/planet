@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/04/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/04/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
@@ -281,21 +292,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/19/daily-snippet/</guid>
       <dc:date>2014-06-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</link>
-      <description>&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;&lt;br /&gt;&lt;ul style=&quot;text-align: left;&quot;&gt;&lt;li&gt;Fiddling today with the FX2LP code I found that EP 6 (isochronous-in) which is used for UVC is double-buffered but it could also be quad-buffered. I configured the configuration bits to use quad-buffering and built the binary. Will be testing out difference in FPS performance. Here's a temporary &lt;a href=&quot;https://www.dropbox.com/s/o1qp82wfsrztue7/hdmi2usb.hex&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;&amp;nbsp;to download the binary.&lt;/li&gt;&lt;li&gt;The current situation with Cypress FX2LP needs us to significantly change our ways of integrating serial devices to HDMI2USB; the Cypress - FPGA route does not seem to work&lt;/li&gt;&lt;li&gt;It seems we will have to implement the serial expansion board as a standalone board using the PIC18F85J94 being planned to be used in production board.&lt;/li&gt;&lt;li&gt;It is also advisable to remove the control serial port currently implemented in Cypress FX2LP in order to free up endpoints for UVC A/B preview and HDMI audio input.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/17/daily-snippet/</guid>
-      <dc:date>2014-06-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-03T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>

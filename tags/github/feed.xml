@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/04/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/04/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred Selz/plyr</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/rohit91-starred-selz-plyr/</link>
@@ -230,17 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/20/aps-sids-created-branch-gh-pages-at-aps-sids-askn/</guid>
       <dc:date>2015-02-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 commented on issue rohit91/TripleBuffer#1</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</guid>
-      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-03T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
