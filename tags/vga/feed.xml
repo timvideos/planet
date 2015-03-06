@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 04 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred gorhill/uBlock</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/06/rohit91-starred-gorhill-ublock/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/06/rohit91-starred-gorhill-ublock/</guid>
+      <dc:date>2015-03-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred Selz/plyr</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/rohit91-starred-selz-plyr/</link>
@@ -232,18 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/rohit91-pushed-to-i2c_sniff-at-rohit91-hdmi2usb/</guid>
       <dc:date>2015-01-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created branch I2C_Sniff at rohit91/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/rohit91-created-branch-i2c_sniff-at-rohit91-hdmi2/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/rohit91-created-branch-i2c_sniff-at-rohit91-hdmi2/</guid>
-      <dc:date>2015-01-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-04T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
