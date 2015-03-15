@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/aps-sids.github.com</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/15/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/15/aps-sids-pushed-to-master-at-aps-sids-aps-sids-gi/</guid>
+      <dc:date>2015-03-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar forked google/rowhammer-test to ayushsagar/rowhammer-test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/12/ayushsagar-forked-google-rowhammer-test-to-ayushs/</link>
@@ -240,18 +251,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-branch-master-at-ayushsagar-cr/</guid>
       <dc:date>2015-03-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred speters/CMSIS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</guid>
-      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
