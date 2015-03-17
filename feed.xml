@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred arialdomartini/oh-my-git</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/15/aps-sids-starred-arialdomartini-oh-my-git/</link>
@@ -239,18 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</guid>
       <dc:date>2015-03-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar created repository ayushsagar/crowdOHR</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/ayushsagar-created-repository-ayushsagar-crowdohr/</guid>
-      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>

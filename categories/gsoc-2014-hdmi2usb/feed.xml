@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar forked google/rowhammer-test to ayushsagar/rowhammer-test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/12/ayushsagar-forked-google-rowhammer-test-to-ayushs/</link>
@@ -243,17 +254,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</guid>
       <dc:date>2015-02-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 commented on issue rohit91/TripleBuffer#1</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/19/rohit91-commented-on-issue-rohit91-triplebuffer-1/</guid>
-      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>

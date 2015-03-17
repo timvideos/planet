@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
+      <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar forked google/rowhammer-test to ayushsagar/rowhammer-test</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/12/ayushsagar-forked-google-rowhammer-test-to-ayushs/</link>
@@ -233,18 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-repository-rohit91-triplebuffer/</guid>
       <dc:date>2015-02-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/TripleBuffer</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-branch-master-at-rohit91-triplebu/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-branch-master-at-rohit91-triplebu/</guid>
-      <dc:date>2015-02-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
