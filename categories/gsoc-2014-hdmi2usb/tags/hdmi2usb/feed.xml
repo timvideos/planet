@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked mdegrazia/SQLite-Deleted-Records-Parser to tariq786/SQLite-Deleted-Records-Parser</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/tariq786-forked-mdegrazia-sqlite-deleted-records-/</link>
@@ -241,18 +252,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-rohitdureja-freertos-launchpad-de/</guid>
       <dc:date>2015-03-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked speters/CMSIS to rohit91/CMSIS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</guid>
-      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

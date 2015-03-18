@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: SERIAL-EXTENSION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
@@ -266,21 +277,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</guid>
       <dc:date>2014-06-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all sorted out and is almost done&lt;/li&gt;&lt;li&gt;Heavy use of hierarchical sheets would make parts of this schematic resusable&lt;/li&gt;&lt;li&gt;For example the Numato production board design can add the block of serial expansion just like a component.&lt;/li&gt;&lt;li&gt;Customizations by preloading slots with daughterboard circuits (as hierarchical sheets) becomes very easy.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/22/daily-snippet/</guid>
-      <dc:date>2014-06-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

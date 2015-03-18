@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
     <item>
       <title>maxstr commented on issue timvideos/streaming-system#56</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/01/14/maxstr-commented-on-issue-timvideos-streaming-sys/</link>
@@ -215,6 +215,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-update/</guid>
       <dc:date>2014-05-26T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>

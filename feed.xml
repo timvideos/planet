@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked mdegrazia/SQLite-Deleted-Records-Parser to tariq786/SQLite-Deleted-Records-Parser</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/tariq786-forked-mdegrazia-sqlite-deleted-records-/</link>
@@ -239,17 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/linux-conference-auckland-and-timvideos-sprints-p/</guid>
       <dc:date>2015-03-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/crowdOHR</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 03 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
-      <dc:date>2015-03-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
