@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/19/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/19/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-19T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
@@ -262,21 +273,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/24/week-5-summary-all-set-to-start-building/</guid>
       <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;Motherboard schematic all done and pushed to my &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;repo&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Got Tim to create a &lt;a href=&quot;https://github.com/timvideos/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;fork&lt;/a&gt;&amp;nbsp;in TimVideos.&lt;/li&gt;&lt;li&gt;Looking at the issues in my repository.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/23/daily-snippet/</guid>
-      <dc:date>2014-06-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>

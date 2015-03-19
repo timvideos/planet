@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/19/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/19/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-19T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/18/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
@@ -227,18 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
       <dc:date>2015-03-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created repository rohit91/Self-Balancing-Bot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</guid>
-      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-18T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>
