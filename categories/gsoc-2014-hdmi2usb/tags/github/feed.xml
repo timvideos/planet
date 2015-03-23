@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 22 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/23/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/23/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
+      <dc:date>2015-03-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/Self-Balancing-Bot</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/22/rohit91-pushed-to-master-at-rohit91-self-balancin/</link>
@@ -228,18 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</guid>
       <dc:date>2015-03-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred rohitdureja/freeRTOS-Launchpad-Demo</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-rohitdureja-freertos-launchpad-de/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-rohitdureja-freertos-launchpad-de/</guid>
-      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-22T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>
