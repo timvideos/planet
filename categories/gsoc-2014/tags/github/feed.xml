@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at grzlus/grzlus.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/26/pinoss-pushed-to-master-at-grzlus-grzlus-github-i/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/26/pinoss-pushed-to-master-at-grzlus-grzlus-github-i/</guid>
+      <dc:date>2015-03-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss starred ai/browserslist</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/20/pinoss-starred-ai-browserslist/</link>
@@ -226,17 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</guid>
       <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at timvideos/website</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-timvideos-website/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-timvideos-website/</guid>
-      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-25T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DEVELOPERS-PAGE</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at grzlus/grzlus.github.io</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/26/pinoss-pushed-to-master-at-grzlus-grzlus-github-i/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/26/pinoss-pushed-to-master-at-grzlus-grzlus-github-i/</guid>
+      <dc:date>2015-03-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss starred ai/browserslist</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/20/pinoss-starred-ai-browserslist/</link>
@@ -227,18 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/12/23/pinoss-created-branch-add_array_in_validation-at-/</guid>
       <dc:date>2014-12-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created tag v0.1.0 at pinoss/ahprocess</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/20/pinoss-created-tag-v0-1-0-at-pinoss-ahprocess/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 20 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/20/pinoss-created-tag-v0-1-0-at-pinoss-ahprocess/</guid>
-      <dc:date>2014-12-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-25T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
