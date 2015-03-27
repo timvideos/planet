@@ -8,7 +8,66 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to add_expires_at_to_url at pinoss/carrierwave</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</guid>
+      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked carrierwaveuploader/carrierwave to pinoss/carrierwave</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-forked-carrierwaveuploader-carrierwave-to-/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-forked-carrierwaveuploader-carrierwave-to-/</guid>
+      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss deleted tag v.0.10.1 at pinoss/carrierwave</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-deleted-tag-v-0-10-1-at-pinoss-carrierwave/</link>
+      <description>&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-deleted-tag-v-0-10-1-at-pinoss-carrierwave/</guid>
+      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v.0.10.1 at pinoss/carrierwave</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-created-tag-v-0-10-1-at-pinoss-carrierwave/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-created-tag-v-0-10-1-at-pinoss-carrierwave/</guid>
+      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch add_expires_at_to_url at pinoss/carrierwave</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-created-branch-add_expires_at_to_url-at-pi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-created-branch-add_expires_at_to_url-at-pi/</guid>
+      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at grzlus/grzlus.github.io</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/26/pinoss-pushed-to-master-at-grzlus-grzlus-github-i/</link>
@@ -179,65 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-forked-timvideos-website-to-pinoss-website/</guid>
       <dc:date>2015-02-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/backpackly</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-pushed-to-master-at-pinoss-backpackly/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-pushed-to-master-at-pinoss-backpackly/</guid>
-      <dc:date>2014-12-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created repository pinoss/backpackly</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-created-repository-pinoss-backpackly/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-created-repository-pinoss-backpackly/</guid>
-      <dc:date>2014-12-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch master at pinoss/backpackly</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-created-branch-master-at-pinoss-backpackly/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 27 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/27/pinoss-created-branch-master-at-pinoss-backpackly/</guid>
-      <dc:date>2014-12-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked nicolasblanco/rails_param to pinoss/rails_param</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/23/pinoss-forked-nicolasblanco-rails_param-to-pinoss/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/23/pinoss-forked-nicolasblanco-rails_param-to-pinoss/</guid>
-      <dc:date>2014-12-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss created branch add_array_in_validation at pinoss/rails_param</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/23/pinoss-created-branch-add_array_in_validation-at-/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/23/pinoss-created-branch-add_array_in_validation-at-/</guid>
-      <dc:date>2014-12-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-26T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>
