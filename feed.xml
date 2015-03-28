@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids open sourced aps-sids/share-my-food</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</link>
+      <description>&lt;!-- public --&gt;
+&lt;span class=&quot;mega-octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</guid>
+      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to add_expires_at_to_url at pinoss/carrierwave</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</link>
@@ -228,17 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
       <dc:date>2015-03-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
-      <dc:date>2015-03-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-27T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
