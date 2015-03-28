@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to master at aps-sids/share-my-food</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</guid>
+      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids open sourced aps-sids/share-my-food</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</link>
       <description>&lt;!-- public --&gt;
@@ -223,17 +234,6 @@
 </description>
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-stre/</guid>
-      <dc:date>2015-02-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on pull request timvideos/flumotion#7</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-commented-on-pull-request-timvideos-flum/</guid>
       <dc:date>2015-02-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-03-28T00:00:00+00:00</dc:date>
