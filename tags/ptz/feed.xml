@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: PTZ</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar forked tardis-sn/tardis to ayushsagar/tardis</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</guid>
+      <dc:date>2015-03-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
@@ -247,21 +259,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
       <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
-      <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-03-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-03-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
