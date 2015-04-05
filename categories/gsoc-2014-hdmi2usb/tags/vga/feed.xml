@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 02 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/Self-Balancing-Bot</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/05/rohit91-pushed-to-master-at-rohit91-self-balancin/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/05/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
+      <dc:date>2015-04-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred gazben/TraceDemon</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/02/rohit91-starred-gazben-tracedemon/</link>
@@ -242,18 +253,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-repository-rohit91-triplebuffer/</guid>
       <dc:date>2015-02-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/TripleBuffer</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-branch-master-at-rohit91-triplebu/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/13/rohit91-created-branch-master-at-rohit91-triplebu/</guid>
-      <dc:date>2015-02-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
