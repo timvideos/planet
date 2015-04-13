@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked gunthercox/zorg to tariq786/zorg</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</guid>
+      <dc:date>2015-04-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked mdegrazia/SQLite-Deleted-Records-Parser to tariq786/SQLite-Deleted-Records-Parser</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/tariq786-forked-mdegrazia-sqlite-deleted-records-/</link>
@@ -248,21 +260,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/13/documentation-and-adding-test-images-continues/</guid>
       <dc:date>2014-08-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Spending sometime working on DDR2 interface and resuming Documentation</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/12/spending-sometime-working-on-ddr2-interface-and-r/</link>
-      <description>If you recall, i had started &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#heading=h.fnxxz0x6v3xd&quot;&gt;Specification document&lt;/a&gt; for the project. Now is the time to put more writing into it and complete it by the end of this week by Sunday. I also spent sometime working on DDR2 interface today. From now on, more time (or perhaps most of the time) will be spent on the documentation and less on DDR2 integration. If documentation is complete and there is time left, DDR2 integration will continue. For DDR2 integration, we are going to use VTC_DEMO from &lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0CB0QFjAA&amp;amp;url=http%3A%2F%2Fwww.xilinx.com%2Fsupport%2Fdocumentation%2Fapplication_notes%2Fxapp495_S6TMDS_Video_Interface.pdf&amp;amp;ei=HZvpU8OlMI3IsAS3iYDgBg&amp;amp;usg=AFQjCNGcUSidjPZvALh-Tz2nuRLzrfJOoA&amp;amp;sig2=NduuOeH5tklG0rW3cdD31w&amp;amp;bvm=bv.72676100,d.cWc&quot;&gt;Xilinx Application Note 495&lt;/a&gt; as HDMI source. So HDMI traffic (720p) from VTC_DEMO will be written to DDR2 which will then be read by RTP packetizer and sent as RTP packets across 1 Gbps link to the host PC. Host PC will decode these packets using Gstreamer and play them back. I hope that was a good summary.&lt;br /&gt;&lt;br /&gt;Please look at the &lt;a href=&quot;https://docs.google.com/document/d/1PSjfm6eS0B3UUPJmPf7PH0tNsF7ZFKIKfPldmF3ucKY/edit?pli=1#heading=h.fnxxz0x6v3xd&quot;&gt;Specification document&lt;/a&gt; for some new sections on HDMI. The ideas is to put the following sections so anyone (beginner with no knowledge or an expert) can understand the project and be able to reuse it. Following sections are going to be added to the rest of the documentation. This is not a complete list and things may be added or subtracted as needed.&lt;br /&gt;&lt;br /&gt;1) HDMI basic explanation (what is a 720p frame, what are the relevant signals and how to know when a line (row) starts and when it is finished and when a frame starts and when it is finished?&lt;br /&gt;2) Gigabit Ethernet MAC&lt;br /&gt;3) RTP Packetizer&lt;br /&gt;4) Frame Calculation&lt;br /&gt;5) Testing on the Host PC using Gstreamer (how to configure the host PC, how to increase or decrease the frame rate using switches on Atlys FPGA)&lt;br /&gt;6) Future Directions&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Documentation is to be continued ...&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://hdmi2ethernet.blogspot.com/&quot;&gt;GSOC 2014&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/08/12/spending-sometime-working-on-ddr2-interface-and-r/</guid>
-      <dc:date>2014-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-07T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
