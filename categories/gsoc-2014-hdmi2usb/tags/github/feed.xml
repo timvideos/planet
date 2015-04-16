@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked crypto101/book to tariq786/book</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/16/tariq786-forked-crypto101-book-to-tariq786-book/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/16/tariq786-forked-crypto101-book-to-tariq786-book/</guid>
+      <dc:date>2015-04-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked gunthercox/zorg to tariq786/zorg</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</link>
@@ -228,18 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/08/rohit91-starred-defunkt-gist/</guid>
       <dc:date>2015-03-08T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred gorhill/uBlock</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/06/rohit91-starred-gorhill-ublock/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/06/rohit91-starred-gorhill-ublock/</guid>
-      <dc:date>2015-03-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-13T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
