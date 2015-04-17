@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred nvbn/thefuck</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</guid>
+      <dc:date>2015-04-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked crypto101/book to tariq786/book</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/16/tariq786-forked-crypto101-book-to-tariq786-book/</link>
@@ -231,17 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/ayushsagar-forked-mit-cml-appinventor-sources-to-/</guid>
       <dc:date>2015-03-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/23/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/23/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
-      <dc:date>2015-03-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-16T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
