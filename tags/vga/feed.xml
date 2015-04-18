@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 commented on issue timvideos/HDMI2USB#33</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/18/rohit91-commented-on-issue-timvideos-hdmi2usb-33/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/18/rohit91-commented-on-issue-timvideos-hdmi2usb-33/</guid>
+      <dc:date>2015-04-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred Ttl/sam_board</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/07/rohit91-starred-ttl-sam_board/</link>
@@ -242,18 +253,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-forked-speters-cmsis-to-rohit91-cmsis/</guid>
       <dc:date>2015-03-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred olsonjeffery/msp430-skel</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 24 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/02/24/rohit91-starred-olsonjeffery-msp430-skel/</guid>
-      <dc:date>2015-02-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
