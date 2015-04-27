@@ -246,8 +246,8 @@
     </item>
     <item>
       <title>Daily snippet</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
-      <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</link>
+      <description>&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;RS422/RS485 daughterboard schematics done.&lt;/li&gt;&lt;li&gt;Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.&lt;/li&gt;&lt;li&gt;Reduced 6 ports to 5 ports in serial expansion board.&lt;/li&gt;&lt;li&gt;PIC18F connections almost sorted out with port J left vacant.&lt;/li&gt;&lt;li&gt;Implemented the bus design in motherboard schematic.&lt;/li&gt;&lt;/ul&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
     &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
   &lt;/span&gt;
@@ -255,9 +255,9 @@
 
 
 </description>
-      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
-      <dc:date>2014-06-30T00:00:00+00:00</dc:date>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
+      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-04-18T00:00:00+00:00</dc:date>
   </channel>
