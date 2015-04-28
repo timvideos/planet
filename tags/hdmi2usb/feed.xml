@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked tim-umass/hackers-umass-html-css to tariq786/hackers-umass-html-css</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/28/tariq786-forked-tim-umass-hackers-umass-html-css-/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/28/tariq786-forked-tim-umass-hackers-umass-html-css-/</guid>
+      <dc:date>2015-04-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 commented on issue timvideos/HDMI2USB#33</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/18/rohit91-commented-on-issue-timvideos-hdmi2usb-33/</link>
@@ -227,18 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
       <dc:date>2015-03-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar forked google/rowhammer-test to ayushsagar/rowhammer-test</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/12/ayushsagar-forked-google-rowhammer-test-to-ayushs/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/12/ayushsagar-forked-google-rowhammer-test-to-ayushs/</guid>
-      <dc:date>2015-03-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-18T00:00:00+00:00</dc:date>
+    <dc:date>2015-04-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
