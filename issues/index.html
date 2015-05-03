@@ -9450,10 +9450,21 @@ gst-switch-srv/gstswitchserver.c:750:error: failed serving new client
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>These changes introduce a cleaner (yet incomplete) set of Integration-Tests and a new Testing-Base-System, which does not rely on sleeping n-seconds to give the Server time to start but instead closely monitors the Servers stdout to know when the Server is ready for a specific test.<br />
-This way the tests run not only much faster, but they especially don’t rely on the speed on the machine their running at which should greatly improve travis reliability.</p>
+                    <p>These changes introduce a cleaner and more incomplete set of Integration-Tests and a new Testing-Base-System, which does not rely on sleeping n-seconds to give the Server time to start but instead closely monitors the Servers stdout to know when the Server is ready for a specific test.<br />
+This way the tests run not only much faster, but they especially don’t rely on the speed on the machine their running at which should greatly improve travis reliability. Some of the tests are marked as @xfail and reference Github-Issues about why the Tests fail.</p>
 
-<p>The code does not pass Style/PEP-Checks right now.</p>
+<p>Incorporated are some cleanups to the Unit-Tests, too.</p>
+
+<p>closes #179 <br />
+closes #178 <br />
+closes #180<br />
+closes #173<br />
+closes #170<br />
+closes #166<br />
+closes #37<br />
+closes #159<br />
+closes #17<br />
+closes #2</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -9477,7 +9488,7 @@ This way the tests run not only much faster, but they especially don’t rely on
                     
                   </div>
                 </div>
-                <button type="button" data-toggle="tooltip" data-original-title="read in about 30 seconds" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
+                <button type="button" data-toggle="tooltip" data-original-title="read in about 40 seconds" class="show-more btn btn-default btn-xs pull-right" >Read more...</button>
                 <button type="button" class="hide-more btn btn-default btn-xs pull-right" >Hide issue...</button>
               </div>
               <small class="description">
