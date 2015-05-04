@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred Doppp/LHL-Sudoku-Solver</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/04/rohit91-starred-doppp-lhl-sudoku-solver/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/04/rohit91-starred-doppp-lhl-sudoku-solver/</guid>
+      <dc:date>2015-05-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked tim-umass/hackers-umass-html-css to tariq786/hackers-umass-html-css</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/28/tariq786-forked-tim-umass-hackers-umass-html-css-/</link>
@@ -228,17 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdoh/</guid>
       <dc:date>2015-03-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/17/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
-      <dc:date>2015-03-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-04-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
