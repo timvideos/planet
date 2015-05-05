@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked twbs/bootstrap-sass to pinoss/bootstrap-sass</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/05/pinoss-forked-twbs-bootstrap-sass-to-pinoss-boots/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/05/pinoss-forked-twbs-bootstrap-sass-to-pinoss-boots/</guid>
+      <dc:date>2015-05-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to add_expires_at_to_url at pinoss/carrierwave</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</link>
@@ -227,17 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-timvideos-website/</guid>
       <dc:date>2015-02-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/backpackly</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-pinoss-backpackly/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/pinoss-pushed-to-master-at-pinoss-backpackly/</guid>
-      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-04T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
