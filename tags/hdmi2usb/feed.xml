@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred mnielsen/neural-networks-and-deep-learning</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/07/rohit91-starred-mnielsen-neural-networks-and-deep/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/07/rohit91-starred-mnielsen-neural-networks-and-deep/</guid>
+      <dc:date>2015-05-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked securelyfitz/USBSanitizer to tariq786/USBSanitizer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/05/tariq786-forked-securelyfitz-usbsanitizer-to-tari/</link>
@@ -232,17 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/22/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
       <dc:date>2015-03-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/Self-Balancing-Bot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/20/rohit91-pushed-to-master-at-rohit91-self-balancin/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/20/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
-      <dc:date>2015-03-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-05T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
