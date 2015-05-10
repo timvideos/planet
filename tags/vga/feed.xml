@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred 0xAX/linux-insides</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</guid>
+      <dc:date>2015-05-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred mnielsen/neural-networks-and-deep-learning</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/07/rohit91-starred-mnielsen-neural-networks-and-deep/</link>
@@ -241,18 +253,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</guid>
       <dc:date>2015-03-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred speters/CMSIS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/01/rohit91-starred-speters-cmsis/</guid>
-      <dc:date>2015-03-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-07T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
