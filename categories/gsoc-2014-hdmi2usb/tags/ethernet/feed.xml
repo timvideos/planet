@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: ETHERNET</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked dloss/python-pentest-tools to tariq786/python-pentest-tools</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked securelyfitz/USBSanitizer to tariq786/USBSanitizer</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/05/tariq786-forked-securelyfitz-usbsanitizer-to-tari/</link>
@@ -237,18 +249,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/05/tariq786-forked-ucb-bar-chisel-tutorial-to-tariq7/</guid>
       <dc:date>2015-01-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 forked UberPinguin/android_kernel_samsung_t769 to tariq786/android_kernel_samsung_t769</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/12/26/tariq786-forked-uberpinguin-android_kernel_samsun/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 26 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/12/26/tariq786-forked-uberpinguin-android_kernel_samsun/</guid>
-      <dc:date>2014-12-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>

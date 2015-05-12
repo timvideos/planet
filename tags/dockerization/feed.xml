@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr forked jadams760/CS171_HW3 to maxstr/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr commented on issue timvideos/streaming-system#56</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/01/14/maxstr-commented-on-issue-timvideos-streaming-sys/</link>
@@ -195,26 +218,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/03/gsoc-update-6-2/</guid>
       <dc:date>2014-06-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>GSoC Update 6-1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</link>
-      <description>&lt;h2&gt;Snippets for today&lt;/h2&gt;
-
-</description>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/02/gsoc-update-6-1/</guid>
-      <dc:date>2014-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-update/</link>
-      <description>&lt;h2&gt;Update 1&lt;/h2&gt;
-
-</description>
-      <pubDate>Mon, 26 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/05/26/gsoc-update/</guid>
-      <dc:date>2014-05-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>

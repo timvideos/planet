@@ -8,7 +8,42 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked dloss/python-pentest-tools to tariq786/python-pentest-tools</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr forked jadams760/CS171_HW3 to maxstr/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</guid>
+      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred 0xAX/linux-insides</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</link>
@@ -211,40 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/02/rohit91-starred-gazben-tracedemon/</guid>
       <dc:date>2015-04-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar forked tardis-sn/tardis to ayushsagar/tardis</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</guid>
-      <dc:date>2015-03-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/share-my-food</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</guid>
-      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids open sourced aps-sids/share-my-food</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</link>
-      <description>&lt;!-- public --&gt;
-&lt;span class=&quot;mega-octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</guid>
-      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>
