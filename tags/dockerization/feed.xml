@@ -21,6 +21,18 @@
       <dc:date>2015-05-13T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr created branch deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-created-branch-deadlock-at-jadams760-cs171/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-created-branch-deadlock-at-jadams760-cs171/</guid>
+      <dc:date>2015-05-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at jadams760/CS171_HW3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
       <description>&lt;!-- push --&gt;
@@ -208,16 +220,6 @@
       <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</guid>
       <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/04/gsoc-update-6-3/</guid>
-      <dc:date>2014-06-04T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-13T00:00:00+00:00</dc:date>
   </channel>

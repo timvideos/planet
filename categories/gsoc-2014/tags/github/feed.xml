@@ -21,6 +21,18 @@
       <dc:date>2015-05-13T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr created branch deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-created-branch-deadlock-at-jadams760-cs171/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-created-branch-deadlock-at-jadams760-cs171/</guid>
+      <dc:date>2015-05-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at jadams760/CS171_HW3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
       <description>&lt;!-- push --&gt;
@@ -227,17 +239,6 @@
 </description>
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2015-03-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss merged pull request pinoss/timeloop#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</guid>
       <dc:date>2015-03-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-13T00:00:00+00:00</dc:date>
