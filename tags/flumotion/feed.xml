@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
     <item>
       <title>aps-sids starred nvbn/thefuck</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</link>
@@ -237,6 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/10/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
       <dc:date>2015-02-10T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>

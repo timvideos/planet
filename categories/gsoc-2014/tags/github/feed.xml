@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at jadams760/CS171_HW3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
@@ -229,18 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</guid>
       <dc:date>2015-03-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created tag v2.0.0 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-created-tag-v2-0-0-at-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-created-tag-v2-0-0-at-pinoss-timeloop/</guid>
-      <dc:date>2015-03-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
