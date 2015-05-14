@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at jadams760/CS171_HW3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
@@ -222,30 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</guid>
       <dc:date>2015-04-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred Ttl/sam_board</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/07/rohit91-starred-ttl-sam_board/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/07/rohit91-starred-ttl-sam_board/</guid>
-      <dc:date>2015-04-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred hak8or/Embedded-Linux-System</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/07/rohit91-starred-hak8or-embedded-linux-system/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 07 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/07/rohit91-starred-hak8or-embedded-linux-system/</guid>
-      <dc:date>2015-04-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-13T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>

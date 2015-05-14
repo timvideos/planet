@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at jadams760/CS171_HW3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
@@ -201,26 +223,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/06/11/gsoc-update-6-10/</guid>
       <dc:date>2014-06-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>GSoC Update 6-8</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-update-6-8/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Mon, 09 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/09/gsoc-update-6-8/</guid>
-      <dc:date>2014-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-6</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Sat, 07 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/07/gsoc-update-6-6/</guid>
-      <dc:date>2014-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-13T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
