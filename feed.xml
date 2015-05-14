@@ -90,18 +90,6 @@
       <dc:date>2015-05-12T00:00:00+00:00</dc:date>
     </item>
     <item>
-      <title>maxstr forked jadams760/CS171_HW3 to maxstr/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/12/maxstr-forked-jadams760-cs171_hw3-to-maxstr-cs171/</guid>
-      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
       <title>rohit91 starred 0xAX/linux-insides</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</link>
       <description>&lt;!-- watch --&gt;
@@ -243,6 +231,18 @@
       <pubDate>Thu, 16 Apr 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/16/tariq786-forked-crypto101-book-to-tariq786-book/</guid>
       <dc:date>2015-04-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>tariq786 forked gunthercox/zorg to tariq786/zorg</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</guid>
+      <dc:date>2015-04-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-14T00:00:00+00:00</dc:date>
   </channel>
