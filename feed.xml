@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 starred slimphp/Slim</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/niharika29-starred-slimphp-slim/</link>
@@ -232,18 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/16/tariq786-forked-crypto101-book-to-tariq786-book/</guid>
       <dc:date>2015-04-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 forked gunthercox/zorg to tariq786/zorg</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/13/tariq786-forked-gunthercox-zorg-to-tariq786-zorg/</guid>
-      <dc:date>2015-04-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>

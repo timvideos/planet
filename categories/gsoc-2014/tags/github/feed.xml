@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
+      <dc:date>2015-05-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 starred slimphp/Slim</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/niharika29-starred-slimphp-slim/</link>
@@ -229,18 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/03/20/pinoss-starred-ai-autoprefixer-rails/</guid>
       <dc:date>2015-03-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred arialdomartini/oh-my-git</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/15/aps-sids-starred-arialdomartini-oh-my-git/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/15/aps-sids-starred-arialdomartini-oh-my-git/</guid>
-      <dc:date>2015-03-15T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-14T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
