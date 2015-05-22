@@ -35,11 +35,11 @@
       
         <h4>gsoc-2014-hdmi2usb</h4>
       
-      <h1>Daily snippet</h1>
+      <h1>Daily Snippet</h1>
       <div class="article">
         <p class="meta description">
           Jul 1, 2014
-           • Ayush (PTZ/Serial Extension)
+           • Ajit (MJPEG Optimisation)
           
         </p>
         
@@ -59,14 +59,8 @@
               </span>
             
               <span class="label label-tag">
-                <a href="/iframe/tags/ptz">
-                  ptz
-                </a>
-              </span>
-            
-              <span class="label label-tag">
-                <a href="/iframe/tags/serial-extension">
-                  serial-extension
+                <a href="/iframe/tags/mjpeg">
+                  mjpeg
                 </a>
               </span>
             
@@ -75,13 +69,13 @@
         <p class="share-buttons">
   <span>Share: </span>
   <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
-  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F&text=TimVideos.us%20Daily+snippet%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F&text=TimVideos.us%20Daily+Snippet%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
   <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F07%2F01%2Fdaily-snippet%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
 </p>
         <p class="article">
-          <div class="MsoNormal"></div><ul><li>RS422/RS485 daughterboard schematics done.</li><li>Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.</li><li>Reduced 6 ports to 5 ports in serial expansion board.</li><li>PIC18F connections almost sorted out with port J left vacant.</li><li>Implemented the bus design in motherboard schematic.</li></ul><o:p></o:p><br /><div class="MsoNormal"><o:p></o:p></div><div class="MsoNormal"><o:p></o:p></div><div class="MsoNormal"><o:p></o:p></div><br /><div class="MsoNormal"><o:p></o:p></div><div class="author">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><ul style="text-align: left;"><li>Finally got the frame size of compressed image from the UART port.</li></ul>The results confirm that the slower frame rate for higher encoding quality is because of bandwidth issue.<br /><br />For 50% encoding quality, size of encoded frame is .436MB. So if the maximum bandwidth of fx2 is 40MBps then maximum number of frames possible is 91 which more than what we require.<br /><br />In case of 100% encoding quality, the frame size of encoded frame is 3.6 MB which is greater than the input frame size. This is possible because in RLE, if there is no repetition of data, the size of encoded image can be double(<a href="http://en.wikipedia.org/wiki/Run-length_encoding">wiki page</a>). So for this size and a bandwidth of 40MBps maximum frame rate is 11 which is also observed.<br /><br />So there is also a need to find an optimum encoding quality which has reasonable image quality and size.<br /><br /><ul style="text-align: left;"><li>Started working on mid term report. Hopefully I will finish tomorrow.</li><li>I am facing an issue with mu laptop. It turns off because of excessive heating when I build the firmware. This was not the case earlier. This wasted a lot of my time yesterday and today. I am using ubuntu 13.10. If anybody has any idea about the problem please help. Right now I go to windows build the firmware and then use ubuntu for rest of my stuff.</li></ul></div><div class="author">
   <span>
-    <i>Originally posted on <a href="http://ptzfortimvideos-gsoc14.blogspot.com/">Serial port expansion for HDMI2USB with PTZ camera control example</a></i>
+    <i>Originally posted on <a href="http://ajitmathewgsoc.blogspot.com/">TimVideo GSoC 2014: MJPEG Optimisation</a></i>
   </span>
 </div>
 
