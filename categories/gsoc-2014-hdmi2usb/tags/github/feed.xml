@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew pushed to master at timvideos/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-05-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew merged pull request timvideos/HDMI2USB#125</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-05-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred solodon4/Mach7</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/24/rohit91-starred-solodon4-mach7/</link>
@@ -223,29 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</guid>
       <dc:date>2015-03-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred Teknoman117/beaglebot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/rohit91-starred-teknoman117-beaglebot/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/rohit91-starred-teknoman117-beaglebot/</guid>
-      <dc:date>2015-03-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ayushsagar pushed to master at ayushsagar/crowdCV</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/25/ayushsagar-pushed-to-master-at-ayushsagar-crowdcv/</guid>
-      <dc:date>2015-03-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
