@@ -44,6 +44,18 @@
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr created repository maxstr/altApi</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</guid>
+      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr created branch master at maxstr/io15Hackathon</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</link>
       <description>&lt;!-- create --&gt;
@@ -53,6 +65,18 @@
 </description>
       <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</guid>
+      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/altApi</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</guid>
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -207,26 +231,6 @@
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2014/07/08/gsoc-update-7-8/</guid>
       <dc:date>2014-07-08T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 7-1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</link>
-      <description>&lt;h2&gt;Snippets&lt;/h2&gt;
-
-</description>
-      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/07/03/gsoc-update-7-1/</guid>
-      <dc:date>2014-07-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>GSoC Update 6-23</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</link>
-      <description>&lt;h2&gt;This week&lt;/h2&gt;
-
-</description>
-      <pubDate>Tue, 24 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/06/24/gsoc-update-6-23/</guid>
-      <dc:date>2014-06-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-29T00:00:00+00:00</dc:date>
   </channel>

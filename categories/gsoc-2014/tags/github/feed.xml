@@ -44,6 +44,18 @@
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr created repository maxstr/altApi</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</guid>
+      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr created branch master at maxstr/io15Hackathon</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</link>
       <description>&lt;!-- create --&gt;
@@ -53,6 +65,18 @@
 </description>
       <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</guid>
+      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/altApi</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</guid>
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -215,28 +239,6 @@
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</guid>
       <dc:date>2015-04-17T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/share-my-food</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-pushed-to-master-at-aps-sids-share-my-fo/</guid>
-      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids open sourced aps-sids/share-my-food</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</link>
-      <description>&lt;!-- public --&gt;
-&lt;span class=&quot;mega-octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 28 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/28/aps-sids-open-sourced-aps-sids-share-my-food/</guid>
-      <dc:date>2015-03-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-29T00:00:00+00:00</dc:date>
   </channel>
