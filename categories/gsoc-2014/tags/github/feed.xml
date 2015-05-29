@@ -21,6 +21,17 @@
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr pushed to master at maxstr/altApi</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-pushed-to-master-at-maxstr-altapi/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-pushed-to-master-at-maxstr-altapi/</guid>
+      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr merged pull request maxstr/io15Hackathon#1</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-merged-pull-request-maxstr-io15hackathon-1/</link>
       <description>&lt;!-- pull_request --&gt;
@@ -227,18 +238,6 @@
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/05/pinoss-forked-twbs-bootstrap-sass-to-pinoss-boots/</guid>
       <dc:date>2015-05-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred nvbn/thefuck</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</guid>
-      <dc:date>2015-04-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-05-29T00:00:00+00:00</dc:date>
   </channel>
