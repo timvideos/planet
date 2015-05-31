@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred jdf/processing.py</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</guid>
+      <dc:date>2015-05-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew pushed to master at timvideos/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</link>
@@ -233,18 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/04/02/rohit91-starred-gazben-tracedemon/</guid>
       <dc:date>2015-04-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ayushsagar forked tardis-sn/tardis to ayushsagar/tardis</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/30/ayushsagar-forked-tardis-sn-tardis-to-ayushsagar-/</guid>
-      <dc:date>2015-03-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>

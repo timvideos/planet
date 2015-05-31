@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred jdf/processing.py</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</guid>
+      <dc:date>2015-05-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss forked taitems/jQuery.Gantt to pinoss/jQuery.Gantt</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-taitems-jquery-gantt-to-pinoss-jque/</link>
@@ -229,17 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</guid>
       <dc:date>2015-05-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
-      <dc:date>2015-05-15T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>

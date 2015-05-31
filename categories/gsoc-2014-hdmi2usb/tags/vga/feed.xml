@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred jdf/processing.py</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</guid>
+      <dc:date>2015-05-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred solodon4/Mach7</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/24/rohit91-starred-solodon4-mach7/</link>
@@ -238,18 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
       <dc:date>2015-03-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created repository rohit91/Self-Balancing-Bot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-created-repository-rohit91-self-balancing/</guid>
-      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-05-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>
