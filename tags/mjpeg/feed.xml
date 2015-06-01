@@ -11,6 +11,28 @@
     <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
     <item>
       <title>ajitmathew pushed to master at timvideos/HDMI2USB</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/01/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/01/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew merged pull request timvideos/HDMI2USB#126</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/01/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/01/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew pushed to master at timvideos/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
@@ -219,29 +241,6 @@
       <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-forked-timvideos-hdmi2usb-firmware-pre/</guid>
       <dc:date>2015-01-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch testing at ajitmathew/HDMI2USB-firmware-prebuilt</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/09/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
-      <dc:date>2015-01-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew opened pull request timvideos/HDMI2USB#99</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 07 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/07/ajitmathew-opened-pull-request-timvideos-hdmi2usb/</guid>
-      <dc:date>2015-01-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-01T00:00:00+00:00</dc:date>
   </channel>
