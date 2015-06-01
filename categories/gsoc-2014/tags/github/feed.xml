@@ -32,6 +32,28 @@
       <dc:date>2015-06-01T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids commented on issue WeAreCloudar/ansible_modules#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-commented-on-issue-wearecloudar-ansible_/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-commented-on-issue-wearecloudar-ansible_/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue WeAreCloudar/ansible_modules#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-closed-issue-wearecloudar-ansible_module/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-closed-issue-wearecloudar-ansible_module/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked taitems/jQuery.Gantt to pinoss/jQuery.Gantt</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-taitems-jquery-gantt-to-pinoss-jque/</link>
       <description>&lt;!-- fork --&gt;
@@ -216,29 +238,6 @@
       <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</guid>
       <dc:date>2015-05-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
-      <dc:date>2015-05-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 starred slimphp/Slim</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/niharika29-starred-slimphp-slim/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/niharika29-starred-slimphp-slim/</guid>
-      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-01T00:00:00+00:00</dc:date>
   </channel>
