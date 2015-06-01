@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids opened issue WeAreCloudar/ansible_modules#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-opened-issue-wearecloudar-ansible_module/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/01/aps-sids-opened-issue-wearecloudar-ansible_module/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids commented on pull request Codigami/tech-crowdfire#3</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/22/aps-sids-commented-on-pull-request-codigami-tech-/</link>
       <description>&lt;!-- pull_request_review_comment --&gt;
@@ -225,17 +236,6 @@
       <pubDate>Sat, 14 Feb 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/14/aps-sids-created-branch-master-at-aps-sids-gestur/</guid>
       <dc:date>2015-02-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to add-man-page at timvideos/dvsource-v4l2-other</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/11/aps-sids-pushed-to-add-man-page-at-timvideos-dvso/</guid>
-      <dc:date>2015-02-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-01T00:00:00+00:00</dc:date>
   </channel>
