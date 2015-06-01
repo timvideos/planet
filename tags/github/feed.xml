@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at jadams760/paxos</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/01/maxstr-pushed-to-master-at-jadams760-paxos/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/01/maxstr-pushed-to-master-at-jadams760-paxos/</guid>
+      <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred jdf/processing.py</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</link>
@@ -230,17 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/22/aps-sids-commented-on-pull-request-codigami-tech-/</guid>
       <dc:date>2015-05-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue ansible/ansible-examples#108</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</guid>
-      <dc:date>2015-05-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-05-31T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
