@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 opened issue shk3/edx-downloader#228</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/02/rohit91-opened-issue-shk3-edx-downloader-228/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/02/rohit91-opened-issue-shk3-edx-downloader-228/</guid>
+      <dc:date>2015-06-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred jdf/processing.py</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/31/rohit91-starred-jdf-processing-py/</link>
@@ -239,17 +250,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/03/linux-conference-auckland-and-timvideos-sprints-p/</guid>
       <dc:date>2015-03-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/Self-Balancing-Bot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-pushed-to-master-at-rohit91-self-balancin/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/03/02/rohit91-pushed-to-master-at-rohit91-self-balancin/</guid>
-      <dc:date>2015-03-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-01T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
