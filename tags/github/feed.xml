@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 02 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred vbarbaresi/MetroGit</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-vbarbaresi-metrogit/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-vbarbaresi-metrogit/</guid>
+      <dc:date>2015-06-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred dkroeske/emon-server</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-dkroeske-emon-server/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-dkroeske-emon-server/</guid>
+      <dc:date>2015-06-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred shk3/edx-downloader</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/02/rohit91-starred-shk3-edx-downloader/</link>
@@ -213,30 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-io15hackathon/</guid>
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created repository maxstr/altApi</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-repository-maxstr-altapi/</guid>
-      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created branch master at maxstr/io15Hackathon</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</guid>
-      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
