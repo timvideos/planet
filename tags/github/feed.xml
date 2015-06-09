@@ -21,6 +21,17 @@
       <dc:date>2015-06-09T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids opened issue Tpbrown/ansible-gocd#16</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/09/aps-sids-opened-issue-tpbrown-ansible-gocd-16/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/09/aps-sids-opened-issue-tpbrown-ansible-gocd-16/</guid>
+      <dc:date>2015-06-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at jadams760/paxos</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/08/maxstr-pushed-to-master-at-jadams760-paxos/</link>
       <description>&lt;!-- push --&gt;
@@ -224,17 +235,6 @@
       <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/30/maxstr-added-jsmit032-to-maxstr-io15hackathon/</guid>
       <dc:date>2015-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/io15Hackathon</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-pushed-to-master-at-maxstr-io15hackathon/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-pushed-to-master-at-maxstr-io15hackathon/</guid>
-      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-09T00:00:00+00:00</dc:date>
   </channel>
