@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids opened issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/11/aps-sids-opened-issue-ashwanthkumar-gocd-build-gi/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/11/aps-sids-opened-issue-ashwanthkumar-gocd-build-gi/</guid>
+      <dc:date>2015-06-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at jadams760/paxos</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/09/maxstr-pushed-to-master-at-jadams760-paxos/</link>
@@ -224,18 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/30/maxstr-pushed-to-master-at-maxstr-io15hackathon/</guid>
       <dc:date>2015-05-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr added jsmit032 to maxstr/io15Hackathon</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/maxstr-added-jsmit032-to-maxstr-io15hackathon/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/30/maxstr-added-jsmit032-to-maxstr-io15hackathon/</guid>
-      <dc:date>2015-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-09T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
