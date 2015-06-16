@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</guid>
+      <dc:date>2015-06-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids opened issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/11/aps-sids-opened-issue-ashwanthkumar-gocd-build-gi/</link>
@@ -222,17 +233,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-pushed-to-porting-to-gst1-0-at-aps-sids-/</guid>
       <dc:date>2015-02-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue timvideos/getting-started#29</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/16/aps-sids-opened-issue-timvideos-getting-started-2/</guid>
-      <dc:date>2015-02-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-11T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>

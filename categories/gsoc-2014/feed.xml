@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</guid>
+      <dc:date>2015-06-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids opened issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/11/aps-sids-opened-issue-ashwanthkumar-gocd-build-gi/</link>
@@ -224,18 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-io15hackat/</guid>
       <dc:date>2015-05-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created branch master at maxstr/altApi</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 29 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/29/maxstr-created-branch-master-at-maxstr-altapi/</guid>
-      <dc:date>2015-05-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-11T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
