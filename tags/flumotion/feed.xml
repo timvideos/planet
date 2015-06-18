@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on pull request ansible/ansible-modules-core#1091</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/aps-sids-commented-on-pull-request-ansible-ansibl/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/aps-sids-commented-on-pull-request-ansible-ansibl/</guid>
+      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids opened issue Tpbrown/ansible-gocd#17</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-opened-issue-tpbrown-ansible-gocd-17/</link>
@@ -222,17 +233,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-closed-issue-rg3-youtube-dl-4978/</guid>
       <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue rg3/youtube-dl#4978</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/18/aps-sids-opened-issue-rg3-youtube-dl-4978/</guid>
-      <dc:date>2015-02-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-16T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
