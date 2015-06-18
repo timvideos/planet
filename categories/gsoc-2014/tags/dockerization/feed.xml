@@ -10,6 +10,41 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>maxstr pushed to master at maxstr/protScraper</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-pushed-to-master-at-maxstr-protscraper/</guid>
+      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created repository maxstr/protScraper</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-repository-maxstr-protscraper/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-repository-maxstr-protscraper/</guid>
+      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/protScraper</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</guid>
+      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at jadams760/paxos</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/09/maxstr-pushed-to-master-at-jadams760-paxos/</link>
       <description>&lt;!-- push --&gt;
@@ -203,39 +238,6 @@
       <pubDate>Fri, 15 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/15/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
       <dc:date>2015-05-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
-      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to deadlock at jadams760/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/14/maxstr-pushed-to-deadlock-at-jadams760-cs171_hw3/</guid>
-      <dc:date>2015-05-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at jadams760/CS171_HW3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/13/maxstr-pushed-to-master-at-jadams760-cs171_hw3/</guid>
-      <dc:date>2015-05-13T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-18T00:00:00+00:00</dc:date>
   </channel>
