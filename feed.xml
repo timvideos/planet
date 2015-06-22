@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>maxstr pushed to master at maxstr/protScraper</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/22/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/22/maxstr-pushed-to-master-at-maxstr-protscraper/</guid>
+      <dc:date>2015-06-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids forked ansible/ansible-modules-core to aps-sids/ansible-modules-core</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/22/aps-sids-forked-ansible-ansible-modules-core-to-a/</link>
       <description>&lt;!-- fork --&gt;
@@ -223,18 +234,6 @@
 </description>
       <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-vbarbaresi-metrogit/</guid>
-      <dc:date>2015-06-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred dkroeske/emon-server</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-dkroeske-emon-server/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/07/rohit91-starred-dkroeske-emon-server/</guid>
       <dc:date>2015-06-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-06-22T00:00:00+00:00</dc:date>
