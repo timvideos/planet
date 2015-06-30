@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr created repository maxstr/protAlign</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-repository-maxstr-protalign/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-repository-maxstr-protalign/</guid>
+      <dc:date>2015-06-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/protAlign</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-branch-master-at-maxstr-protalign/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-branch-master-at-maxstr-protalign/</guid>
+      <dc:date>2015-06-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/28/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</link>
@@ -213,28 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/09/maxstr-pushed-to-master-at-jadams760-paxos/</guid>
       <dc:date>2015-06-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue Tpbrown/ansible-gocd#16</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/09/aps-sids-opened-issue-tpbrown-ansible-gocd-16/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/09/aps-sids-opened-issue-tpbrown-ansible-gocd-16/</guid>
-      <dc:date>2015-06-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at jadams760/paxos</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/08/maxstr-pushed-to-master-at-jadams760-paxos/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/08/maxstr-pushed-to-master-at-jadams760-paxos/</guid>
-      <dc:date>2015-06-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-06-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
