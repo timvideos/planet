@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue timvideos/getting-started#9</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/01/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/01/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
+      <dc:date>2015-07-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids forked ansible/ansible-modules-core to aps-sids/ansible-modules-core</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/06/22/aps-sids-forked-ansible-ansible-modules-core-to-a/</link>
@@ -223,17 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-forked-jdm-asknot-to-aps-sids-asknot/</guid>
       <dc:date>2015-02-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue rg3/youtube-dl#4978</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-commented-on-issue-rg3-youtube-dl-4978/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/19/aps-sids-commented-on-issue-rg3-youtube-dl-4978/</guid>
-      <dc:date>2015-02-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-06-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
