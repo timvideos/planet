@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred jlevy/the-art-of-command-line</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</guid>
+      <dc:date>2015-07-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/protScraper</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/02/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
@@ -223,17 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/09/aps-sids-opened-issue-tpbrown-ansible-gocd-16/</guid>
       <dc:date>2015-06-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr pushed to master at jadams760/paxos</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/08/maxstr-pushed-to-master-at-jadams760-paxos/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/08/maxstr-pushed-to-master-at-jadams760-paxos/</guid>
-      <dc:date>2015-06-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>

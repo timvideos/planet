@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred jlevy/the-art-of-command-line</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</guid>
+      <dc:date>2015-07-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/protScraper</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/02/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
@@ -225,18 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-repository-maxstr-protscraper/</guid>
       <dc:date>2015-06-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created branch master at maxstr/protScraper</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</guid>
-      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
