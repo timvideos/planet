@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred jlevy/the-art-of-command-line</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/09/rohit91-starred-jlevy-the-art-of-command-line/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/09/rohit91-starred-jlevy-the-art-of-command-line/</guid>
+      <dc:date>2015-07-09T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/28/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</link>
       <description>&lt;!-- push --&gt;
@@ -226,18 +238,6 @@
       <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</guid>
       <dc:date>2015-05-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred 0xAX/linux-insides</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/10/rohit91-starred-0xax-linux-insides/</guid>
-      <dc:date>2015-05-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-07-09T00:00:00+00:00</dc:date>
   </channel>
