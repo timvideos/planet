@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids pushed to master at aps-sids/node-build</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue Tpbrown/ansible-gocd#17</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred jlevy/the-art-of-command-line</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/09/rohit91-starred-jlevy-the-art-of-command-line/</link>
@@ -214,29 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/20/rohit91-starred-mithro-displayport-hardware-hacki/</guid>
       <dc:date>2015-06-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred KuyaMarc/msp430blinkers</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/20/rohit91-starred-kuyamarc-msp430blinkers/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 20 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/20/rohit91-starred-kuyamarc-msp430blinkers/</guid>
-      <dc:date>2015-06-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/20/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 20 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/20/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</guid>
-      <dc:date>2015-06-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-09T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
