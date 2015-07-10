@@ -21,6 +21,17 @@
       <dc:date>2015-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids commented on issue OiNutter/node-build#56</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids closed issue Tpbrown/ansible-gocd#17</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</link>
       <description>&lt;!-- issues --&gt;
@@ -29,6 +40,17 @@
 </description>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue OiNutter/node-build#56</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-oinutter-node-build-56/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-oinutter-node-build-56/</guid>
       <dc:date>2015-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -209,29 +231,6 @@
       <pubDate>Fri, 22 May 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/05/22/aps-sids-commented-on-pull-request-codigami-tech-/</guid>
       <dc:date>2015-05-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue ansible/ansible-examples#108</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 19 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/19/aps-sids-commented-on-issue-ansible-ansible-examp/</guid>
-      <dc:date>2015-05-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred nvbn/thefuck</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/04/17/aps-sids-starred-nvbn-thefuck/</guid>
-      <dc:date>2015-04-17T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-07-10T00:00:00+00:00</dc:date>
   </channel>

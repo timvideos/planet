@@ -21,6 +21,17 @@
       <dc:date>2015-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids commented on issue OiNutter/node-build#56</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids closed issue Tpbrown/ansible-gocd#17</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</link>
       <description>&lt;!-- issues --&gt;
@@ -29,6 +40,17 @@
 </description>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-tpbrown-ansible-gocd-17/</guid>
+      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids closed issue OiNutter/node-build#56</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-oinutter-node-build-56/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-closed-issue-oinutter-node-build-56/</guid>
       <dc:date>2015-07-10T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -210,30 +232,6 @@
 </description>
       <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-pushed-to-master-at-maxstr-protscraper/</guid>
-      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created repository maxstr/protScraper</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-repository-maxstr-protscraper/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-repository-maxstr-protscraper/</guid>
-      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created branch master at maxstr/protScraper</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-created-branch-master-at-maxstr-protscrape/</guid>
       <dc:date>2015-06-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-07-10T00:00:00+00:00</dc:date>
