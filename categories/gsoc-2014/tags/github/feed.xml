@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred ipselon/react-ui-builder</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/12/aps-sids-starred-ipselon-react-ui-builder/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/12/aps-sids-starred-ipselon-react-ui-builder/</guid>
+      <dc:date>2015-07-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids pushed to master at aps-sids/node-build</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</link>
@@ -223,17 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/22/aps-sids-forked-ansible-ansible-modules-core-to-a/</guid>
       <dc:date>2015-06-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/protScraper</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/18/maxstr-pushed-to-master-at-maxstr-protscraper/</guid>
-      <dc:date>2015-06-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>
