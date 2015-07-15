@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue aps-sids/flumotion-orig#10</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
+      <dc:date>2015-07-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids commented on issue aps-sids/flumotion-orig#9</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/14/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
@@ -224,17 +235,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-branch-master-at-maxstr-protalign/</guid>
       <dc:date>2015-06-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/28/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/28/rohit91-pushed-to-master-at-rohit91-hdmi2usb/</guid>
-      <dc:date>2015-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-14T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
