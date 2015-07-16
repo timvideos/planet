@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred RoGeorge/Delta-Sigma_versus_PWM</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-starred-rogeorge-delta-sigma_versus_pwm/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-starred-rogeorge-delta-sigma_versus_pwm/</guid>
+      <dc:date>2015-07-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked RoGeorge/Delta-Sigma_versus_PWM to rohit91/Delta-Sigma_versus_PWM</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-forked-rogeorge-delta-sigma_versus_pwm-to/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-forked-rogeorge-delta-sigma_versus_pwm-to/</guid>
+      <dc:date>2015-07-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred jlevy/the-art-of-command-line</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/09/rohit91-starred-jlevy-the-art-of-command-line/</link>
@@ -215,30 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</guid>
       <dc:date>2015-05-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred solodon4/Mach7</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/24/rohit91-starred-solodon4-mach7/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/24/rohit91-starred-solodon4-mach7/</guid>
-      <dc:date>2015-05-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>tariq786 forked dloss/python-pentest-tools to tariq786/python-pentest-tools</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 12 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</guid>
-      <dc:date>2015-05-12T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
