@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred mithro/numato-opsis-sample-code</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/17/rohit91-starred-mithro-numato-opsis-sample-code/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/17/rohit91-starred-mithro-numato-opsis-sample-code/</guid>
+      <dc:date>2015-07-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred RoGeorge/Delta-Sigma_versus_PWM</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-starred-rogeorge-delta-sigma_versus_pwm/</link>
@@ -228,17 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</guid>
       <dc:date>2015-05-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew merged pull request timvideos/HDMI2USB#125</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</guid>
-      <dc:date>2015-05-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-16T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
