@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 commented on issue timvideos/HDMI2USB#128</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-commented-on-issue-timvideos-hdmi2usb-128/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-commented-on-issue-timvideos-hdmi2usb-128/</guid>
+      <dc:date>2015-07-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew commented on issue timvideos/HDMI2USB#128</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
+      <dc:date>2015-07-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred timvideos/HDMI2USB-numato-opsis-sample-code</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/19/rohit91-starred-timvideos-hdmi2usb-numato-opsis-s/</link>
@@ -217,28 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-pushed-to-master-at-aps-sids-node-build/</guid>
       <dc:date>2015-07-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened pull request OiNutter/node-build#57</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-pull-request-oinutter-node-build-/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-pull-request-oinutter-node-build-/</guid>
-      <dc:date>2015-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids opened issue OiNutter/node-build#56</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-issue-oinutter-node-build-56/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-issue-oinutter-node-build-56/</guid>
-      <dc:date>2015-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-19T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>
