@@ -8,7 +8,43 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred numato/HDMI2USB-numato-opsis-hardware</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-numato-hdmi2usb-numato-opsis-hard/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-numato-hdmi2usb-numato-opsis-hard/</guid>
+      <dc:date>2015-07-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred m-labs/migen</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-m-labs-migen/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-m-labs-migen/</guid>
+      <dc:date>2015-07-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred m-labs/blinkie</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-m-labs-blinkie/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-m-labs-blinkie/</guid>
+      <dc:date>2015-07-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred fenlogic/vga666</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-starred-fenlogic-vga666/</link>
@@ -207,40 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/14/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
       <dc:date>2015-07-14T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred ipselon/react-ui-builder</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/12/aps-sids-starred-ipselon-react-ui-builder/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/12/aps-sids-starred-ipselon-react-ui-builder/</guid>
-      <dc:date>2015-07-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/node-build</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</guid>
-      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue OiNutter/node-build#56</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</guid>
-      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
