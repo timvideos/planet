@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred kriswiner/MPU-9250</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/22/rohit91-starred-kriswiner-mpu-9250/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/22/rohit91-starred-kriswiner-mpu-9250/</guid>
+      <dc:date>2015-07-22T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred numato/HDMI2USB-numato-opsis-hardware</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/21/rohit91-starred-numato-hdmi2usb-numato-opsis-hard/</link>
@@ -232,17 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-forked-jbazik-flumotion-decklink-to-aps-/</guid>
       <dc:date>2015-07-15T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue aps-sids/flumotion-orig#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
-      <dc:date>2015-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-21T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-22T00:00:00+00:00</dc:date>
   </channel>
 </rss>
