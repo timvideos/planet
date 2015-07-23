@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: RUBY</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss starred manastech/crystal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</guid>
+      <dc:date>2015-07-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss forked taitems/jQuery.Gantt to pinoss/jQuery.Gantt</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-taitems-jquery-gantt-to-pinoss-jque/</link>
@@ -230,17 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</guid>
       <dc:date>2015-02-26T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss merged pull request pinoss/timeloop#1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-1/</guid>
-      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-22T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>

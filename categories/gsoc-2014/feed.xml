@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss starred manastech/crystal</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</guid>
+      <dc:date>2015-07-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/protAlign</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/21/maxstr-pushed-to-master-at-maxstr-protalign/</link>
@@ -222,17 +234,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/01/maxstr-pushed-to-master-at-maxstr-protalign/</guid>
       <dc:date>2015-07-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue timvideos/getting-started#9</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/01/aps-sids-commented-on-issue-timvideos-getting-sta/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/01/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
-      <dc:date>2015-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-22T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>
