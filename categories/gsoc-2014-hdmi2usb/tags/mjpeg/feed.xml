@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew created repository ajitmathew/JPEG-Encoder-HLS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</guid>
+      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch master at ajitmathew/JPEG-Encoder-HLS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</guid>
+      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew commented on issue timvideos/HDMI2USB#128</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</link>
@@ -216,30 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-ajit-debug-v2-at-ajitma/</guid>
       <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew created branch testing at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-testing-at-ajitmathew-h/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-testing-at-ajitmathew-h/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch sprints at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-sprints-at-ajitmathew-h/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-created-branch-sprints-at-ajitmathew-h/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>

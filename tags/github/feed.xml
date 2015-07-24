@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew created repository ajitmathew/JPEG-Encoder-HLS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</guid>
+      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch master at ajitmathew/JPEG-Encoder-HLS</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</guid>
+      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred sudar/Arduino-Makefile</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/23/rohit91-starred-sudar-arduino-makefile/</link>
@@ -221,30 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/ajitmathew-commented-on-issue-timvideos-hdmi2usb-/</guid>
       <dc:date>2015-07-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred timvideos/HDMI2USB-numato-opsis-sample-code</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/19/rohit91-starred-timvideos-hdmi2usb-numato-opsis-s/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/19/rohit91-starred-timvideos-hdmi2usb-numato-opsis-s/</guid>
-      <dc:date>2015-07-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred timvideos/HDMI2USB-numato-opsis-hardware</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/19/rohit91-starred-timvideos-hdmi2usb-numato-opsis-h/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/19/rohit91-starred-timvideos-hdmi2usb-numato-opsis-h/</guid>
-      <dc:date>2015-07-19T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
