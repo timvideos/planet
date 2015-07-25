@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred adafruit/Adafruit_Adalink</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/25/rohit91-starred-adafruit-adafruit_adalink/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/25/rohit91-starred-adafruit-adafruit_adalink/</guid>
+      <dc:date>2015-07-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred sudar/Arduino-Makefile</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/23/rohit91-starred-sudar-arduino-makefile/</link>
@@ -236,18 +248,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-starred-rogeorge-delta-sigma_versus_pwm/</guid>
       <dc:date>2015-07-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked RoGeorge/Delta-Sigma_versus_PWM to rohit91/Delta-Sigma_versus_PWM</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-forked-rogeorge-delta-sigma_versus_pwm-to/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/16/rohit91-forked-rogeorge-delta-sigma_versus_pwm-to/</guid>
-      <dc:date>2015-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
