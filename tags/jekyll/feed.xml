@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss starred lukasz-madon/awesome-remote-job</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/07/26/pinoss-starred-lukasz-madon-awesome-remote-job/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/26/pinoss-starred-lukasz-madon-awesome-remote-job/</guid>
+      <dc:date>2015-07-26T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss starred manastech/crystal</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</link>
       <description>&lt;!-- watch --&gt;
@@ -229,17 +241,6 @@
 </description>
       <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2015-02-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss merged pull request pinoss/timeloop#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/02/26/pinoss-merged-pull-request-pinoss-timeloop-2/</guid>
       <dc:date>2015-02-26T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-07-26T00:00:00+00:00</dc:date>
