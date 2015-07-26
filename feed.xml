@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 25 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred leaflabs/libmaple</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/26/rohit91-starred-leaflabs-libmaple/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/26/rohit91-starred-leaflabs-libmaple/</guid>
+      <dc:date>2015-07-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred adafruit/Adafruit_Adalink</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/25/rohit91-starred-adafruit-adafruit_adalink/</link>
@@ -235,18 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-starred-bunnie-netv-fpga/</guid>
       <dc:date>2015-07-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred bunnie/chibios-orchard</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-starred-bunnie-chibios-orchard/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/20/rohit91-starred-bunnie-chibios-orchard/</guid>
-      <dc:date>2015-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-25T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
