@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred Zepan/hairBoot</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</guid>
+      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred vdudouyt/stm8flash</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-stm8flash/</link>
       <description>&lt;!-- watch --&gt;
@@ -19,6 +31,18 @@
 </description>
       <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-stm8flash/</guid>
+      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred vdudouyt/sdcc-examples-stm8</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-sdcc-examples-stm8/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-sdcc-examples-stm8/</guid>
       <dc:date>2015-07-28T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -43,6 +67,18 @@
 </description>
       <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-boldport-pcbmode/</guid>
+      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked Zepan/hairBoot to rohit91/hairBoot</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-forked-zepan-hairboot-to-rohit91-hairboot/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-forked-zepan-hairboot-to-rohit91-hairboot/</guid>
       <dc:date>2015-07-28T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -208,42 +244,6 @@
       <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-pushed-to-master-at-ajitmathew-jpeg-en/</guid>
       <dc:date>2015-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created repository ajitmathew/JPEG-Encoder-HLS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-repository-ajitmathew-jpeg-enc/</guid>
-      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created branch master at ajitmathew/JPEG-Encoder-HLS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-created-branch-master-at-ajitmathew-jp/</guid>
-      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred sudar/Arduino-Makefile</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/23/rohit91-starred-sudar-arduino-makefile/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/23/rohit91-starred-sudar-arduino-makefile/</guid>
-      <dc:date>2015-07-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-07-28T00:00:00+00:00</dc:date>
   </channel>
