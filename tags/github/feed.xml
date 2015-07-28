@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred rogerclarkmelbourne/Arduino_STM32</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-rogerclarkmelbourne-arduino_stm32/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-rogerclarkmelbourne-arduino_stm32/</guid>
+      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred timvideos/hdmi2usb.tv</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/27/rohit91-starred-timvideos-hdmi2usb-tv/</link>
@@ -233,18 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/23/rohit91-starred-kriswiner-mpu-6050/</guid>
       <dc:date>2015-07-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss starred manastech/crystal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</guid>
-      <dc:date>2015-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-27T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
