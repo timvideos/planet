@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred jamesbowman/swapforth</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/29/rohit91-starred-jamesbowman-swapforth/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/29/rohit91-starred-jamesbowman-swapforth/</guid>
+      <dc:date>2015-07-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred Zepan/hairBoot</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</link>
@@ -234,17 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-starred-timvideos-hdmi2usb/</guid>
       <dc:date>2015-07-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew pushed to master at ajitmathew/JPEG-Encoder-HLS</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-pushed-to-master-at-ajitmathew-jpeg-en/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/24/ajitmathew-pushed-to-master-at-ajitmathew-jpeg-en/</guid>
-      <dc:date>2015-07-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-07-28T00:00:00+00:00</dc:date>
+    <dc:date>2015-07-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
