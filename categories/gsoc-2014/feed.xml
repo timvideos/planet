@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 02 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
     <item>
       <title>maxstr pushed to master at maxstr/foldXRun</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/27/maxstr-pushed-to-master-at-maxstr-foldxrun/</link>
@@ -236,6 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-issue-oinutter-node-build-56/</guid>
       <dc:date>2015-07-09T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2015-08-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
