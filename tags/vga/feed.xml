@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 05 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred kokke/tiny-AES128-C</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</guid>
+      <dc:date>2015-08-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 forked kokke/tiny-AES128-C to rohit91/tiny-AES128-C</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-forked-kokke-tiny-aes128-c-to-rohit91-tin/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-forked-kokke-tiny-aes128-c-to-rohit91-tin/</guid>
+      <dc:date>2015-08-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred voltagex/serial-vm-buildroot</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/05/rohit91-starred-voltagex-serial-vm-buildroot/</link>
@@ -225,30 +249,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</guid>
       <dc:date>2015-07-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred vdudouyt/stm8flash</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-stm8flash/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-stm8flash/</guid>
-      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred vdudouyt/sdcc-examples-stm8</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-sdcc-examples-stm8/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-vdudouyt-sdcc-examples-stm8/</guid>
-      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-05T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
