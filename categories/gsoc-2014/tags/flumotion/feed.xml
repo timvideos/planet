@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred sindresorhus/awesome</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/07/aps-sids-starred-sindresorhus-awesome/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/07/aps-sids-starred-sindresorhus-awesome/</guid>
+      <dc:date>2015-08-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred thenewstack/docker-and-containers-ebooks</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/aps-sids-starred-thenewstack-docker-and-container/</link>
@@ -224,17 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-opened-issue-tpbrown-ansible-gocd-17/</guid>
       <dc:date>2015-06-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue ashwanthkumar/gocd-build-github-pull-requests#41</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/16/aps-sids-commented-on-issue-ashwanthkumar-gocd-bu/</guid>
-      <dc:date>2015-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-06T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
