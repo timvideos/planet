@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>tariq786 forked avmwww/sdio-audio to tariq786/sdio-audio</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/07/tariq786-forked-avmwww-sdio-audio-to-tariq786-sdi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/07/tariq786-forked-avmwww-sdio-audio-to-tariq786-sdi/</guid>
+      <dc:date>2015-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred kokke/tiny-AES128-C</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</link>
       <description>&lt;!-- watch --&gt;
@@ -236,18 +248,6 @@
       <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/29/rohit91-starred-jamesbowman-swapforth/</guid>
       <dc:date>2015-07-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred Zepan/hairBoot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</guid>
-      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-07T00:00:00+00:00</dc:date>
   </channel>

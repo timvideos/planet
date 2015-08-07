@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>tariq786 forked avmwww/sdio-audio to tariq786/sdio-audio</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/07/tariq786-forked-avmwww-sdio-audio-to-tariq786-sdi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 07 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/07/tariq786-forked-avmwww-sdio-audio-to-tariq786-sdi/</guid>
+      <dc:date>2015-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>tariq786 forked dloss/python-pentest-tools to tariq786/python-pentest-tools</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/12/tariq786-forked-dloss-python-pentest-tools-to-tar/</link>
       <description>&lt;!-- fork --&gt;
@@ -236,18 +248,6 @@
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/12/tariq786-forked-theycallmeswift-arduino-101-works/</guid>
       <dc:date>2015-01-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>tariq786 forked ucb-bar/chisel-tutorial to tariq786/chisel-tutorial</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/05/tariq786-forked-ucb-bar-chisel-tutorial-to-tariq7/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/05/tariq786-forked-ucb-bar-chisel-tutorial-to-tariq7/</guid>
-      <dc:date>2015-01-05T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-07T00:00:00+00:00</dc:date>
   </channel>
