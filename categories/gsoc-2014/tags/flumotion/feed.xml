@@ -34,6 +34,18 @@
       <dc:date>2015-08-10T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids created repository aps-sids/ansible-gocd</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-created-repository-aps-sids-ansible-gocd/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-created-repository-aps-sids-ansible-gocd/</guid>
+      <dc:date>2015-08-10T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids starred sindresorhus/awesome</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/07/aps-sids-starred-sindresorhus-awesome/</link>
       <description>&lt;!-- watch --&gt;
@@ -225,18 +237,6 @@
       <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/01/aps-sids-commented-on-issue-timvideos-getting-sta/</guid>
       <dc:date>2015-07-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids forked ansible/ansible-modules-core to aps-sids/ansible-modules-core</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/22/aps-sids-forked-ansible-ansible-modules-core-to-a/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/22/aps-sids-forked-ansible-ansible-modules-core-to-a/</guid>
-      <dc:date>2015-06-22T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-10T00:00:00+00:00</dc:date>
   </channel>
