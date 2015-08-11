@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to master at aps-sids/ansible-gocd</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</guid>
+      <dc:date>2015-08-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids created branch master at aps-sids/ansible-gocd</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-created-branch-master-at-aps-sids-ansibl/</link>
       <description>&lt;!-- create --&gt;
@@ -228,17 +239,6 @@
 </description>
       <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-pushed-to-master-at-aps-sids-node-build/</guid>
-      <dc:date>2015-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue OiNutter/node-build#56</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/10/aps-sids-commented-on-issue-oinutter-node-build-5/</guid>
       <dc:date>2015-07-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-11T00:00:00+00:00</dc:date>

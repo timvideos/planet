@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids pushed to master at aps-sids/ansible-gocd</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</guid>
+      <dc:date>2015-08-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids created branch master at aps-sids/ansible-gocd</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-created-branch-master-at-aps-sids-ansibl/</link>
       <description>&lt;!-- create --&gt;
@@ -226,18 +237,6 @@
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-forked-oinutter-node-build-to-aps-sids-n/</guid>
       <dc:date>2015-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred jlevy/the-art-of-command-line</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/06/aps-sids-starred-jlevy-the-art-of-command-line/</guid>
-      <dc:date>2015-07-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-11T00:00:00+00:00</dc:date>
   </channel>
