@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: VGA</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 14 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred jldec/pub-server</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/14/rohit91-starred-jldec-pub-server/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 14 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/14/rohit91-starred-jldec-pub-server/</guid>
+      <dc:date>2015-08-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred kokke/tiny-AES128-C</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</link>
@@ -237,18 +249,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/29/rohit91-starred-jamesbowman-swapforth/</guid>
       <dc:date>2015-07-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred Zepan/hairBoot</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 28 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/rohit91-starred-zepan-hairboot/</guid>
-      <dc:date>2015-07-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
