@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 14 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew forked timvideos/HDMI2USB-misoc-firmware to ajitmathew/HDMI2USB-misoc-firmware</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/15/ajitmathew-forked-timvideos-hdmi2usb-misoc-firmwa/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/15/ajitmathew-forked-timvideos-hdmi2usb-misoc-firmwa/</guid>
+      <dc:date>2015-08-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew forked xiaxiaocao/pcap-parser to ajitmathew/pcap-parser</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/28/ajitmathew-forked-xiaxiaocao-pcap-parser-to-ajitm/</link>
@@ -225,18 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-memory-at-ajitmathew-hd/</guid>
       <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew deleted branch heart_beat_v2 at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat_v2-at-ajitma/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-heart_beat_v2-at-ajitma/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-14T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
