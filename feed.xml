@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at maxstr/protScraper</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/17/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/17/maxstr-pushed-to-master-at-maxstr-protscraper/</guid>
+      <dc:date>2015-08-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew forked timvideos/HDMI2USB-misoc-firmware to ajitmathew/HDMI2USB-misoc-firmware</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/15/ajitmathew-forked-timvideos-hdmi2usb-misoc-firmwa/</link>
@@ -236,18 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/02/rohit91-starred-ironsummitmedia-startbootstrap-ag/</guid>
       <dc:date>2015-08-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred fpgaminer/Open-Source-FPGA-Bitcoin-Miner</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/02/rohit91-starred-fpgaminer-open-source-fpga-bitcoi/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 02 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/02/rohit91-starred-fpgaminer-open-source-fpga-bitcoi/</guid>
-      <dc:date>2015-08-02T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
