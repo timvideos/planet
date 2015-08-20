@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred micropython/micropython</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/20/rohit91-starred-micropython-micropython/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/20/rohit91-starred-micropython-micropython/</guid>
+      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred jldec/pub-server</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/14/rohit91-starred-jldec-pub-server/</link>
       <description>&lt;!-- watch --&gt;
@@ -235,18 +247,6 @@
 </description>
       <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/30/rohit91-forked-cpldcpu-mcpu-to-rohit91-mcpu/</guid>
-      <dc:date>2015-07-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked bunnie/novena-sd-fpga to rohit91/novena-sd-fpga</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/30/rohit91-forked-bunnie-novena-sd-fpga-to-rohit91-n/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/07/30/rohit91-forked-bunnie-novena-sd-fpga-to-rohit91-n/</guid>
       <dc:date>2015-07-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-20T00:00:00+00:00</dc:date>
