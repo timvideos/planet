@@ -10,6 +10,41 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/refile_sequel_s3_demo</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-pushed-to-master-at-pinoss-refile_sequel_s/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-pushed-to-master-at-pinoss-refile_sequel_s/</guid>
+      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/refile_sequel_s3_demo</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-created-repository-pinoss-refile_sequel_s3/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-created-repository-pinoss-refile_sequel_s3/</guid>
+      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch master at pinoss/refile_sequel_s3_demo</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-created-branch-master-at-pinoss-refile_seq/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-created-branch-master-at-pinoss-refile_seq/</guid>
+      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 commented on issue mitchellh/vagrant#6034</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -206,40 +241,6 @@
       <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/20/maxstr-pushed-to-master-at-maxstr-protalign/</guid>
       <dc:date>2015-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue gleitz/howdoi#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/16/aps-sids-commented-on-issue-gleitz-howdoi-10/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/16/aps-sids-commented-on-issue-gleitz-howdoi-10/</guid>
-      <dc:date>2015-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids forked jbazik/flumotion-decklink to aps-sids/flumotion-decklink</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-forked-jbazik-flumotion-decklink-to-aps-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-forked-jbazik-flumotion-decklink-to-aps-/</guid>
-      <dc:date>2015-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue aps-sids/flumotion-orig#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
-      <dc:date>2015-07-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-08-20T00:00:00+00:00</dc:date>
   </channel>
