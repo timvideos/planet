@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 17 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 commented on issue mitchellh/vagrant#6034</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</guid>
+      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/protScraper</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/17/maxstr-pushed-to-master-at-maxstr-protscraper/</link>
@@ -230,17 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
       <dc:date>2015-07-15T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue aps-sids/flumotion-orig#9</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/14/aps-sids-commented-on-issue-aps-sids-flumotion-or/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/14/aps-sids-commented-on-issue-aps-sids-flumotion-or/</guid>
-      <dc:date>2015-07-14T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>
