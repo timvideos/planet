@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred eczarny/spectacle</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</guid>
+      <dc:date>2015-08-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred micropython/micropython</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/20/rohit91-starred-micropython-micropython/</link>
@@ -232,18 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</guid>
       <dc:date>2015-08-06T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked kokke/tiny-AES128-C to rohit91/tiny-AES128-C</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-forked-kokke-tiny-aes128-c-to-rohit91-tin/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-forked-kokke-tiny-aes128-c-to-rohit91-tin/</guid>
-      <dc:date>2015-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>

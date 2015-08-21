@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: BUG-REPORTING-SYSTEM</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred eczarny/spectacle</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</guid>
+      <dc:date>2015-08-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 commented on issue mitchellh/vagrant#6034</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</link>
@@ -234,17 +246,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2014/12/31/niharika29-starred-wikimedia-wikimedia-wikimania-/</guid>
       <dc:date>2014-12-31T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 commented on issue timvideos/getting-started#4</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2014/12/22/niharika29-commented-on-issue-timvideos-getting-s/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2014/12/22/niharika29-commented-on-issue-timvideos-getting-s/</guid>
-      <dc:date>2014-12-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred eczarny/spectacle</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/21/niharika29-starred-eczarny-spectacle/</guid>
+      <dc:date>2015-08-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/refile_sequel_s3_demo</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-pushed-to-master-at-pinoss-refile_sequel_s/</link>
@@ -231,17 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/21/maxstr-pushed-to-master-at-maxstr-protalign/</guid>
       <dc:date>2015-07-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/protAlign</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/20/maxstr-pushed-to-master-at-maxstr-protalign/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 20 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/20/maxstr-pushed-to-master-at-maxstr-protalign/</guid>
-      <dc:date>2015-07-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
