@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred hitchtest/hitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/23/aps-sids-starred-hitchtest-hitch/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/23/aps-sids-starred-hitchtest-hitch/</guid>
+      <dc:date>2015-08-23T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids forked knyar/mongoclusterscripts to aps-sids/mongoclusterscripts</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/12/aps-sids-forked-knyar-mongoclusterscripts-to-aps-/</link>
@@ -227,17 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-pull-request-oinutter-node-build-/</guid>
       <dc:date>2015-07-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue OiNutter/node-build#56</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-issue-oinutter-node-build-56/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/09/aps-sids-opened-issue-oinutter-node-build-56/</guid>
-      <dc:date>2015-07-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-22T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-23T00:00:00+00:00</dc:date>
   </channel>
 </rss>
