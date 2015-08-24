@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids forked ansible/ansible-modules-extras to aps-sids/ansible-modules-extras</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/24/aps-sids-forked-ansible-ansible-modules-extras-to/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/24/aps-sids-forked-ansible-ansible-modules-extras-to/</guid>
+      <dc:date>2015-08-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/23/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
@@ -231,17 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-created-branch-master-at-pinoss-refile_seq/</guid>
       <dc:date>2015-08-20T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 commented on issue mitchellh/vagrant#6034</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/20/niharika29-commented-on-issue-mitchellh-vagrant-6/</guid>
-      <dc:date>2015-08-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
