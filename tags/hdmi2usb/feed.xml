@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred Lauszus/LaunchPadFlightControllerAndroid</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/25/rohit91-starred-lauszus-launchpadflightcontroller/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/25/rohit91-starred-lauszus-launchpadflightcontroller/</guid>
+      <dc:date>2015-08-25T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/24/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
@@ -231,18 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/07/tariq786-forked-avmwww-sdio-audio-to-tariq786-sdi/</guid>
       <dc:date>2015-08-07T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred kokke/tiny-AES128-C</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/06/rohit91-starred-kokke-tiny-aes128-c/</guid>
-      <dc:date>2015-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-25T00:00:00+00:00</dc:date>
   </channel>
 </rss>
