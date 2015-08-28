@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 created repository rohit91/HDMI2USB-vmodvga-framebuffer</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-created-repository-rohit91-hdmi2usb-vmodv/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-created-repository-rohit91-hdmi2usb-vmodv/</guid>
+      <dc:date>2015-08-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 created branch master at rohit91/HDMI2USB-vmodvga-framebuffer</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-created-branch-master-at-rohit91-hdmi2usb/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-created-branch-master-at-rohit91-hdmi2usb/</guid>
+      <dc:date>2015-08-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred xesscorp/KiCad-Schematic-Symbol-Libraries</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/27/rohit91-starred-xesscorp-kicad-schematic-symbol-l/</link>
@@ -220,28 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/21/rohit91-forked-timvideos-hdmi2usb-misoc-firmware-/</guid>
       <dc:date>2015-08-21T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 commented on issue timvideos/HDMI2USB-misoc-firmware#30</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/21/rohit91-commented-on-issue-timvideos-hdmi2usb-mis/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/21/rohit91-commented-on-issue-timvideos-hdmi2usb-mis/</guid>
-      <dc:date>2015-08-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 commented on commit timvideos/HDMI2USB-misoc-firmware@757088ce4c</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/21/rohit91-commented-on-commit-timvideos-hdmi2usb-mi/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/21/rohit91-commented-on-commit-timvideos-hdmi2usb-mi/</guid>
-      <dc:date>2015-08-21T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-27T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
