@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 30 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred snide/sphinx_rtd_theme</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/30/rohit91-starred-snide-sphinx_rtd_theme/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 30 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/30/rohit91-starred-snide-sphinx_rtd_theme/</guid>
+      <dc:date>2015-08-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred lushl9301/verilog</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/29/rohit91-starred-lushl9301-verilog/</link>
@@ -232,18 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/23/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
       <dc:date>2015-08-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred SeleniumHQ/selenium</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/22/rohit91-starred-seleniumhq-selenium/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 22 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/22/rohit91-starred-seleniumhq-selenium/</guid>
-      <dc:date>2015-08-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-29T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
