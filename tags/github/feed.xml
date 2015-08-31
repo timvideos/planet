@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 30 Aug 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue maraujop/django-crispy-forms#382</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/08/31/aps-sids-commented-on-issue-maraujop-django-crisp/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/31/aps-sids-commented-on-issue-maraujop-django-crisp/</guid>
+      <dc:date>2015-08-31T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred snide/sphinx_rtd_theme</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/30/rohit91-starred-snide-sphinx_rtd_theme/</link>
@@ -231,17 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/27/aps-sids-commented-on-pull-request-ansible-ansibl/</guid>
       <dc:date>2015-08-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
-      <dc:date>2015-08-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-08-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-08-31T00:00:00+00:00</dc:date>
   </channel>
 </rss>
