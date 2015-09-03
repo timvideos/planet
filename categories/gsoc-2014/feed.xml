@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>Niharika29 pushed to master at Niharika29/dbreps</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-pushed-to-master-at-niharika29-dbreps/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-pushed-to-master-at-niharika29-dbreps/</guid>
+      <dc:date>2015-09-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 commented on issue mzmcbride/database-reports#15</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-commented-on-issue-mzmcbride-database-/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -219,18 +230,6 @@
       <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/25/aps-sids-starred-salgnt-cscs/</guid>
       <dc:date>2015-08-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created repository Niharika29/database-reports</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/24/niharika29-created-repository-niharika29-database/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/24/niharika29-created-repository-niharika29-database/</guid>
-      <dc:date>2015-08-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-03T00:00:00+00:00</dc:date>
   </channel>
