@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/dbreps</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/04/niharika29-pushed-to-master-at-niharika29-dbreps/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/04/niharika29-pushed-to-master-at-niharika29-dbreps/</guid>
+      <dc:date>2015-09-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at mzmcbride/database-reports</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/04/niharika29-pushed-to-master-at-mzmcbride-database/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 04 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/04/niharika29-pushed-to-master-at-mzmcbride-database/</guid>
+      <dc:date>2015-09-04T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/dbreps</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-pushed-to-master-at-niharika29-dbreps/</link>
@@ -217,29 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/29/rohit91-starred-0xax-asm/</guid>
       <dc:date>2015-08-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/database-reports</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/29/niharika29-pushed-to-master-at-niharika29-databas/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 29 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/29/niharika29-pushed-to-master-at-niharika29-databas/</guid>
-      <dc:date>2015-08-29T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred sanjivp/VHDL</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-starred-sanjivp-vhdl/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/28/rohit91-starred-sanjivp-vhdl/</guid>
-      <dc:date>2015-08-28T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-03T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-04T00:00:00+00:00</dc:date>
   </channel>
 </rss>
