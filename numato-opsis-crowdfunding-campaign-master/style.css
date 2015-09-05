@@ -1,0 +1,203 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700');
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,300,700,900');
+@font-face{
+  font-family:'FontAwesome';
+  src:url('fontawesome-webfont.eot-v-4.0.3');
+  src:url('fontawesome-webfont.eot-iefix-v-4.0.3') format('embedded-opentype'),
+      url('fontawesome-webfont.woff-v-4.0.3') format('woff'),
+      url('fontawesome-webfont.ttf-v-4.0.3') format('truetype'),
+      url('fontawesome-webfont.svg-v-4.0.3') format('svg');
+}
+
+html, body {
+   height: 66px;
+   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+   font-weight: 300;
+   font-size: 16px;
+
+   -webkit-font-smoothing: antialiased;
+   -webkit-overflow-scrolling: touch;
+}
+
+.container {
+  text-align: center;
+}
+
+.crowdsupply-box {
+  text-align: center;
+  background: #192228;
+  border: 1px;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+/*
+  border-radius: 25px;
+  border: 2px solid #d8d8d8;
+*/
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crowdsupply-box .end {
+  clear: both;
+}
+
+.crowdsupply-box a {
+  color: #00b2ad;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+div.image {
+  float: left;
+  padding: 0;
+}
+
+div.image img {
+  height: 56px;
+}
+
+div.message {
+  float:left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-weight: 600;
+  text-shadow: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+div.project-block {
+  font-size: 9pt;
+  float: left;
+  background-color: white;
+  color: #000;
+  height: 56px;
+}
+
+div.project-block p {
+  display: inline;
+}
+
+div.project-block div.project-funds {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+
+}
+
+div.project-block div.factoids {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+div.project-block div.social-buttons {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+sup {
+    top: -0.5em;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.project-block .project-pledged {
+    margin-bottom: 0;
+    color: #555;
+}
+
+div.project-block p.project-pledged {
+    display: block;
+    margin: 0;
+} 
+
+.progress {
+    margin-top: 3px;
+    height: 8px;
+    background-color: #dce2e3;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.progress .progress-bar {
+    height: 100%;
+    max-width: 100%;
+    color: #333;
+    background-color: #00b2ad;
+    background-image: none;
+    position: relative;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.fact {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    padding: 15px 1px;
+}
+
+.fact sup {
+    top: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    position: inherit;
+    vertical-align: inherit;
+}
+
+.fact span {
+    color: #555;
+    display: block;
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-pinterest:before {
+    content: "\f0d2";
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.social-buttons p {
+    font-size: 4pt;
+    display: block;
+}
+
+.col-xs-4 {
+    float: left;
+    width: 33.33333333%;
+}
+
