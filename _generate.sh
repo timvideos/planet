@@ -59,6 +59,16 @@ git checkout README.md
 # Copy the site into this directory
 cp -R ../website-source/_site/* .
 
+# Temporary generate a badge for the Numato Opsis crowd funding campaign
+# --
+curl -L https://github.com/mithro/numato-opsis-crowdfunding-campaign/archive/master.tar.gz | tar xz
+(
+cd numato-opsis-crowdfunding-campaign
+python scraper.py
+)
+# --
+###
+
 git status
 
 # Make git match the content
