@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred zoofIO/flexx</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/06/aps-sids-starred-zoofio-flexx/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 06 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/06/aps-sids-starred-zoofio-flexx/</guid>
+      <dc:date>2015-09-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred Freeyourgadget/Gadgetbridge</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/05/aps-sids-starred-freeyourgadget-gadgetbridge/</link>
@@ -229,18 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/16/aps-sids-commented-on-issue-gleitz-howdoi-10/</guid>
       <dc:date>2015-07-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids forked jbazik/flumotion-decklink to aps-sids/flumotion-decklink</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-forked-jbazik-flumotion-decklink-to-aps-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/15/aps-sids-forked-jbazik-flumotion-decklink-to-aps-/</guid>
-      <dc:date>2015-07-15T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-05T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
