@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 09 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids opened issue aerospike/aws-cloudformation#4</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/10/aps-sids-opened-issue-aerospike-aws-cloudformatio/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/10/aps-sids-opened-issue-aerospike-aws-cloudformatio/</guid>
+      <dc:date>2015-09-10T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred zoofIO/flexx</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/06/aps-sids-starred-zoofio-flexx/</link>
@@ -230,17 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/23/aps-sids-starred-thenewstack-docker-and-container/</guid>
       <dc:date>2015-07-23T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids commented on issue gleitz/howdoi#10</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/16/aps-sids-commented-on-issue-gleitz-howdoi-10/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/16/aps-sids-commented-on-issue-gleitz-howdoi-10/</guid>
-      <dc:date>2015-07-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-09T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-10T00:00:00+00:00</dc:date>
   </channel>
 </rss>
