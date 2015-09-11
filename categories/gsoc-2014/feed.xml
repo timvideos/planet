@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 added kaldari to Niharika29/database-reports</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/11/niharika29-added-kaldari-to-niharika29-database-r/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person-addeded&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/11/niharika29-added-kaldari-to-niharika29-database-r/</guid>
+      <dc:date>2015-09-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/database-reports</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/10/niharika29-pushed-to-master-at-niharika29-databas/</link>
@@ -220,18 +232,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/31/niharika29-pushed-to-master-at-niharika29-databas/</guid>
       <dc:date>2015-08-31T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 forked mzmcbride/database-reports to Niharika29/database-reports-1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/31/niharika29-forked-mzmcbride-database-reports-to-n/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/31/niharika29-forked-mzmcbride-database-reports-to-n/</guid>
-      <dc:date>2015-08-31T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
