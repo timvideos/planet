@@ -1,0 +1,28 @@
+html, body {
+  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+  font-size: 14px;
+}
+
+div.social-buttons {
+ display: none;
+}
+
+div.factoids {
+ padding-right: 5px;
+}
+
+div.project-block div.project-funds {
+  padding-top: 5px;
+  top: 0;
+}
+
+div.project-block div.factoids {
+  padding-top: 0;
+  top: 0;
+}
+div.project-block div.social-buttons {
+  padding-top: 0;
+  top: 0;
+}
+

@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import os
 import time
 import bs4
 import urllib2
@@ -87,6 +88,26 @@ page = page.replace('<p class="project-pledged">','<div class="project-funds"><p
 page = page.replace('<div class="factoids">', '</div><div class="factoids">')
 page = page.replace("text=Check+out+this+Crowd+Supply+project", "text=Support+on+Crowd+Supply+the+@numatolab+Opsis+board,+a+new+open+video+platform!")
 file('badge.html', 'w').write(page)
+
+import subprocess
+create_image = True
+try:
+	subprocess.check_output('wkhtmltoimage --version', stderr=subprocess.STDOUT, shell=True)
+	subprocess.check_output('convert --version', stderr=subprocess.STDOUT, shell=True)
+except subprocess.CalledProcessError:
+	print "Not generating image badge."
+	create_image = False
+
+if create_image:
+	image = page.replace("</body>", '<link rel="stylesheet" type="text/css" href="image.css"></body>')
+	f = file('image.html', 'w')
+	f.write(image)
+	f.close()
+	del f
+	subprocess.check_call('wkhtmltoimage image.html badge-temp.png', shell=True)
+	subprocess.check_call('convert badge-temp.png -trim +repage badge.png', shell=True)
+	os.unlink('image.html')
+	os.unlink('badge-temp.png')
 
 try:
   import scraperwiki
