@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: PYTHON</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 opened issue alexz-enwp/popularpages#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/16/niharika29-opened-issue-alexz-enwp-popularpages-1/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/16/niharika29-opened-issue-alexz-enwp-popularpages-1/</guid>
+      <dc:date>2015-09-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/scraping</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-pushed-to-master-at-niharika29-scrapin/</link>
@@ -222,17 +233,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-commented-on-issue-mzmcbride-database-/</guid>
       <dc:date>2015-09-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 closed issue mzmcbride/database-reports#15</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-closed-issue-mzmcbride-database-report/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/03/niharika29-closed-issue-mzmcbride-database-report/</guid>
-      <dc:date>2015-09-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
