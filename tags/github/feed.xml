@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/database-reports</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/18/niharika29-pushed-to-master-at-niharika29-databas/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/18/niharika29-pushed-to-master-at-niharika29-databas/</guid>
+      <dc:date>2015-09-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 starred tkusmierczyk/wiki-page-views-io</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/16/niharika29-starred-tkusmierczyk-wiki-page-views-i/</link>
@@ -231,18 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/13/rohit91-opened-pull-request-timvideos-hdmi2usb-mi/</guid>
       <dc:date>2015-09-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 forked polysome/aggregate-1 to rohit91/aggregate-1</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/13/rohit91-forked-polysome-aggregate-1-to-rohit91-ag/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 13 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/13/rohit91-forked-polysome-aggregate-1-to-rohit91-ag/</guid>
-      <dc:date>2015-09-13T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-16T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
