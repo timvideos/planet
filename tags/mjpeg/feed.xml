@@ -10,6 +10,30 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>ajitmathew created repository ajitmathew/pitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/20/ajitmathew-created-repository-ajitmathew-pitch/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/20/ajitmathew-created-repository-ajitmathew-pitch/</guid>
+      <dc:date>2015-09-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch master at ajitmathew/pitch</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/20/ajitmathew-created-branch-master-at-ajitmathew-pi/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 20 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/20/ajitmathew-created-branch-master-at-ajitmathew-pi/</guid>
+      <dc:date>2015-09-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>ajitmathew forked timvideos/HDMI2USB-misoc-firmware to ajitmathew/HDMI2USB-misoc-firmware</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/08/15/ajitmathew-forked-timvideos-hdmi2usb-misoc-firmwa/</link>
       <description>&lt;!-- fork --&gt;
@@ -211,30 +235,6 @@
 </description>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-testing-at-ajitmathew-h/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew deleted branch sprints at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-sprints-at-ajitmathew-h/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-sprints-at-ajitmathew-h/</guid>
-      <dc:date>2015-01-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew deleted branch memory at ajitmathew/HDMI2USB</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-memory-at-ajitmathew-hd/</link>
-      <description>&lt;!-- delete --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch-delete&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/01/10/ajitmathew-deleted-branch-memory-at-ajitmathew-hd/</guid>
       <dc:date>2015-01-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-20T00:00:00+00:00</dc:date>
