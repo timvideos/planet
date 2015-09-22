@@ -58,6 +58,18 @@
       <dc:date>2015-09-22T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids starred donnemartin/saws</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/22/aps-sids-starred-donnemartin-saws/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/22/aps-sids-starred-donnemartin-saws/</guid>
+      <dc:date>2015-09-22T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred miguelgrinberg/microblog</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-starred-miguelgrinberg-microblog/</link>
       <description>&lt;!-- watch --&gt;
@@ -229,17 +241,6 @@
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/19/aps-sids-created-repository-aps-sids-aws-crisis/</guid>
       <dc:date>2015-09-19T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/rohit91.github.io</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/18/rohit91-pushed-to-master-at-rohit91-rohit91-githu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/18/rohit91-pushed-to-master-at-rohit91-rohit91-githu/</guid>
-      <dc:date>2015-09-18T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-22T00:00:00+00:00</dc:date>
   </channel>
