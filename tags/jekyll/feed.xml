@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 23 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked bootstrap-ruby/rails-bootstrap-forms to pinoss/rails-bootstrap-forms</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</guid>
+      <dc:date>2015-09-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/refile_sequel_s3_demo</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/08/20/pinoss-pushed-to-master-at-pinoss-refile_sequel_s/</link>
@@ -232,18 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</guid>
       <dc:date>2015-03-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss created tag v2.0.0 at pinoss/timeloop</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-created-tag-v2-0-0-at-pinoss-timeloop/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-created-tag-v2-0-0-at-pinoss-timeloop/</guid>
-      <dc:date>2015-03-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
