@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/rails-bootstrap-forms</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-pushed-to-master-at-pinoss-rails-bootstrap/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-pushed-to-master-at-pinoss-rails-bootstrap/</guid>
+      <dc:date>2015-09-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked bootstrap-ruby/rails-bootstrap-forms to pinoss/rails-bootstrap-forms</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</link>
       <description>&lt;!-- fork --&gt;
@@ -226,17 +237,6 @@
       <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/10/aps-sids-opened-issue-aerospike-aws-cloudformatio/</guid>
       <dc:date>2015-09-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/database-reports</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/09/niharika29-pushed-to-master-at-niharika29-databas/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 09 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/09/niharika29-pushed-to-master-at-niharika29-databas/</guid>
-      <dc:date>2015-09-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-24T00:00:00+00:00</dc:date>
   </channel>

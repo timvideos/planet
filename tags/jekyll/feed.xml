@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/rails-bootstrap-forms</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-pushed-to-master-at-pinoss-rails-bootstrap/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-pushed-to-master-at-pinoss-rails-bootstrap/</guid>
+      <dc:date>2015-09-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked bootstrap-ruby/rails-bootstrap-forms to pinoss/rails-bootstrap-forms</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</link>
       <description>&lt;!-- fork --&gt;
@@ -231,17 +242,6 @@
 </description>
       <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-pushed-to-master-at-pinoss-timeloop/</guid>
-      <dc:date>2015-03-09T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss merged pull request pinoss/timeloop#3</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/09/pinoss-merged-pull-request-pinoss-timeloop-3/</guid>
       <dc:date>2015-03-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-24T00:00:00+00:00</dc:date>
