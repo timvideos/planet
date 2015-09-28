@@ -44,6 +44,17 @@
       <dc:date>2015-09-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids opened pull request zulip/zulip#65</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-opened-pull-request-zulip-zulip-65/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-opened-pull-request-zulip-zulip-65/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids forked zulip/zulip to aps-sids/zulip</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</link>
       <description>&lt;!-- fork --&gt;
@@ -224,18 +235,6 @@
 </description>
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-created-repository-niharika29-scraping/</guid>
-      <dc:date>2015-09-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 created branch master at Niharika29/scraping</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-created-branch-master-at-niharika29-sc/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-created-branch-master-at-niharika29-sc/</guid>
       <dc:date>2015-09-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-28T00:00:00+00:00</dc:date>

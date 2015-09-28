@@ -33,6 +33,17 @@
       <dc:date>2015-09-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids opened pull request zulip/zulip#65</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-opened-pull-request-zulip-zulip-65/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-opened-pull-request-zulip-zulip-65/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids forked zulip/zulip to aps-sids/zulip</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</link>
       <description>&lt;!-- fork --&gt;
@@ -227,17 +238,6 @@
       <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/12/aps-sids-forked-knyar-mongoclusterscripts-to-aps-/</guid>
       <dc:date>2015-08-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids pushed to master at aps-sids/ansible-gocd</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</guid>
-      <dc:date>2015-08-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-28T00:00:00+00:00</dc:date>
   </channel>
