@@ -21,6 +21,41 @@
       <dc:date>2015-09-28T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>aps-sids starred zulip/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-starred-zulip-zulip/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-starred-zulip-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to patch-1 at aps-sids/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-pushed-to-patch-1-at-aps-sids-zulip/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-pushed-to-patch-1-at-aps-sids-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids forked zulip/zulip to aps-sids/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 starred nothings/stb</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/27/rohit91-starred-nothings-stb/</link>
       <description>&lt;!-- watch --&gt;
@@ -207,40 +242,6 @@
       <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/22/aps-sids-starred-donnemartin-saws/</guid>
       <dc:date>2015-09-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred miguelgrinberg/microblog</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-starred-miguelgrinberg-microblog/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-starred-miguelgrinberg-microblog/</guid>
-      <dc:date>2015-09-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/misoc</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-pushed-to-master-at-rohit91-misoc/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-pushed-to-master-at-rohit91-misoc/</guid>
-      <dc:date>2015-09-21T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 opened pull request m-labs/misoc#18</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-opened-pull-request-m-labs-misoc-18/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-opened-pull-request-m-labs-misoc-18/</guid>
-      <dc:date>2015-09-21T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-28T00:00:00+00:00</dc:date>
   </channel>

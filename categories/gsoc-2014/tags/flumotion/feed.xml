@@ -10,6 +10,41 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids starred zulip/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-starred-zulip-zulip/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-starred-zulip-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids pushed to patch-1 at aps-sids/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-pushed-to-patch-1-at-aps-sids-zulip/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-pushed-to-patch-1-at-aps-sids-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids forked zulip/zulip to aps-sids/zulip</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</guid>
+      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids commented on issue aerospike/aws-cloudformation#4</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/25/aps-sids-commented-on-issue-aerospike-aws-cloudfo/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -203,42 +238,6 @@
       <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-pushed-to-master-at-aps-sids-ansible-goc/</guid>
       <dc:date>2015-08-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids created branch master at aps-sids/ansible-gocd</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-created-branch-master-at-aps-sids-ansibl/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/11/aps-sids-created-branch-master-at-aps-sids-ansibl/</guid>
-      <dc:date>2015-08-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred minimaxir/big-list-of-naughty-strings</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-starred-minimaxir-big-list-of-naughty-st/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-starred-minimaxir-big-list-of-naughty-st/</guid>
-      <dc:date>2015-08-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids forked Tpbrown/ansible-gocd to aps-sids/ansible-gocd</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-forked-tpbrown-ansible-gocd-to-aps-sids-/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 10 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/10/aps-sids-forked-tpbrown-ansible-gocd-to-aps-sids-/</guid>
-      <dc:date>2015-08-10T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-28T00:00:00+00:00</dc:date>
   </channel>
