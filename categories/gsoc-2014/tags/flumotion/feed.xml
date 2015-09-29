@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids starred kelseyhightower/hashiconf-2015</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/29/aps-sids-starred-kelseyhightower-hashiconf-2015/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/29/aps-sids-starred-kelseyhightower-hashiconf-2015/</guid>
+      <dc:date>2015-09-29T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids deleted branch patch-1 at aps-sids/zulip</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/29/aps-sids-deleted-branch-patch-1-at-aps-sids-zulip/</link>
       <description>&lt;!-- delete --&gt;
@@ -226,18 +238,6 @@
       <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/24/aps-sids-forked-ansible-ansible-modules-extras-to/</guid>
       <dc:date>2015-08-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred hitchtest/hitch</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/23/aps-sids-starred-hitchtest-hitch/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/23/aps-sids-starred-hitchtest-hitch/</guid>
-      <dc:date>2015-08-23T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-29T00:00:00+00:00</dc:date>
   </channel>
