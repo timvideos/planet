@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred nagadomi/waifu2x</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/30/rohit91-starred-nagadomi-waifu2x/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/30/rohit91-starred-nagadomi-waifu2x/</guid>
+      <dc:date>2015-09-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred pyscripter/pyscripter</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/29/rohit91-starred-pyscripter-pyscripter/</link>
@@ -231,18 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/24/rohit91-starred-enjoy-digital-liteeth/</guid>
       <dc:date>2015-09-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred charlierguo/gmail</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/24/rohit91-starred-charlierguo-gmail/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/24/rohit91-starred-charlierguo-gmail/</guid>
-      <dc:date>2015-09-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-29T00:00:00+00:00</dc:date>
+    <dc:date>2015-09-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
