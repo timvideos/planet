@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>aps-sids starred joshdickson40/checkyourfollowers-web</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/09/30/aps-sids-starred-joshdickson40-checkyourfollowers/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/30/aps-sids-starred-joshdickson40-checkyourfollowers/</guid>
+      <dc:date>2015-09-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>aps-sids starred kelseyhightower/hashiconf-2015</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/29/aps-sids-starred-kelseyhightower-hashiconf-2015/</link>
       <description>&lt;!-- watch --&gt;
@@ -226,17 +238,6 @@
       <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/16/niharika29-opened-issue-alexz-enwp-popularpages-1/</guid>
       <dc:date>2015-09-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/scraping</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-pushed-to-master-at-niharika29-scrapin/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/15/niharika29-pushed-to-master-at-niharika29-scrapin/</guid>
-      <dc:date>2015-09-15T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-09-30T00:00:00+00:00</dc:date>
   </channel>
