@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids commented on issue elastic/kibana#3610</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/01/aps-sids-commented-on-issue-elastic-kibana-3610/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/01/aps-sids-commented-on-issue-elastic-kibana-3610/</guid>
+      <dc:date>2015-10-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred nagadomi/waifu2x</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/30/rohit91-starred-nagadomi-waifu2x/</link>
@@ -233,17 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/25/rohit91-created-branch-master-at-rohit91-hdmi2usb/</guid>
       <dc:date>2015-09-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/database-reports</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/25/niharika29-pushed-to-master-at-niharika29-databas/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/25/niharika29-pushed-to-master-at-niharika29-databas/</guid>
-      <dc:date>2015-09-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-09-30T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
