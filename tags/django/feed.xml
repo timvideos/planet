@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: DJANGO</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 starred markoa/rspec-intro</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/02/niharika29-starred-markoa-rspec-intro/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/02/niharika29-starred-markoa-rspec-intro/</guid>
+      <dc:date>2015-10-02T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at wikimedia/community-tech-tools</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/niharika29-pushed-to-master-at-wikimedia-communit/</link>
@@ -224,17 +236,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/08/niharika29-pushed-to-master-at-niharika29-databas/</guid>
       <dc:date>2015-09-08T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at mzmcbride/database-reports</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/08/niharika29-pushed-to-master-at-mzmcbride-database/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 08 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/08/niharika29-pushed-to-master-at-mzmcbride-database/</guid>
-      <dc:date>2015-09-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-01T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-02T00:00:00+00:00</dc:date>
   </channel>
 </rss>
