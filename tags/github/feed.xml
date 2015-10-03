@@ -8,7 +8,42 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew pushed to master at ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created repository ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch master at ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-branch-master-at-ajitmathew-pr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-branch-master-at-ajitmathew-pr/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred alvieboy/ZPUino-HDL</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/02/rohit91-starred-alvieboy-zpuino-hdl/</link>
@@ -209,41 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-opened-pull-request-zulip-zulip-65/</guid>
       <dc:date>2015-09-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids forked zulip/zulip to aps-sids/zulip</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 28 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/28/aps-sids-forked-zulip-zulip-to-aps-sids-zulip/</guid>
-      <dc:date>2015-09-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred nothings/stb</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/27/rohit91-starred-nothings-stb/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 27 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/27/rohit91-starred-nothings-stb/</guid>
-      <dc:date>2015-09-27T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/25/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/25/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
-      <dc:date>2015-09-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>

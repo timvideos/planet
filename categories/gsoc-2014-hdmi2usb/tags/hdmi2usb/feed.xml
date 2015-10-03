@@ -8,7 +8,42 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 02 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew pushed to master at ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created repository ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>ajitmathew created branch master at ajitmathew/Pray4Me</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-branch-master-at-ajitmathew-pr/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-branch-master-at-ajitmathew-pr/</guid>
+      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred alvieboy/ZPUino-HDL</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/02/rohit91-starred-alvieboy-zpuino-hdl/</link>
@@ -212,42 +247,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/22/rohit91-starred-espressif-esp8266_iot_platform/</guid>
       <dc:date>2015-09-22T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred bnmnetp/runestone</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/22/rohit91-starred-bnmnetp-runestone/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/22/rohit91-starred-bnmnetp-runestone/</guid>
-      <dc:date>2015-09-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked bnmnetp/runestone to rohit91/runestone</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/22/rohit91-forked-bnmnetp-runestone-to-rohit91-runes/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/22/rohit91-forked-bnmnetp-runestone-to-rohit91-runes/</guid>
-      <dc:date>2015-09-22T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred miguelgrinberg/microblog</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-starred-miguelgrinberg-microblog/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/09/21/rohit91-starred-miguelgrinberg-microblog/</guid>
-      <dc:date>2015-09-21T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
