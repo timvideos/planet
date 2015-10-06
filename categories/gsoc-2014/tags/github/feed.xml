@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 05 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at wikimedia/community-tech-tools</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/06/niharika29-pushed-to-master-at-wikimedia-communit/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/06/niharika29-pushed-to-master-at-wikimedia-communit/</guid>
+      <dc:date>2015-10-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 starred nylas/N1</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/10/05/niharika29-starred-nylas-n1/</link>
@@ -229,18 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</guid>
       <dc:date>2015-09-24T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred donnemartin/saws</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/22/aps-sids-starred-donnemartin-saws/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 22 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/22/aps-sids-starred-donnemartin-saws/</guid>
-      <dc:date>2015-09-22T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-05T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
