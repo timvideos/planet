@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>Niharika29 starred jdlrobson/SimpleSkins</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/06/niharika29-starred-jdlrobson-simpleskins/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/06/niharika29-starred-jdlrobson-simpleskins/</guid>
+      <dc:date>2015-10-06T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 pushed to master at wikimedia/community-tech-tools</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/10/06/niharika29-pushed-to-master-at-wikimedia-communit/</link>
       <description>&lt;!-- push --&gt;
@@ -226,18 +238,6 @@
 </description>
       <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-pushed-to-master-at-pinoss-rails-bootstrap/</guid>
-      <dc:date>2015-09-24T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked bootstrap-ruby/rails-bootstrap-forms to pinoss/rails-bootstrap-forms</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/24/pinoss-forked-bootstrap-ruby-rails-bootstrap-form/</guid>
       <dc:date>2015-09-24T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-10-06T00:00:00+00:00</dc:date>
