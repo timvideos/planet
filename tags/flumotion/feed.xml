@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids opened issue fumblehool/Picsaver#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</guid>
+      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids opened issue fumblehool/Picsaver#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-1/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-1/</guid>
+      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids starred dbader/schedule</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/10/03/aps-sids-starred-dbader-schedule/</link>
@@ -217,28 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/08/27/aps-sids-commented-on-pull-request-ansible-ansibl/</guid>
       <dc:date>2015-08-27T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids pushed to devel at aps-sids/ansible-modules-extras</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/26/aps-sids-pushed-to-devel-at-aps-sids-ansible-modu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/26/aps-sids-pushed-to-devel-at-aps-sids-ansible-modu/</guid>
-      <dc:date>2015-08-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids opened pull request ansible/ansible-modules-extras#883</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/08/26/aps-sids-opened-pull-request-ansible-ansible-modu/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/08/26/aps-sids-opened-pull-request-ansible-ansible-modu/</guid>
-      <dc:date>2015-08-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>

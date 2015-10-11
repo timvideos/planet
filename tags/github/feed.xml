@@ -8,7 +8,29 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids opened issue fumblehool/Picsaver#2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</guid>
+      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>aps-sids opened issue fumblehool/Picsaver#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-1/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-1/</guid>
+      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked udacity/frontend-nanodegree-resume to tariq786/frontend-nanodegree-resume</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/10/tariq786-forked-udacity-frontend-nanodegree-resum/</link>
@@ -221,30 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/04/niharika29-created-repository-niharika29-twitter-/</guid>
       <dc:date>2015-10-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 created branch master at Niharika29/Twitter-Sentiment-Analysis</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/04/niharika29-created-branch-master-at-niharika29-tw/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/04/niharika29-created-branch-master-at-niharika29-tw/</guid>
-      <dc:date>2015-10-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred mithro/HDMI2USB-find-board</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/rohit91-starred-mithro-hdmi2usb-find-board/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/rohit91-starred-mithro-hdmi2usb-find-board/</guid>
-      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-10T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
