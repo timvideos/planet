@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred enjoy-digital/litesata</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/12/rohit91-starred-enjoy-digital-litesata/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/12/rohit91-starred-enjoy-digital-litesata/</guid>
+      <dc:date>2015-10-12T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred enjoy-digital/arty-soc</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/12/rohit91-starred-enjoy-digital-arty-soc/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/12/rohit91-starred-enjoy-digital-arty-soc/</guid>
+      <dc:date>2015-10-12T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids opened issue fumblehool/Picsaver#2</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</link>
@@ -218,30 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-malcolmrobb-dump1090/</guid>
       <dc:date>2015-10-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred airspy/firmware</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-airspy-firmware/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-airspy-firmware/</guid>
-      <dc:date>2015-10-04T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 forked MalcolmRobb/dump1090 to rohit91/dump1090</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-forked-malcolmrobb-dump1090-to-rohit91-du/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-forked-malcolmrobb-dump1090-to-rohit91-du/</guid>
-      <dc:date>2015-10-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-11T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-12T00:00:00+00:00</dc:date>
   </channel>
 </rss>
