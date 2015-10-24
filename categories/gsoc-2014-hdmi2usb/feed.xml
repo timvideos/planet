@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked qdot/libfitbit to tariq786/libfitbit</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/24/tariq786-forked-qdot-libfitbit-to-tariq786-libfit/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/24/tariq786-forked-qdot-libfitbit-to-tariq786-libfit/</guid>
+      <dc:date>2015-10-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>tariq786 forked paulburton/fitbitd to tariq786/fitbitd</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/24/tariq786-forked-paulburton-fitbitd-to-tariq786-fi/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/24/tariq786-forked-paulburton-fitbitd-to-tariq786-fi/</guid>
+      <dc:date>2015-10-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred p-e-w/ranwhen</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/18/rohit91-starred-p-e-w-ranwhen/</link>
@@ -224,29 +248,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/rohit91-starred-alvieboy-zpuino/</guid>
       <dc:date>2015-10-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew pushed to master at ajitmathew/Pray4Me</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-pushed-to-master-at-ajitmathew-pray4me/</guid>
-      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>ajitmathew created repository ajitmathew/Pray4Me</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 03 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/03/ajitmathew-created-repository-ajitmathew-pray4me/</guid>
-      <dc:date>2015-10-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-21T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
