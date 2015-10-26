@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred n1nj4sec/memorpy</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/26/aps-sids-starred-n1nj4sec-memorpy/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/26/aps-sids-starred-n1nj4sec-memorpy/</guid>
+      <dc:date>2015-10-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked qdot/libfitbit to tariq786/libfitbit</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/24/tariq786-forked-qdot-libfitbit-to-tariq786-libfit/</link>
@@ -231,17 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/12/rohit91-starred-enjoy-digital-arty-soc/</guid>
       <dc:date>2015-10-12T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue fumblehool/Picsaver#2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-2/</guid>
-      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

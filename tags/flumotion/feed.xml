@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: FLUMOTION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>aps-sids starred n1nj4sec/memorpy</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/10/26/aps-sids-starred-n1nj4sec-memorpy/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 26 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/26/aps-sids-starred-n1nj4sec-memorpy/</guid>
+      <dc:date>2015-10-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>aps-sids deleted branch patch-1 at aps-sids/cap-faq</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/10/20/aps-sids-deleted-branch-patch-1-at-aps-sids-cap-f/</link>
@@ -228,17 +240,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/09/19/aps-sids-created-repository-aps-sids-aws-crisis/</guid>
       <dc:date>2015-09-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened issue aerospike/aws-cloudformation#4</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/09/10/aps-sids-opened-issue-aerospike-aws-cloudformatio/</link>
-      <description>&lt;!-- issues --&gt;
-&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/09/10/aps-sids-opened-issue-aerospike-aws-cloudformatio/</guid>
-      <dc:date>2015-09-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-24T00:00:00+00:00</dc:date>
+    <dc:date>2015-10-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
