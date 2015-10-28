@@ -124,10 +124,20 @@ sub, sup {
     color: #555;
 }
 
+.project-block .project-goal {
+    font-size: 7pt;
+}
+
 div.project-block p.project-pledged {
     display: block;
     margin: 0;
 } 
+
+.project-block div.status-bar {
+    padding-top: 4px;
+    font-size: 7pt;
+    color: red;
+}
 
 .progress {
     margin-top: 3px;
@@ -147,6 +157,10 @@ div.project-block p.project-pledged {
     background-image: none;
     position: relative;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.factoids div:first-of-type {
+    display: none;
 }
 
 .fact {

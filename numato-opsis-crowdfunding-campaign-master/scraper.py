@@ -51,7 +51,7 @@ json.dump(data, file('data.json','w'))
 
 project_box = page.find('div', attrs={'class': 'project-block'})
 
-print "%(pledges)i pledges - $%(pledged)i of $%(goal)i (%(percent_funded)s%%) - Now available for preorder!" % data
+print "%(pledges)i pledges - $%(pledged)i of $%(goal)i (%(percent_funded)s%%) - Preorder available!" % data
 
 page = """\
 <html>
@@ -71,7 +71,7 @@ page = """\
 <div class="message">
  The <a href="http://hdmi2usb.tv/numato-opsis" target="_top">Numato Opsis</a>, the first open hardware for the <a href="http://hdmi2usb.tv" target="_top">HDMI2USB.tv</a> firmware,<br>
  <a href="https://www.crowdsupply.com/numato-lab/opsis" target="_top">
- Can now be ordered on 
+ Pre-order now on
    <img src="https://www.crowdsupply.com/_teal/images/crowd-supply-logo-light@2x.png" style="padding: 2px; height: 2em; vertical-align: middle;">
  </a>
 </div>
