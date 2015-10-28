@@ -34,7 +34,7 @@ pledged = project.find(attrs={'class': 'project-pledged'}).text.strip()
 goal = project.find(attrs={'class': 'project-goal'}).text.strip()
 
 
-ends = page.find(attrs={'class': 'project-remind-me'}).find('p').text.split(' on ')[-1]
+#ends = page.find(attrs={'class': 'project-remind-me'}).find('p').text.split(' on ')[-1]
 
 data={
   'url': url, 
@@ -44,14 +44,14 @@ data={
   'percent_funded': int(percent_funded.split()[0][:-1]),
   'pledges': int(pledges.split()[0]),
   'left': left,
-  'ends': ends,
+#  'ends': ends,
 }
 import json
 json.dump(data, file('data.json','w'))
 
 project_box = page.find('div', attrs={'class': 'project-block'})
 
-print "%(pledges)i pledges - $%(pledged)i of $%(goal)i (%(percent_funded)s%%) - Ends %(ends)s (%(left)s)" % data
+print "%(pledges)i pledges - $%(pledged)i of $%(goal)i (%(percent_funded)s%%) - Now available for preorder!" % data
 
 page = """\
 <html>
