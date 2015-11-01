@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred IndianTinker/GreenwaliDiwali</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/01/rohit91-starred-indiantinker-greenwalidiwali/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/01/rohit91-starred-indiantinker-greenwalidiwali/</guid>
+      <dc:date>2015-11-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred timvideos/HDMI2USB-TOFE-VGA</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/28/rohit91-starred-timvideos-hdmi2usb-tofe-vga/</link>
@@ -233,18 +245,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-zylin-zpu/</guid>
       <dc:date>2015-10-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred MalcolmRobb/dump1090</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-malcolmrobb-dump1090/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 04 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/04/rohit91-starred-malcolmrobb-dump1090/</guid>
-      <dc:date>2015-10-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-10-31T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
