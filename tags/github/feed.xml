@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred nickg/nvc</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/rohit91-starred-nickg-nvc/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/rohit91-starred-nickg-nvc/</guid>
+      <dc:date>2015-11-03T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/database-reports</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/02/niharika29-pushed-to-master-at-niharika29-databas/</link>
@@ -232,17 +244,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/18/aps-sids-pushed-to-patch-1-at-aps-sids-cap-faq/</guid>
       <dc:date>2015-10-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids opened pull request henryr/cap-faq#7</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/18/aps-sids-opened-pull-request-henryr-cap-faq-7/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/18/aps-sids-opened-pull-request-henryr-cap-faq-7/</guid>
-      <dc:date>2015-10-18T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-02T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-03T00:00:00+00:00</dc:date>
   </channel>
 </rss>
