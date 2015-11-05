@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 04 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga-misoc</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
+      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga-misoc</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/04/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
@@ -232,18 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/09/rohit91-starred-ucb-bar-chisel/</guid>
       <dc:date>2015-10-09T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred terpstra/opa</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/09/rohit91-starred-terpstra-opa/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/09/rohit91-starred-terpstra-opa/</guid>
-      <dc:date>2015-10-09T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-04T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
