@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss forked hipchat/hipchat-rb to pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/05/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/05/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</guid>
+      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 pushed to master at wikimedia/community-tech-tools</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/03/niharika29-pushed-to-master-at-wikimedia-communit/</link>
       <description>&lt;!-- push --&gt;
@@ -227,17 +239,6 @@
 </description>
       <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-opened-issue-fumblehool-picsaver-1/</guid>
-      <dc:date>2015-10-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids commented on issue fumblehool/Picsaver#1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-commented-on-issue-fumblehool-picsaver-1/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 11 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/11/aps-sids-commented-on-issue-fumblehool-picsaver-1/</guid>
       <dc:date>2015-10-11T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-11-05T00:00:00+00:00</dc:date>
