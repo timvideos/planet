@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at maxstr/cs140_hw2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/06/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/06/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</guid>
+      <dc:date>2015-11-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss forked hipchat/hipchat-rb to pinoss/hipchat-rb</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/05/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</link>
@@ -231,18 +242,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/16/maxstr-created-repository-maxstr-cs140_hw1/</guid>
       <dc:date>2015-10-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created branch master at maxstr/cs140_hw1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/16/maxstr-created-branch-master-at-maxstr-cs140_hw1/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/16/maxstr-created-branch-master-at-maxstr-cs140_hw1/</guid>
-      <dc:date>2015-10-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-05T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
