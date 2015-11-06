@@ -10,6 +10,29 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>tariq786 pushed to master at tariq786/coding_challenge</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-pushed-to-master-at-tariq786-coding_chal/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-pushed-to-master-at-tariq786-coding_chal/</guid>
+      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>tariq786 created branch master at tariq786/coding_challenge</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-created-branch-master-at-tariq786-coding/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-created-branch-master-at-tariq786-coding/</guid>
+      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga-misoc</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
       <description>&lt;!-- push --&gt;
@@ -219,29 +242,6 @@
       <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/10/tariq786-forked-udacity-frontend-nanodegree-resum/</guid>
       <dc:date>2015-10-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 commented on issue timvideos/HDMI2USB-misoc-firmware#107</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/10/rohit91-commented-on-issue-timvideos-hdmi2usb-mis/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/10/rohit91-commented-on-issue-timvideos-hdmi2usb-mis/</guid>
-      <dc:date>2015-10-10T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred ucb-bar/chisel</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/09/rohit91-starred-ucb-bar-chisel/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 09 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/09/rohit91-starred-ucb-bar-chisel/</guid>
-      <dc:date>2015-10-09T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-11-05T00:00:00+00:00</dc:date>
   </channel>
