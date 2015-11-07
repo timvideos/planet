@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr pushed to master at maxstr/cs140_hw2</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</guid>
+      <dc:date>2015-11-07T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred msr-quarc/Liquid</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/06/rohit91-starred-msr-quarc-liquid/</link>
@@ -230,18 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/30/aps-sids-starred-donnemartin-awesome-aws/</guid>
       <dc:date>2015-10-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred ripienaar/free-for-dev</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/29/aps-sids-starred-ripienaar-free-for-dev/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/29/aps-sids-starred-ripienaar-free-for-dev/</guid>
-      <dc:date>2015-10-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-06T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-07T00:00:00+00:00</dc:date>
   </channel>
 </rss>
