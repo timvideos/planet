@@ -10,6 +10,28 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss opened pull request hipchat/hipchat-rb#148</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-opened-pull-request-hipchat-hipchat-rb-148/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-opened-pull-request-hipchat-hipchat-rb-148/</guid>
+      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss forked kmrshntr/omniauth-slack to pinoss/omniauth-slack</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</link>
       <description>&lt;!-- fork --&gt;
@@ -19,6 +41,29 @@
 </description>
       <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</guid>
+      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked hipchat/hipchat-rb to pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</guid>
+      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss commented on pull request hipchat/hipchat-rb#148</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-commented-on-pull-request-hipchat-hipchat-/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-commented-on-pull-request-hipchat-hipchat-/</guid>
       <dc:date>2015-11-11T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -192,54 +237,6 @@
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/11/02/niharika29-pushed-to-master-at-niharika29-databas/</guid>
       <dc:date>2015-11-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred IndianTinker/GreenwaliDiwali</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/01/rohit91-starred-indiantinker-greenwalidiwali/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/01/rohit91-starred-indiantinker-greenwalidiwali/</guid>
-      <dc:date>2015-11-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred Snyk/snyk</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/01/aps-sids-starred-snyk-snyk/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/01/aps-sids-starred-snyk-snyk/</guid>
-      <dc:date>2015-11-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred deis/helm</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/01/aps-sids-starred-deis-helm/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/01/aps-sids-starred-deis-helm/</guid>
-      <dc:date>2015-11-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred Amraki/KissAnime-DLC</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/31/aps-sids-starred-amraki-kissanime-dlc/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 31 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/31/aps-sids-starred-amraki-kissanime-dlc/</guid>
-      <dc:date>2015-10-31T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-11-11T00:00:00+00:00</dc:date>
   </channel>
