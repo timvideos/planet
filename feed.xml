@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss forked kmrshntr/omniauth-slack to pinoss/omniauth-slack</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</guid>
+      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/cs140_hw2</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
@@ -229,18 +241,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/31/aps-sids-starred-amraki-kissanime-dlc/</guid>
       <dc:date>2015-10-31T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred donnemartin/awesome-aws</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/30/aps-sids-starred-donnemartin-awesome-aws/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/30/aps-sids-starred-donnemartin-awesome-aws/</guid>
-      <dc:date>2015-10-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-07T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-11T00:00:00+00:00</dc:date>
   </channel>
 </rss>
