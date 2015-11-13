@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <dc:date>2015-11-13T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred matachi/product-gallery</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/12/rohit91-starred-matachi-product-gallery/</link>
@@ -227,18 +238,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/tariq786-created-repository-tariq786-coding_chall/</guid>
       <dc:date>2015-11-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred nickg/nvc</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/rohit91-starred-nickg-nvc/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/rohit91-starred-nickg-nvc/</guid>
-      <dc:date>2015-11-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-12T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-13T00:00:00+00:00</dc:date>
   </channel>
 </rss>
