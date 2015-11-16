@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr created repository maxstr/environment</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/environment</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/hipchat-rb</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
@@ -215,30 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/10/31/aps-sids-starred-amraki-kissanime-dlc/</guid>
       <dc:date>2015-10-31T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>aps-sids starred donnemartin/awesome-aws</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/30/aps-sids-starred-donnemartin-awesome-aws/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 30 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/30/aps-sids-starred-donnemartin-awesome-aws/</guid>
-      <dc:date>2015-10-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>aps-sids starred ripienaar/free-for-dev</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/10/29/aps-sids-starred-ripienaar-free-for-dev/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/10/29/aps-sids-starred-ripienaar-free-for-dev/</guid>
-      <dc:date>2015-10-29T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>

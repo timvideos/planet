@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DOCKERIZATION</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr created repository maxstr/environment</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr created branch master at maxstr/environment</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>maxstr pushed to master at maxstr/cs140_hw2</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
@@ -213,30 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-pushed-to-master-at-maxstr-protalign/</guid>
       <dc:date>2015-06-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created repository maxstr/protAlign</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-repository-maxstr-protalign/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-repository-maxstr-protalign/</guid>
-      <dc:date>2015-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created branch master at maxstr/protAlign</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-branch-master-at-maxstr-protalign/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/06/30/maxstr-created-branch-master-at-maxstr-protalign/</guid>
-      <dc:date>2015-06-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-15T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
