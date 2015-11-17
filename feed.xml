@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <dc:date>2015-11-17T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/omniauth-hipchat</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</link>
@@ -228,17 +239,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/11/06/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</guid>
       <dc:date>2015-11-06T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 pushed to master at tariq786/coding_challenge</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-pushed-to-master-at-tariq786-coding_chal/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/05/tariq786-pushed-to-master-at-tariq786-coding_chal/</guid>
-      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-17T00:00:00+00:00</dc:date>
   </channel>
 </rss>
