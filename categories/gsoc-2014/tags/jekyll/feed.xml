@@ -10,6 +10,64 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
     <item>
+      <title>pinoss pushed to master at pinoss/omniauth-hipchat</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss merged pull request pinoss/omniauth-hipchat#1</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created tag v0.1.0 at pinoss/omniauth-hipchat</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created repository pinoss/omniauth-hipchat</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss created branch master at pinoss/omniauth-hipchat</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</guid>
+      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>pinoss pushed to master at pinoss/hipchat-rb</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
       <description>&lt;!-- push --&gt;
@@ -181,65 +239,6 @@
       <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
       <guid>http://planet.timvideos.us/gsoc-2014/2015/07/26/pinoss-starred-lukasz-madon-awesome-remote-job/</guid>
       <dc:date>2015-07-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss starred manastech/crystal</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/07/23/pinoss-starred-manastech-crystal/</guid>
-      <dc:date>2015-07-23T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked taitems/jQuery.Gantt to pinoss/jQuery.Gantt</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-taitems-jquery-gantt-to-pinoss-jque/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-taitems-jquery-gantt-to-pinoss-jque/</guid>
-      <dc:date>2015-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked angular-gantt/angular-gantt to pinoss/angular-gantt</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-angular-gantt-angular-gantt-to-pino/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/30/pinoss-forked-angular-gantt-angular-gantt-to-pino/</guid>
-      <dc:date>2015-05-30T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked twbs/bootstrap-sass to pinoss/bootstrap-sass</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/05/05/pinoss-forked-twbs-bootstrap-sass-to-pinoss-boots/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/05/05/pinoss-forked-twbs-bootstrap-sass-to-pinoss-boots/</guid>
-      <dc:date>2015-05-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to add_expires_at_to_url at pinoss/carrierwave</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/03/27/pinoss-pushed-to-add_expires_at_to_url-at-pinoss-/</guid>
-      <dc:date>2015-03-27T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2015-11-16T00:00:00+00:00</dc:date>
   </channel>
