@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred tomchristie/django-rest-framework</title>
+      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/18/rohit91-starred-tomchristie-django-rest-framework/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/18/rohit91-starred-tomchristie-django-rest-framework/</guid>
+      <dc:date>2015-11-18T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred kriskowal/q</title>
       <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/17/rohit91-starred-kriskowal-q/</link>
@@ -231,18 +243,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/18/rohit91-starred-mrmanc-spectro/</guid>
       <dc:date>2015-10-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred timvideos/HDMI2USB-TOFE-kicad-template</title>
-      <link>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/16/rohit91-starred-timvideos-hdmi2usb-tofe-kicad-tem/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/10/16/rohit91-starred-timvideos-hdmi2usb-tofe-kicad-tem/</guid>
-      <dc:date>2015-10-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-18T00:00:00+00:00</dc:date>
   </channel>
 </rss>
