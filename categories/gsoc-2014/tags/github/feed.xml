@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>http://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
+      <link>http://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <dc:date>2015-11-20T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/hipchat-rb</title>
       <link>http://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
@@ -226,18 +237,6 @@
       <guid>http://planet.timvideos.us/gsoc-2014/2015/11/05/maxstr-made-maxstr-cs140_hw1-public/</guid>
       <dc:date>2015-11-05T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created repository maxstr/cs140_hw2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/05/maxstr-created-repository-maxstr-cs140_hw2/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/05/maxstr-created-repository-maxstr-cs140_hw2/</guid>
-      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-18T00:00:00+00:00</dc:date>
+    <dc:date>2015-11-20T00:00:00+00:00</dc:date>
   </channel>
 </rss>
