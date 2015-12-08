@@ -1,7 +1,7 @@
 planet.timvideos.us
 ======
 
-This repository contains the TimVideos Planet found at http://planet.timvideos.us location.
+This repository contains the TimVideos Planet found at https://planet.timvideos.us location.
 
 It uses [jekyll](http://jekyllrb.com/) with;
  * [planet.rb](https://github.com/pote/planet.rb) to download the data and output to jekyll format,
