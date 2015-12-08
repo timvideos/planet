@@ -6,237 +6,237 @@
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
-    <link>http://planet.timvideos.us</link>
+    <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 08 Dec 2015 00:00:00 +0000</pubDate>
     <item>
-      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/07/niharika29-pushed-to-master-at-niharika29-assessm/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/07/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-12-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 commented on commit Niharika29/Assessments@9a21163516</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/04/niharika29-commented-on-commit-niharika29-assessm/</link>
+      <description>&lt;!-- commit_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot; aria-label=&quot;Comment&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/04/niharika29-commented-on-commit-niharika29-assessm/</guid>
+      <dc:date>2015-12-04T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/03/niharika29-pushed-to-master-at-niharika29-assessm/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/03/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-12-03T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/02/niharika29-pushed-to-master-at-niharika29-assessm/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/02/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-12-02T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-pushed-to-master-at-niharika29-assessm/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-12-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 added kaldari to Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-added-kaldari-to-niharika29-assessment/</link>
+      <description>&lt;!-- member --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-person&quot; aria-label=&quot;Member&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-added-kaldari-to-niharika29-assessment/</guid>
+      <dc:date>2015-12-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-11-30T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-pushed-to-master-at-niharika29-assessm/</link>
       <description>&lt;!-- push --&gt;
 &lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
 
 </description>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
+      <dc:date>2015-11-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 created repository Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-created-repository-niharika29-assessme/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-created-repository-niharika29-assessme/</guid>
+      <dc:date>2015-11-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 created branch master at Niharika29/Assessments</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-created-branch-master-at-niharika29-as/</link>
+      <description>&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 28 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/28/niharika29-created-branch-master-at-niharika29-as/</guid>
+      <dc:date>2015-11-28T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
       <dc:date>2015-11-20T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
       <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/17/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
       <dc:date>2015-11-17T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/omniauth-hipchat</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</link>
       <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-pushed-to-master-at-pinoss-omniauth-hipcha/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss merged pull request pinoss/omniauth-hipchat#1</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</link>
       <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot; aria-label=&quot;Pull request&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss created tag v0.1.0 at pinoss/omniauth-hipchat</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-tag&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;octicon octicon-tag&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-tag-v0-1-0-at-pinoss-omniauth-hipc/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss created repository pinoss/omniauth-hipchat</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-repository-pinoss-omniauth-hipchat/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss created branch master at pinoss/omniauth-hipchat</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>maxstr created repository maxstr/environment</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;octicon octicon-repo&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>maxstr created branch master at maxstr/environment</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
       <description>&lt;!-- create --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <item>
       <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
       <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
 
 </description>
       <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/13/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
       <dc:date>2015-11-13T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/12/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/12/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
-      <dc:date>2015-11-12T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
-      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss opened pull request hipchat/hipchat-rb#148</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-opened-pull-request-hipchat-hipchat-rb-148/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-pull-request&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-opened-pull-request-hipchat-hipchat-rb-148/</guid>
-      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked kmrshntr/omniauth-slack to pinoss/omniauth-slack</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</guid>
-      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked hipchat/hipchat-rb to pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</guid>
-      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss commented on pull request hipchat/hipchat-rb#148</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-commented-on-pull-request-hipchat-hipchat-/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/11/pinoss-commented-on-pull-request-hipchat-hipchat-/</guid>
-      <dc:date>2015-11-11T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/cs140_hw2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Sat, 07 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/07/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</guid>
-      <dc:date>2015-11-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr pushed to master at maxstr/cs140_hw2</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/06/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/06/maxstr-pushed-to-master-at-maxstr-cs140_hw2/</guid>
-      <dc:date>2015-11-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>pinoss forked hipchat/hipchat-rb to pinoss/hipchat-rb</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/05/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</link>
-      <description>&lt;!-- fork --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/05/pinoss-forked-hipchat-hipchat-rb-to-pinoss-hipcha/</guid>
-      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr made maxstr/cs140_hw1 public</title>
-      <link>http://planet.timvideos.us/gsoc-2014/2015/11/05/maxstr-made-maxstr-cs140_hw1-public/</link>
-      <description>&lt;!-- public --&gt;
-&lt;span class=&quot;mega-octicon octicon-repo&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://planet.timvideos.us/gsoc-2014/2015/11/05/maxstr-made-maxstr-cs140_hw1-public/</guid>
-      <dc:date>2015-11-05T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-11-22T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-08T00:00:00+00:00</dc:date>
   </channel>
 </rss>

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
   <meta name="description" content="News from our best developers, all news aggregated by planet."/>
   <link rel="alternate" type="application/atom+xml" title="Tim Videos Planet Feed" href="/feed.xml" />
-  <link rel="canonical" href="http://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/06/12/daily-snippet//">
+  <link rel="canonical" href="https://planet.timvideos.us/iframe/gsoc-2014-hdmi2usb/2014/06/12/daily-snippet//">
   <link href="/css/jquery.fancybox.css?v=2.1.5" rel="stylesheet"/>
   <link href="/css/bootstrap.min.css" rel="stylesheet" />
   <link href="/css/font-awesome.min.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
   <![endif]-->
   <link href="/css/styles.css" rel="stylesheet" />
 </head>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="/js/plugins/bootstrap.min.js"></script>
 <script src="/js/plugins/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script src="/js/plugins/jquery.plugins.js"></script>
@@ -74,9 +74,9 @@
         
         <p class="share-buttons">
   <span>Share: </span>
-  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
-  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F&text=TimVideos.us%20Daily+snippet%20http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
-  <span class="share-button"><a href="https://plus.google.com/share?url=http%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F&text=TimVideos.us%20Daily+snippet%20https%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank" title="Tweet"><i class="fa fa-twitter-square fa-2x"></i></a></span>
+  <span class="share-button"><a href="https://plus.google.com/share?url=https%3A%2F%2Fplanet.timvideos.us%2Fiframe%2Fgsoc-2014-hdmi2usb%2F2014%2F06%2F12%2Fdaily-snippet%2F" target="_blank" title="Share on Google+"><i class="fa fa-google-plus-square fa-2x"></i></a></span>
 </p>
         <p class="article">
           <div dir="ltr" style="text-align: left;" trbidi="on"><style type="text/css">p { margin-bottom: 0.25cm; line-height: 120%; }</style>  <br /><div style="text-align: left;"><br /><ul><li>I couldn't meet the deadline for getting the spec doc ready, was away whole day.</li><li>But at night I did some deep investigation on serial and got very interesting results.</li><li>Recall  that an Endpoint has two directions IN (towards host) and OUT (away  from host) except when control transfer is used, which is bidirectional.  Bulk, Interrupt and Isochronous transfers are unidirectional and a  direction needs to be specified in the Endpoint description.</li><li>EP0 is a control endpoint and doesn't have IN/OUT direction since it's bidirectional</li><li>We can have BULK IN/BULK OUT on the SAME endpoint number. Search <a href="http://wiki.osdev.org/Universal_Serial_Bus" target="_blank">here</a> for the string&nbsp;"two endpoints may have the same endpoint number but opposing data transfer directions"<span style="font-family: sans-serif; font-size: x-small;"><span style="background-color: white; line-height: 19.200000762939453px;">.</span></span></li><li>See the three variants of CDC ACM serial devices over <a href="http://www.thesycon.de/eng/usb_cdcacm_ce.shtml" target="_blank">here</a>.  We want to use a Bulk-only protocol because that's what we have been  effectively using. It takes only 1 EP for implementing Bulk-only  protocol.</li><li>Take a look at <a href="https://docs.google.com/spreadsheets/d/1j8ddwDzGRI8FZ8g7eI2wMwBOZ7AQ7Ft_pCV2-mSTSwI/edit#gid=0" target="_blank">this spreadsheet</a> based on my <a href="http://pastebin.com/5pyinsWz" target="_blank">lsbusb -v output</a> of HDMI2USB. It also has a tentative plan of how the endpoints can end up for 8 serial expansion ports</li><li>Currently EP4  and EP6 are used for bulk in and bulk out which is not necessary. An Interrupt IN on EP1 on Cypress FX2LP is also there which is not being  used by the FPGA (in usbtop.vhd).</li><li>We have some cleaning up to do  in the Cypress FX2LP. And it seems we can have more serial ports (11 I  guess) with space for proposed endpoints for UVC A/B preview and HDMI  Audio. Let's have just have up to 8 serial ports and leave remaining end  points for other possible uses?</li><li>Still investigating whether the standard CDC ACM drivers compulsorily requires the INTERRUPT IN endpoint or not.</li></ul></div></div><div class="author">
