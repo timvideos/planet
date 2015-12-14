@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred Kozea/pygal</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/14/rohit91-starred-kozea-pygal/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot; aria-label=&quot;Watch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Mon, 14 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/14/rohit91-starred-kozea-pygal/</guid>
+      <dc:date>2015-12-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred kamalgill/flask-appengine-template</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/11/rohit91-starred-kamalgill-flask-appengine-templat/</link>
@@ -234,18 +246,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/04/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
       <dc:date>2015-11-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 created repository tariq786/coding_challenge</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/tariq786-created-repository-tariq786-coding_chall/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/03/tariq786-created-repository-tariq786-coding_chall/</guid>
-      <dc:date>2015-11-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-12-11T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
