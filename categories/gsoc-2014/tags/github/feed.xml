@@ -8,7 +8,30 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 19 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss pushed to master at pinoss/omniauth-slack</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/19/pinoss-pushed-to-master-at-pinoss-omniauth-slack/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/19/pinoss-pushed-to-master-at-pinoss-omniauth-slack/</guid>
+      <dc:date>2015-12-19T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>pinoss forked kmrshntr/omniauth-slack to pinoss/omniauth-slack</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2015/12/19/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Fork&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/19/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</guid>
+      <dc:date>2015-12-19T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/Assessments</title>
       <link>https://planet.timvideos.us/gsoc-2014/2015/12/08/niharika29-pushed-to-master-at-niharika29-assessm/</link>
@@ -213,30 +236,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-created-branch-master-at-pinoss-omniauth-h/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr created repository maxstr/environment</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-repo&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
-      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created branch master at maxstr/environment</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
-      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-12-17T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-19T00:00:00+00:00</dc:date>
   </channel>
 </rss>
