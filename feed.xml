@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred JesusFreke/smali</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/22/rohit91-starred-jesusfreke-smali/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot; aria-label=&quot;Watch&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/22/rohit91-starred-jesusfreke-smali/</guid>
+      <dc:date>2015-12-22T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred LCAV/DSPNumex</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/20/rohit91-starred-lcav-dspnumex/</link>
@@ -230,17 +242,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-added-kaldari-to-niharika29-assessment/</guid>
       <dc:date>2015-12-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
-      <dc:date>2015-11-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-12-20T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-22T00:00:00+00:00</dc:date>
   </channel>
 </rss>
