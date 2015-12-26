@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga-misoc</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
+      <dc:date>2015-12-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred WHAnonymous/Chat-API</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/23/rohit91-starred-whanonymous-chat-api/</link>
@@ -233,17 +244,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/12/04/niharika29-commented-on-commit-niharika29-assessm/</guid>
       <dc:date>2015-12-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/12/03/niharika29-pushed-to-master-at-niharika29-assessm/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/12/03/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
-      <dc:date>2015-12-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-12-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>

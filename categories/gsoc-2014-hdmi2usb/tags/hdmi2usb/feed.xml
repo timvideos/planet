@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/HDMI2USB-vmodvga-misoc</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</link>
+      <description>&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
+
+</description>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/26/rohit91-pushed-to-master-at-rohit91-hdmi2usb-vmod/</guid>
+      <dc:date>2015-12-26T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred WHAnonymous/Chat-API</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/12/23/rohit91-starred-whanonymous-chat-api/</link>
@@ -237,18 +248,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/18/rohit91-starred-angular-angular-js/</guid>
       <dc:date>2015-11-18T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred kriskowal/q</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/17/rohit91-starred-kriskowal-q/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-star&quot; aria-label=&quot;Watch&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Tue, 17 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/11/17/rohit91-starred-kriskowal-q/</guid>
-      <dc:date>2015-11-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2015-12-23T00:00:00+00:00</dc:date>
+    <dc:date>2015-12-26T00:00:00+00:00</dc:date>
   </channel>
 </rss>
