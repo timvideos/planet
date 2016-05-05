@@ -8,7 +8,7 @@
     <title>Tim Videos Planet - Developers news - Tag: JEKYLL</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
     <item>
       <title>pinoss pushed to master at pinoss/couchrest_model</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/03/31/pinoss-pushed-to-master-at-pinoss-couchrest_model/</link>
@@ -237,6 +237,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/pinoss-merged-pull-request-pinoss-omniauth-hipcha/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
-    <dc:date>2016-05-04T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-05T00:00:00+00:00</dc:date>
   </channel>
 </rss>
