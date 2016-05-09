@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: DJANGO</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/PlagiabotWeb</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/05/09/niharika29-pushed-to-master-at-niharika29-plagiab/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-0.45-1.72-2-3-3.86-3s-3.41 1.28-3.86 3H0v2h3.14c0.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3h3.14V7H10.86zM7 10.2c-1.22 0-2.2-0.98-2.2-2.2s0.98-2.2 2.2-2.2 2.2 0.98 2.2 2.2-0.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/05/09/niharika29-pushed-to-master-at-niharika29-plagiab/</guid>
+      <dc:date>2016-05-09T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/PlagiabotWeb</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/05/05/niharika29-pushed-to-master-at-niharika29-plagiab/</link>
@@ -219,17 +230,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/12/01/niharika29-added-kaldari-to-niharika29-assessment/</guid>
       <dc:date>2015-12-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/Assessments</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 30 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/30/niharika29-pushed-to-master-at-niharika29-assessm/</guid>
-      <dc:date>2015-11-30T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-05-05T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-09T00:00:00+00:00</dc:date>
   </channel>
 </rss>
