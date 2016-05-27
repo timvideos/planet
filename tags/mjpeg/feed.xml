@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: MJPEG</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew starred hamsternz/FPGA_Webserver</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/27/ajitmathew-starred-hamsternz-fpga_webserver/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/27/ajitmathew-starred-hamsternz-fpga_webserver/</guid>
+      <dc:date>2016-05-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ajitmathew forked enjoy-digital/litejpeg to ajitmathew/litejpeg</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/04/16/ajitmathew-forked-enjoy-digital-litejpeg-to-ajitm/</link>
@@ -228,17 +240,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/06/01/ajitmathew-merged-pull-request-timvideos-hdmi2usb/</guid>
       <dc:date>2015-06-01T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>ajitmathew pushed to master at timvideos/HDMI2USB</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 25 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2015/05/25/ajitmathew-pushed-to-master-at-timvideos-hdmi2usb/</guid>
-      <dc:date>2015-05-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-05-26T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>

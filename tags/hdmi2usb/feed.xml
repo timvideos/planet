@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: HDMI2USB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>ajitmathew starred hamsternz/FPGA_Webserver</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/27/ajitmathew-starred-hamsternz-fpga_webserver/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/27/ajitmathew-starred-hamsternz-fpga_webserver/</guid>
+      <dc:date>2016-05-27T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>tariq786 forked LedgerHQ/ledger-blue to tariq786/ledger-blue</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/26/tariq786-forked-ledgerhq-ledger-blue-to-tariq786-/</link>
@@ -232,17 +244,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/11/rohit91-starred-parallella-oh/</guid>
       <dc:date>2016-03-11T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/08/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-0.45-1.72-2-3-3.86-3s-3.41 1.28-3.86 3H0v2h3.14c0.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3h3.14V7H10.86zM7 10.2c-1.22 0-2.2-0.98-2.2-2.2s0.98-2.2 2.2-2.2 2.2 0.98 2.2 2.2-0.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/08/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
-      <dc:date>2016-03-08T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-05-26T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-27T00:00:00+00:00</dc:date>
   </channel>
 </rss>
