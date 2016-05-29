@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: VGA</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred dennis714/RE-for-beginners</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/29/rohit91-starred-dennis714-re-for-beginners/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/29/rohit91-starred-dennis714-re-for-beginners/</guid>
+      <dc:date>2016-05-29T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred pulp-platform/pulpino</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/02/rohit91-starred-pulp-platform-pulpino/</link>
@@ -227,17 +239,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/06/rohit91-merged-pull-request-rohit91-whatsapp-squa/</guid>
       <dc:date>2016-03-06T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 commented on pull request rohit91/WhatsApp-Square-DP#1</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/06/rohit91-commented-on-pull-request-rohit91-whatsap/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path d=&quot;M15 2H6c-0.55 0-1 0.45-1 1v2H1c-0.55 0-1 0.45-1 1v6c0 0.55 0.45 1 1 1h1v3l3-3h4c0.55 0 1-0.45 1-1V10h1l3 3V10h1c0.55 0 1-0.45 1-1V3c0-0.55-0.45-1-1-1zM9 12H4.5l-1.5 1.5v-1.5H1V6h4v3c0 0.55 0.45 1 1 1h3v2z m6-3H13v1.5l-1.5-1.5H6V3h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/06/rohit91-commented-on-pull-request-rohit91-whatsap/</guid>
-      <dc:date>2016-03-06T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-05-27T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-29T00:00:00+00:00</dc:date>
   </channel>
 </rss>
