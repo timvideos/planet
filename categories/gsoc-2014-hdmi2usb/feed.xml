@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred enjoy-digital/hdmi-extenders-gsoc</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/30/rohit91-starred-enjoy-digital-hdmi-extenders-gsoc/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/30/rohit91-starred-enjoy-digital-hdmi-extenders-gsoc/</guid>
+      <dc:date>2016-05-30T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred dennis714/RE-for-beginners</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/29/rohit91-starred-dennis714-re-for-beginners/</link>
@@ -232,18 +244,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/25/rohit91-commented-on-pull-request-timvideos-hdmi2/</guid>
       <dc:date>2016-03-25T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred tass-belgium/picotcp</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/24/rohit91-starred-tass-belgium-picotcp/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/03/24/rohit91-starred-tass-belgium-picotcp/</guid>
-      <dc:date>2016-03-24T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-05-29T00:00:00+00:00</dc:date>
+    <dc:date>2016-05-30T00:00:00+00:00</dc:date>
   </channel>
 </rss>
