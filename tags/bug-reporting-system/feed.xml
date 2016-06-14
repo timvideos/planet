@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: BUG-REPORTING-SYSTEM</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 pushed to master at Niharika29/PlagiabotWeb</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/06/14/niharika29-pushed-to-master-at-niharika29-plagiab/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/06/14/niharika29-pushed-to-master-at-niharika29-plagiab/</guid>
+      <dc:date>2016-06-14T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to master at Niharika29/PlagiabotWeb</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/06/13/niharika29-pushed-to-master-at-niharika29-plagiab/</link>
@@ -219,17 +230,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2016/05/17/niharika29-pushed-to-master-at-niharika29-plagiab/</guid>
       <dc:date>2016-05-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 commented on commit Niharika29/PlagiabotWeb@a5e24c6ca6</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2016/05/17/niharika29-commented-on-commit-niharika29-plagiab/</link>
-      <description>&lt;!-- commit_comment --&gt;
-&lt;svg aria-label=&quot;Comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2016/05/17/niharika29-commented-on-commit-niharika29-plagiab/</guid>
-      <dc:date>2016-05-17T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-06-13T00:00:00+00:00</dc:date>
+    <dc:date>2016-06-14T00:00:00+00:00</dc:date>
   </channel>
 </rss>
