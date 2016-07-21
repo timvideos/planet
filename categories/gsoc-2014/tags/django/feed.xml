@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: DJANGO</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 19 Jul 2016 00:00:00 +0000</pubDate>
+    <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 commented on pull request Niharika29/PlagiabotWeb#21</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/07/21/niharika29-commented-on-pull-request-niharika29-p/</link>
+      <description>&lt;!-- pull_request_review_comment --&gt;
+&lt;svg aria-label=&quot;Review pull request comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/07/21/niharika29-commented-on-pull-request-niharika29-p/</guid>
+      <dc:date>2016-07-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 commented on pull request Niharika29/PlagiabotWeb#19</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/07/12/niharika29-commented-on-pull-request-niharika29-p/</link>
@@ -113,7 +124,7 @@
       <link>https://planet.timvideos.us/gsoc-2014/2016/06/23/niharika29-added-kaldari-to-niharika29-plagiabotw/</link>
       <description>&lt;!-- member --&gt;
 &lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Member&quot; class=&quot;octicon octicon-person dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 8 16&quot; width=&quot;8&quot;&gt;&lt;path d=&quot;M7 6H1c-.55 0-1 .45-1 1v5h2v3c0 .55.45 1 1 1h2c.55 0 1-.45 1-1v-3h2V7c0-.55-.45-1-1-1zm0 5H6V9H5v6H3V9H2v2H1V7h6v4zm0-8c0-1.66-1.34-3-3-3S1 1.34 1 3s1.34 3 3 3 3-1.34 3-3zM4 5c-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2 0 1.11-.89 2-2 2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+  &lt;svg aria-label=&quot;Member&quot; class=&quot;octicon octicon-person dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;12&quot;&gt;&lt;path d=&quot;M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
 
 </description>
       <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
@@ -220,17 +231,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2016/06/17/niharika29-closed-pull-request-niharika29-plagiab/</guid>
       <dc:date>2016-06-17T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/PlagiabotWeb</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2016/06/16/niharika29-pushed-to-master-at-niharika29-plagiab/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2016/06/16/niharika29-pushed-to-master-at-niharika29-plagiab/</guid>
-      <dc:date>2016-06-16T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-07-19T00:00:00+00:00</dc:date>
+    <dc:date>2016-07-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
