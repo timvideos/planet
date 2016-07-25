@@ -10,6 +10,18 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 starred nteract/hydrogen</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/25/rohit91-starred-nteract-hydrogen/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/25/rohit91-starred-nteract-hydrogen/</guid>
+      <dc:date>2016-07-25T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 commented on pull request timvideos/HDMI2USB-TOFE-VGA#1</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/25/rohit91-commented-on-pull-request-timvideos-hdmi2/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -230,18 +242,6 @@
       <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/06/02/rohit91-starred-alfikpl-ao486/</guid>
       <dc:date>2016-06-02T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred enjoy-digital/hdmi-extenders-gsoc</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/30/rohit91-starred-enjoy-digital-hdmi-extenders-gsoc/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/05/30/rohit91-starred-enjoy-digital-hdmi-extenders-gsoc/</guid>
-      <dc:date>2016-05-30T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2016-07-25T00:00:00+00:00</dc:date>
   </channel>
