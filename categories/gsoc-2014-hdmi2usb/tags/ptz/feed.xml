@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: PTZ</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Sat, 30 Jul 2016 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>ayushsagar opened issue bertomartin/big-data-analytics#1</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/01/ayushsagar-opened-issue-bertomartin-big-data-anal/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;svg aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/01/ayushsagar-opened-issue-bertomartin-big-data-anal/</guid>
+      <dc:date>2016-08-01T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>ayushsagar forked bertomartin/big-data-analytics to ayushsagar/big-data-analytics</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/29/ayushsagar-forked-bertomartin-big-data-analytics-/</link>
@@ -222,6 +233,21 @@
     </item>
     <item>
       <title>Daily snippet</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</link>
+      <description>&lt;div class=&quot;MsoNormal&quot;&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;RS422/RS485 daughterboard schematics done.&lt;/li&gt;&lt;li&gt;Created a _common folder in repository to store common hierarchical sheets to be shared between daughterboards.&lt;/li&gt;&lt;li&gt;Reduced 6 ports to 5 ports in serial expansion board.&lt;/li&gt;&lt;li&gt;PIC18F connections almost sorted out with port J left vacant.&lt;/li&gt;&lt;li&gt;Implemented the bus design in motherboard schematic.&lt;/li&gt;&lt;/ul&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;MsoNormal&quot;&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/div&gt;&lt;div class=&quot;author&quot;&gt;
+  &lt;span&gt;
+    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+</description>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/07/01/daily-snippet/</guid>
+      <dc:date>2014-07-01T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Daily snippet</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</link>
       <description>- Didn't do much this Sunday&lt;br /&gt;- Today morning RS4XX all sorted and &lt;a href=&quot;https://docs.google.com/document/d/1xIML-TEmq--nJXuKta11v-6DK-Rkrs5hGJjJTQXrQUg/edit#heading=h.53xqa8yi7591&quot; target=&quot;_blank&quot;&gt;documented&lt;/a&gt;&amp;nbsp;and done in schematic&lt;br /&gt;- Lots of things to do today. Some of them - fixing the bus, completing power consumption diagram and spreadsheet, completing schematics and then looking at github issues.&lt;div class=&quot;author&quot;&gt;
   &lt;span&gt;
@@ -235,36 +261,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/30/daily-snippet/</guid>
       <dc:date>2014-06-30T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;ul&gt;&lt;li&gt;More github repository issues resolved and a few more added to the pile :D&lt;/li&gt;&lt;li&gt;Discussed PIC18 USB pin assignments: We shifted around pins to get access to hardware I2Cs, SPIs and UARTs in best possible way. All thanks to Tim and his spreadsheets!&lt;/li&gt;&lt;li&gt;While I was making the RS422 daughterboard I noted that the differences between RS422 and RS485 are not that trivial - RS422 have unidirectional lines and support simplex or full-duplex mode. RS485 can have a bidirectional line and is designed for multitap networks. So it can have simplex or half-duplex modes.&amp;nbsp;&lt;a href=&quot;http://www.ad-net.com.tw/index.php?id=62&quot;&gt;http://www.ad-net.com.tw/index.php?id=62&lt;/a&gt;&lt;/li&gt;&lt;li&gt;A really nice guide that differentiates between RS422 and RS485:&amp;nbsp;&lt;a href=&quot;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&quot;&gt;http://www.diit.unict.it/users/scava/dispense/II/RS485.pdf&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Figured out that flow control in RS422 and RS485 is not needed which is well explained here:&amp;nbsp;&lt;a href=&quot;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&quot;&gt;http://en.wikibooks.org/wiki/Serial_Programming/RS-485#Handshaking&lt;/a&gt;&amp;nbsp;I like the way handshaking is explained in 2nd sentence.&lt;/li&gt;&lt;li&gt;There's RTS flow control which is used only if supported by software. And it doesn't hurt to provide &lt;u&gt;support&lt;/u&gt; for RTS control in hardware by giving a jumper option.&lt;/li&gt;&lt;li&gt;Another way of flow control which is sometimes built into the converter hardware is called&amp;nbsp;&lt;i&gt;Automatic Send Data Control&lt;/i&gt;. In this method a controller within the converter enables the RS485 transmitters *as soon* as it sees data coming from UART TX and shuts off the transmitter so Hi-Z state after a *certain time* of inactivity. The terms &quot;as soon&quot; and &quot;certain time&quot; are critical here and are highly baud-rate dependent. This is baud-rate specific and hence application specific. This is also not a part of any of the EIA-4XX standard and it might be a marketing thing.&lt;/li&gt;&lt;li&gt;If the &lt;i&gt;Automatic Send Data Control&lt;/i&gt;&amp;nbsp;is needed and the software doesn't support&amp;nbsp;RTS control we can force it in the FPGA or the PIC18F by manipulating RTS. Here's when board auto-detection can be useful.&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/28/daily-snippet/</guid>
-      <dc:date>2014-06-28T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Daily snippet</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</link>
-      <description>&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Some github issues resolved in &lt;a href=&quot;https://github.com/ayushsagar/HDMI2USB-vmodserial&quot; target=&quot;_blank&quot;&gt;my repo&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;Completed remaining daughterboard drawings.&lt;/li&gt;&lt;li&gt;Filled up &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lOAKj-r80o0KVlB-AP-42tiUY0Hg50EkQTgRwYNMilk/edit#gid=1547873779&quot; target=&quot;_blank&quot;&gt;mechanical spreadsheets&lt;/a&gt; and &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1j8ddwDzGRI8FZ8g7eI2wMwBOZ7AQ7Ft_pCV2-mSTSwI/edit&quot; target=&quot;_blank&quot;&gt;end-point usage&lt;/a&gt; spreadsheet.&lt;/li&gt;&lt;li&gt;Reassigned PIC18F85J94 pins to use the 4 hardware UARTs. Two of the UARTs also share the only 2 available hardware I2C ports, so I2C for daughterboard auto-detection have to be bitbanged.&lt;/li&gt;&lt;li&gt;Understood PIC18F85J94 PPS-Lite multiplexer. Learnt using the PIC18F85J94 pin-usage spreadsheet made by Tim and filled it up with new pin assignments.&lt;/li&gt;&lt;li&gt;Went through clocking modes for the above. It turns out that it's internal Fast RC clock (FRC) source has at least 0.25% accuracy required by USB 2.0. However, I've also given the choice of putting a crystal.&lt;/li&gt;&lt;li&gt;Rearranged file structure of my repo and started daughterboard schematics.&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;author&quot;&gt;
-  &lt;span&gt;
-    &lt;i&gt;Originally posted on &lt;a href=&quot;http://ptzfortimvideos-gsoc14.blogspot.com/&quot;&gt;Serial port expansion for HDMI2USB with PTZ camera control example&lt;/a&gt;&lt;/i&gt;
-  &lt;/span&gt;
-&lt;/div&gt;
-
-
-</description>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2014/06/25/daily-snippet/</guid>
-      <dc:date>2014-06-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-07-30T00:00:00+00:00</dc:date>
+    <dc:date>2016-08-01T00:00:00+00:00</dc:date>
   </channel>
 </rss>
