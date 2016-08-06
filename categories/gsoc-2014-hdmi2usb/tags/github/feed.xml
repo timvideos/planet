@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 05 Aug 2016 00:00:00 +0000</pubDate>
+    <pubDate>Sat, 06 Aug 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Sat, 06 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
+      <dc:date>2016-08-06T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 starred ultraembedded/minispartan6</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/02/rohit91-starred-ultraembedded-minispartan6/</link>
@@ -230,18 +241,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/10/rohit91-created-repository-rohit91-ritzy-bday-mir/</guid>
       <dc:date>2016-07-10T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 created repository rohit91/ritzy-bday</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/10/rohit91-created-repository-rohit91-ritzy-bday/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Create&quot; class=&quot;octicon octicon-repo dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;12&quot;&gt;&lt;path d=&quot;M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/07/10/rohit91-created-repository-rohit91-ritzy-bday/</guid>
-      <dc:date>2016-07-10T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-08-05T00:00:00+00:00</dc:date>
+    <dc:date>2016-08-06T00:00:00+00:00</dc:date>
   </channel>
 </rss>
