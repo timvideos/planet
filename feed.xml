@@ -32,6 +32,17 @@
       <dc:date>2016-08-07T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>rohit91 closed pull request timvideos/HDMI2USB-misoc-firmware#279</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/07/rohit91-closed-pull-request-timvideos-hdmi2usb-mi/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;svg aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;24&quot;&gt;&lt;path d=&quot;M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/07/rohit91-closed-pull-request-timvideos-hdmi2usb-mi/</guid>
+      <dc:date>2016-08-07T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to vga-target at rohit91/HDMI2USB-misoc-firmware</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-vga-target-at-rohit91-hdmi2usb-/</link>
       <description>&lt;!-- push --&gt;
@@ -219,18 +230,6 @@
 </description>
       <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-commented-on-commit-niharika29-deadlin/</guid>
-      <dc:date>2016-08-03T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 added kaldari to Niharika29/DeadlinkChecker</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-added-kaldari-to-niharika29-deadlinkch/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Member&quot; class=&quot;octicon octicon-person dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;12&quot;&gt;&lt;path d=&quot;M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-added-kaldari-to-niharika29-deadlinkch/</guid>
       <dc:date>2016-08-03T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2016-08-07T00:00:00+00:00</dc:date>
