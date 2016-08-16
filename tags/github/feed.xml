@@ -10,6 +10,28 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
     <item>
+      <title>Niharika29 pushed to master at Niharika29/DeadlinkChecker</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-pushed-to-master-at-niharika29-deadlin/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-pushed-to-master-at-niharika29-deadlin/</guid>
+      <dc:date>2016-08-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 merged pull request Niharika29/DeadlinkChecker#1</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-merged-pull-request-niharika29-deadlin/</link>
+      <description>&lt;!-- pull_request --&gt;
+&lt;svg aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;24&quot;&gt;&lt;path d=&quot;M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-merged-pull-request-niharika29-deadlin/</guid>
+      <dc:date>2016-08-16T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 commented on pull request Niharika29/DeadlinkChecker#1</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-commented-on-pull-request-niharika29-d/</link>
       <description>&lt;!-- issue_comment --&gt;
@@ -209,28 +231,6 @@
 </description>
       <pubDate>Sat, 06 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-vga-target-at-rohit91-hdmi2usb-/</guid>
-      <dc:date>2016-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 pushed to master at rohit91/HDMI2USB-misoc-firmware</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sat, 06 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
-      <dc:date>2016-08-06T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 opened pull request timvideos/HDMI2USB-misoc-firmware#278</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-opened-pull-request-timvideos-hdmi2usb-mi/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;svg aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;24&quot;&gt;&lt;path d=&quot;M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sat, 06 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/06/rohit91-opened-pull-request-timvideos-hdmi2usb-mi/</guid>
       <dc:date>2016-08-06T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2016-08-16T00:00:00+00:00</dc:date>
