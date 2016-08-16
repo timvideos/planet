@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 commented on pull request Niharika29/DeadlinkChecker#1</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-commented-on-pull-request-niharika29-d/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2016/08/16/niharika29-commented-on-pull-request-niharika29-d/</guid>
+      <dc:date>2016-08-16T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 pushed to test at Niharika29/Cyberbot_II</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/08/15/niharika29-pushed-to-test-at-niharika29-cyberbot_/</link>
@@ -221,18 +232,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-commented-on-commit-niharika29-deadlin/</guid>
       <dc:date>2016-08-03T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 added kaldari to Niharika29/DeadlinkChecker</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-added-kaldari-to-niharika29-deadlinkch/</link>
-      <description>&lt;!-- member --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Member&quot; class=&quot;octicon octicon-person dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;12&quot;&gt;&lt;path d=&quot;M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2016/08/03/niharika29-added-kaldari-to-niharika29-deadlinkch/</guid>
-      <dc:date>2016-08-03T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-08-15T00:00:00+00:00</dc:date>
+    <dc:date>2016-08-16T00:00:00+00:00</dc:date>
   </channel>
 </rss>
