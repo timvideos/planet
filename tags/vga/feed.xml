@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
     <item>
+      <title>rohit91 pushed to master at rohit91/rohit91.github.io</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/13/rohit91-pushed-to-master-at-rohit91-rohit91-githu/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 13 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/13/rohit91-pushed-to-master-at-rohit91-rohit91-githu/</guid>
+      <dc:date>2016-09-13T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>rohit91 pushed to master at rohit91/HDMI2USB-TOFE-VGA</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/13/rohit91-pushed-to-master-at-rohit91-hdmi2usb-tofe/</link>
       <description>&lt;!-- push --&gt;
@@ -228,17 +239,6 @@
 </description>
       <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/07/rohit91-pushed-to-master-at-rohit91-hdmi2usb-miso/</guid>
-      <dc:date>2016-08-07T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 commented on pull request timvideos/HDMI2USB-misoc-firmware#280</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/07/rohit91-commented-on-pull-request-timvideos-hdmi2/</link>
-      <description>&lt;!-- pull_request_review_comment --&gt;
-&lt;svg aria-label=&quot;Review pull request comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sun, 07 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/07/rohit91-commented-on-pull-request-timvideos-hdmi2/</guid>
       <dc:date>2016-08-07T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2016-09-13T00:00:00+00:00</dc:date>
