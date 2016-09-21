@@ -8,7 +8,31 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014-HDMI2USB / Tag: HDMI2USB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 starred olofk/simple_spi</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/21/rohit91-starred-olofk-simple_spi/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/21/rohit91-starred-olofk-simple_spi/</guid>
+      <dc:date>2016-09-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>rohit91 starred olofk/i2c</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/21/rohit91-starred-olofk-i2c/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/21/rohit91-starred-olofk-i2c/</guid>
+      <dc:date>2016-09-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 pushed to gh-pages at rohit91/ritzy-bday-mirror</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/09/20/rohit91-pushed-to-gh-pages-at-rohit91-ritzy-bday-/</link>
@@ -216,30 +240,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/29/rohit91-pushed-to-master-at-rohit91-ftdi-async-fi/</guid>
       <dc:date>2016-08-29T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>rohit91 starred leriomaggio/deep-learning-keras-euroscipy2016</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/25/rohit91-starred-leriomaggio-deep-learning-keras-e/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Thu, 25 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/25/rohit91-starred-leriomaggio-deep-learning-keras-e/</guid>
-      <dc:date>2016-08-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 starred alexandrevicenzi/Flex</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/21/rohit91-starred-alexandrevicenzi-flex/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2016/08/21/rohit91-starred-alexandrevicenzi-flex/</guid>
-      <dc:date>2016-08-21T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2016-09-20T00:00:00+00:00</dc:date>
+    <dc:date>2016-09-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
