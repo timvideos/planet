@@ -1661,62 +1661,44 @@ https://docs.google.com/document/d/1wbfhdiOPFJV1wKde0blN5f62rWpPOamCfmz2aHgz3l4/
 
 <p>System to build and configure all of the machines needed to record and stream a multi track conference.</p>
 
-<p>Full automated deployment of both the collecting infrastructure (parts inside a conference venue / user group venue) and the off site infrastructure (parts in the cloud).</p>
-
-<h2 id="expected-results">Expected results</h2>
+<p>Full automated deployment of both the collecting infrastructure (parts inside a conference venue / user group venue) and the off site infrastructure (parts in the cloud).<br />
+## Expected results</p>
 
 <p>Convert existing scripts and manual processes to a consistent and modular deployment system templates.<br />
-Demonstrate it working in VMs.</p>
+Demonstrate it working in VMs.<br />
+# Detailed Explanation<br />
+## Problem</p>
 
-<h1 id="detailed-explanation">Detailed Explanation</h1>
-
-<h2 id="problem">Problem</h2>
-
-<p>A 25 track conference needs about 60 physical and 30 virtual machines. Each needs an os installed, host name assigned, networking that plays well with the conference infrastructure, various applications installed and configured.</p>
-
-<h2 id="setup">Setup</h2>
+<p>A 25 track conference needs about 60 physical and 30 virtual machines. Each needs an os installed, host name assigned, networking that plays well with the conference infrastructure, various applications installed and configured.<br />
+## Setup</p>
 
 <p>For production there will be a physical box with Debian stable, access to a standard Debian repository, sudo user, a master config file, file of secrets and a script. The script will install and configure the needed services to provide automated pxe install for the remaining machines and provision and configure the vm’s.</p>
 
-<p>For testing, a single physical box running lots of vms that replicates the production setup. This adds a layer of complexity and such, but is the only sensible way to test and maintain and enhance such a system.</p>
-
-<h2 id="configuration">Configuration</h2>
+<p>For testing, a single physical box running lots of vms that replicates the production setup. This adds a layer of complexity and such, but is the only sensible way to test and maintain and enhance such a system.<br />
+## Configuration</p>
 
 <p>Everything possible will be contained in the master config file. There should be no editing additional config files by hand. Part of this project will be to determine what all needs to be included in the master config file. The file will likely be created by the veyepar system which will be responsible for transforming the conference schedule into a consistent format and providing a UI to manage such things as:<br />
-Talks in the room that the attendees know as “UB2.252A (Lameere)” will have a url of www.timvideos.com/fosdem2014/lameere ad an irc channel of #fosdem-lameere; and the video mixer machine has a mac address of 00:11:22…, content source machines: [22:33:44… 44:55:66…], host names: lameere-mixer, lameere-source-1 and -2, and somehow specifying if the encoders will be EC2, RackSpace or local vm’s.</p>
-
-<h2 id="pieces">Pieces</h2>
-
-<ul>
-  <li>collecting infrastructure</li>
-  <li>dvswitch or gst-switch</li>
-  <li>flumotion collector (watchdog, register, etc)</li>
-  <li>streaming infrastructure (EC2)</li>
-  <li>timvideos <a href="https://github.com/timvideos/streaming-system/tree/master/website/frontend">frontend website</a></li>
-  <li>timvideos <a href="https://github.com/timvideos/streaming-system/tree/master/website/tracker">backend website</a></li>
-  <li>timvideos support (IRC log bot, etc)</li>
-  <li>flumotion encoder (watchdog, register, etc)</li>
-</ul>
-
-<h2 id="further-reading">Further reading</h2>
+Talks in the room that the attendees know as “UB2.252A (Lameere)” will have a url of www.timvideos.com/fosdem2014/lameere ad an irc channel of #fosdem-lameere; and the video mixer machine has a mac address of 00:11:22…, content source machines: [22:33:44… 44:55:66…], host names: lameere-mixer, lameere-source-1 and -2, and somehow specifying if the encoders will be EC2, RackSpace or local vm’s.<br />
+## Pieces<br />
+- collecting infrastructure<br />
+  - dvswitch or gst-switch<br />
+  - flumotion collector (watchdog, register, etc)<br />
+- streaming infrastructure (EC2)<br />
+  - timvideos <a href="https://github.com/timvideos/streaming-system/tree/master/website/frontend">frontend website</a><br />
+  - timvideos <a href="https://github.com/timvideos/streaming-system/tree/master/website/tracker">backend website</a><br />
+  - timvideos support (IRC log bot, etc)<br />
+  - flumotion encoder (watchdog, register, etc)<br />
+## Further reading</p>
 
 <p>Existing build systems that do quite a bit of what is needed:<br />
  https://github.com/yoe/fosdemvideo/blob/master/doc/README<br />
  https://github.com/CarlFK/veyepar/blob/master/setup/nodes/pxe/README.txt<br />
- https://github.com/timvideos/streaming-system/blob/master/tools/setup/runall.sh</p>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>Good understanding of deploying machines and systems such as PXE boot.</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @CarlFK @codersquid @iiie </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/timvideos">timvideos@groups.google.com</a></li>
-</ul>
+ https://github.com/timvideos/streaming-system/blob/master/tools/setup/runall.sh<br />
+# Knowledge Prerequisites<br />
+- Good understanding of deploying machines and systems such as PXE boot.<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @CarlFK @codersquid @iiie <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/timvideos">timvideos@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -1821,62 +1803,41 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
 
 <p>Create a gstreamer plugin for sending and receiving from <a href="https://github.com/timvideos/HDMI2USB/wiki/Alternatives#wiki-ethernet-capture-devices">Lenkeng LKV373</a> (and compatible) devices.</p>
 
-<p><strong>You’ll need to get a Lenkeng LKV373 as part of this project!</strong></p>
-
-<h2 id="expected-results">Expected results</h2>
-
-<ul>
-  <li>Two gstreamer plugins;
-    <ul>
-      <li>lkv373-sink – Sends data from gstreamer to the output part of the device.</li>
-      <li>lkv373-src – Receives data from the device and sends into gstreamer.</li>
-    </ul>
-  </li>
-  <li>Documentation on using the two gstreamer plugins</li>
-  <li>Technical documentation of LKV373 protocol</li>
-</ul>
-
-<h2 id="detailed-explanation">Detailed explanation</h2>
+<p><strong>You’ll need to get a Lenkeng LKV373 as part of this project!</strong><br />
+## Expected results<br />
+- Two gstreamer plugins;<br />
+  - lkv373-sink – Sends data from gstreamer to the output part of the device.<br />
+  - lkv373-src – Receives data from the device and sends into gstreamer.<br />
+- Documentation on using the two gstreamer plugins<br />
+- Technical documentation of LKV373 protocol<br />
+## Detailed explanation</p>
 
 <p>FIXME: Add more information here.</p>
 
-<p>You may need to get out a soldering iron so you can access the serial port on the device.</p>
-
-<h1 id="detailed-explanation-1">Detailed Explanation</h1>
+<p>You may need to get out a soldering iron so you can access the serial port on the device.<br />
+# Detailed Explanation</p>
 
 <p>There’s a HDMI extender device, Lenkeng LKV373, which captures HDMI, and transcodes the video into MJPEG and outputs the stream over multicast UDP.</p>
 
 <p>They’re designed to run as a pair of sender + receiver, but someone has reverse engineered the wire protocol, and written some notes on reverse engineering the units:</p>
 
-<p>http://danman.eu/blog/?p=110</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li>https://github.com/timvideos/HDMI2USB/wiki/Alternatives#wiki-ethernet-capture-devices</li>
-  <li><a href="http://danman.eu/blog/?p=110">Example code – Python</a></li>
-  <li><a href="https://github.com/danielkucera/Mixer-gui">Example code – Mixer GUI</a></li>
-  <li><a href="http://gstreamer.freedesktop.org/data/doc/gstreamer/head/pwg/html/">GStreamer Plugin Writer’s Guide</a></li>
-  <li><a href="https://github.com/timvideos/gst-plugins-dvswitch">DVSwitch gstreamer plugin</a> – Simple example plugin.</li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>Strong coding skills. (C experience preferred!)</li>
-  <li><strong>(Good to have)</strong> Some multimedia coding experience.</li>
-  <li><strong>(Good to have)</strong> gstreamer coding experience.</li>
-  <li><strong>(Good to have)</strong> JPEG / MJPEG understanding.</li>
-  <li><strong>(Good to have)</strong> Wireshark / Reverse engineering experience.</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @micolous @thaytan </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></li>
-  <li><strong>gstreamer mailing list:</strong> []()</li>
-</ul>
+<p>http://danman.eu/blog/?p=110<br />
+## Further reading<br />
+- https://github.com/timvideos/HDMI2USB/wiki/Alternatives#wiki-ethernet-capture-devices<br />
+- <a href="http://danman.eu/blog/?p=110">Example code – Python</a><br />
+- <a href="https://github.com/danielkucera/Mixer-gui">Example code – Mixer GUI</a><br />
+- <a href="http://gstreamer.freedesktop.org/data/doc/gstreamer/head/pwg/html/">GStreamer Plugin Writer’s Guide</a><br />
+- <a href="https://github.com/timvideos/gst-plugins-dvswitch">DVSwitch gstreamer plugin</a> – Simple example plugin.<br />
+# Knowledge Prerequisites<br />
+- Strong coding skills. (C experience preferred!)<br />
+- <strong>(Good to have)</strong> Some multimedia coding experience.<br />
+- <strong>(Good to have)</strong> gstreamer coding experience.<br />
+- <strong>(Good to have)</strong> JPEG / MJPEG understanding.<br />
+- <strong>(Good to have)</strong> Wireshark / Reverse engineering experience.<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @micolous @thaytan <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a><br />
+- <strong>gstreamer mailing list:</strong> []()</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -1971,36 +1932,22 @@ Talks in the room that the attendees know as “UB2.252A (Lameere)” will have 
 <p>We’d like to worry about fewer things, who wouldn’t.<br />
 If we’re setting a room with a couple of computers to record a talk, we shouldn’t have to configure the network, it should “just work”.<br />
 Avahi makes this easy, farther away host take longer to respond.<br />
-Make a setup program that updates the configs for either DVSwitch or GSTSwitch.</p>
+Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<br />
+## Expected results<br />
+# Detailed Explanation</p>
 
-<h2 id="expected-results">Expected results</h2>
+<p>A much longer description of what the thing you want to do.<br />
+## Further reading<br />
+- https://code.google.com/p/pybonjour/<br />
+- Avahi examples;<br />
+  - See <a href="http://avahi.org/wiki/PythonPublishExample">PythonPublishExample</a> for a relatively full service publisher using dbus-python.<br />
+  - See <a href="http://avahi.org/wiki/PythonBrowseExample">PythonBrowseExample</a> for a simple service browser using dbus-python<br />
+# Knowledge Prerequisites</p>
 
-<h1 id="detailed-explanation">Detailed Explanation</h1>
-
-<p>A much longer description of what the thing you want to do.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li>https://code.google.com/p/pybonjour/</li>
-  <li>Avahi examples;
-    <ul>
-      <li>See <a href="http://avahi.org/wiki/PythonPublishExample">PythonPublishExample</a> for a relatively full service publisher using dbus-python.</li>
-      <li>See <a href="http://avahi.org/wiki/PythonBrowseExample">PythonBrowseExample</a> for a simple service browser using dbus-python</li>
-    </ul>
-  </li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<p>*</p>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> TimVideos / Veyepar Team</li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></li>
-</ul>
+<p>*<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> TimVideos / Veyepar Team<br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2090,49 +2037,31 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>Some more details at <a href="https://github.com/timvideos/streaming-system/issues/42">Streaming system Issue #42</a>. </p>
+                    <p>Some more details at <a href="https://github.com/timvideos/streaming-system/issues/42">Streaming system Issue #42</a>. <br />
+# Brief explanation</p>
 
-<h1 id="brief-explanation">Brief explanation</h1>
-
-<p>Make the timvideos.us website (the viewing interface for the streams) dynamically generated from a database rather then the config file. This will also include improving the frontend website.</p>
-
-<h2 id="expected-results">Expected results</h2>
-
-<ul>
-  <li>Updates to the <a href="https://github.com/timvideos/streaming-system/tree/master/website/frontend">Frontend part</a> of the timvideos.us website.</li>
-</ul>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Make the timvideos.us website (the viewing interface for the streams) dynamically generated from a database rather then the config file. This will also include improving the frontend website.<br />
+## Expected results<br />
+- Updates to the <a href="https://github.com/timvideos/streaming-system/tree/master/website/frontend">Frontend part</a> of the timvideos.us website.<br />
+# Detailed Explanation</p>
 
 <p>This will also include improving the frontend website to support things like;<br />
- * Proper theming of each channel. (Themes seperate from channels are needed so you can define a “Linux.conf.au 2015 theme” which is then used by multiple channels.)<br />
- * Adding conference level pages (currently a version of the front page which groups together channels for each conference and supports theming for that conference).<br />
- * Reworking the front timvideos.us page.<br />
- * Accounts for control over each channel (admin level only, no users level accounts).<br />
- * Admin interface for configuring channels.<br />
- * Web base control of schedule download.<br />
- * Support for proper backing up of the website.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="http://abc/abc.pdf">Link to a PDF document</a></li>
-  <li><a href="http://abc/abc.html">Link to a some HTML page</a></li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>Django and Python web application development.</li>
-  <li>Graphic design experiance very useful.</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @iiie @mithro</li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></li>
-</ul>
+- Proper theming of each channel. (Themes seperate from channels are needed so you can define a “Linux.conf.au 2015 theme” which is then used by multiple channels.)<br />
+- Adding conference level pages (currently a version of the front page which groups together channels for each conference and supports theming for that conference).<br />
+- Reworking the front timvideos.us page.<br />
+- Accounts for control over each channel (admin level only, no users level accounts).<br />
+- Admin interface for configuring channels.<br />
+- Web base control of schedule download.<br />
+- Support for proper backing up of the website.<br />
+## Further reading<br />
+- <a href="http://abc/abc.pdf">Link to a PDF document</a><br />
+- <a href="http://abc/abc.html">Link to a some HTML page</a><br />
+# Knowledge Prerequisites<br />
+- Django and Python web application development.<br />
+- Graphic design experiance very useful.<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @iiie @mithro<br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2235,16 +2164,16 @@ Make a setup program that updates the configs for either DVSwitch or GSTSwitch.<
 
 <p>Zookeepr / Symposium (PyCon Website) JSON schedule output into website + veyepar</p>
 
-<p>Feed validator!!!!</p>
+<p>Feed validator!!!!<br />
+# Problem</p>
 
-<h1 id="problem">Problem</h1>
 <p>The Steaming UI and Processing videos relies on the talk schedule.  This data is typically in the conference website.  There is sometimes an API available,<br />
 These APIs are not always accurate, example they may be missing the Keynote entries, or the start time is on a date that is not part of the conference. </p>
 
 <p>Things that will help:<br />
- * A spec defining what data is needed.<br />
- * A validater to inspect provided data.  (command line to validate a local file, public facing web page that will let conference web site developers test their API.)<br />
- * Work with the open source conference site projects to add the API to their codebase.</p>
+- A spec defining what data is needed.<br />
+- A validater to inspect provided data.  (command line to validate a local file, public facing web page that will let conference web site developers test their API.)<br />
+- Work with the open source conference site projects to add the API to their codebase.</p>
 
 <p>There are 3 popular conference systems: </p>
 
@@ -2271,13 +2200,9 @@ https://github.com/CarlFK/veyepar/blob/master/dj/main/models.py#L228</p>
 <p>The reason addeps.py is 2200 lines long is because the conference system coders keep changing things.  mostly it is because the symposium system doesn’t have the code, so each time someone installs it they write their own.  and things evolve too.  like adding “what kind of license is it released under?” </p>
 
 <p>symposium team has not accepted the pull request that will help stabilize the API <br />
-https://github.com/pinax/symposion/pull/45</p>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> TimVideos/Veyepar team</li>
-</ul>
+https://github.com/pinax/symposion/pull/45<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> TimVideos/Veyepar team</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -10244,19 +10169,18 @@ gst-launch-1.0 videotestsrc is-live=true ! x264enc ! mpegtsmux ! hlssink max-fil
                     <p>Currently we have 1 flumotion per stream. This currently uses 1 machine per stream as managing the configuration of multiple streams on one machine is to hard.</p>
 
 <p>We should package flumotion up in a docker thingy - https://www.docker.io/
-“Docker is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more. “</p>
-
-<h1 id="flumotion-in-the-timvideos-streaming-system">Flumotion in the TimVideos streaming system</h1>
+“Docker is an open-source project to easily create lightweight, portable, self-sufficient containers from any application. The same container that a developer builds and tests on a laptop can run at scale, in production, on VMs, bare metal, OpenStack clusters, public clouds and more. “<br />
+# Flumotion in the TimVideos streaming system</p>
 
 <p>There are 3 types of flumotion configurations; they should share a base docker image but also be provides a separate docker image correctly configured.<br />
- * Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.<br />
-  * Requires dvswitch support.<br />
- * Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.<br />
- * Repeater/Amplifier - runs in the cloud and streams a copy of the encoder output. Allows the system to scale past the limits of a single machine.</p>
+- Collector - runs on site at a conference and does light encode to compress data so you can send it over the internet to an encoder.<br />
+  - Requires dvswitch support.<br />
+- Encoder - runs in the cloud and converts video from the light encode format to something suitable for people to view in their browser.<br />
+- Repeater/Amplifier - runs in the cloud and streams a copy of the encoder output. Allows the system to scale past the limits of a single machine.</p>
 
 <p>There are a couple of support applications we use with flumotion; these should be installed inside the docker image and started as part of the container.<br />
- * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.<br />
- * <a href="https://github.com/timvideos/streaming-system/tree/master/tools/register">register</a> - Registers with the tracker website (so the stream can be found) and sends statistics and logs for reporting and load balancing support.</p>
+- <a href="https://github.com/timvideos/streaming-system/tree/master/tools/watchdog">watchdog</a> - Restarts failed components and does a full system restart when things go totally wrong.<br />
+- <a href="https://github.com/timvideos/streaming-system/tree/master/tools/register">register</a> - Registers with the tracker website (so the stream can be found) and sends statistics and logs for reporting and load balancing support.</p>
 
                   </div>
                   <h4>Issue details</h4>
