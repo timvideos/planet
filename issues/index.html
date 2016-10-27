@@ -2375,30 +2375,21 @@ https://github.com/pinax/symposion/pull/45</p>
 
 <p>Should also have lots of blinking lights.</p>
 
-<p>Firmware should be modified so that they appear as USB-CDC ports to the computer.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Firmware should be modified so that they appear as USB-CDC ports to the computer.<br />
+# Detailed Explanation</p>
 
 <p>This can be achieved using SP331 transceiver.</p>
 
 <p>The SP331 is a programmable RS-232 and/or RS-485 transceiver IC. The SP331 contains four drivers and four receivers when selected in RS-232 mode; and two drivers and two receivers when selected in RS-485 mode. The SP331 also contains a dual mode which has two RS-232 drivers/receivers plus one differential RS-485 driver/receiver.</p>
 
-<p>The RS-232 transceivers can typically operate at 230kbps while adhering to the RS-232 specifications. The RS-485 transceivers can operate up to 10Mbps while adhering to the RS-485 specifications. The SP331 includes a self-test loopback mode where the driver outputs are internally configured to the receiver inputs. This allows for easy diagnostic serial port testing without using an external loopback plug. The RS-232 and RS-485 drivers can be disabled (High-Z output) by controlling a set of four select pins.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="https://hdmi2usb.tv">HDMI2USB Website</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki </li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>The RS-232 transceivers can typically operate at 230kbps while adhering to the RS-232 specifications. The RS-485 transceivers can operate up to 10Mbps while adhering to the RS-485 specifications. The SP331 includes a self-test loopback mode where the driver outputs are internally configured to the receiver inputs. This allows for easy diagnostic serial port testing without using an external loopback plug. The RS-232 and RS-485 drivers can be disabled (High-Z output) by controlling a set of four select pins.<br />
+## Further reading<br />
+- <a href="https://hdmi2usb.tv">HDMI2USB Website</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki <br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2500,38 +2491,27 @@ https://github.com/pinax/symposion/pull/45</p>
                   <h4>Issue body</h4>
                   <div>
                     <p>More technical details at <br />
- * <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/160">HDMI2USB-misoc-firmware #160</a><br />
- * <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/15">HDMI2USB-jahanzeb-firmware #15</a></p>
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/160">HDMI2USB-misoc-firmware #160</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/15">HDMI2USB-jahanzeb-firmware #15</a><br />
+# Brief explanation</p>
 
-<h1 id="brief-explanation">Brief explanation</h1>
+<p>Push audio from HDMI to USB sound in the HDMI2USB project.<br />
+## Expected results</p>
 
-<p>Push audio from HDMI to USB sound in the HDMI2USB project.</p>
+<p>HDMI audio is captured on a computer connected to the HDMI2USB device.<br />
+# Detailed Explanation</p>
 
-<h2 id="expected-results">Expected results</h2>
-
-<p>HDMI audio is captured on a computer connected to the HDMI2USB device.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
-
-<p>HDMI supports sending audio over the interface (in the blanking areas called data island). This audio should be captured and sent up the USB interface.</p>
-
-<h2 id="further-reading">Further Reading</h2>
-
-<ul>
-  <li><a href="https://hdmi2usb.tv">HDMI2USB Website</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a></li>
-  <li><a href="http://www.usb.org/developers/docs/devclass_docs/audio10.pdf">USB Audio specification</a></li>
-  <li><a href="http://hamsterworks.co.nz/mediawiki/index.php/Minimal_HDMI#Building_the_AVI_Infoframe_data_packet">HDMI Data Islands</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/HDMI#Audio.2Fvideo">HDMI Audio</a></li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>HDMI supports sending audio over the interface (in the blanking areas called data island). This audio should be captured and sent up the USB interface.<br />
+## Further Reading<br />
+- <a href="https://hdmi2usb.tv">HDMI2USB Website</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a><br />
+- <a href="http://www.usb.org/developers/docs/devclass_docs/audio10.pdf">USB Audio specification</a><br />
+- <a href="http://hamsterworks.co.nz/mediawiki/index.php/Minimal_HDMI#Building_the_AVI_Infoframe_data_packet">HDMI Data Islands</a><br />
+- <a href="https://en.wikipedia.org/wiki/HDMI#Audio.2Fvideo">HDMI Audio</a><br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2626,39 +2606,28 @@ https://github.com/pinax/symposion/pull/45</p>
                   <h4>Issue body</h4>
                   <div>
                     <p>More technical details at;<br />
- *  <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/159">HDMI2USB-misoc-firmware#159</a><br />
- * <a href="https://github.com/timvideos/HDMI2USB/issues/83">HDMI2USB#83</a></p>
+-  <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/159">HDMI2USB-misoc-firmware#159</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB/issues/83">HDMI2USB#83</a><br />
+# Brief explanation</p>
 
-<h1 id="brief-explanation">Brief explanation</h1>
+<p>Add USB3.0 support to the HDMI2USB-misoc-firmware to allow high speed capture.<br />
+## Expected results</p>
 
-<p>Add USB3.0 support to the HDMI2USB-misoc-firmware to allow high speed capture.</p>
-
-<h2 id="expected-results">Expected results</h2>
-
-<p>Able to capture video from a HDMI2USB device at USB3.0 speeds.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Able to capture video from a HDMI2USB device at USB3.0 speeds.<br />
+# Detailed Explanation</p>
 
 <p>The current USB2.0 interface that is on the current HDMI2USB devices is only capable of capturing at 720p30 frame rate. USB3.0 has significantly more bandwidth which would allow much higher capture resolutions.</p>
 
 <p>Adding USB3.0 support would be a multiple step process;<br />
- * First it would be <a href="https://github.com/timvideos/HDMI2USB/issues/83">Port daisho USB3.0 core to Xilinx Parts</a><br />
- * This would require the creation of a USB3.0 <a href="https://tofe.io">TOFE expansion card</a><br />
- * It might require <a href="https://github.com/timvideos/getting-started/issues/27">Port Dashio USB3.0 core to use FPGA high speed transceivers</a></p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li>https://github.com/mossmann/daisho/tree/master/sw/fpga/common/usb3</li>
-  <li>https://github.com/mossmann/daisho/blob/master/sw/fpga/common/usb3/readme.txt</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></li>
-</ul>
+- First it would be <a href="https://github.com/timvideos/HDMI2USB/issues/83">Port daisho USB3.0 core to Xilinx Parts</a><br />
+- This would require the creation of a USB3.0 <a href="https://tofe.io">TOFE expansion card</a><br />
+- It might require <a href="https://github.com/timvideos/getting-started/issues/27">Port Dashio USB3.0 core to use FPGA high speed transceivers</a><br />
+## Further reading<br />
+- https://github.com/mossmann/daisho/tree/master/sw/fpga/common/usb3<br />
+- https://github.com/mossmann/daisho/blob/master/sw/fpga/common/usb3/readme.txt<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2762,28 +2731,25 @@ https://github.com/pinax/symposion/pull/45</p>
 <p>Create a new flumotion component which lets you stream to existing RTMP services (such as YouTube or JustinTV).</p>
 
 <p>Should support the following targets:<br />
- * Generic RTMP system - just give the system a URL of your RTMP streaming server.<br />
- * Adobe  Flash Media Server (and load a Flash Media Player profile xml)<br />
-  * http://help.adobe.com/en_US/flashmediaserver/devguide/WSd391de4d9c7bd609-52e437a812a3725dfa0-8000.html<br />
- * JustinTV ( https://github.com/timvideos/streaming-system/issues/13 )<br />
-   * http://www.justin.tv/p/fme<br />
- * YouTube Live Events <br />
-   * https://developers.google.com/youtube/2.0/developers_guide_protocol_managing_live_events<br />
-   * http://www.wowza.com/forums/content.php?542-How-to-use-Push-Publishing-AddOn-with-YouTube<br />
-   * https://www.youtube.com/yt/playbook/live.html<br />
- * Cloudfront RTMP streaming<br />
-   * http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-rtmp.html</p>
+- Generic RTMP system - just give the system a URL of your RTMP streaming server.<br />
+- Adobe  Flash Media Server (and load a Flash Media Player profile xml)<br />
+  - http://help.adobe.com/en_US/flashmediaserver/devguide/WSd391de4d9c7bd609-52e437a812a3725dfa0-8000.html<br />
+- JustinTV ( https://github.com/timvideos/streaming-system/issues/13 )<br />
+  - http://www.justin.tv/p/fme<br />
+- YouTube Live Events <br />
+  - https://developers.google.com/youtube/2.0/developers_guide_protocol_managing_live_events<br />
+  - http://www.wowza.com/forums/content.php?542-How-to-use-Push-Publishing-AddOn-with-YouTube<br />
+  - https://www.youtube.com/yt/playbook/live.html<br />
+- Cloudfront RTMP streaming<br />
+  - http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/distribution-rtmp.html</p>
 
 <p>Other helpful links:<br />
- * http://wiki.gnashdev.org/RTMP<br />
- * http://www.flumotion.net/releases/flumotion-flashmedia/0.10.0.html <br />
-   * This is for consuming a stream from an external source into flumotion (and hence is a Producer component inside flumotion).<br />
-   * We want to produce a stream from flumotion to send to an external destination (and hence is a Consumer component inside flumotion).</p>
-
-<h1 id="contacts">Contacts</h1>
-<ul>
-  <li><strong>Potential Mentors:</strong> TimVideos Streaming System Hackers team</li>
-</ul>
+- http://wiki.gnashdev.org/RTMP<br />
+- http://www.flumotion.net/releases/flumotion-flashmedia/0.10.0.html <br />
+  - This is for consuming a stream from an external source into flumotion (and hence is a Producer component inside flumotion).<br />
+  - We want to produce a stream from flumotion to send to an external destination (and hence is a Consumer component inside flumotion).<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> TimVideos Streaming System Hackers team</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2876,35 +2842,25 @@ https://github.com/pinax/symposion/pull/45</p>
                   <h4>Issue body</h4>
                   <div>
                     <p>More technical details at <br />
- * <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/158">HDMI2USB-misoc-firmware #158</a><br />
- * <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/11">HDMI2USB-jahanzeb-firmware #11</a></p>
-
-<h1 id="brief-explanation">Brief explanation</h1>
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/158">HDMI2USB-misoc-firmware #158</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/11">HDMI2USB-jahanzeb-firmware #11</a><br />
+# Brief explanation</p>
 
 <p>Add support for 3G Serial digital interface for the HDMI2USB.</p>
 
-<p>This project will let us push and pull lots of data over a wider range of protocols / cables / system.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>This project will let us push and pull lots of data over a wider range of protocols / cables / system.<br />
+# Detailed Explanation</p>
 
 <p>SDI interface is used by a large number of high end devices. It would be good for the HDMI2USB firmware to support the standards and protocols.</p>
 
-<p>This will probably require development of a TOFE expansion board which has SDI connectors, otherwise some way to adapt the DisplayPort connector to SDI.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li>SDI Information - http://en.wikipedia.org/wiki/Serial_digital_interface</li>
-  <li>Xilinx Information - http://www.xilinx.com/products/intellectual-property/SMPTE_SDI.htm</li>
-  <li><a href="https://tofe.io">TOFE Interface</a></li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>This will probably require development of a TOFE expansion board which has SDI connectors, otherwise some way to adapt the DisplayPort connector to SDI.<br />
+## Further reading<br />
+- SDI Information - http://en.wikipedia.org/wiki/Serial_digital_interface<br />
+- Xilinx Information - http://www.xilinx.com/products/intellectual-property/SMPTE_SDI.htm<br />
+- <a href="https://tofe.io">TOFE Interface</a><br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -7743,19 +7699,19 @@ Ctrl+Shift+Left Arrow = Clears Main Screen.</p>
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>I run only gst-switch-srv. I get these pair of warnings repeatedly<br />
-```shell<br />
-(gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:<gdppay1:src> Got data flow before stream-start event</gdppay1:src></p>
+                    <p>I run only gst-switch-srv. I get these pair of warnings repeatedly</p>
 
-<p>(gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:<tcp_sink:sink> Got data flow before stream-start event
-```</tcp_sink:sink></p>
+<pre><code class="language-shell">(gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:&lt;gdppay1:src&gt; Got data flow before stream-start event
 
-<p>Now running gst-switch-ui:<br />
-```shell<br />
-(gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:<videoconvert1:src> Got data flow before stream-start event</videoconvert1:src></p>
+(gst-switch-srv:11767): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:&lt;tcp_sink:sink&gt; Got data flow before stream-start event
+</code></pre>
 
-<p>(gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:<sink:sink> Got data flow before stream-start event
-```</sink:sink></p>
+<p>Now running gst-switch-ui:</p>
+
+<pre><code class="language-shell">(gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3908:gst_pad_push_data:&lt;videoconvert1:src&gt; Got data flow before stream-start event
+
+(gst-switch-ui:11792): GStreamer-WARNING **: gstpad.c:3677:gst_pad_chain_data_unchecked:&lt;sink:sink&gt; Got data flow before stream-start event
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -7872,16 +7828,16 @@ Ctrl+Shift+Left Arrow = Clears Main Screen.</p>
                   <h4>Issue body</h4>
                   <div>
                     <p>A single computer could be sending;<br />
- * Video<br />
- * Audio<br />
- * Face information</p>
+- Video<br />
+- Audio<br />
+- Face information</p>
 
 <p>Need some way to “group” them into the UI so it’s clear where they are coming from.</p>
 
 <p>Open Questions:<br />
- * What happens when there are multiple video sources connected to a single computer? <br />
- * Maybe we need levels of grouping? IE Computer, input source, etc?<br />
- * How is this information sent to the gst-switch server?</p>
+- What happens when there are multiple video sources connected to a single computer? <br />
+- Maybe we need levels of grouping? IE Computer, input source, etc?<br />
+- How is this information sent to the gst-switch server?</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -8004,9 +7960,8 @@ Ctrl+Shift+Left Arrow = Clears Main Screen.</p>
                     <p>The frame strips are missing video frames. Find out what happened to them and fix.</p>
 
 <p>Current theories include;<br />
- * inter doesn’t have enough slack in the frame delay.<br />
- * missing frames are not created by the test src.</p>
-
+- inter doesn’t have enough slack in the frame delay.<br />
+- missing frames are not created by the test src.</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -8241,6 +8196,7 @@ printf("\r%s(%4d seconds)", " "*30, 167);
 printf("\r%s(%4d seconds)", " "*30, 165);
 </code></pre>
 <hr />
+
 <p>$ echo -e ‘12345\b6’<br />
 12346</p>
 
@@ -8362,8 +8318,7 @@ printf("\r%s(%4d seconds)", " "*30, 165);
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    
-<pre><code>Running test_video_preview_sink2 (30 seconds)
+                    <pre><code>Running test_video_preview_sink2 (30 seconds)
 Running test_video_preview_sink3 (30 seconds)
 ./tests/test_switch_server.c:562:error: test_video_preview_sink2: 1 errors
 ./tests/test_switch_server.c:562:error: test_video_preview_sink3: 1 errors
@@ -8434,26 +8389,28 @@ tansell@tansell-x220-l:~/gst/gst-switch$ ps fax | grep test
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>From gstpipeline.c<br />
-```<br />
-GST_DEBUG_CATEGORY_STATIC (pipeline_debug);<br />
-#define GST_CAT_DEFAULT pipeline_debug</p>
+                    <p>From gstpipeline.c</p>
 
-<h1 id="define-doinit-">define _do_init \</h1>
-<p>{ \<br />
-  GST_DEBUG_CATEGORY_INIT (pipeline_debug, “pipeline”, GST_DEBUG_BOLD, \<br />
-      “debugging info for the ‘pipeline’ container element”); \<br />
-}</p>
+<pre><code>GST_DEBUG_CATEGORY_STATIC (pipeline_debug);
+#define GST_CAT_DEFAULT pipeline_debug
 
-<h1 id="define-gstpipelineparentclass-parentclass">define gst_pipeline_parent_class parent_class</h1>
-<p>G_DEFINE_TYPE_WITH_CODE (GstPipeline, gst_pipeline, GST_TYPE_BIN, _do_init);</p>
+#define _do_init \
+{ \
+  GST_DEBUG_CATEGORY_INIT (pipeline_debug, "pipeline", GST_DEBUG_BOLD, \
+      "debugging info for the 'pipeline' container element"); \
+}
 
-<p>GST_CAT_DEBUG_OBJECT (GST_CAT_REFCOUNTING, pipeline, “dispose”);
-<code>
-Outputs the following
-</code><br />
-0:00:02.316013376 15488      0x7b9ebc0 DEBUG               pipeline gstpipeline.c:219:gst_pipeline_init:&lt;GstPipeline@0x7b9ce30&gt; set bus <bus1> on pipeline
-```</bus1></p>
+#define gst_pipeline_parent_class parent_class
+G_DEFINE_TYPE_WITH_CODE (GstPipeline, gst_pipeline, GST_TYPE_BIN, _do_init);
+
+
+  GST_CAT_DEBUG_OBJECT (GST_CAT_REFCOUNTING, pipeline, "dispose");
+</code></pre>
+
+<p>Outputs the following</p>
+
+<pre><code>0:00:02.316013376 15488      0x7b9ebc0 DEBUG               pipeline gstpipeline.c:219:gst_pipeline_init:&lt;GstPipeline@0x7b9ce30&gt; set bus &lt;bus1&gt; on pipeline
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -10487,34 +10444,28 @@ gst-launch-1.0 videotestsrc is-live=true ! x264enc ! mpegtsmux ! hlssink max-fil
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>We should be collecting video quality and performance stats on the client side and then report on them. Maybe through Google Analytics? </p>
-
-<h1 id="firefox">Firefox</h1>
-<ul>
-  <li>mozParsedFrames - number of frames that have been demuxed and<br />
-extracted out of the media.</li>
-  <li>mozDecodedFrames - number of frames that have been decoded -<br />
-converted into YCbCr.</li>
-  <li>mozPresentedFrames - number of frames that have been presented to<br />
-the rendering pipeline for rendering - were “set as the current<br />
-image”.</li>
-  <li>mozPaintedFrames - number of frames which were presented to the<br />
-rendering pipeline and ended up being painted on the screen. Note that<br />
-if the video is not on screen (e.g. in another tab or scrolled off<br />
-screen), this counter will not increase.</li>
-  <li>mozFrameDelay - the time delay between presenting the last frame<br />
-and it being painted on screen (approximately).</li>
-</ul>
-
-<h1 id="webkit">Webkit</h1>
-<ul>
-  <li>webkitAudioBytesDecoded - number of audio bytes that have been decoded.</li>
-  <li>webkitVideoBytesDecoded - number of video bytes that have been decoded.</li>
-  <li>webkitDecodedFrames - number of frames that have been demuxed and<br />
-extracted out of the media.</li>
-  <li>webkitDroppedFrames - number of frames that were decoded but not<br />
-displayed due to performance issues.</li>
-</ul>
+                    <p>We should be collecting video quality and performance stats on the client side and then report on them. Maybe through Google Analytics? <br />
+# Firefox<br />
+- mozParsedFrames - number of frames that have been demuxed and<br />
+  extracted out of the media.<br />
+- mozDecodedFrames - number of frames that have been decoded -<br />
+  converted into YCbCr.<br />
+- mozPresentedFrames - number of frames that have been presented to<br />
+  the rendering pipeline for rendering - were “set as the current<br />
+  image”.<br />
+- mozPaintedFrames - number of frames which were presented to the<br />
+  rendering pipeline and ended up being painted on the screen. Note that<br />
+  if the video is not on screen (e.g. in another tab or scrolled off<br />
+  screen), this counter will not increase.<br />
+- mozFrameDelay - the time delay between presenting the last frame<br />
+  and it being painted on screen (approximately).<br />
+# Webkit<br />
+- webkitAudioBytesDecoded - number of audio bytes that have been decoded.<br />
+- webkitVideoBytesDecoded - number of video bytes that have been decoded.<br />
+- webkitDecodedFrames - number of frames that have been demuxed and<br />
+  extracted out of the media.<br />
+- webkitDroppedFrames - number of frames that were decoded but not<br />
+  displayed due to performance issues.</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -10811,12 +10762,12 @@ displayed due to performance issues.</li>
                   <h4>Issue body</h4>
                   <div>
                     <p>We currently use jwplayer 5.0 which is the previous version of the player. The new version includes a lot of new features such as;<br />
- * Extended device support, including mobile support<br />
- * Built in support for Captions (is this useful?)<br />
- * Improved Javascript API<br />
- * Improved analytics, including a lot more information<br />
- * Improved streaming support, including inbuilt quality selection and better adaptive support<br />
- * Better embedding and quicker loading.</p>
+- Extended device support, including mobile support<br />
+- Built in support for Captions (is this useful?)<br />
+- Improved Javascript API<br />
+- Improved analytics, including a lot more information<br />
+- Improved streaming support, including inbuilt quality selection and better adaptive support<br />
+- Better embedding and quicker loading.</p>
 
 <p>Some further details about migrating can be found at http://www.longtailvideo.com/support/jw-player/28834/migrating-from-jw5-to-jw6 and http://www.longtailvideo.com/support/bits-on-the-run/31912/upgrading-players-to-jw6/ and http://www.jwplayer.com/upgrade-steps/</p>
 
