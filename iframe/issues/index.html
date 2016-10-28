@@ -3724,13 +3724,13 @@ newcomer (though arguably using this core itself is not trivial.)<br />
                     <p>The integration-tests use a command like this to identify audio-streams passing through gst-switch:</p>
 
 <pre><code>gst-launch-1.0
-	tcpclientsrc num-buffers=75 host=localhost port=3003 !
-	gdpdepay !
-	spectrascope shader=none !
-	video/x-raw,width=400,height=200 !
-	videoconvert !
-	pngenc !
-	multifilesink location=frame%u.png
+    tcpclientsrc num-buffers=75 host=localhost port=3003 !
+    gdpdepay !
+    spectrascope shader=none !
+    video/x-raw,width=400,height=200 !
+    videoconvert !
+    pngenc !
+    multifilesink location=frame%u.png
 </code></pre>
 
 <p>When ran on travis, the spectrum looks like this:</p>
