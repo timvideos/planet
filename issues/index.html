@@ -1399,49 +1399,32 @@ https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/
 
 <p><a href="https://github.com/timvideos/flumotion">Flumotion</a> is an essential part of the TimVideos’ <a href="http://github.com/timvideos/streaming-system">streaming-system</a>. It  was ported to newer Gstreamer-1.x API in a previous GSoC project. Some work needs to be done for updating and making it ready for use in production.</p>
 
-<p>More technical details at https://github.com/timvideos/flumotion/issues/6</p>
+<p>More technical details at https://github.com/timvideos/flumotion/issues/6<br />
+## Expected results</p>
 
-<h2 id="expected-results">Expected results</h2>
-
-<p>Updated Flumotion works in streaming-system on Ubuntu 14.04 Trusty and is reliable.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Updated Flumotion works in streaming-system on Ubuntu 14.04 Trusty and is reliable.<br />
+# Detailed Explanation</p>
 
 <p>Flumotion is used in streaming-system to encode and stream the media.</p>
 
-<p>The following tasks need to be finished in order of priority:</p>
-
-<ul>
-  <li>Merge porting work from previous year - <a href="https://github.com/timvideos/flumotion/pull/7">pull request</a></li>
-  <li>Port any remaining components</li>
-  <li>Fix Gstreamer warnings</li>
-  <li>Add a web UI for admin</li>
-  <li>Write unit/integration tests</li>
-  <li>Package for Debian</li>
-</ul>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="http://apsops.github.io/porting-flumotion">Porting progress blog</a></li>
-  <li><a href="https://github.com/timvideos/flumotion/issues">Issues list</a></li>
-  <li><a href="https://github.com/apsops/flumotion-orig/issues">Other issues list</a></li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>Python</li>
-  <li>Twisted and Gstreamer experience useful</li>
-  <li>Debian packaging experience useful</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @ApsOps </li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></li>
-</ul>
+<p>The following tasks need to be finished in order of priority:<br />
+- Merge porting work from previous year - <a href="https://github.com/timvideos/flumotion/pull/7">pull request</a><br />
+- Port any remaining components<br />
+- Fix Gstreamer warnings<br />
+- Add a web UI for admin<br />
+- Write unit/integration tests<br />
+- Package for Debian<br />
+## Further reading<br />
+- <a href="http://apsops.github.io/porting-flumotion">Porting progress blog</a><br />
+- <a href="https://github.com/timvideos/flumotion/issues">Issues list</a><br />
+- <a href="https://github.com/apsops/flumotion-orig/issues">Other issues list</a><br />
+# Knowledge Prerequisites<br />
+- Python<br />
+- Twisted and Gstreamer experience useful<br />
+- Debian packaging experience useful<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @ApsOps <br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/timvideos/">timvideos@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -4283,12 +4266,12 @@ gst-switch-srv/gstswitchserver.c:750:error: failed serving new client
 Glib example at http://avahi.org/download/doxygen/glib-integration_8c-example.html</p>
 
 <p>The zeroconf should publish;<br />
- * The video acceptor port<br />
- * The audio acceptor port<br />
- * The control port<br />
- * The video format<br />
- * The audio format<br />
- * Server version information</p>
+- The video acceptor port<br />
+- The audio acceptor port<br />
+- The control port<br />
+- The video format<br />
+- The audio format<br />
+- Server version information</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -4346,22 +4329,22 @@ Glib example at http://avahi.org/download/doxygen/glib-integration_8c-example.ht
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>These are the callback-parameters when adding 4 video sources:
-<code>
-parameters=(3003, 1, 7)
+                    <p>These are the callback-parameters when adding 4 video sources:</p>
+
+<pre><code>parameters=(3003, 1, 7)
 parameters=(3004, 1, 8)
 parameters=(3005, 1, 10)
 parameters=(3006, 1, 10)
-</code></p>
+</code></pre>
 
 <p>The second Parameter shows the <code>GstSwitchServeStreamType</code> served on that port:<br />
- - 1 = GST_SERVE_VIDEO_STREAM<br />
- - 2 = GST_SERVE_AUDIO_STREAM</p>
+- 1 = GST_SERVE_VIDEO_STREAM<br />
+- 2 = GST_SERVE_AUDIO_STREAM</p>
 
 <p>The third Parameter shows the <code>GstCaseType</code> serving that port:<br />
- - 7 = GST_CASE_BRANCH_VIDEO_A<br />
- - 8 = GST_CASE_BRANCH_VIDEO_B<br />
- - 10 = GST_CASE_BRANCH_PREVIEW</p>
+- 7 = GST_CASE_BRANCH_VIDEO_A<br />
+- 8 = GST_CASE_BRANCH_VIDEO_B<br />
+- 10 = GST_CASE_BRANCH_PREVIEW</p>
 
 <p>The latter information is not useful to the client at all and it is only valid until the GUI selects another Video as Source. Therefore I’d suggest to remove that extra Parameter.</p>
 
@@ -4428,6 +4411,7 @@ parameters=(3006, 1, 10)
 <p>Travis could then run these precommit hooks too.</p>
 
 <p>See below;</p>
+
 <blockquote>
 We built pre-commit to solve our hook issues. It is a multi-language package manager for pre-commit hooks. You specify a list of hooks you want and pre-commit manages the installation and execution of any hook written in any language before every commit. pre-commit is specifically designed to not require root access. If one of your developers doesn’t have node installed but modifies a JavaScript file, pre-commit automatically handles downloading and building node to run jshint without root.
 </blockquote>
@@ -4489,16 +4473,17 @@ We built pre-commit to solve our hook issues. It is a multi-language package man
                   <h4>Issue body</h4>
                   <div>
                     <p>If we could ensure that all exceptions get the important re-raised. <br />
-E.G.
-<code>
-except OSError:
+E.G.</p>
+
+<pre><code>except OSError:
   raise ServerProcessError('Cannot kill process')
-</code><br />
-Becomes
-<code>
-except OSError as err:
+</code></pre>
+
+<p>Becomes</p>
+
+<pre><code>except OSError as err:
   raise ServerProcessError('Cannot kill process' + err.message)
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -4558,15 +4543,16 @@ except OSError as err:
                   <div>
                     <p>It’s kind of confusing to have everything in the <code>./tools/</code> directory. It also makes the <code>Makefile.am</code> more complicated then it needs to be.</p>
 
-<p>My proposal is either;
-<code>
-tools
+<p>My proposal is either;</p>
+
+<pre><code>tools
 tools/common
 tools/server
 tools/ui
 tools/capture
-</code><br />
-Or getting rid of the tools directory entirely and just having those directories at the top level.</p>
+</code></pre>
+
+<p>Or getting rid of the tools directory entirely and just having those directories at the top level.</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -4630,7 +4616,7 @@ Or getting rid of the tools directory entirely and just having those directories
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>Currently the ` TestAdjustPIP.test_adjust_pip<code> is marked </code>@pytest.mark.xfail` because changing the PIP position just causes a black screen. I believe the server is currently broken when adjusting the PIP position.</p>
+                    <p>Currently the <code>TestAdjustPIP.test_adjust_pip</code> is marked <code>@pytest.mark.xfail</code> because changing the PIP position just causes a black screen. I believe the server is currently broken when adjusting the PIP position.</p>
 
 <p>This might be related to https://github.com/timvideos/gst-switch/issues/43</p>
 
@@ -4695,15 +4681,15 @@ Or getting rid of the tools directory entirely and just having those directories
 <pre><code class="language-make">lint: export PYTHONWARNINGS := ignore
 lint: export PYTHONPATH := ${PYTHONPATH}:${PWD}
 lint:
-	@rm -rf tests/unittests/__pycache__
-	@rm -rf tests/integrationtests/__pycache__
-	@rm -rf reports
-	@echo PYTHONWARNINGS=$$PYTHONWARNINGS
-	@echo PYTHONPATH=$$PYTHONPATH
-	pylint --rcfile=.pylintrc_gstswitch gstswitch
-	pylint --rcfile=.pylintrc_unittests tests/unittests/*
-	pylint --rcfile=.pylintrc_integrationtests tests/integrationtests/*.py
-	@echo "Code style is okay!!"
+    @rm -rf tests/unittests/__pycache__
+    @rm -rf tests/integrationtests/__pycache__
+    @rm -rf reports
+    @echo PYTHONWARNINGS=$$PYTHONWARNINGS
+    @echo PYTHONPATH=$$PYTHONPATH
+    pylint --rcfile=.pylintrc_gstswitch gstswitch
+    pylint --rcfile=.pylintrc_unittests tests/unittests/*
+    pylint --rcfile=.pylintrc_integrationtests tests/integrationtests/*.py
+    @echo "Code style is okay!!"
 </code></pre>
 
                   </div>
@@ -4774,25 +4760,24 @@ lint:
   <p><em>FIXME: Actually make sure the tests cover the following formats listed below.</em></p>
 
   <p>gst-switch is tested with the following video resolution;<br />
-* 300x200   - A low resolution only used in testing to increase test speed.<br />
-* 1024x768  - A 4:3 resolution almost universally supported by computers and<br />
-              projector equipment. Sometimes called XGA.<br />
-* 1280x720  - Lowest resolution 16:9 HD format, often called<br />
-              <a href="http://en.wikipedia.org/wiki/720p">720p</a>.<br />
-* 1920x1080 - Most common 16:9 HD format, often called<br />
-              <a href="http://en.wikipedia.org/wiki/1080p">1080p</a>.<br />
-* 4096x2160 - Ultra HD format with 19:10 (1.9:1) aspect ratio. Sometimes<br />
-	       called <a href="http://en.wikipedia.org/wiki/4K_resolution">4k</a> video or<br />
-              2160p. <br />
-              <strong>WARNING: Even the fastest computers struggle at this resolution!</strong></p>
+- 300x200   - A low resolution only used in testing to increase test speed.<br />
+- 1024x768  - A 4:3 resolution almost universally supported by computers and<br />
+            projector equipment. Sometimes called XGA.<br />
+- 1280x720  - Lowest resolution 16:9 HD format, often called<br />
+            <a href="http://en.wikipedia.org/wiki/720p">720p</a>.<br />
+- 1920x1080 - Most common 16:9 HD format, often called<br />
+            <a href="http://en.wikipedia.org/wiki/1080p">1080p</a>.<br />
+- 4096x2160 - Ultra HD format with 19:10 (1.9:1) aspect ratio. Sometimes<br />
+       called <a href="http://en.wikipedia.org/wiki/4K_resolution">4k</a> video or<br />
+            2160p. <br />
+            <strong>WARNING: Even the fastest computers struggle at this resolution!</strong></p>
 
   <p>gst-switch is tested with the following video frame rates;<br />
-* 24fps - Common “film” format.<br />
-* 25fps - “Full” frame rate of TV in PAL based countries (Europe, Australia, etc).<br />
-* 30fps - “Full” frame rate of TV in NTSC based countries (USA, Japan, etc).<br />
-* 60fps - Most common frame rate of computer monitors.<br />
-* 120fps - Frame rate of “High FPS” computer monitors and TVs.</p>
-
+- 24fps - Common “film” format.<br />
+- 25fps - “Full” frame rate of TV in PAL based countries (Europe, Australia, etc).<br />
+- 30fps - “Full” frame rate of TV in NTSC based countries (USA, Japan, etc).<br />
+- 60fps - Most common frame rate of computer monitors.<br />
+- 120fps - Frame rate of “High FPS” computer monitors and TVs.</p>
 </blockquote>
 
                   </div>
@@ -4851,13 +4836,10 @@ lint:
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>https://landscape.io/github/timvideos/gst-switch/109/messages/error</p>
-
-<ul>
-  <li>Errors (79 messages)</li>
-  <li>Smells (26 messages)</li>
-  <li>Style (18 messages)</li>
-</ul>
+                    <p>https://landscape.io/github/timvideos/gst-switch/109/messages/error<br />
+- Errors (79 messages)<br />
+- Smells (26 messages)<br />
+- Style (18 messages)</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -4984,10 +4966,10 @@ automake-1.14: project, to avoid future incompatibilities.
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>https://travis-ci.org/mithro/gst-switch/jobs/47331363
-<code>
-(gst-plugin-scanner:10242): Clutter-CRITICAL **: Unable to initialize Clutter: Unable to open display. You have to set the DISPLAY environment variable, or use the --display command line argument
-</code></p>
+                    <p>https://travis-ci.org/mithro/gst-switch/jobs/47331363</p>
+
+<pre><code>(gst-plugin-scanner:10242): Clutter-CRITICAL **: Unable to initialize Clutter: Unable to open display. You have to set the DISPLAY environment variable, or use the --display command line argument
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -5045,9 +5027,9 @@ automake-1.14: project, to avoid future incompatibilities.
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>It was disabled in https://github.com/mithro/gst-switch/commit/25a64bc960908ec3452c4952d7db86b451d9f317 because it failed with the following errors;
-<code>
-test_gstrecorder_filename-test_gstrecorder_filename.o: In function `gst_recorder_class_init':
+                    <p>It was disabled in https://github.com/mithro/gst-switch/commit/25a64bc960908ec3452c4952d7db86b451d9f317 because it failed with the following errors;</p>
+
+<pre><code>test_gstrecorder_filename-test_gstrecorder_filename.o: In function `gst_recorder_class_init':
 /home/tansell/foss/gst-switch/gst-switch-src/tests/unit/../../tools/gstrecorder.c:427: undefined reference to `gst_composite_default_width'
 /home/tansell/foss/gst-switch/gst-switch-src/tests/unit/../../tools/gstrecorder.c:435: undefined reference to `gst_composite_default_height'
 test_gstrecorder_filename-test_gstrecorder_filename.o: In function `gst_recorder_get_pipeline_string':
@@ -5057,7 +5039,7 @@ make[3]: *** [test_gstrecorder_filename] Error 1
 make[3]: Leaving directory `/home/tansell/foss/gst-switch/gst-switch-src/tests/unit'
 make[2]: *** [check-am] Error 2
 make[2]: Leaving directory `/home/tansell/foss/gst-switch/gst-switch-src/tests/unit'
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -5179,23 +5161,23 @@ make[2]: Leaving directory `/home/tansell/foss/gst-switch/gst-switch-src/tests/u
 
 <p>These strings are already easy to get from the server.</p>
 
-<p>See - https://github.com/timvideos/gst-switch/blob/master/tools/gstswitchserver.c#L185
-<code>c
-/* gst_switch_server_get_video_caps_str
+<p>See - https://github.com/timvideos/gst-switch/blob/master/tools/gstswitchserver.c#L185</p>
+
+<pre><code class="language-c">/* gst_switch_server_get_video_caps_str
  * return video caps as a string
  */
 const gchar *
 gst_switch_server_get_video_caps_str (void);
-</code></p>
+</code></pre>
 
-<p>See - https://github.com/timvideos/gst-switch/blob/master/tools/gstswitchserver.c#L196
-<code>c
-/* gst_switch_server_get_audio_caps_str
+<p>See - https://github.com/timvideos/gst-switch/blob/master/tools/gstswitchserver.c#L196</p>
+
+<pre><code class="language-c">/* gst_switch_server_get_audio_caps_str
  * return audio caps as a string
  */
 const gchar *
 gst_switch_server_get_audio_caps_str (void)
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -5253,9 +5235,9 @@ gst_switch_server_get_audio_caps_str (void)
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p><strong>intervideosink</strong>
-<code>
-Element Properties:
+                    <p><strong>intervideosink</strong></p>
+
+<pre><code>Element Properties:
   name                : The name of the object
                         flags: readable, writable
                         String. Default: "intervideosink0"
@@ -5298,11 +5280,11 @@ Element Properties:
   channel             : Channel name to match inter src and sink elements
                         flags: readable, writable
                         String. Default: "default"
-</code></p>
+</code></pre>
 
-<p><strong>intervideosrc</strong>
-<code>
-Element Properties:
+<p><strong>intervideosrc</strong></p>
+
+<pre><code>Element Properties:
   name                : The name of the object
                         flags: readable, writable
                         String. Default: "intervideosrc0"
@@ -5324,7 +5306,7 @@ Element Properties:
   channel             : Channel name to match inter src and sink elements
                         flags: readable, writable
                         String. Default: "default"
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -5450,7 +5432,6 @@ Element Properties:
 <p>I think we should probably end up with a Python 3 code base and then use <code>py3to2</code> to keep support Python 2 support. </p>
 
 <p>Might want to do https://github.com/timvideos/gst-switch/issues/128 first.</p>
-
 
                   </div>
                   <h4>Issue details</h4>
@@ -5722,8 +5703,7 @@ Element Properties:
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    
-<pre><code>gst-switch-srv/gstworker.c:501:warning: input_3005: Internal data flow problem. (gstbasesink.c(3264): gst_base_sink_chain_unlocked (): /GstPipeline:pipeline10/GstInterVideoSink:sink:
+                    <pre><code>gst-switch-srv/gstworker.c:501:warning: input_3005: Internal data flow problem. (gstbasesink.c(3264): gst_base_sink_chain_unlocked (): /GstPipeline:pipeline10/GstInterVideoSink:sink:
 Received buffer without a new-segment. Assuming timestamps start from 0.)
 
 (gst-switch-ui:6338): GStreamer-WARNING **: gstpad.c:4555:store_sticky_event:&lt;videoconvert3:sink&gt; Sticky event misordering, got 'segment' before 'caps'
@@ -5923,20 +5903,20 @@ Received buffer without a new-segment. Assuming timestamps start from 0.)
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p><strong>1726008</strong>
-<code>
-videote+ 21580 99.2 21.1 4895556 1726008 pts/0 Sl+  17:09   4:59          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
-</code></p>
+                    <p><strong>1726008</strong></p>
 
-<p><strong>1767500</strong>
-<code>
-videote+ 21580 99.2 21.6 4895556 1767500 pts/0 Sl+  17:09   5:10          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
-</code></p>
+<pre><code>videote+ 21580 99.2 21.1 4895556 1726008 pts/0 Sl+  17:09   4:59          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
+</code></pre>
 
-<p><strong>1789828</strong>
-<code>
-videote+ 21580 99.0 21.9 4961092 1789828 pts/0 Sl+  17:09   5:27          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
-</code></p>
+<p><strong>1767500</strong></p>
+
+<pre><code>videote+ 21580 99.2 21.6 4895556 1767500 pts/0 Sl+  17:09   5:10          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
+</code></pre>
+
+<p><strong>1789828</strong></p>
+
+<pre><code>videote+ 21580 99.0 21.9 4961092 1789828 pts/0 Sl+  17:09   5:27          |   |       \_ ./tools/gst-switch-srv -f 720p50 -r
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -6432,16 +6412,15 @@ The Red color inside the small box is different from the one outside.</p>
                     <p>gstreamer’s inter plugin has gotten a lot of work and fixes recently. We want to continue to build on Ubuntu 14.04 until we can move to another LTS. @thaytan suggested we just import these plugins into gst-switch.</p>
 
 <p>@thaytan can you give us advice on the best way to do this? It would be nice if we could have the following properties - however many might be not worth the effort…<br />
- * Keep some type of history information. IE When we “pull” the latest gstreamer version we preserve history of the changes in gstreamer (so we can easily track down changes).<br />
- * Able to make changes to plugins and then send the patches upstream after testing.</p>
+- Keep some type of history information. IE When we “pull” the latest gstreamer version we preserve history of the changes in gstreamer (so we can easily track down changes).<br />
+- Able to make changes to plugins and then send the patches upstream after testing.</p>
 
 <p>Have a shell script which;<br />
- * Adds gst-plugins-XXXX repo as a remote.<br />
- * Fetches the branch.<br />
- * Uses git-filter-branch to extract the relevant plugin.<br />
- * git merge the repo into third_party/plugins.<br />
- * automake runs a “sed -e’s/xxx/xxx/’” on third_party/ and then we build that output.</p>
-
+- Adds gst-plugins-XXXX repo as a remote.<br />
+- Fetches the branch.<br />
+- Uses git-filter-branch to extract the relevant plugin.<br />
+- git merge the repo into third_party/plugins.<br />
+- automake runs a “sed -e’s/xxx/xxx/’” on third_party/ and then we build that output.</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -6815,13 +6794,13 @@ The build has been terminated
                   <div>
                     <p>Server should record logs of events which was used to create the output video from the input video. </p>
 
-<p>Things like the following (but in more machine parsable format)
-<code>
-switched to composite mode X
+<p>Things like the following (but in more machine parsable format)</p>
+
+<pre><code>switched to composite mode X
 video input 1 set as video A
 video input 2 set as video B
 switched to composite mode Y
-</code></p>
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -8886,13 +8865,9 @@ suboptimal rankings.</p>
 
 <p>when it errors, and I fix the error, I get other errors like these two</p>
 
-<p>fatal: destination path ‘gst-plugins-dvswitch’ already exists and is not an empty directory.</p>
-
-<ul>
-  <li>sudo ln -s /usr/local/lib/gstreamer-0.10/libgstdvswitch.so /usr/lib/gstreamer-0.10/<br />
-ln: failed to create symbolic link ‘/usr/lib/gstreamer-0.10/libgstdvswitch.so’: File exists</li>
-</ul>
-
+<p>fatal: destination path ‘gst-plugins-dvswitch’ already exists and is not an empty directory.<br />
+- sudo ln -s /usr/local/lib/gstreamer-0.10/libgstdvswitch.so /usr/lib/gstreamer-0.10/<br />
+  ln: failed to create symbolic link ‘/usr/lib/gstreamer-0.10/libgstdvswitch.so’: File exists</p>
 
                   </div>
                   <h4>Issue details</h4>
