@@ -7104,9 +7104,9 @@ read -p "press enter to kill all the processes:"
 kill $srvpid $uipid 
 for i in 1 2 3 4 5 6; do kill ${srcpid[i]}; done
 </code></pre>
+
 <p>motion=sweep flip=1 animation_mode=wall-time are options I added to help observe this case.<br />
 I am trying to get the code committed, it seems to have stalled.</p>
-
 
                   </div>
                   <h4>Issue details</h4>
@@ -7229,8 +7229,8 @@ I am trying to get the code committed, it seems to have stalled.</p>
                     <p>It would be really nice to have a gst-switch-command tool which let you issue commands to the gst-switch-server. Some example of these tools are <a href="http://linux.die.net/man/1/virsh"><code>virsh</code> </a> or https://whatbox.ca/wiki/Deluge_Console_Documentation</p>
 
 <p>The tool should operate in two modes;<br />
- * “One shot mode” - When given enough arguments on the command line, it should connect to the gst-switch-srv and then perform the operation and exit. The exit code should report if the command was successful for not.<br />
- * “Console mode” - When not given any arguments it should start up a readline style console. There you can run all the same commands as the command line mode but it doesn’t exit until you type “quit” or something.</p>
+- “One shot mode” - When given enough arguments on the command line, it should connect to the gst-switch-srv and then perform the operation and exit. The exit code should report if the command was successful for not.<br />
+- “Console mode” - When not given any arguments it should start up a readline style console. There you can run all the same commands as the command line mode but it doesn’t exit until you type “quit” or something.</p>
 
 <p>@hyades This would be trivial to do with the Python-API right? How long do you think it would take to whip up the one-shot-mode? It would be awesome if the command line arguments could be automagically generated from the Python-API…..</p>
 
@@ -7547,12 +7547,11 @@ Executed:  gst-launch-1.0 videotestsrc pattern=18 is-live=1     ! video/x-raw, w
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    
-<p>Key Bindings 	Function<br />
-Ctrl+Arrow 	Adjust PIP position.<br />
+                    <p>Key Bindings    Function<br />
+Ctrl+Arrow  Adjust PIP position.<br />
 (this woks, neat)</p>
 
-<p>Ctrl+Shift+Arrow 	Adjust PIP size. <br />
+<p>Ctrl+Shift+Arrow    Adjust PIP size. <br />
 this does not.<br />
 Ctrl+Shift+Left Arrow = Clears Main Screen.</p>
 
