@@ -713,17 +713,14 @@
                   <div>
                     <h1 id="hdmi2usb-misoc-firmware-27-add-hardware-mixing-support-to-hdmi2usb-firmware">[HDMI2USB-misoc-firmware 27] Add “hardware mixing” support to HDMI2USB firmware</h1>
 
-<p>More technical details at <a href="http://github.com/timvideos/HDMI2USB-misoc-firmware/issues/#27">following github issue</a></p>
+<p>More technical details at <a href="http://github.com/timvideos/HDMI2USB-misoc-firmware/issues/#27">following github issue</a><br />
+# Brief explanation</p>
 
-<h1 id="brief-explanation">Brief explanation</h1>
+<p>Add support for mixing multiple input sources (either HDMI or pattern) together and output via any of the outputs.<br />
+## Expected results</p>
 
-<p>Add support for mixing multiple input sources (either HDMI or pattern) together and output via any of the outputs.</p>
-
-<h2 id="expected-results">Expected results</h2>
-
-<p>The firmware command line has the ability to specify that an output is the combination of two inputs. These combinations should include dynamic changes like fading and wipes between two inputs.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>The firmware command line has the ability to specify that an output is the combination of two inputs. These combinations should include dynamic changes like fading and wipes between two inputs.<br />
+# Detailed Explanation</p>
 
 <p>The <a href="https://docs.google.com/document/d/1ZjM1Brrks0lg1CJp2Rt1BH8-MhJamrKUeCUB4s4nzoA/edit#heading=h.kttxlrugap8z">“Hardware Fader Design Doc”</a> includes lots of information about how this stuff could be implemented. </p>
 
@@ -737,23 +734,15 @@
   </tbody>
 </table>
 
-<p>It might be useful to read up about the original <a href="https://github.com/m-labs/milkymist">Milkymist One firmware</a> and the TMU (Texture Mapping Unit) used in that.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="https://github.com/m-labs/mixxeo-soc/tree/master/mixxeolib">Examples in the mixxeo-soc which could be of use.</a></li>
-  <li><a href="https://hdmi2usb.tv">HDMI2USB Website</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a></li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki </li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>It might be useful to read up about the original <a href="https://github.com/m-labs/milkymist">Milkymist One firmware</a> and the TMU (Texture Mapping Unit) used in that.<br />
+## Further reading<br />
+- <a href="https://github.com/m-labs/mixxeo-soc/tree/master/mixxeolib">Examples in the mixxeo-soc which could be of use.</a><br />
+- <a href="https://hdmi2usb.tv">HDMI2USB Website</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a><br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki <br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -846,45 +835,30 @@
                   <h4>Issue body</h4>
                   <div>
                     <h1 id="get-milkymist-video-djing-functionality-on-the-numato-opsis-board">Get Milkymist “Video DJing” functionality on the Numato Opsis board</h1>
-
-<h1 id="brief-explanation">Brief explanation</h1>
+<p># Brief explanation</p>
 
 <p>The Milkymist board provided a bunch of cool Video DJing output options (see following pictures), we want the same type of thing working on the Numato Opsis board.</p>
 
-<p><img src="https://cloud.githubusercontent.com/assets/21212/13625984/8807de08-e611-11e5-8d8c-20462a75c1b2.png" alt="image" /></p>
+<p><img src="https://cloud.githubusercontent.com/assets/21212/13625984/8807de08-e611-11e5-8d8c-20462a75c1b2.png" alt="image" /><br />
+## Expected results</p>
 
-<h2 id="expected-results">Expected results</h2>
-
-<p>The Numato Opsis when combined with a Milkymist Expansion board is able to reproduce all functionality of the original Milkymist device.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>The Numato Opsis when combined with a Milkymist Expansion board is able to reproduce all functionality of the original Milkymist device.<br />
+# Detailed Explanation</p>
 
 <p>Very detailed explanation of the options around implementation can be found in the following Google Doc;<br />
-https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/edit#</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="https://hdmi2usb.tv">HDMI2USB Website</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-  <li><a href="https://crowdsupply.com/numato-lab/opsis">Numato Opsis board</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-TOFE-Milkymist">TOFE Milkymist Board</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues">HDMI2USB MiSoC Firmware</a></li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>C coding experience</li>
-  <li>Verilog experience very useful</li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki </li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></li>
-</ul>
+https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/edit#<br />
+## Further reading<br />
+- <a href="https://hdmi2usb.tv">HDMI2USB Website</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+- <a href="https://crowdsupply.com/numato-lab/opsis">Numato Opsis board</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-TOFE-Milkymist">TOFE Milkymist Board</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues">HDMI2USB MiSoC Firmware</a><br />
+# Knowledge Prerequisites<br />
+- C coding experience<br />
+- Verilog experience very useful<br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki <br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
