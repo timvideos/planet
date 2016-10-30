@@ -3179,12 +3179,9 @@ newcomer (though arguably using this core itself is not trivial.)<br />
                   <div>
                     <p>I had a go at implementing https://github.com/timvideos/gst-switch/issues/194.  This branch adds the Avahi client libraries as a dependency, but the resulting binaries should still run if the Avahi service isn’t running (it will just fail to publish the service).</p>
 
-<p>It publishes two services of the types <code>_gstswitch-video._tcp</code> and <code>_gstswitch-audio._tcp</code> that match the two listening ports.  Each service has two TXT records attached:</p>
-
-<ul>
-  <li><strong>txtvers</strong> - a version number for the TXT metadata, in case it ever needs to be changed incompatibly.</li>
-  <li><strong>caps</strong> - the string version of the <code>GstCaps</code> expected for data sent to this port.</li>
-</ul>
+<p>It publishes two services of the types <code>_gstswitch-video._tcp</code> and <code>_gstswitch-audio._tcp</code> that match the two listening ports.  Each service has two TXT records attached:<br />
+- <strong>txtvers</strong> - a version number for the TXT metadata, in case it ever needs to be changed incompatibly.<br />
+- <strong>caps</strong> - the string version of the <code>GstCaps</code> expected for data sent to this port.</p>
 
 <p>This should be enough for a smart capture client to notice when the server appears on the network, and what format data to send.  It could also automatically reconnect if the server changes IP address.</p>
 
