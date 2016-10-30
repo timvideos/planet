@@ -1011,13 +1011,11 @@ https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p>More technical details at <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/133">HDMI2USB-misoc-firmware#133: Allow HDMI2USB devices to act as HDMI extenders via the Gigabit Ethernet port</a></p>
+                    <p>More technical details at <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/133">HDMI2USB-misoc-firmware#133: Allow HDMI2USB devices to act as HDMI extenders via the Gigabit Ethernet port</a><br />
+# Brief explanation</p>
 
-<h1 id="brief-explanation">Brief explanation</h1>
-
-<p>Allow two HDMI2USB devices which are connected by Gigabit Ethernet to stream video from one device to the other.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Allow two HDMI2USB devices which are connected by Gigabit Ethernet to stream video from one device to the other.<br />
+# Detailed Explanation</p>
 
 <p>It should be possible to stream the pixel data from one board to another board via Ethernet.</p>
 
@@ -1025,24 +1023,16 @@ https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/
 
 <p>Both the <a href="https://hdmi2usb.tv/numato-opsis/">Numato Opsis</a> and <a href="https://hdmi2usb.tv/digilent-atlys/">Digilent Atlys</a> boards have Gigabit Ethernet interfaces. The <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a> already supports both these interfaces <a href="https://github.com/enjoy-digital/liteeth">using liteEth</a>.</p>
 
-<p>As the two devices will be directly connected, you can use raw Ethernet frames rather than UDP/IP. It might be easier for debugging to support UDP/IP.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="https://hdmi2usb.tv">HDMI2USB Website</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-  <li><a href="https://github.com/enjoy-digital/liteeth">liteEth</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a></li>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/blob/master/targets/atlys_hdmi2eth.py">hdmi2eth target</a></li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki </li>
-  <li><strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>As the two devices will be directly connected, you can use raw Ethernet frames rather than UDP/IP. It might be easier for debugging to support UDP/IP.<br />
+## Further reading<br />
+- <a href="https://hdmi2usb.tv">HDMI2USB Website</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+- <a href="https://github.com/enjoy-digital/liteeth">liteEth</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a><br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/blob/master/targets/atlys_hdmi2eth.py">hdmi2eth target</a><br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @mithro @enjoy-digital @shenki <br />
+- <strong>Mailing list:</strong> <a href="http://https://groups.google.com/forum/#!forum/hdmi2usb/">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -1136,43 +1126,33 @@ https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/
                   <div>
                     <h1 id="brief-explanation">Brief explanation</h1>
 
-<p>The HDMI2USB firmware currently has a <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/tree/master/gateware/encoder/vhdl">JPEG encoder written in VHDL</a>. We would prefer it be written in <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a> to allow better integration into the firmware.</p>
-
-<h2 id="expected-results">Expected results</h2>
+<p>The HDMI2USB firmware currently has a <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/tree/master/gateware/encoder/vhdl">JPEG encoder written in VHDL</a>. We would prefer it be written in <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a> to allow better integration into the firmware.<br />
+## Expected results</p>
 
 <p>The HDMI2USB MiSoC Firmware correctly generates JPEG output using new Migen / MiSoC JPEG encoder.</p>
 
-<p>The new Migen / MiSoC JPEG encoder has a strong test suite.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>The new Migen / MiSoC JPEG encoder has a strong test suite.<br />
+# Detailed Explanation</p>
 
 <p>The current JPEG encoder is based on <a href="http://opencores.org/project,mkjpeg">mkjpeg from opencores</a> but has been slightly modified by @enjoy-digital and @ajitmathew. The current encoder has the following problems;<br />
- * It is written in VHDL which means;<br />
-   * Isn’t easy to simulate using FOSS tools,<br />
-   * An adapter between migen/misoc is needed,<br />
- * It has been the cause of numerous bugs.<br />
- * It doesn’t have a strong test suite making modification hard.</p>
+- It is written in VHDL which means;<br />
+  - Isn’t easy to simulate using FOSS tools,<br />
+  - An adapter between migen/misoc is needed,<br />
+- It has been the cause of numerous bugs.<br />
+- It doesn’t have a strong test suite making modification hard.</p>
 
 <p>Using Migen / MiSoC would allow a lot of better testing.</p>
 
-<p>As there is an existing implementation of the encoder, it makes the conversion process a simpler. cfelton’s JPEG encoder example might be useful source too.</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li><a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/47">Replace VHDL jpeg encoder with Verilog version</a></li>
-  <li><a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a></li>
-  <li><a href="https://github.com/cfelton/test_jpeg">cfelton’s JPEG MyHDL repo</a></li>
-  <li><a href="http://en.wikipedia.org/wiki/JPEG#JPEG_codec_example">JPEG encoding</a></li>
-  <li><a href="http://opencores.org/project,mkjpeg">mkjpeg from opencores</a> </li>
-</ul>
-
-<h1 id="contacts">Contacts</h1>
-
-<ul>
-  <li><strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital </li>
-  <li><strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></li>
-</ul>
+<p>As there is an existing implementation of the encoder, it makes the conversion process a simpler. cfelton’s JPEG encoder example might be useful source too.<br />
+## Further reading<br />
+- <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/47">Replace VHDL jpeg encoder with Verilog version</a><br />
+- <a href="http://m-labs.hk/gateware.html">Migen / MiSoC</a><br />
+- <a href="https://github.com/cfelton/test_jpeg">cfelton’s JPEG MyHDL repo</a><br />
+- <a href="http://en.wikipedia.org/wiki/JPEG#JPEG_codec_example">JPEG encoding</a><br />
+- <a href="http://opencores.org/project,mkjpeg">mkjpeg from opencores</a> <br />
+# Contacts<br />
+- <strong>Potential Mentors:</strong> @shenki @mithro @enjoy-digital <br />
+- <strong>Mailing list:</strong> <a href="https://groups.google.com/forum/#!forum/hdmi2usb">hdmi2usb@groups.google.com</a></p>
 
                   </div>
                   <h4>Issue details</h4>
