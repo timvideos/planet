@@ -1231,44 +1231,34 @@ https://docs.google.com/document/d/1YyhCqTaUrI_vQjNGHJ34TsJCoDwpMzd2XcavAEllrUg/
                   <div>
                     <h1 id="brief-explanation">Brief explanation</h1>
 
-<p>The HDMI2USB gateware currently includes a <a href="https://en.wikipedia.org/wiki/LatticeMico32">lm32 soft core</a>. The misoc version has an MMU and should support running a full Linux kernel.</p>
+<p>The HDMI2USB gateware currently includes a <a href="https://en.wikipedia.org/wiki/LatticeMico32">lm32 soft core</a>. The misoc version has an MMU and should support running a full Linux kernel.<br />
+## Expected results</p>
 
-<h2 id="expected-results">Expected results</h2>
-
-<p>Linux booting on the HDMI2USB gateware.</p>
-
-<h1 id="detailed-explanation">Detailed Explanation</h1>
+<p>Linux booting on the HDMI2USB gateware.<br />
+# Detailed Explanation</p>
 
 <p>The <a href="https://github.com/timvideos/HDMI2USB-misoc-firmware">HDMI2USB-misoc-firmware</a> embeds a LM32 soft-core for controlling and configuring the hardware. See the diagram below;</p>
 
 <p><img src="https://raw.githubusercontent.com/timvideos/HDMI2USB-misoc-firmware/master/doc/architecture.png" alt="MiSoC firmware structure" /></p>
 
 <p>This soft-core should be able to run Linux Kernel, which means we would get access to a lot of good things;<br />
- * Access to well tested TCP/IP stack (useful for IP based streaming).<br />
- * Access to well tested USB stack (useful for the USB-OTG connector).<br />
- * Access to kernel mode setting for edid processing and DisplayPort stuff.</p>
+- Access to well tested TCP/IP stack (useful for IP based streaming).<br />
+- Access to well tested USB stack (useful for the USB-OTG connector).<br />
+- Access to kernel mode setting for edid processing and DisplayPort stuff.</p>
 
 <p>Work on this was started by the MilkyMist / M-Labs people.</p>
 
-<p>There is a port of the lm32 to qemu which will help, see https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/86</p>
-
-<h2 id="further-reading">Further reading</h2>
-
-<ul>
-  <li>https://en.wikipedia.org/wiki/LatticeMico32</li>
-  <li>https://lwn.net/Articles/647949/</li>
-  <li>http://m-labs.hk/milkymist-wiki/wiki/index.php%3Ftitle=Milkymist_Linux_cheat_sheet.html</li>
-  <li>https://wiki.debian.org/HelmutGrohne/rebootstrap#lm32</li>
-  <li>www.latticesemi.com/view_document?document_id=28118 - Linux Port to LatticeMico32 System Reference Guide</li>
-  <li>http://www.ubercomp.com/jslm32/src/ - Javascript LatticeMico32 Emulator (runs Linux) - Ubercomp</li>
-</ul>
-
-<h1 id="knowledge-prerequisites">Knowledge Prerequisites</h1>
-
-<ul>
-  <li>Linux Kernel knowledge</li>
-  <li>Strong C knowledge.</li>
-</ul>
+<p>There is a port of the lm32 to qemu which will help, see https://github.com/timvideos/HDMI2USB-misoc-firmware/issues/86<br />
+## Further reading<br />
+- https://en.wikipedia.org/wiki/LatticeMico32<br />
+- https://lwn.net/Articles/647949/<br />
+- http://m-labs.hk/milkymist-wiki/wiki/index.php%3Ftitle=Milkymist_Linux_cheat_sheet.html<br />
+- https://wiki.debian.org/HelmutGrohne/rebootstrap#lm32<br />
+- www.latticesemi.com/view_document?document_id=28118 - Linux Port to LatticeMico32 System Reference Guide<br />
+- http://www.ubercomp.com/jslm32/src/ - Javascript LatticeMico32 Emulator (runs Linux) - Ubercomp<br />
+# Knowledge Prerequisites<br />
+- Linux Kernel knowledge<br />
+- Strong C knowledge.</p>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2833,21 +2823,18 @@ https://github.com/pinax/symposion/pull/45<br />
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/83">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em></p>
+                    <p><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/83">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em><br />
+- http://en.wikipedia.org/wiki/DisplayPort</p>
 
-<ul>
-  <li>http://en.wikipedia.org/wiki/DisplayPort<br />
-```<br />
-DisplayPort is a digital display interface developed by the Video Electronics Standards<br />
-Association (VESA). The interface is primarily used to connect a video source to a<br />
-display device such as a computer monitor, though it can also be used to carry audio,<br />
-USB, and other forms of data.</li>
-</ul>
+<pre><code>DisplayPort is a digital display interface developed by the Video Electronics Standards
+Association (VESA). The interface is primarily used to connect a video source to a
+display device such as a computer monitor, though it can also be used to carry audio,
+USB, and other forms of data.
 
-<p>The VESA specification is royalty-free. VESA designed it to replace VGA, DVI, and<br />
-FPD-Link. DisplayPort is backward compatible with VGA and DVI through the use of<br />
-adapter dongles.<br />
-```</p>
+The VESA specification is royalty-free. VESA designed it to replace VGA, DVI, and
+FPD-Link. DisplayPort is backward compatible with VGA and DVI through the use of
+adapter dongles.
+</code></pre>
 
 <p>Further information developed for the  VALS Semester of Code can be found in the following Google Doc;<br />
 https://docs.google.com/document/d/1xSo71wu_t8SUuUZehakvqTL_png5YN-bOwD47PRXGIM/pub</p>
@@ -2906,31 +2893,29 @@ https://docs.google.com/document/d/1xSo71wu_t8SUuUZehakvqTL_png5YN-bOwD47PRXGIM/
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/83">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em></p>
-
-<hr />
+                    <h2 id="this-issue-was-originally-on-the-hdmi2usb-jahanzeb-firmwarehttpsgithubcomtimvideoshdmi2usb-jahanzeb-firmwareissues83-repository-but-is-actually-a-stand-alone-project"><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/83">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em></h2>
 
 <p>https://github.com/mossmann/daisho/tree/master/sw/fpga/common/usb3</p>
 
-<p>https://github.com/mossmann/daisho/blob/master/sw/fpga/common/usb3/readme.txt<br />
-```<br />
-Porting Notes
-————-</p>
+<p>https://github.com/mossmann/daisho/blob/master/sw/fpga/common/usb3/readme.txt</p>
 
-<p>This controller relies upon several vendor and family-specific features such as<br />
-PLLs, pipelined DDR I/O, distributed block RAM, and so on. <br />
-Altera calls these “Megafunctions” and they are denoted by “mf_*.v” filenames.</p>
+<pre><code>Porting Notes
+-------------
 
-<p>If you are going to port this to Xilinx, Lattice, silicon then you will want to<br />
-blow these away and use the vendor’s equivalent tools to get the same result.</p>
+This controller relies upon several vendor and family-specific features such as
+PLLs, pipelined DDR I/O, distributed block RAM, and so on. 
+Altera calls these "Megafunctions" and they are denoted by "mf_*.v" filenames.
 
-<p>I would recommend that you download Quartus and use the Megawizard Plug-in <br />
-Manager to open these files so that you can see how they are supposed to work,<br />
-and how you would write wrappers for slightly different device functionality.</p>
+If you are going to port this to Xilinx, Lattice, silicon then you will want to
+blow these away and use the vendor's equivalent tools to get the same result.
 
-<p>You’re on your own here, this is not something I would recommend to an FPGA<br />
-newcomer (though arguably using this core itself is not trivial.)<br />
-```</p>
+I would recommend that you download Quartus and use the Megawizard Plug-in 
+Manager to open these files so that you can see how they are supposed to work,
+and how you would write wrappers for slightly different device functionality.
+
+You're on your own here, this is not something I would recommend to an FPGA
+newcomer (though arguably using this core itself is not trivial.)
+</code></pre>
 
                   </div>
                   <h4>Issue details</h4>
@@ -2984,9 +2969,7 @@ newcomer (though arguably using this core itself is not trivial.)<br />
                 <div class="issue-content issue-body">
                   <h4>Issue body</h4>
                   <div>
-                    <p><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/59">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em></p>
-
-<hr />
+                    <h2 id="this-issue-was-originally-on-the-hdmi2usb-jahanzeb-firmwarehttpsgithubcomtimvideoshdmi2usb-jahanzeb-firmwareissues59-repository-but-is-actually-a-stand-alone-project"><em>This issue was originally on the <a href="https://github.com/timvideos/HDMI2USB-jahanzeb-firmware/issues/59">HDMI2USB Jahanzeb Firmware</a> repository but is actually a stand alone project.</em></h2>
 
 <p>A lot of the HDMI2USB documentation is currently locked up in Google Docs. It would be good if there was a tool which downloaded these documents in the open formats and then saved them to the git repo. It would allow people to access them offline and if they hate good or something.</p>
 
@@ -8575,10 +8558,10 @@ G_DEFINE_TYPE_WITH_CODE (GstPipeline, gst_pipeline, GST_TYPE_BIN, _do_init);
                   <h4>Issue body</h4>
                   <div>
                     <p>Quick fix:<br />
- * open the link in new window</p>
+- open the link in new window</p>
 
 <p>Longer fix:<br />
- * get the long descriptions in some type of pop-up / fold out / etc</p>
+- get the long descriptions in some type of pop-up / fold out / etc</p>
 
                   </div>
                   <h4>Issue details</h4>
