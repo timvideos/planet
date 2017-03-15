@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
+    <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>rohit91 created the YogeshOrg/Repo1- wiki</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/15/rohit91-created-the-yogeshorg-repo1-wiki/</link>
+      <description>&lt;!-- gollum --&gt;
+&lt;svg aria-label=&quot;Wiki&quot; class=&quot;octicon octicon-book dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/15/rohit91-created-the-yogeshorg-repo1-wiki/</guid>
+      <dc:date>2017-03-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>rohit91 created repository rohit91/TestRepo</title>
       <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/14/rohit91-created-repository-rohit91-testrepo/</link>
@@ -225,17 +236,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2017/02/28/niharika29-commented-on-commit-wikimedia-popularp/</guid>
       <dc:date>2017-02-28T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>tariq786 pushed to branch8b at tariq786/zipcpu</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/02/27/tariq786-pushed-to-branch8b-at-tariq786-zipcpu/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/02/27/tariq786-pushed-to-branch8b-at-tariq786-zipcpu/</guid>
-      <dc:date>2017-02-27T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2017-03-14T00:00:00+00:00</dc:date>
+    <dc:date>2017-03-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
