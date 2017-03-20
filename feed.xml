@@ -78,6 +78,17 @@
       <dc:date>2017-03-20T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr commented on issue fbonetti/elm-phoenix-socket#22</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-commented-on-issue-fbonetti-elm-phoenix-so/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-commented-on-issue-fbonetti-elm-phoenix-so/</guid>
+      <dc:date>2017-03-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr closed pull request fbonetti/elm-phoenix-socket#16</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-closed-pull-request-fbonetti-elm-phoenix-s/</link>
       <description>&lt;!-- pull_request --&gt;
@@ -86,6 +97,17 @@
 </description>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-closed-pull-request-fbonetti-elm-phoenix-s/</guid>
+      <dc:date>2017-03-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>maxstr closed issue fbonetti/elm-phoenix-socket#8</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-closed-issue-fbonetti-elm-phoenix-socket-8/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;svg aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-closed-issue-fbonetti-elm-phoenix-socket-8/</guid>
       <dc:date>2017-03-20T00:00:00+00:00</dc:date>
     </item>
     <item>
@@ -212,30 +234,6 @@
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014/2017/03/15/niharika29-pushed-to-master-at-wikimedia-popularp/</guid>
       <dc:date>2017-03-15T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created repository rohit91/TestRepo</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/14/rohit91-created-repository-rohit91-testrepo/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Create&quot; class=&quot;octicon octicon-repo dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;12&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/14/rohit91-created-repository-rohit91-testrepo/</guid>
-      <dc:date>2017-03-14T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>rohit91 created branch master at rohit91/TestRepo</title>
-      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/14/rohit91-created-branch-master-at-rohit91-testrepo/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Create&quot; class=&quot;octicon octicon-git-branch dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 10 16&quot; width=&quot;10&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/03/14/rohit91-created-branch-master-at-rohit91-testrepo/</guid>
-      <dc:date>2017-03-14T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2017-03-20T00:00:00+00:00</dc:date>
   </channel>
