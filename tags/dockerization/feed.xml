@@ -22,6 +22,17 @@
       <dc:date>2017-03-20T00:00:00+00:00</dc:date>
     </item>
     <item>
+      <title>maxstr pushed to master at fbonetti/elm-phoenix-socket</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-pushed-to-master-at-fbonetti-elm-phoenix-s/</link>
+      <description>&lt;!-- push --&gt;
+&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/03/20/maxstr-pushed-to-master-at-fbonetti-elm-phoenix-s/</guid>
+      <dc:date>2017-03-20T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>maxstr pushed to master at maxstr/elm-phoenix-socket</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/03/08/maxstr-pushed-to-master-at-maxstr-elm-phoenix-soc/</link>
       <description>&lt;!-- push --&gt;
@@ -222,18 +233,6 @@
 </description>
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-repository-maxstr-environment/</guid>
-      <dc:date>2015-11-16T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>maxstr created branch master at maxstr/environment</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</link>
-      <description>&lt;!-- create --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;span class=&quot;octicon octicon-git-branch&quot; aria-label=&quot;Create&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/16/maxstr-created-branch-master-at-maxstr-environmen/</guid>
       <dc:date>2015-11-16T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2017-03-20T00:00:00+00:00</dc:date>
