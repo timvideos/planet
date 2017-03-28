@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: RUBY</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>pinoss starred vasanthk/react-bits</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/03/28/pinoss-starred-vasanthk-react-bits/</link>
+      <description>&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/03/28/pinoss-starred-vasanthk-react-bits/</guid>
+      <dc:date>2017-03-28T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss pushed to master at pinoss/database_cleaner</title>
       <link>https://planet.timvideos.us/gsoc-2014/2016/08/10/pinoss-pushed-to-master-at-pinoss-database_cleane/</link>
@@ -227,17 +239,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2015/12/19/pinoss-forked-kmrshntr-omniauth-slack-to-pinoss-o/</guid>
       <dc:date>2015-12-19T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>pinoss pushed to master at pinoss/hipchat-rb</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</link>
-      <description>&lt;!-- push --&gt;
-&lt;span class=&quot;mega-octicon octicon-git-commit&quot; aria-label=&quot;Push&quot;&gt;&lt;/span&gt;
-
-</description>
-      <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2015/11/20/pinoss-pushed-to-master-at-pinoss-hipchat-rb/</guid>
-      <dc:date>2015-11-20T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2017-03-23T00:00:00+00:00</dc:date>
+    <dc:date>2017-03-28T00:00:00+00:00</dc:date>
   </channel>
 </rss>
