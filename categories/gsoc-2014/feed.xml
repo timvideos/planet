@@ -8,7 +8,18 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
+    <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>maxstr commented on issue hashicorp/terraform#8031</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/07/21/maxstr-commented-on-issue-hashicorp-terraform-803/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/07/21/maxstr-commented-on-issue-hashicorp-terraform-803/</guid>
+      <dc:date>2017-07-21T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>pinoss commented on issue timvideos/hdmi2usb.tv#22</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/07/03/pinoss-commented-on-issue-timvideos-hdmi2usb-tv-2/</link>
@@ -223,18 +234,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2017/04/26/niharika29-pushed-to-master-at-niharika29-deadlin/</guid>
       <dc:date>2017-04-26T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>maxstr starred vincentbernat/rfc5077</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/04/26/maxstr-starred-vincentbernat-rfc5077/</link>
-      <description>&lt;!-- watch --&gt;
-&lt;div class=&quot;simple&quot;&gt;
-  &lt;svg aria-label=&quot;Watch&quot; class=&quot;octicon octicon-star dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;14&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/04/26/maxstr-starred-vincentbernat-rfc5077/</guid>
-      <dc:date>2017-04-26T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2017-07-03T00:00:00+00:00</dc:date>
+    <dc:date>2017-07-21T00:00:00+00:00</dc:date>
   </channel>
 </rss>
