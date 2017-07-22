@@ -10,6 +10,17 @@
     <description>News from our best developers, all news aggregated by planet.</description>
     <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
     <item>
+      <title>Niharika29 commented on issue codemirror/CodeMirror#4841</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/07/21/niharika29-commented-on-issue-codemirror-codemirr/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/07/21/niharika29-commented-on-issue-codemirror-codemirr/</guid>
+      <dc:date>2017-07-21T00:00:00+00:00</dc:date>
+    </item>
+    <item>
       <title>Niharika29 created tag v1.3 at wikimedia/DeadlinkChecker</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/06/04/niharika29-created-tag-v1-3-at-wikimedia-deadlink/</link>
       <description>&lt;!-- create --&gt;
@@ -221,17 +232,6 @@
 </description>
       <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://planet.timvideos.us/gsoc-2014/2017/04/25/niharika29-released-more-idiot-proofing-at-wikime/</guid>
-      <dc:date>2017-04-25T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at wikimedia/DeadlinkChecker</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/04/25/niharika29-pushed-to-master-at-wikimedia-deadlink/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/04/25/niharika29-pushed-to-master-at-wikimedia-deadlink/</guid>
       <dc:date>2017-04-25T00:00:00+00:00</dc:date>
     </item>
     <dc:date>2017-07-21T00:00:00+00:00</dc:date>
