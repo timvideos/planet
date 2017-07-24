@@ -8,7 +8,40 @@
     <title>Tim Videos Planet - Developers news - Category: GSOC-2014 / Tag: PYTHON</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+    <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>Niharika29 opened issue codemirror/CodeMirror#4875</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-opened-issue-codemirror-codemirror-487/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;svg aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-opened-issue-codemirror-codemirror-487/</guid>
+      <dc:date>2017-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 commented on issue codemirror/CodeMirror#4875</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-commented-on-issue-codemirror-codemirr/</link>
+      <description>&lt;!-- issue_comment --&gt;
+&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-commented-on-issue-codemirror-codemirr/</guid>
+      <dc:date>2017-07-24T00:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Niharika29 closed issue codemirror/CodeMirror#4875</title>
+      <link>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-closed-issue-codemirror-codemirror-487/</link>
+      <description>&lt;!-- issues --&gt;
+&lt;svg aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-closed dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7 10h2v2H7v-2zm2-6H7v5h2V4zm1.5 1.5l-1 1L12 9l4-4.5-1-1L12 7l-1.5-1.5zM8 13.7A5.71 5.71 0 0 1 2.3 8c0-3.14 2.56-5.7 5.7-5.7 1.83 0 3.45.88 4.5 2.2l.92-.92A6.947 6.947 0 0 0 8 1C4.14 1 1 4.14 1 8s3.14 7 7 7 7-3.14 7-7l-1.52 1.52c-.66 2.41-2.86 4.19-5.48 4.19v-.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014/2017/07/24/niharika29-closed-issue-codemirror-codemirror-487/</guid>
+      <dc:date>2017-07-24T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 commented on issue codemirror/CodeMirror#4841</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/07/21/niharika29-commented-on-issue-codemirror-codemirr/</link>
@@ -201,39 +234,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2017/05/02/niharika29-commented-on-pull-request-wikimedia-de/</guid>
       <dc:date>2017-05-02T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 commented on pull request wikimedia/DeadlinkChecker#18</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/05/01/niharika29-commented-on-pull-request-wikimedia-de/</link>
-      <description>&lt;!-- issue_comment --&gt;
-&lt;svg aria-label=&quot;Issue comment&quot; class=&quot;octicon octicon-comment-discussion dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;32&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M15 1H6c-.55 0-1 .45-1 1v2H1c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h1v3l3-3h4c.55 0 1-.45 1-1V9h1l3 3V9h1c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zM9 11H4.5L3 12.5V11H1V5h4v3c0 .55.45 1 1 1h3v2zm6-3h-2v1.5L11.5 8H6V2h9v6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/05/01/niharika29-commented-on-pull-request-wikimedia-de/</guid>
-      <dc:date>2017-05-01T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 pushed to master at Niharika29/Deadlink_logger</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/04/26/niharika29-pushed-to-master-at-niharika29-deadlin/</link>
-      <description>&lt;!-- push --&gt;
-&lt;svg aria-label=&quot;Push&quot; class=&quot;octicon octicon-git-commit dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/04/26/niharika29-pushed-to-master-at-niharika29-deadlin/</guid>
-      <dc:date>2017-04-26T00:00:00+00:00</dc:date>
-    </item>
-    <item>
-      <title>Niharika29 released More idiot proofing at wikimedia/DeadlinkChecker</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/04/25/niharika29-released-more-idiot-proofing-at-wikime/</link>
-      <description>&lt;!-- release --&gt;
-&lt;svg aria-label=&quot;Release&quot; class=&quot;octicon octicon-tag dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 14 16&quot; width=&quot;28&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/04/25/niharika29-released-more-idiot-proofing-at-wikime/</guid>
-      <dc:date>2017-04-25T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2017-07-21T00:00:00+00:00</dc:date>
+    <dc:date>2017-07-24T00:00:00+00:00</dc:date>
   </channel>
 </rss>
