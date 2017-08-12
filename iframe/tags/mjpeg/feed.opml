@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+  <head>
+    <title>Tag: mjpeg - Tim Videos Feeds</title>
+  </head>
+  <body>
+    <outline text="Tim Videos" title="Tim Videos">
+      <outline text="mjpeg" title="mjpeg">
+        <outline htmlUrl="http://ajitmathewgsoc.blogspot.com/" text="Ajit (MJPEG Optimisation) - Blog" title="Ajit (MJPEG Optimisation) - Blog" type="rss" version="RSS" xmlUrl="http://ajitmathewgsoc.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="https://github.com/ajitmathew" text="Ajit (MJPEG Optimisation) - GitHub" title="Ajit (MJPEG Optimisation) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/ajitmathew.atom"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
