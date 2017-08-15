@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+  <head>
+    <title>Tim Videos Feeds</title>
+  </head>
+  <body>
+    <outline text="Tim Videos" title="Tim Videos">
+      <outline text="GSoC-2014" title="GSoC-2014">
+        <outline htmlUrl="http://pinoit.blogspot.com" text="Maciej (Developer Website) - Blog" title="Maciej (Developer Website) - Blog" type="rss" version="RSS" xmlUrl="http://pinoit.blogspot.in/feeds/posts/default"/>
+        <outline htmlUrl="http://aps-sids.github.io/porting-flumotion" text="Amanpreet (Porting Flumotion) - Blog" title="Amanpreet (Porting Flumotion) - Blog" type="rss" version="RSS" xmlUrl="http://aps-sids.github.io/porting-flumotion/atom.xml"/>
+        <outline htmlUrl="http://mstritzi.nfshost.com/blog" text="Max (Dockerization) - Blog" title="Max (Dockerization) - Blog" type="rss" version="RSS" xmlUrl="http://mstritzi.nfshost.com/blog/rss/"/>
+        <outline htmlUrl="http://niharika.svbtle.com" text="Niharika (Bug reporting system) - Blog" title="Niharika (Bug reporting system) - Blog" type="rss" version="RSS" xmlUrl="http://niharika.svbtle.com/feed"/>
+        <outline htmlUrl="https://github.com/pinoss" text="Maciej (Developer Website) - GitHub" title="Maciej (Developer Website) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/pinoss.atom"/>
+        <outline htmlUrl="https://github.com/aps-sids" text="Amanpreet (Porting Flumotion) - GitHub" title="Amanpreet (Porting Flumotion) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/aps-sids.atom"/>
+        <outline htmlUrl="https://github.com/maxstr" text="Max (Dockerization) - GitHub" title="Max (Dockerization) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/maxstr.atom"/>
+        <outline htmlUrl="https://github.com/Niharika29" text="Niharika (Bug reporting system) - GitHub" title="Niharika (Bug reporting system) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/Niharika29.atom"/>
+      </outline>
+      <outline text="GSoC-2014-HDMI2USB" title="GSoC-2014-HDMI2USB">
+        <outline htmlUrl="http://dreamsxtrinsic.blogspot.com/" text="Rohit (VGA Extension) - Blog" title="Rohit (VGA Extension) - Blog" type="rss" version="RSS" xmlUrl="http://dreamsxtrinsic.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://hdmi2ethernet.blogspot.com/" text="Tariq (Ethernet Support) - Blog" title="Tariq (Ethernet Support) - Blog" type="rss" version="RSS" xmlUrl="http://hdmi2ethernet.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://ajitmathewgsoc.blogspot.com/" text="Ajit (MJPEG Optimisation) - Blog" title="Ajit (MJPEG Optimisation) - Blog" type="rss" version="RSS" xmlUrl="http://ajitmathewgsoc.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="http://ptzfortimvideos-gsoc14.blogspot.com/" text="Ayush (PTZ/Serial Extension) - Blog" title="Ayush (PTZ/Serial Extension) - Blog" type="rss" version="RSS" xmlUrl="http://ptzfortimvideos-gsoc14.blogspot.com/feeds/posts/default"/>
+        <outline htmlUrl="https://github.com/rohit91" text="Rohit (VGA Extension) - GitHub" title="Rohit (VGA Extension) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/rohit91.atom"/>
+        <outline htmlUrl="https://github.com/tariq786" text="Tariq (Ethernet Support) - GitHub" title="Tariq (Ethernet Support) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/tariq786.atom"/>
+        <outline htmlUrl="https://github.com/ajitmathew" text="Ajit (MJPEG Optimisation) - GitHub" title="Ajit (MJPEG Optimisation) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/ajitmathew.atom"/>
+        <outline htmlUrl="https://github.com/ayushsagar" text="Ayush (PTZ/Serial Extension) - GitHub" title="Ayush (PTZ/Serial Extension) - GitHub" type="rss" version="RSS" xmlUrl="https://github.com/ayushsagar.atom"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
