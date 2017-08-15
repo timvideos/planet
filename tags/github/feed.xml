@@ -8,7 +8,19 @@
     <title>Tim Videos Planet - Developers news - Tag: GITHUB</title>
     <link>https://planet.timvideos.us</link>
     <description>News from our best developers, all news aggregated by planet.</description>
-    <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+    <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>tariq786 forked IBM/hyperledger-fabric-on-linux-one to tariq786/hyperledger-fabric-on-linux-one</title>
+      <link>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/08/15/tariq786-forked-ibm-hyperledger-fabric-on-linux-o/</link>
+      <description>&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;svg aria-label=&quot;Fork&quot; class=&quot;octicon octicon-git-branch dashboard-event-icon&quot; height=&quot;16&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 10 16&quot; width=&quot;10&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+
+</description>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://planet.timvideos.us/gsoc-2014-hdmi2usb/2017/08/15/tariq786-forked-ibm-hyperledger-fabric-on-linux-o/</guid>
+      <dc:date>2017-08-15T00:00:00+00:00</dc:date>
+    </item>
     <item>
       <title>Niharika29 commented on issue codemirror/CodeMirror#4878</title>
       <link>https://planet.timvideos.us/gsoc-2014/2017/07/31/niharika29-commented-on-issue-codemirror-codemirr/</link>
@@ -222,17 +234,6 @@
       <guid>https://planet.timvideos.us/gsoc-2014/2017/05/04/niharika29-pushed-to-counterrors-at-wikimedia-pop/</guid>
       <dc:date>2017-05-04T00:00:00+00:00</dc:date>
     </item>
-    <item>
-      <title>Niharika29 opened pull request wikimedia/popularpages#5</title>
-      <link>https://planet.timvideos.us/gsoc-2014/2017/05/04/niharika29-opened-pull-request-wikimedia-popularp/</link>
-      <description>&lt;!-- pull_request --&gt;
-&lt;svg aria-label=&quot;Pull request&quot; class=&quot;octicon octicon-git-pull-request dashboard-event-icon&quot; height=&quot;32&quot; role=&quot;img&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 12 16&quot; width=&quot;24&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
-
-</description>
-      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://planet.timvideos.us/gsoc-2014/2017/05/04/niharika29-opened-pull-request-wikimedia-popularp/</guid>
-      <dc:date>2017-05-04T00:00:00+00:00</dc:date>
-    </item>
-    <dc:date>2017-07-31T00:00:00+00:00</dc:date>
+    <dc:date>2017-08-15T00:00:00+00:00</dc:date>
   </channel>
 </rss>
